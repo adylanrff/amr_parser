@@ -1,0 +1,36 @@
+# ::snt Hanya berselang sepekan sejak Donald Trump dilantik sebagai Presiden Amerika Serikat, sebuah masjid di Texas dilalap api pada Sabtu pagi.
+
+(vv3 / lantik
+     :mod (vv1 / selang
+               :mod (vv2 / hanya)
+               :ARG1 (vv4 / pek))
+     :ARG1 (vv5 / donald
+                :name (vv6 / trump))
+     :ARG1 (vv7 / presiden
+                :name (vv8 / amerika
+                           :mod (vv9 / serikat))
+                :mod (vv10 / masjid
+                           :mod (vv11 / texas)))
+     :mod (vv12 / lalap
+                :ARG1 (vv13 / api)
+                :ARG1 (vv14 / sabtu
+                            :mod (vv15 / pagi))))
+
+# ::snt "Sangat menyedihkan hanya berdiri dan melihat bangunan itu ambruk, dan apinya sungguh sangat besar," ujar presiden Pusat Islami, seperti dikutip dari ABC News, Minggu (29/1).
+
+# ::snt Ketua pemadam kebakaran Victoria Tom Legler meminta pertolongan dari kantor pusat pemadam kebakaran Texas dan Biro Federal Alkohol, Tembakau, Senjata Api dan Ledakan, untuk mencari tahu penyebab api.
+
+# ::snt Hashmi mengungkapkan, pihak otoritas mengatakan padanya kalau terlalu cepat untuk berspekulasi mengenai penyebab kebakaran.
+
+(vv1 / ungkap
+     :ARG0 (vv2 / hashmi)
+     :ARG0 (vv3 / pihak
+                :mod (vv4 / otoritas))
+     :mod (vv5 / kata
+               :ARG1 (vv6 / pada)
+               :ARG1 (vv7 / cepat
+                          :mod (vv8 / terlalu)
+                          :mod (vv9 / spekulasi
+                                    :ARG1 (vv10 / sebab
+                                                :mod (vv11 / bakar))))))
+

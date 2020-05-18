@@ -1,0 +1,40 @@
+# ::snt "Hati kami dipenuhi rasa syukur atas dukungan luar biasa besar yang kami terima," tutur Imam Masjid tersebut dalam pernyataannya, merujuk pada penggalangan dana secara online.
+
+(vv1 / penuh
+     :ARG1 (vv2 / hati)
+     :ARG1 (vv3 / rasa
+                :mod (vv4 / syukur)
+                :mod (vv5 / dukung
+                          :mod (vv6 / luar
+                                    :mod (vv7 / biasa)
+                                    :mod (vv8 / besar))
+                          :mod (vv9 / terima
+                                    :ARG0 (vv10 / kami)
+                                    :ARG1 (vv11 / tutur
+                                                :name (vv12 / imam
+                                                            :mod (vv13 / masjid))))))
+     :mod (vv14 / rujuk
+                :ARG1 (vv15 / nyata)
+                :location (vv16 / galang
+                                :mod (vv17 / dana)
+                                :mod (vv18 / online))))
+
+# ::snt "Cinta kasih, kata-kata indah, pelukan, bantuan dan kontribusi finansial yang melimpah menjadi contoh semangat Amerika yang sesungguhnya," imbuhnya.
+
+(vv1 / jadi
+     :ARG0 (vv2 / cinta
+                :mod (vv3 / kasih
+                          :mod (vv4 / katakata
+                                    :mod (vv5 / indah)
+                                    :mod (vv6 / peluk
+                                              :ARG1 (vv7 / bantu)
+                                              :mod (vv8 / kontribusi
+                                                        :mod (vv9 / dan)
+                                                        :mod (vv10 / finansial)
+                                                        :mod (vv11 / limpah))))))
+     :ARG1 (vv12 / contoh
+                 :mod (vv13 / semangat
+                            :mod (vv14 / amerika))
+                 :mod (vv15 / sungguh
+                            :ARG1 (vv16 / imbuh))))
+

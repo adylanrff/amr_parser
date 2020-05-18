@@ -1,0 +1,43 @@
+# ::snt Penyidik Kepolisian Sektor (Polsek) Langkahan telah memeriksa empat saksi terkait penemuan mayat perempuan di irigasi Sungai Gampong Alue Dua, Kecamatan Langkahan, Aceh Utara, Minggu, 4 Februari 2018.
+
+(vv1 / periksa
+     :ARG0 (vv2 / sidik
+                :mod (vv3 / polisi
+                          :name (vv4 / sektor
+                                     :name (vv5 / polsek
+                                                :name (vv6 / langkahan)))))
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / saksi
+                :mod (vv9 / empat)
+                :mod (vv10 / kait
+                           :ARG1 (vv11 / temu
+                                       :mod (vv12 / mayat
+                                                  :mod (vv13 / perempuan))
+                                       :mod (vv14 / irigasi
+                                                  :mod (vv15 / sungai
+                                                             :mod (vv16 / gampong
+                                                                        :name (vv17 / alue
+                                                                                    :mod (vv18 / dua))))
+                                                  :mod (vv19 / camat
+                                                             :mod (vv20 / langkah
+                                                                        :name (vv21 / aceh
+                                                                                    :mod (vv22 / utara)))
+                                                             :mod (vv23 / minggu
+                                                                        :mod (vv24 / februari
+                                                                                   :mod (vv25 / 4)
+                                                                                   :mod (vv26 / 2018)))))))))
+
+# ::snt Menurut keterangan pihak keluarga dan warga setempat, korban berstatus janda.
+
+(vv1 / status
+     :ARG1 (vv2 / terang
+                :mod (vv3 / pihak
+                          :mod (vv4 / keluarga
+                                    :mod (vv5 / warga
+                                              :mod (vv6 / dan)
+                                              :mod (vv7 / tempat)))))
+     :ARG0 (vv8 / korban)
+     :ARG1 (vv9 / janda))
+
+# ::snt Saat dievakuasi, perut mayat yang menggembung pecah di bagian samping dan mengeluarkan janin.
+

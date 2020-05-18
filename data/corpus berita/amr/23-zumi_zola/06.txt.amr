@@ -1,0 +1,102 @@
+# ::snt Supriyono yang merupakan anggota DPRD Jambi periode 2014-2019 diduga telah menerima hadiah atau janji terkait pengesahan APBD Jambi 2018 dari Erwan, Arfan, dan Syaifuddin.
+
+(vv1 / terima
+     :ARG0 (vv2 / supriyono
+                :mod (vv3 / rupa
+                          :ARG1 (vv4 / anggota
+                                     :mod (vv5 / dprd
+                                               :name (vv6 / jambi
+                                                          :mod (vv18 / erwan
+                                                                     :name (vv20 / syaifuddin
+                                                                                 :mod vv22)
+                                                                     :mod (vv21 / dan))))
+                                     :mod (vv8 / 20142019))))
+     :mod (vv11 / hadiah
+                :mod (vv13 / atau))
+     :ARG1 (vv12 / janji
+                 :mod (vv14 / kait
+                            :ARG1 (vv16 / apbd
+                                        :name (vv7 / periode
+                                                   :mod (vv9 / duga)
+                                                   :mod (vv10 / telah))))
+                 :mod (vv15 / kesah
+                            :mod (vv17 / 2018)
+                            :mod (vv19 / arfan))))
+
+# ::snt Dalam kasus yang bermula dari OTT ini, KPK mengamankan uang Rp 4,7 miliar dari total suap yang diduga mencapai Rp 6 miliar.
+
+(vv1 / aman
+     :ARG1 (vv2 / kasus
+                :mod (vv3 / mula
+                          :mod (vv4 / ott)))
+     :ARG0 (vv5 / kpk)
+     :ARG1 (vv6 / uang
+                :mod (vv7 / rp
+                          :mod (vv10 / total
+                                     :mod (vv13 / duga)))
+                :mod (vv9 / 47)
+                :mod (vv12 / capai
+                           :ARG1 (vv8 / miliar
+                                      :mod (vv11 / suap
+                                                 :mod (vv14 / 6))
+                                      :mod vv16)
+                           :mod vv15)))
+
+# ::snt Puncaknya KPK menggeledah sejumlah tempat Zumi Zola untuk mengungkap dugaan keterlibatan mantan artis tersebut. Apa saja?
+
+(vv1 / geledah
+     :ARG0 (vv2 / puncak
+                :name (vv3 / kpk))
+     :ARG1 (vv4 / tempat
+                :mod (vv5 / zumi
+                          :name (vv6 / zola)))
+     :mod (vv7 / ungkap
+               :ARG0 (vv8 / duga
+                          :mod (vv9 / libat
+                                    :mod (vv10 / mantan
+                                               :mod (vv11 / artis)))))
+     :mod (vv12 / saja))
+
+# ::snt Penggeledahan ini juga dibenarkan Wakil Ketua KPK Saut Situmorang dalam jumpa pers di gedung KPK Kuningan Persada, Jakarta Selatan, Rabu, 31 Januari 2018.
+
+# ::snt Meski demikian, Saut belum mau memberikan pernyataan resmi soal kabar dan kebenaran bahwa Zumi Zola telah ditetapkan sebagai tersangka oleh KPK.
+
+# ::snt Tak hanya di rumah dinas, KPK juga dilaporkan menggeledah dua mobil dinas Gubernur Jambi yang terparkir di rumah dinas gubernur.
+
+# ::snt "Ada (petugas KPK) sampai meminjam alat penghitung uang di bank," ujar sumber yang enggan ditulis namanya tersebut.
+
+(vv1 / ada
+     :ARG1 (vv2 / tugas
+                :mod (vv3 / kpk))
+     :ARG1 (vv4 / pinjam
+                :ARG1 (vv5 / alat
+                           :mod (vv6 / hitung
+                                     :ARG1 (vv7 / uang))
+                           :mod (vv8 / bank)))
+     :mod (vv9 / ujar)
+     :mod (vv10 / sumber
+                :mod (vv11 / tulis
+                           :mod (vv12 / enggan)
+                           :ARG1 (vv13 / nama))))
+
+# ::snt "Periode pencegahan berlaku untuk enam bulan ke depan sejak surat keputusan ke luar negeri diterbitkan oleh KPK pada tanggal 25 Januari lalu," kata Agung.
+
+(vv1 / laku
+     :ARG0 (vv2 / periode
+                :mod (vv3 / cegah))
+     :time (vv4 / bulan
+                :mod (vv5 / enam))
+     :location (vv6 / depan)
+     :ARG1 (vv7 / surat
+                :mod (vv8 / putus)
+                :mod (vv9 / luar
+                          :mod (vv10 / negeri)))
+     :ARG1 (vv11 / terbit
+                 :location (vv12 / kpk)
+                 :time (vv13 / tanggal
+                             :mod (vv14 / januari
+                                        :mod (vv15 / 25)))
+                 :mod (vv16 / kata
+                            :mod (vv17 / lalu)
+                            :name (vv18 / agung))))
+

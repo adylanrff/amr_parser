@@ -1,0 +1,119 @@
+# ::snt Dikutip dari Anadolu, pada Jumat 22 Desember 2017, sebanyak 193 anggota Majelis Umum PBB melakukan pemungutan suara atas resolusi yang menolak keputusan Presiden AS Donald Trump untuk mengakui Yerusalem sebagai Ibu Kota Israel pada 6 Desember lalu.
+
+(vv1 / laku
+     :mod (vv2 / kutip
+               :mod (vv3 / anadolu)
+               :time (vv4 / jumat
+                          :mod (vv5 / desember
+                                    :mod (vv7 / 2017)
+                                    :mod (vv8 / anggota
+                                              :mod (vv10 / 193)
+                                              :mod (vv11 / majelis
+                                                         :mod (vv13 / pbb))
+                                              :mod (vv12 / umum
+                                                         :mod (vv14 / mungut
+                                                                    :mod (vv16 / resolusi)
+                                                                    :mod (vv17 / tolak
+                                                                               :ARG1 (vv19 / presiden
+                                                                                           :name (vv21 / donald
+                                                                                                       :name (vv23 / aku
+                                                                                                                   :time (vv6 / 22)
+                                                                                                                   :ARG0 (vv25 / ibu
+                                                                                                                               :name (vv27 / israel))
+                                                                                                                   :ARG1 (vv26 / kota
+                                                                                                                               :name (vv28 / 6)))))
+                                                                               :ARG1 (vv24 / yerusalem))
+                                                                    :mod (vv18 / putus
+                                                                               :mod (vv20 / as
+                                                                                          :name (vv22 / trump))))))
+                                    :mod (vv29 / lalu)
+                                    :mod vv30)))
+     :ARG0 (vv9 / banyak)
+     :ARG1 (vv15 / suara))
+
+# ::snt Hukum internasional memandang Tepi Barat  termasuk Yerusalem Timur  sebagai "wilayah yang diduduki" dan menganggap semua permukiman Yahudi yang dibangun di wilayah tersebut ilegal.
+
+(vv1 / pandang
+     :ARG0 (vv2 / hukum
+                :mod (vv3 / internasional))
+     :ARG1 (vv4 / tepi
+                :mod (vv5 / barat))
+     :ARG1 (vv6 / masuk
+                :ARG0 (vv7 / yerusalem
+                           :name (vv8 / timur)
+                           :mod (vv9 / wilayah
+                                     :mod (vv11 / anggap
+                                                :ARG1 (vv13 / mukim
+                                                            :mod (vv15 / bangun
+                                                                       :location (vv10 / duduk
+                                                                                       :mod (vv12 / dan)))
+                                                            :mod (vv16 / ilegal))
+                                                :ARG1 (vv14 / yahudi)))))
+     :mod vv17)
+
+# ::snt Yerusalem masih menjadi poros konflik Israel-Palestina, karena orang-orang Palestina menginginkan Yerusalem Timur menjadi Ibu Kota Palestina di masa yang akan datang.
+
+(vv1 / jadi
+     :ARG0 (vv2 / yerusalem
+                :name (vv12 / kota
+                            :name (vv11 / ibu
+                                        :name (vv14 / akan)
+                                        :mod (vv15 / datang))))
+     :mod (vv4 / poros
+               :mod (vv6 / israelpalestina))
+     :ARG1 (vv5 / konflik
+                :mod (vv7 / ingin
+                          :ARG0 (vv3 / masih)
+                          :ARG0 (vv9 / palestina)))
+     :mod (vv8 / orangorang
+               :name (vv10 / timur))
+     :ARG0 (vv13 / masa
+                 :mod vv16)
+     :time vv17)
+
+# ::snt Resolusi tersebut juga menegaskan bahwa isu mengenai status akhir Yerusalem harus diselesaikan melalui negosiasi sesuai dengan resolusi PBB yang relevan dan menyatakan bahwa keputusan yang mengubah status kota tersebut batal demi hukum.
+
+(vv1 / tegas
+     :ARG0 (vv2 / resolusi
+                :mod (vv14 / nyata
+                           :mod (vv17 / putus
+                                      :mod (vv20 / hukum))
+                           :ARG1 (vv18 / ubah
+                                       :ARG1 (vv8 / yerusalem)))
+                :mod (vv15 / dan))
+     :mod (vv4 / selesai
+               :ARG1 (vv6 / status
+                          :mod (vv9 / harus)
+                          :mod (vv10 / negosiasi
+                                     :mod (vv3 / juga)
+                                     :mod (vv13 / relevan))
+                          :mod vv21)
+               :mod (vv11 / sesuai)
+               :ARG1 (vv12 / pbb)
+               :mod (vv16 / batal
+                          :ARG0 (vv19 / kota)
+                          :ARG1 vv22))
+     :mod (vv5 / isu
+               :mod (vv7 / akhir)))
+
+# ::snt "Mereka menerima ratusan juta dolar bahkan miliaran, namun mereka voting dan melawan kita," Trump menambahkan.
+
+# ::snt Lalu, Duta Besar AS untuk PBB, Nikki Haley, pada Rabu mengatakan bahwa dia akan mencatat nama-nama negara yang mendukung resolusi tersebut.
+
+(vv1 / kata
+     :mod (vv2 / lalu)
+     :ARG0 (vv3 / duta
+                :mod (vv4 / besar
+                          :mod (vv5 / as))
+                :mod (vv6 / pbb
+                          :name (vv7 / nikki
+                                     :name (vv8 / haley)))
+                :mod (vv9 / rabu))
+     :mod (vv10 / catat
+                :ARG0 (vv11 / dia)
+                :mod (vv12 / akan)
+                :ARG0 (vv13 / namanama
+                            :mod (vv14 / negara)
+                            :mod (vv15 / dukung
+                                       :ARG1 (vv16 / resolusi)))))
+

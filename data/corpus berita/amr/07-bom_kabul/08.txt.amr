@@ -1,0 +1,59 @@
+# ::snt Pemerintah Afganistan menetapkan hari berkabung nasional selama sehari setelah serangan bom bunuh diri pada Sabtu, 27 Januari 2018, di pusat kota yang mengakibatkan 191 orang cedera.
+
+(vv1 / tetap
+     :ARG0 (vv2 / perintah
+                :mod (vv3 / afganistan))
+     :ARG1 (vv4 / hari
+                :mod (vv6 / nasional))
+     :time (vv5 / kabung
+                :mod (vv7 / serang
+                          :mod (vv9 / bunuh
+                                    :ARG1 (vv11 / sabtu
+                                                :mod (vv13 / 27))
+                                    :time (vv12 / januari
+                                                :mod (vv14 / 2018)
+                                                :mod (vv15 / pusat
+                                                           :mod (vv17 / akibat
+                                                                      :ARG1 (vv19 / 191))
+                                                           :mod (vv18 / orang
+                                                                      :mod (vv20 / cedera)
+                                                                      :mod vv21))))
+                          :mod (vv10 / diri)))
+     :location (vv8 / bom)
+     :location (vv16 / kota))
+
+# ::snt Laporan Al Jazeera, Ahad, menyebutkan, Kabul saat ini dalam kondisi kewaspadaan tinggi dengan pengamanan yang sangat ketat di beberapa tempat menyusul serangan mematikan di dekat gedung Kementerian Dalam Negeri, Rumah Sakit Jamhuriat, gedung pemerintahan, bisnis dan sekolahan.
+
+(vv1 / sebut
+     :ARG0 (vv2 / lapor
+                :mod (vv3 / al
+                          :mod (vv4 / jazeera
+                                    :name (vv5 / ahad))))
+     :ARG1 (vv6 / kabul)
+     :ARG1 (vv7 / saat)
+     :location (vv8 / kondisi
+                    :mod (vv9 / waspada
+                              :mod (vv10 / tinggi))
+                    :mod (vv11 / aman
+                               :mod (vv12 / ketat
+                                          :mod (vv13 / sangat)
+                                          :mod (vv14 / tempat
+                                                     :mod (vv15 / susul
+                                                                :ARG1 (vv16 / serang)
+                                                                :ARG1 (vv17 / mati
+                                                                            :location (vv18 / gedung
+                                                                                            :mod (vv20 / menteri)
+                                                                                            :mod (vv21 / negeri
+                                                                                                       :mod (vv19 / dekat)
+                                                                                                       :mod (vv23 / rumah
+                                                                                                                  :name (vv25 / jamhuriat))
+                                                                                                       :mod (vv24 / sakit
+                                                                                                                  :name (vv26 / perintah
+                                                                                                                              :mod (vv28 / sekolah
+                                                                                                                                         :mod vv30))))
+                                                                                            :mod (vv22 / dalam)
+                                                                                            :mod (vv27 / bisnis)
+                                                                                            :location (vv29 / dan)))))))))
+
+# ::snt Beberapa warga mengatakan kepada Al Jazeera, mereka takut ada serangan lebih keras lagi pada hari-hari mendatang karena mereka merasa pemerintah gagal menjaga keamanan.
+

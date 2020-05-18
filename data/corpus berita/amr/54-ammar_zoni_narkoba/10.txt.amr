@@ -1,0 +1,76 @@
+# ::snt "Ayahnya ada di rumah saat penangkapan," ucap Suyudi.
+
+(vv1 / ada
+     :ARG0 (vv2 / ayah)
+     :location (vv3 / rumah
+                    :mod (vv4 / saat
+                              :mod (vv5 / tangkap
+                                        :mod (vv6 / ucap))))
+     :ARG0 (vv7 / suyudi))
+
+# ::snt Adapun dalam penangkapan, barang bukti berhasil diamankan, yakni tiga ponsel, satu kaleng merek fossil berisi 3 bungkus kertas, 6 batang rokok, 2 korek api gas, 1 alat isap jenis sabu (bong).
+
+(vv1 / hasil
+     :mod (vv2 / adapun)
+     :ARG1 (vv3 / tangkap
+                :mod (vv4 / barang
+                          :mod (vv5 / bukti)))
+     :mod (vv6 / aman
+               :ARG1 (vv7 / ponsel
+                          :mod (vv8 / tiga)
+                          :mod (vv9 / kaleng
+                                    :mod (vv10 / satu)
+                                    :mod (vv11 / merek
+                                               :mod (vv12 / fossil)))
+                          :mod (vv13 / isi
+                                     :ARG1 (vv14 / bungkus
+                                                 :mod (vv15 / 3)
+                                                 :mod (vv16 / kertas
+                                                            :mod (vv17 / batang
+                                                                       :mod (vv18 / 6)
+                                                                       :mod (vv19 / rokok
+                                                                                  :mod (vv20 / korek
+                                                                                             :mod (vv21 / 2)
+                                                                                             :mod (vv22 / api)
+                                                                                             :mod (vv23 / gas
+                                                                                                        :mod (vv24 / 1))
+                                                                                             :mod (vv25 / alat
+                                                                                                        :mod (vv26 / isap)
+                                                                                                        :mod (vv27 / jenis
+                                                                                                                   :mod (vv28 / sabu
+                                                                                                                              :mod (vv29 / bong)))))))))))))
+
+# ::snt Atas perbuatannya, ketiga tersangka terancam pasal 111 (1) jo pasal 132 (1) UU RI No 35 tahun 2009 tentang narkotika dengan ancaman pidana penjara paling singkat 6 bukan dan paling lama 12 tahun penjara. 
+
+(vv3 / ancam
+     :location (vv1 / buat
+                    :mod (vv2 / atas))
+     :ARG1 (vv4 / sangka
+                :mod (vv5 / tiga))
+     :ARG1 (vv6 / pasal
+                :mod (vv7 / 111
+                          :mod (vv9 / jo))
+                :mod (vv8 / 1)
+                :mod (vv10 / 132)
+                :mod (vv11 / uu
+                           :mod (vv14 / tahun
+                                      :mod (vv18 / pidana
+                                                 :mod (vv22 / 6)
+                                                 :mod (vv24 / lama
+                                                            :mod (vv26 / 12)
+                                                            :mod vv30))
+                                      :mod (vv19 / penjara)
+                                      :mod (vv23 / bukan)
+                                      :mod vv29
+                                      :mod vv31)
+                           :name (vv15 / 35)
+                           :mod (vv16 / 2009))
+                :mod (vv12 / ri)
+                :mod (vv13 / no))
+     :mod (vv17 / narkotika)
+     :location (vv20 / singkat
+                     :mod (vv25 / dan)
+                     :mod vv27
+                     :mod vv28)
+     :mod (vv21 / paling))
+

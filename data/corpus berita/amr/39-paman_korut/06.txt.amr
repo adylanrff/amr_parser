@@ -1,0 +1,178 @@
+# ::snt Bagi masyarakat internasional, eksekusi mati Jang ini merupakan kehebohan besar dari Korut sejak meninggalnya Kim Jong-il, mantan pemimpin Korut sekaligus ayah Kim Jong-un, pada 17 Desember 2011.
+
+(vv1 / rupa
+     :ARG1 (vv2 / masyarakat
+                :mod (vv3 / internasional)
+                :mod (vv4 / eksekusi
+                          :mod (vv5 / mati)))
+     :ARG0 (vv6 / jang)
+     :mod (vv7 / heboh
+               :mod (vv8 / besar)
+               :mod (vv9 / korut)
+               :mod (vv11 / kim
+                          :name (vv14 / pimpin
+                                      :name (vv10 / tinggal
+                                                  :ARG0 (vv12 / jongil)))
+                          :name (vv19 / 17))
+               :mod (vv15 / ayah
+                          :mod (vv13 / mantan
+                                     :mod (vv16 / sekaligus)
+                                     :mod (vv17 / jongun))
+                          :mod (vv18 / desember
+                                     :mod vv21
+                                     :mod vv22)
+                          :mod (vv20 / 2011))))
+
+# ::snt Muncul pula sejumlah spekulasi dari kalangan pengamat, apakah eksekusi mati atas orang dekat pemimpin Korut itu bagian awal dari krisis yang bisa mengancam rezim yang tengah berkuasa, atau justru menjadi pertanda bahwa Kim Jong-un merupakan pemimpin muda yang tidak bisa lagi dipandang remeh dan kapan pun bisa menyingkirkan siapa saja, bahkan pamannya sendiri.
+
+(vv1 / muncul
+     :mod (vv2 / pula)
+     :ARG1 (vv3 / spekulasi
+                :mod (vv4 / kalang
+                          :mod (vv5 / amat))
+                :mod (vv6 / eksekusi
+                          :mod (vv7 / apakah)
+                          :mod (vv8 / mati)
+                          :mod (vv9 / orang
+                                    :mod (vv10 / dekat)
+                                    :mod (vv11 / pimpin
+                                               :name (vv13 / bagi
+                                                           :mod (vv15 / krisis)
+                                                           :mod (vv16 / ancam
+                                                                      :mod (vv18 / rezim
+                                                                                 :mod (vv22 / atau)
+                                                                                 :mod (vv23 / justru))
+                                                                      :ARG1 (vv21 / jadi
+                                                                                  :mod (vv25 / rupa
+                                                                                             :ARG1 (vv12 / korut)
+                                                                                             :ARG0 (vv29 / pandang
+                                                                                                         :mod (vv19 / tengah)
+                                                                                                         :mod (vv33 / singkir
+                                                                                                                    :mod (vv20 / kuasa)
+                                                                                                                    :mod (vv37 / siapa
+                                                                                                                               :mod (vv41 / sendiri)
+                                                                                                                               :mod vv42)
+                                                                                                                    :ARG0 (vv38 / saja)
+                                                                                                                    :ARG1 (vv40 / bahkan))
+                                                                                                         :mod (vv34 / dan)
+                                                                                                         :mod (vv35 / kapan
+                                                                                                                    :mod (vv39 / paman
+                                                                                                                               :mod vv43
+                                                                                                                               :mod vv44))
+                                                                                                         :mod (vv36 / pun)))
+                                                                                  :mod (vv26 / kim
+                                                                                             :name (vv30 / tidak))
+                                                                                  :ARG1 (vv27 / jongun)
+                                                                                  :mod (vv28 / muda))
+                                                                      :mod (vv24 / tanda))
+                                                           :mod (vv17 / bisa))
+                                               :mod (vv31 / lagi)
+                                               :mod (vv32 / remeh))
+                                    :mod (vv14 / awal)))))
+
+# ::snt "Jang dengan putus asa mencoba membentuk faksi dalam partai dengan menciptakan ilusi tentang dirinya dan berhasil mengambil hati para pendukungnya serta orang-orang yang berkeyakinan lemah," kata Kim.
+
+(vv1 / bentuk
+     :ARG0 (vv2 / jang)
+     :ARG1 (vv3 / putus)
+     :ARG0 (vv4 / asa)
+     :mod (vv5 / coba)
+     :ARG1 (vv6 / faksi
+                :mod (vv7 / partai))
+     :ARG1 (vv8 / cipta
+                :ARG1 (vv9 / ilusi
+                           :mod (vv10 / diri))
+                :ARG1 (vv11 / hasil
+                            :mod (vv12 / dan)
+                            :ARG1 (vv13 / ambil
+                                        :ARG1 (vv14 / hati
+                                                    :mod (vv15 / dukung
+                                                               :mod (vv16 / orangorang
+                                                                          :mod (vv17 / serta)
+                                                                          :mod (vv18 / yakin
+                                                                                     :mod (vv19 / lemah
+                                                                                                :mod (vv20 / kata
+                                                                                                           :name (vv21 / kim)))))))))))
+
+# ::snt Walau belum lama menjadi pemimpin, menyusul kematian ayahnya, Kim Jong-un berkuasa atas 24 juta warga di negara yang memiliki teknologi senjata nuklir, yang bila diledakkan mampu secara sekejap menghancurkan negara-negara tetangganya yang jauh lebih maju, seperti Korsel dan Jepang.
+
+(vv4 / kuasa
+     :mod (vv1 / jadi
+               :mod (vv2 / belum)
+               :mod (vv3 / lama)
+               :ARG1 (vv5 / pimpin)
+               :mod (vv6 / susul
+                         :ARG1 (vv7 / mati
+                                    :mod (vv8 / ayah
+                                              :mod (vv9 / kim
+                                                        :name (vv10 / jongun))))))
+     :ARG1 (vv11 / warga
+                 :mod (vv12 / 24)
+                 :mod (vv13 / juta)
+                 :mod (vv14 / negara
+                            :mod (vv15 / milik
+                                       :ARG1 (vv16 / teknologi
+                                                   :mod (vv17 / senjata
+                                                              :mod (vv18 / nuklir))
+                                                   :mod (vv19 / ledak)))))
+     :mod (vv20 / hancur
+                :mod (vv21 / mampu)
+                :mod (vv22 / kejap)
+                :ARG1 (vv23 / negaranegara
+                            :mod (vv24 / tetangga)
+                            :mod (vv25 / jauh)
+                            :mod (vv26 / maju
+                                       :mod (vv27 / lebih)
+                                       :mod (vv28 / korsel
+                                                  :mod (vv29 / jepang
+                                                             :mod (vv30 / dan)))))))
+
+# ::snt Sebelum eksekusi Jang, satu-satunya kabar soal Kim Jong-un yang mendapat perhatian adalah saat dia mengundang mantan pebasket kondang Amerika, Dennis Rodman, ke Korut 2013.
+
+(vv1 / undang
+     :ARG1 (vv2 / eksekusi
+                :mod (vv3 / jang)
+                :mod (vv4 / satusatunya))
+     :ARG0 (vv5 / kabar
+                :mod (vv6 / soal
+                          :mod (vv7 / kim
+                                    :name (vv8 / jongun)))
+                :mod (vv9 / dapat
+                          :ARG1 (vv10 / perhati)))
+     :mod (vv11 / adalah)
+     :mod (vv12 / saat)
+     :ARG0 (vv13 / dia)
+     :ARG1 (vv14 / mantan
+                 :mod (vv15 / basket
+                            :mod (vv16 / kondang
+                                       :name (vv17 / amerika
+                                                   :name (vv18 / dennis
+                                                               :name (vv19 / rodman)))))
+                 :mod (vv20 / korut
+                            :mod (vv21 / 2013))))
+
+# ::snt Artikel opini dari harian Jepang, Asahi Shimbun, menyebutkan bahwa dengan mengeksekusi paman sekaligus mentornya, Kim Jong-un tampak sudah siap dan percaya diri untuk menjadi pemimpin tunggal.
+
+(vv1 / sebut
+     :ARG0 (vv2 / artikel
+                :mod (vv3 / opini)
+                :mod (vv4 / hari
+                          :mod (vv5 / jepang)
+                          :mod (vv6 / asahi
+                                    :mod (vv7 / shimbun))))
+     :ARG1 (vv8 / eksekusi
+                :ARG0 (vv9 / paman)
+                :ARG1 (vv12 / mentor
+                            :mod (vv10 / siap
+                                       :mod (vv11 / sekaligus)
+                                       :mod (vv15 / tampak)
+                                       :mod (vv16 / sudah)
+                                       :mod (vv17 / percaya
+                                                  :mod (vv18 / dan)
+                                                  :ARG1 (vv19 / diri)
+                                                  :ARG1 (vv20 / jadi
+                                                              :ARG1 (vv21 / pimpin
+                                                                          :mod (vv22 / tunggal)))))
+                            :name (vv13 / kim
+                                        :name (vv14 / jongun)))))
+

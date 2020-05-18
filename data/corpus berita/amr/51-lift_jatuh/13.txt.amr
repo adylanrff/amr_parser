@@ -1,0 +1,58 @@
+# ::snt Kepala Satuan Reserse Kriminal Kepolisian Resor Jakarta Selatan Ajun Komisaris Besar Budi Hermanto mengatakan berdasarkan keterangan saksi, orang-orang di lift penumpang yang jatuh di Blok M Square, Jalan Melawai, Jakarta Selatan, enggan mengalah untuk keluar lift.
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / satu
+                          :mod (vv4 / reserse
+                                    :name (vv5 / kriminal
+                                               :mod (vv6 / polisi
+                                                         :mod (vv7 / resor
+                                                                   :name (vv8 / jakarta
+                                                                              :name (vv10 / ajun
+                                                                                          :name (vv13 / budi
+                                                                                                      :name (vv16 / dasar)))
+                                                                              :name (vv11 / komisaris
+                                                                                          :mod (vv14 / hermanto))))))))
+                :mod (vv12 / besar
+                           :name (vv15 / terang
+                                       :mod (vv18 / orangorang)
+                                       :mod (vv19 / lift
+                                                  :mod (vv23 / m
+                                                             :mod (vv27 / kalah
+                                                                        :mod vv31
+                                                                        :mod vv32))
+                                                  :mod (vv24 / square))
+                                       :mod (vv21 / jatuh
+                                                  :location (vv25 / jalan
+                                                                  :name (vv29 / keluar
+                                                                              :ARG1 (vv22 / blok
+                                                                                          :mod (vv26 / lawa
+                                                                                                     :name (vv9 / selatan))
+                                                                                          :mod (vv28 / enggan))))))))
+     :ARG1 (vv17 / saksi
+                 :mod (vv20 / tumpang))
+     :ARG1 vv30)
+
+# ::snt "Padahal alarm lift sudah berbunyi dan lampu indikator telah menyala," kata Budi saat ditemui di lokasi kejadian, Jumat, 17 Maret 2017.
+
+(vv1 / bunyi
+     :mod (vv2 / padahal)
+     :ARG0 (vv3 / alarm
+                :mod (vv4 / lift))
+     :mod (vv5 / sudah)
+     :mod (vv6 / nyala
+               :mod (vv7 / dan)
+               :ARG0 (vv8 / lampu
+                          :mod (vv9 / indikator))
+               :mod (vv10 / telah)
+               :ARG1 (vv11 / kata
+                           :name (vv12 / budi))
+               :ARG1 (vv13 / temu
+                           :ARG1 (vv14 / saat)
+                           :location (vv15 / lokasi
+                                           :mod (vv16 / jadi)
+                                           :mod (vv17 / jumat)
+                                           :mod (vv18 / maret
+                                                      :mod (vv19 / 17)
+                                                      :mod (vv20 / 2017))))))
+

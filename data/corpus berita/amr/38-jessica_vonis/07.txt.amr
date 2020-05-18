@@ -1,0 +1,45 @@
+# ::snt Salah satu alasan hakim menjatuhkan vonis tersebut, yakni barang bukti berupa es kopi Vietnam yang dicampur sianida.
+
+# ::snt "Dengan demikian, barbuk (barang bukti) sisa minuman Mirna sah secara hukum," kata anggota majelis hakim Partahi Hutapea dalam persidangan di Pengadilan Negeri Jakarta Pusat, Kamis (27/10/2016).
+
+(vv1 / sah
+     :location (vv2 / demikian)
+     :ARG0 (vv3 / barbuk
+                :ARG1 (vv4 / barang
+                           :mod (vv5 / bukti
+                                     :mod (vv6 / sisa
+                                               :mod (vv7 / minum
+                                                         :mod (vv8 / mirna))))))
+     :location (vv9 / hukum
+                    :mod (vv10 / kata
+                               :ARG1 (vv11 / anggota
+                                           :mod (vv12 / majelis
+                                                      :mod (vv13 / hakim
+                                                                 :mod (vv14 / partahi
+                                                                            :name (vv15 / hutapea))))
+                                           :mod (vv16 / sidang
+                                                      :mod (vv17 / pengadilan
+                                                                 :mod (vv18 / negeri
+                                                                            :name (vv19 / jakarta
+                                                                                        :mod (vv20 / pusat
+                                                                                                   :mod (vv21 / kamis
+                                                                                                              :mod (vv22 / 27102016)))))))))))
+
+# ::snt Sementara hakim Binsar Gultom mengatakan Jessica sengaja meracuni Wayan Mirna Salihin. Bahkan, Jessica dengan sengaja mematikan Mirna
+
+(vv1 / kata
+     :ARG0 (vv2 / hakim
+                :mod (vv3 / binsar
+                          :name (vv4 / gultom)))
+     :ARG1 (vv5 / racun
+                :ARG0 (vv6 / jessica)
+                :mod (vv8 / wayan
+                          :name (vv11 / mati
+                                      :ARG0 (vv7 / sengaja)
+                                      :mod (vv9 / mirna
+                                                :name vv13)
+                                      :ARG0 (vv12 / bahkan)
+                                      :mod vv15))
+                :ARG0 (vv10 / salihin)
+                :mod vv14))
+

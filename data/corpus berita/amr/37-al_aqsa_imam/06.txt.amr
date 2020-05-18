@@ -1,0 +1,142 @@
+# ::snt Yerusalem—Imam besar Masjid Al Aqsa Sheikh Ikrima Sabri ditembak polisi Israel dengan peluru karet usai menunaikan salat Isya Selasa malam waktu setempat di luar gerbang masjid suci ketiga umat Islam itu.
+
+(vv1 / tembak
+     :ARG1 (vv2 / yerusalem—imam
+                :mod (vv3 / besar)
+                :mod (vv4 / masjid
+                          :mod (vv6 / aqsa
+                                    :name (vv8 / ikrima
+                                               :name (vv10 / polisi
+                                                           :mod (vv12 / peluru
+                                                                      :mod (vv14 / tunai
+                                                                                 :ARG1 (vv16 / isya
+                                                                                             :mod (vv18 / malam
+                                                                                                        :mod (vv20 / tempat)))
+                                                                                 :location (vv22 / luar))))))
+                          :mod (vv24 / tiga)))
+     :ARG0 (vv11 / israel)
+     :location (vv13 / karet)
+     :ARG1 (vv15 / salat
+                 :mod (vv17 / selasa)
+                 :mod (vv19 / waktu
+                            :mod (vv21 / gerbang
+                                       :mod (vv5 / al
+                                                 :name (vv7 / sheikh
+                                                            :name (vv9 / sabri)))
+                                       :mod (vv23 / suci
+                                                  :mod (vv25 / umat
+                                                             :mod vv27))
+                                       :mod (vv26 / islam)))))
+
+# ::snt Seperti dilansir Anadolu, Rabu 19 Juli 2017, Yayasan Bulan Sabit Palestina menuturkan Sabri baru saja selesai memimpin salat Isya berjemaah ketika sepasukan polisi Israel memaksa mereka segera bubar dengan kekerasan.
+
+(vv1 / tutur
+     :ARG1 (vv2 / lansir
+                :ARG0 (vv3 / anadolu
+                           :name (vv4 / rabu))
+                :ARG1 (vv5 / juli
+                           :mod (vv6 / 19)
+                           :mod (vv7 / 2017)))
+     :ARG0 (vv8 / yayasan
+                :mod (vv9 / bulan
+                          :mod (vv10 / sabit
+                                     :name (vv11 / palestina))))
+     :mod (vv12 / pimpin
+                :ARG0 (vv13 / sabri)
+                :mod (vv14 / selesai
+                           :mod (vv15 / baru)
+                           :mod (vv16 / saja))
+                :ARG1 (vv17 / salat
+                            :mod (vv18 / isya))
+                :ARG1 (vv19 / jemaah)
+                :mod (vv20 / paksa
+                           :ARG0 (vv21 / pasu
+                                       :mod (vv22 / polisi
+                                                  :mod (vv23 / israel)))
+                           :ARG0 (vv24 / mereka)
+                           :mod (vv25 / bubar
+                                      :mod (vv26 / segera)
+                                      :ARG1 (vv27 / keras)))))
+
+# ::snt Menteri Agama Turki Mehmet Gormez mengutuk keras serangan pada Selasa malam itu di akun media sosial Twitter.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / menteri
+                :name (vv3 / agama
+                           :name (vv4 / turki
+                                      :name (vv5 / mehmet
+                                                 :name (vv6 / gormez)))))
+     :ARG1 (vv7 / serang
+                :mod (vv8 / keras))
+     :ARG1 (vv9 / selasa
+                :mod (vv10 / malam))
+     :ARG1 (vv11 / akun
+                 :mod (vv12 / media
+                            :mod (vv13 / sosial)
+                            :mod (vv14 / twitter))))
+
+# ::snt "Di saat kawasan kita sedang bergejolak, insiden di Masjid Al-Aqsa dan sekitarnya membuat orang makin khawatir," kicau Gormez.
+
+(vv1 / gejolak
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / kawasan)
+     :ARG0 (vv4 / kita)
+     :mod (vv5 / sedang)
+     :ARG1 (vv6 / insiden)
+     :location (vv7 / masjid
+                    :name (vv8 / alaqsa))
+     :ARG1 (vv9 / buat
+                :ARG1 (vv10 / dan)
+                :ARG0 (vv11 / sekitar)
+                :ARG1 (vv12 / orang)
+                :ARG1 (vv13 / khawatir
+                            :mod (vv14 / makin)
+                            :ARG1 (vv15 / kicau))
+                :ARG1 (vv16 / gormez)))
+
+# ::snt "Saya yakin mereka tidak akan membiarkan Al-Aqsa bernasib sama seperti Masjid Al-Khalil, peninggalan para nabi terdahulu, Ibrahim, Ishaq, Yakub, dan Yusuf," kata Gormez merujuk peristiwa berdarah pembantaian terhadap 30 jemaah di Masjid Ibrabimi pada 1994 yang dilakukan oleh teroris Yahudi kelahiran Amerika.
+
+# ::snt Penembakan tadi malam terjadi hanya beberapa jam setelah Rafaat al-Herbawi, 30 tahun, terbunuh saat berunjuk rasa di Masjid Al Aqsa.
+
+(vv1 / jadi
+     :ARG1 (vv2 / tembak
+                :time (vv3 / malam
+                           :mod (vv4 / tadi)))
+     :ARG1 (vv5 / jam
+                :mod (vv6 / hanya))
+     :mod (vv7 / bunuh
+               :ARG1 (vv8 / rafaat
+                          :mod (vv9 / alherbawi)
+                          :mod (vv10 / tahun
+                                     :mod (vv11 / 30)))
+               :ARG1 (vv12 / unjuk
+                           :ARG1 (vv13 / saat)
+                           :ARG1 (vv14 / rasa)
+                           :location (vv15 / masjid
+                                           :mod (vv16 / al
+                                                      :name (vv17 / aqsa))))))
+
+# ::snt Selepas Israel memasang alat pendeteksi logam di pintu masuk Masjid Al-Aqsa usai penembakan Jumat lalu yang menewaskan lima orang, situasi di seantero Tepi Barat kian mencekam.
+
+(vv1 / pasang
+     :ARG1 (vv2 / lepas)
+     :ARG0 (vv3 / israel)
+     :ARG1 (vv4 / alat
+                :mod (vv5 / deteksi
+                          :mod (vv6 / logam))
+                :mod (vv7 / pintu
+                          :mod (vv8 / masuk
+                                    :ARG1 (vv9 / masjid
+                                               :name (vv10 / alaqsa))))
+                :mod (vv11 / tembak
+                           :time (vv12 / jumat
+                                       :mod (vv13 / lalu))
+                           :mod (vv14 / tewas
+                                      :ARG1 (vv15 / situasi
+                                                  :mod (vv16 / lima)
+                                                  :mod (vv17 / antero
+                                                             :name (vv18 / tepi
+                                                                         :mod (vv19 / barat)))))))
+     :mod (vv20 / cekam
+                :mod (vv21 / kian)))
+

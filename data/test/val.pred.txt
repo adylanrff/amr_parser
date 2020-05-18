@@ -1,0 +1,19 @@
+(vv1 / perwira
+     :mod (vv2 / teguh)
+     :mod (vv3 / polisi))
+
+(vv1 / makan
+     :ARG0 (vv2 / aku)
+     :ARG1 (vv3 / roti)
+     :time (vv4 / tadi))
+
+(vv1 / lihat
+     :ARG1 (vv2 / raut
+                :mod (vv3 / sedih))
+     :ARG0 (vv4 / aku))
+
+(vv1 / kunjung
+     :ARG0 (vv2 / presiden
+                :name (vv3 / joko))
+     :location (vv4 / papua))
+

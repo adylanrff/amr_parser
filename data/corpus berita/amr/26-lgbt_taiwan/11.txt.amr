@@ -1,0 +1,49 @@
+# ::snt Mahkamah Agung Taiwan mengizinkan pernikahan sesama jenis Rabu (24/5/2017) dan mendukung keberadaan kelompok LGBT, Lesbian, Gay, Biseksual, dan Transgender.
+
+# ::snt "Kondisi sekarang melanggar kebebasan warga untuk menikah, dan melanggar persamaan hak warga," kata Lu Tai-Lang, Sekretaris Jenderal Yudisial Taiwan.
+
+(vv1 / langgar
+     :ARG0 (vv2 / kondisi)
+     :mod (vv3 / sekarang)
+     :ARG1 (vv4 / bebas
+                :mod (vv5 / warga))
+     :mod (vv7 / dan)
+     :mod (vv8 / sama
+               :mod (vv10 / kata
+                          :name (vv12 / tailang)))
+     :ARG1 (vv9 / hak
+                :mod (vv6 / meni)
+                :mod (vv11 / lu
+                           :name (vv13 / sekretaris
+                                       :mod (vv15 / yudisial
+                                                  :name vv17))
+                           :name (vv14 / jenderal
+                                       :mod (vv16 / taiwan)))))
+
+# ::snt Keputusan itu menjadikan Taiwan sebagai negara Asia yang paling toleran bagi kelompok LGBT. 
+
+(vv1 / jadi
+     :ARG0 (vv2 / putus)
+     :ARG1 (vv3 / taiwan
+                :mod (vv4 / negara
+                          :mod (vv5 / asia)
+                          :mod (vv6 / toleran
+                                    :mod (vv7 / paling)
+                                    :mod (vv8 / kelompok
+                                              :mod (vv9 / lgbt))))))
+
+# ::snt "Kebebasan berpendapat dan pernikahan sejenis diberi tempat di Taiwan," tutur Tsao Cheng-yi, Manajer Proyek Taiwan Tongzhi Hotline Assitant.
+
+# ::snt Menurutnya, Jepang dikenal konservatif, Korea Selatan condong ke kanan dan Kristen.
+
+(vv1 / kenal
+     :mod (vv2 / turut)
+     :location (vv3 / jepang)
+     :mod (vv4 / konservatif
+               :mod (vv5 / korea
+                         :name (vv6 / selatan)))
+     :mod (vv7 / condong
+               :ARG1 (vv8 / kanan
+                          :mod (vv9 / kristen
+                                    :mod (vv10 / dan)))))
+

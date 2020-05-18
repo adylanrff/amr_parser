@@ -1,0 +1,97 @@
+# ::snt Perusahaan agen travel online itu membenarkan bahwa pendirinya, Derianto Kusuma masuk dalam daftar salah satu penerima penghargaan dari Alumni Kanisius bersama Ananda Sukarlan dan diagendakan menghadiri acara tersebut.
+
+(vv1 / benar
+     :ARG0 (vv2 / usaha
+                :mod (vv3 / agen
+                          :mod (vv4 / travel
+                                    :mod (vv5 / online))))
+     :mod (vv6 / masuk
+               :ARG0 (vv7 / diri
+                          :mod (vv8 / derianto
+                                    :name (vv9 / kusuma)))
+               :ARG1 (vv10 / daftar
+                           :mod (vv11 / terima
+                                      :mod (vv12 / salah
+                                                 :mod (vv13 / satu))
+                                      :mod (vv14 / harga)
+                                      :ARG1 (vv15 / alumni
+                                                  :name (vv16 / kanisius)
+                                                  :mod (vv17 / ananda
+                                                             :name (vv18 / sukarlan)))))
+               :ARG1 (vv19 / agenda
+                           :mod (vv20 / dan)
+                           :ARG1 (vv21 / hadir
+                                       :ARG1 (vv22 / acara)))))
+
+# ::snt Pernyataan ini sekaligus menyangkal kabar yang mengatakan bahwa Derianto menghadiri dan meninggalkan acara di tengah pidato Gubernur DKI Anies Baswedan.
+
+(vv1 / sangkal
+     :ARG0 (vv2 / nyata)
+     :mod (vv3 / sekaligus)
+     :ARG1 (vv4 / kabar
+                :mod (vv5 / kata
+                          :ARG1 (vv6 / hadir
+                                     :ARG0 (vv7 / derianto)
+                                     :ARG1 (vv8 / tinggal
+                                                :ARG1 (vv9 / dan)
+                                                :ARG1 (vv10 / acara
+                                                            :mod (vv11 / tengah
+                                                                       :mod (vv12 / pidato
+                                                                                  :name (vv13 / gubernur
+                                                                                              :name (vv14 / dki
+                                                                                                          :name (vv15 / anies
+                                                                                                                      :name (vv16 / baswedan))))))))))))
+
+# ::snt "Menanggapi isu seputar pidato Anies di acara Perayaan 90th Kolese Kanisius, kami menyatakan bahwa yang bersangkutan (Derianto) tengah berada di luar kota untuk menghadiri acara yang telah direncanakan beberapa bulan sebelumnya," lanjut Busyra.
+
+(vv1 / nyata
+     :mod (vv2 / tanggap
+               :ARG1 (vv3 / isu
+                          :mod (vv4 / pidato
+                                    :name (vv5 / anies)
+                                    :mod (vv6 / acara
+                                              :mod (vv8 / 90th
+                                                        :mod (vv10 / kanisius))
+                                              :mod (vv20 / telah)))))
+     :ARG0 (vv12 / ada
+                 :mod (vv14 / derianto
+                            :mod (vv16 / luar
+                                       :mod (vv18 / hadir
+                                                  :ARG1 (vv7 / perayaan
+                                                             :mod (vv9 / kolese
+                                                                       :name (vv11 / kami))))))
+                 :location (vv17 / kota)
+                 :ARG1 (vv19 / rencana
+                             :mod (vv21 / bulan
+                                        :mod (vv23 / busyra))
+                             :ARG1 (vv22 / lanjut)))
+     :mod (vv13 / sangkut
+                :ARG0 (vv15 / tengah))
+     :mod vv24)
+
+# ::snt Linimasa Twitter hari ini diramaikan aksi boikot aplikasi Traveloka lantaran sang pendiri dikabarkan walk out dan dianggap sebagai bentuk penghinaan terhadap Anies sebagai Gubernur yang terpilih secara demokratis.
+
+(vv1 / ramai
+     :ARG1 (vv2 / linimasa
+                :name (vv3 / twitter))
+     :time (vv4 / hari)
+     :ARG1 (vv5 / aksi
+                :mod (vv6 / boikot
+                          :ARG1 (vv7 / aplikasi
+                                     :mod (vv8 / traveloka))))
+     :mod (vv9 / kabar
+               :mod (vv10 / lantar)
+               :ARG1 (vv11 / diri)
+               :ARG1 (vv12 / walk
+                           :mod (vv13 / out))
+               :mod (vv14 / anggap
+                          :ARG1 (vv15 / dan)
+                          :ARG1 (vv16 / bentuk
+                                      :mod (vv17 / hina)
+                                      :mod (vv18 / anies)
+                                      :mod (vv19 / gubernur
+                                                 :mod (vv20 / pilih
+                                                            :mod (vv21 / demokratis)))))))
+
+# ::snt Perusahaan penyedia wisata online ini mengklaim pihaknya tidak pernah mendiskreditkan pihak lain dan lebih mengedepankan nilai-nilai saling menghargai, bertoleransi dan berinovasi.
+

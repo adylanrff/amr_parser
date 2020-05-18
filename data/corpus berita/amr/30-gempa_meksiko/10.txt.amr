@@ -1,0 +1,25 @@
+# ::snt Presiden Meksiko, Enrique Peña Nieto, menegaskan bahwa upaya penyelamatan dan penanganan korban cedera akibat gempa berkekuatan 7,1 pada skala Richter masih merupakan prioritas tertinggi.
+
+(vv1 / tegas
+     :ARG0 (vv2 / presiden
+                :name (vv3 / meksiko
+                           :name (vv4 / enrique
+                                      :name (vv5 / peña
+                                                 :name (vv6 / nieto)))))
+     :mod (vv7 / rupa
+               :ARG0 (vv8 / upaya
+                          :mod (vv9 / selamat)
+                          :mod (vv10 / tangan
+                                     :mod (vv11 / dan)
+                                     :mod (vv12 / korban
+                                                :mod (vv13 / cedera))
+                                     :mod (vv14 / akibat
+                                                :mod (vv15 / gempa
+                                                           :mod (vv16 / kuat
+                                                                      :mod (vv17 / 71)))
+                                                :mod (vv18 / skala
+                                                           :mod (vv19 / richter)))))
+               :mod (vv20 / masih)
+               :ARG1 (vv21 / prioritas
+                           :mod (vv22 / tinggi))))
+

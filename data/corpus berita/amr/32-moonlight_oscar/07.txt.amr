@@ -1,0 +1,101 @@
+# ::snt Ajang penghargaan tertinggi bagi insan perfilman Hollywood, Academy Awards atau yang juga dikenal sebagai Oscars 2017 digelar secara langsung di Dolby Theatre, Los Angeles, California, Amerika Serikat (AS) pada Senin (27/2) waktu Indonesia.
+
+(vv1 / gelar
+     :ARG1 (vv2 / ajang
+                :mod (vv3 / harga
+                          :mod (vv4 / tinggi))
+                :mod (vv5 / insan
+                          :mod (vv6 / film)
+                          :name (vv7 / hollywood
+                                     :mod (vv8 / academy
+                                               :name (vv9 / awards))))
+                :mod (vv10 / atau)
+                :mod (vv11 / kenal
+                           :mod (vv12 / juga)
+                           :ARG1 (vv13 / oscars
+                                       :mod (vv14 / 2017))))
+     :mod (vv15 / langsung)
+     :mod (vv16 / dolby
+                :name (vv17 / theatre
+                            :mod (vv18 / los
+                                       :mod (vv19 / angeles
+                                                  :name (vv20 / california
+                                                              :name (vv21 / amerika
+                                                                          :mod (vv22 / serikat
+                                                                                     :mod (vv23 / as))))))))
+     :time (vv24 / senin
+                 :mod (vv25 / waktu
+                            :mod (vv26 / 272)
+                            :mod (vv27 / indonesia))))
+
+# ::snt Dalam ajang bergengsi ini film Moonlight berhasil mengantongi piala kemenangan utama dalam Best Pictures. Moonlight mengalahkan film La La Land, Lion, Manchester by the Sea, Fences, Arrival, Hacksaw Ridge, Hidden Figures, dan Hell or High Water
+
+(vv1 / hasil
+     :ARG1 (vv2 / ajang
+                :mod (vv3 / gengsi))
+     :ARG0 (vv4 / film
+                :mod (vv6 / kantong
+                          :ARG1 (vv9 / utama)
+                          :ARG1 (vv14 / land
+                                      :name (vv18 / sea
+                                                  :name (vv22 / ridge
+                                                              :name (vv26 / dan)))))
+                :mod (vv15 / lion
+                           :mod (vv19 / fences
+                                      :name (vv23 / hidden
+                                                  :mod (vv27 / or
+                                                             :mod vv31)))
+                           :name (vv20 / arrival
+                                       :name (vv24 / figures)))
+                :mod (vv28 / high
+                           :mod vv32))
+     :mod (vv8 / menang
+               :mod (vv11 / pictures
+                          :name (vv7 / piala
+                                     :mod (vv10 / best
+                                                :mod (vv13 / la
+                                                           :name (vv16 / manchester)
+                                                           :name (vv17 / by
+                                                                       :mod (vv21 / hacksaw
+                                                                                  :name (vv25 / hell
+                                                                                              :mod (vv29 / water)
+                                                                                              :name vv30)))))
+                                     :mod (vv12 / kalah
+                                                :ARG1 (vv5 / moonlight))))))
+
+# ::snt "Saya tidak menyiapkan kemenangan ini," tandas Casey di atas panggung sambil memegang kertas panduan yang berisi nama-nama yang terlibat dalam film.
+
+(vv1 / siap
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / tidak)
+     :ARG1 (vv4 / menang)
+     :mod (vv5 / tandas
+               :ARG0 (vv6 / casey)
+               :ARG1 (vv7 / atas
+                          :mod (vv8 / panggung))
+               :ARG1 (vv9 / pegang
+                          :mod (vv10 / sambil)
+                          :ARG1 (vv11 / kertas
+                                      :mod (vv12 / pandu)
+                                      :mod (vv13 / isi
+                                                 :ARG1 (vv14 / namanama
+                                                             :mod (vv15 / libat
+                                                                        :ARG1 (vv16 / film))))))))
+
+# ::snt Kemenangan Casey memang sedikit mengejutkan, terutama ketika nama Ryan Gosling digadang-gadang sebagai pemenang aktor terbaik tahun ini.
+
+(vv1 / kejut
+     :ARG0 (vv2 / menang
+                :name (vv4 / memang)
+                :ARG1 (vv12 / baik)
+                :mod vv14)
+     :mod (vv5 / sedikit)
+     :mod (vv6 / digadanggadang
+               :ARG1 (vv3 / casey)
+               :mod (vv8 / nama
+                         :name (vv10 / gosling))
+               :ARG1 (vv9 / ryan
+                          :name (vv11 / aktor
+                                      :mod (vv13 / tahun))))
+     :mod (vv7 / utama))
+

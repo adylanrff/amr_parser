@@ -1,0 +1,55 @@
+# ::snt "Ini seperti persekusi karena, mereka mengarak sepasang kekasih itu, diminta telanjang di muka umum lalu dianiaya hingga mengalami luka lebam," bebernya.
+
+(vv1 / minta
+     :ARG1 (vv2 / ini)
+     :ARG1 (vv3 / persekusi
+                :mod (vv4 / arak
+                          :ARG0 (vv5 / mereka)
+                          :ARG1 (vv6 / pasang
+                                     :mod (vv7 / kasih))))
+     :ARG1 (vv8 / telanjang
+                :mod (vv9 / muka
+                          :mod (vv10 / umum)))
+     :mod (vv11 / aniaya
+                :mod (vv12 / lalu)
+                :mod (vv13 / alami
+                           :ARG1 (vv14 / luka
+                                       :mod (vv15 / lebam)
+                                       :mod (vv16 / beber)))))
+
+# ::snt "Penyebar video dianggap telah melakukan pembunuhan karakter terhadap kedua korban, karena itulah kami buru," ujarnya.
+
+(vv1 / anggap
+     :ARG1 (vv2 / penyebar
+                :mod (vv3 / video))
+     :ARG1 (vv4 / laku
+                :mod (vv5 / telah)
+                :ARG1 (vv6 / bunuh
+                           :mod (vv7 / karakter))
+                :ARG1 (vv8 / korban
+                           :mod (vv9 / dua)))
+     :mod (vv10 / buru
+                :ARG0 (vv11 / kami)
+                :ARG1 (vv12 / ujar)))
+
+# ::snt Penyebar pertama video itu, imbuhnya, diangap melanggar hak privasi orang lain dan melanggar UU tentang Informasi dan Transaksi Elektronik (ITE).
+
+(vv1 / diangap
+     :ARG1 (vv2 / sebar
+                :mod (vv3 / pertama)
+                :mod (vv4 / video))
+     :ARG1 (vv5 / imbuh)
+     :ARG1 (vv6 / langgar
+                :mod (vv7 / hak
+                          :mod (vv9 / orang
+                                    :mod (vv11 / dan)))
+                :ARG1 (vv8 / privasi
+                           :mod (vv10 / lain))
+                :mod (vv12 / uu
+                           :mod (vv15 / elektronik
+                                      :name vv18))
+                :ARG1 (vv14 / transaksi
+                            :mod (vv13 / informasi
+                                       :mod (vv16 / ite))
+                            :mod vv17)))
+

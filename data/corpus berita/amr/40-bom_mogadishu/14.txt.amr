@@ -1,0 +1,65 @@
+# ::snt Jumlah korban tewas akibat ledakan bom truk pada Sabtu (14/10) di ibukota Somalia, Mogadishu, melonjak menjadi sedikitnya 276 orang, menurut Menteri Informasi Somalia.
+
+(vv1 / tewas
+     :ARG0 (vv2 / jumlah
+                :mod (vv3 / korban))
+     :ARG1 (vv4 / akibat
+                :mod (vv5 / ledak
+                          :mod (vv6 / bom
+                                    :mod (vv7 / truk)))
+                :mod (vv10 / ibukota
+                           :name (vv11 / somalia
+                                       :name (vv13 / lonjak
+                                                   :ARG1 (vv15 / sedikit)))))
+     :time (vv8 / sabtu
+                :mod (vv9 / 1410))
+     :mod (vv14 / jadi
+                :mod (vv16 / orang
+                           :mod (vv18 / menteri
+                                      :name vv20))
+                :ARG1 (vv17 / 276)
+                :ARG1 (vv19 / informasi
+                            :name (vv12 / mogadishu))))
+
+# ::snt Ledakan meratakan rumah-rumah dan kompleks bisnis terdekat, mengubah kendaraan-kendaraan menjadi bangkai yang terbakar.
+
+(vv1 / rata
+     :ARG0 (vv2 / ledak)
+     :ARG1 (vv3 / rumahrumah
+                :mod (vv4 / kompleks
+                          :mod (vv5 / dan)
+                          :mod (vv6 / bisnis
+                                    :mod (vv7 / dekat))))
+     :mod (vv8 / ubah
+               :ARG1 (vv9 / kendaraankendaraan)
+               :ARG1 (vv10 / jadi
+                           :ARG1 (vv11 / bangkai
+                                       :mod (vv12 / bakar)))))
+
+# ::snt Dia menyebut serangan tersebut "barbar" dan mengatakan sejumlah negara, termasuk Turki, Ethiopia dan Kenya, telah menawarkan bantuan medis.
+
+# ::snt Presiden Somalia Mohamed Abdullahi Mohamed Farmaajo pada Ahad mengumumkan tiga hari masa berkabung nasional setelah serangan tersebut.
+
+# ::snt Presiden juga mendesak warga untuk membantu mereka yang terkena dampak serangan.
+
+(vv1 / desak
+     :ARG0 (vv2 / presiden)
+     :mod (vv3 / juga)
+     :ARG0 (vv4 / warga)
+     :ARG1 (vv5 / bantu
+                :ARG0 (vv6 / mereka
+                           :mod (vv7 / kena
+                                     :ARG1 (vv8 / dampak
+                                                :mod (vv9 / serang))))))
+
+# ::snt Belum ada kelompok yang mengaku bertanggung jawab atas serangan tersebut sejauh ini.
+
+(vv1 / ada
+     :mod (vv2 / belum)
+     :ARG1 (vv3 / kelompok
+                :mod (vv4 / aku
+                          :mod (vv5 / tanggung
+                                    :ARG1 (vv6 / jawab)
+                                    :location (vv7 / serang
+                                                   :mod (vv8 / jauh))))))
+

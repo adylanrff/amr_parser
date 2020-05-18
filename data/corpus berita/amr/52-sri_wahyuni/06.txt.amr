@@ -1,0 +1,143 @@
+# ::snt Lifter putri nasional, Sri Wahyuni Agustiani, langsung mencatat sejarah pada keikutsertaan pertamanya di Olimpiade dengan meraih medali perak.
+
+(vv1 / catat
+     :ARG0 (vv2 / lifter
+                :mod (vv3 / putri
+                          :mod (vv4 / nasional))
+                :name (vv5 / sri
+                           :name (vv6 / wahyuni
+                                      :name (vv7 / agustiani))))
+     :mod (vv8 / langsung)
+     :ARG1 (vv9 / sejarah
+                :mod (vv10 / keikutsertaan
+                           :mod (vv11 / pertama)
+                           :mod (vv12 / olimpiade)))
+     :ARG1 (vv13 / raih
+                 :ARG1 (vv14 / medali
+                             :mod (vv15 / perak))))
+
+# ::snt Yuni mendapatkan medali perak Olimpiade Rio 2016 setelah mencatat total angkatan 192 kg (85 kg snatch + 107 kg clean & jerk) saat turun pada kelas 48 kg di Rio Centro, Rio de Janeiro, Sabtu (6/8/2016).
+
+# ::snt Djoko merupakan Wakil Ketua Umum Pengurus Besar Persatuan Angkat Besi, Binaraga, dan Angkat Berat (PB PABBSI).
+
+(vv1 / rupa
+     :ARG0 (vv2 / djoko)
+     :ARG1 (vv3 / wakil
+                :mod (vv4 / ketua
+                          :mod (vv5 / umum)
+                          :name (vv6 / urus
+                                     :mod (vv7 / besar
+                                               :mod (vv8 / satu
+                                                         :mod (vv9 / angkat
+                                                                   :mod (vv11 / binaraga)
+                                                                   :mod (vv13 / berat
+                                                                              :mod (vv15 / pabbsi))
+                                                                   :mod (vv14 / pb
+                                                                              :name vv16))))
+                                     :ARG1 (vv10 / besi
+                                                 :name (vv12 / dan))))))
+
+# ::snt Yuni mengaku, sebelum berangkat ke Rio, dia mendapat pesan dari Djoko untuk memberikan yang terbaik bagi negara.
+
+(vv1 / aku
+     :ARG0 (vv2 / yuni)
+     :mod (vv3 / berangkat
+               :ARG1 (vv4 / rio))
+     :mod (vv5 / dapat
+               :ARG0 (vv6 / dia)
+               :ARG1 (vv7 / pesan
+                          :mod (vv8 / djoko))
+               :ARG1 (vv9 / beri
+                          :mod (vv10 / baik)
+                          :location (vv11 / negara))))
+
+# ::snt "Saya juga selalu minta kepada orang tua supaya didoakan agar berhasil," ujar mahasiswi Universitas Bhayangkara tersebut.
+
+(vv1 / minta
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / juga)
+     :mod (vv4 / selalu)
+     :ARG1 (vv5 / orang
+                :mod (vv6 / tua))
+     :ARG1 (vv7 / doa
+                :ARG1 (vv8 / hasil
+                           :ARG1 (vv9 / ujar
+                                      :ARG1 (vv10 / mahasiswi
+                                                  :mod (vv11 / universitas
+                                                             :mod (vv12 / bhayangkara)))))))
+
+# ::snt "Hadiahnya ini, dapat medali," sahutnya sambil sekali lagi memamerkan medali perak yang dia kalungi.
+
+(vv1 / medali
+     :ARG0 (vv2 / hadiah)
+     :mod (vv3 / dapat)
+     :mod (vv4 / sahut)
+     :mod (vv5 / pamer
+               :mod (vv6 / sambil
+                         :mod (vv7 / sekali))
+               :mod (vv8 / lagi)
+               :ARG1 (vv10 / kalung))
+     :mod (vv9 / perak))
+
+# ::snt Selain mendapatkan hadiah ulang tahun, atas prestasinya ini Yuni juga akan mendapatkan bonus sebesar Rp 2 miliar dan uang bulanan sebesar Rp 15 juta sepanjang hidupnya.
+
+(vv1 / dapat
+     :ARG1 (vv2 / hadiah
+                :mod (vv3 / ulang)
+                :mod (vv4 / tahun)
+                :mod (vv5 / prestasi))
+     :ARG0 (vv6 / yuni)
+     :mod (vv7 / juga)
+     :mod (vv8 / akan)
+     :ARG1 (vv9 / bonus
+                :mod (vv10 / rp
+                           :mod (vv12 / miliar
+                                      :mod (vv15 / dan))
+                           :mod (vv13 / 2)
+                           :mod (vv14 / uang
+                                      :mod (vv11 / besar)
+                                      :mod (vv17 / juta
+                                                 :mod (vv20 / panjang))
+                                      :mod (vv18 / 15))
+                           :mod (vv16 / bulan)
+                           :mod (vv19 / hidup
+                                      :mod vv22)))
+     :ARG1 vv21)
+
+# ::snt Ketika ditanya soal bonus-bonus tersebut, Yuni justru menggelengkan kepala dengan ekspresi tidak suka.
+
+(vv1 / geleng
+     :ARG1 (vv2 / tanya
+                :ARG1 (vv3 / soal
+                           :mod (vv4 / bonusbonus)))
+     :ARG0 (vv5 / yuni)
+     :mod (vv6 / justru)
+     :ARG0 (vv7 / kepala
+                :mod (vv8 / ekspresi
+                          :mod (vv9 / tidak)))
+     :mod (vv10 / suka))
+
+# ::snt Peraih medali emas nomor 48 kg ini adalah Sopita Tanasan yang meraih total angkatan 200 kg (92 kg snatch + 108 kg clean & jerk).
+
+(vv1 / sopita
+     :ARG0 (vv2 / raih
+                :mod (vv4 / emas)
+                :ARG1 (vv14 / snatch
+                            :mod (vv9 / tanasan)
+                            :mod (vv10 / total
+                                       :mod (vv15 / 108))
+                            :mod vv20))
+     :mod (vv3 / medali
+               :mod (vv5 / nomor
+                         :mod (vv7 / 48))
+               :ARG1 (vv6 / kg
+                          :mod (vv11 / angkat
+                                     :mod (vv8 / adalah)
+                                     :mod vv18)
+                          :mod (vv16 / clean
+                                     :mod vv21)
+                          :mod (vv17 / jerk)
+                          :mod vv19))
+     :mod (vv12 / 200)
+     :name (vv13 / 92))
+

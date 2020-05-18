@@ -1,0 +1,156 @@
+# ::snt Ahli penerbangan menyebut, pesawat Air Canada itu hampir mengalami "bencana penerbangan terbesar dalam sejarah".
+
+(vv1 / sebut
+     :ARG0 (vv2 / ahli
+                :mod (vv3 / terbang
+                          :mod (vv11 / sejarah)))
+     :ARG1 (vv5 / air
+                :mod (vv7 / alami
+                          :mod (vv9 / bencana
+                                    :mod (vv4 / pesawat
+                                              :ARG1 (vv6 / canada)))
+                          :ARG1 (vv10 / besar)
+                          :ARG1 vv12))
+     :mod (vv8 / hampir))
+
+# ::snt Pesawat A320 dari Toronto itu semestinya bersiap untuk mendarat di Runway 28 di Bandara Internasional San Francisco sebelum tengah malam pada hari Jumat waktu setempat.
+
+(vv1 / siap
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / a320)
+                :mod (vv4 / toronto))
+     :mod (vv5 / mesti)
+     :mod (vv6 / darat
+               :location (vv7 / runway
+                              :mod (vv8 / 28))
+               :location (vv9 / bandara
+                              :mod (vv10 / internasional
+                                         :location (vv11 / san
+                                                         :name (vv12 / francisco)))
+                              :mod (vv13 / malam
+                                         :mod (vv14 / tengah)
+                                         :mod (vv15 / hari
+                                                    :mod (vv16 / jumat)
+                                                    :mod (vv17 / waktu
+                                                               :mod (vv18 / tempat)))))))
+
+# ::snt Tapi sebaliknya, pilot pesawat Air Canada dengan nomor penerbangan AC759 secara tidak sengaja membariskan pesawat untuk mendarat di Taxiway C bandara secara paralel di mana empat pesawat—penuh penumpang dan bahan bakar—bersiap-siap untuk lepas landas.
+
+(vv1 / baris
+     :mod (vv2 / tapi)
+     :mod (vv3 / balik)
+     :ARG0 (vv4 / pilot
+                :mod (vv5 / pesawat
+                          :mod (vv7 / canada))
+                :mod (vv9 / terbang
+                          :mod (vv11 / tidak)))
+     :ARG1 (vv6 / air
+                :mod (vv8 / nomor
+                          :mod (vv10 / ac759)))
+     :mod (vv12 / sengaja)
+     :mod (vv13 / darat
+                :location (vv15 / c)
+                :ARG1 (vv18 / pesawat penuh
+                            :mod (vv20 / empat)
+                            :mod (vv21 / tumpang)
+                            :mod (vv22 / bahan
+                                       :mod (vv24 / bakar bersiapsiap)
+                                       :mod (vv25 / lepas
+                                                  :ARG1 vv27)
+                                       :mod (vv26 / landas))
+                            :ARG1 (vv23 / dan))
+                :mod (vv19 / mana))
+     :mod (vv14 / taxiway
+                :name (vv16 / bandara)
+                :mod (vv17 / paralel)))
+
+# ::snt "Apa yang terjadi mungkin mendekati bencana penerbangan terbesar dalam sejarah," kata pensiunan kapten pilot United Airlines Ross Aimer yang kini menjadi CEO Aero Consulting Experts, kepada Mercury News.
+
+(vv1 / dekat
+     :ARG0 (vv2 / apa
+                :mod (vv3 / jadi
+                          :location (vv18 / ceo
+                                          :mod (vv20 / consulting
+                                                     :mod (vv22 / mercury
+                                                                :name vv24)))
+                          :ARG0 (vv19 / aero
+                                      :name (vv21 / experts))
+                          :ARG1 (vv23 / news)))
+     :mod (vv5 / bencana
+               :mod (vv7 / besar)
+               :mod (vv9 / kata
+                         :mod (vv4 / mungkin)
+                         :mod (vv11 / kapten
+                                    :mod (vv13 / united
+                                               :mod (vv15 / ross
+                                                          :name (vv17 / kini))))))
+     :ARG1 (vv6 / terbang
+                :mod (vv8 / sejarah
+                          :mod (vv10 / pensiun
+                                     :mod (vv12 / pilot
+                                                :mod (vv14 / airlines
+                                                           :name (vv16 / aimer)))))))
+
+# ::snt "Jika Anda bisa membayangkan sebuah pesawat Airbus bertabrakan dengan empat bodi penumpang pesawat terbang, penuh bahan bakar dan penumpang, maka Anda bisa membayangkan betapa mengerikannya hal ini," ujarnya, yang dikutip sindonews, Rabu (12/7/2017).
+
+# ::snt Beruntung petugas kontrol lalu lintas udara (ATC) sigap dan menginstruksikan pilot pesawat Air Canada AC759 untuk terbang berkeliling sebelum mendarat di lokasi yang semestinya.
+
+(vv3 / sigap
+     :ARG0 (vv1 / tugas
+                :mod (vv2 / untung)
+                :mod (vv4 / kontrol
+                          :mod (vv5 / lalu))
+                :mod (vv6 / lintas
+                          :mod (vv7 / udara
+                                    :mod (vv8 / atc))))
+     :ARG1 (vv9 / instruksi
+                :mod (vv10 / dan)
+                :ARG1 (vv11 / pilot
+                            :mod (vv12 / pesawat
+                                       :ARG1 (vv13 / air
+                                                   :mod (vv14 / canada
+                                                              :name (vv15 / ac759)))))
+                :ARG1 (vv16 / terbang
+                            :ARG1 (vv17 / keliling)
+                            :mod (vv18 / darat
+                                       :location (vv19 / lokasi
+                                                       :mod (vv20 / mesti))))))
+
+# ::snt "Tidak ada orang di 28R, tapi Anda," jawab petugas pengendali lalu lintas udara.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / orang
+                :mod (vv4 / 28r))
+     :mod (vv5 / anda
+               :mod (vv6 / tapi)
+               :mod (vv7 / jawab)
+               :mod (vv8 / tugas
+                         :mod (vv9 / kendali
+                                   :mod (vv10 / lalu
+                                              :mod (vv11 / lintas
+                                                         :mod (vv12 / udara)))))))
+
+# ::snt Sebuah suara tak dikenal bertanya: "Ke mana orang ini pergi? Dia di Taxiway."
+
+(vv1 / kenal
+     :ARG1 (vv2 / suara)
+     :mod (vv3 / tak)
+     :ARG1 (vv4 / tanya)
+     :ARG1 (vv5 / mana
+                :mod (vv6 / ke))
+     :mod (vv7 / pergi
+               :ARG0 (vv8 / orang)
+               :ARG0 (vv9 / dia)
+               :location (vv10 / taxiway)))
+
+# ::snt Menara kontrol menjawab; "Ya, saya lihat itu, guys."
+
+(vv1 / jawab
+     :ARG0 (vv2 / menara
+                :mod (vv3 / kontrol))
+     :mod (vv4 / ya)
+     :mod (vv5 / lihat
+               :ARG0 (vv6 / saya))
+     :mod (vv7 / guys))
+

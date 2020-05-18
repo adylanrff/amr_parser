@@ -1,0 +1,47 @@
+# ::snt Gubernur DKI Jakarta Basuki "Ahok" Tjahaja Purnama akhirnya divonis dua tahun penjara dalam perkara penodaan agama.
+
+(vv1 / vonis
+     :ARG1 (vv2 / gubernur
+                :name (vv3 / dki
+                           :name (vv4 / jakarta
+                                      :name (vv5 / basuki
+                                                 :name (vv6 / ahok
+                                                            :name (vv7 / tjahaja
+                                                                       :name (vv8 / purnama)))))))
+     :mod (vv9 / akhir)
+     :ARG1 (vv10 / tahun
+                 :mod (vv11 / dua)
+                 :mod (vv12 / penjara))
+     :ARG1 (vv13 / perkara
+                 :mod (vv14 / noda
+                            :mod (vv15 / agama))))
+
+# ::snt Putusan tersebut dibacakan oleh Ketua Majelis Hakim Dwiarso Budi Santiarto dalam persidangan yang digelar di Auditorium Gedung Kementerian Pertanian, Jakarta Selatan, Selasa 9 Mei 2017.
+
+(vv1 / baca
+     :ARG1 (vv2 / putus)
+     :ARG1 (vv3 / ketua
+                :mod (vv4 / majelis
+                          :name (vv5 / hakim
+                                     :name (vv6 / dwiarso
+                                                :name (vv7 / budi
+                                                           :name (vv8 / santiarto))))))
+     :location (vv9 / sidang
+                    :mod (vv10 / gelar
+                               :location (vv11 / auditorium
+                                               :mod (vv12 / gedung
+                                                          :mod (vv13 / kementerian
+                                                                     :mod (vv14 / tani
+                                                                                :name (vv15 / jakarta
+                                                                                            :name (vv16 / selatan))))))
+                               :time (vv17 / selasa
+                                           :mod (vv18 / mei
+                                                      :mod (vv19 / 9)
+                                                      :mod (vv20 / 2017))))))
+
+# ::snt "Menyatakan terdakwa Basuki Tjahaja Purnama terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana penodaan agama, menjatuhkan pidana selama 2 tahun," kata Ketua Majelis Hakim Dwiarso Budi Santiarto saat mengetuk palu.
+
+# ::snt Vonis majelis hakim ini ini lebih berat dari tuntutan Jaksa Penuntut Umum yang pada persidangan sebelumnya menuntut Ahok dengan tuntutan 1 tahun penjara dengan 2 tahun masa percobaan.
+
+# ::snt Usai sidang, Ahok langsung dibawa ke Rumah Tahanan Cipinang untuk menjalani penahanan, sesuai instruksi mejelis hakim dalam persidangan.
+

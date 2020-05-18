@@ -1,0 +1,79 @@
+# ::snt Wakil Gubernur DKI Jakarta Sandiaga Uno mengklaim sudah memprediksi terjadinya insiden alat berat (crane) proyek double-double track (DDT) kereta rute Manggarai-Jatinegara, Jakarta Timur, Minggu (4/2/2018) pagi.
+
+# ::snt Ia mengatakan, sudah mendapat informasi adanya 4 orang korban tewas dalam insiden jatuhnya crane di proyek tersebut.
+
+(vv1 / kata
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / dapat
+                :mod (vv4 / sudah)
+                :ARG1 (vv5 / informasi
+                           :mod (vv6 / ada
+                                     :ARG1 (vv7 / korban
+                                                :mod (vv8 / 4)
+                                                :mod (vv9 / tewas
+                                                          :ARG1 (vv10 / insiden
+                                                                      :mod (vv11 / jatuh
+                                                                                 :mod (vv12 / crane))
+                                                                      :mod (vv13 / proyek))))))))
+
+# ::snt Sandiaga memastikan, semua keluarga korban insiden itu mendapat santunan kompensasi dari pihak asuransi.
+
+(vv1 / pasti
+     :ARG0 (vv2 / sandiaga)
+     :ARG1 (vv3 / keluarga
+                :mod (vv4 / korban
+                          :mod (vv5 / insiden)))
+     :mod (vv6 / dapat
+               :ARG1 (vv7 / santun
+                          :mod (vv8 / kompensasi)
+                          :mod (vv9 / pihak
+                                    :mod (vv10 / asuransi)))))
+
+# ::snt Ia mengakui, Dinas Ketenagakerjaan setempat sudah membentuk satuan tugas pengawasan keselamatan pekerja di proyek milik pemprov.
+
+(vv1 / aku
+     :ARG0 (vv2 / ia)
+     :ARG0 (vv3 / dinas
+                :mod (vv4 / ketenagakerjaan
+                          :mod (vv5 / tempat)))
+     :mod (vv6 / bentuk
+               :mod (vv7 / sudah)
+               :ARG1 (vv8 / satu
+                          :mod (vv9 / tugas
+                                    :mod (vv10 / awas
+                                               :mod (vv11 / selamat
+                                                          :ARG1 (vv12 / kerja))))
+                          :mod (vv13 / proyek
+                                     :mod (vv14 / milik
+                                                :mod (vv15 / pemprov))))))
+
+# ::snt Namun, Sandiaga mengklaim jumlah anggota satgas disnaker itu tak mencukupi untuk mengawasi seluruh pekerja proyek pemprov.
+
+(vv1 / klaim
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / sandiaga)
+     :ARG1 (vv4 / jumlah
+                :mod (vv5 / anggota
+                          :mod (vv6 / satgas
+                                    :mod (vv7 / disnaker))))
+     :mod (vv8 / cukup
+               :ARG1 (vv9 / tak)
+               :mod (vv10 / awas
+                          :ARG1 (vv11 / kerja
+                                      :mod (vv12 / proyek
+                                                 :mod (vv13 / pemprov))))))
+
+# ::snt Karenanya, ia meminta seluruh kontraktor proyek pemprov juga ikut melatih para pekerja demi keselamatan.
+
+(vv4 / ikut
+     :mod (vv1 / minta
+               :mod (vv2 / karena)
+               :ARG0 (vv3 / ia)
+               :ARG0 (vv5 / kontraktor
+                          :mod (vv6 / proyek
+                                    :mod (vv7 / pemprov))))
+     :mod (vv8 / juga)
+     :ARG1 (vv9 / latih
+                :ARG1 (vv10 / kerja))
+     :location (vv11 / selamat))
+

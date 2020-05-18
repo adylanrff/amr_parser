@@ -1,0 +1,123 @@
+# ::snt Kasubdit Gakkum Ditlantas Polda Metro Jaya AKBP Budiyanto, mengatakan Toyota Fortuner yang membawa Setya Novanto menabrak trotoar dan pohon lebih dulu sebelum menyeruduk tiang penerangan jalan umum di Permata Hijau, Jakarta Selatan.
+
+(vv1 / kata
+     :ARG0 (vv2 / kasubdit
+                :name (vv3 / gakkum
+                           :name (vv4 / ditlantas
+                                      :name (vv5 / polda
+                                                 :mod (vv6 / metro
+                                                           :name (vv7 / jaya
+                                                                      :name (vv8 / akbp
+                                                                                 :name (vv9 / budiyanto))))))))
+     :ARG1 (vv10 / toyota
+                 :name (vv11 / fortuner)
+                 :mod (vv12 / bawa
+                            :ARG0 (vv13 / setya
+                                        :name (vv14 / novanto))))
+     :mod (vv15 / tabrak
+                :ARG1 (vv16 / trotoar
+                            :mod (vv17 / pohon
+                                       :mod (vv18 / dan)
+                                       :mod (vv19 / dulu
+                                                  :mod (vv20 / lebih))))
+                :mod (vv21 / seruduk
+                           :ARG1 (vv22 / tiang
+                                       :mod (vv23 / terang
+                                                  :mod (vv24 / jalan
+                                                             :mod (vv25 / umum)))
+                                       :mod (vv26 / permata
+                                                  :mod (vv27 / hijau
+                                                             :name (vv28 / jakarta
+                                                                         :name (vv29 / selatan))))))))
+
+# ::snt "Jadi mobil itu sebelum nabrak tiang, sudah menyentuh trotoar lebih dulu, setelah itu pohon," ucap AKBP Budiyanto kepada media di Jakarta, Jumat (17/11/2017).
+
+(vv1 / sentuh
+     :mod (vv2 / jadi)
+     :ARG0 (vv3 / mobil)
+     :mod (vv4 / nabrak
+               :ARG1 (vv5 / tiang))
+     :mod (vv6 / sudah)
+     :ARG1 (vv7 / trotoar)
+     :mod (vv8 / dulu
+               :mod (vv9 / lebih))
+     :location (vv10 / pohon
+                     :mod (vv11 / ucap)
+                     :mod (vv12 / akbp
+                                :name (vv13 / budiyanto))
+                     :mod (vv14 / media
+                                :mod (vv15 / jakarta
+                                           :time (vv16 / jumat)
+                                           :mod (vv17 / 17112017)))))
+
+# ::snt "Begitu terjadi benturan awal, mestinya sudah bikin kecepatan mobil akan berkurang," lanjut Budiyanto.
+
+(vv3 / kurang
+     :mod (vv1 / jadi
+               :mod (vv2 / begitu)
+               :ARG1 (vv4 / bentur
+                          :mod (vv5 / awal)
+                          :mod (vv6 / mesti)
+                          :mod (vv7 / bikin
+                                    :mod (vv8 / sudah)
+                                    :ARG1 (vv9 / cepat
+                                               :mod (vv10 / mobil)))))
+     :mod (vv11 / akan)
+     :mod (vv12 / lanjut)
+     :ARG0 (vv13 / budiyanto))
+
+# ::snt Sementara saat ditanya soal sanksi, AKBP Budiyanto menegaskan dari sisi tindak pidana lalu lintas maka yang akan kena sanski adalah pengendaranya.
+
+(vv3 / tegas
+     :mod (vv1 / tanya
+               :mod (vv2 / saat)
+               :ARG1 (vv4 / soal
+                          :mod (vv5 / sanksi
+                                    :name (vv6 / akbp
+                                               :name (vv7 / budiyanto)))))
+     :location (vv8 / sisi
+                    :mod (vv9 / tindak
+                              :mod (vv10 / pidana)))
+     :mod (vv13 / kendara
+                :ARG0 (vv11 / lintas
+                            :mod (vv12 / lalu)
+                            :mod (vv14 / kena
+                                       :mod (vv15 / akan)))
+                :mod (vv16 / adalah)))
+
+# ::snt "Tindak pidana lalu lintas hukumannya si pengemudi, tapi kita belum berani menyimpulkan apa-apa dulu sebelum selesai penyelidikan, jadi kita masih dalami saat ini, kita juga cari CCTV di sekitaran lokasi yang bisa membantu untuk mengetahui kejadian," kata AKBP Budiyanto.
+
+(vv1 / tindak
+     :mod (vv2 / pidana)
+     :mod (vv3 / lintas
+               :mod (vv4 / lalu)
+               :mod (vv5 / hukum
+                         :mod (vv6 / kemudi)))
+     :mod (vv7 / simpul
+               :mod (vv8 / tapi)
+               :mod (vv9 / berani
+                         :ARG0 (vv10 / kita)
+                         :mod (vv13 / dulu))
+               :ARG1 (vv14 / dalam
+                           :ARG0 (vv11 / belum)
+                           :mod (vv17 / jadi
+                                      :mod vv31)
+                           :mod (vv19 / saat)
+                           :mod (vv21 / juga)
+                           :mod (vv22 / cctv)
+                           :mod (vv23 / sekitar
+                                      :mod (vv27 / tahu
+                                                 :ARG1 (vv20 / cari
+                                                             :ARG0 (vv12 / apaapa)
+                                                             :mod (vv24 / lokasi
+                                                                        :mod (vv28 / kata
+                                                                                   :name vv32))
+                                                             :ARG1 (vv25 / bantu
+                                                                         :mod (vv29 / akbp
+                                                                                    :name vv33)
+                                                                         :ARG1 (vv30 / budiyanto))
+                                                             :location (vv26 / bisa)))))
+               :mod (vv15 / selesai
+                          :ARG1 (vv18 / masih))
+               :mod (vv16 / lidi)))
+

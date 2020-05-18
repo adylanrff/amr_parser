@@ -1,0 +1,30 @@
+# ::snt Mahkamah Agung Taiwan kemudian memberi waktu pada parlemen selama dua tahun untuk mengubah undang-undang, dan jika peraturan hukum tersebut disetujui Taiwan menjadi negara pertama di Asia yang secara resmi mengakui perkawinan sesama jenis.
+
+(vv1 / beri
+     :ARG0 (vv2 / mahkamah
+                :name (vv3 / agung
+                           :name (vv4 / taiwan)))
+     :mod (vv6 / waktu
+               :mod (vv8 / tahun
+                         :mod (vv10 / ubah
+                                    :ARG1 (vv12 / tuju
+                                                :ARG0 (vv5 / kemudian)
+                                                :mod (vv14 / atur
+                                                           :mod (vv16 / jadi
+                                                                      :ARG1 (vv18 / pertama)))
+                                                :ARG1 (vv15 / hukum)
+                                                :ARG1 (vv17 / negara
+                                                            :mod (vv19 / asia)
+                                                            :mod (vv20 / aku
+                                                                       :mod (vv22 / kawin
+                                                                                  :mod (vv24 / jenis)
+                                                                                  :mod vv25)
+                                                                       :ARG1 (vv23 / sama))
+                                                            :mod (vv21 / resmi))))))
+     :ARG1 (vv7 / parlemen)
+     :ARG1 (vv9 / dua)
+     :ARG1 (vv11 / undangundang)
+     :ARG1 (vv13 / dan))
+
+# ::snt Sementara itu, seorang aktivis gay Taiwan Chin Tsai seperti dilansir The Independent, berharap keputusan pernikahan sesama jenis ini akan menjadi pelopor di Asia.
+

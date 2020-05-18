@@ -1,0 +1,73 @@
+# ::snt Ironisnya, meski telah bersinggungan dengan pihak berwenang, ia masih bisa membeli senjata api secara legal, yang lantas digunakan untuk menghabisi nyawa puluhan pengunjung Pulse.
+
+(vv4 / beli
+     :mod (vv1 / singgung
+               :mod (vv2 / ironis)
+               :mod (vv3 / telah)
+               :ARG1 (vv5 / pihak
+                          :mod (vv6 / wenang)))
+     :ARG0 (vv7 / ia)
+     :mod (vv8 / masih)
+     :mod (vv9 / bisa)
+     :ARG1 (vv10 / senjata
+                 :mod (vv11 / api)
+                 :mod (vv12 / legal)
+                 :mod (vv13 / guna
+                            :mod (vv14 / lantas)
+                            :ARG1 (vv15 / habis
+                                        :ARG1 (vv16 / nyawa
+                                                    :mod (vv17 / puluh)
+                                                    :mod (vv18 / unjung
+                                                               :name (vv19 / pulse)))))))
+
+# ::snt Rahman mengaku tidak pernah diajak berbincang oleh Mateen ihwal homoseksualitas.
+
+(vv1 / aku
+     :ARG0 (vv2 / rahman)
+     :mod (vv3 / ajak
+               :mod (vv4 / tidak)
+               :mod (vv5 / pernah)
+               :ARG1 (vv6 / bincang)
+               :ARG1 (vv7 / mateen
+                          :mod (vv8 / ihwal
+                                    :mod (vv9 / homoseksualitas)))))
+
+# ::snt Sementara itu, sejumlah pihak, seperti diwartakan Los Angeles Times, mengatakan sang pelaku pernah mendatangi klub itu serta mencicipi aplikasi kencan dan mengobrol khusus gay.
+
+(vv1 / kata
+     :ARG0 (vv2 / pihak
+                :mod (vv3 / warta
+                          :location (vv4 / angeles
+                                         :mod (vv5 / times))))
+     :ARG1 (vv6 / laku)
+     :mod (vv7 / datang
+               :mod (vv8 / pernah)
+               :ARG1 (vv9 / klub)
+               :ARG0 (vv10 / cicip
+                           :mod (vv11 / serta)
+                           :ARG1 (vv12 / aplikasi
+                                       :mod (vv13 / kencan))
+                           :mod (vv14 / obrol
+                                      :mod (vv15 / dan)
+                                      :ARG1 (vv16 / gay
+                                                  :mod (vv17 / khusus))))))
+
+# ::snt Kevin West, seorang pengunjung rutin Pulse, mengaku Mateen tempo-tempo mengirimkan pesan kepadanya sebelum waktu penembakan lewat aplikasi termaksud.
+
+(vv1 / aku
+     :ARG0 (vv2 / kevin
+                :name (vv3 / west)
+                :mod (vv4 / unjung
+                          :mod (vv5 / rutin)
+                          :name (vv6 / pulse)))
+     :ARG0 (vv7 / mateen
+                :name (vv8 / tempotempo))
+     :mod (vv9 / kirim
+               :ARG1 (vv10 / pesan
+                           :mod (vv11 / waktu
+                                      :mod (vv12 / kepada)
+                                      :mod (vv13 / tembak)
+                                      :mod (vv14 / aplikasi
+                                                 :mod (vv15 / lewat))))
+               :mod (vv16 / maksud)))
+

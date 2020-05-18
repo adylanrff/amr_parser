@@ -1,0 +1,66 @@
+# ::snt Berdasarkan hasil toxilogy yang keluar baru-baru ini menyebutkan jika kematian Whitney Houston diakibatkan oleh serangan jantung dan penggunaan kokain.
+
+(vv3 / sebut
+     :ARG1 (vv1 / hasil
+                :mod (vv2 / dasar)
+                :mod (vv4 / toxilogy)
+                :mod (vv5 / keluar
+                          :ARG1 (vv6 / barubaru)))
+     :mod (vv7 / akibat
+               :ARG1 (vv8 / mati
+                          :mod (vv9 / whitney
+                                    :name (vv10 / houston)))
+               :location (vv11 / serang
+                               :mod (vv12 / jantung)
+                               :mod (vv13 / guna
+                                          :mod (vv14 / dan)
+                                          :mod (vv15 / kokain)))))
+
+# ::snt Keluarga Whitney yang mendengar sendiri laporan tersebut pun merasa sangat sedih, apalagi ternyata penyebabnya kematiannya adalah karena penggunakan kokain.
+
+(vv1 / rasa
+     :ARG0 (vv2 / keluarga
+                :mod (vv3 / whitney)
+                :mod (vv4 / dengar
+                          :mod (vv5 / sendiri)
+                          :ARG1 (vv6 / lapor
+                                     :mod (vv7 / pun))))
+     :ARG1 (vv8 / sedih
+                :mod (vv9 / sangat))
+     :mod (vv10 / guna
+                :mod (vv11 / apalagi)
+                :mod (vv12 / nyata)
+                :ARG0 (vv13 / sebab
+                            :mod (vv14 / mati))
+                :mod (vv15 / adalah)))
+
+# ::snt Patricia Houston, kakak ipar sekaligus manajer Whitney mengatakan, "Kami sangat sedih mengetahui hasil toxilogy tersebut, meskipun sekarang kami bisa lega karena ini tidak dirilis secara umum," ujarnya, dilansir Femalefirst, Jumat (23/3/2012).
+
+(vv1 / kata
+     :ARG0 (vv2 / patricia
+                :name (vv3 / houston)
+                :mod (vv4 / kakak
+                          :mod (vv5 / ipar))
+                :mod (vv6 / manajer
+                          :mod (vv7 / sekaligus)
+                          :name (vv8 / whitney)))
+     :ARG0 (vv9 / kami)
+     :ARG1 (vv11 / sangat)
+     :mod (vv13 / hasil
+                :mod (vv15 / lega
+                           :ARG0 (vv10 / sedih
+                                       :mod (vv12 / tahu
+                                                  :ARG1 (vv14 / toxilogy)
+                                                  :mod (vv16 / sekarang)))
+                           :time (vv17 / bisa)
+                           :mod (vv18 / rilis
+                                      :ARG1 (vv20 / tidak)
+                                      :mod (vv21 / umum)
+                                      :mod (vv22 / lansir
+                                                 :mod (vv24 / femalefirst
+                                                            :time (vv26 / 2332012)
+                                                            :mod vv27)
+                                                 :ARG0 (vv25 / jumat))
+                                      :mod (vv23 / ujar))
+                           :mod (vv19 / ini))))
+

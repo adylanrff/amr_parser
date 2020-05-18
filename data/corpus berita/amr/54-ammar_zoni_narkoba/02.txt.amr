@@ -1,0 +1,11 @@
+# ::snt "Saya nggak akan biarkan itu terjadi sama Ranty," sambungnya.
+
+(vv1 / jadi
+     :ARG1 (vv2 / saya)
+     :mod (vv3 / biar
+               :mod (vv4 / nggak)
+               :mod (vv5 / akan))
+     :mod (vv6 / sama)
+     :ARG0 (vv7 / ranty)
+     :ARG1 (vv8 / sambung))
+

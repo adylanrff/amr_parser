@@ -1,0 +1,42 @@
+# ::snt "Hasil visum, dipastikan korban meninggal akibat kekerasan benda tumpul, gagang cangkul–90% gagang masuk–melalui lubang kemaluan menembus rongga perut, rongga panggul, merobek hati, merobek rongga sekat dada kanan belakang pada paru-paru kanan bagian atas sehingga luka disertai pendarahan pada rongga dada dan rongga perut," terangnya.
+
+(vv1 / pasti
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / visum))
+     :ARG1 (vv4 / korban)
+     :ARG1 (vv5 / tinggal
+                :ARG1 (vv6 / akibat
+                           :mod (vv7 / keras
+                                     :mod (vv8 / benda)
+                                     :mod (vv9 / tumpul
+                                               :ARG1 (vv10 / gagang
+                                                           :mod (vv11 / cangkul 90)
+                                                           :mod (vv12 / masuk lalu
+                                                                      :ARG1 (vv14 / malu)
+                                                                      :ARG1 (vv16 / rongga
+                                                                                  :mod (vv18 / panggul)
+                                                                                  :mod (vv19 / robek
+                                                                                             :ARG1 (vv22 / dada
+                                                                                                         :mod (vv26 / bagi))
+                                                                                             :ARG1 (vv23 / kanan
+                                                                                                         :mod (vv28 / luka)
+                                                                                                         :mod (vv30 / dan)))
+                                                                                  :mod (vv20 / hati)
+                                                                                  :mod (vv21 / sekat)
+                                                                                  :mod (vv24 / belakang)
+                                                                                  :mod (vv25 / paruparu
+                                                                                             :mod (vv27 / serta
+                                                                                                        :location (vv17 / perut
+                                                                                                                        :mod vv35)
+                                                                                                        :ARG0 vv32
+                                                                                                        :ARG1 vv33))
+                                                                                  :mod (vv29 / darah)
+                                                                                  :mod vv34))
+                                                           :mod (vv13 / lubang
+                                                                      :mod (vv15 / tembus)))))))
+     :mod (vv31 / terang))
+
+# ::snt "Pada pemeriksaan luar, ditemukan luka terbuka pada pipi kanan, luka lecet pada pipi kanan akibat garpu, memar pada bibir atas dan bawah, luka lecet pada leher akibat cangkul," tambahnya.
+
+# ::snt Ketiga tersangka adalah Rahmat Arifin alias Arip, 23, karyawan buruh di satu pabrik yang sama dengan korban; Imam Harpiadi alias Imam, 23, pemuda yang sering nongkrong di dekat mess korban; dan RAL, 15, siswa kelas 2 sebuah SMP di Kosambi, Kabupaten Tangerang.
+

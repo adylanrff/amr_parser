@@ -1,0 +1,38 @@
+# ::snt "Kami berkomitmen untuk menjaga keselamatan penumpang dan juga awak kabin serta kami akan terus memastikan bahwa kami mengikuti standar keselamatan yang tertinggi," lanjut Ling Liong Tien.
+
+# ::snt Menurutnya, seluruh penumpang yang terkena dampak telah dipindahkan ke penerbangan berikutnya yang tersedia.
+
+(vv3 / pindah
+     :ARG1 (vv1 / tumpang
+                :mod (vv2 / turut)
+                :mod (vv4 / kena
+                          :ARG1 (vv5 / dampak)))
+     :mod (vv6 / telah)
+     :location (vv7 / terbang
+                    :mod (vv8 / ikut)
+                    :mod (vv9 / sedia)))
+
+# ::snt "Kepanikan meningkat karena perilaku staf yang berteriak, tampak menangis dan terkejut," imbuh Clare Askew yang juga menjadi penumpang pesawat saat wawancara dengan wartawan di bandara Perth.
+
+(vv1 / tingkat
+     :ARG0 (vv2 / panik)
+     :ARG0 (vv3 / perilaku
+                :mod (vv4 / staf)
+                :mod (vv5 / teriak
+                          :mod (vv6 / tampak)
+                          :ARG1 (vv7 / menang
+                                     :mod (vv8 / kejut
+                                               :mod (vv9 / dan)
+                                               :mod (vv10 / clare
+                                                          :mod (vv11 / imbuh)
+                                                          :name (vv12 / askew)
+                                                          :mod (vv13 / jadi
+                                                                     :mod (vv14 / juga)
+                                                                     :ARG1 (vv15 / tumpang
+                                                                                 :mod (vv16 / pesawat))
+                                                                     :location (vv17 / wawancara
+                                                                                     :mod (vv18 / saat)
+                                                                                     :mod (vv19 / wartawan
+                                                                                                :mod (vv20 / bandara
+                                                                                                           :mod (vv21 / perth)))))))))))
+

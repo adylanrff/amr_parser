@@ -1,0 +1,375 @@
+# ::snt Peristiwa memilukan ini terjadi gara-gara hal sepele yang berakhir pada nasib tragis Eno Parihah.
+
+# ::snt Berdasarkan penuturan pelaku pembunuhan Eno Parihah (19) dilatarbelakangi sakit hati para pelakunya karena cintanya ditolak korban.
+
+# ::snt Tiga pelakunya menyimpan dendam karena kecewa keinginan dan rasa sukanya ditolak Eno.
+
+(vv3 / simpan
+     :ARG0 (vv1 / laku
+                :mod (vv2 / tiga))
+     :ARG1 (vv4 / dendam)
+     :mod (vv5 / kecewa
+               :ARG1 (vv6 / ingin)
+               :mod (vv7 / tolak
+                         :mod (vv8 / dan)
+                         :ARG1 (vv9 / rasa
+                                    :mod (vv10 / suka))
+                         :ARG0 (vv11 / eno))))
+
+# ::snt Berdasarkan pengakuan tersangka dan olah TKP sementara, pemerkosaan dan pembunuhan tersebut dilakukan karena hal sepele dan terkesan spontan.
+
+(vv1 / laku
+     :mod (vv2 / dasar)
+     :location (vv3 / aku
+                    :mod (vv4 / sangka)
+                    :mod (vv5 / olah
+                              :mod (vv6 / dan)
+                              :mod (vv9 / bunuh
+                                        :mod (vv7 / tkp))))
+     :ARG1 (vv10 / hal
+                 :mod (vv13 / spontan))
+     :ARG1 (vv12 / kes
+                 :mod (vv8 / perkosa
+                           :mod (vv11 / sepele
+                                      :mod vv14))
+                 :mod vv15))
+
+# ::snt Ketiga pelaku pun tidak saling mengenal sebelum menghilangkan nyawa Eno.
+
+(vv3 / kenal
+     :ARG0 (vv1 / laku
+                :mod (vv2 / tiga))
+     :mod (vv4 / tidak)
+     :mod (vv5 / saling)
+     :mod (vv6 / hilang
+               :ARG1 (vv7 / nyawa
+                          :mod (vv8 / eno))))
+
+# ::snt Kejadian berawal saat Ral (16) bertandang ke mess tempat Enno tinggal.
+
+(vv1 / awal
+     :ARG0 (vv2 / jadi)
+     :mod (vv3 / tandang
+               :mod (vv4 / saat)
+               :ARG0 (vv5 / ral
+                          :mod (vv6 / 16))
+               :location (vv7 / mess
+                              :mod (vv8 / tempat
+                                        :mod (vv9 / enno))))
+     :mod (vv10 / tinggal))
+
+# ::snt Setelah berkenalan sekitar satu bulan dan menjalin komunikasi secara intens melalui handphone, Ral akhirnya mendatangi mess yang terdiri dari 13 kamar dan ditinggali 22 karyawati perempuan tersebut.
+
+# ::snt "Saat pertama kenalan, pelaku minta nomor handphone dan berhubungan intensif melalui sms," ujar Dirkrimum Polda Metro Jaya, Kombes Pol Krishna Murti, Selasa (17/5/2016) di Mapolda Metro Jaya.
+
+(vv1 / minta
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / kenal
+                :mod (vv4 / pertama)
+                :mod (vv5 / laku))
+     :ARG1 (vv6 / nomor
+                :mod (vv7 / handphone))
+     :ARG1 (vv8 / hubung
+                :mod (vv9 / dan)
+                :mod (vv10 / intensif)
+                :location (vv11 / sms
+                                :mod (vv12 / ujar
+                                           :name (vv13 / dirkrimum
+                                                       :name (vv14 / polda
+                                                                   :mod (vv15 / metro
+                                                                              :name (vv17 / kombes
+                                                                                          :name (vv20 / murti
+                                                                                                      :mod (vv23 / mapolda
+                                                                                                                 :mod (vv16 / jaya
+                                                                                                                            :name (vv19 / krishna
+                                                                                                                                        :name (vv22 / 1752016))))))
+                                                                              :name (vv18 / pol
+                                                                                          :name (vv21 / selasa
+                                                                                                      :mod vv24))))))
+                                :mod vv25)))
+
+# ::snt Sampai Kamis (12/5/2016) malam, Ral yang baru selesai main play station berkunjung ke tempat Eno.
+
+(vv1 / kunjung
+     :time (vv2 / kamis
+                :mod (vv3 / 1252016))
+     :ARG0 (vv4 / malam
+                :mod (vv5 / ral)
+                :mod (vv8 / main
+                          :mod (vv6 / selesai
+                                    :mod (vv7 / baru))
+                          :ARG1 (vv9 / play
+                                     :mod (vv10 / station))))
+     :location (vv11 / tempat
+                     :mod (vv12 / eno)))
+
+# ::snt "Diberitahu akan datang dan dibukakan pintu oleh korban," ujarnya.
+
+(vv1 / datang
+     :mod (vv2 / diberitahu)
+     :mod (vv3 / akan)
+     :mod (vv4 / buka
+               :mod (vv5 / dan)
+               :ARG1 (vv6 / pintu)
+               :ARG1 (vv7 / korban
+                          :mod (vv8 / ujar))))
+
+# ::snt Setelah dibukakan gerbang, Ral kemudian masuk ke dalam kamar ‎Eno yang letaknya menghadap kamar mandi.
+
+(vv1 / masuk
+     :ARG1 (vv2 / buka
+                :ARG1 (vv3 / gerbang
+                           :mod (vv4 / ral)))
+     :mod (vv5 / kemudian)
+     :location (vv6 / kamar
+                    :mod (vv8 / ‎eno)
+                    :mod (vv9 / hadap
+                              :ARG1 (vv7 / dalam)
+                              :ARG0 (vv10 / letak))
+                    :mod (vv11 / mandi)))
+
+# ::snt Mereka mengobrol dan berciuman sebelum akhirnya Ral mengajak berhubungan intim.
+
+(vv1 / obrol
+     :ARG0 (vv2 / mereka)
+     :mod (vv3 / cium
+               :mod (vv4 / dan))
+     :mod (vv5 / ajak
+               :mod (vv6 / akhir)
+               :ARG0 (vv7 / ral)
+               :ARG1 (vv8 / hubung
+                          :ARG1 (vv9 / intim))))
+
+# ::snt Ajakan tersebut ditolak Eno karena takut hamil.
+
+(vv1 / tolak
+     :ARG1 (vv2 / aja)
+     :ARG0 (vv3 / eno)
+     :ARG1 (vv4 / takut
+                :ARG1 (vv5 / hamil)))
+
+# ::snt Kecewa karena penolakan tersebut, Ral kemudian keluar mess yang aksesnya berada di samping bangunan.
+
+(vv1 / keluar
+     :mod (vv2 / kecewa)
+     :ARG0 (vv3 / tolak)
+     :ARG0 (vv4 / ral)
+     :mod (vv5 / kemudian)
+     :ARG1 (vv6 / mess
+                :mod (vv7 / ada
+                          :ARG0 (vv8 / akses)
+                          :location (vv9 / samping
+                                         :mod (vv10 / bangun)))))
+
+# ::snt Ia kemudian merokok di pintu gerbang Mess yang berada di samping Jalan Raya Perancis Pergudangan 8, Dadap, tanggerang, Banten.
+
+# ::snt Setelah menghabiskan rokok kurang lebih dua batang, kemudian muncul pelaku lainnya Rar alias Arif.
+
+(vv1 / muncul
+     :ARG1 (vv2 / habis
+                :ARG1 (vv3 / rokok))
+     :ARG0 (vv4 / batang
+                :mod (vv5 / kurang)
+                :mod (vv6 / lebih)
+                :mod (vv7 / dua))
+     :mod (vv8 / kemudian)
+     :ARG1 (vv9 / laku
+                :mod (vv10 / lain)
+                :mod (vv11 / rar
+                           :name (vv12 / alias
+                                       :name (vv13 / arif)))))
+
+# ::snt ‎Antara Ral dan Arif sebelumnya tidak saling mengenal.
+
+(vv1 / ‎antara
+     :name (vv2 / ral
+                :ARG1 (vv3 / arif
+                           :mod (vv4 / dan)))
+     :mod (vv5 / tidak)
+     :mod (vv6 / saling)
+     :mod (vv7 / kenal))
+
+# ::snt Arif menyakan keberadaan Ral yang berada di pintu gerbang messnya.
+
+(vv1 / nyak
+     :ARG0 (vv2 / arif)
+     :ARG1 (vv3 / ada
+                :mod (vv4 / ral)
+                :mod (vv5 / pintu
+                          :mod (vv7 / messnya))
+                :ARG1 (vv6 / gerbang
+                           :mod vv8)))
+
+# ::snt ‎"Arif kemudian bertanya sedang ngapain disini? Dan Ral menjawab punya teman bernama indah (Eno) di sini," kata Krishna.
+
+(vv1 / tanya
+     :ARG0 (vv2 / ‎arif)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / ngapain
+                :mod (vv5 / sedang))
+     :mod (vv6 / jawab
+               :mod (vv7 / sini)
+               :mod (vv9 / ral)
+               :ARG0 (vv10 / punya
+                           :ARG1 (vv12 / nama
+                                       :ARG1 (vv14 / eno)))
+               :ARG1 (vv11 / teman
+                           :mod (vv13 / indah
+                                      :mod (vv15 / kata
+                                                 :ARG1 (vv8 / dan)
+                                                 :name vv17))
+                           :mod (vv16 / krishna))))
+
+# ::snt Ral kemudian menceritakan hubungannya dengan Eno kepada Arif.
+
+(vv1 / cerita
+     :ARG0 (vv2 / ral)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / hubung)
+     :location (vv5 / eno)
+     :ARG1 (vv6 / arif))
+
+# ::snt Tidak lama berselang muculah IH alias Ilham.
+
+(vv1 / selang
+     :mod (vv2 / tidak)
+     :mod (vv3 / lama)
+     :ARG1 (vv4 / muculah
+                :name (vv5 / ih
+                           :ARG1 (vv6 / alias
+                                      :name (vv7 / ilham)))))
+
+# ::snt Arif sebelumnya tidak mengenal Ilham dan baru dikenalkan Ral.
+
+(vv1 / kenal
+     :ARG0 (vv2 / arif)
+     :mod (vv3 / tidak)
+     :ARG1 (vv4 / ilham)
+     :mod (vv5 / dan)
+     :mod (vv6 / baru)
+     :ARG1 (vv7 / ral))
+
+# ::snt Mereka kemudian terlibat pembicaraan dan ternyata mengalami nasib yang sama.
+
+(vv1 / libat
+     :ARG1 (vv2 / mereka)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / bicara)
+     :mod (vv5 / alami
+               :mod (vv6 / dan)
+               :mod (vv7 / nyata)
+               :ARG1 (vv8 / nasib
+                          :mod (vv9 / sama))))
+
+# ::snt Mereka kesal terhadap Eno karena rasa sukanya dan keinginannya tidak diterima.
+
+(vv1 / kesal
+     :ARG0 (vv2 / mereka)
+     :ARG1 (vv3 / eno)
+     :ARG1 (vv4 / rasa
+                :mod (vv5 / suka)
+                :mod (vv6 / ingin
+                          :mod (vv7 / dan)))
+     :ARG1 (vv8 / terima
+                :mod (vv9 / tidak)))
+
+# ::snt "Berdasarkan bukti keterangan, ketiganya berusaha melakukan pendekatan pada korban, tapi korban tidak mau," papar Krishna.
+
+# ::snt Setelah mengobrol ketiganya lalu kembali masuk ke Mess dengan maksud memperkosa Enno.‎
+
+(vv1 / obrol
+     :ARG1 (vv2 / tiga)
+     :mod (vv3 / masuk
+               :mod (vv4 / lalu)
+               :mod (vv5 / kembali)
+               :location (vv6 / mess)
+               :ARG1 (vv7 / maksud
+                          :mod (vv8 / perkosa
+                                    :ARG0 (vv9 / enno)))))
+
+# ::snt Saat masuk Enno yang sedang tidur terlentang lalu di‎bekap Ilham dengan bantal.
+
+(vv1 / masuk
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / enno
+                :mod (vv4 / tidur
+                          :mod (vv5 / sedang)
+                          :mod (vv6 / lentang)))
+     :mod (vv7 / di bekap
+               :mod (vv8 / lalu)
+               :ARG0 (vv9 / ilham)
+               :location (vv10 / bantal)))
+
+# ::snt Mereka lalu menganiaya Enno hingga di luar batas kemanusiaan menggunakan pacul yang berada di depan kamar Eno dan garpu yang dibawa pelaku.
+
+(vv1 / aniaya
+     :ARG0 (vv2 / mereka)
+     :mod (vv3 / lalu)
+     :ARG0 (vv4 / enno)
+     :location (vv5 / batas
+                    :mod (vv6 / luar)
+                    :mod (vv7 / manusia)
+                    :mod (vv8 / guna
+                              :ARG1 (vv9 / pacul
+                                         :mod (vv10 / ada
+                                                    :location (vv11 / depan
+                                                                    :mod (vv12 / kamar
+                                                                               :mod (vv13 / eno
+                                                                                          :mod (vv14 / garpu
+                                                                                                     :mod (vv15 / dan)
+                                                                                                     :mod (vv16 / bawa
+                                                                                                                :ARG1 (vv17 / laku)))))))))))
+
+# ::snt Bahkan seorang pelaku bernama Arif sempat memperkosa Eno sebelum membunuhnya.
+
+(vv1 / perkosa
+     :ARG1 (vv2 / bahkan)
+     :ARG0 (vv3 / laku
+                :mod (vv4 / nama
+                          :ARG0 (vv5 / arif)))
+     :mod (vv6 / sempat)
+     :ARG0 (vv7 / eno)
+     :ARG1 (vv8 / bunuh))
+
+# ::snt ‎Eno diduga meninggal karena adanya gagang pacul yang masuk ke dalam tubuhnya.
+
+(vv1 / duga
+     :ARG1 (vv2 / ‎eno)
+     :ARG1 (vv3 / tinggal
+                :mod (vv4 / ada
+                          :ARG1 (vv5 / gagang
+                                     :mod (vv6 / pacul)
+                                     :mod (vv7 / masuk
+                                               :ARG1 (vv8 / tubuh
+                                                          :mod (vv9 / dalam)))))))
+
+# ::snt Berdasarkan hasil autopsi, 90 persen gagang pacul masuk ke dalam tubuh Enno sehingga merusak sejumlah organ tubuh.
+
+(vv3 / masuk
+     :ARG1 (vv1 / hasil
+                :mod (vv2 / dasar)
+                :mod (vv4 / autopsi)
+                :mod (vv5 / persen
+                          :mod (vv6 / 90)))
+     :ARG0 (vv7 / gagang
+                :mod (vv8 / pacul))
+     :ARG1 (vv9 / tubuh
+                :mod (vv11 / enno)
+                :mod (vv12 / rusak
+                           :ARG1 vv14))
+     :mod (vv13 / organ
+                :mod (vv10 / dalam)))
+
+# ::snt Diantaranya yakni luka robek di bagian hati hingga ke bagian atas, luka robek di bagian paru-paru hingga ke bagian atas tubuh, pendarahan di rongga dada, luka di bagian kemaluan, dan luka di kedua payudara korban.
+
+# ::snt "Luka sangat dalam, pembunuhan biadab dan sadis," kata Krishna.
+
+(vv3 / luka
+     :mod (vv1 / bunuh
+               :mod (vv2 / sangat)
+               :mod (vv4 / biadab
+                         :mod (vv5 / sadis
+                                   :mod (vv6 / dan)
+                                   :ARG1 (vv7 / kata
+                                              :name (vv8 / krishna))))))
+

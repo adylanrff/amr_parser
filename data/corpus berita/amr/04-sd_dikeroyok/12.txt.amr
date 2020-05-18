@@ -1,0 +1,395 @@
+# ::snt Siswa SD yang bernama T (12) awalnya bermain bola dengan teman-teman sekelasnya.
+
+(vv1 / main
+     :ARG0 (vv2 / siswa
+                :name (vv3 / sd)
+                :mod (vv4 / nama
+                          :ARG1 (vv5 / t
+                                     :mod (vv6 / 12))))
+     :mod (vv7 / awal)
+     :ARG1 (vv8 / bola)
+     :ARG1 (vv9 / temanteman
+                :mod (vv10 / kelas)))
+
+# ::snt T siswa SDN Pakunden 1, Kota Kediri, Jawa Timur itu membuat gol bunuh diri, dan berujung penggeroyokan teman-temannya.
+
+(vv1 / buat
+     :ARG0 (vv2 / t
+                :mod (vv3 / siswa
+                          :mod (vv4 / sdn
+                                    :name (vv5 / pakunden
+                                               :mod (vv6 / 1)
+                                               :mod (vv7 / kota
+                                                         :mod (vv8 / diri
+                                                                   :mod (vv10 / timur)))))))
+     :ARG1 (vv12 / bunuh
+                 :ARG1 (vv9 / jawa
+                            :mod (vv11 / gol
+                                       :mod (vv13 / ujung
+                                                  :mod (vv15 / penggeroyokan
+                                                             :mod vv17)
+                                                  :ARG1 (vv16 / temantemannya)))))
+     :ARG1 (vv14 / dan))
+
+# ::snt Kejadian tersebut berlangsung hari Kamis (18/1/2018) saat jam istirahat di halaman sekolah.
+
+(vv1 / langsung
+     :ARG0 (vv2 / jadi)
+     :ARG1 (vv3 / hari
+                :mod (vv4 / kamis
+                          :mod (vv5 / 1812018)))
+     :ARG1 (vv6 / jam
+                :mod (vv7 / saat)
+                :mod (vv8 / istirahat)
+                :mod (vv9 / halaman
+                          :mod (vv10 / sekolah))))
+
+# ::snt 1. Kronologi
+
+(vv1 / 1
+     :name (vv2 / kronologi))
+
+# ::snt Kepala Bidang Pendidikan Dasar Kantor Dinas Pendidikan Kota Kediri Chevy Ning Suyudi menjelaskan, kasus kekerasan ini bermula dari main bola antara pelaku dan korban di halaman sekolah.
+
+(vv1 / jelas
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / bidang
+                          :mod (vv4 / didik
+                                    :mod (vv6 / kantor
+                                              :mod (vv8 / kota
+                                                        :mod (vv10 / chevy
+                                                                   :name (vv12 / suyudi))))
+                                    :mod (vv7 / dinas
+                                              :mod (vv5 / dasar)
+                                              :mod (vv9 / diri
+                                                        :mod (vv11 / ning
+                                                                   :name (vv13 / kasus
+                                                                               :mod (vv15 / mula
+                                                                                          :ARG1 (vv17 / bola)))))))))
+     :ARG1 (vv14 / keras)
+     :mod (vv16 / main
+                :ARG1 (vv18 / laku
+                            :mod (vv20 / dan))
+                :mod (vv19 / korban
+                           :mod (vv21 / halaman
+                                      :mod vv23)
+                           :mod (vv22 / sekolah))))
+
+# ::snt Dijelaskan Chevy, sebenarnya masalah ini telah diselesaikan pihak sekolah, korban dan pelaku telah berdamai.
+
+(vv1 / selesai
+     :mod (vv2 / jelas
+               :ARG0 (vv3 / chevy))
+     :mod (vv4 / benar)
+     :ARG1 (vv5 / masalah)
+     :mod (vv6 / telah)
+     :ARG0 (vv8 / sekolah
+                :mod (vv10 / laku
+                           :mod (vv12 / damai
+                                      :mod (vv7 / pihak
+                                                :mod (vv9 / korban))
+                                      :ARG0 (vv11 / dan))))
+     :mod vv13)
+
+# ::snt Namun, T mengalami trauma luka sehingga tubuhnya demam hingga harus dirawat di Ruang ICU.
+
+(vv1 / alami
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / t)
+     :ARG1 (vv4 / trauma
+                :mod (vv5 / luka))
+     :mod (vv6 / demam
+               :ARG0 (vv7 / tubuh)
+               :mod (vv8 / rawat
+                         :mod (vv9 / harus)
+                         :ARG1 (vv10 / ruang
+                                     :name (vv11 / icu)))))
+
+# ::snt 2. Keterangan orang tua korban
+
+(vv1 / terang
+     :mod (vv2 / 2)
+     :mod (vv3 / orang
+               :mod (vv4 / tua))
+     :mod (vv5 / korban))
+
+# ::snt Dari keterangan orangtua korban, salah satu dari ketiga pelaku yang memukul dan menendang pernah memalak atau meminta uang secara paksa kepada korban namun kejadian itu sudah berlangsung agak lama.
+
+(vv1 / malak
+     :ARG1 (vv2 / terang
+                :mod (vv3 / orangtua)
+                :mod (vv4 / korban
+                          :mod (vv6 / salah
+                                    :mod (vv8 / tiga))))
+     :mod (vv13 / minta
+                :ARG1 (vv5 / laku
+                           :mod (vv7 / satu)
+                           :mod (vv9 / pukul
+                                     :mod (vv11 / dan))
+                           :time (vv10 / tendang
+                                       :mod (vv12 / pernah)))
+                :mod (vv15 / uang)
+                :ARG1 (vv16 / paksa)
+                :mod (vv17 / langsung
+                           :mod (vv19 / jadi)
+                           :ARG0 (vv20 / sudah)
+                           :mod (vv21 / lama
+                                      :mod vv23)
+                           :mod (vv22 / agak)))
+     :mod (vv14 / atau)
+     :mod (vv18 / namun))
+
+# ::snt 3. Keterangan polisi
+
+(vv1 / terang
+     :mod (vv2 / 3)
+     :mod (vv3 / polisi))
+
+# ::snt Petugas Unit PPA Polresta Kediri telah melakukan pemeriksaan terhadap pelaku yang didampingi orangtua dan pendamping psikolog.
+
+# ::snt Pemeriksaan dilakukan di rumah salah satu warga Kelurahan Pakunden usai pulang sekolah.
+
+# ::snt Mengingat para pelaku masih di bawah umur, pemeriksaan yang dilakukan petugas Unit PPA tidak dilakukan secara formal tapi sambil duduk lesehan di rumah warga.
+
+(vv1 / laku
+     :mod (vv2 / ingat)
+     :mod (vv3 / masih)
+     :mod (vv4 / bawah
+               :mod (vv5 / umur
+                         :mod (vv6 / periksa)))
+     :ARG1 (vv7 / tugas
+                :mod (vv8 / unit
+                          :name (vv9 / ppa)))
+     :mod (vv10 / tidak)
+     :ARG1 (vv11 / formal)
+     :ARG1 (vv12 / duduk
+                 :mod (vv13 / tapi)
+                 :mod (vv14 / sambil)
+                 :ARG1 (vv15 / leseh)
+                 :ARG1 (vv16 / rumah
+                             :mod (vv17 / warga))))
+
+# ::snt Terkait pemicu pemukulan dan tendangan yang menimpa korban saat ini masih diselidiki.
+
+(vv1 / kait
+     :ARG1 (vv2 / picu
+                :time (vv3 / pukul
+                           :mod (vv4 / tendang
+                                     :mod (vv5 / dan))
+                           :mod (vv6 / timpa
+                                     :ARG1 (vv7 / korban)
+                                     :mod (vv8 / saat))))
+     :mod (vv9 / selidik
+               :mod (vv10 / masih)))
+
+# ::snt "Petugas masih terus melakukan penyelidikan," jelasnya.
+
+(vv1 / laku
+     :ARG0 (vv2 / tugas)
+     :mod (vv3 / masih)
+     :mod (vv4 / terus)
+     :ARG1 (vv5 / lidi
+                :mod (vv6 / jelas)))
+
+# ::snt Sejauh ini masih belum ada tersangka kasus kekerasan dengan korban dan pelaku masih anak-anak.
+
+(vv1 / ada
+     :ARG0 (vv2 / jauh)
+     :mod (vv3 / masih)
+     :mod (vv5 / sangka
+               :mod (vv7 / keras))
+     :ARG1 (vv6 / kasus
+                :mod (vv8 / korban
+                          :mod (vv10 / dan)))
+     :ARG1 (vv9 / laku
+                :mod (vv11 / anakanak
+                           :mod (vv4 / belum)))
+     :mod vv12)
+
+# ::snt 4. Jumlah Saksi bertambah
+
+(vv1 / jumlah
+     :mod (vv2 / 4)
+     :mod (vv3 / saksi)
+     :mod (vv4 / tambah))
+
+# ::snt Sementara penanganan perkaranya telah ditangani Unit PPA Polresta Kediri.
+
+(vv1 / tangan
+     :mod (vv2 / perkara)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / unit
+                :name (vv5 / ppa
+                           :name (vv6 / polresta
+                                      :name (vv7 / kediri)))))
+
+# ::snt Jumlah saksi yang diperiksa juga bertambah yang semula hanya 3 anak yang diduga melakukan pemukulan menjadi 7 anak.
+
+(vv1 / tambah
+     :ARG0 (vv2 / jumlah
+                :mod (vv3 / saksi)
+                :mod (vv4 / periksa))
+     :mod (vv5 / juga)
+     :ARG0 (vv6 / anak
+                :mod (vv8 / hanya)
+                :mod (vv9 / 3)
+                :mod (vv10 / duga)
+                :mod (vv11 / laku
+                           :time (vv13 / jadi
+                                       :ARG1 (vv7 / mula))
+                           :ARG1 (vv14 / 7))
+                :mod (vv12 / pukul)
+                :mod vv15))
+
+# ::snt Anak-anak ini telah dimintai keterangan petugas usai pelajaran sekolah pada Sabtu (27/1/2018).
+
+(vv1 / minta
+     :ARG1 (vv2 / anakanak)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / terang
+                :mod (vv5 / tugas)
+                :mod (vv6 / ajar
+                          :mod (vv7 / sekolah)))
+     :time (vv8 / sabtu
+                :mod (vv9 / 2712018)))
+
+# ::snt Pemeriksaan juga didampingi psikolog dan petugas dari Lembaga Perlindungan Anak (LPA) Kota Kediri.
+
+(vv1 / damping
+     :ARG1 (vv2 / periksa)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / psikolog
+                :mod (vv5 / tugas
+                          :mod (vv6 / dan)
+                          :mod (vv7 / lembaga
+                                    :mod (vv8 / lindung
+                                              :name (vv9 / anak
+                                                         :name (vv10 / lpa
+                                                                     :mod (vv11 / kota
+                                                                                :mod (vv12 / kediri)))))))))
+
+# ::snt 5. Kondisi korban
+
+(vv1 / kondisi
+     :mod (vv2 / 5)
+     :mod (vv3 / korban))
+
+# ::snt Akibat kenakalan teman-temannya itu, T harus dilarikan ke RS.
+
+(vv3 / lari
+     :ARG1 (vv1 / nakal
+                :mod (vv2 / akibat)
+                :mod (vv4 / temantemannya))
+     :ARG1 (vv5 / t)
+     :mod (vv6 / harus)
+     :location (vv7 / rs))
+
+# ::snt Bocah ini dirujuk ke RSUD Dr Soetomo karena membutuhkan penanganan dan perawatan medis secara khusus.
+
+(vv1 / rujuk
+     :ARG1 (vv2 / bocah)
+     :location (vv3 / rsud
+                    :name (vv4 / dr
+                               :name (vv5 / soetomo)))
+     :ARG1 (vv6 / butuh
+                :ARG1 (vv7 / tangan
+                           :mod (vv8 / awat
+                                     :mod (vv9 / dan)
+                                     :mod (vv10 / medis))
+                           :mod (vv11 / khusus))))
+
+# ::snt "Korban telah dirujuk dibawa ke RS Dr Sutomo yang memiliki peralatan medis lebih lengkap," ungkap Chevy Ning Suyudi, Kabid Pendidikan Dasar Kantor Dinas Pendidikan Kota Kediri kepada Surya, Minggu (28/1/2018).
+
+(vv1 / rujuk
+     :ARG1 (vv2 / korban)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / bawa
+                :location (vv5 / rs
+                               :name (vv6 / dr
+                                          :name (vv7 / sutomo))
+                               :mod (vv8 / milik
+                                         :ARG1 (vv9 / alat
+                                                    :mod (vv10 / medis)
+                                                    :mod (vv11 / lengkap
+                                                               :mod (vv12 / lebih)))
+                                         :ARG1 (vv13 / chevy
+                                                     :mod (vv14 / ungkap)
+                                                     :name (vv15 / ning
+                                                                 :name (vv16 / suyudi
+                                                                             :name (vv17 / kabid
+                                                                                         :mod (vv18 / didik
+                                                                                                    :mod (vv20 / kantor
+                                                                                                               :mod (vv22 / kota
+                                                                                                                          :name (vv24 / surya
+                                                                                                                                      :mod (vv26 / 2812018)
+                                                                                                                                      :mod vv27)))
+                                                                                                    :mod (vv21 / dinas
+                                                                                                               :mod (vv19 / dasar))
+                                                                                                    :mod (vv23 / kediri)))))
+                                                     :mod (vv25 / minggu))))))
+
+# ::snt Tim pendamping dari Diknas Kota Kediri telah membesuk T yang saat ini dalam perawatan intensif di ICU RS Dr Sutomo.
+
+(vv1 / besuk
+     :ARG0 (vv2 / tim
+                :mod (vv3 / damping)
+                :mod (vv4 / diknas
+                          :mod (vv5 / kota
+                                    :mod (vv6 / kediri))))
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / t)
+     :mod (vv9 / awat
+               :mod (vv10 / saat)
+               :mod (vv11 / intensif)
+               :mod (vv12 / icu
+                          :name (vv13 / rs
+                                      :name (vv14 / dr
+                                                  :name (vv15 / sutomo))))))
+
+# ::snt Selama perawatan, biaya rumah sakit juga akan dibantu oleh Pemkot Kediri.
+
+(vv1 / bantu
+     :mod (vv2 / awat
+               :mod (vv3 / biaya
+                         :mod (vv4 / rumah
+                                   :mod (vv5 / sakit))))
+     :mod (vv6 / juga)
+     :mod (vv7 / akan)
+     :location (vv8 / pemkot
+                    :mod (vv9 / diri)))
+
+# ::snt Kondisi korban saat ini mengalami gangguan syaraf setelah kemaluannya ditendang rekan-rekannya.
+
+(vv1 / alami
+     :ARG0 (vv2 / kondisi
+                :mod (vv3 / korban)
+                :mod (vv4 / saat))
+     :ARG1 (vv5 / ganggu
+                :mod (vv6 / syaraf))
+     :mod (vv7 / tendang
+               :ARG1 (vv8 / malu)
+               :ARG0 (vv9 / rekanrekannya)))
+
+# ::snt Selain lemas, korban juga sulit berbicara normal.
+
+(vv1 / bicara
+     :ARG1 (vv2 / lemas)
+     :ARG0 (vv3 / korban)
+     :mod (vv4 / juga)
+     :mod (vv5 / sulit)
+     :ARG1 (vv6 / normal))
+
+# ::snt Sementara dari hasil diagnosa awal, diduga T terkena virus sehingga kondisinya tubuhnya menjadi lemah.
+
+(vv5 / kena
+     :mod (vv1 / duga
+               :ARG1 (vv2 / hasil
+                          :mod (vv3 / diagnosa
+                                    :mod (vv4 / awal))))
+     :ARG1 (vv6 / t)
+     :ARG1 (vv7 / virus)
+     :mod (vv8 / jadi
+               :ARG0 (vv9 / kondisi
+                          :mod (vv10 / tubuh))
+               :mod (vv11 / lemah)))
+

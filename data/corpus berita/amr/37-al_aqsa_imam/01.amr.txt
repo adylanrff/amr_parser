@@ -1,0 +1,227 @@
+# ::snt Imam besar Masjid Al Aqsa, Yerusalem, Sheikh Ikrima Sabri, ditembak aparat kepolisian Israel memakai peluru karet seusai salat Isya.
+
+(vv1 / tembak
+     :ARG1 (vv2 / imam
+                :mod (vv3 / besar)
+                :mod (vv4 / masjid
+                          :mod (vv5 / al
+                                    :name (vv6 / aqsa
+                                               :name (vv7 / yerusalem
+                                                          :name (vv8 / sheikh
+                                                                     :name (vv9 / ikrima
+                                                                                :name (vv10 / sabri))))))))
+     :ARG1 (vv11 / aparat
+                 :mod (vv12 / polisi
+                            :mod (vv13 / israel)))
+     :ARG1 (vv14 / pakai
+                 :ARG1 (vv15 / peluru
+                             :mod (vv16 / karet)
+                             :mod (vv17 / salat
+                                        :mod (vv18 / isya)))))
+
+# ::snt Seperti diberitakan Anadolu, Rabu (19/7/2017), Sheikh Ikrima ditembak seusai salat Isya dan tengah berjalan di luar gerbang masjid tersebut, Selasa (18/7) malam.
+
+(vv1 / tembak
+     :ARG1 (vv2 / berita
+                :ARG0 (vv3 / anadolu
+                           :name (vv4 / rabu
+                                      :mod (vv5 / 1972017))))
+     :ARG1 (vv6 / sheikh
+                :name (vv7 / ikrima))
+     :ARG1 (vv8 / salat
+                :mod (vv9 / isya))
+     :mod (vv10 / jalan
+                :mod (vv11 / dan)
+                :mod (vv12 / tengah)
+                :location (vv13 / gerbang
+                                :mod (vv14 / luar)
+                                :mod (vv15 / masjid)
+                                :mod (vv16 / selasa
+                                           :mod (vv17 / malam
+                                                      :mod (vv18 / 187))))))
+
+# ::snt "Sheikh Ikrima ditembak polisi Israel seusai memimpin salat Isya. Saat itu, polisi Israel meminta jemaah bubar," demikian pernyataan resmi Yayasan Bulan Sabit Palestina yang merawat sang imam.
+
+(vv1 / tembak
+     :ARG1 (vv2 / sheikh
+                :name (vv3 / ikrima))
+     :ARG0 (vv4 / polisi
+                :mod (vv6 / pimpin
+                          :ARG1 (vv9 / saat)
+                          :ARG1 (vv11 / jemaah))
+                :mod (vv7 / salat
+                          :mod (vv10 / minta
+                                     :ARG0 (vv5 / israel)
+                                     :ARG1 (vv13 / demikian)
+                                     :ARG1 (vv14 / nyata
+                                                 :mod (vv17 / bulan
+                                                            :mod (vv20 / rawat
+                                                                       :ARG0 vv23))
+                                                 :name (vv18 / sabit
+                                                             :name (vv21 / imam))
+                                                 :mod vv22))))
+     :ARG1 (vv8 / isya)
+     :mod (vv12 / bubar
+                :mod (vv15 / resmi)
+                :ARG1 (vv16 / yayasan
+                            :mod (vv19 / palestina))))
+
+# ::snt Setelah ditembak, Sheikh Ikrima langsung dilarikan ke Rumah Sakit Al Maqassid bersama warga lainnya yang juga terluka dalam insiden tersebut.
+
+(vv1 / lari
+     :mod (vv2 / tembak
+               :ARG0 (vv3 / sheikh
+                          :name (vv4 / ikrima)))
+     :mod (vv5 / langsung)
+     :location (vv6 / rumah
+                    :name (vv7 / sakit
+                               :mod (vv8 / al
+                                         :name (vv9 / maqassid)))
+                    :mod (vv10 / warga
+                               :mod (vv11 / lain)
+                               :mod (vv12 / luka
+                                          :mod (vv13 / juga)
+                                          :ARG1 (vv14 / insiden)))))
+
+# ::snt Aksi brutal polisi Israel tersebut terjadi hanya dalam hitungan jam sesudah warga Palestina, Rafaat al-Herbawi (30), yang ikut aksi memprotes penutupan Masjid Al Aqsa terbunuh.
+
+(vv1 / jadi
+     :ARG1 (vv2 / aksi
+                :mod (vv4 / polisi
+                          :mod (vv6 / hanya))
+                :mod (vv5 / israel))
+     :mod (vv7 / hitung
+               :mod (vv9 / warga
+                         :mod (vv11 / rafaat
+                                    :mod (vv13 / 30))
+                         :mod (vv15 / protes
+                                    :ARG1 (vv17 / masjid
+                                                :mod (vv19 / aqsa))))
+               :mod (vv10 / palestina
+                          :name (vv12 / alherbawi
+                                      :mod (vv14 / ikut
+                                                 :ARG1 (vv3 / brutal)
+                                                 :ARG1 (vv16 / tutup
+                                                             :mod (vv18 / al
+                                                                        :name (vv20 / bunuh)))))))
+     :ARG1 (vv8 / jam)
+     :mod vv21)
+
+# ::snt Situasi di Yerusalem timur kembali memanas setelah Unesco mendaulat kota tua tersebut berikut kompleks Masjid Al Aqsa sebagai warisan dunia milik Palestina.
+
+(vv1 / panas
+     :ARG0 (vv2 / situasi
+                :mod (vv3 / yerusalem
+                          :name (vv4 / timur)))
+     :mod (vv5 / kembali)
+     :mod (vv6 / daulat
+               :ARG0 (vv7 / unesco)
+               :ARG0 (vv8 / kota
+                          :mod (vv9 / tua))
+               :ARG1 (vv10 / kompleks
+                           :mod (vv11 / ikut)
+                           :mod (vv12 / masjid
+                                      :mod (vv13 / al
+                                                 :name (vv14 / aqsa)))
+                           :mod (vv15 / waris
+                                      :mod (vv16 / dunia
+                                                 :mod (vv17 / milik
+                                                            :name (vv18 / palestina)))))))
+
+# ::snt Ketetapan badan Perserikatan Bangsa-Bangsa (PBB) itu membuat Israel murka. Mereka lantas menyiarkan klaim sebagai pemilik tunggal seluruh wilayah kota tua Yerusalem.
+
+(vv1 / buat
+     :ARG0 (vv2 / ketetapan
+                :mod (vv3 / badan
+                          :mod (vv4 / serikat
+                                    :name (vv5 / bangsabangsa
+                                               :name (vv6 / pbb)))))
+     :ARG0 (vv7 / israel)
+     :ARG1 (vv8 / murka)
+     :ARG1 (vv9 / siar
+                :ARG0 (vv10 / mereka)
+                :mod (vv11 / lantas)
+                :ARG1 (vv12 / klaim
+                            :mod (vv13 / milik
+                                       :mod (vv14 / tunggal)
+                                       :mod (vv15 / wilayah
+                                                  :mod (vv16 / kota
+                                                             :mod (vv17 / tua)
+                                                             :mod (vv18 / yerusalem)))))))
+
+# ::snt Karenanya, Senin (17/7), Menteri Keamanan Umum Israel Gilad Erdan menegaskan, pihaknya berwenang membuka ataupun menutup kompleks Masjid Al Aqsa dari pengunjung Palestina.
+
+(vv3 / tegas
+     :time (vv1 / senin
+                :mod (vv2 / karena)
+                :mod (vv4 / 177)
+                :name (vv5 / menteri
+                           :name (vv6 / aman
+                                      :mod (vv7 / umum
+                                                :mod (vv8 / israel
+                                                          :name (vv9 / gilad
+                                                                     :name (vv10 / erdan)))))))
+     :ARG0 (vv11 / pihak
+                 :mod (vv12 / wenang)
+                 :mod (vv13 / buka
+                            :mod (vv14 / tutup
+                                       :ARG1 (vv15 / kompleks
+                                                   :mod (vv16 / masjid
+                                                              :mod (vv17 / al
+                                                                         :name (vv18 / aqsa)))
+                                                   :mod (vv19 / unjung
+                                                              :name (vv20 / palestina)))))))
+
+# ::snt Klaim kepemilikan tunggal atas Yerusalem tersebut juga merupakan respons termutakhir Israel, setelah tiga pria bersenjata menyerang dua polisi Israel di kompleks masjid itu.
+
+# ::snt Sejak pekan lalu, Israel menutup kompleks masjid tua itu dari warga Palestina. Namun, Israel akhirnya kembali membuka akses ke masjid itu meski tetap memasang detektor logam dan kamera pengawas yang ditolak warga Palestina.
+
+# ::snt Sementara Kepala Pengelola Masjid Al Aqsa Sheikh Omar Qiswani tetap menyerukan kaum Muslim Palestina maupun Israel untuk menolak masuk ke kompleks suci tersebut kalau dipaksa melewati alat detektor logam.
+
+(vv1 / seru
+     :ARG0 (vv2 / kepala
+                :name (vv3 / kelola
+                           :mod (vv4 / masjid
+                                     :mod (vv5 / al
+                                               :name (vv6 / aqsa
+                                                          :name (vv7 / sheikh
+                                                                     :name (vv8 / omar
+                                                                                :name (vv9 / qiswani))))))))
+     :mod (vv10 / tetap)
+     :ARG1 (vv11 / kaum
+                 :mod (vv12 / muslim
+                            :name (vv13 / palestina
+                                        :mod (vv14 / israel
+                                                   :mod (vv15 / maupun)))))
+     :ARG1 (vv16 / tolak
+                 :ARG1 (vv17 / masuk
+                             :location (vv18 / kompleks
+                                             :mod (vv19 / suci)))
+                 :mod (vv20 / paksa
+                            :mod (vv21 / lewat
+                                       :ARG1 (vv22 / alat
+                                                   :mod (vv23 / detektor
+                                                              :mod (vv24 / logam)))))))
+
+# ::snt Ia memerintahkan jemaah untuk tetap berada di luar Gerbang Singa (Lion Gate) hingga Israel mencabut alat detektor dan kamera pengawas sebagai bentuk protes.
+
+(vv1 / perintah
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / jemaah)
+     :ARG1 (vv4 / ada
+                :mod (vv5 / tetap)
+                :location (vv6 / luar)
+                :ARG1 (vv7 / gerbang
+                           :mod (vv8 / singa
+                                     :name (vv9 / lion
+                                                :name (vv10 / gate)))))
+     :mod (vv11 / cabut
+                :ARG0 (vv12 / israel)
+                :ARG1 (vv13 / alat
+                            :mod (vv14 / detektor)
+                            :mod (vv15 / kamera
+                                       :mod (vv16 / dan)
+                                       :mod (vv17 / pengawas)
+                                       :mod (vv18 / bentuk
+                                                  :mod (vv19 / protes))))))
+

@@ -1,0 +1,42 @@
+# ::snt Saut menyatakan, pihaknya akan mempelajari penggeledahan yang dilakukan penyidik di Jambi tersebut.
+
+(vv1 / nyata
+     :ARG0 (vv2 / saut)
+     :ARG0 (vv3 / pihak)
+     :mod (vv4 / ajar
+               :mod (vv5 / akan)
+               :ARG1 (vv6 / geledah
+                          :mod (vv7 / laku
+                                    :location (vv8 / sidik)
+                                    :location (vv9 / jambi)))))
+
+# ::snt "Kita akan lihat perkembangan hasil hari ini seperti apa," ujarnya.
+
+(vv1 / lihat
+     :ARG0 (vv2 / kita)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / kembang
+                :mod (vv5 / hasil
+                          :time (vv6 / hari)))
+     :location (vv7 / apa
+                    :mod (vv8 / ujar)))
+
+# ::snt "Hasil dari pengembangan perkara belum dapat disampaikan saat ini," kata Febri dikonfirmasi sebelumnya.
+
+(vv1 / sampai
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / kembang
+                          :mod (vv4 / perkara)))
+     :mod (vv5 / belum)
+     :mod (vv6 / dapat)
+     :ARG1 (vv7 / saat)
+     :mod (vv8 / konfirmasi
+               :ARG1 (vv9 / kata
+                          :name (vv10 / febri))))
+
+# ::snt Sebelumnya, Kepala Bagian Humas dan Umum Direktorat Jenderal Imigrasi Kementerian Hukum dan HAM Agung Sampurno menyebut, dalam surat permintaan pencegahan yang diajukan KPK tercantum status Zumi Zola sebagai tersangka.
+
+# ::snt Mereka adalah Pelaksana tugas (Plt) Sekretaris Daerah Provinsi Jambi, Erwan Malik; Plt Kepala Dinas Pekerjaan Umum dan Perumahan Rakyat Jambi, Arfan; Asisten Daerah Bidang III Jambi Saipudin; dan Anggota DPRD Jambi dari Fraksi PAN, Supriyono.
+
+# ::snt Dari OTT, KPK mengamankan uang sebesar Rp4,7 miliar dari total Rp6 miliar yang diduga telah disiapkan pihak Pemprov Jambi untuk anggota DPRD Jambi.
+

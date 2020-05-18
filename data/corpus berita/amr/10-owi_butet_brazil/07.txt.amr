@@ -1,0 +1,145 @@
+# ::snt Kontingen Indonesia akhirnya berhasil meraih medali emas pada Olimpiade ke-31 di Rio de Janeiro, Brazil, setelah dalam cabang bulu tangkis nomor ganda campuran pasangan Tontowi Ahmad/Liliyana Natsir menaklukkan Chan Peng Soon/Goh Liu Ying dari Malaysia 21-14, 21-12 pada pertandingan final, Rabu (17/8).
+
+(vv1 / hasil
+     :ARG0 (vv2 / kontingen
+                :mod (vv3 / indonesia))
+     :mod (vv4 / akhir)
+     :ARG1 (vv5 / raih
+                :ARG1 (vv6 / medali
+                           :mod (vv7 / emas))
+                :location (vv8 / olimpiade
+                               :mod (vv9 / ke31))
+                :ARG1 (vv10 / rio
+                            :mod (vv11 / de
+                                       :name (vv12 / janeiro
+                                                   :name (vv13 / brazil))))
+                :ARG1 (vv14 / cabang
+                            :mod (vv15 / bulu
+                                       :mod (vv16 / tangkis)
+                                       :mod (vv17 / nomor
+                                                  :mod (vv18 / ganda)
+                                                  :mod (vv19 / campur
+                                                             :mod (vv20 / pasang
+                                                                        :mod (vv21 / tontowi
+                                                                                   :name (vv22 / ahmadliliyana
+                                                                                               :name (vv23 / natsir)))))))
+                            :mod (vv24 / takluk
+                                       :ARG0 (vv25 / chan
+                                                   :name (vv26 / peng
+                                                               :name (vv27 / soongoh
+                                                                           :name (vv28 / liu
+                                                                                       :name (vv29 / ying))))
+                                                   :mod (vv30 / malaysia
+                                                              :mod (vv31 / 2114)
+                                                              :mod (vv32 / 2112)))
+                                       :ARG1 (vv33 / tanding
+                                                   :mod (vv34 / final
+                                                              :mod (vv35 / rabu
+                                                                         :mod (vv36 / 178))))))))
+
+# ::snt Medali emas yang diraih Tontowi/Liliyana yang bertepatan dengan Hari Kemerdekaan Republik Indonesia 17 Agustus tersebut merupakan emas pertama bagi Indonesia di Olimipade 2016 ini.
+
+(vv1 / rupa
+     :ARG0 (vv2 / medali
+                :mod (vv3 / emas
+                          :mod (vv12 / 17)
+                          :mod (vv15 / 2016)
+                          :mod vv16)
+                :mod (vv5 / tontowililiyana)
+                :time (vv7 / hari
+                           :mod (vv9 / republik
+                                     :mod (vv11 / agustus
+                                                :mod (vv14 / olimipade
+                                                           :mod vv17)))
+                           :mod (vv13 / pertama)))
+     :ARG1 (vv4 / raih
+                :ARG0 (vv6 / tepat
+                           :time (vv8 / merdeka
+                                      :name (vv10 / indonesia)))))
+
+# ::snt Sebelumnya kontingen Indonesia sudah mengantongi dua medali perak melalui cabang angkat besi.
+
+(vv1 / kantong
+     :ARG0 (vv2 / kontingen
+                :mod (vv3 / indonesia))
+     :mod (vv4 / sudah)
+     :ARG1 (vv5 / medali
+                :mod (vv6 / dua)
+                :mod (vv7 / perak))
+     :location (vv8 / cabang
+                    :mod (vv9 / angkat)
+                    :mod (vv10 / besi)))
+
+# ::snt Kemenangan tersebut mendapat sambutan antusias dari penonton di arena bulu tangkis Riocentro, termasuk sekitar 100 orang Indonesia yang terus memberi dukungan semangat bagi Tontowi/Liliyana.
+
+(vv1 / dapat
+     :ARG0 (vv2 / menang)
+     :ARG1 (vv3 / sambut
+                :mod (vv4 / antusias)
+                :mod (vv5 / tonton
+                          :mod (vv6 / arena
+                                    :mod (vv7 / bulu
+                                              :mod (vv8 / tangkis
+                                                        :name (vv9 / riocentro))))))
+     :ARG1 (vv10 / masuk
+                 :ARG1 (vv11 / orang
+                             :mod (vv12 / 100)
+                             :mod (vv13 / indonesia)
+                             :mod (vv14 / beri
+                                        :mod (vv15 / terus)
+                                        :ARG1 (vv16 / dukung
+                                                    :mod (vv17 / semangat))
+                                        :ARG1 (vv18 / tontowililiyana)))))
+
+# ::snt Suporter Indonesia, termasuk Dubes RI untuk Brazil Toto Riyanto mendukung langsung penampilan pasangan Indonesia setelah pagi harinya menggelar Peringatan HUT ke-71 Kemerdekaan Indonesia di Posko Kontingen Indonesia di Rio de Janeiro.
+
+# ::snt Malaysia sendiri juga mengerahkan suporter cukup banyak dalam pertandingan tersebut, lengkap dengan atribut dan seragam "Harimau Malaya".
+
+(vv1 / kerah
+     :ARG0 (vv2 / malaysia)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / suporter)
+     :ARG1 (vv7 / tanding
+                :mod (vv5 / banyak
+                          :mod (vv6 / cukup))
+                :mod (vv8 / lengkap
+                          :mod (vv9 / atribut
+                                    :ARG1 (vv10 / seragam
+                                                :mod (vv11 / dan)
+                                                :mod (vv12 / harimau
+                                                           :name (vv13 / malaya)))))))
+
+# ::snt Chan/Goh merupakan pasangan ganda campuran Malaysia peringkat 11 dunia yang membuat kejutan dalam Olimpiade 2016 ini karena dalam perjalanannnya ke final berhasil mengalahkan pemain-pemain yang berperingkat di atasnya.
+
+# ::snt Game kedua, pasangan Indonesia tetap menekakan memimpin perburuan skor 9-6, 10-6 dengan memanfaatkan bola-bola tanggung Chan/Goh.
+
+(vv1 / neka
+     :ARG0 (vv2 / game
+                :mod (vv3 / pasang
+                          :mod (vv4 / dua)
+                          :mod (vv5 / indonesia)))
+     :mod (vv6 / tetap)
+     :ARG1 (vv7 / pimpin
+                :ARG1 (vv8 / buru
+                           :mod (vv9 / skor
+                                     :mod (vv10 / 96)
+                                     :mod (vv11 / 106)))
+                :ARG1 (vv12 / manfaat
+                            :ARG1 (vv13 / bolabola
+                                        :mod (vv14 / tanggung
+                                                   :name (vv15 / changoh))))))
+
+# ::snt Pada posisi 20-12 pukulah Goh menyangkut, dan medali emas pun dirah Indonesia.
+
+(vv1 / sangkut
+     :location (vv2 / posisi
+                    :mod (vv3 / 2012))
+     :ARG0 (vv4 / pukulah
+                :name (vv5 / goh))
+     :ARG1 (vv6 / medali
+                :mod (vv7 / dan)
+                :mod (vv8 / emas)
+                :mod (vv9 / pun)
+                :mod (vv10 / dirah
+                           :name (vv11 / indonesia))))
+

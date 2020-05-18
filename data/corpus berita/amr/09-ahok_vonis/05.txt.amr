@@ -1,0 +1,46 @@
+# ::snt Majelis hakim Pengadilan Negeri Jakarta Utara menjatuhkan vonis bersalah terhadap Basuki Tjahaja Purnama atau Ahok dalam kasus dugaan penodaan agama.
+
+(vv1 / jatuh
+     :ARG0 (vv2 / majelis
+                :mod (vv3 / hakim
+                          :mod (vv4 / adil
+                                    :mod (vv5 / negeri
+                                              :name (vv6 / jakarta
+                                                         :mod (vv7 / utara))))))
+     :ARG1 (vv8 / vonis
+                :mod (vv9 / salah
+                          :ARG1 (vv10 / basuki
+                                      :name (vv11 / tjahaja
+                                                  :name (vv12 / purnama)
+                                                  :mod (vv13 / ahok
+                                                             :mod (vv14 / atau))))))
+     :ARG1 (vv15 / kasus
+                 :mod (vv16 / duga
+                            :mod (vv17 / noda
+                                       :mod (vv18 / agama)))))
+
+# ::snt Majelis hakim yang diketuai Dwiarso Budi Santiarto menyatakan terdakwa Ahok bersalah dalam kasus penodaan agama dan dihukum penjara selama 2 tahun.
+
+(vv1 / nyata
+     :ARG0 (vv2 / majelis
+                :mod (vv3 / hakim)
+                :mod (vv4 / tuai
+                          :ARG0 (vv5 / dwiarso
+                                     :name (vv6 / budi
+                                                :name (vv7 / santiarto)))))
+     :ARG1 (vv8 / dakwa
+                :name (vv9 / ahok))
+     :mod (vv10 / salah
+                :ARG1 (vv11 / kasus
+                            :mod (vv12 / noda
+                                       :mod (vv13 / agama)))
+                :mod (vv14 / hukum
+                           :mod (vv15 / dan)
+                           :ARG1 (vv16 / penjara)
+                           :ARG1 (vv17 / tahun
+                                       :mod (vv18 / 2)))))
+
+# ::snt "Menyatakan Ir Basuki Tjahaja Purnama terbukti secara sah dan meyakinkan melakukan tindak pidana penodaan agama dan menjatuhkan pidana penjara 2 tahun dan memerintahkan terdakwa ditahan," tegas Dwiarso dalam persidangan di Gedung Auditorium Kementerian Pertanian, Jakarta Selatan, Selasa (9/5/2017).
+
+# ::snt Vonis ini lebih berat dari tuntutan Jaksa Penuntut Umum (JPU) yang hanya menuntut terdakwa dengan hukuman 1 tahun penjara dengan masa percobaan 2 tahun.
+

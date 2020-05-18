@@ -1,0 +1,154 @@
+# ::snt Korban serangan bom bunuh diri yang terjadi di pusat kota Kabul, Afghanistan, dilaporkan meningkat.
+
+(vv1 / bunuh
+     :ARG0 (vv2 / korban
+                :mod (vv3 / serang
+                          :mod (vv4 / bom)))
+     :ARG1 (vv5 / diri
+                :mod (vv6 / jadi
+                          :location (vv7 / pusat
+                                         :mod (vv8 / kota
+                                                   :name (vv9 / kabul
+                                                              :name (vv10 / afghanistan))))))
+     :mod (vv11 / lapor
+                :ARG1 (vv12 / tingkat)))
+
+# ::snt Juru Bicara Kementerian Kesehatan, Waheed Majroh berkata, korban tewas bom yang dipasang di ambulans itu telah mencapai 95 orang.
+
+(vv1 / kata
+     :ARG0 (vv2 / juru
+                :name (vv3 / bicara
+                           :name (vv4 / menteri
+                                      :mod (vv5 / sehat
+                                                :name (vv6 / waheed
+                                                           :name (vv7 / majroh))))))
+     :ARG1 (vv8 / korban
+                :mod (vv9 / tewas
+                          :ARG1 (vv10 / bom
+                                      :mod (vv11 / pasang
+                                                 :ARG1 (vv12 / ambulans)))))
+     :mod (vv13 / capai
+                :mod (vv14 / telah)
+                :ARG1 (vv15 / orang
+                            :mod (vv16 / 95))))
+
+# ::snt "Selain itu, kami memperoleh konfirmasi terdapat 158 orang terluka," ujar Majroh dikutip oleh AFP Sabtu (27/1/2018).
+
+(vv1 / oleh
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / konfirmasi)
+     :ARG1 (vv4 / dapat
+                :ARG1 (vv5 / orang
+                           :mod (vv6 / 158)
+                           :mod (vv7 / luka)))
+     :mod (vv8 / kutip
+               :mod (vv9 / ujar)
+               :ARG1 (vv10 / majroh)
+               :ARG1 (vv11 / afp
+                           :name (vv12 / sabtu
+                                       :mod (vv13 / 2712018)))))
+
+# ::snt Sebelumnya, jumlah korban tewas mencapai 40 orang, sedangkan 140 orang lainnya menderita luka-luka.
+
+(vv1 / tewas
+     :ARG0 (vv2 / jumlah
+                :mod (vv3 / korban))
+     :ARG1 (vv4 / capai
+                :ARG1 (vv5 / orang
+                           :mod (vv7 / derita
+                                     :ARG0 (vv6 / 40)
+                                     :mod (vv9 / 140)
+                                     :ARG1 vv12)
+                           :mod (vv10 / lain)
+                           :mod (vv11 / lukaluka)))
+     :mod (vv8 / sedang))
+
+# ::snt Seorang pria kepada Ariana TV berkata, Unit Gawat Darurat Rumah Sakit Jamuriate begitu kewalahan merawat korban luka aksi teror yang diklaim oleh Taliban tersebut.
+
+(vv1 / kata
+     :ARG0 (vv2 / pria
+                :mod (vv3 / ariana
+                          :name (vv4 / tv)))
+     :ARG1 (vv5 / unit
+                :mod (vv6 / gawat
+                          :mod (vv7 / darurat
+                                    :mod (vv8 / rumah
+                                              :name (vv9 / sakit
+                                                         :name (vv10 / jamuriate))))))
+     :ARG1 (vv11 / rawat
+                 :mod (vv12 / begitu)
+                 :mod (vv13 / kewalahan)
+                 :ARG1 (vv14 / korban
+                             :mod (vv15 / luka
+                                        :mod (vv16 / aksi
+                                                   :mod (vv17 / teror)))
+                             :mod (vv18 / klaim
+                                        :location (vv19 / talib)))))
+
+# ::snt "Bagi korban dengan luka yang tidak membahayakan hidup, rumah sakit meminta mereka pergi ke tempat lain," tutur pria tersebut.
+
+(vv1 / minta
+     :ARG1 (vv2 / korban
+                :mod (vv3 / luka
+                          :mod (vv4 / bahaya
+                                    :mod (vv5 / tidak)
+                                    :ARG1 (vv6 / hidup
+                                               :mod (vv7 / rumah
+                                                         :mod (vv8 / sakit))))))
+     :ARG1 (vv9 / pergi
+                :ARG0 (vv10 / mereka)
+                :location (vv11 / tempat
+                                :mod (vv12 / lain)
+                                :mod (vv13 / tutur
+                                           :mod (vv14 / pria)))))
+
+# ::snt Sebelumnya, Taliban menggunakan ambulans yang diisi peledak sebagai media serangan.
+
+(vv1 / guna
+     :ARG0 (vv2 / talib)
+     :ARG1 (vv3 / ambulans
+                :mod (vv4 / isi
+                          :ARG1 (vv5 / ledak)
+                          :ARG1 (vv6 / media
+                                     :mod (vv7 / serang)))))
+
+# ::snt "Pelaku awalnya berhasil lolos pos pemeriksaan pertama dengan dalih mengantar pasien ke Rumah Sakit Jamuriate," papar Juru Bicara Kementerian Dalam Negeri, Nasrat Rahimi.
+
+# ::snt Namun, di pos pemeriksaan kedua, salah satu polisi mengenalinya sehingga pelaku tidak mempunyai jalan lain selain meledakkan diri.
+
+# ::snt Adapun BBC melaporkan, ledakan itu terjadi di bangunan lama kementerian dalam negeri, dan kantor Uni Eropa dan Dewan Perdamaian.
+
+# ::snt Ini merupakan serangan mematikan kedua yang dilakukan oleh Taliban dalam kurun waktu satu pekan terakhir.
+
+(vv1 / rupa
+     :ARG0 (vv2 / ini)
+     :ARG1 (vv3 / serang
+                :mod (vv4 / mati
+                          :mod (vv5 / dua))
+                :mod (vv6 / laku
+                          :ARG1 (vv7 / taliban)
+                          :time (vv8 / kurun
+                                     :mod (vv9 / waktu
+                                               :mod (vv10 / pekan
+                                                          :mod (vv11 / satu)
+                                                          :mod (vv12 / akhir)))))))
+
+# ::snt Pekan lalu (20/1/2018), mereka menyerang Hotel Intercontinental, dan menewaskan 25 orang, dengan 13 di antaranya merupakan warga asing.
+
+(vv1 / serang
+     :ARG0 (vv2 / pekan
+                :mod (vv3 / lalu)
+                :mod (vv4 / 2012018))
+     :ARG0 (vv5 / mereka)
+     :ARG1 (vv6 / hotel
+                :name (vv7 / intercontinental))
+     :mod (vv8 / tewas
+               :mod (vv9 / dan)
+               :ARG1 (vv10 / orang
+                           :mod (vv11 / 25))
+               :mod (vv12 / 13)
+               :ARG1 (vv13 / rupa
+                           :mod (vv14 / antara)
+                           :ARG0 (vv15 / warga
+                                       :mod (vv16 / asing)))))
+

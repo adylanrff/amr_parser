@@ -1,0 +1,120 @@
+# ::snt Anggota tim advokasi Koalisi Merah Putih, Didi Supriyanto, mengatakan bahwa kubu pasangan Prabowo Subianto-Hatta Rajasa saat ini tengah memfokuskan diri menguji materi sejumlah Peraturan Komisi Pemilihan Umum (PKPU) di Mahkamah Agung (MA).
+
+(vv1 / kata
+     :ARG0 (vv2 / anggota
+                :mod (vv3 / tim
+                          :mod (vv4 / advokasi)
+                          :mod (vv5 / koalisi
+                                    :mod (vv6 / merah
+                                              :mod (vv7 / putih
+                                                        :name (vv8 / didi
+                                                                   :name (vv9 / supriyanto)))))))
+     :mod (vv10 / fokus
+                :ARG0 (vv11 / kubu
+                            :mod (vv12 / pasang
+                                       :name (vv13 / prabowo
+                                                   :name (vv14 / subiantohatta
+                                                               :name (vv15 / rajasa)))))
+                :ARG1 (vv16 / saat)
+                :mod (vv17 / tengah)
+                :ARG1 (vv18 / diri)
+                :ARG1 (vv19 / uji
+                            :ARG1 (vv20 / materi
+                                        :mod (vv21 / peraturan
+                                                   :mod (vv22 / komisi
+                                                              :mod (vv23 / pilih
+                                                                         :mod (vv24 / umum
+                                                                                    :name (vv25 / pkpu)))))
+                                        :mod (vv26 / mahkamah
+                                                   :name (vv27 / agung
+                                                               :name (vv28 / ma)))))))
+
+# ::snt "Itu yang kami lakukan judicial review di MA," ujar dia.
+
+(vv3 / itu
+     :mod (vv1 / laku
+               :ARG0 (vv2 / kami)
+               :ARG1 (vv4 / judicial
+                          :mod (vv5 / review))
+               :ARG1 (vv6 / ma)
+               :mod (vv7 / ujar))
+     :mod (vv8 / dia))
+
+# ::snt Didi menekankan bahwa upaya uji materi empat PKPU di MA sama sekali bukan merupakan rencana menggagalkan hasil Pilpres 2014 atau mengacaukan putusan Mahkamah Konstitusi atas gugatan Pilpres 2014.
+
+(vv1 / tekan
+     :ARG0 (vv2 / didi)
+     :mod (vv3 / rupa
+               :ARG0 (vv4 / upaya
+                          :mod (vv5 / uji
+                                    :mod (vv6 / materi
+                                              :mod (vv7 / empat)))
+                          :mod (vv8 / pkpu)
+                          :mod (vv9 / ma))
+               :mod (vv10 / sama
+                          :mod (vv11 / sekali))
+               :mod (vv12 / bukan)
+               :ARG1 (vv13 / rencana
+                           :mod (vv14 / gagal
+                                      :ARG1 (vv15 / hasil
+                                                  :mod (vv16 / pilpres
+                                                             :mod (vv18 / acau
+                                                                        :mod (vv21 / mahkamah
+                                                                                   :mod vv24)
+                                                                        :ARG1 (vv22 / konstitusi)
+                                                                        :mod vv25)))))
+               :mod (vv20 / putus
+                          :mod (vv23 / gugat
+                                     :name (vv17 / 2014)
+                                     :mod (vv19 / atau)))))
+
+# ::snt Uji materi PKPU di MA disebutnya semata-mata demi perbaikan proses pilpres ke depan.
+
+(vv1 / sebut
+     :ARG1 (vv2 / uji
+                :mod (vv3 / materi
+                          :name (vv4 / pkpu))
+                :mod (vv5 / ma))
+     :mod (vv6 / sematamata)
+     :ARG1 (vv7 / baik
+                :mod (vv8 / proses
+                          :mod (vv9 / pilpres))
+                :mod (vv10 / depan)))
+
+# ::snt Sementara itu, selain melakukan uji materi PKPU di MA, tim advokasi juga tengah mengawal sejumlah perkara lain di kepolisian.
+
+(vv1 / awal
+     :ARG1 (vv2 / laku
+                :ARG1 (vv3 / uji
+                           :mod (vv4 / materi
+                                     :name (vv5 / pkpu))
+                           :mod (vv6 / ma
+                                     :mod (vv7 / tim
+                                               :mod (vv8 / advokasi)))))
+     :mod (vv9 / juga)
+     :mod (vv10 / tengah)
+     :ARG1 (vv11 / perkara
+                 :mod (vv12 / lain))
+     :location (vv13 / polisi))
+
+# ::snt Didi juga menyampaikan, pengajuan upaya hukum ke Pengadilan Tata Usaha Negara (PTUN) bukan dilayangkan oleh tim advokasi Prabowo-Hatta, melainkan oleh masyarakat.
+
+(vv1 / sampai
+     :ARG0 (vv2 / didi)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / aju
+                :mod (vv5 / upaya
+                          :mod (vv6 / hukum))
+                :mod (vv7 / pengadilan
+                          :mod (vv8 / tata
+                                    :mod (vv9 / usaha
+                                              :name (vv10 / negara
+                                                          :name (vv11 / ptun))))))
+     :mod (vv12 / layang
+                :mod (vv13 / bukan)
+                :location (vv14 / tim
+                                :mod (vv15 / advokasi
+                                           :name (vv16 / prabowohatta)))
+                :location (vv17 / masyarakat
+                                :mod (vv18 / lain))))
+

@@ -1,0 +1,48 @@
+# ::snt Perusahaan e-commerce marketplace terbesar di Indonesia, Tokopedia, mengumumkan bahwa mereka telah mengumpulkan pendanaan babak baru dari sejumlah investor yang dipimpin oleh raksasa e-commerce Alibaba Group asal China.
+
+# ::snt Pendiri sekaligus CEO Tokopedia, William Tanuwijaya, mengumumkan pendanaan babak baru ini telah terkumpul sebesar 1,1 miliar dolar AS atau setara Rp 14,6 triliun.
+
+(vv1 / umum
+     :ARG0 (vv2 / diri
+                :mod (vv3 / sekaligus)
+                :mod (vv4 / ceo
+                          :name (vv5 / tokopedia
+                                     :name (vv6 / william
+                                                :name (vv7 / tanuwijaya)))))
+     :ARG1 (vv8 / dana
+                :mod (vv9 / babak
+                          :mod (vv10 / baru)))
+     :mod (vv11 / kumpul
+                :mod (vv12 / telah)
+                :ARG1 (vv13 / dolar
+                            :mod (vv14 / besar)
+                            :mod (vv15 / miliar
+                                       :mod (vv16 / 11))
+                            :mod (vv17 / as)
+                            :mod (vv18 / tara
+                                       :mod (vv19 / atau)
+                                       :ARG1 (vv20 / rp
+                                                   :mod (vv21 / triliun
+                                                              :mod (vv22 / 146)))))))
+
+# ::snt "Alibaba menjadi pemegang saham minoritas di Tokopedia," kata William, yang disambut tepuk tangan oleh para mitra bisnis yang hadir ke acara ulang tahun Tokopedia yang ke-8 di Jakarta, Kamis (17/8).
+
+# ::snt Pusat riset itu nantinya juga diarahkan untuk mengakselerasi kemajuan mitra pedagang di Tokopedia yang saat ini jumlahnya mencapai 2 juta merchant.
+
+(vv1 / arah
+     :ARG1 (vv2 / pusat
+                :mod (vv3 / riset))
+     :mod (vv4 / nanti)
+     :mod (vv5 / juga)
+     :ARG1 (vv6 / akselerasi
+                :ARG1 (vv7 / maju
+                           :mod (vv8 / mitra
+                                     :mod (vv9 / dagang))
+                           :mod (vv10 / tokopedia)
+                           :mod (vv11 / capai
+                                      :mod (vv12 / saat)
+                                      :ARG0 (vv13 / jumlah)
+                                      :ARG1 (vv16 / merchant
+                                                  :mod (vv14 / juta
+                                                             :mod (vv15 / 2)))))))
+

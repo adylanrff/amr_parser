@@ -1,0 +1,76 @@
+# ::snt Presiden Amerika Donald Trump mengatakan "sesuatu bisa terjadi" mengenai keputusan Amerika menarik diri dari perjanjian Iklim Paris dan ia juga menyangkal pentingnya pertemuan tahun lalu antara putranya dengan seorang pengacara Rusia.
+
+(vv1 / kata
+     :ARG0 (vv2 / presiden
+                :name (vv3 / amerika
+                           :name (vv5 / trump)))
+     :ARG1 (vv7 / jadi
+                :mod (vv9 / putus
+                          :mod (vv4 / donald
+                                    :name (vv6 / sesuatu)))
+                :ARG1 (vv10 / tarik
+                            :ARG1 (vv12 / janji
+                                        :mod (vv14 / paris))
+                            :ARG1 (vv13 / iklim
+                                        :mod (vv15 / sangkal
+                                                   :mod (vv17 / ia)
+                                                   :ARG0 (vv18 / juga)
+                                                   :mod (vv19 / penting
+                                                              :mod (vv21 / tahun
+                                                                         :mod (vv23 / putra
+                                                                                    :mod (vv25 / rusia))))
+                                                   :ARG1 (vv20 / temu
+                                                               :mod (vv22 / lalu)
+                                                               :mod (vv24 / acara
+                                                                          :name vv26)))))
+                :mod (vv11 / diri))
+     :mod (vv8 / bisa)
+     :mod (vv16 / dan))
+
+# ::snt "Tidak ada yang terjadi dari pertemuan itu," kata Trump kepada wartawan setelah perundingan dengan Presiden Perancis Emmanuel Macron di Paris.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :mod (vv3 / jadi
+               :ARG1 (vv4 / temu
+                          :mod (vv5 / kata
+                                    :name (vv6 / trump)))
+               :ARG1 (vv7 / wartawan)
+               :mod (vv8 / runding
+                         :mod (vv9 / presiden
+                                   :name (vv10 / perancis
+                                               :name (vv11 / emmanuel
+                                                           :name (vv12 / macron))))
+                         :mod (vv13 / paris))))
+
+# ::snt Sejumlah penyelidikan Amerika sedang berlangsung mengenai campur tangan Rusia pada pemilu Amerika tahun 2016, termasuk tuduhan bahwa kampanye Trump bekerjasama dengan kepentingan Rusia.
+
+(vv1 / langsung
+     :ARG0 (vv2 / lidi
+                :name (vv3 / amerika))
+     :mod (vv5 / campur
+               :mod (vv7 / rusia))
+     :ARG1 (vv6 / tangan
+                :mod (vv8 / milu
+                          :name (vv4 / sedang)
+                          :mod (vv11 / masuk
+                                     :ARG1 (vv14 / kampanye
+                                                 :name vv17))))
+     :mod (vv10 / 2016)
+     :mod (vv13 / bekerjasama
+                :ARG0 (vv16 / penting
+                            :mod (vv9 / tahun
+                                      :mod (vv12 / tuduh
+                                                 :mod (vv15 / trump))))
+                :location vv18))
+
+# ::snt "Kita akan lihat apa yang akan terjadi," katanya.
+
+(vv1 / lihat
+     :ARG0 (vv2 / kita)
+     :mod (vv3 / akan)
+     :ARG1 (vv5 / jadi
+                :mod (vv4 / apa
+                          :mod (vv6 / kata))
+                :ARG1 vv7))
+

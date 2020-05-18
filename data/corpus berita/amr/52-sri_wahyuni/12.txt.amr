@@ -1,0 +1,30 @@
+# ::snt Keberhasilan Wahyuni meraih perak, sekaligus medali pertama bagi kontingen Indonesia di Olimpiade 2016 ini juga disaksikan langsung oleh Menpora Imam Nahrawi, Ketua KOI Erick Thohir dan Ketua Umum PABBSI Rosan Ruslani.
+
+(vv1 / raih
+     :ARG0 (vv2 / hasil
+                :name (vv3 / wahyuni))
+     :ARG1 (vv4 / perak
+                :mod (vv5 / medali
+                          :mod (vv6 / sekaligus)
+                          :mod (vv7 / pertama)
+                          :mod (vv8 / kontingen
+                                    :mod (vv9 / indonesia)
+                                    :mod (vv10 / olimpiade
+                                               :mod (vv11 / 2016)))))
+     :mod (vv12 / saksi
+                :mod (vv13 / juga)
+                :mod (vv14 / langsung)
+                :mod (vv15 / menpora
+                           :name (vv16 / imam
+                                       :name (vv17 / nahrawi))
+                           :mod (vv18 / ketua
+                                      :name (vv20 / erick
+                                                  :name (vv22 / dan))
+                                      :mod (vv23 / umum
+                                                 :name (vv25 / rosan
+                                                             :name vv27))
+                                      :mod (vv24 / pabbsi
+                                                 :name (vv26 / ruslani)))
+                           :mod (vv19 / koi
+                                      :name (vv21 / thohir)))))
+

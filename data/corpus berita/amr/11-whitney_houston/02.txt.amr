@@ -1,0 +1,172 @@
+# ::snt Artis dan musisi pemenang penghargaan Grammy Whitney Houston meninggal dunia di Hotel Beverly Hilton, Los Angeles.
+
+(vv1 / tinggal
+     :ARG0 (vv2 / artis
+                :mod (vv3 / musisi
+                          :mod (vv4 / dan)
+                          :mod (vv5 / menang
+                                    :mod (vv6 / harga
+                                              :name (vv7 / grammy
+                                                         :name (vv8 / whitney
+                                                                    :name (vv9 / houston)))))))
+     :ARG1 (vv10 / dunia
+                 :mod (vv11 / hotel
+                            :name (vv12 / beverly
+                                        :name (vv13 / hilton
+                                                    :name (vv14 / los
+                                                                :mod (vv15 / angeles)))))))
+
+# ::snt Kematian Houston terjadi pada malam penghargaan Grammy di Los Angeles, di mana pemenang Grammy enam kali itu berkumpul dengan ratusan artis untuk menghadiri acara itu hari Minggu.
+
+(vv1 / jadi
+     :ARG1 (vv2 / mati
+                :name (vv3 / houston))
+     :time (vv4 / malam
+                :mod (vv5 / harga
+                          :name (vv6 / grammy))
+                :mod (vv8 / angeles))
+     :location (vv10 / kumpul
+                     :ARG0 (vv12 / kali
+                                 :mod (vv14 / ratus
+                                            :mod (vv16 / hadir
+                                                       :ARG1 (vv18 / hari
+                                                                   :mod vv20)
+                                                       :time (vv19 / minggu))))
+                     :ARG1 (vv15 / artis)
+                     :ARG1 (vv17 / acara))
+     :mod (vv11 / menang
+                :name (vv7 / los
+                           :mod (vv9 / mana))
+                :mod (vv13 / enam)))
+
+# ::snt Polisi mengatakan Houston dinyatakan tewas Sabtu sore di kamar lantai empat di hotel Beverly Hilton.
+
+(vv1 / kata
+     :ARG0 (vv2 / polisi)
+     :mod (vv3 / nyata
+               :ARG1 (vv4 / houston)
+               :ARG1 (vv5 / tewas
+                          :time (vv6 / sabtu)
+                          :time (vv7 / sore))
+               :location (vv8 / kamar
+                              :mod (vv9 / lantai
+                                        :mod (vv10 / empat))
+                              :mod (vv11 / hotel
+                                         :mod (vv12 / beverly
+                                                    :name (vv13 / hilton))))))
+
+# ::snt Produser eksekutif Grammy, Ken Ehrlich, mengatakan kepada CNN penyanyi pemenang penghargaan Grammy Jennifer Hudson memberi penghormatan kepada Houston dalam acara itu.
+
+(vv1 / kata
+     :ARG0 (vv2 / produser
+                :mod (vv3 / eksekutif)
+                :name (vv4 / grammy
+                           :name (vv6 / ehrlich)
+                           :name (vv12 / hudson)))
+     :ARG1 (vv8 / nyanyi
+                :ARG1 (vv10 / harga
+                            :name (vv5 / ken
+                                       :name (vv7 / cnn
+                                                  :mod (vv9 / menang
+                                                            :mod (vv11 / jennifer
+                                                                       :name (vv13 / beri
+                                                                                   :ARG1 (vv15 / houston)
+                                                                                   :ARG1 vv17)))))))
+     :ARG1 (vv14 / hormat
+                 :mod (vv16 / acara)))
+
+# ::snt Ucapan belasungkawa dan reaksi dari selebriti dan penggemar mengalir melalui berbagai situs jejaring sosial.
+
+(vv1 / alir
+     :ARG0 (vv2 / ucap
+                :mod (vv3 / belasungkawa
+                          :mod (vv4 / reaksi
+                                    :mod (vv5 / dan)
+                                    :mod (vv7 / gemar
+                                              :mod (vv6 / selebriti
+                                                        :mod (vv8 / situs
+                                                                  :mod (vv10 / sosial)))))))
+     :ARG1 (vv9 / jejaring
+                :mod vv11))
+
+# ::snt Penyanyi legendaris Tony Bennett mengatakan kepada CNN bahwa Houston adalah, dengan kata-katanya "penyanyi terhebat yang pernah saya dengar".
+
+(vv1 / kata
+     :ARG0 (vv2 / nyanyi
+                :mod (vv4 / tony
+                          :name (vv6 / cnn))
+                :name (vv5 / bennett)
+                :mod (vv11 / saya
+                           :mod (vv12 / pernah)))
+     :ARG1 (vv7 / katakatanya
+                :mod (vv3 / legendaris)
+                :ARG0 (vv9 / adalah)
+                :mod (vv10 / hebat)
+                :mod (vv13 / dengar))
+     :mod (vv8 / houston))
+
+# ::snt Ucapan belasungkawa dan reaksi dari selebriti dan penggemar mengalir melalui berbagai situs jejaring sosial.
+
+(vv1 / alir
+     :ARG0 (vv2 / ucap
+                :mod (vv3 / belasungkawa
+                          :mod (vv4 / reaksi
+                                    :mod (vv5 / dan)
+                                    :mod (vv7 / gemar
+                                              :mod (vv6 / selebriti
+                                                        :mod (vv8 / situs
+                                                                  :mod (vv10 / sosial)))))))
+     :ARG1 (vv9 / jejaring
+                :mod vv11))
+
+# ::snt Houston telah menjual lebih dari 170 juta album dan single, yang menjadikannya salah satu artis dengan penjualan album terlaris di dunia.
+
+(vv1 / jual
+     :ARG0 (vv2 / houston)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / album
+                :mod (vv6 / juta
+                          :mod (vv8 / single
+                                    :mod (vv10 / jadi
+                                               :ARG1 (vv13 / artis))))
+                :mod (vv7 / 170)
+                :mod (vv9 / dan)
+                :mod (vv11 / salah
+                           :mod (vv12 / satu))
+                :mod (vv14 / laris))
+     :mod (vv5 / lebih)
+     :mod (vv15 / dunia))
+
+# ::snt Album pertama yang berjudul namanya sendiri dan dikeluarkan tahun 1985, laku terjual 25 juta kopi di seluruh dunia.
+
+(vv1 / jual
+     :ARG1 (vv2 / album
+                :mod (vv3 / pertama)
+                :mod (vv4 / judul
+                          :ARG1 (vv5 / nama
+                                     :mod (vv6 / sendiri))
+                          :mod (vv7 / keluar
+                                    :mod (vv8 / dan)
+                                    :time (vv9 / tahun
+                                               :mod (vv10 / 1985)
+                                               :mod (vv11 / laku)))))
+     :ARG1 (vv14 / kopi
+                 :mod (vv12 / juta
+                            :mod (vv13 / 25)))
+     :ARG1 (vv15 / dunia))
+
+# ::snt Bakat seni membawanya dari musik ke film dimana ia membintangi film hits seperti "The Bodyguard" dan "Waiting to Exhale".
+
+# ::snt Dalam beberapa tahun terakhir, ia berjuang melawan narkoba dan alkohol.
+
+(vv1 / juang
+     :ARG1 (vv2 / tahun
+                :mod (vv3 / akhir))
+     :ARG0 (vv4 / ia)
+     :ARG1 (vv5 / lawan
+                :ARG1 (vv6 / narkoba))
+     :ARG1 (vv7 / alkohol
+                :mod (vv8 / dan)))
+
+# ::snt Keahlian musik Whitney Houston bukan kebetulan. Dia terinspirasi oleh sejumlah penyanyi, termasuk ibunya, Cissy Houston, sepupu Dionne Warwick, dan ibu baptis Aretha Franklin, yang menyatakan syok dengan kematian Whitney Houston
+

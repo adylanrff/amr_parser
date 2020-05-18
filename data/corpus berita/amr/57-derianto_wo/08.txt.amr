@@ -1,0 +1,65 @@
+# ::snt Aksi walk out yang terjadi saat perhelatan 90 tahun Kolese Kanisius  pada 11 November kemarin ternyata berbuntut panjang. Sekarang dunia maya dipenuhi dengan hashtag #uninstallTraveloka
+
+(vv1 / buntut
+     :ARG0 (vv2 / aksi
+                :mod (vv3 / walk
+                          :mod (vv4 / out))
+                :mod (vv5 / jadi
+                          :mod (vv6 / helat
+                                    :mod (vv7 / saat)
+                                    :mod (vv8 / tahun
+                                              :mod (vv9 / 90))
+                                    :mod (vv10 / kolese
+                                               :name (vv11 / kanisius)))
+                          :time (vv12 / november
+                                      :mod (vv13 / 11)
+                                      :time (vv14 / kemarin))))
+     :mod (vv15 / nyata)
+     :mod (vv16 / panjang)
+     :time (vv17 / sekarang)
+     :mod (vv18 / penuh
+                :ARG1 (vv19 / dunia
+                            :mod (vv20 / maya))
+                :mod (vv21 / hashtag
+                           :mod (vv22 / uninstalltraveloka))))
+
+# ::snt VIVA – Aksi walk out yang terjadi saat perhelatan 90 tahun Kolese Kanisius  pada 11 November kemarin ternyata berbuntut panjang. Sekarang dunia maya dipenuhi dengan hashtag #uninstallTraveloka
+
+(vv1 / buntut
+     :ARG0 (vv2 / viva
+                :mod (vv3 / )
+                :mod (vv4 / aksi
+                          :mod (vv5 / walk
+                                    :mod (vv6 / out)))
+                :mod (vv7 / jadi
+                          :mod (vv8 / helat
+                                    :mod (vv9 / saat)
+                                    :mod (vv10 / tahun
+                                               :mod (vv11 / 90))
+                                    :mod (vv12 / kolese
+                                               :name (vv13 / kanisius)))
+                          :time (vv14 / november
+                                      :mod (vv15 / 11)
+                                      :time (vv16 / kemarin))))
+     :mod (vv17 / nyata)
+     :mod (vv18 / panjang)
+     :time (vv19 / sekarang)
+     :mod (vv20 / penuh
+                :ARG1 (vv21 / dunia
+                            :mod (vv22 / maya))
+                :mod (vv23 / hashtag
+                           :mod (vv24 / uninstalltraveloka))))
+
+# ::snt Hingga berita ini diturunkan kami masih berusaha untuk mendapatkan konfirmasi dari Traveloka maupun Derianto.
+
+(vv1 / turun
+     :ARG1 (vv2 / berita)
+     :ARG1 (vv3 / usaha
+                :ARG0 (vv4 / kami)
+                :mod (vv5 / masih)
+                :ARG1 (vv6 / dapat
+                           :ARG1 (vv7 / konfirmasi
+                                      :mod (vv8 / traveloka
+                                                :mod (vv9 / derianto
+                                                          :mod (vv10 / maupun)))))))
+

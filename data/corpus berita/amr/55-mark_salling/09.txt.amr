@@ -1,0 +1,14 @@
+# ::snt Peristiwa kelam ini terjadi beberapa minggu sebelum Salling dijemput pihak kepolisian untuk masuk bui atas kasus tersebut.
+
+(vv1 / jadi
+     :ARG1 (vv2 / peristiwa
+                :mod (vv3 / kelam))
+     :ARG1 (vv4 / minggu)
+     :mod (vv5 / jemput
+               :mod (vv6 / salling)
+               :ARG0 (vv7 / pihak
+                          :mod (vv8 / polisi))
+               :mod (vv9 / masuk
+                         :ARG1 (vv10 / bui)
+                         :ARG1 (vv11 / kasus))))
+

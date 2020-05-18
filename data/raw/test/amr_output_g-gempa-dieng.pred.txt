@@ -1,0 +1,325 @@
+(vv1 / nyata
+     :ARG0 (vv2 / stasiun
+                :name (vv3 / geofisika
+                           :mod (vv4 / badan
+                                     :mod (vv5 / meteorologi
+                                               :mod (vv6 / klimatologi))))
+                :mod (vv7 / geofisika
+                          :mod (vv8 / dan)
+                          :name (vv9 / banjarnegara
+                                     :name (vv10 / jawa
+                                                 :mod (vv11 / tengah)))))
+     :mod (vv14 / kuat
+                :ARG0 (vv15 / gempa
+                            :mod (vv12 / guncang
+                                       :mod (vv13 / bahwa)
+                                       :ARG0 (vv16 / yang)
+                                       :ARG1 (vv17 / datar
+                                                   :mod (vv18 / tinggi
+                                                              :mod (vv19 / dieng)))
+                                       :ARG1 (vv20 / pukul
+                                                   :mod (vv21 / 1900)
+                                                   :mod (vv22 / wib))))
+                :mod (vv23 / 48)
+                :mod (vv24 / skala
+                           :mod (vv25 / richter))))
+
+(vv1 / kira
+     :ARG1 (vv2 / pusat
+                :mod (vv3 / gempa))
+     :mod (vv4 / ada
+               :location (vv5 / desa
+                              :name (vv6 / tanji
+                                         :name (vv7 / gugur))
+                              :mod (vv8 / camat
+                                        :mod (vv9 / bawang)
+                                        :mod (vv10 / kabupaten
+                                                   :mod (vv11 / batang))))))
+
+(vv1 / rekomendasi
+     :ARG0 (vv2 / pvmbg)
+     :ARG1 (vv3 / jalan
+                :mod (vv4 / dekat
+                          :ARG0 (vv5 / yang)
+                          :ARG1 (vv6 / kawah
+                                     :mod (vv7 / timbang))
+                          :location (vv8 / desa
+                                         :name (vv9 / sumberejo))))
+     :mod (vv10 / tutup
+                :mod (vv11 / sementara)))
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / pusat
+                          :name (vv4 / vulkanologi
+                                     :mod (vv5 / mitigasi
+                                               :mod (vv6 / dan)
+                                               :mod (vv7 / bencana
+                                                         :name (vv8 / geologi
+                                                                    :mod (vv9 / surono)))))))
+     :mod (vv10 / rekam
+                :mod (vv11 / bahwa)
+                :ARG1 (vv12 / gempa
+                            :mod (vv13 / jadi
+                                       :mod (vv14 / yang)
+                                       :location (vv15 / datar
+                                                       :mod (vv16 / tinggi
+                                                                  :mod (vv17 / dieng)))
+                                       :time (vv18 / pukul
+                                                   :mod (vv19 / 1900)
+                                                   :mod (vv20 / wib))))
+                :ARG1 (vv21 / kali
+                            :mod (vv22 / banyak)
+                            :mod (vv23 / 86))))
+
+(vv1 / laku
+     :ARG1 (vv2 / tutup)
+     :location (vv3 / tim
+                    :mod (vv4 / lapang
+                              :mod (vv5 / ukur
+                                        :ARG0 (vv6 / yang)
+                                        :ARG1 (vv7 / konsentrasi
+                                                   :mod (vv8 / gas)))))
+     :mod (vv9 / nyata
+               :mod (vv10 / ada
+                          :mod (vv11 / tidak)
+                          :ARG1 (vv12 / gas
+                                      :mod (vv13 / bahaya
+                                                 :ARG0 (vv14 / yang))))))
+
+(vv1 / rekomendasi
+     :ARG0 (vv2 / pvmbg)
+     :ARG1 (vv3 / jalan
+                :mod (vv4 / dekat
+                          :ARG0 (vv5 / yang)
+                          :ARG1 (vv6 / kawah
+                                     :mod (vv7 / timbang))
+                          :location (vv8 / desa
+                                         :name (vv9 / sumberejo))))
+     :mod (vv10 / tutup
+                :mod (vv11 / sementara)))
+
+(vv1 / terjun
+     :ARG1 (vv2 / tugas
+                :mod (vv3 / pusat
+                          :name (vv4 / vulkanologi
+                                     :mod (vv5 / mitigasi
+                                               :mod (vv6 / dan)
+                                               :mod (vv7 / bencana
+                                                         :name (vv8 / geologi))))))
+     :mod (vv9 / pantau
+               :mod (vv10 / untuk)
+               :ARG1 (vv11 / aktivitas
+                           :mod (vv12 / kawah
+                                      :mod (vv13 / timbang)))
+               :mod (vv14 / beri
+                          :mod (vv15 / dan)
+                          :ARG1 (vv16 / informasi))))
+
+(vv1 / sebut
+     :ARG0 (vv2 / data
+                :mod (vv3 / keluar
+                          :ARG1 (vv4 / yang)
+                          :location (vv5 / pusat
+                                         :name (vv6 / vulkanologi)
+                                         :mod (vv7 / mitigasi
+                                                   :mod (vv8 / dan)
+                                                   :mod (vv9 / bencana
+                                                             :name (vv10 / geologi))))))
+     :ARG1 (vv11 / gempa)
+     :mod (vv12 / mulai
+                :mod (vv13 / asa
+                           :time (vv14 / pukul
+                                       :mod (vv15 / wib
+                                                  :mod (vv16 / 1900)))))
+     :mod (vv17 / rekam
+                :mod (vv18 / dan)
+                :mod (vv19 / telah)
+                :ARG1 (vv20 / gempa)
+                :ARG1 (vv21 / kali
+                            :mod (vv22 / banyak)
+                            :mod (vv23 / 86))))
+
+(vv7 / mulai
+     :ARG1 (vv1 / tinggal
+                :ARG0 (vv2 / ungsi
+                           :mod (vv3 / kabupaten
+                                     :name (vv4 / banjarnegara))
+                           :mod (vv5 / sabtu
+                                     :mod (vv6 / pagi)))
+                :ARG1 (vv8 / ungsi)))
+
+(vv1 / nyata
+     :ARG0 (vv2 / stasiun
+                :name (vv3 / geofisika
+                           :mod (vv4 / badan
+                                     :mod (vv5 / meteorologi
+                                               :mod (vv6 / klimatologi))))
+                :mod (vv7 / geofisika
+                          :mod (vv8 / dan)
+                          :name (vv9 / banjarnegara)))
+     :ARG1 (vv10 / gempa
+                 :mod (vv11 / guncang
+                            :ARG0 (vv12 / yang)
+                            :ARG1 (vv13 / datar
+                                        :mod (vv14 / tinggi
+                                                   :mod (vv15 / dieng)))
+                            :ARG1 (vv16 / pukul
+                                        :mod (vv17 / 1900)
+                                        :mod (vv18 / wib)))
+                 :mod (vv19 / kuat
+                            :ARG1 (vv20 / skala
+                                        :mod (vv21 / 48)
+                                        :name (vv22 / richter
+                                                    :mod (vv23 / sr))))))
+
+(vv1 / minta
+     :ARG0 (vv2 / bibit)
+     :ARG1 (vv3 / masyarakat
+                :mod (vv4 / tenang
+                          :mod (vv5 / tetap)
+                          :mod (vv6 / panik
+                                    :mod (vv7 / dan)
+                                    :mod (vv8 / tidak)))))
+
+(vv1 / imbau
+     :ARG0 (vv2 / gubernur
+                :name (vv3 / jawa
+                           :mod (vv4 / tengah)
+                           :mod (vv5 / bibit
+                                     :name (vv6 / waluyo))))
+     :ARG0 (vv7 / warga
+                :mod (vv8 / tinggal
+                          :ARG0 (vv9 / yang)
+                          :location (vv10 / kawah
+                                          :mod (vv11 / timbang)
+                                          :mod (vv12 / tenang
+                                                     :mod (vv13 / tetap))))))
+
+(vv1 / rekomendasi
+     :ARG0 (vv2 / pvmbg)
+     :ARG1 (vv3 / tutup
+                :mod (vv4 / untuk)
+                :mod (vv5 / ruas
+                          :mod (vv6 / sementara)
+                          :mod (vv7 / jalan
+                                    :name (vv8 / dieng
+                                               :name (vv9 / batur))))
+                :mod (vv10 / antisipasi
+                           :mod (vv11 / untuk)
+                           :ARG1 (vv12 / mungkin)
+                           :mod (vv13 / ada
+                                      :ARG1 (vv14 / gas
+                                                  :mod (vv15 / racun))))))
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / pusat
+                          :name (vv4 / vulkanologi
+                                     :mod (vv5 / mitigasi
+                                               :mod (vv6 / dan)
+                                               :mod (vv7 / bencana
+                                                         :name (vv8 / geologi
+                                                                    :mod (vv9 / surono)))))))
+     :mod (vv10 / rekam
+                :mod (vv11 / bahwa)
+                :ARG1 (vv12 / gempa
+                            :mod (vv13 / jadi
+                                       :mod (vv14 / yang)
+                                       :location (vv15 / datar
+                                                       :mod (vv16 / tinggi
+                                                                  :mod (vv17 / dieng)))
+                                       :time (vv18 / pukul
+                                                   :mod (vv19 / 1900)
+                                                   :mod (vv20 / wib))))
+                :ARG1 (vv21 / kali
+                            :mod (vv22 / banyak)
+                            :mod (vv23 / 86))))
+
+(vv1 / deteksi
+     :ARG1 (vv2 / informasi
+                :mod (vv3 / akibat
+                          :mod (vv4 / gempa
+                                    :mod (vv5 / malam))))
+     :mod (vv6 / tidak)
+     :ARG1 (vv7 / gas
+                :mod (vv8 / racun))
+     :location (vv9 / kawah
+                    :mod (vv10 / timbang
+                               :mod (vv11 / desa
+                                          :name (vv12 / sumberejo)))
+                    :mod (vv13 / kabupaten
+                               :name (vv14 / banjarnegara))))
+
+(vv1 / kata
+     :ARG0 (vv2 / maulana
+                :name (vv3 / afandy))
+     :mod (vv4 / ada
+               :ARG1 (vv5 / orang
+                          :mod (vv6 / 380)
+                          :mod (vv7 / ungsi
+                                    :mod (vv8 / yang)
+                                    :location (vv9 / dukuh
+                                                   :name (vv10 / bintoro
+                                                               :name (vv11 / mulyo)))
+                                    :ARG1 (vv12 / akibat
+                                                :mod (vv13 / gempa)
+                                                :mod (vv14 / datar
+                                                           :mod (vv15 / tinggi)
+                                                           :mod (vv16 / dieng)))))))
+
+(vv1 / deteksi
+     :ARG1 (vv2 / akibat)
+     :ARG1 (vv3 / gempa
+                :mod (vv4 / malam))
+     :mod (vv5 / tidak)
+     :ARG1 (vv6 / gas
+                :mod (vv7 / racun
+                          :location (vv8 / kawah
+                                         :mod (vv9 / timbang
+                                                   :mod (vv10 / desa
+                                                              :name (vv11 / sumberejo)))
+                                         :mod (vv12 / kabupaten
+                                                    :name (vv13 / banjarnegara
+                                                                :name (vv14 / jawa
+                                                                            :mod (vv15 / tengah))))))))
+
+(vv1 / kata
+     :ARG0 (vv2 / dani
+                :name (vv3 / irawan))
+     :ARG1 (vv4 / butuh
+                :mod (vv5 / logistik
+                          :mod (vv6 / ungsi)))
+     :mod (vv7 / bantu
+               :ARG1 (vv8 / warga
+                          :mod (vv9 / koordinasi
+                                    :ARG1 (vv10 / yang)
+                                    :location (vv11 / karang
+                                                    :mod (vv12 / taruna
+                                                               :mod (vv13 / desa
+                                                                          :name (vv14 / gembol))))))))
+
+(vv1 / asa
+     :ARG1 (vv2 / gempa
+                :mod (vv3 / besar)
+                :mod (vv4 / guncang
+                          :ARG0 (vv5 / yang)
+                          :ARG1 (vv6 / kawasan
+                                     :mod (vv7 / kawah
+                                               :mod (vv8 / timbang))
+                                     :mod (vv9 / desa
+                                               :name (vv10 / sumberejo)
+                                               :name (vv11 / camat
+                                                           :name (vv12 / batur)
+                                                           :mod (vv13 / kabupaten
+                                                                      :name (vv14 / banjarnegara)
+                                                                      :mod (vv15 / jumat
+                                                                                 :mod (vv16 / april
+                                                                                            :mod (vv17 / 19)
+                                                                                            :mod (vv18 / 2013)
+                                                                                            :mod (vv19 / malam)))))))))
+     :mod (vv20 / juga)
+     :location (vv21 / wilayah
+                     :mod (vv22 / kabupaten
+                                :mod (vv23 / batang))))
+

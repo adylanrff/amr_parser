@@ -1,0 +1,104 @@
+# ::snt Wakil Ketua Majelis Syuro Partai Keadilan Sejahtera Hidayat Nur Wahid menilai, kedatangan Jokowi ke Afghanistan adalah hal yang luar biasa.
+
+(vv12 / nilai
+      :mod (vv1 / hal
+                :ARG0 (vv2 / wakil
+                           :mod (vv3 / ketua
+                                     :mod (vv4 / majelis
+                                               :name (vv5 / syuro)
+                                               :mod (vv6 / partai
+                                                         :name (vv7 / adil
+                                                                    :name (vv8 / sejahtera
+                                                                               :name (vv9 / hidayat
+                                                                                          :name (vv10 / nur
+                                                                                                      :name (vv11 / wahid)))))))))
+                :mod (vv16 / adalah)
+                :mod (vv17 / luar
+                           :mod (vv18 / biasa)))
+      :ARG1 (vv13 / datang
+                  :name (vv14 / jokowi)
+                  :ARG0 (vv15 / afghanistan)))
+
+# ::snt "Satu hal yang luar biasa, presiden RI yang kedua kali datang ke Kabul (setelah Soekarno), Afghanistan, jadi imam, dan melakukan fungsinya dengan baik," ujarnya di Kantor Wakil Presiden, Jakarta, Selasa (30/1/2018).
+
+(vv1 / datang
+     :ARG0 (vv2 / hal
+                :mod (vv3 / luar
+                          :mod (vv4 / biasa))
+                :mod (vv5 / presiden
+                          :name (vv7 / kali
+                                     :mod (vv9 / kabul))
+                          :name (vv22 / selasa)))
+     :ARG1 (vv8 / dua)
+     :location (vv10 / jadi
+                     :ARG0 (vv12 / afghanistan)
+                     :ARG1 (vv14 / laku
+                                 :ARG1 (vv16 / fungsi)
+                                 :ARG1 (vv17 / ujar
+                                             :mod (vv19 / kantor
+                                                        :name (vv21 / jakarta
+                                                                    :mod (vv23 / 3012018)
+                                                                    :mod vv24))
+                                             :mod (vv20 / wakil
+                                                        :mod (vv6 / ri)))
+                                 :ARG1 (vv18 / baik))
+                     :mod (vv15 / dan))
+     :mod (vv11 / soekarno
+                :name (vv13 / imam)))
+
+# ::snt Hidayat yang saat ini juga menjabat Wakil Ketua MPR secara khusus memuji Jokowi yang menjadi iman salat Dzuhur Presiden Afghanistan Ashraf Ghani, para ulama di Afghanistan, dan ulama NU.
+
+# ::snt "Mudah-mudahan akan membekas tentang betapa seorang pemimpin tetap hamba Allah yang melakukan shalat, jadi imam, dan diikuti," ujarnya.
+
+(vv1 / bekas
+     :ARG0 (vv2 / mudahmudahan)
+     :mod (vv3 / akan)
+     :location (vv4 / betapa
+                    :mod (vv5 / pimpin
+                              :mod (vv6 / hamba
+                                        :mod (vv7 / tetap)
+                                        :name (vv8 / allah))
+                              :mod (vv9 / laku
+                                        :ARG1 (vv10 / shalat
+                                                    :mod (vv11 / jadi
+                                                               :ARG1 (vv12 / imam)))
+                                        :ARG1 (vv13 / ikut
+                                                    :mod (vv14 / dan)
+                                                    :ARG1 (vv15 / ujar))))))
+
+# ::snt "Karenanya mudah-mudahan sifat semacam ini tetap terjaga dan menghadirkan kepemimpinan yang sesuai kepemimpinan seorang imam dalam shalat," sambung Hidayat.
+
+(vv1 / jaga
+     :mod (vv2 / karena)
+     :mod (vv3 / mudahmudahan
+               :mod (vv4 / sifat))
+     :mod (vv5 / tetap)
+     :mod (vv6 / hadir
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / pimpin
+                          :mod (vv9 / sesuai)
+                          :mod (vv10 / imam
+                                     :mod (vv12 / sambung))
+                          :mod (vv11 / shalat
+                                     :mod (vv13 / hidayat)
+                                     :name vv14))))
+
+# ::snt Sebelumnya, Presiden Joko Widodo menunaikan salat Dzuhur berjemaah saat melakukan kunjungan ke Kabul, Afghanistan, Senin (29/1/2018) waktu setempat.
+
+(vv1 / tunai
+     :ARG0 (vv2 / presiden
+                :name (vv3 / joko
+                           :name (vv4 / widodo)))
+     :ARG1 (vv5 / salat
+                :mod (vv6 / dzuhur)
+                :mod (vv7 / jemaah))
+     :ARG1 (vv8 / laku
+                :ARG1 (vv9 / saat)
+                :ARG1 (vv10 / kunjung
+                            :mod (vv11 / kabul
+                                       :name (vv12 / afghanistan
+                                                   :name (vv13 / senin))))
+                :ARG1 (vv14 / waktu
+                            :mod (vv15 / 2912018)
+                            :mod (vv16 / tempat))))
+

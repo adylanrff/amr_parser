@@ -1,0 +1,54 @@
+# ::snt Mahkamah Agung Amerika Serikat telah menetapkan bahwa pasangan sesama jenis memiliki hak untuk menikah di mana pun mereka berada di AS, dalam sebuah keputusan yang pada dasarnya melarang negara bagian untuk menghalangi pernikahan sesama jenis.
+
+# ::snt Dalam pidatonya tak lama setelah keluarnya keputusan, Presiden Obama menyebut keputusan ini "sebuah kemenangan bagi Amerika."
+
+(vv1 / sebut
+     :ARG1 (vv2 / pidato
+                :mod (vv3 / lama
+                          :mod (vv4 / tak)))
+     :ARG1 (vv5 / keluar
+                :mod (vv6 / putus
+                          :mod (vv8 / obama)
+                          :mod (vv10 / amerika)))
+     :ARG1 (vv7 / presiden
+                :name (vv9 / menang
+                           :ARG1 vv11)))
+
+# ::snt Tony Perkins, presiden Dewan Penelitian Keluarga di Twitter mengatakan keputusan tersebut sebagai "penyalahgunaan kekuasaan yang mengejutkan, dan tidak akan pernah diterima."
+
+(vv1 / kata
+     :ARG0 (vv2 / tony
+                :name (vv3 / perkins)
+                :mod (vv4 / presiden
+                          :mod (vv5 / dewan
+                                    :mod (vv6 / teliti
+                                              :mod (vv7 / keluarga))))
+                :mod (vv8 / twitter))
+     :ARG1 (vv9 / putus)
+     :ARG1 (vv10 / penyalahgunaan
+                 :mod (vv11 / kuasa)
+                 :mod (vv12 / kejut))
+     :ARG1 (vv13 / terima
+                 :mod (vv14 / dan)
+                 :mod (vv15 / tidak)
+                 :mod (vv16 / akan)
+                 :mod (vv17 / pernah)))
+
+# ::snt Hakim Agung Anthony Kennedy menulis dalam opini mayoritas: "Kini jelas bahwa hukum-hukum yang diperdebatkan membebani kebebasan pasangan sesama jenis, dan harus diakui lebih jauh bahwa hukum-hukum tersebut meremehkan prinsip-prinsip persamaan yang utama."
+
+# ::snt Keputusan ini dicapai setelah dua dekade litigasi Mahkamah Agung mengenai pernikahan, dan hak-hak kaum gay pada umumnya.
+
+(vv1 / capai
+     :ARG1 (vv2 / putus)
+     :ARG1 (vv3 / dekade
+                :mod (vv4 / dua)
+                :mod (vv5 / litigasi)
+                :mod (vv6 / mahkamah
+                          :name (vv7 / agung))
+                :mod (vv8 / nikah
+                          :mod (vv9 / hakhak
+                                    :mod (vv10 / dan)
+                                    :mod (vv11 / kaum
+                                               :mod (vv12 / gay))
+                                    :mod (vv13 / umum)))))
+

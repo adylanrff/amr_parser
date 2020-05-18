@@ -1,0 +1,167 @@
+# ::snt Erde Berutu, pendeta Gereja Kristen Protestan Pakpai Dairi (GKPPD) di ressort Kuta Karangan, Aceh, menceritakan kronologis pembakaran gereja.
+
+(vv1 / cerita
+     :ARG0 (vv2 / erde
+                :name (vv3 / berutu)
+                :mod (vv4 / pendeta
+                          :mod (vv5 / gereja
+                                    :name (vv7 / protestan
+                                               :name (vv9 / dairi
+                                                          :name (vv11 / ressort
+                                                                      :name (vv13 / karang
+                                                                                  :name (vv15 / kronologis
+                                                                                              :mod vv17)))))
+                                    :mod (vv8 / pakpai
+                                              :name (vv10 / gkppd))))
+                :mod (vv12 / kuta
+                           :name (vv14 / aceh)))
+     :ARG1 (vv16 / bakar
+                 :mod (vv6 / kristen)))
+
+# ::snt Jemaatnya kemudian mempersiapkan bambu runcing, parang, dan senjata lainnya untuk bertahan.
+
+(vv1 / siap
+     :ARG0 (vv2 / jemaatnya)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / bambu
+                :mod (vv5 / runcing
+                          :mod (vv6 / parang))
+                :mod (vv7 / senjata
+                          :mod (vv8 / dan)
+                          :mod (vv9 / lain)))
+     :mod (vv10 / tahan))
+
+# ::snt "Tidak ada pilihan," katanya.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / pilih
+                :mod (vv4 / kata)))
+
+# ::snt Menjelang siang hari, massa yang diperkirakan berjumlah 700 orang tersebut meringsek ke arah gereja.
+
+(vv3 / ringsek
+     :time (vv1 / siang
+                :mod (vv2 / jelang)
+                :mod (vv4 / hari))
+     :ARG0 (vv5 / massa
+                :mod (vv6 / kira
+                          :mod (vv7 / jumlah
+                                    :ARG1 (vv8 / orang
+                                               :mod (vv9 / 700)))))
+     :ARG1 (vv10 / arah
+                 :mod (vv11 / gereja)))
+
+# ::snt "Ternyata di hari H (kejadian) polisi tidak bisa bertahan, karena situasinya chaos," katanya.
+
+(vv1 / tahan
+     :ARG1 (vv2 / nyata)
+     :time (vv3 / hari
+                :mod (vv4 / h))
+     :ARG0 (vv5 / jadi
+                :mod (vv6 / polisi))
+     :mod (vv7 / tidak)
+     :mod (vv8 / bisa)
+     :mod (vv9 / situasi
+               :mod (vv10 / chaos))
+     :mod (vv11 / kata))
+
+# ::snt Akhirnya ketika massa melewati gerbang gereja, jemaat juga mengangkat senjata.
+
+(vv1 / angkat
+     :mod (vv2 / akhir)
+     :mod (vv3 / lewat
+               :ARG0 (vv4 / massa)
+               :ARG1 (vv5 / gerbang
+                          :mod (vv6 / gereja
+                                    :mod (vv7 / jemaat))))
+     :mod (vv8 / juga)
+     :ARG1 (vv9 / senjata))
+
+# ::snt "Karena kami sudah berjanji akan mengadakan perlawanan untuk bela diri."
+
+(vv1 / janji
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / sudah)
+     :ARG1 (vv4 / ada
+                :mod (vv5 / akan)
+                :ARG1 (vv6 / lawan)
+                :ARG1 (vv7 / bela
+                           :ARG1 (vv8 / diri))))
+
+# ::snt Bentrokan berlangsung selama 60 menit, hingga ada seorang dari kerumuman massa roboh.
+
+(vv1 / langsung
+     :ARG0 (vv2 / bentrok)
+     :ARG1 (vv3 / menit
+                :mod (vv4 / 60))
+     :ARG1 (vv5 / ada
+                :ARG1 (vv6 / kerumuman
+                           :mod (vv7 / massa
+                                     :mod (vv8 / roboh)))))
+
+# ::snt "Kami berhenti karena ada jatuh korban dari pihak mereka, lalu polisi datang melerai," katanya.
+
+(vv1 / henti
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / ada
+               :ARG1 (vv4 / jatuh
+                          :ARG1 (vv5 / korban)
+                          :location (vv6 / pihak)))
+     :ARG1 (vv7 / datang
+                :mod (vv8 / lalu)
+                :ARG0 (vv9 / polisi)
+                :ARG1 (vv10 / lerai
+                            :ARG1 (vv11 / kata))))
+
+# ::snt Korban yang belum diketahui namanya tersebut diduga terkena peluru dari senjata rakitan. Siapa yang menembak? Apakah dari pihak jemaat?
+
+(vv1 / duga
+     :ARG1 (vv2 / korban
+                :mod (vv3 / tahu
+                          :mod (vv4 / belum)
+                          :ARG1 (vv5 / nama)))
+     :ARG1 (vv6 / kena
+                :ARG1 (vv7 / peluru
+                           :mod (vv8 / senjata
+                                     :mod (vv9 / rakit)
+                                     :mod (vv10 / tembak
+                                                :mod (vv11 / apakah)
+                                                :location (vv12 / pihak
+                                                                :mod (vv13 / jemaat)))))))
+
+# ::snt "Aku enggak tahu," katanya.
+
+(vv1 / tahu
+     :ARG0 (vv2 / aku)
+     :mod (vv3 / enggak)
+     :ARG1 (vv4 / kata))
+
+# ::snt Setelah itu, ia pun dapat kembali menata gerejanya, dan segera berkumpul dengan pendeta yang lain.
+
+(vv1 / tata
+     :ARG0 (vv2 / ia)
+     :mod (vv3 / dapat)
+     :mod (vv4 / kembali)
+     :ARG1 (vv5 / gereja)
+     :mod (vv6 / kumpul
+               :mod (vv7 / dan)
+               :mod (vv8 / segera)
+               :ARG1 (vv9 / pendeta
+                          :mod (vv10 / lain))))
+
+# ::snt Namun kesepakatan itu kembali mentah seiring dengan pecahnya bentrok di tanah Aceh Singkil untuk yang pertama kalinya.
+
+(vv1 / kembali
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / sepakat)
+     :mod (vv4 / mentah
+               :mod (vv5 / iring))
+     :ARG1 (vv6 / pecah
+                :ARG1 (vv7 / bentrok)
+                :location (vv8 / tanah
+                               :mod (vv9 / aceh
+                                         :name (vv10 / singkil)))
+                :mod (vv11 / kali
+                           :mod (vv12 / pertama))))
+

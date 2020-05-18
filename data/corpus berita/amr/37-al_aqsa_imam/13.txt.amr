@@ -1,0 +1,130 @@
+# ::snt Pemimpin agama tersebut baru saja selesai memimpin salat isya ketika polisi Israel berusaha membubarkan jemaah dengan paksa, menyebabkan banyak orang terluka, beberapa mengalami luka serius, kata Masyarakat Bulan Sabit Palestina.
+
+# ::snt Akibat tembakan itu Sabri dilarikan ke Rumah Sakit Al Maqassid di Alquds Timur (Jerusalem Timur) dan kondisinya belum diungkapkan.
+
+# ::snt "Ketika geografi kita menghadapi rasa sakit yang luar biasa, insiden yang terjadi di Masjid Al-Aqsa dan sekitarnya telah membuat setiap orang yang bijaksana sangat khawatir," tegas Gormez.
+
+(vv3 / buat
+     :ARG1 (vv1 / hadap
+                :ARG0 (vv2 / geografi)
+                :ARG1 (vv4 / rasa
+                           :mod (vv5 / sakit)
+                           :mod (vv6 / luar
+                                     :mod (vv7 / biasa))
+                           :mod (vv8 / insiden)
+                           :mod (vv9 / jadi
+                                     :location (vv10 / masjid
+                                                     :name (vv11 / alaqsa)))))
+     :ARG0 (vv12 / sekitar
+                 :mod (vv13 / dan))
+     :mod (vv14 / telah)
+     :ARG1 (vv15 / orang
+                 :mod (vv16 / bijaksana
+                            :mod (vv17 / khawatir
+                                       :mod (vv18 / sangat)
+                                       :mod (vv19 / tegas))))
+     :ARG1 (vv20 / gormez))
+
+# ::snt "Saya percaya bahwa mereka tidak akan membiarkan Al-Aqsa memiliki takdir yang sama dengan Masjid Al-Khalil, gua kebijaksanaan, moderasi, dan patriarki perdamaian (Nabi) Ibrahim, Ishak, Yakub, dan Yusuf," ujarnya, mengacu pada pembantaian tahun 1994 di Masjid Ibrabimi di Hebron yang menyebabkan 30 jemaah Muslim dibunuh oleh seorang teroris Yahudi kelahiran Amerika Serikat.
+
+(vv1 / percaya
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / biar
+               :ARG0 (vv4 / mereka)
+               :mod (vv5 / tidak)
+               :mod (vv6 / akan)
+               :ARG0 (vv7 / alaqsa))
+     :mod (vv8 / milik
+               :ARG1 (vv9 / takdir
+                          :mod (vv10 / sama
+                                     :mod (vv11 / masjid
+                                                :name (vv13 / gua)
+                                                :mod (vv14 / bijaksana
+                                                           :mod (vv16 / patriark
+                                                                      :mod (vv18 / damai
+                                                                                 :mod (vv21 / ishak
+                                                                                            :name (vv24 / acu
+                                                                                                        :mod (vv27 / tahun
+                                                                                                                   :mod (vv30 / hebron))
+                                                                                                        :mod (vv28 / 1994))
+                                                                                            :mod (vv25 / ujar)))
+                                                                      :mod (vv20 / ibrahim
+                                                                                 :name (vv23 / yusuf
+                                                                                             :mod (vv19 / nabi
+                                                                                                        :name (vv22 / yakub)))))
+                                                           :mod (vv17 / dan))
+                                                :name (vv31 / sebab
+                                                            :ARG1 (vv34 / muslim))
+                                                :mod (vv32 / jemaah
+                                                           :mod (vv35 / bunuh
+                                                                      :ARG1 (vv38 / lahir
+                                                                                  :name vv41))
+                                                           :mod (vv36 / teroris
+                                                                      :mod (vv39 / amerika
+                                                                                 :mod vv42))
+                                                           :mod (vv37 / yahudi
+                                                                      :ARG1 (vv40 / serikat)))
+                                                :mod (vv33 / 30)))
+                          :mod (vv15 / moderasi)))
+     :mod (vv26 / bantai
+                :mod (vv12 / alkhalil)
+                :mod (vv29 / ibrabimi)))
+
+# ::snt Penembakan Sheikh Ikrima Sabri terjadi hanya beberapa jam setelah Rafaat al-Herbawi, 30, tewas dalam demonstrasi di masjid tersebut saat ketegangan meningkat di Tepi Barat setelah Israel memasang detektor logam di pintu masuk Al-Aqsha setelah baku tembak Jumat lalu yang mengakibatkan lima orang tewas.
+
+(vv1 / jadi
+     :ARG1 (vv2 / tembak
+                :name (vv4 / ikrima
+                           :name (vv6 / jam
+                                      :mod (vv8 / tewas
+                                                :ARG0 (vv11 / 30)
+                                                :location (vv14 / tingkat
+                                                                :mod (vv17 / tepi
+                                                                           :mod (vv20 / israel))
+                                                                :ARG0 (vv18 / barat)
+                                                                :location (vv19 / pasang
+                                                                                :ARG0 (vv22 / logam)
+                                                                                :ARG1 (vv23 / pintu
+                                                                                            :mod (vv26 / baku
+                                                                                                       :mod (vv3 / sheikh
+                                                                                                                 :name (vv5 / sabri))
+                                                                                                       :mod (vv30 / orang
+                                                                                                                  :mod vv33))
+                                                                                            :mod (vv28 / akibat
+                                                                                                       :mod (vv31 / lima)
+                                                                                                       :ARG1 vv32)))
+                                                                :mod (vv21 / detektor
+                                                                           :mod (vv24 / masuk
+                                                                                      :ARG0 (vv27 / jumat))
+                                                                           :mod (vv25 / alaqsha)))
+                                                :ARG1 (vv16 / tegang))))
+                :time (vv29 / lalu))
+     :ARG1 (vv7 / hanya)
+     :mod (vv9 / rafaat
+               :mod (vv12 / demonstrasi
+                          :mod (vv15 / saat)))
+     :mod (vv10 / alherbawi
+                :mod (vv13 / masjid)))
+
+# ::snt Lebih dari 300 warga Palestina telah terbunuh dalam serangan terhadap orang Israel atau bentrokan dengan pasukan Israel sejak Oktober 2015, menurut data Palestina.
+
+(vv4 / bunuh
+     :ARG1 (vv1 / warga
+                :mod (vv2 / lebih)
+                :mod (vv3 / 300)
+                :mod (vv5 / palestina))
+     :mod (vv7 / serang
+               :mod (vv9 / israel))
+     :location (vv8 / orang
+                    :mod (vv10 / bentrok
+                               :mod (vv13 / oktober
+                                          :mod vv16)
+                               :mod (vv14 / 2015)
+                               :mod (vv15 / data
+                                          :name (vv6 / telah)))
+                    :mod (vv12 / pasu
+                               :mod (vv11 / atau)))
+     :location vv17)
+
+# ::snt Sementara otoritas Israel mengatakan hampir 50 orang Israel terbunuh dalam serangan oleh orang-orang Palestina pada periode yang sama.
+

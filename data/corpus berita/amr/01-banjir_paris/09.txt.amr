@@ -1,0 +1,14 @@
+# ::snt Walikota Paris Anne Hidalgo memperingatkan bahwa ketinggian air akan bertahan setidaknya hingga pekan ini.
+
+(vv1 / ingat
+     :ARG0 (vv2 / walikota
+                :mod (vv3 / paris
+                          :name (vv4 / anne
+                                     :name (vv5 / hidalgo))))
+     :mod (vv6 / tahan
+               :ARG0 (vv7 / tinggi
+                          :mod (vv8 / air))
+               :mod (vv9 / akan)
+               :mod (vv10 / tidak)
+               :time (vv11 / pekan)))
+

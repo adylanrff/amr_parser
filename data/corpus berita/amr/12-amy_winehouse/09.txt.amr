@@ -1,0 +1,20 @@
+# ::snt "Akhirnya dia meninggal, itulah jalan hidupnya, tapi sebenarnya dia meninggal akibat bulimia," ungkap Alex saat diwawancarai majalah Observer.
+
+(vv1 / tinggal
+     :mod (vv2 / akhir)
+     :ARG0 (vv3 / dia)
+     :ARG0 (vv4 / itu)
+     :ARG1 (vv5 / jalan
+                :mod (vv7 / tapi))
+     :ARG1 (vv6 / hidup)
+     :mod (vv8 / benar)
+     :mod (vv9 / akibat
+               :mod (vv11 / ungkap
+                          :ARG0 (vv13 / wawancara
+                                      :mod (vv15 / majalah
+                                                 :name vv17)
+                                      :ARG1 (vv16 / observer))
+                          :mod (vv14 / saat)))
+     :ARG1 (vv10 / bulimia)
+     :mod (vv12 / alex))
+

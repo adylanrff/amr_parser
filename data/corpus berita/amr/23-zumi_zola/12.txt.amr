@@ -1,0 +1,16 @@
+# ::snt "Ketiga periode pencegahan, sejak Kamis (25/1) sampai enam bulan ke depan dan keempat adalah foto," jelasnya.
+
+(vv3 / foto
+     :ARG0 (vv1 / periode
+                :mod (vv2 / tiga)
+                :mod (vv4 / cegah)
+                :mod (vv5 / kamis
+                          :mod (vv6 / 251))
+                :mod (vv7 / bulan
+                          :mod (vv8 / enam)
+                          :mod (vv9 / depan)))
+     :mod (vv10 / dan)
+     :mod (vv11 / empat)
+     :mod (vv12 / adalah)
+     :mod (vv13 / jelas))
+

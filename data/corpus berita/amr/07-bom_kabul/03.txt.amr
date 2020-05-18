@@ -1,0 +1,21 @@
+# ::snt Ledakan ini terjadi seminggu setelah peristiwa serangan di Intercontinental Hotel di Kabul, yang juga diaku oleh Taliban sebagai perbuatannya dan menyebabkan 18 orang meninggal dunia.
+
+(vv1 / jadi
+     :ARG1 (vv2 / ledak)
+     :ARG1 (vv3 / minggu
+                :mod (vv4 / peristiwa
+                          :mod (vv5 / serang)
+                          :mod (vv6 / intercontinental
+                                    :ARG1 (vv7 / hotel)
+                                    :mod (vv8 / kabul))
+                          :mod (vv9 / dia
+                                    :mod (vv10 / juga)
+                                    :location (vv11 / taliban)
+                                    :location (vv12 / buat)
+                                    :mod (vv13 / sebab
+                                               :mod (vv14 / dan)
+                                               :ARG1 (vv17 / tinggal
+                                                           :ARG1 (vv15 / orang
+                                                                       :mod (vv16 / 18))
+                                                           :ARG1 (vv18 / dunia)))))))
+

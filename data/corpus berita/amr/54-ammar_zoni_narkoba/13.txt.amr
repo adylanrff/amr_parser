@@ -1,0 +1,37 @@
+# ::snt Kapolres Metro Jakarta Pusat, Komisaris Besar Polisi Suyudi Ario Seto mengonfirmasi kabar tersebut.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / kapolres
+                :mod (vv3 / metro
+                          :name (vv4 / jakarta
+                                     :mod (vv5 / pusat)))
+                :name (vv6 / komisaris
+                           :mod (vv7 / besar)
+                           :mod (vv8 / polisi
+                                     :name (vv9 / suyudi
+                                                :name (vv10 / ario
+                                                            :name (vv11 / seto))))))
+     :ARG1 (vv12 / kabar))
+
+# ::snt "Benar ditangkap," kata Suyudi saat dikonfirmasi, Senin (10/7).
+
+(vv1 / tangkap
+     :mod (vv2 / benar)
+     :ARG1 (vv3 / kata
+                :name (vv4 / suyudi))
+     :ARG1 (vv5 / konfirmasi
+                :mod (vv6 / saat)
+                :ARG0 (vv7 / senin
+                           :mod (vv8 / 107))))
+
+# ::snt "Sedang dikembangkan, nanti akan direlease, dikabari ya," pungkas dia.
+
+(vv3 / direlease
+     :mod (vv1 / kembang
+               :mod (vv2 / sedang))
+     :mod (vv4 / nanti)
+     :mod (vv5 / akan)
+     :ARG1 (vv6 / kabar
+                :ARG1 (vv7 / pungkas
+                           :mod (vv8 / ya))))
+

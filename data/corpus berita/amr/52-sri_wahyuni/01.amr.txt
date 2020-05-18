@@ -1,0 +1,108 @@
+# ::snt Sri Wahyuni Agustiani (21) mempersembahkan medali perak cabang angkat berat sekaligus medali pertama bagi kontingen Indonesia di Olimpiade 2016.
+
+(vv1 / sembah
+     :ARG0 (vv2 / sri
+                :name (vv3 / wahyuni
+                           :name (vv4 / agustiani
+                                      :mod (vv5 / 21))))
+     :ARG1 (vv6 / medali
+                :mod (vv7 / perak
+                          :mod (vv9 / angkat
+                                    :mod (vv11 / sekaligus)))
+                :mod (vv8 / cabang
+                          :mod (vv10 / berat))
+                :mod (vv12 / pertama)
+                :mod (vv13 / kontingen
+                           :mod (vv15 / olimpiade
+                                      :mod vv17)
+                           :mod (vv16 / 2016))
+                :mod (vv14 / indonesia)))
+
+# ::snt Yuni, nama akrabnya, meraih medali perak di kelas 48 kg, pada Sabtu (6/8/2016). Ia hanya kalah dari atlet Thailand Sopita Tanasan.
+
+# ::snt Pada angkatan snatch, Yuni berhasil mencatat 85 kg. Namun, Sopita Tanasan ternyata mendapatkan total angkatan 92 kg atau 7 kg lebih berat.
+
+(vv1 / hasil
+     :location (vv2 / angkat
+                    :mod (vv4 / yuni)
+                    :mod (vv8 / dapat
+                              :mod (vv12 / nyata)
+                              :ARG0 (vv13 / total
+                                          :mod (vv3 / snatch))
+                              :mod (vv15 / atau)
+                              :ARG1 (vv16 / 7)))
+     :ARG0 (vv5 / catat
+                :ARG1 (vv7 / 85))
+     :mod (vv6 / kg
+               :mod (vv9 / namun)
+               :mod (vv10 / sopita
+                          :name (vv14 / 92))
+               :mod (vv17 / berat
+                          :mod vv21)
+               :mod (vv18 / lebih)
+               :mod vv19
+               :mod vv20)
+     :mod (vv11 / tanasan))
+
+# ::snt Kemudian, pada percobaan pertama clean & jerk, Yuni berhasil mengangkat 107 kg. Lagi-lagi, Sopita Tanasan menyusul dengan total angkatan di atasnya yakni 108 kg clean and jerk.
+
+# ::snt Untuk mengejar total angkatan Tanasan, pelatih Yuni Aveenash Pandoo, memasang beban 115 pada percobaan kedua. Namun, Yuni gagal melakukan angkatan. Pada percobaan ketiga, Yuni kembali gagal mengangkat 115 kg.
+
+(vv1 / pasang
+     :ARG1 (vv2 / kejar
+                :ARG1 (vv3 / total
+                           :mod (vv4 / angkat
+                                     :mod (vv7 / yuni
+                                               :name (vv12 / coba
+                                                           :mod (vv19 / kg
+                                                                      :mod (vv16 / laku
+                                                                                 :ARG1 (vv5 / tanasan)
+                                                                                 :location (vv18 / kembali)))
+                                                           :mod vv21
+                                                           :mod vv24))
+                                     :ARG1 vv26)))
+     :ARG0 (vv8 / aveenash
+                :name (vv13 / dua))
+     :ARG1 (vv14 / gagal
+                 :mod (vv6 / latih
+                           :name (vv9 / pandoo))
+                 :ARG0 (vv10 / beban
+                             :mod (vv15 / namun)
+                             :mod (vv17 / tiga))
+                 :ARG0 (vv11 / 115)
+                 :mod vv22
+                 :mod vv23
+                 :mod vv25)
+     :ARG1 vv20)
+
+# ::snt Yuni mencatat total angkatan 192 kg yang terdiri atas 85 kg snatch dan 107 clean & jerk. Sementara Sopita Tanasan melakukan total angkatan 200 kg (92 kg snatch dan 108 clean & jerk).
+
+# ::snt Dengan keberhasilan meraih medali perak, Yuni akan mendapat bonus Rp 2 miliar dari pemerintah. Dia juga akan mendapatkan tunjangan hari tua Rp 15 juta per bulan.
+
+(vv1 / dapat
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / raih
+                          :ARG1 (vv4 / medali
+                                     :mod (vv5 / perak))))
+     :ARG0 (vv6 / yuni)
+     :mod (vv7 / akan)
+     :mod (vv8 / bonus
+               :mod (vv10 / miliar
+                          :mod (vv13 / dia))
+               :mod (vv12 / pemerintah))
+     :ARG1 (vv9 / rp)
+     :ARG1 (vv14 / juga)
+     :ARG0 (vv15 / tunjang
+                 :mod (vv18 / juta
+                            :mod vv21)
+                 :mod (vv20 / bulan))
+     :mod (vv16 / hari
+                :mod (vv11 / 2)
+                :mod (vv19 / 15))
+     :ARG1 (vv17 / tua)
+     :ARG1 vv22)
+
+# ::snt Bagi Yuni, ini merupakan kali pertama dia membela Indonesia pada ajang Olimpiade dan langsung meraih medali. Keberhasilannya langsung diapresiasi sejumlah tokoh antara lain Presiden Joko Widodo melalui Twitter.
+
+# ::snt Menpora Imam Nachrawi yang turut mendukung di lokasi Olimpiade juga langsung memberikan selamat dan memeluk Sri Wahyuni. Selamat Yuni!
+

@@ -1,0 +1,87 @@
+# ::snt Dalam vonisnya pada hari Senin (29/01) kemarin, Hakim Ketua Marshal Tarigan menjatuhkan vonis 1 bulan 14 hari penjara kepada nenek Saulina karena menebang pohon durian milik Japaya Sitorus berdiameter lima inci di Dusun Panamean, Desa Sampuara Kecamatan Uluan Toba Samosir.
+
+(vv1 / jatuh
+     :location (vv2 / vonis
+                    :mod (vv4 / senin
+                              :mod (vv7 / hakim
+                                        :name (vv10 / tarigan)))
+                    :mod (vv5 / 2901)
+                    :mod (vv13 / 14)
+                    :mod (vv16 / saulina)
+                    :mod (vv17 / tebang
+                               :ARG1 (vv20 / milik
+                                           :name (vv23 / diameter
+                                                       :ARG1 (vv26 / dusun
+                                                                   :name (vv29 / sampuara)
+                                                                   :name (vv32 / toba
+                                                                               :name vv35))
+                                                       :location (vv28 / desa
+                                                                       :name (vv31 / uluan
+                                                                                   :name vv34))))))
+     :ARG1 (vv3 / hari
+                :mod (vv6 / kemarin))
+     :ARG0 (vv8 / ketua
+                :name (vv11 / bulan
+                            :mod (vv14 / penjara)
+                            :mod (vv15 / nenek
+                                       :name (vv18 / pohon
+                                                   :mod (vv21 / japaya
+                                                              :name (vv24 / inci
+                                                                          :mod (vv27 / panamean
+                                                                                     :mod (vv30 / camat
+                                                                                                :name (vv33 / samosir)))))
+                                                   :mod (vv22 / sitorus)
+                                                   :mod (vv25 / lima)))))
+     :ARG0 (vv9 / marshal
+                :name (vv12 / 1))
+     :mod (vv19 / durian))
+
+# ::snt "Menurut kami, terdakwa harus menjalani hukuman satu bulan empat belas hari," ujar Marsahal lalu mengetuk palu, tanda berakhirnya sidang.
+
+(vv3 / jalan
+     :mod (vv1 / dakwa
+               :ARG1 (vv2 / kami))
+     :mod (vv4 / harus)
+     :ARG1 (vv5 / hukum
+                :mod (vv6 / bulan
+                          :mod (vv7 / satu)
+                          :mod (vv8 / hari
+                                    :mod (vv9 / empat
+                                              :mod (vv10 / belas)))))
+     :mod (vv11 / ujar)
+     :mod (vv12 / ketuk
+                :ARG0 (vv13 / marsahal)
+                :mod (vv14 / lalu)
+                :ARG1 (vv15 / palu
+                            :mod (vv16 / tanda
+                                       :mod (vv17 / akhir)))
+                :ARG1 (vv18 / sidang)))
+
+# ::snt Saat menjalani persidangan, Saulina terlihat beberapa kali menyeka air matanya dengan sapu tangan berwarna putih.
+
+(vv3 / lihat
+     :ARG1 (vv1 / jalan
+                :ARG1 (vv2 / saat)
+                :ARG1 (vv4 / sidang
+                           :mod (vv5 / saulina)))
+     :ARG1 (vv6 / kali)
+     :ARG1 (vv7 / seka
+                :ARG1 (vv8 / air
+                           :mod (vv9 / mata)
+                           :mod (vv10 / sapu
+                                      :mod (vv11 / tangan)
+                                      :ARG1 (vv12 / warna
+                                                  :mod (vv13 / putih))))))
+
+# ::snt Nenek yang sehari-hari bertenun ini lemas mendengarkan putusan hakim.
+
+(vv1 / dengar
+     :ARG0 (vv2 / nenek
+                :mod (vv3 / seharihari)
+                :mod (vv4 / tenun))
+     :mod (vv5 / lemas)
+     :ARG1 (vv6 / putus
+                :mod (vv7 / hakim)))
+
+# ::snt "Sementara banyak saksi yang menyatakan dalam persidangan yang rumahnya berkedakatan dengan lokasi tidak pernah melihat Japaya menanam dan memanen hasil tanaman yang menjadi barang bukti tersebut," ujarnya.
+

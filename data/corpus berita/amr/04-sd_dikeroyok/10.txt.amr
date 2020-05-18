@@ -1,0 +1,76 @@
+# ::snt Bocah yang merupakan siswa SDN Pakunden Kediri ini tidak sengaja memasukan gol ke gawang timnya sendiri.
+
+(vv1 / pasu
+     :ARG0 (vv2 / bocah
+                :mod (vv3 / rupa
+                          :ARG1 (vv4 / siswa
+                                     :mod (vv5 / sdn
+                                               :name (vv6 / pakunden
+                                                          :name (vv7 / kediri))))))
+     :mod (vv8 / tidak)
+     :mod (vv9 / sengaja)
+     :ARG1 (vv10 / gol
+                 :mod (vv11 / gawang
+                            :mod (vv12 / tim)
+                            :mod (vv13 / sendiri))))
+
+# ::snt Korban mengalami gangguan syaraf usai kemaluannya ditendang rekannya ketika main bola di halaman sekolah.
+
+(vv1 / alami
+     :ARG0 (vv2 / korban)
+     :ARG1 (vv3 / ganggu
+                :mod (vv4 / syaraf
+                          :mod (vv5 / malu)))
+     :mod (vv6 / tendang
+               :ARG1 (vv7 / rekan)
+               :mod (vv8 / main
+                         :ARG1 (vv9 / bola)
+                         :location (vv10 / halaman
+                                         :mod (vv11 / sekolah)))))
+
+# ::snt Masalah ini sebenarnya telah diselesaikan pihak sekolah, korban dan juga pelaku bahkan telah berdamai.
+
+(vv1 / selesai
+     :ARG1 (vv2 / masalah)
+     :mod (vv3 / benar)
+     :mod (vv4 / telah)
+     :ARG0 (vv6 / sekolah
+                :mod (vv8 / laku
+                          :mod (vv10 / juga)
+                          :mod (vv11 / damai
+                                     :mod (vv5 / pihak
+                                               :mod (vv7 / korban)
+                                               :mod (vv9 / dan))
+                                     :mod vv13)))
+     :mod (vv12 / bahkan))
+
+# ::snt Tetapi rupanya korban menderita trauma luka sehingga dirinya mengalami demam dan dirawat di ICU.
+
+(vv1 / derita
+     :mod (vv2 / tetapi)
+     :ARG0 (vv3 / rupa)
+     :ARG0 (vv4 / korban)
+     :ARG1 (vv5 / trauma
+                :mod (vv6 / luka))
+     :mod (vv7 / alami
+               :ARG0 (vv8 / diri)
+               :ARG1 (vv9 / demam)
+               :mod (vv10 / rawat
+                          :mod (vv11 / dan)
+                          :location (vv12 / icu))))
+
+# ::snt Korban bahkan dipalak atau diminta uang dengan paksa dan kejadian tersebut telah berlangsung lama.
+
+(vv1 / palak
+     :ARG1 (vv2 / korban)
+     :mod (vv3 / bahkan)
+     :mod (vv4 / minta
+               :mod (vv5 / atau)
+               :ARG1 (vv6 / uang)
+               :ARG1 (vv7 / paksa))
+     :mod (vv8 / langsung
+               :mod (vv9 / dan)
+               :ARG0 (vv10 / jadi)
+               :mod (vv11 / telah)
+               :mod (vv12 / lama)))
+

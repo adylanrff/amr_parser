@@ -1,0 +1,63 @@
+# ::snt "Menyatakan terdakwa Jessica Kumala alias Jessica Kumala Wongso telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana pembunuhan berencana," ujar hakim ketua Kisworo membacakan amar putusan di Pengadilan Negeri Jakarta Pusat, Jl Bungur Besar Raya, Jakpus, Kamis (27/10/2016).
+
+(vv1 / bukti
+     :mod (vv2 / nyata
+               :ARG1 (vv3 / dakwa
+                          :name (vv4 / jessica
+                                     :name (vv6 / alias
+                                                :name (vv5 / mala
+                                                           :name (vv9 / sah)))
+                                     :name (vv7 / wongso)
+                                     :mod (vv8 / telah))))
+     :mod (vv10 / yakin
+                :mod (vv13 / laku
+                           :ARG1 (vv16 / bunuh)
+                           :ARG1 (vv20 / hakim
+                                       :mod (vv23 / amar
+                                                  :mod (vv26 / negeri
+                                                             :name (vv29 / jl
+                                                                         :name (vv32 / raya
+                                                                                     :name (vv35 / 27102016))))
+                                                  :mod (vv27 / jakarta
+                                                             :mod (vv30 / bungur
+                                                                        :mod (vv33 / jakpus
+                                                                                   :name vv36
+                                                                                   :mod vv37))))))
+                :mod (vv14 / tindak
+                           :mod (vv17 / rencana)
+                           :mod (vv19 / ujar))
+                :mod (vv15 / pidana
+                           :mod (vv18 / baca
+                                      :mod (vv21 / ketua
+                                                 :name (vv24 / putus))
+                                      :ARG0 (vv22 / kisworo)
+                                      :ARG1 (vv25 / adil
+                                                  :mod (vv28 / pusat)
+                                                  :mod (vv31 / besar
+                                                             :name (vv34 / kamis))))))
+     :ARG1 (vv11 / dan)
+     :mod (vv12 / salah))
+
+# ::snt Puncak emosi Jessica terjadi saat bertemu Mirna yang ditemani suaminya Arief Soemarko di restoran kawasan Kelapa Gading, Jakarta Utara pada 8 Desember 2015.
+
+(vv1 / jadi
+     :ARG1 (vv2 / puncak
+                :mod (vv3 / emosi
+                          :name (vv4 / jessica)))
+     :ARG1 (vv5 / temu
+                :ARG1 (vv6 / saat)
+                :ARG1 (vv7 / mirna
+                           :mod (vv8 / tani
+                                     :ARG0 (vv9 / suami
+                                                :name (vv10 / arief
+                                                            :name (vv11 / soemarko)))
+                                     :location (vv12 / restoran
+                                                     :mod (vv13 / kawasan
+                                                                :mod (vv14 / kelapa
+                                                                           :name (vv15 / gading
+                                                                                       :name (vv16 / jakarta
+                                                                                                   :mod (vv17 / utara))))))
+                                     :ARG1 (vv18 / desember
+                                                 :mod (vv19 / 8)
+                                                 :mod (vv20 / 2015))))))
+

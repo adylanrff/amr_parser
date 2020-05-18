@@ -1,0 +1,54 @@
+# ::snt Saga antara Uber dan Grab dikabarkan telah usai usai, dengan nama yang disebutkan terakhir mampu mengakuisisi unit bisnis dari perusaahaan asal Amerika Serikat Tersebut.
+
+(vv1 / kabar
+     :ARG1 (vv2 / saga
+                :mod (vv3 / uber
+                          :mod (vv4 / grab
+                                    :mod (vv5 / dan))))
+     :mod (vv6 / usai
+               :mod (vv7 / telah)
+               :ARG1 (vv8 / nama
+                          :mod (vv9 / sebut
+                                    :mod (vv10 / akhir)
+                                    :ARG1 (vv11 / akuisisi
+                                                :mod (vv12 / mampu)
+                                                :ARG1 (vv13 / unit
+                                                            :mod (vv14 / bisnis)
+                                                            :mod (vv15 / perusaahaan
+                                                                       :mod (vv16 / amerika
+                                                                                  :mod (vv17 / asal)
+                                                                                  :mod (vv18 / serikat)))))))))
+
+# ::snt Nantinya, Uber masih akan memiliki saham sekitar 25%-30% dalam unit bisnis gabungannya bersama Grab. Dengan keluarnya Uber dalam persaingan berbagi tumpangan di Asia Tenggara, praktis tinggal dua nama yang tersisa dalam pasar transportasi online di kawasan tersebut, yaitu Go-Jek dan Grab
+
+(vv1 / milik
+     :mod (vv2 / nanti)
+     :ARG0 (vv3 / uber)
+     :mod (vv5 / akan)
+     :mod (vv6 / saham
+               :mod (vv8 / unit
+                         :mod (vv10 / gabung)
+                         :mod (vv11 / grab
+                                    :mod vv30)
+                         :mod (vv12 / keluar
+                                    :mod (vv4 / masih)
+                                    :mod (vv15 / tumpang
+                                               :mod (vv18 / praktis))))
+               :mod (vv9 / bisnis))
+     :ARG1 (vv7 / 2530)
+     :ARG1 (vv14 / bagi
+                 :ARG1 (vv17 / tenggara
+                             :mod (vv20 / nama
+                                        :mod (vv23 / pasar
+                                                   :mod (vv26 / kawasan)
+                                                   :mod (vv28 / dan)
+                                                   :mod vv29)
+                                        :mod (vv24 / transportasi
+                                                   :mod (vv27 / gojek
+                                                              :mod (vv13 / saing
+                                                                         :mod (vv16 / asia
+                                                                                    :mod (vv19 / tinggal
+                                                                                               :ARG1 (vv22 / sisa
+                                                                                                           :location (vv25 / online))))))))))
+     :mod (vv21 / dua))
+

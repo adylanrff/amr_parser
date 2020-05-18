@@ -1,0 +1,42 @@
+# ::snt Di Sosial media, muncul gerakan warganet memboikot Traveloka dengan jalan meng-uninstall atau hapus aplikasi tersebut di gadget, siang ini Selasa (14/11), muncul pesan berantai di aplikasi kirim pesan Whatsapp dan Telegram yang mengajak untuk 'Report as Spam' aplikasi Traveloka di google playstore.
+
+# ::snt Ada puluhan pesan tersebut dari berbagai nomor sejak siang ini, yang isinya himbauan untuk melaporkan aplikasi Traveloka ke Google sebagai aplikasi yang tidak pantas atau keberatan lainnya.
+
+(vv1 / ada
+     :ARG1 (vv2 / puluh
+                :mod (vv3 / pesan))
+     :ARG1 (vv4 / nomor
+                :mod (vv5 / siang
+                          :mod (vv6 / isi
+                                    :mod (vv7 / himbauan)
+                                    :mod (vv8 / lapor
+                                              :ARG1 (vv9 / aplikasi
+                                                         :mod (vv11 / google)
+                                                         :mod (vv12 / pantas
+                                                                    :mod (vv14 / berat
+                                                                               :mod (vv16 / lain)
+                                                                               :mod vv17)
+                                                                    :mod (vv15 / atau))
+                                                         :mod (vv13 / tidak))
+                                              :ARG1 (vv10 / traveloka))))))
+
+# ::snt Hingga berita ini diturunkan, belum ada tanggapan dari manajemen Traveloka atas gerakan yang menjadi treding di sosial media dan jadi pesan berantai yang masif.
+
+(vv1 / turun
+     :ARG1 (vv2 / berita)
+     :ARG1 (vv3 / ada
+                :mod (vv4 / belum)
+                :ARG1 (vv5 / tanggap
+                           :mod (vv6 / manajemen
+                                     :mod (vv7 / traveloka)
+                                     :mod (vv8 / gera
+                                               :mod (vv9 / jadi
+                                                         :mod (vv10 / treding
+                                                                    :mod (vv12 / media))
+                                                         :ARG1 (vv11 / sosial
+                                                                     :mod (vv13 / dan))
+                                                         :mod (vv14 / pesan
+                                                                    :mod (vv16 / masif)
+                                                                    :mod vv17)
+                                                         :ARG1 (vv15 / beranta)))))))
+

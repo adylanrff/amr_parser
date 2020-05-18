@@ -1,0 +1,27 @@
+# ::snt Dari sisi agama yang mayoritas masyarakat Taiwan penganut ajaran Buddhisme dan agama Tiongkok tradisional, tidak memiliki larangan tertulis sebagai dasar yang kuat dalam melawan orientasi seksual atau pernikahan sejenis.
+
+# ::snt Bukankah hal tersebut sebenarnya dapat merusak moral generasi muda? karena dianggap hal tersebut adalah benar dan mereka dapat terinspirasi akan hal tersebut karena terbiasa dari kecil melihat kewajarannya.s
+
+(vv1 / rusak
+     :ARG1 (vv2 / bukankah)
+     :ARG0 (vv3 / hal
+                :mod (vv18 / kewajarannyas))
+     :mod (vv6 / moral
+               :mod (vv11 / inspirasi
+                          :ARG1 (vv5 / dapat)
+                          :mod (vv9 / anggap
+                                    :ARG1 (vv4 / benar
+                                               :mod (vv14 / akan)
+                                               :mod (vv15 / biasa
+                                                          :ARG1 vv20
+                                                          :mod vv21)))
+                          :mod (vv16 / kecil)
+                          :ARG1 (vv17 / lihat
+                                      :ARG1 vv22)
+                          :mod vv19))
+     :mod (vv7 / generasi
+               :mod (vv12 / dan))
+     :mod (vv8 / muda)
+     :ARG1 (vv10 / adalah)
+     :ARG1 (vv13 / mereka))
+

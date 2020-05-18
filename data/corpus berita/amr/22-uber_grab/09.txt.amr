@@ -1,0 +1,32 @@
+# ::snt Uber melepas bisnisnya di Asia Tenggara kepada rival sesama perusahaan ride hailing, Grab.
+
+(vv1 / lepas
+     :ARG0 (vv2 / uber)
+     :ARG1 (vv3 / bisnis)
+     :location (vv4 / asia
+                    :mod (vv5 / tenggara))
+     :ARG1 (vv6 / rival
+                :mod (vv7 / sama)
+                :mod (vv8 / usaha
+                          :mod (vv9 / ride
+                                    :mod (vv10 / hailing
+                                               :name (vv11 / grab))))))
+
+# ::snt Seperti dilansir Bloomberg, kedua perusahaan baru saja mencapai kesepakatan yang akan diumumkan secara resmi pada Senin pagi (26/3) di Singapura.
+
+(vv1 / capai
+     :mod (vv2 / lansir
+               :ARG0 (vv3 / bloomberg
+                          :mod (vv4 / dua)))
+     :ARG0 (vv5 / usaha
+                :mod (vv6 / baru))
+     :mod (vv7 / saja)
+     :ARG1 (vv8 / sepakat
+                :mod (vv9 / umum
+                          :mod (vv10 / akan)
+                          :ARG1 (vv11 / resmi)
+                          :time (vv12 / senin
+                                      :mod (vv13 / pagi
+                                                 :mod (vv14 / 263))
+                                      :mod (vv15 / singapura)))))
+

@@ -1,0 +1,55 @@
+# ::snt Dia telah menandatangani sebuah kesepakatan pembelaan Oktober lalu, menghindari hukuman penjara yang lebih panjang hingga 20 tahun.
+
+(vv1 / menandatangani
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / sepakat
+                :mod (vv5 / bela
+                          :mod (vv6 / oktober)))
+     :ARG1 (vv7 / hindar
+                :mod (vv8 / lalu)
+                :ARG1 (vv9 / hukum
+                           :mod (vv10 / penjara)
+                           :mod (vv11 / panjang
+                                      :mod (vv12 / lebih)))
+                :ARG1 (vv13 / tahun
+                            :mod (vv14 / 20))))
+
+# ::snt Departemen Kepolisian Los Angeles mengatakan bahwa Salling dilaporkan hilang sekitar pukul 3 dini hari Selasa.
+
+(vv1 / kata
+     :ARG0 (vv2 / departemen
+                :mod (vv3 / polisi
+                          :mod (vv4 / los
+                                    :mod (vv5 / angeles))))
+     :mod (vv6 / lapor
+               :ARG1 (vv7 / salling)
+               :mod (vv8 / hilang)
+               :time (vv9 / pukul
+                          :mod (vv10 / dini
+                                     :mod (vv11 / 3))
+                          :mod (vv12 / hari
+                                     :mod (vv13 / selasa)))))
+
+# ::snt Pengacara Salling menambahkan, "Mark adalah orang yang lembut dan penuh kasih, orang yang memiliki kreativitas hebat, yang melakukan yang terbaik untuk menebus beberapa kesalahan seriusnya."
+
+(vv1 / tambah
+     :ARG0 (vv2 / acara
+                :name (vv3 / salling))
+     :ARG0 (vv4 / mark)
+     :ARG1 (vv5 / orang
+                :mod (vv7 / lembut
+                          :mod (vv9 / dan))
+                :mod (vv8 / penuh
+                          :mod (vv10 / kasih
+                                     :mod (vv6 / adalah)
+                                     :mod (vv12 / kreativitas
+                                                :mod (vv14 / laku
+                                                           :mod (vv16 / tebus
+                                                                      :ARG1 (vv18 / serius)))
+                                                :mod (vv15 / baik
+                                                           :mod (vv17 / salah
+                                                                      :mod vv19))))
+                          :mod (vv11 / milik
+                                     :ARG1 (vv13 / hebat)))))
+

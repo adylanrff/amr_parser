@@ -1,0 +1,62 @@
+# ::snt T adalah korban pengeroyokan yang dilakukan oleh teman-teman sekolahnya.
+
+(vv1 / korban
+     :ARG0 (vv2 / t)
+     :mod (vv3 / adalah)
+     :mod (vv4 / keroyok)
+     :mod (vv5 / laku
+               :ARG1 (vv6 / temanteman
+                          :mod (vv7 / sekolah))))
+
+# ::snt Kebijakan rumah sakit milik Polri itu mengirimkan korban karena pertimbangan kondisi kesehatannya, terutama keluhan sakit yang diderita di kepala dan alat vitalnya.
+
+(vv1 / kirim
+     :ARG0 (vv2 / bijak
+                :mod (vv3 / rumah
+                          :mod (vv4 / sakit))
+                :mod (vv6 / polri))
+     :ARG1 (vv8 / timbang
+                :mod (vv10 / sehat)
+                :mod (vv12 / utama))
+     :ARG1 (vv9 / kondisi
+                :mod (vv11 / keluh
+                           :mod (vv5 / milik
+                                     :name (vv7 / korban))
+                           :mod (vv13 / derita
+                                      :ARG1 (vv15 / alat
+                                                  :mod (vv17 / vital)
+                                                  :mod vv18))
+                           :mod (vv14 / kepala
+                                      :mod (vv16 / dan)))))
+
+# ::snt Berdasarkan diagnosa rumah sakit, korban mengalami infeksi otak dan sakit pada kemaluan.
+
+(vv3 / alami
+     :ARG1 (vv1 / diagnosa
+                :mod (vv2 / dasar)
+                :mod (vv4 / rumah
+                          :mod (vv5 / sakit
+                                    :mod (vv10 / malu))))
+     :ARG0 (vv7 / infeksi
+                :mod (vv6 / korban)
+                :mod (vv9 / dan))
+     :ARG1 (vv8 / otak)
+     :ARG1 vv11)
+
+# ::snt Rasa sakit ini diduga akibat pukulan dan tendangan oleh para pelaku saat pengeroyokan terjadi, Kamis (18/1/2018) lalu.
+
+(vv1 / duga
+     :ARG1 (vv2 / rasa
+                :mod (vv3 / sakit))
+     :ARG1 (vv4 / akibat
+                :time (vv5 / pukul
+                           :mod (vv6 / tendang
+                                     :mod (vv7 / dan))))
+     :ARG1 (vv8 / laku)
+     :mod (vv11 / jadi
+                :mod (vv9 / keroyok
+                          :mod (vv10 / saat))
+                :ARG1 (vv12 / kamis
+                            :mod (vv13 / 1812018)))
+     :mod (vv14 / lalu))
+

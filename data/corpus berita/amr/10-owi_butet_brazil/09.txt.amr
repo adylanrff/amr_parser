@@ -1,0 +1,19 @@
+# ::snt Ternyata tak hanya bonus, pemerintah juga menjanjikan hadiah lain bagi Tontowi-Liliyana, serta para atlet yang meraih medali di ajang Olimpiade tersebut.
+
+(vv1 / janji
+     :mod (vv2 / nyata)
+     :ARG0 (vv5 / bonus
+                :mod (vv3 / hanya
+                          :mod (vv4 / tak))
+                :mod (vv6 / pemerintah))
+     :mod (vv7 / juga)
+     :ARG1 (vv8 / hadiah
+                :mod (vv9 / lain)
+                :mod (vv10 / tontowililiyana)
+                :mod (vv11 / atlet
+                           :mod (vv12 / serta)
+                           :mod (vv13 / raih
+                                      :ARG1 (vv14 / medali)
+                                      :ARG1 (vv15 / ajang
+                                                  :mod (vv16 / olimpiade))))))
+

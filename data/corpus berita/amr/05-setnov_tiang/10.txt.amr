@@ -1,0 +1,52 @@
+# ::snt "Pengemudi kurang konsentrasi karena menerima telpon, ngobrol dengan korban, dan lelah kurang tidur," ujar Halim melalui keterangan tertulis yang diterima Republika, Jumat (17/11).
+
+(vv3 / kemudi
+     :mod (vv1 / konsentrasi
+               :mod (vv2 / kurang))
+     :mod (vv5 / telpon
+               :mod (vv8 / lelah
+                         :mod (vv11 / halim
+                                    :mod (vv14 / tulis)))
+               :mod (vv9 / dan))
+     :mod-of (vv10 / tidur
+                   :ARG1 (vv13 / terang
+                               :mod (vv6 / ngobrol)
+                               :mod (vv16 / jumat
+                                          :mod vv19))
+                   :ARG1 (vv15 / republika
+                               :time vv18)
+                   :mod-of (vv7 / korban
+                                :ARG1-of (vv4 / terima
+                                              :mod (vv12 / ujar)
+                                              :ARG1 (vv17 / 1711)))))
+
+# ::snt "Pengemudi Fortuner Sodara HM," ujar Halim.
+
+(vv1 / ujar
+     :ARG0 (vv2 / kemudi
+                :name (vv3 / fortuner
+                           :name (vv4 / sodara
+                                      :name (vv5 / hm))))
+     :ARG1 (vv6 / halim))
+
+# ::snt "Selesai wawancara by phone pengemudi merespon pembicaraan SN, dan sambil sesekali menengok kebelakang dan (kembali) menerima telp dari kantor," ujarnya.
+
+(vv1 / merespon
+     :ARG0 (vv2 / wawancara
+                :mod (vv3 / by
+                          :mod (vv4 / phone)))
+     :ARG0 (vv5 / kemudi)
+     :ARG1 (vv6 / bicara
+                :name (vv7 / sn))
+     :mod (vv8 / tengok
+               :mod (vv9 / dan)
+               :mod (vv11 / sekal)
+               :mod (vv12 / belakang)
+               :ARG1 (vv13 / terima
+                           :mod (vv10 / sambil)
+                           :mod (vv15 / telp
+                                      :mod (vv17 / ujar))
+                           :ARG1 (vv16 / kantor
+                                       :mod vv18))
+               :ARG1 (vv14 / kembali)))
+

@@ -1,0 +1,103 @@
+# ::snt "Moonlight" meraih Oscar untuk film terbaik hari Minggu (26/2), mengalahkan kandidat favorit "La La Land" untuk penghargaan paling prestisius dalam industri perfilman.
+
+(vv1 / raih
+     :ARG0 (vv2 / moonlight)
+     :ARG0 (vv3 / oscar)
+     :ARG1 (vv4 / film
+                :mod (vv6 / hari
+                          :mod (vv8 / 262))
+                :mod (vv7 / minggu
+                          :mod (vv9 / kalah
+                                    :ARG1 (vv11 / favorit))))
+     :mod (vv10 / kandidat
+                :mod (vv12 / la
+                           :name (vv14 / harga
+                                       :mod (vv17 / industri
+                                                  :mod (vv5 / baik))
+                                       :mod vv19)
+                           :name (vv15 / prestisius
+                                       :mod vv18))
+                :name (vv13 / land)
+                :mod (vv16 / paling)))
+
+# ::snt Emma Stone menjadi aktris terbaik untuk perannya dalam musikal tersebut, dan bintang "Manchester by the Sea" Casey Affleck adalah aktor terbaik di malam penghargaan dimana Presiden AS Donald Trump menjadi sasaran empuk sejumlah lelucon, menutup musim penghargaan Hollywood yang ditandai dengan protes-protes besar atas kebijakan-kebijakannya.
+
+# ::snt Sutradara "La La Land" Damien Chazelle, 32, menjadi orang termuda yang pernah menjadi sutradara pemenang Oscar.
+
+(vv1 / jadi
+     :ARG0 (vv2 / sutradara
+                :name (vv4 / land
+                           :name (vv6 / chazelle
+                                      :mod (vv8 / orang
+                                                :mod (vv10 / pernah))))
+                :name (vv5 / damien
+                           :name (vv7 / 32))
+                :mod (vv12 / oscar))
+     :ARG1 (vv3 / la)
+     :ARG1 (vv9 / muda)
+     :mod (vv11 / menang
+                :name vv13))
+
+# ::snt "Moonlight," yang mengisahkan remaja pria kulit hitam di Miami, juga meraih penghargaan skenario adaptasi terbaik, sementara drama independen yang menyayat hati "Manchester by the Sea" mendapat piala untuk skenario asli terbaik.
+
+(vv1 / raih
+     :ARG0 (vv2 / moonlight
+                :mod (vv3 / kisah
+                          :ARG1 (vv4 / remaja
+                                     :mod (vv5 / pria
+                                               :mod (vv6 / kulit
+                                                         :mod (vv7 / hitam)))
+                                     :mod (vv8 / miami))))
+     :mod (vv9 / juga)
+     :ARG1 (vv10 / harga
+                 :mod (vv11 / skenario
+                            :mod (vv13 / baik)
+                            :mod (vv15 / drama
+                                       :mod (vv18 / hati
+                                                  :name (vv21 / sea))
+                                       :mod (vv19 / manchester
+                                                  :mod (vv22 / piala
+                                                             :mod (vv12 / adaptasi
+                                                                        :mod (vv14 / dapat
+                                                                                   :ARG0 (vv17 / sayat
+                                                                                               :ARG1 (vv20 / by
+                                                                                                           :mod (vv23 / asli)))
+                                                                                   :ARG1 vv24)))))
+                            :mod vv25))
+     :mod (vv16 / independen))
+
+# ::snt Musikal romantis "La La Land," cerita cinta aktris yang sedang meniti karir dengan pianis jazz di Los Angeles, mendapat nominasi terbanyak, yaitu 14, dan pulang dengan enam piala, termasuk musik dan lagu terbaik untuk "City of Stars."
+
+# ::snt Kehadiran Trump sangat terasa dalam acara sepanjang tiga setengah jam tersebut karena pembawa acara, komedian Jimmy Kimmel, terus melemparkan sindiran politik dan bahkan mengirim cuitan dari panggung kepada presiden dari Partai Republik itu, meskipun tidak mendapatkan tanggapan segera.
+
+(vv1 / asa
+     :ARG1 (vv2 / hadir
+                :name (vv3 / trump))
+     :mod (vv4 / sangat)
+     :ARG1 (vv5 / acara
+                :mod (vv7 / panjang)
+                :mod (vv13 / jimmy
+                           :name (vv15 / terus)))
+     :mod (vv11 / bawa
+                :ARG1 (vv6 / jam
+                           :mod (vv8 / tiga)
+                           :mod (vv9 / tengah)
+                           :mod (vv10 / lempar
+                                      :ARG0 (vv12 / komedian
+                                                  :name (vv14 / kimmel))
+                                      :mod (vv16 / sindir
+                                                 :mod (vv18 / kirim
+                                                            :mod (vv20 / bahkan)
+                                                            :mod (vv21 / cuit
+                                                                       :mod (vv23 / presiden
+                                                                                  :mod (vv25 / republik))
+                                                                       :mod (vv24 / partai
+                                                                                  :name (vv26 / dapat
+                                                                                              :mod (vv28 / tanggap)
+                                                                                              :ARG1 (vv29 / segera)
+                                                                                              :mod vv30)))
+                                                            :ARG1 (vv22 / panggung)))
+                                      :ARG1 (vv17 / politik)
+                                      :mod (vv19 / dan)
+                                      :mod (vv27 / tidak)))))
+

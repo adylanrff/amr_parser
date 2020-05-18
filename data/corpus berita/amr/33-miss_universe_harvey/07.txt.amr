@@ -1,0 +1,27 @@
+# ::snt Tentu saja ini publik bertanya-tanya, apa sih penyebab komedian itu salah menyebut juaranya? Padahal, di kartu yang pemenang yang ia pegang, sudah jelas tertulis kalau Pia adalah Miss Universe 2015.
+
+(vv6 / apa
+     :mod (vv1 / sebut
+               :mod (vv2 / tentu
+                         :mod (vv3 / saja))
+               :ARG0 (vv4 / publik
+                          :mod (vv5 / bertanyatanya))
+               :ARG0 (vv10 / salah)
+               :ARG1 (vv11 / juara)
+               :ARG1 (vv12 / tulis
+                           :ARG1 (vv13 / padahal)
+                           :ARG1 (vv14 / kartu
+                                       :mod (vv15 / menang)
+                                       :mod (vv16 / pegang
+                                                  :ARG0 (vv17 / ia)
+                                                  :mod (vv18 / sudah)
+                                                  :mod (vv19 / jelas)))
+                           :ARG1 (vv20 / miss
+                                       :ARG0 (vv21 / pia)
+                                       :mod (vv22 / adalah)
+                                       :name (vv23 / universe)
+                                       :mod (vv24 / 2015))))
+     :mod (vv7 / sih)
+     :mod (vv8 / sebab
+               :mod (vv9 / komedian)))
+

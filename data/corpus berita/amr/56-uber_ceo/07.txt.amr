@@ -1,0 +1,114 @@
+# ::snt Rabu (30/8), Khosrowshahi akhirnya menemui para pegawai Uber untuk pertama kalinya di markas perusahaan tersebut di San Francisco, Amerika Serikat.
+
+(vv1 / temu
+     :ARG0 (vv2 / rabu
+                :mod (vv3 / 308)
+                :name (vv4 / khosrowshahi))
+     :mod (vv5 / akhir)
+     :ARG1 (vv6 / pegawai
+                :name (vv7 / uber))
+     :location (vv8 / kali
+                    :mod (vv9 / pertama))
+     :location (vv10 / markas
+                     :mod (vv11 / usaha)
+                     :mod (vv12 / san
+                                :name (vv13 / francisco
+                                            :name (vv14 / amerika
+                                                        :mod (vv15 / serikat))))))
+
+# ::snt "Senang akhirnya bisa bertemu orang-orang di Uber, yang setiap hari membawa hasrat mereka untuk mewujudkan mimpi luar biasa menjadi nyata dan mengembangkan perusahaan ini untuk mengubah dunia," ujar Khosrowshahi dalam pertemuan tersebut.
+
+(vv1 / temu
+     :mod (vv2 / senang)
+     :mod (vv3 / akhir)
+     :mod (vv4 / bisa)
+     :ARG1 (vv5 / orangorang)
+     :location (vv6 / uber)
+     :mod (vv7 / bawa
+               :time (vv8 / hari)
+               :ARG1 (vv9 / hasrat)
+               :ARG1 (vv10 / wujud
+                           :ARG1 (vv11 / mimpi
+                                       :mod (vv12 / luar
+                                                  :mod (vv13 / biasa)))
+                           :mod (vv14 / jadi
+                                      :mod (vv15 / nyata)
+                                      :mod (vv16 / kembang
+                                                 :mod (vv17 / dan)
+                                                 :ARG1 (vv18 / usaha)
+                                                 :ARG1 (vv19 / ubah
+                                                             :ARG1 (vv20 / dunia)
+                                                             :mod (vv21 / khosrowshahi
+                                                                        :mod (vv22 / ujar))))))))
+
+# ::snt Salah satu yang perlu dicatat dari pidato pertamanya di depan pegawai Uber adalah rencananya untuk membawa perusahaan melakukan penawaran saham publik (initial public offering/IPO) dalam waktu setidaknya 18 bulan lagi.
+
+(vv5 / rencana
+     :mod (vv1 / catat
+               :ARG1 (vv2 / salah
+                          :mod (vv3 / satu))
+               :mod (vv4 / perlu)
+               :ARG1 (vv6 / pidato
+                          :mod (vv7 / pertama))
+               :location (vv8 / depan
+                              :mod (vv9 / pegawai
+                                        :name (vv10 / uber))))
+     :mod (vv11 / adalah)
+     :mod (vv12 / bawa
+                :ARG1 (vv13 / usaha)
+                :ARG1 (vv14 / laku
+                            :ARG1 (vv15 / tawar
+                                        :mod (vv16 / saham
+                                                   :mod (vv17 / publik
+                                                              :mod (vv18 / initial
+                                                                         :mod (vv19 / public
+                                                                                    :mod (vv20 / offeringipo)))))
+                                        :mod (vv21 / waktu
+                                                   :mod (vv22 / tidak)
+                                                   :mod (vv23 / bulan
+                                                              :mod (vv24 / 18)
+                                                              :mod (vv25 / lagi)))))))
+
+# ::snt Khosrowshahi mendapatkan tawaran untuk menjabat sebagai CEO Uber pada Minggu (27/8) kemarin dan perusahaan sendiri baru mengumumkan secara resmi pada Selasa (29/8).
+
+(vv1 / dapat
+     :ARG0 (vv2 / khosrowshahi)
+     :ARG1 (vv3 / tawar)
+     :ARG1 (vv4 / jabat
+                :ARG1 (vv5 / ceo
+                           :name (vv6 / uber))
+                :ARG1 (vv7 / minggu
+                           :time (vv8 / kemarin
+                                      :mod (vv9 / 278))))
+     :ARG1 (vv10 / umum
+                 :mod (vv11 / dan)
+                 :ARG0 (vv12 / usaha
+                             :mod (vv13 / sendiri))
+                 :mod (vv14 / baru)
+                 :ARG1 (vv15 / resmi)
+                 :time (vv16 / selasa
+                             :mod (vv17 / 298))))
+
+# ::snt "Memberikan suara untuk CEO selanjutnya dari Uber adalah momen penting bagi saya dan saya senang bisa melanjutkan obor ini ke sosok pemimpin yang menginspirasi," kata Kalanick.
+
+(vv1 / momen
+     :mod (vv2 / beri
+               :ARG1 (vv3 / suara)
+               :ARG1 (vv4 / ceo
+                          :mod (vv5 / lanjut
+                                    :ARG0 (vv11 / senang)
+                                    :mod (vv12 / bisa)
+                                    :mod (vv13 / obor
+                                               :mod (vv16 / inspirasi
+                                                          :ARG1 vv19))
+                                    :mod (vv14 / sosok
+                                               :mod (vv17 / kata
+                                                          :name vv20)
+                                               :mod (vv18 / kalanick))
+                                    :ARG1 (vv15 / pimpin))
+                          :mod (vv7 / adalah)))
+     :mod (vv6 / uber)
+     :mod (vv8 / penting)
+     :mod (vv9 / saya)
+     :mod (vv10 / dan))
+

@@ -1,0 +1,43 @@
+# ::snt "Semua represi benar-benar berada di pihak pemerintah (Perdana Menteri Mariano) Rajoy dan pasukan polisi yang dibawa untuk tujuan ini," kata Romeva, yang dilansir La Vanguardia.
+
+(vv1 / ada
+     :ARG0 (vv2 / represi)
+     :mod (vv3 / benarbenar)
+     :ARG1 (vv4 / pihak
+                :mod (vv5 / perintah)
+                :name (vv6 / perdana
+                           :mod (vv7 / menteri
+                                     :name (vv8 / mariano
+                                                :name (vv9 / rajoy)))
+                           :mod (vv10 / pasu
+                                      :mod (vv11 / dan)
+                                      :mod (vv12 / polisi)
+                                      :mod (vv13 / bawa
+                                                 :ARG1 (vv14 / tuju
+                                                             :mod (vv15 / kata
+                                                                        :name (vv16 / romeva)
+                                                                        :mod (vv17 / lansir
+                                                                                   :ARG1 (vv18 / la
+                                                                                               :name (vv19 / vanguardia))))))))))
+
+# ::snt Pemimpin atau Presiden Catalan, Carles Puigdemont, memuji keberanian jutaan orang Catalan yang nekat memberikan suaranya dalam jajak pendapat meski mengalami tindakan keras polisi Spanyol.
+
+# ::snt Dia mengklaim mayoritas warga Catalan mematuhi hukum dan tidak ingin berpartisipasi dalam jajak pendapat yang oleh Madrid dianggap sebagai tindakan ilegal.
+
+(vv1 / klaim
+     :ARG0 (vv2 / dia)
+     :ARG0 (vv3 / warga
+                :mod (vv4 / catalan))
+     :mod (vv5 / patuh
+               :ARG1 (vv6 / hukum)
+               :mod (vv7 / partisipasi
+                         :mod (vv8 / dan)
+                         :mod (vv9 / tidak)
+                         :mod (vv10 / ingin)
+                         :ARG1 (vv11 / jajak
+                                     :mod (vv12 / dapat)
+                                     :mod (vv13 / anggap
+                                                :ARG1 (vv14 / madrid)
+                                                :ARG1 (vv15 / tindak
+                                                            :mod (vv16 / ilegal)))))))
+

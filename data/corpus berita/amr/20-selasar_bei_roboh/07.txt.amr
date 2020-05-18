@@ -1,0 +1,39 @@
+# ::snt "Sudah ada bekas debu lumayan tebal di lantai 1 debu-debu saya dilihat sudah ada orang tergeletak," tutur Issa, yang merupakan jurnalis yang meliput di BEI.
+
+(vv1 / ada
+     :mod (vv2 / sudah)
+     :mod (vv3 / bekas
+               :mod (vv5 / lumayan)
+               :mod (vv8 / 1)
+               :mod (vv11 / saya))
+     :ARG1 (vv4 / debu
+                :mod (vv6 / tebal)
+                :mod (vv7 / lantai
+                          :mod (vv9 / debudebu)
+                          :mod (vv10 / lihat
+                                     :ARG1 (vv12 / orang
+                                                 :mod (vv14 / tutur
+                                                            :name (vv16 / rupa
+                                                                        :ARG1 (vv18 / liput
+                                                                                    :ARG1 vv20)))
+                                                 :mod (vv17 / jurnalis
+                                                            :mod (vv19 / bei))))))
+     :ARG1 (vv13 / geletak
+                 :ARG1 (vv15 / issa)))
+
+# ::snt "Saya lihat banyak orang terluka di evakuasi ke luar gedung BEI," kata Issa .
+
+(vv1 / lihat
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / orang
+                :mod (vv4 / banyak)
+                :mod (vv5 / luka
+                          :location (vv6 / evakuasi
+                                         :mod (vv7 / gedung
+                                                   :mod (vv8 / luar)
+                                                   :mod (vv9 / bei
+                                                             :mod (vv10 / kata
+                                                                        :name (vv11 / issa))))))))
+
+# ::snt Issa melihat mereka mengalami luka di kepala, "Dan ada yang mengaku patah tulang," kata Issa.
+

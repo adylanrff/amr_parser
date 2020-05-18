@@ -1,0 +1,50 @@
+# ::snt Menurut laporan kantor berita Korut, tuduhan ini diperiksa di pengadilan militer dan Jang Song Thaek telah mengakui segala kesalahannya.
+
+(vv1 / periksa
+     :location (vv2 / lapor
+                    :mod (vv3 / kantor
+                              :mod (vv4 / berita
+                                        :mod (vv5 / korut))))
+     :ARG1 (vv6 / tuduh)
+     :location (vv7 / adil
+                    :mod (vv8 / militer))
+     :mod (vv9 / aku
+               :mod (vv10 / dan)
+               :ARG0 (vv11 / jang
+                           :name (vv12 / song
+                                       :name (vv13 / thaek)))
+               :mod (vv14 / telah)
+               :ARG1 (vv15 / salah)))
+
+# ::snt Awal pekan ini, Korut mencopot Jang dari semua jabatannya, dengan tuduhan kriminal dan menyalahgunaan keuangan negara, main perempuandan suka mabuk-mabukan.
+
+# ::snt Jang sebelumnya dipandang sebagai figur pelindung bagi pemimpin Korut Kim Jong-un yang masih muda, dan disebut sebagai orang kuat kedua di negara itu.
+
+(vv1 / pandang
+     :ARG1 (vv2 / jang)
+     :ARG1 (vv3 / figur
+                :mod (vv4 / lindung)
+                :mod (vv5 / pimpin
+                          :name (vv6 / korut
+                                     :name (vv7 / kim
+                                                :name (vv8 / jongun)))
+                          :mod (vv9 / muda
+                                    :mod (vv10 / masih))))
+     :mod (vv11 / sebut
+                :ARG1 (vv12 / dan)
+                :ARG1 (vv13 / orang
+                            :mod (vv14 / kuat)
+                            :mod (vv15 / dua)
+                            :mod (vv16 / negara))))
+
+# ::snt Keluarga Kim telah memerintah di Korut dalam enam dekade terakhir.
+
+(vv1 / perintah
+     :ARG0 (vv2 / keluarga
+                :mod (vv3 / kim))
+     :mod (vv4 / telah)
+     :mod (vv5 / korut)
+     :ARG1 (vv6 / dekade
+                :mod (vv7 / enam)
+                :mod (vv8 / akhir)))
+

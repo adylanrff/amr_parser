@@ -1,0 +1,20 @@
+# ::snt Gambar yang beredar di media sosial menunjukkan puing struktur logam dari atap BEI roboh berserakan di sekitar kafe Starbucks dekat sebuah gedung bertingkat.
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / gambar
+                :mod (vv3 / edar
+                          :ARG1 (vv4 / media
+                                     :mod (vv5 / sosial))))
+     :ARG1 (vv6 / puing
+                :mod (vv7 / struktur
+                          :mod (vv8 / logam))
+                :mod (vv9 / atap
+                          :mod (vv10 / bei)))
+     :mod (vv11 / roboh
+                :mod (vv12 / sera
+                           :location (vv13 / kafe
+                                           :name (vv14 / starbucks)
+                                           :mod (vv15 / dekat)
+                                           :mod (vv16 / gedung
+                                                      :mod (vv17 / tingkat))))))
+

@@ -1,0 +1,26 @@
+# ::snt Biasanya, saat ada pemain yang membuat gol bunuh diri, anggota tim lainnya akan berusaha memberi semangat agar tidak mengulangi kejadian yang sama, sembari berusaha mencari gol balasan.
+
+(vv4 / usaha
+     :mod (vv1 / ada
+               :mod (vv2 / biasa)
+               :ARG1 (vv3 / saat)
+               :ARG1 (vv5 / main
+                          :mod (vv6 / buat
+                                    :ARG1 (vv7 / gol
+                                               :mod (vv9 / diri
+                                                         :mod (vv11 / tim
+                                                                    :mod (vv13 / akan)))))))
+     :mod (vv14 / beri
+                :ARG1 (vv16 / ulang
+                            :mod (vv18 / jadi
+                                       :mod (vv20 / sembari))
+                            :ARG1 (vv19 / sama))
+                :ARG1 (vv17 / tidak))
+     :ARG1 (vv15 / semangat)
+     :mod (vv21 / cari
+                :ARG1 (vv8 / bunuh
+                           :ARG1 (vv10 / anggota
+                                       :mod (vv12 / lain))))
+     :ARG1 (vv22 / balas)
+     :mod vv23)
+

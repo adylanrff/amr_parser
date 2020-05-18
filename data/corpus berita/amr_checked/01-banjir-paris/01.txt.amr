@@ -1,0 +1,144 @@
+# ::snt Otoritas Paris telah mengumumkan peningkatan potensi banjir bandang setelah Sungai Seine terus meluap hingga Minggu, 29 Januari 2018.
+
+(vv1 / umum
+     :ARG0 (vv2 / otoritas
+                :location (vv3 / paris))
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / tingkat
+                :mod (vv6 / potensi
+                          :mod (vv7 / banjir
+                                    :mod (vv8 / bandang))))
+     :ARG1 (vv11 / luap
+          :ARG0 (vv9 / sungai
+                    :name (vv10 / seine))
+          :mod (vv12 / terus)
+          :time (vv13 / minggu
+                    :time (vv14 / januari
+                              :time (vv15 / 29)
+                              :time (vv16 / 2018)))))
+
+# ::snt "Air membutuhkan waktu yang lama hingga surut," kata Kepala Kepolisian Paris, Michel Delpuech, mengenai alasan di balik evakuasi warga.
+
+(vv6 / kata
+     :ARG0 (vv7 / kepala
+               :mod (vv8 / polisi
+                         :location (vv9 / paris
+                                   :name (vv10 / michel
+                                             :name (vv11 / delpuech)))))
+     :ARG1 (vv1 / butuh
+          :ARG0 (vv2 / air)
+          :ARG1 (vv3 / waktu
+                    :mod (vv4 / lama))
+          :ARG1 (vv5 / surut))
+          :mod (vv12 / alas
+               :mod (vv13 / balik
+                         :mod (vv14 / evakuasi
+                                   :mod (vv15 / warga)))))
+
+# ::snt Penduduk di Kota Paris, Prancis, telah diperingatkan mengenai ancaman banjir, setelah air di Sungai Seine yang terus meluap, dipicu oleh curah hujan tinggi -- dua kali lipat lebih banyak dari biasanya -- sejak awal Januari 2018.
+
+(vv1 / ingat
+     :ARG1 (vv2 / duduk
+                :location (vv3 / kota
+                          :location (vv4 / paris
+                                    :location (vv5 / prancis))))
+     :mod (vv6 / telah)
+     :mod (vv7 / ancam
+                    :mod (vv8 / banjir)
+                    :ARG1 (vv9 / air
+                               :location (vv10 / sungai
+                                          :name (vv11 / seine)
+                                          :mod (vv12 / luap
+                                                     :mod (vv13 / terus)))))
+     :mod (vv14 / picu
+                :mod (vv15 / curah
+                                :mod (vv16 / hujan
+                                           :mod (vv17 / tinggi))
+                                :mod (vv18 / kali
+                                           :quant (vv19 / dua))
+                                :mod (vv20 / lipat
+                                           :mod (vv21 / banyak
+                                                      :mod (vv22 / lebih))
+                                           :ARG1 (vv23 / januari
+                                                       :mod (vv24 / biasa)
+                                                       :mod (vv25 / awal)
+                                                       :time (vv26 / 2018))))))
+
+# ::snt Seperti dikutip dari The Guardian, pada Kamis, 25 Januari 2018, luapan air dari Sungai Seine telah membanjir jalan yang ada di dekatnya dan menyebabkan gangguan pada sejumlah jaringan transportasi kota.
+
+(vv1 / banjir
+     :mod (vv2 / kutip
+               :mod (vv3 / guardian)
+               :ARG1 (vv4 / kamis
+                          :date (vv5 / januari
+                                    :date (vv6 / 25)
+                                    :date (vv7 / 2018))))
+     :ARG0 (vv8 / luap
+                :ARG1 (vv9 / air)
+                :location (vv10 / sungai
+                           :name (vv11 / seine)))
+     :mod (vv12 / telah)
+     :ARG1 (vv13 / jalan
+                 :mod (vv14 / ada
+                            :location (vv15 / dekat)
+                            :mod (vv16 / sebab
+                                       :mod (vv17 / dan)
+                                       :ARG1 (vv18 / ganggu)
+                                       :mod (vv19 / jaring
+                                                       :mod (vv20 / transportasi
+                                                                  :location (vv21 / kota)))))))
+
+# ::snt Hingga Rabu, 24 Januari 2018, air di Sungai Seine, Paris, telah mencapai ketinggian sekitar 5 meter - 4 meter lebih tinggi dari ketinggian normal.
+
+(vv1 / capai
+     :ARG1 (vv2 / rabu
+                :time (vv3 / januari
+                          :time (vv4 / 24)
+                          :time (vv5 / 2018)))
+     :ARG1 (vv6 / air
+                :location (vv7 / sungai
+                          :name (vv8 / seine
+                                     :location (vv9 / paris))))
+     :mod (vv10 / telah)
+     :ARG1 (vv11 / tinggi
+                 :mod (vv12 / meter
+                            :mod (vv15 / lebih)
+                            :mod (vv16 / normal)
+                            :mod vv17)
+                 :mod (vv13 / 5)
+                 :mod (vv14 / 4)
+                 :mod vv18
+                 :mod vv19))
+
+# ::snt Diperkirakan, air di sungai akan mencapai ketinggian sekitar 6 meter pada Sabtu akhir pekan nanti.
+
+(vv1 / capai
+     :mod (vv2 / kira
+               :ARG1 (vv3 / air
+                          :mod (vv4 / sungai)))
+     :mod (vv5 / akan)
+     :ARG1 (vv6 / tinggi
+                :mod (vv7 / meter
+                          :quant (vv8 / 6)))
+     :ARG1 (vv9 / sabtu
+                :time (vv10 / akhir)
+                :time (vv11 / pekan))
+     :mod (vv12 / nanti))
+
+# ::snt Jika curah hujan masih tinggi beberapa hari ke depan, luapan air mungkin akan meluas ke kawasan Paris lainnya.
+
+(vv1 / luas
+     :mod (vv2 / curah
+               :mod (vv3 / hujan))
+     :mod (vv4 / tinggi
+               :mod (vv5 / masih)
+               :ARG1 (vv6 / hari)
+               :mod (vv7 / depan))
+     :ARG0 (vv8 / luap
+                :ARG1 (vv9 / air))
+     :mod (vv10 / mungkin)
+     :mod (vv11 / akan)
+     :location (vv12 / kawasan
+                     :location (vv13 / paris)
+                     :location (vv14 / lain)))
+

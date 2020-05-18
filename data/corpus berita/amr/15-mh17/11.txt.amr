@@ -1,0 +1,24 @@
+# ::snt Komentar yang dibuat komandan militer Republik Rakyat Donetsk mengatakan penembakan itu adalah kesalahan, karena pesawat itu diduga merupakan pesawat angkut militer berukuran besar.
+
+(vv1 / kata
+     :ARG0 (vv2 / komentar
+                :mod (vv3 / buat
+                          :ARG0 (vv4 / komandan
+                                     :mod (vv5 / militer)
+                                     :mod (vv7 / rakyat
+                                               :name (vv9 / salah
+                                                          :ARG0 (vv11 / adalah)
+                                                          :mod (vv12 / rupa
+                                                                     :ARG0 (vv14 / duga)
+                                                                     :ARG1 (vv15 / angkut
+                                                                                 :mod (vv6 / republik
+                                                                                           :mod (vv8 / donetsk)))
+                                                                     :mod (vv16 / ukur
+                                                                                :mod vv19)))))))
+     :ARG1 (vv10 / tembak)
+     :ARG1 (vv13 / pesawat
+                 :mod (vv17 / besar)
+                 :mod vv18))
+
+# ::snt "Kami hanya menjatuhkan sebuah An-26 di dekat Torez, di dekat tambang Progress," kata laman VK yang selama ini dikaitkan dengan Igor Strelkov, pemimpn militer itu, yang sering dikutip media Ukraina.
+

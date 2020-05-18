@@ -1,0 +1,259 @@
+# ::snt Dugaan itu muncul, setelah banyak saksi mata yang menyebut, penumpang terus memaksakan diri untuk masuk ke dalam lift, meski jumlahnya sudah melebih batas maksimum daya angkut penumpang.
+
+# ::snt Bahkan, beberapa detik sebelum lift meluncur bebas dari lantai tujuh ke lantai dasar, saksi mendengar bel tanda peringatan berbahaya berbunyi.
+
+(vv5 / dengar
+     :mod (vv1 / luncur
+               :mod (vv2 / bahkan)
+               :ARG0 (vv3 / detik)
+               :ARG0 (vv4 / lift)
+               :mod (vv6 / bebas)
+               :location (vv7 / lantai
+                              :mod (vv8 / tujuh)
+                              :mod (vv9 / dasar)
+                              :mod (vv10 / saksi)
+                              :mod (vv11 / bel
+                                         :mod (vv13 / ingat
+                                                    :mod (vv15 / bunyi)))))
+     :ARG1 (vv12 / tanda
+                 :mod (vv14 / bahaya))
+     :mod vv16)
+
+# ::snt "Kemudian pada saat turun, lift berasa berbeda di lantai lima, kemudian sempat berhenti di lantai satu dan kemudian lift jatuh ke ground (basement)," ujarnya.
+
+# ::snt Sementara itu, Kepolisian menyebut, 25 orang terluka dalam peristiwa jatuhnya lift penumpang itu.
+
+(vv1 / sebut
+     :ARG0 (vv2 / polisi)
+     :ARG1 (vv3 / orang
+                :mod (vv4 / 25)
+                :mod (vv5 / luka
+                          :location (vv6 / peristiwa
+                                         :mod (vv7 / jatuh)
+                                         :mod (vv8 / lift
+                                                   :mod (vv9 / tumpang))))))
+
+# ::snt 1. Sutoto, laki-laki berusia 40 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / sutoto
+                :mod (vv2 / 1)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 40)))
+
+# ::snt 2. Salmudin, laki-laki berusia 33 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / salmudin
+                :mod (vv2 / 2)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 33)))
+
+# ::snt 3. Bumi Suhartan, laki-laki berusia 31 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / bumi
+                :mod (vv2 / 3)
+                :mod (vv4 / suhartan)
+                :mod (vv5 / lakilaki))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 31)))
+
+# ::snt 4. Diana, perempuan berusia 18 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / diana
+                :mod (vv2 / 4)
+                :mod (vv4 / perempuan))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 18)))
+
+# ::snt 5. Hani Nurhasanah, perempuan berusia 18 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / hani
+                :mod (vv2 / 5)
+                :name (vv4 / nurhasanah)
+                :mod (vv5 / perempuan))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 18)))
+
+# ::snt 6. Lesi, laki-laki berusia 25 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / lesi
+                :mod (vv2 / 6)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 25)))
+
+# ::snt 7. Shadiq Al Beri, laki-laki berusia 41 tahun
+
+(vv3 / beri
+     :ARG0 (vv1 / shadiq
+                :mod (vv2 / 7)
+                :mod (vv4 / al))
+     :ARG1 (vv5 / lakilaki
+                :ARG1 (vv6 / usia
+                           :ARG1 (vv7 / tahun
+                                      :mod (vv8 / 41)))))
+
+# ::snt 8. Ridwan, laki-laki berusia 48 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / ridwan
+                :mod (vv2 / 8)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 48)))
+
+# ::snt 9. David Evan, laki-laki berusia 26 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / david
+                :mod (vv2 / 9)
+                :name (vv4 / evan
+                           :mod (vv5 / lakilaki)))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 26)))
+
+# ::snt 10. Ari Budi Nugraha, laki-laki berusia 19 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / ari
+                :mod (vv2 / 10)
+                :name (vv4 / budi
+                           :name (vv5 / nugraha)))
+     :ARG0 (vv6 / lakilaki)
+     :ARG1 (vv7 / tahun
+                :mod (vv8 / 19)))
+
+# ::snt 11. Ade Gunawan, laki-laki berusia 16 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / ade
+                :mod (vv2 / 11)
+                :name (vv4 / gunawan))
+     :mod (vv5 / lakilaki)
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 16)))
+
+# ::snt 12. Wisnu Panduwinata, laki-laki berusia 30 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / wisnu
+                :mod (vv2 / 12)
+                :name (vv4 / panduwinata))
+     :mod (vv5 / lakilaki)
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 30)))
+
+# ::snt 13. Yasa, laki-laki berusia 41 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / yasa
+                :mod (vv2 / 13)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 41)))
+
+# ::snt 15. Nadira Indriani, perempuan berusia 18 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / nadira
+                :mod (vv2 / 15)
+                :name (vv4 / indriani)
+                :mod (vv5 / perempuan))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 18)))
+
+# ::snt 16. Afdal, laki-laki berusisa 50 tahun
+
+(vv3 / berusisa
+     :ARG0 (vv1 / afdal
+                :mod (vv2 / 16))
+     :ARG0 (vv4 / lakilaki)
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 50)))
+
+# ::snt 17. Widya Ningrum, perempuan berusia 19 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / widya
+                :mod (vv2 / 17)
+                :name (vv4 / ningrum
+                           :mod (vv5 / perempuan)))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 19)))
+
+# ::snt 18. Endang Supriatna, laki-laki berusia 28 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / endang
+                :mod (vv2 / 18)
+                :name (vv4 / supriatna)
+                :mod (vv5 / lakilaki))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 28)))
+
+# ::snt 19. Sunardi, laki-laki berusia 21 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / sunardi
+                :mod (vv2 / 19)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 21)))
+
+# ::snt 20. Subiri, laki-laki berusia 57 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / subiri
+                :mod (vv2 / 20)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 57)))
+
+# ::snt 21. Mahmud, laki-laki berusia 20 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / mahmud
+                :mod (vv2 / 21)
+                :mod (vv4 / lakilaki))
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 20)))
+
+# ::snt 22. Irfan irmansyah, laki-laki berusia 21 tahun
+
+(vv3 / usia
+     :ARG0 (vv1 / irfan
+                :mod (vv2 / 22)
+                :mod (vv4 / irmansyah
+                          :mod (vv5 / lakilaki)))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 21)))
+
+# ::snt 23. Bagus pribadi, laki-laki berusia 19 tahun
+
+(vv3 / usia
+     :mod (vv1 / bagus
+               :mod (vv2 / 23)
+               :mod (vv4 / pribadi))
+     :ARG0 (vv5 / lakilaki)
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / 19)))
+
+# ::snt 24. Indra Nur Rahman, laki-laki berusia 24 tahun
+
+# ::snt 25. Suna Wijaya, laki-laki berusia 52 tahun
+
+(vv3 / lakilaki
+     :ARG0 (vv1 / suna
+                :mod (vv2 / 25)
+                :name (vv4 / wijaya))
+     :ARG1 (vv5 / usia
+                :ARG1 (vv6 / tahun
+                           :mod (vv7 / 52))))
+

@@ -1,0 +1,22 @@
+# ::snt Seorang juru bicara Aung San Suu Kyi mengatakan, seorang tak dikenal melempar bom bensin ke rumah tepi danau pemimpin Myanmar itu di Yangon, Kamis.
+
+(vv1 / kata
+     :ARG0 (vv2 / juru
+                :mod (vv3 / bicara
+                          :ARG1 (vv4 / aung
+                                     :name (vv5 / san
+                                                :name (vv6 / suu
+                                                           :name (vv7 / kyi))))))
+     :mod (vv8 / kenal
+               :mod (vv9 / tak)
+               :mod (vv10 / lempar
+                          :ARG1 (vv11 / bom
+                                      :mod (vv12 / bensin))
+                          :location (vv13 / rumah
+                                          :mod (vv14 / tepi
+                                                     :mod (vv15 / danau
+                                                                :mod (vv16 / pimpin
+                                                                           :mod (vv17 / myanmar))))
+                                          :mod (vv18 / yangon
+                                                     :mod (vv19 / kamis))))))
+

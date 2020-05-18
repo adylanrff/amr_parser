@@ -1,0 +1,40 @@
+# ::snt Twitter sempat dibuat heboh dengan meninggalnya penyanyi sekaligus penulis lagu asal Inggris Robbie Williams, bahkan beberapa pengguna twitter mengira bahwa Robin Van Persie pemain asal Belanda yang telah meninggal dunia.
+
+# ::snt "Untuk seorang aktor besar dan orang yang mengagumkan yang meninggal hari ini * RIP robbie williams," kata satu orang di situs media sosial.
+
+(vv1 / kata
+     :ARG1 (vv2 / aktor
+                :mod (vv3 / besar)
+                :mod (vv4 / orang
+                          :mod (vv6 / kagum)
+                          :mod (vv7 / tinggal
+                                    :ARG1 (vv9 / rip
+                                               :mod (vv11 / williams)))
+                          :mod (vv8 / hari)
+                          :mod (vv13 / media
+                                     :mod vv15)))
+     :ARG1 (vv5 / dan)
+     :ARG0 (vv10 / robbie
+                 :mod (vv12 / situs
+                            :mod (vv14 / sosial))))
+
+# ::snt Bahkan beberapa pengguna Twitter telah membuat tagar #RIPRobbieWilliams , dan bermunculan gambar gambar Robbie dengan bertuliskan RIP ( Rest In Piece ).
+
+(vv1 / buat
+     :mod (vv2 / bahkan)
+     :ARG0 (vv3 / guna
+                :name (vv4 / twitter))
+     :mod (vv5 / telah)
+     :ARG1 (vv6 / tagar
+                :name (vv7 / riprobbiewilliams))
+     :ARG1 (vv8 / muncul
+                :mod (vv9 / dan)
+                :ARG1 (vv10 / gambar
+                            :mod (vv11 / robbie)
+                            :name (vv12 / tulis
+                                        :ARG0 (vv14 / rest
+                                                    :mod (vv16 / piece))))
+                :ARG1 (vv13 / rip
+                            :name (vv15 / in
+                                        :mod vv17))))
+

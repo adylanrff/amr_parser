@@ -1,0 +1,21 @@
+# ::snt "Jika terbukti benar, ini adalah contoh lain kebrutalan rezim Pyongyang," kata Wakil Juru Bicara Kementerian Luar Negeri AS Marie Harf.
+
+(vv1 / contoh
+     :mod (vv2 / bukti
+               :mod (vv3 / benar))
+     :mod (vv4 / adalah)
+     :mod (vv5 / lain)
+     :mod (vv6 / brutal
+               :mod (vv7 / rezim
+                         :mod (vv8 / pyongyang)))
+     :mod (vv9 / kata
+               :name (vv10 / wakil
+                           :mod (vv11 / juru
+                                      :name (vv12 / bicara
+                                                  :name (vv13 / menteri
+                                                              :mod (vv14 / luar
+                                                                         :mod (vv15 / negeri
+                                                                                    :mod (vv16 / as
+                                                                                               :mod (vv17 / marie
+                                                                                                          :name (vv18 / harf)))))))))))
+

@@ -1,0 +1,93 @@
+# ::snt Setelah semua selesai, para tersangka selanjutnya kabur dengan terlebih dahulu menutup engsel kamar mess dengan tujuan penghuni lain tak curiga.
+
+(vv1 / kabur
+     :ARG1 (vv2 / selesai)
+     :ARG0 (vv3 / sangka)
+     :mod (vv4 / lanjut)
+     :mod (vv5 / lebih)
+     :ARG1 (vv6 / tutup
+                :mod (vv7 / dahulu)
+                :ARG1 (vv8 / engsel
+                           :mod (vv9 / kamar
+                                     :mod (vv10 / mess))
+                           :mod (vv11 / tuju
+                                      :mod (vv12 / huni
+                                                 :mod (vv13 / lain))
+                                      :mod (vv14 / tak))))
+     :mod (vv15 / curiga))
+
+# ::snt Sedangkan tersangka RAI dan IH dikenakan Pasal 338 KUHP dan P Pasal 170 KUHP dan atau Pasal 365 KUHP dan atau (1) ke-1 KUHP dan atau Pasal 56 ke-1 KUHP Juncto Pasal 340 KUHP Pasal 55 Ayat subsider Pasal 338 KUHP dan Pasal 339 KUHP dan atau subsider Pasal 351 ayat 3 kiUHP dan atau Pasal 365 KUHP dan atau Pasal 170 KUHP dan tambahan Pasal 285 KUHP untuk IH dengan ancaman seumur hidup.
+
+(vv1 / kena
+     :mod (vv2 / sedang)
+     :ARG1 (vv3 / sangka
+                :name (vv4 / rai
+                           :mod (vv5 / ih
+                                     :mod (vv7 / pasal
+                                               :mod (vv9 / 338)
+                                               :mod (vv11 / 170)
+                                               :mod (vv12 / atau)
+                                               :mod (vv14 / ke1
+                                                          :mod (vv10 / p
+                                                                     :mod (vv8 / kuhp
+                                                                               :ARG1 (vv22 / 339)
+                                                                               :ARG1 (vv24 / 3)
+                                                                               :mod vv40
+                                                                               :mod vv44
+                                                                               :mod vv51
+                                                                               :mod vv52
+                                                                               :name vv57
+                                                                               :mod vv60
+                                                                               :mod vv64)
+                                                                     :ARG1 (vv18 / 340))
+                                                          :mod vv32
+                                                          :mod vv46
+                                                          :mod vv55)
+                                               :mod (vv15 / 1)
+                                               :mod (vv19 / 55)
+                                               :mod (vv20 / ayat
+                                                          :mod (vv23 / 351)
+                                                          :mod vv62
+                                                          :mod vv65
+                                                          :mod vv66
+                                                          :mod vv67)
+                                               :ARG1 (vv21 / subsider
+                                                           :mod (vv13 / 365)
+                                                           :mod (vv25 / kiuhp)
+                                                           :mod (vv26 / tambah
+                                                                      :mod (vv6 / dan)
+                                                                      :mod (vv16 / 56)
+                                                                      :ARG1 (vv28 / ancam
+                                                                                  :mod vv71
+                                                                                  :mod vv72)
+                                                                      :mod vv70)
+                                                           :mod vv48)
+                                               :mod (vv27 / 285)
+                                               :mod (vv29 / umur)
+                                               :mod (vv30 / hidup)
+                                               :mod vv31
+                                               :name vv33
+                                               :name vv34
+                                               :mod vv35
+                                               :mod vv36
+                                               :mod vv37
+                                               :mod vv38
+                                               :mod vv39
+                                               :mod vv41
+                                               :mod vv42
+                                               :mod vv43
+                                               :mod vv45
+                                               :mod vv47
+                                               :mod vv49
+                                               :mod vv50
+                                               :mod vv53
+                                               :mod vv54
+                                               :mod vv56
+                                               :mod vv58
+                                               :mod vv59
+                                               :mod vv61
+                                               :mod vv63
+                                               :mod vv68
+                                               :mod vv69))))
+     :ARG1 (vv17 / juncto))
+

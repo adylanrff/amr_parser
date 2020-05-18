@@ -1,0 +1,129 @@
+# ::snt Lebih dari seribu orang dievakuasi akibat banjir yang melanda Kota Paris, Prancis, dan sekitarnya menyusul Sungai Seine yang terus meluap, Minggu (28/1).
+
+(vv4 / evakuasi
+     :quant (vv1 / orang
+               :quant (vv2 / lebih)
+               :quant (vv3 / ribu))
+     :ARG1 (vv5 / akibat
+                :mod (vv6 / banjir)
+                :mod (vv7 / landa
+                          :ARG1 (vv8 / kota
+                                     :location (vv9 / paris
+                                               :location (vv10 / prancis)))
+                          :mod (vv11 / susul
+                                     :mod (vv12 / dan)
+                                     :mod (vv13 / sekitar)
+                                     :ARG1 (vv14 / sungai
+                                                 :name (vv15 / seine)
+                                                 :mod (vv16 / luap
+                                                            :mod (vv17 / terus)
+                                                            :ARG1 (vv18 / minggu
+                                                                        :time (vv19 / 281))))))))
+
+# ::snt Kepolisian kota Paris telah mengeluarkan imbauan berisikan larangan beraktivitas di dekat Sungai Seine untuk sementara waktu bagi warga.
+
+(vv1 / keluar
+     :ARG0 (vv2 / polisi
+                :mod (vv3 / kota
+                          :location (vv4 / paris)))
+     :mod (vv5 / telah)
+     :ARG1 (vv6 / imbau
+                :mod (vv7 / risi
+                          :ARG1 (vv8 / larang)
+                          :ARG1 (vv9 / aktivitas
+                                     :location (vv10 / sungai
+                                                     :mod (vv11 / dekat)
+                                                     :name (vv12 / seine)))))
+     :ARG1 (vv13 / waktu
+                 :mod (vv14 / warga)))
+
+# ::snt "Jika kita membicarakan mengenai hal-hal untuk kembali normal sepenuhnya, ini akan membutuhkan waktu berminggu-minggu," ucap Kepala dinas lingkungan setempat, Jerome Goellner, seperti dilansir The Guardian.
+
+(vv3 / butuh
+     :ARG1 (vv1 / bicara
+                :ARG0 (vv2 / kita)
+                :ARG1 (vv4 / halhal)
+                :mod (vv5 / kembali
+                          :mod (vv6 / normal
+                                    :mod (vv7 / sepenuh))))
+     :mod (vv8 / akan)
+     :ARG1 (vv9 / waktu
+                :time (vv10 / bermingguminggu)
+                :mod (vv11 / ucap))
+     :ARG0 (vv12 / kepala
+                 :mod (vv13 / dinas
+                            :mod (vv14 / lingkung
+                                       :mod (vv15 / tempat)
+                                       :name (vv16 / jerome
+                                                   :name (vv17 / goellner))))
+                 :mod (vv18 / lansir
+                            :ARG1 (vv19 / the
+                                        :name (vv20 / guardian)))))
+
+# ::snt Badan meteorologi Perancis menuturkan periode Desember-Januari kali ini menjadi yang paling basah ketiga sejak 1900. 
+
+(vv1 / tutur
+     :ARG0 (vv2 / badan
+                :location (vv3 / meteorologi
+                          :location (vv4 / perancis)))
+     :ARG1 (vv5 / periode
+                :time (vv6 / desemberjanuari))
+     :mod (vv7 / jadi
+               :ARG1 (vv8 / kali)
+               :mod (vv9 / basah
+                         :mod (vv10 / paling)
+                         :quant (vv11 / tiga))
+               :time (vv12 / 1900)))
+
+# ::snt Banjir bandang terparah pernah melanda kota mode dunia itu pada 1910 di mana permukaan air Seine mencapai 8,62 meter dan melumpuhkan sebagian besar infrastruktur di tepi sungai.
+
+(vv1 / landa
+     :ARG0 (vv2 / banjir
+                :mod (vv3 / bandang)
+                :mod (vv4 / parah))
+     :mod (vv5 / pernah)
+     :ARG1 (vv6 / kota
+                :mod (vv7 / mode
+                          :mod (vv8 / dunia)))
+     :time (vv9 / 1910)
+     :location (vv10 / mana)
+     :mod (vv11 / capai
+                :ARG0 (vv12 / muka
+                            :mod (vv13 / air
+                                       :name (vv14 / seine)))
+                :ARG1 (vv15 / meter
+                            :quant (vv16 / 862))
+                :mod (vv17 / lumpuh
+                           :mod (vv18 / dan)
+                           :ARG1 (vv19 / infrastruktur
+                                       :mod (vv20 / besar)
+                                       :mod (vv21 / tepi
+                                                  :location (vv22 / sungai))))))
+
+# ::snt Awal 2016 lalu Paris juga dilanda banjir ketika Sungai Seine meluap hingga 6,1 meter hingga memaksa Museum Luvre dan objek wisata lainnya tutup selama empat hari.
+
+(vv1 / landa
+     :time (vv2 / awal
+               :time (vv3 / 2016))
+     :mod (vv4 / lalu)
+     :ARG1 (vv5 / paris)
+     :mod (vv6 / juga)
+     :ARG1 (vv7 / banjir)
+     :mod (vv8 / luap
+               :ARG0 (vv9 / sungai
+                          :name (vv10 / seine))
+               :mod (vv11 / meter
+                               :quant (vv12 / 61))
+               :ARG1 (vv13 / paksa
+                           :ARG1 (vv14 / museum
+                                       :name (vv15 / luvre)
+                                       :mod (vv16 / objek
+                                                  :mod (vv17 / dan)
+                                                  :mod (vv18 / wisata)
+                                                  :mod (vv19 / lain)
+                                                  :mod (vv20 / tutup
+                                                             :time (vv21 / hari
+                                                                         :time (vv22 / empat))))))))
+
+# ::snt Sungai sepanjang 777 kilometer itu membentang dari barat laut Perancis dan bermuara di tenggara Paris.
+

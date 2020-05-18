@@ -1,0 +1,28 @@
+# ::snt Empat saksi sudah diperiksa polisi dalam kecelakaam tunggal mobil Toyota Fortuner dengan nomor polisi B 1732 ZLO yang ditumpangi Ketua DPR Setya Novanto, Kamis malam, 16 November 2017.
+
+# ::snt "Kaca bagian tengah mobil samping kiri pecah," ujarnya.
+
+(vv1 / pecah
+     :ARG0 (vv2 / kaca
+                :mod (vv3 / bagi
+                          :mod (vv4 / tengah))
+                :mod (vv5 / mobil
+                          :mod (vv6 / samping
+                                    :mod (vv7 / kiri))))
+     :ARG0 (vv8 / ujar))
+
+# ::snt Pimpinan KPK pun menyatakan Novanto sebagai buronan dan masuk dalam daftar pencarian orang alias DPO.
+
+(vv1 / nyata
+     :ARG0 (vv2 / pimpinan
+                :name (vv3 / kpk))
+     :ARG0 (vv4 / novanto)
+     :mod (vv5 / buron)
+     :mod (vv6 / masuk
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / daftar
+                          :mod (vv9 / cari
+                                    :mod (vv10 / orang
+                                               :mod (vv11 / alias
+                                                          :mod (vv12 / dpo)))))))
+

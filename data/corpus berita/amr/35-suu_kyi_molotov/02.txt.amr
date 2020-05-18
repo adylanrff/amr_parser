@@ -1,0 +1,159 @@
+# ::snt Rumah pemimpin de facto Myanmar, Aung San Suu Kyi di Yangon dikabarkan menjadi target serangan bom molotov pada Kamis, 1 Februari 2018 waktu setempat, kata laporan pemerintah setempat.
+
+# ::snt "Diserang bom molotov," kata juru bicara Zaw Htay kepada Agence France Presse, seperti dikutip dari Channel News Asia (2/2/2018).
+
+(vv1 / serang
+     :ARG1 (vv2 / bom
+                :mod (vv3 / molotov)
+                :mod (vv4 / kata
+                          :ARG1 (vv5 / juru
+                                     :mod (vv6 / bicara)
+                                     :name (vv7 / zaw
+                                                :name (vv8 / htay))
+                                     :mod (vv9 / agence
+                                               :mod (vv10 / france
+                                                          :name (vv11 / presse))))))
+     :mod (vv12 / kutip
+                :ARG1 (vv13 / channel
+                            :name (vv14 / news
+                                        :name (vv15 / asia
+                                                    :mod (vv16 / 222018))))))
+
+# ::snt Saat serangan itu berlangsung, Suu Kyi sedang berada di Naypyidaw (kota pusat pemerintahan Myanmar), kata Htay.
+
+(vv4 / ada
+     :mod (vv1 / langsung
+               :mod (vv2 / saat)
+               :ARG0 (vv3 / serang)
+               :ARG0 (vv5 / suu
+                          :name (vv6 / kyi)))
+     :mod (vv7 / sedang)
+     :ARG1 (vv8 / naypyidaw
+                :mod (vv9 / kota
+                          :mod (vv10 / pusat
+                                     :mod (vv11 / perintah
+                                                :mod (vv12 / myanmar
+                                                           :mod (vv13 / kata
+                                                                      :name (vv14 / htay))))))))
+
+# ::snt Bom molotov itu hanya menimbulkan kerusakan minor pada rumah tersebut.
+
+(vv1 / timbul
+     :ARG0 (vv2 / bom
+                :mod (vv3 / molotov))
+     :mod (vv4 / hanya)
+     :ARG1 (vv5 / rusa
+                :mod (vv6 / minor)
+                :mod (vv7 / rumah)))
+
+# ::snt Hingga kini, otoritas setempat masih mendalami kasus tersebut.
+
+(vv1 / dalam
+     :location (vv2 / kini)
+     :ARG0 (vv3 / otoritas
+                :mod (vv4 / tempat))
+     :mod (vv5 / masih)
+     :ARG1 (vv6 / kasus))
+
+# ::snt Kediaman itu pernah digunakan oleh junta militer Myanmar untuk memaksa Aung San Suu Kyi menjadi tahanan rumah selama bertahun-tahun, sebelum akhirnya dibebaskan pada November 2010.
+
+(vv1 / guna
+     :ARG1 (vv2 / diam)
+     :mod (vv3 / pernah)
+     :location (vv4 / junta
+                    :mod (vv5 / militer)
+                    :name (vv6 / myanmar))
+     :ARG1 (vv7 / paksa
+                :ARG0 (vv8 / aung
+                           :name (vv9 / san
+                                      :name (vv10 / suu
+                                                  :name (vv11 / kyi)))))
+     :mod (vv12 / jadi
+                :ARG1 (vv13 / tahan
+                            :mod (vv14 / rumah))
+                :mod (vv15 / bertahuntahun
+                           :mod (vv16 / bebas
+                                      :mod (vv17 / akhir)
+                                      :ARG1 (vv18 / november
+                                                  :mod (vv19 / 2010))))))
+
+# ::snt Myanmar telah mendirikan sejumlah konstruksi bangunan di wilayahnya yang berbatasan dengan Bangladesh, sebuah petunjuk yang mengisyaratkan negara itu siap menerima kepulangan para Muslim Rohingya yang selama ini mengungsi ke Bangladesh.
+
+(vv1 / diri
+     :ARG0 (vv2 / myanmar)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / konstruksi
+                :mod (vv5 / bangun)
+                :mod (vv6 / wilayah)
+                :mod (vv7 / batas
+                          :location (vv8 / bangladesh
+                                         :mod (vv10 / isyarat
+                                                    :ARG1 (vv12 / terima
+                                                                :mod (vv14 / pulang
+                                                                           :mod (vv16 / rohingya)
+                                                                           :mod vv18)
+                                                                :ARG1 (vv15 / muslim
+                                                                            :mod (vv17 / ungsi
+                                                                                       :location (vv9 / tunjuk
+                                                                                                      :mod (vv11 / negara)))))))))
+     :mod (vv13 / siap))
+
+# ::snt Myanmar bahkan mengundang wartawan dari Associated Press dan sejumlah media lain ke perbatasan itu untuk menunjukkan persiapan mereka.
+
+(vv1 / undang
+     :ARG0 (vv2 / myanmar)
+     :mod (vv3 / bahkan)
+     :ARG1 (vv4 / wartawan
+                :mod (vv5 / associated
+                          :mod (vv6 / press))
+                :mod (vv7 / media
+                          :mod (vv8 / dan)
+                          :mod (vv9 / lain)
+                          :mod (vv10 / batas)))
+     :ARG1 (vv11 / tunjuk
+                 :ARG1 (vv12 / siap)))
+
+# ::snt Namun di sisi lain, Bangladesh menyatakan, masih perlu lebih banyak waktu untuk menyiapkan pemulangan para pengungsi tersebut.
+
+(vv1 / nyata
+     :mod (vv2 / namun)
+     :location (vv3 / sisi
+                    :mod (vv4 / lain))
+     :ARG0 (vv5 / bangladesh)
+     :ARG1 (vv6 / perlu
+                :mod (vv7 / masih)
+                :ARG1 (vv8 / waktu
+                           :mod (vv9 / lebih)
+                           :mod (vv10 / banyak))
+                :mod (vv11 / siap
+                           :time (vv12 / pulang
+                                       :mod (vv13 / ungsi)))))
+
+# ::snt Sementara itu, para pengungsi Rohingya umumnya ragu, dan bahkan khawatir, mengenai rencana kepulangan mereka ke kampung halaman setelah menyaksikan sendiri rumah mereka dibakar; istri, saudara perempuan dan ibu mereka diperkosa, serta kerabat dan tetangga mereka dibantai.
+
+(vv1 / ragu
+     :ARG0 (vv2 / ungsi
+                :name (vv3 / rohingya))
+     :mod (vv4 / umum)
+     :mod (vv5 / khawatir
+               :mod (vv6 / dan)
+               :mod (vv9 / pulang)
+               :location (vv10 / kampung
+                               :mod (vv13 / saksi
+                                          :ARG1 (vv16 / saudara
+                                                      :mod (vv19 / perkosa
+                                                                 :mod (vv22 / tetangga
+                                                                            :mod (vv8 / rencana
+                                                                                      :mod (vv11 / halaman)
+                                                                                      :mod (vv12 / bakar
+                                                                                                 :mod (vv15 / istri
+                                                                                                            :mod (vv18 / ibu
+                                                                                                                       :mod (vv7 / bahkan)
+                                                                                                                       :mod (vv21 / serta))
+                                                                                                            :mod (vv20 / kerabat
+                                                                                                                       :mod (vv23 / bantai)
+                                                                                                                       :mod vv24))
+                                                                                                 :ARG0 (vv17 / perempuan)))))))))
+     :mod (vv14 / rumah)
+     :mod vv25)
+

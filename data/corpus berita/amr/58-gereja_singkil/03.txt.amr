@@ -1,0 +1,49 @@
+# ::snt Kepala Bagian Penerangan Umum Mabes Polri, Kombes Pol Suharsono mengatakan, pembakaran itu diduga dilakukan oleh massa yang berjumlah ratusan.
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :name (vv3 / bagi
+                           :mod (vv4 / terang
+                                     :mod (vv5 / umum)))
+                :name (vv6 / mabes
+                           :mod (vv7 / polri
+                                     :name (vv8 / kombes
+                                                :name (vv9 / pol
+                                                           :name (vv10 / suharsono))))))
+     :ARG1 (vv11 / bakar)
+     :ARG1 (vv12 / laku
+                 :mod (vv13 / duga)
+                 :location (vv14 / massa
+                                 :mod (vv15 / jumlah
+                                            :ARG1 (vv16 / ratus)))))
+
+# ::snt "Saya tidak tahu persis, yang jelas jumlah personel di sana memadai," ujar Suharsono.
+
+(vv1 / tahu
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / tidak)
+     :mod (vv4 / persis
+               :mod (vv5 / jelas
+                         :ARG1 (vv6 / jumlah
+                                    :mod (vv7 / personel)
+                                    :mod (vv8 / sana
+                                              :mod (vv9 / pada)))))
+     :mod (vv10 / ujar)
+     :mod (vv11 / suharsono))
+
+# ::snt "Ya semua masalah SARA harus diselesaikan dengan baik, adil, sesuai aturan supaya jangan timbul masalah," tegas dia.
+
+(vv1 / selesai
+     :mod (vv2 / ya)
+     :ARG1 (vv3 / masalah
+                :mod (vv5 / harus)
+                :mod vv13)
+     :mod (vv6 / baik)
+     :ARG1 (vv7 / adil)
+     :ARG1 (vv8 / atur
+                :mod (vv10 / timbul
+                           :ARG1 (vv4 / sara)
+                           :ARG1 (vv12 / tegas)))
+     :ARG1 (vv9 / sesuai)
+     :mod (vv11 / jangan))
+

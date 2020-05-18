@@ -1,0 +1,67 @@
+# ::snt atusan warga Somalia gugur dan puluhan lainya luka-luka dalam serangan bom bunuh diri di Moghadisu, Sabtu (14/07/2017).
+
+(vv1 / gugur
+     :ARG0 (vv2 / atus
+                :mod (vv3 / warga
+                          :mod (vv4 / somalia)))
+     :mod (vv5 / puluh
+               :mod (vv6 / dan)
+               :mod (vv7 / lai)
+               :mod (vv8 / lukaluka)
+               :mod (vv9 / serang
+                         :mod (vv10 / bom)
+                         :mod (vv11 / bunuh
+                                    :ARG1 (vv12 / diri)
+                                    :location (vv13 / moghadisu
+                                                    :name (vv14 / sabtu
+                                                                :mod (vv15 / 14072017)))))))
+
+# ::snt "Ini adalah aksi bom bunuh diri terbesar yang yang pernah saya lihat," sebut  Mahyuddin yang tinggal di Mogadishu.
+
+(vv1 / aksi
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / adalah)
+     :mod (vv4 / bom
+               :mod (vv5 / bunuh
+                         :ARG1 (vv6 / diri
+                                    :mod (vv7 / besar)
+                                    :mod (vv8 / lihat
+                                              :mod (vv9 / pernah)
+                                              :ARG0 (vv10 / saya)
+                                              :ARG1 (vv11 / sebut
+                                                          :ARG0 (vv12 / mahyuddin
+                                                                      :mod (vv13 / tinggal
+                                                                                 :location (vv14 / mogadishu)))))))))
+
+# ::snt "Aksi bom bunuh diri merupakan ciri khas kelompok teroris," sindir PM Somalia terhadap gerakan al-Shabab.
+
+(vv1 / rupa
+     :ARG0 (vv2 / aksi
+                :mod (vv3 / bom)
+                :mod (vv4 / bunuh
+                          :ARG1 (vv5 / diri)))
+     :ARG1 (vv6 / ciri
+                :mod (vv7 / khas)
+                :mod (vv8 / kelompok
+                          :mod (vv9 / teroris
+                                    :mod (vv10 / sindir
+                                               :mod (vv11 / pm
+                                                          :name (vv12 / somalia)))))
+                :mod (vv13 / gera)))
+
+# ::snt Meskipun belum ada kelompok yang mengaku bertanggung jawab, namun sejumlah pihak mensinyalir bahwa gerakan Shabab berada dibalik serangan itu.
+
+(vv1 / ada
+     :mod (vv2 / belum)
+     :ARG1 (vv3 / kelompok
+                :mod (vv4 / aku
+                          :mod (vv5 / tanggung
+                                    :ARG1 (vv6 / jawab))))
+     :mod (vv7 / sinyalir
+               :mod (vv8 / namun)
+               :ARG0 (vv9 / pihak))
+     :ARG0 (vv10 / gera
+                 :name (vv11 / shabab))
+     :ARG1 (vv12 / serang
+                 :mod (vv13 / balik)))
+

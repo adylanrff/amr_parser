@@ -1,0 +1,37 @@
+# ::snt Berdasarkan keterangan Alibaba, operator e-commerce terbesar Cina itu akan mengeluarkan dana senilai US$ 500 juta (Rp 6,5 triliun)  untuk membeli saham baru di Lazada dan saham tersedia yang sudah dimiliki investor lain, dengan nilai total US$1 miliar.
+
+(vv3 / keluar
+     :ARG1 (vv1 / terang
+                :mod (vv2 / dasar)
+                :mod (vv4 / alibaba))
+     :ARG0 (vv5 / operator
+                :mod (vv6 / ecommerce
+                          :mod (vv7 / besar))
+                :mod (vv8 / cina))
+     :mod (vv9 / akan)
+     :ARG1 (vv10 / dana
+                 :mod (vv11 / us
+                            :mod (vv12 / nila)
+                            :mod (vv13 / juta
+                                       :mod (vv14 / 500))
+                            :mod (vv15 / rp
+                                       :mod (vv16 / triliun
+                                                  :mod (vv17 / 65)))))
+     :ARG1 (vv18 / beli
+                 :ARG1 (vv19 / saham
+                             :mod (vv20 / baru)
+                             :mod (vv21 / lazada)
+                             :mod (vv22 / dan)
+                             :mod (vv23 / sedia)
+                             :mod (vv24 / milik
+                                        :mod (vv26 / investor
+                                                   :mod (vv28 / nilai
+                                                              :mod (vv30 / us1
+                                                                         :mod vv32)))
+                                        :ARG1 (vv27 / lain)
+                                        :ARG1 (vv29 / total
+                                                    :mod (vv31 / miliar)))
+                             :mod (vv25 / sudah))))
+
+# ::snt "Dengan investasi di Lazada, Alibaba mendapat akses ke konsumen di luar Cina yang kini terus bertumbuh dan dengan tim manajemen yang telah teruji dan dan memiliki pondasi solid," ujar Michael Evans, Presiden Alibaba, Selasa (12/4/2016).
+

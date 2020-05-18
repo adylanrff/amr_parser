@@ -1,0 +1,131 @@
+# ::snt Pesawat AirAsia Indonesia terpaksa terbang kembali ke Australia setelah pilot diperingatkan adanya kemungkinan hilangnya tekanan udara dalam kabin, seperti disampaikan pejabat bandara Perth.
+
+(vv1 / terbang
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / airasia
+                          :mod (vv4 / indonesia)))
+     :mod (vv5 / paksa)
+     :mod (vv6 / kembali)
+     :location (vv7 / australia)
+     :mod (vv8 / ingat
+               :ARG1 (vv9 / pilot)
+               :ARG1 (vv10 / ada
+                           :mod (vv11 / mungkin
+                                      :mod (vv12 / hilang
+                                                 :mod (vv13 / tekan
+                                                            :mod (vv14 / udara)
+                                                            :mod (vv15 / kabin
+                                                                       :mod (vv16 / sampai
+                                                                                  :ARG1 (vv17 / jabat
+                                                                                              :mod (vv18 / bandara
+                                                                                                         :mod (vv19 / perth)))))))))))
+
+# ::snt Pesawat dengan nomor penerbangan QZ535 dengan tujuan Pulau Bali itu, berbalik arah kembali ke Australia setelah terbang selama 25 menit pada Minggu (15/10).
+
+(vv1 / balik
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / nomor
+                          :mod (vv4 / terbang
+                                    :mod (vv6 / tuju
+                                              :mod (vv8 / bal))
+                                    :ARG1 (vv13 / 25)
+                                    :ARG1 (vv15 / 1510))
+                          :mod (vv7 / pulau
+                                    :mod (vv9 / arah
+                                              :mod (vv11 / australia)))))
+     :ARG1 (vv5 / qz535)
+     :ARG1 (vv10 / kembali
+                 :location (vv12 / menit
+                                 :mod (vv14 / minggu
+                                            :mod vv16))))
+
+# ::snt Airbus A320 itu membawa 151 orang dan mendarat dengan selama di bandara Perth.
+
+(vv1 / bawa
+     :ARG0 (vv2 / airbus
+                :mod (vv3 / a320))
+     :ARG1 (vv4 / orang
+                :mod (vv5 / 151))
+     :ARG1 (vv6 / darat
+                :mod (vv7 / dan)
+                :location (vv8 / bandara
+                               :mod (vv9 / lama)
+                               :mod (vv10 / perth))))
+
+# ::snt Sebuah video yang direkam di dalam pesawat dan dipublikasikan media lokal, menunjukkan masker oksigen tergantung dari langit-langit dan seseorang berteriak "penumpang turun, penumpang turun".
+
+# ::snt Penumpang lain, Claire Askew, mengatakan pada Seven network "kepanikan semakin meningkat" karena staf maskapai berteriak dan tampak menangis.
+
+(vv1 / kata
+     :ARG0 (vv2 / tumpang
+                :mod (vv3 / lain)
+                :name (vv4 / claire
+                           :name (vv5 / askew)))
+     :ARG1 (vv6 / seven
+                :name (vv7 / network))
+     :ARG1 (vv8 / tingkat
+                :ARG0 (vv9 / panik)
+                :mod (vv10 / makin)
+                :mod (vv11 / teriak
+                           :ARG0 (vv12 / staf
+                                       :mod (vv13 / maskapai))
+                           :mod (vv14 / tampak
+                                      :mod (vv15 / dan)
+                                      :ARG1 (vv16 / menang)))))
+
+# ::snt "AirAsia meminta maaf kepada para penumpang atas ketidaknyamanan ini," jelas pernyataan tersebut.
+
+(vv1 / minta
+     :ARG0 (vv2 / airasia)
+     :ARG1 (vv3 / maaf)
+     :location (vv4 / tumpang)
+     :ARG1 (vv5 / ketidaknyamanan)
+     :ARG1 (vv6 / nyata
+                :mod (vv7 / jelas)))
+
+# ::snt Pada Juni lalu, penerbangan AirAsia juga dipaksa kembali ke Perth ketika terbang menuju Pulau Bali setelah mengalami masalah pada mesin yang menyebabkan pesawat "bergoyang seperti sebuah mesin cuci".
+
+(vv1 / paksa
+     :time (vv2 / juni
+                :mod (vv3 / lalu))
+     :ARG1 (vv4 / terbang
+                :mod (vv6 / juga)
+                :location (vv10 / tuju)
+                :mod (vv13 / masalah
+                           :mod (vv15 / sebab
+                                      :location (vv16 / pesawat
+                                                      :mod vv19)
+                                      :ARG1 (vv18 / cuci))))
+     :mod (vv5 / airasia)
+     :mod (vv7 / kembali)
+     :mod (vv8 / perth)
+     :location (vv9 / pulau
+                    :mod (vv11 / bali)
+                    :mod (vv12 / alami
+                               :ARG1 (vv14 / mesin
+                                           :mod (vv17 / goyang)
+                                           :mod vv20))))
+
+# ::snt Pada Desember 2014, pesawat AirAsia jatuh di Laut Jawa dan menewaskan 162 orang penumpang dan kru setelah sistem kontrol kemudi pesawat tidak berfungsi selama penerbangan.
+
+(vv1 / jatuh
+     :ARG1 (vv2 / desember
+                :mod (vv3 / 2014))
+     :ARG0 (vv4 / pesawat
+                :mod (vv6 / laut
+                          :mod (vv8 / tewas
+                                    :mod (vv10 / tumpang
+                                               :mod (vv13 / fungsi
+                                                          :ARG0 (vv14 / sistem
+                                                                      :mod (vv17 / tidak))
+                                                          :ARG0 (vv16 / kemudi
+                                                                      :mod (vv5 / airasia))
+                                                          :mod vv19
+                                                          :ARG1 vv20))
+                                    :ARG1 (vv12 / kru
+                                                :mod (vv11 / 162)))))
+     :location (vv7 / jawa)
+     :mod (vv9 / dan)
+     :mod (vv15 / kontrol
+                :mod (vv18 / terbang)))
+

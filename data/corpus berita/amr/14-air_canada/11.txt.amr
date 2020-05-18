@@ -1,0 +1,403 @@
+# ::snt SITUASI mencekam terjadi ketika pesawat jet komersial Air Canada yang hampir mendarat sementara empat pesawat penumpang lainnya siap lepas landas pada Jumat dan fakta terungkap melalui rekaman audio.
+
+(vv1 / jadi
+     :ARG0 (vv2 / situasi
+                :mod (vv3 / cekam))
+     :mod (vv4 / ungkap
+               :ARG1 (vv5 / pesawat
+                          :mod (vv7 / komersial)
+                          :mod (vv11 / hampir)
+                          :mod (vv13 / tumpang
+                                     :mod (vv15 / siap))
+                          :mod (vv14 / lain)
+                          :mod (vv16 / lepas
+                                     :ARG1 (vv18 / jumat)
+                                     :time (vv19 / dan))
+                          :mod (vv17 / landas))
+               :ARG1 (vv6 / jet
+                          :mod (vv8 / air
+                                    :mod (vv10 / darat
+                                               :mod (vv12 / empat)))
+                          :mod (vv9 / canada))
+               :mod (vv20 / fakta)
+               :ARG1 (vv21 / rekam
+                           :mod vv23)
+               :ARG1 (vv22 / audio)))
+
+# ::snt Pilot dan menara kontrol di Bandara Internasional San Francisco (SFO) terdengar menjawab dengan sangat kaget saat AC759 nyaris tak diketahui berada di landasan take off pesawat yang penuh sesak.
+
+(vv1 / dengar
+     :ARG1 (vv2 / pilot
+                :mod (vv3 / menara
+                          :mod (vv4 / dan)
+                          :mod (vv5 / kontrol))
+                :mod (vv6 / bandara
+                          :mod (vv7 / internasional)
+                          :mod (vv8 / san
+                                    :name (vv9 / francisco
+                                               :name (vv10 / sfo)))))
+     :mod (vv11 / jawab
+                :mod (vv12 / kaget
+                           :mod (vv13 / sangat)))
+     :mod (vv14 / tahu
+                :mod (vv15 / saat)
+                :ARG1 (vv16 / ac759)
+                :mod (vv17 / nyaris)
+                :mod (vv18 / tak)
+                :mod (vv19 / ada
+                           :location (vv20 / landas
+                                           :mod (vv21 / take
+                                                      :mod (vv22 / off
+                                                                 :mod (vv23 / pesawat
+                                                                            :mod (vv24 / penuh)))))))
+     :mod (vv25 / sesak))
+
+# ::snt Situasi menegangkan - menyangkut keselamatan seribu penumpang - nyaris menjadi kecelakaan terbesar dalam sejarah penerbangan komersial.
+
+(vv1 / sangkut
+     :ARG0 (vv2 / situasi
+                :mod (vv3 / tegang))
+     :ARG1 (vv4 / selamat
+                :mod (vv5 / tumpang
+                          :mod (vv6 / seribu)))
+     :mod (vv7 / jadi
+               :mod (vv8 / nyaris)
+               :ARG1 (vv9 / celaka
+                          :mod (vv10 / besar)
+                          :mod (vv11 / sejarah
+                                     :mod (vv12 / terbang
+                                                :mod (vv13 / komersial))))))
+
+# ::snt 'Kalau benar, apa yang bakal terjadi akan menjadi tragedi penerbangan terbesar dalam sejarah,' kata pensiunan Kapten United Airlines Ross Aimer, CEO Aero Consulting Experts kepada The Mercury News.
+
+(vv1 / apa
+     :mod (vv2 / benar)
+     :mod (vv3 / jadi
+               :mod (vv5 / akan)
+               :mod (vv6 / tragedi
+                         :mod (vv8 / besar)
+                         :mod (vv10 / kata
+                                    :mod (vv12 / kapten
+                                               :name (vv14 / airlines
+                                                           :name (vv16 / aimer))
+                                               :mod (vv18 / aero
+                                                          :name (vv20 / experts)))))
+               :ARG1 (vv7 / terbang
+                          :mod (vv9 / sejarah
+                                    :mod (vv11 / pensiun
+                                               :name (vv13 / united
+                                                           :mod (vv15 / ross
+                                                                      :name (vv17 / ceo
+                                                                                  :mod (vv19 / consulting
+                                                                                             :mod (vv21 / the
+                                                                                                        :name (vv23 / news)))
+                                                                                  :mod (vv22 / mercury
+                                                                                             :name vv24))))))))
+     :mod (vv4 / bakal))
+
+# ::snt Insiden tersebut terjadi pada pukul 11:56 pada Jumat, ketika pesawat Air Canada - Airbus A320 yang mengangkut 135 penumpang dan lima awak - mendarat di SFO.
+
+(vv1 / jadi
+     :ARG1 (vv2 / insiden)
+     :time (vv3 / pukul
+                :mod (vv4 / 1156))
+     :time (vv5 / jumat)
+     :mod (vv6 / darat
+               :ARG0 (vv7 / pesawat
+                          :ARG1 (vv8 / air
+                                     :mod (vv9 / canada
+                                               :mod (vv10 / airbus
+                                                          :mod (vv11 / a320))))
+                          :mod (vv12 / angkut
+                                     :ARG1 (vv13 / tumpang
+                                                 :mod (vv14 / 135))))
+               :mod (vv15 / dan)
+               :ARG0 (vv16 / awak
+                           :mod (vv17 / lima))
+               :location (vv18 / sfo)))
+
+# ::snt Biasanya, pesawat internasional masuk diarahkan ke salah satu dari dua landasan pacu: 28L atau 28R, yang disebut secara verbal sebagai '28 -Left 'or '28 -Right'.
+
+# ::snt Dalam audio, pilot Air Canada terdengar jelas meminta kontrol SFO kalau pesawatnya menuju landasan pacu yang tepat.
+
+(vv1 / dengar
+     :ARG1 (vv2 / audio
+                :mod (vv3 / pilot
+                          :mod (vv4 / air
+                                    :mod (vv5 / canada))))
+     :mod (vv6 / jelas)
+     :mod (vv7 / minta
+               :ARG1 (vv8 / kontrol
+                          :name (vv9 / sfo)))
+     :mod (vv10 / tuju
+                :ARG0 (vv11 / pesawat)
+                :ARG1 (vv12 / landas
+                            :mod (vv13 / pacu)
+                            :mod (vv14 / tepat))))
+
+# ::snt 'Canada 759, dikonfirmasi mendarat di landasan pacu 28-Kanan, tidak ada satu pun pesawat di 28-Kanan kecuali Anda.'
+
+# ::snt Namun apa yang tidak diketahui menara adalah bahwa pilot tidak melaksanakan perintah menara untuk menuju ke landasan pacu 28R.
+
+(vv1 / apa
+     :mod (vv2 / namun)
+     :mod (vv3 / tahu
+               :mod (vv4 / tidak)
+               :location (vv6 / laksana
+                              :mod (vv5 / menara)
+                              :mod (vv9 / perintah
+                                        :mod (vv7 / adalah))
+                              :ARG0 (vv10 / tuju
+                                          :location (vv13 / 28r))
+                              :ARG1 (vv11 / landas
+                                          :mod vv14)
+                              :ARG1 (vv12 / pacu)))
+     :mod (vv8 / pilot)
+     :mod vv15)
+
+# ::snt Sebaliknya, pilot menuju ke Taxiway C, yang terletak sejajar tepat di sebelahnya, dan di sana ada empat pesawat penumpang menunggu untuk masuk ke posisi tinggal landas.
+
+(vv1 / tunggu
+     :mod (vv2 / balik)
+     :ARG0 (vv3 / pilot
+                :mod (vv4 / taxiway
+                          :mod (vv5 / tuju)
+                          :name (vv6 / c))
+                :mod (vv7 / letak
+                          :mod (vv8 / sejajar)
+                          :mod (vv9 / tepat)
+                          :ARG1 (vv10 / belah)
+                          :mod (vv11 / ada
+                                     :mod (vv12 / dan)
+                                     :location (vv13 / sana)
+                                     :ARG1 (vv14 / pesawat
+                                                 :mod (vv15 / empat)
+                                                 :mod (vv16 / tumpang)))))
+     :ARG1 (vv17 / masuk
+                 :location (vv18 / posisi
+                                 :mod (vv19 / tinggal)
+                                 :mod (vv20 / landas))))
+
+# ::snt Jenis pesawat jet komersial di landasan pacu tidak diketahui pilot dengan jelas, tapi masing-masing diperkirakan mengangkut 200 dan 480 penumpang, jika semua kursi penumpang terisi.
+
+(vv1 / tahu
+     :ARG1 (vv2 / jenis
+                :mod (vv3 / pesawat
+                          :mod (vv4 / jet
+                                    :mod (vv5 / komersial)))
+                :mod (vv6 / landas
+                          :mod (vv7 / pacu)))
+     :mod (vv8 / tidak)
+     :ARG1 (vv9 / pilot)
+     :mod (vv10 / jelas)
+     :mod (vv11 / kira
+                :mod (vv12 / tapi)
+                :ARG1 (vv13 / masingmasing)
+                :mod (vv14 / angkut
+                           :mod (vv15 / 200)
+                           :mod (vv16 / tumpang
+                                      :mod (vv18 / 480)
+                                      :mod (vv19 / kursi
+                                                 :mod (vv17 / dan))
+                                      :mod (vv20 / isi))))
+     :mod vv21)
+
+# ::snt Menara dengan cepat memberitahu pesawat untuk 'berkeliling' dan menaikkan pesawat, nyaris saja terjadi tabrakan pesawat.
+
+(vv1 / memberitahu
+     :ARG0 (vv2 / menara)
+     :mod (vv3 / cepat)
+     :ARG1 (vv4 / pesawat
+                :mod (vv10 / saja)
+                :mod (vv11 / tabrak
+                           :mod (vv6 / naik
+                                     :ARG1 (vv5 / keliling
+                                                :mod (vv8 / nyaris))
+                                     :mod (vv9 / jadi
+                                               :mod vv12
+                                               :ARG1 vv13))))
+     :ARG1 (vv7 / dan))
+
+# ::snt "Air Canada terbang langsung ke arah kami," kata pilot lain.
+
+(vv1 / terbang
+     :ARG1 (vv2 / air
+                :mod (vv3 / canada))
+     :mod (vv4 / langsung)
+     :ARG1 (vv5 / arah
+                :mod (vv6 / kata
+                          :ARG1 (vv7 / pilot
+                                     :mod (vv8 / lain)))))
+
+# ::snt 'Yeah, saya melihat orang-orang itu,' balas dari menara.
+
+(vv1 / lihat
+     :ARG0 (vv2 / yeah)
+     :ARG0 (vv3 / saya)
+     :ARG1 (vv4 / balas
+                :ARG0 (vv5 / orangorang)
+                :location (vv6 / menara)))
+
+# ::snt Kapten Aimer mengatakan jika menara kontrol tidak segera mengalihkan pesawat Air Canada, akan terjadi bencana besar.
+
+(vv1 / kata
+     :ARG0 (vv2 / kapten
+                :name (vv3 / aimer))
+     :ARG1 (vv4 / alih
+                :ARG0 (vv5 / menara
+                           :mod (vv6 / kontrol))
+                :mod (vv7 / tidak)
+                :mod (vv8 / segera)
+                :ARG1 (vv9 / pesawat
+                           :ARG1 (vv10 / air
+                                       :mod (vv11 / canada)))
+                :ARG1 (vv12 / jadi
+                            :mod (vv13 / akan)
+                            :ARG1 (vv14 / bencana
+                                        :mod (vv15 / besar)))))
+
+# ::snt "Anda bisa bayangkan sebuah pesawat Airbus bertabrakan dengan empat pesawat berbadan lebar, penuh bahan bakar dan penumpang, maka Anda bisa membayangkan betapa mengerikannya hal ini," katanya.
+
+(vv1 / bayang
+     :ARG0 (vv2 / anda)
+     :ARG0 (vv3 / bisa)
+     :mod (vv4 / pesawat
+               :mod (vv8 / badan
+                         :mod (vv12 / bakar
+                                    :mod (vv16 / betapa))
+                         :mod (vv13 / tumpang
+                                    :mod (vv17 / hal)))
+               :mod (vv10 / bahan
+                          :mod (vv14 / dan)
+                          :mod (vv15 / keri
+                                     :mod vv19
+                                     :ARG1 vv20))
+               :mod (vv11 / penuh))
+     :mod (vv5 / airbus)
+     :ARG1 (vv6 / tabrak
+                :location (vv7 / empat))
+     :mod (vv9 / lebar)
+     :mod (vv18 / kata)
+     :mod vv21)
+
+# ::snt Belum diketahui jenis pesawat apa yang ada di taxiway, tapi pesawat 'berbadan lebar' adalah pesawat dua lorong besar yang mampu mengangkut ratusan orang untuk rute internasional.
+
+(vv1 / tahu
+     :mod (vv2 / belum)
+     :ARG1 (vv3 / jenis
+                :mod (vv4 / pesawat
+                          :ARG0 (vv5 / apa)
+                          :mod (vv7 / taxiway)
+                          :mod (vv10 / lebar)
+                          :mod (vv11 / adalah)
+                          :mod (vv13 / dua)
+                          :mod (vv14 / besar))
+                :mod (vv8 / tapi))
+     :mod (vv6 / ada
+               :ARG1 (vv9 / badan
+                          :mod (vv12 / lorong
+                                     :mod (vv15 / angkut
+                                                :mod (vv18 / orang)
+                                                :ARG1 (vv19 / rute
+                                                            :mod vv22)
+                                                :location vv21)
+                                     :mod (vv16 / mampu)
+                                     :mod (vv17 / ratus
+                                                :mod (vv20 / internasional))))))
+
+# ::snt Pesawat berbadan lebar ini dapat mengangkut sekitar 200 dan 480 penumpang, ditambah kru.
+
+(vv1 / angkut
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / badan
+                          :mod (vv4 / lebar)))
+     :mod (vv5 / dapat)
+     :mod (vv10 / tambah
+                :ARG1 (vv6 / tumpang
+                           :mod (vv7 / 200)
+                           :mod (vv8 / dan)
+                           :mod (vv9 / 480))
+                :ARG1 (vv11 / kru)))
+
+# ::snt Bahkan jika pesawat lain berada di ujung bawah skala, dan hanya setengah penuh, tabrakan bisa saja membunuh beberapa ratus orang.
+
+(vv5 / bunuh
+     :mod (vv1 / ada
+               :mod (vv2 / bahkan)
+               :ARG0 (vv3 / pesawat
+                          :mod (vv4 / lain))
+               :location (vv6 / ujung
+                              :mod (vv7 / bawah
+                                        :mod (vv8 / skala)))
+               :mod (vv9 / penuh
+                         :mod (vv10 / dan)
+                         :mod (vv11 / hanya)
+                         :mod (vv12 / tengah)
+                         :mod (vv13 / tabrak)))
+     :mod (vv14 / bisa)
+     :mod (vv15 / saja)
+     :ARG1 (vv16 / orang
+                 :mod (vv17 / ratus)))
+
+# ::snt Aimer menambahkan bahwa insiden tersebut telah menjadi pembicaraan pilot di mana-mana.
+
+(vv1 / tambah
+     :ARG0 (vv2 / aimer)
+     :mod (vv3 / jadi
+               :ARG0 (vv4 / insiden)
+               :mod (vv5 / telah)
+               :ARG1 (vv6 / bicara
+                          :mod (vv7 / pilot))
+               :mod (vv8 / manamana)))
+
+# ::snt Dalam sebuah pernyataan, Air Canada mengatakan sebagian, "Kami masih menyelidiki situasinya dan karena itu tidak memiliki informasi tambahan untuk disampaikan."
+
+(vv1 / kata
+     :ARG1 (vv2 / nyata
+                :mod (vv3 / air
+                          :mod (vv4 / canada)))
+     :mod (vv5 / selidik
+               :ARG0 (vv6 / kami)
+               :mod (vv7 / masih)
+               :ARG1 (vv8 / situasi)
+               :mod (vv9 / milik
+                         :mod (vv10 / dan)
+                         :ARG0 (vv11 / itu)
+                         :mod (vv12 / tidak)
+                         :ARG1 (vv13 / informasi
+                                     :mod (vv14 / tambah))
+                         :ARG1 (vv15 / sampai))))
+
+# ::snt Hal itu belum mengonfirmasi apakah ada tindakan yang diambil terhadap pilot tersebut.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / hal)
+     :mod (vv3 / belum)
+     :ARG1 (vv4 / ada
+                :ARG1 (vv5 / tindak
+                           :mod (vv6 / ambil
+                                     :ARG1 (vv7 / pilot)))))
+
+# ::snt Bandara Internasional San Francisco juga telah dihubungi.
+
+(vv1 / hubung
+     :ARG1 (vv2 / bandara
+                :mod (vv3 / internasional)
+                :mod (vv4 / san
+                          :name (vv5 / francisco)))
+     :mod (vv6 / juga)
+     :mod (vv7 / telah))
+
+# ::snt FAA telah meluncurkan penyelidikan, begitu pula dengan Air Canada seperti dilansir MailOnline.
+
+(vv1 / luncur
+     :ARG0 (vv2 / faa)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / lidi
+                :mod (vv5 / begitu))
+     :ARG1 (vv6 / air
+                :mod (vv7 / pula)
+                :mod (vv8 / canada)
+                :mod (vv9 / lansir
+                          :ARG0 (vv10 / mailonline))))
+

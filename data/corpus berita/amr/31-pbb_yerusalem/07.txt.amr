@@ -1,0 +1,225 @@
+# ::snt Majelis Umum PBB sudah melakukan penghitungan suara atas resolusi yang mendesak Amerika Serikat menarik keputusan yang menyatakan Yerusalem sebagai ibu kota Israel.
+
+(vv1 / laku
+     :ARG0 (vv2 / majelis
+                :mod (vv3 / umum
+                          :mod (vv4 / pbb)))
+     :mod (vv5 / sudah)
+     :ARG1 (vv6 / hitung
+                :mod (vv7 / suara)
+                :mod (vv8 / resolusi
+                          :mod (vv9 / desak
+                                    :ARG1 (vv10 / amerika
+                                                :mod (vv11 / serikat))
+                                    :mod (vv12 / tarik
+                                               :ARG1 (vv13 / putus
+                                                           :mod (vv14 / nyata
+                                                                      :ARG0 (vv15 / yerusalem)
+                                                                      :ARG1 (vv16 / ibu
+                                                                                  :mod (vv17 / kota
+                                                                                             :name (vv18 / israel))))))))))
+
+# ::snt Dalam pemungutan suara Kamis (21/12) waktu New York, sebanyak 128 negara mendukung resolusi, sembilan menentang, dan 35 negara memilih untuk abstain.
+
+(vv1 / dukung
+     :location (vv2 / mungut
+                    :mod (vv3 / suara
+                              :mod (vv4 / kamis
+                                        :mod (vv5 / 2112)))
+                    :mod (vv6 / waktu
+                              :mod (vv7 / new
+                                        :mod (vv8 / york)))
+                    :mod (vv9 / negara
+                              :mod (vv11 / 128)
+                              :mod (vv12 / resolusi
+                                         :mod (vv14 / tentang)
+                                         :mod (vv15 / pilih
+                                                    :ARG0 (vv10 / banyak)
+                                                    :mod (vv17 / 35)
+                                                    :ARG1 vv19))
+                              :mod (vv18 / abstain)))
+     :ARG1 (vv13 / sembilan)
+     :mod (vv16 / dan))
+
+# ::snt Sehari sebelumnya, Presiden Donald Trump mengeluarkan ancaman akan memutus bantuan keuangan bagi negara-negara yang menentang keputusannya dalam menetapkan Yerusalem sebagai ibu kota Israel.
+
+(vv1 / keluar
+     :time (vv2 / hari)
+     :ARG0 (vv3 / presiden
+                :name (vv4 / donald
+                           :name (vv5 / trump)))
+     :ARG1 (vv6 / ancam)
+     :mod (vv7 / putus
+               :mod (vv9 / bantu
+                         :mod (vv11 / negaranegara
+                                    :mod (vv13 / tetap
+                                               :ARG0 (vv15 / ibu
+                                                           :mod (vv17 / israel))
+                                               :ARG1 (vv16 / kota
+                                                           :name vv18)))
+                         :mod (vv12 / tentang
+                                    :ARG1 (vv8 / akan)
+                                    :mod (vv14 / yerusalem)))
+               :ARG1 (vv10 / uang)))
+
+# ::snt Sebelum pemungutan suara dimulai, Menteri Luar Negeri Palestina, Riad al-Malki, mendesak agar negara-negara anggota PBB menolak 'pemerasan dan intimidasi'.
+
+(vv4 / desak
+     :mod (vv1 / mulai
+               :ARG1 (vv2 / mungut
+                          :mod (vv3 / suara))
+               :ARG0 (vv5 / menteri
+                          :mod (vv6 / luar
+                                    :mod (vv7 / negeri
+                                              :mod (vv8 / palestina
+                                                        :name (vv9 / riad
+                                                                   :mod (vv10 / almalki)))))))
+     :mod (vv11 / tolak
+                :ARG0 (vv12 / negaranegara
+                            :mod (vv13 / anggota
+                                       :mod (vv14 / pbb)))
+                :ARG1 (vv15 / peras
+                            :mod (vv16 / intimidasi
+                                       :mod (vv17 / dan)))))
+
+# ::snt Sementara Perdana Menteri Israel, Benjamin Netanyahu mengatakan akan menolak sama sekali hasil yang menurutnya sudah diantisipasi dan menyebut PBB sebagai 'rumah kebohongan'.
+
+(vv1 / kata
+     :ARG0 (vv2 / perdana
+                :mod (vv3 / menteri
+                          :mod (vv4 / israel
+                                    :name (vv5 / benjamin
+                                               :name (vv6 / netanyahu)))))
+     :mod (vv7 / tolak
+               :mod (vv8 / akan)
+               :mod (vv9 / sama
+                         :mod (vv10 / sekali))
+               :ARG1 (vv11 / hasil
+                           :mod (vv12 / antisipasi
+                                      :mod (vv13 / turut)
+                                      :mod (vv14 / sudah)
+                                      :mod (vv15 / sebut
+                                                 :ARG1 (vv16 / dan)
+                                                 :ARG1 (vv17 / pbb)
+                                                 :location (vv18 / rumah
+                                                                 :mod (vv19 / bohong)))))))
+
+# ::snt Indonesia merupakan salah satu negara yang mendukung resolusi PBB tersebut.
+
+# ::snt "Indonesia tetap konsisten sejak dulu dalam mendukung kepentingan rakyat Palestina," kata Juru bicara Istana Kepresidenan, Johan Budi, di Jakarta kepada BBC Indonesia, sebelum pemungutan suara.
+
+(vv1 / konsisten
+     :ARG0 (vv2 / indonesia)
+     :mod (vv4 / dulu)
+     :mod (vv5 / dukung
+               :ARG1 (vv7 / rakyat
+                          :mod (vv9 / bicara
+                                    :ARG0 (vv11 / juru)
+                                    :ARG1 (vv13 / presiden)
+                                    :location (vv18 / mungut
+                                                    :mod vv20)
+                                    :mod (vv19 / suara))))
+     :mod (vv6 / penting
+               :mod (vv8 / palestina))
+     :mod (vv10 / kata
+                :name (vv12 / istana
+                            :mod (vv14 / johan
+                                       :name (vv16 / jakarta))
+                            :name (vv15 / budi)
+                            :mod (vv17 / bbc
+                                       :mod (vv3 / tetap)))))
+
+# ::snt Ketika masih di tingkat Dewan Keamanan PBB, Amerika Serikat sudah memveto rancangan resolusi yang menolak keputusan Presiden Donald Trump untuk mengakui Yerusalem sebagai ibu kota Israel.
+
+(vv1 / veto
+     :mod (vv2 / masih)
+     :ARG1 (vv3 / tingkat
+                :mod (vv4 / dewan
+                          :mod (vv5 / aman
+                                    :mod (vv6 / pbb))))
+     :ARG0 (vv7 / amerika
+                :mod (vv8 / serikat))
+     :mod (vv9 / sudah)
+     :ARG1 (vv10 / rancang
+                 :mod (vv11 / resolusi)
+                 :mod (vv12 / tolak
+                            :ARG1 (vv13 / putus
+                                        :mod (vv14 / presiden
+                                                   :name (vv15 / donald
+                                                               :name (vv16 / trump))))
+                            :ARG1 (vv17 / aku
+                                        :ARG0 (vv18 / yerusalem)
+                                        :ARG1 (vv19 / ibu
+                                                    :mod (vv20 / kota
+                                                               :name (vv21 / israel)))))))
+
+# ::snt Dalam sidang DK PBB awal pekan ini, Duta Besar AS untuk PBB, Nikki Haley, mengatakan bahwa draf resolusi tersebut merupakan 'penghinaan'.
+
+(vv1 / kata
+     :ARG1 (vv2 / sidang
+                :mod (vv3 / dk
+                          :mod (vv4 / pbb
+                                    :name (vv11 / haley))
+                          :mod (vv6 / pekan)))
+     :ARG0 (vv7 / duta
+                :mod (vv5 / awal)
+                :mod (vv9 / as))
+     :ARG0 (vv8 / besar
+                :mod (vv10 / nikki
+                           :name (vv12 / rupa
+                                       :ARG0 (vv14 / resolusi)
+                                       :ARG1 vv16)))
+     :ARG1 (vv13 / draf
+                 :mod (vv15 / hina)))
+
+# ::snt Awal bulan ini Trump menyatakan Yerusalem adalah ibu kota Israel, walau sejak awal sudah dikecam dunia internasional dan belakangan memicu aksi unjuk rasa di sejumlah tempat.
+
+# ::snt Hari Rabu (21/12), Presiden Trump mengeluarkan ancaman atas negara-negara yang akan menentang mereka saat penghitungan suara di Majelis Umum PBB ini.
+
+(vv1 / keluar
+     :ARG0 (vv2 / hari
+                :mod (vv3 / rabu
+                          :mod (vv4 / 2112)))
+     :ARG0 (vv5 / presiden
+                :name (vv6 / trump))
+     :ARG1 (vv7 / ancam
+                :mod (vv8 / negaranegara)
+                :mod (vv9 / tentang
+                          :mod (vv10 / akan)
+                          :ARG0 (vv11 / mereka)
+                          :ARG1 (vv12 / hitung
+                                      :mod (vv13 / saat)
+                                      :mod (vv14 / suara)
+                                      :mod (vv15 / majelis
+                                                 :mod (vv16 / umum
+                                                            :mod (vv17 / pbb)))))))
+
+# ::snt "Mereka mengambil jutaan dolar dan bahkan miliaran dolar dan mereka memberi suara yang menentang kita," katanya kepada para wartawan di Gedung Putih, Rabu (20/12).
+
+# ::snt Sementara itu Duta Besar AS untuk PBB, Nikki Haley, memperingatkan negara anggota PBB bahwa Presiden Trump memintanya untuk melaporkan 'siapa yang menentang kita' pada pemungutan suara di Majelis Umum PBB.
+
+# ::snt Status Yerusalem merupakan masalah utama dalam konflik Israel-Palestina dengan Palestina mengklaim Yerusalem Timur sebagai ibu kota dari negara masa depan mereka.
+
+# ::snt Penetapan Trump bahwa Yerusalem merupakan ibu kota Israel dianggap berbagai pihak akan semakin menghambat proses perundingan damai, yang dalam beberapa waktu belakangan ini memang sudah terhenti.
+
+(vv1 / hambat
+     :ARG0 (vv2 / tetap
+                :name (vv3 / trump)
+                :mod (vv4 / rupa
+                          :ARG0 (vv5 / yerusalem)
+                          :ARG1 (vv6 / ibu
+                                     :mod (vv7 / kota
+                                               :name (vv8 / israel))
+                                     :mod (vv9 / anggap
+                                               :ARG1 (vv10 / pihak)))))
+     :mod (vv11 / akan)
+     :mod (vv12 / makin)
+     :ARG1 (vv13 / proses
+                 :mod (vv14 / runding
+                            :mod (vv15 / damai)))
+     :ARG1 (vv16 / waktu
+                 :mod (vv17 / belakang))
+     :mod (vv18 / henti
+                :mod (vv19 / memang)
+                :mod (vv20 / sudah)))
+

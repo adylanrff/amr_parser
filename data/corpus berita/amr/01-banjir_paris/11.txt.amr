@@ -1,0 +1,234 @@
+# ::snt Rumah dan usaha di sepanjang pinggir Sungai Seine di Paris mulai  waspada akibat  luapan sungai mengancam membanjiri pinggirannya.
+
+# ::snt Beberapa laporan menyebut sebagian ruang bawah tanah di Paris telah terendam air setelah sungai tersebut meluap akibat hujan deras.
+
+(vv1 / sebut
+     :ARG0 (vv2 / lapor)
+     :ARG1 (vv3 / ruang
+                :mod (vv4 / bawah
+                          :mod (vv5 / tanah))
+                :mod (vv6 / paris))
+     :mod (vv7 / rendam
+               :mod (vv8 / telah)
+               :ARG1 (vv9 / air)
+               :mod (vv10 / luap
+                          :ARG0 (vv11 / sungai)
+                          :ARG1 (vv12 / akibat
+                                      :mod (vv13 / hujan
+                                                 :mod (vv14 / deras))))))
+
+# ::snt Seine diperkirakan akan meluap lebih jauh akhir pekan ini, membuat ketinggian air bertambah beberapa meter di atas kondisi normal.
+
+(vv1 / kira
+     :ARG1 (vv2 / seine)
+     :mod (vv3 / luap
+               :mod (vv4 / akan)
+               :mod (vv5 / jauh
+                         :mod (vv6 / lebih)))
+     :mod (vv9 / buat
+               :ARG0 (vv7 / pekan
+                          :mod (vv8 / akhir))
+               :ARG1 (vv10 / tinggi
+                           :mod (vv11 / air)
+                           :mod (vv12 / tambah
+                                      :ARG1 (vv13 / meter)
+                                      :ARG1 (vv14 / kondisi
+                                                  :mod (vv15 / atas)
+                                                  :mod (vv16 / normal))))))
+
+# ::snt Tinggi air di sungai diperkirakan mencapai puncaknya sekitar 6m, setidaknya 4m di atas kondisi normal.
+
+(vv1 / kira
+     :ARG1 (vv2 / tinggi
+                :mod (vv3 / air)
+                :mod (vv4 / sungai))
+     :mod (vv5 / capai
+               :ARG1 (vv6 / puncak)
+               :mod (vv7 / 6m
+                         :mod (vv8 / 4m
+                                   :mod (vv9 / tidak)))
+               :ARG1 (vv10 / kondisi
+                           :mod (vv11 / atas)
+                           :mod (vv12 / normal))))
+
+# ::snt Patung seorang tentara Krimea – yang dikenal sebagai Zouave – di Pont de l'Alma telah lama digunakan sebagai penanda ketinggian air di kota itu.
+
+(vv1 / guna
+     :ARG1 (vv2 / patung
+                :mod (vv3 / tentara
+                          :mod (vv4 / krimea)
+                          :mod (vv5 / )
+                          :mod (vv7 / zouave
+                                    :mod (vv6 / kenal
+                                              :ARG1 (vv8 / pont
+                                                         :name (vv10 / lalma))
+                                              :location (vv9 / de
+                                                             :name (vv11 / telah))))))
+     :mod (vv12 / lama)
+     :mod (vv13 / tanda
+                :mod (vv15 / air)
+                :mod vv17)
+     :ARG1 (vv14 / tinggi
+                 :mod (vv16 / kota)))
+
+# ::snt Pada hari Jumat, air mencapai paha patung itu – tidak setinggi banjir tahun 1910, yang sampai ke leher patung dan merendam kota itu selama dua bulan.
+
+(vv1 / capai
+     :time (vv2 / hari
+                :mod (vv3 / jumat))
+     :ARG1 (vv4 / air)
+     :ARG1 (vv5 / paha
+                :mod (vv6 / patung)
+                :mod (vv9 / tidak))
+     :mod (vv8 / setinggi
+               :mod (vv10 / banjir)
+               :mod (vv11 / tahun
+                          :mod (vv13 / sampai
+                                     :ARG1 (vv14 / leher
+                                                 :mod (vv7 / ))
+                                     :mod (vv15 / rendam
+                                                :mod (vv16 / dan)
+                                                :ARG1 (vv17 / kota)
+                                                :ARG1 (vv18 / bulan
+                                                            :mod (vv19 / dua)))))
+               :mod (vv12 / 1910)))
+
+# ::snt Layanan kereta komuter yang sibuk, RER C, telah ditangguhkan sampai minggu depan.
+
+(vv1 / tangguh
+     :ARG1 (vv2 / layan
+                :mod (vv3 / kereta
+                          :mod (vv4 / komuter))
+                :mod (vv5 / sibuk
+                          :ARG0 (vv6 / rer
+                                     :mod (vv7 / c))))
+     :mod (vv8 / telah)
+     :ARG1 (vv9 / minggu
+                :mod (vv10 / depan)))
+
+# ::snt Sementara itu, museum Louvre telah menutup bagian bawahnya yang berisi kesenian Islam.
+
+(vv1 / tutup
+     :ARG0 (vv2 / museum
+                :mod (vv3 / louvre))
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / bagi
+                :mod (vv6 / bawah)
+                :mod (vv7 / isi
+                          :ARG1 (vv8 / seni
+                                     :mod (vv9 / islam)))))
+
+# ::snt Di pinggiran kota Villeneuve-Saint-Georges, banjir memaksa penduduk menggunakan kapal sebagai moda transportasi.
+
+(vv1 / paksa
+     :location (vv2 / pinggir
+                    :mod (vv3 / kota
+                              :name (vv4 / villeneuvesaintgeorges)))
+     :ARG0 (vv5 / banjir)
+     :ARG1 (vv6 / duduk)
+     :mod (vv7 / guna
+               :ARG1 (vv8 / kapal)
+               :location (vv9 / moda
+                              :mod (vv10 / transportasi))))
+
+# ::snt Banjir juga memaksa pergerakan penduduk kota lain.
+
+(vv1 / paksa
+     :ARG0 (vv2 / banjir)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / gera
+                :mod (vv5 / duduk
+                          :mod (vv6 / kota
+                                    :mod (vv7 / lain)))))
+
+# ::snt Populasi Tikus.
+
+(vv1 / populasi
+     :mod (vv2 / tikus))
+
+# ::snt Hewan pengerat itu dipaksa keluar dari selokan Paris, dilaporkan media France 24 – membuat hama tikus kota tampak jauh lebih banyak dari biasanya.
+
+(vv1 / paksa
+     :ARG1 (vv2 / hewan
+                :mod (vv3 / erat))
+     :mod (vv4 / keluar)
+     :location (vv5 / selokan
+                    :name (vv6 / paris))
+     :mod (vv7 / lapor
+               :ARG1 (vv8 / media
+                          :mod (vv9 / france
+                                    :mod (vv10 / 24
+                                               :mod (vv11 / ))))
+               :ARG1 (vv12 / buat
+                           :ARG1 (vv13 / hama
+                                       :mod (vv14 / tikus
+                                                  :mod (vv15 / kota))
+                                       :mod (vv16 / tampak
+                                                  :mod (vv17 / jauh)
+                                                  :mod (vv18 / banyak
+                                                             :mod (vv19 / lebih))
+                                                  :ARG1 (vv20 / biasa))))))
+
+# ::snt Periode hujan Desember-Januari ini menjadi rekor musim terbasah ketiga, menurut layanan cuaca nasional Prancis.
+
+(vv1 / jadi
+     :ARG0 (vv2 / periode
+                :mod (vv3 / hujan)
+                :mod (vv4 / desemberjanuari))
+     :ARG1 (vv5 / rekor
+                :mod (vv6 / musim
+                          :mod (vv7 / basah
+                                    :mod (vv8 / tiga)))
+                :mod (vv9 / layan
+                          :mod (vv10 / cuaca
+                                     :mod (vv11 / nasional))
+                          :name (vv12 / prancis))))
+
+# ::snt Walikota Paris Anne Hidalgo mengatakan bahwa kota tersebut sedang mengatasinya – namun mengatakan bahwa banjir tersebut, bersama dengan gelombang panas musim panas baru-baru ini, "jelas menjadi pertanyaan bagaimana kota itu beradaptasi dengan perubahan iklim".
+
+(vv1 / kata
+     :ARG0 (vv2 / walikota
+                :mod (vv3 / paris
+                          :name (vv4 / anne
+                                     :name (vv5 / hidalgo))))
+     :mod (vv6 / atas
+               :ARG0 (vv7 / kota)
+               :mod (vv9 / )
+               :mod (vv10 / namun))
+     :mod (vv11 / sama
+                :ARG0 (vv13 / gelombang
+                            :mod (vv15 / musim
+                                       :mod (vv16 / barubaru)
+                                       :mod (vv18 / jelas))
+                            :mod (vv17 / jadi
+                                       :mod (vv20 / adaptasi
+                                                  :ARG0 (vv8 / sedang)
+                                                  :mod (vv23 / iklim)
+                                                  :ARG1 vv24)
+                                       :ARG1 (vv21 / bagaimana)
+                                       :mod (vv22 / ubah
+                                                  :mod vv25)))
+                :ARG1 (vv14 / panas)
+                :ARG1 (vv19 / tanya))
+     :mod (vv12 / banjir))
+
+# ::snt Dia juga memperingatkan bahwa ketinggian air akan bertahan hingga minggu depan, dan banjir "mereda perlahan" karena tanah digenangi air di wilayah tersebut.
+
+(vv1 / ingat
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / juga)
+     :mod (vv4 / tahan
+               :ARG0 (vv5 / tinggi
+                          :mod (vv6 / air))
+               :mod (vv8 / minggu
+                         :mod (vv10 / reda
+                                    :mod (vv12 / banjir)
+                                    :ARG0 (vv13 / perlahan)
+                                    :mod (vv14 / genang
+                                               :ARG1 (vv7 / akan)
+                                               :ARG1 (vv16 / wilayah)
+                                               :location vv17)
+                                    :mod (vv15 / tanah)))
+               :time (vv9 / depan)
+               :mod (vv11 / dan)))
+

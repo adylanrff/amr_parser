@@ -1,0 +1,145 @@
+# ::snt Mengingat aksi ini diduga terkait dengan IS, kepala kelompok advokasi Muslim AS terkemuka sangat mengutuk pembantaian tersebut.
+
+(vv3 / kait
+     :ARG1 (vv1 / aksi
+                :mod (vv2 / ingat))
+     :mod (vv4 / duga)
+     :ARG1 (vv5 / is
+                :mod (vv6 / kepala
+                          :mod (vv7 / kelompok
+                                    :mod (vv8 / advokasi
+                                              :mod (vv9 / muslim
+                                                        :mod (vv10 / as))))))
+     :mod (vv11 / muka
+                :ARG1 (vv12 / kutuk
+                            :mod (vv13 / sangat)
+                            :ARG0 (vv14 / bantai))))
+
+# ::snt Nihad Awad, direktur eksekutif Dewan Hubungan Islam-Amerika juga menyerukan persatuan dan mendesak para politisi untuk tidak "mengeksploitasi" tragedi berdarah itu.
+
+(vv1 / seru
+     :ARG0 (vv2 / nihad
+                :name (vv3 / awad)
+                :mod (vv4 / direktur
+                          :mod (vv5 / eksekutif)
+                          :mod (vv6 / dewan
+                                    :name (vv7 / hubungan
+                                               :name (vv8 / islamamerika)))))
+     :mod (vv9 / juga)
+     :ARG1 (vv10 / satu)
+     :mod (vv11 / desak
+                :mod (vv12 / dan)
+                :ARG1 (vv13 / politis)
+                :ARG1 (vv14 / eksploitasi
+                            :mod (vv15 / tidak)
+                            :ARG1 (vv16 / tragedi
+                                        :mod (vv17 / darah)))))
+
+# ::snt Menteri Luar Negeri Jerman Frank-Walter Steinmeier juga menyatakan belasungkawanya kepada para korban serangan itu lewat di akun twitter.
+
+(vv1 / nyata
+     :ARG0 (vv2 / menteri
+                :mod (vv3 / luar
+                          :mod (vv4 / negeri
+                                    :mod (vv5 / jerman
+                                              :name (vv6 / frankwalter
+                                                         :name (vv7 / steinmeier))))))
+     :mod (vv8 / juga)
+     :ARG1 (vv9 / belasungkawa)
+     :ARG1 (vv10 / korban
+                 :mod (vv11 / serang))
+     :ARG1 (vv12 / akun
+                 :mod (vv13 / lewat)
+                 :mod (vv14 / twitter)))
+
+# ::snt Pemimpin Gereja Katolik, Paus Fransiskus menyatakan perasaannya yang terdalam, sementara Ratu Inggris, Elizabeth II mengatakan dia dan suaminya Pangeran Philip "telah dikejutkan oleh peristiwa itu."
+
+(vv1 / nyata
+     :ARG0 (vv2 / pemimpin
+                :mod (vv3 / gereja
+                          :mod (vv4 / katolik
+                                    :mod (vv5 / paus
+                                              :name (vv6 / fransiskus)))))
+     :ARG1 (vv7 / asa
+                :mod (vv8 / dalam))
+     :mod (vv9 / kata
+               :ARG0 (vv10 / ratu
+                           :mod (vv11 / inggris)
+                           :name (vv12 / elizabeth
+                                       :mod (vv13 / ii)))
+               :ARG0 (vv14 / dia)
+               :ARG1 (vv15 / kejut
+                           :mod (vv16 / dan)
+                           :ARG1 (vv17 / suami
+                                       :name (vv18 / pangeran
+                                                   :name (vv19 / philip)))
+                           :mod (vv20 / telah)
+                           :location (vv21 / peristiwa))))
+
+# ::snt Sejumlah tagar termasuk #LoveisLove dan #GaysBreakTheInternet menjadi topik trending di Twitter, dimana para pengguna media sosial berbagi duka dan solidaritas mereka dengan komunitas LGBT.
+
+# ::snt Di karpet merah Tony Awards di New York City, beberapa bintang, termasuk artis yang membintangi "The Walking Dead" Danai Gurira dan presenter James Corden juga menyatakan rasa dukanya.
+
+# ::snt FBI juga menegaskan bahwa pemerintah AS telah memantau Mateen sejak tahun 2013 setelah ia membuat komentar bernada kebencian kepada rekan kerjanya dan menunjukkan simpati terhadap kaum militan Islamis.
+
+# ::snt Agen FBI, Ron Hopper memaparkan, pihaknya telah menyelidiki dan mewacancarai Mateen dua kali tapi dinas intelijen AS itu "tidak dapat memverifikasi substansi komentarnya."
+
+(vv1 / papar
+     :ARG0 (vv2 / agen
+                :name (vv3 / fbi
+                           :name (vv4 / ron
+                                      :name (vv5 / hopper))))
+     :ARG0 (vv6 / pihak)
+     :mod (vv7 / selidik
+               :mod (vv8 / telah)
+               :mod (vv9 / mewacancarai
+                         :mod (vv10 / dan)
+                         :ARG0 (vv11 / mateen)
+                         :ARG1 (vv12 / kali
+                                     :mod (vv13 / dua))))
+     :mod (vv14 / verifikasi
+                :ARG1 (vv15 / tapi)
+                :ARG0 (vv16 / dinas
+                            :mod (vv17 / intelijen
+                                       :mod (vv18 / as)))
+                :mod (vv19 / tidak)
+                :mod (vv20 / dapat)
+                :ARG1 (vv21 / substansi
+                            :mod (vv22 / komentar))))
+
+# ::snt Tahun 2013, Mateen bekerja sebagai penjaga keamanan di G4S, perusahaan multinasional milik Inggris yang antara perusahaan keamanan swasta terbesar di dunia.
+
+(vv1 / kerja
+     :time (vv2 / tahun
+                :mod (vv3 / 2013))
+     :ARG0 (vv4 / mateen)
+     :location (vv5 / jaga
+                    :mod (vv6 / aman
+                              :mod (vv14 / dunia))
+                    :mod (vv8 / usaha
+                              :mod (vv7 / g4s
+                                        :mod (vv9 / multinasional
+                                                  :mod (vv12 / swasta)))
+                              :mod (vv10 / milik
+                                         :mod (vv13 / besar))
+                              :mod (vv11 / inggris)
+                              :mod vv15
+                              :mod vv16)))
+
+# ::snt Hopper mengatakan, bagaimanapun, bahwa kontak Mateen dengan Abu-Sallah sangat minim dan oleh sebab itu ia dianggap "tidak merupakan ancaman substantif."
+
+(vv1 / kata
+     :ARG0 (vv2 / hopper)
+     :ARG1 (vv3 / minim
+                :ARG0 (vv4 / kontak
+                           :name (vv5 / mateen)
+                           :mod (vv6 / abusallah))
+                :mod (vv7 / sangat))
+     :mod (vv8 / anggap
+               :ARG1 (vv9 / dan)
+               :ARG1 (vv10 / ia)
+               :ARG1 (vv11 / rupa
+                           :mod (vv12 / tidak)
+                           :ARG1 (vv13 / ancam
+                                       :mod (vv14 / substantif)))))
+

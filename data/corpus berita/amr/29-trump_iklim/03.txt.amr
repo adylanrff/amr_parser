@@ -1,0 +1,72 @@
+# ::snt "Kami akan keluar," ucap Trump pada sebuah upacara di Taman Mawar Gedung Putih seperti dikutip dari Reuters, Jumat (2/6/2017).
+
+(vv1 / keluar
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / trump
+                :mod (vv5 / ucap))
+     :ARG1 (vv6 / upacara
+                :mod (vv7 / taman
+                          :name (vv8 / mawar
+                                     :mod (vv9 / gedung
+                                               :mod (vv10 / putih))))
+                :mod (vv11 / kutip
+                           :ARG1 (vv12 / reuters
+                                       :mod (vv13 / jumat
+                                                  :mod (vv14 / 262017))))))
+
+# ::snt Trump mengatakan bahwa perjanjian Paris akan merusak ekonomi AS, menghilangkan lapangan pekerjaan, melemahkan kedaulatan AS dan membuat negara tersebut memiliki kerugian permanen.
+
+(vv1 / kata
+     :ARG0 (vv2 / trump)
+     :mod (vv3 / rusak
+               :ARG0 (vv4 / janji
+                          :mod (vv5 / paris))
+               :mod (vv6 / akan)
+               :ARG1 (vv7 / ekonomi
+                          :name (vv8 / as))
+               :mod (vv10 / lapang
+                          :mod (vv12 / lemah
+                                     :ARG1 (vv14 / buat
+                                                 :ARG1 (vv16 / negara)
+                                                 :ARG1 (vv17 / milik
+                                                             :ARG1 (vv19 / permanen))
+                                                 :ARG1 (vv18 / rugi
+                                                             :mod vv20)))
+                          :mod (vv13 / daulat
+                                     :mod (vv9 / hilang
+                                               :ARG1 (vv11 / kerja)
+                                               :ARG1 (vv15 / dan))))))
+
+# ::snt "Kami tidak ingin pemimpin lain dan negara lain menertawakan kami lagi dan mereka tidak akan melakukannya," kata Trump .
+
+# ::snt "Negara-negara yang sama meminta kita untuk tetap dalam perjanjian tersebut adalah negara-negara yang secara kolektif membiayai triliunan dolar Amerika melalui praktik perdagangan yang sulit dan dalam banyak kasus memberikan kontribusi yang lemah terhadap aliansi militer kritis kita," Trump menambahkan.
+
+(vv1 / minta
+     :ARG0 (vv2 / negaranegara
+                :mod (vv4 / kita
+                          :name (vv26 / tambah))
+                :mod (vv8 / biaya
+                          :mod (vv10 / triliun
+                                     :mod (vv12 / amerika))
+                          :ARG1 (vv11 / dolar
+                                      :name (vv13 / praktik
+                                                  :mod (vv15 / sulit)
+                                                  :mod (vv16 / beri
+                                                             :ARG1 (vv18 / kasus
+                                                                         :mod (vv20 / kontribusi
+                                                                                    :mod (vv22 / aliansi
+                                                                                               :mod (vv24 / kritis)
+                                                                                               :mod (vv25 / trump))
+                                                                                    :mod (vv23 / militer)))
+                                                             :ARG0 (vv19 / banyak)
+                                                             :ARG1 (vv21 / lemah))))
+                          :ARG1 (vv14 / dagang)
+                          :mod (vv17 / dan))
+                :mod (vv9 / kolektif)
+                :mod vv27)
+     :mod (vv3 / sama)
+     :ARG0 (vv5 / tetap
+                :ARG1 (vv7 / adalah))
+     :mod (vv6 / janji))
+

@@ -1,0 +1,295 @@
+# ::snt Sebagian besar negara anggota Perserikatan Bangsa-Bangsa (PBB) telah menyatakan pengakuan Presiden Donald Trump atas Yerusalem sebagai ibukota Israel 'batal dan tidak sah'.
+
+# ::snt Dilansir Aljazeera, Jumat (22/12/2017), Palestina menyampaikan terimakasih kepada negara-negara yang mendukungnya.
+
+(vv1 / sampai
+     :ARG0 (vv2 / lansir
+                :name (vv3 / aljazeera
+                           :time (vv4 / jumat
+                                      :mod (vv5 / 22122017)
+                                      :name (vv6 / palestina))))
+     :ARG1 (vv7 / terimakasih
+                :mod (vv8 / negaranegara
+                          :mod (vv9 / dukung))))
+
+# ::snt Para pemimpin Palestina mengatakan bahwa hasil voting Majelis Umum PBB adalah kemenangan bagi mereka.
+
+(vv1 / kata
+     :ARG0 (vv2 / pimpin
+                :name (vv3 / palestina))
+     :ARG1 (vv4 / menang
+                :ARG0 (vv5 / hasil
+                           :mod (vv6 / voting)
+                           :mod (vv7 / majelis
+                                     :mod (vv8 / umum
+                                               :mod (vv9 / pbb))))
+                :mod (vv10 / adalah)
+                :mod (vv11 / mereka)))
+
+# ::snt "Keputusan ini menegaskan kembali sekali lagi bahwa Palestina mendapat dukungan dari masyarakat internasional, dan tidak ada keputusan yang dibuat oleh pihak manapun dapat mengubah kenyataan, bahwa Yerusalem adalah wilayah yang diduduki Palestina berdasarkan hukum internasional," Nabil Abu Rudeina, juru bicara Presiden Palestina Mahmoud Abbas.
+
+(vv1 / tegas
+     :ARG0 (vv2 / putus
+                :mod (vv19 / yerusalem))
+     :mod (vv4 / sekali)
+     :mod (vv6 / dapat
+               :ARG0 (vv9 / masyarakat
+                          :mod (vv14 / buat
+                                     :ARG1 (vv20 / adalah)))
+               :ARG1 (vv12 / dan)
+               :mod (vv16 / ubah
+                          :mod (vv8 / dukung
+                                    :mod (vv13 / tidak))
+                          :ARG1 (vv22 / dasar
+                                      :ARG1 (vv28 / bicara))
+                          :mod (vv23 / hukum
+                                     :mod (vv15 / pihak)
+                                     :mod (vv29 / presiden
+                                                :name (vv11 / ada
+                                                            :ARG1 (vv3 / kembali
+                                                                       :mod (vv5 / lagi))
+                                                            :mod (vv17 / nyata)
+                                                            :mod (vv18 / wilayah
+                                                                       :ARG0 (vv24 / nabil
+                                                                                   :name (vv30 / mahmoud
+                                                                                               :name vv36))
+                                                                       :mod (vv25 / abu
+                                                                                  :name (vv31 / abbas))
+                                                                       :mod (vv26 / rudeina))))
+                                     :mod vv32))
+               :mod (vv21 / duduk
+                          :ARG1 (vv10 / internasional)
+                          :mod (vv27 / juru
+                                     :ARG1 vv33
+                                     :name vv34)))
+     :mod (vv7 / palestina
+               :name vv35))
+
+# ::snt Saeb Erekat, kepala negosiator Palestina, mengutuk keputusan Washington namun mengatakan bahwa pemungutan suara PBB menunjukkan penghormatan terhadap peraturan undang-undang.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / saeb
+                :name (vv3 / erekat)
+                :mod (vv4 / kepala
+                          :mod (vv5 / negosiator
+                                    :name (vv6 / palestina))))
+     :ARG1 (vv7 / putus
+                :mod (vv8 / washington))
+     :mod (vv9 / kata
+               :mod (vv10 / namun)
+               :mod (vv11 / tunjuk
+                          :ARG0 (vv12 / mungut
+                                      :mod (vv13 / suara
+                                                 :mod (vv14 / pbb)))
+                          :ARG1 (vv15 / hormat
+                                      :mod (vv16 / atur
+                                                 :mod (vv17 / undangundang))))))
+
+# ::snt "Ini adalah hari yang memalukan bagi mereka yang berdiri bahu membahu melawan hukum internasional," katanya.
+
+(vv1 / hari
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / adalah)
+     :mod (vv4 / malu
+               :ARG1 (vv5 / mereka
+                          :mod (vv6 / diri
+                                    :ARG1 (vv7 / bahu
+                                               :location (vv9 / lawan))
+                                    :mod (vv8 / hukum
+                                              :mod (vv10 / internasional)
+                                              :mod (vv11 / kata)))))
+     :mod vv12)
+
+# ::snt "Kami sangat menghargai bahwa mayoritas masyarakat internasional memutuskan, terlepas dari ancaman dan intimidasi AS, untuk berdiri tegak dengan kebijaksanaan, pandangan jauh ke depan, hukum internasional dan peraturan hukum, dan bukan peraturan dari rimba," imbuhnya.
+
+# ::snt Sementara itu, Mevlut Cavusoglu, menteri luar negeri Turki, co-sponsor resolusi tersebut, mengatakan di Twitter bahwa martabat dan kedaulatan tidak dijual.
+
+(vv1 / kata
+     :ARG0 (vv2 / mevlut
+                :name (vv3 / cavusoglu)
+                :mod (vv4 / menteri)
+                :mod (vv5 / negeri
+                          :mod (vv6 / luar)
+                          :mod (vv7 / turki)
+                          :mod (vv8 / cosponsor
+                                    :mod (vv9 / resolusi))))
+     :ARG1 (vv10 / twitter)
+     :ARG1 (vv11 / jual
+                 :ARG1 (vv12 / martabat
+                             :mod (vv13 / daulat
+                                        :mod (vv14 / dan)))
+                 :mod (vv15 / tidak)))
+
+# ::snt Mohammad Javad Zarif, menteri luar negeri Iran, juga menyambut baik hasil pemungutan suara PBB, ia menatakan bahwa kebijakan Trump sangat melenceng dan PBB tidak bisa di intimidasi.
+
+# ::snt Di sisi lain, Perdana Menteri Israel Benjamin Netanyahu,  sebelumnya menyebut PBB sebagai 'rumah yang penuh kebohongan'.
+
+(vv1 / sebut
+     :location (vv2 / sisi
+                    :mod (vv3 / lain))
+     :ARG0 (vv4 / perdana
+                :mod (vv5 / menteri
+                          :mod (vv6 / israel
+                                    :name (vv7 / benjamin
+                                               :name (vv8 / netanyahu)))))
+     :ARG1 (vv9 / pbb
+                :mod (vv10 / rumah
+                           :mod (vv11 / penuh
+                                      :ARG1 (vv12 / bohong)))))
+
+# ::snt Ia mengutuk hasil pemungutan suara yang dianggap 'tidak masuk akal' dan mengucapkan terima kasih kepada Trump karena pendiriannya di Yerusalem.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / hasil
+                :mod (vv4 / mungut
+                          :mod (vv5 / suara))
+                :mod (vv6 / anggap
+                          :ARG1 (vv7 / masuk
+                                     :mod (vv8 / tidak)
+                                     :ARG1 (vv9 / akal))
+                          :mod (vv10 / ucap
+                                     :mod (vv11 / dan)
+                                     :ARG1 (vv12 / terima
+                                                 :mod (vv13 / kasih)
+                                                 :mod (vv14 / trump))
+                                     :mod (vv15 / diri
+                                                :mod (vv16 / yerusalem))))))
+
+# ::snt "Saya menghargai kenyataan bahwa semakin banyak negara menolak untuk berpartisipasi dalam sandiwara absurd ini," katanya dalam sebuah pernyataan di televisi.
+
+(vv1 / harga
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / nyata
+                :mod vv13)
+     :mod (vv8 / partisipasi
+               :ARG1 (vv4 / negara
+                          :mod (vv6 / banyak)
+                          :mod (vv7 / tolak
+                                    :ARG0 (vv5 / makin)
+                                    :ARG1 (vv9 / sandiwara
+                                               :mod (vv11 / kata)
+                                               :mod (vv12 / televisi))))
+               :ARG1 (vv10 / absurd)))
+
+# ::snt "Jadi saya menghargai itu, dan terutama saya ingin sekali lagi mengucapkan terima kasih kepada Presiden Trump dan Duta Besar Haley, atas pembelaan dan dukungan mereka terhadap Israel dan pembelaan utama mereka terhadap kebenaran," imbuhnya.
+
+(vv1 / harga
+     :mod (vv2 / jadi)
+     :ARG0 (vv3 / saya)
+     :ARG1 (vv5 / ucap
+                :ARG0 (vv4 / itu)
+                :mod (vv7 / utama)
+                :mod (vv11 / terima
+                           :mod (vv17 / haley)
+                           :mod (vv18 / bela
+                                      :mod (vv10 / lagi)
+                                      :mod (vv12 / kasih)
+                                      :mod vv24
+                                      :mod vv27))
+                :mod (vv13 / presiden
+                           :name (vv19 / dukung
+                                       :mod (vv9 / sekali)
+                                       :mod vv26)
+                           :ARG0 (vv20 / israel))
+                :mod (vv14 / trump)
+                :mod (vv15 / duta
+                           :mod (vv8 / ingin)
+                           :mod (vv21 / benar
+                                      :mod vv28)
+                           :mod vv23
+                           :mod vv25)
+                :ARG1 (vv16 / besar
+                            :name (vv22 / imbuh)))
+     :mod (vv6 / dan))
+
+# ::snt Diberitakan sebelumnya, sehari sebelum pemungutan suara, Donald Trump sempat memberikan ancaman kepada anggota PBB.
+
+(vv1 / beri
+     :ARG1 (vv2 / berita
+                :mod (vv3 / hari))
+     :ARG1 (vv4 / mungut
+                :mod (vv5 / suara)
+                :mod (vv6 / donald
+                          :name (vv7 / trump)))
+     :mod (vv8 / sempat)
+     :ARG1 (vv9 / ancam
+                :mod (vv10 / anggota
+                           :mod (vv11 / pbb))))
+
+# ::snt Donald Trump mengancam akan memotong bantuan ke negara-negara yang memberikan suara untuk memilih rancangan resolusi PBB yang mengecam keputusan AS untuk mengakui Yerusalem sebagai ibu kota Israel.
+
+(vv1 / ancam
+     :ARG0 (vv2 / donald
+                :name (vv3 / trump))
+     :ARG1 (vv4 / potong
+                :mod (vv5 / akan)
+                :ARG1 (vv6 / bantu
+                           :mod (vv7 / negaranegara
+                                     :mod (vv8 / beri
+                                               :ARG1 (vv9 / suara)
+                                               :ARG1 (vv10 / pilih
+                                                           :ARG1 (vv11 / rancang
+                                                                       :mod (vv12 / resolusi
+                                                                                  :mod (vv13 / pbb))
+                                                                       :mod (vv14 / kecam
+                                                                                  :ARG1 (vv15 / putus
+                                                                                              :mod (vv16 / as))
+                                                                                  :ARG1 (vv17 / aku
+                                                                                              :ARG0 (vv18 / yerusalem)
+                                                                                              :ARG1 (vv19 / ibu
+                                                                                                          :mod (vv20 / kota
+                                                                                                                     :name (vv21 / israel))))))))))))
+
+# ::snt Trump mengatakan di Gedung Putih pada hari Rabu bahwa AS akan 'memperhatikan suara mereka' di Majelis Umum.
+
+(vv1 / kata
+     :ARG0 (vv2 / trump)
+     :ARG1 (vv3 / gedung
+                :mod (vv4 / putih))
+     :time (vv5 / hari
+                :mod (vv6 / rabu))
+     :mod (vv7 / perhati
+               :ARG0 (vv8 / as)
+               :mod (vv9 / akan)
+               :ARG1 (vv10 / suara)
+               :location (vv11 / majelis
+                               :mod (vv12 / umum))))
+
+# ::snt Meski demikian, negara-negara anggota PBB tidak merasa terintimidasi dan tetap mendukung Palestina.
+
+# ::snt Hal tersebut tampak dari hasil pada sidang darurat Majelis Umum pada hari Kamis (21/12/2017), 128 negara memilih resolusi yang menolak keputusan kontroversial Presiden AS Donald Trump pada 6 Desember.
+
+(vv1 / tampak
+     :ARG0 (vv2 / hal)
+     :ARG1 (vv3 / hasil
+                :mod (vv4 / sidang
+                          :mod (vv5 / darurat)
+                          :mod (vv6 / majelis
+                                    :mod (vv7 / umum))
+                          :mod (vv8 / hari
+                                    :mod (vv9 / kamis
+                                              :mod (vv10 / 21122017)
+                                              :mod (vv11 / 128)))))
+     :mod (vv12 / pilih
+                :ARG0 (vv13 / negara)
+                :ARG1 (vv14 / resolusi
+                            :mod (vv15 / tolak
+                                       :ARG1 (vv16 / putus
+                                                   :mod (vv17 / kontroversial)
+                                                   :mod (vv18 / presiden
+                                                              :name (vv19 / as
+                                                                          :name (vv20 / donald
+                                                                                      :name (vv21 / trump)))))
+                                       :ARG1 (vv22 / desember
+                                                   :mod (vv23 / 6))))))
+
+# ::snt Sembilan negara menentang PBB, sementara 35 abstain. 
+
+(vv3 / tentang
+     :ARG0 (vv1 / negara
+                :mod (vv2 / sembilan))
+     :ARG1 (vv4 / pbb)
+     :ARG1 (vv5 / abstain
+                :mod (vv6 / 35)))
+

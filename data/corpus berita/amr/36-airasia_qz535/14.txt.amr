@@ -1,0 +1,152 @@
+# ::snt Sebuah penerbangan AirAsia Indonesia yang tengah menempuh perjalanan dari Perth, Australia Barat menuju Denpasar, Bali dengan 151 penumpang di dalamnya terpaksa kembali ke landasan di Bandara Perth pada hari Minggu pagi (15/10/2017) setelah mengalami keadaan darurat di udara.
+
+(vv1 / kembali
+     :ARG0 (vv2 / terbang
+                :mod (vv3 / airasia
+                          :mod (vv4 / indonesia))
+                :mod (vv5 / tempuh
+                          :mod (vv6 / tengah)
+                          :ARG1 (vv7 / jalan
+                                     :mod (vv8 / perth
+                                               :name (vv10 / barat)
+                                               :mod (vv12 / tuju)))
+                          :ARG1 (vv15 / 151)))
+     :mod (vv18 / landas
+                :mod (vv20 / hari
+                           :mod (vv22 / pagi
+                                      :mod (vv24 / alami
+                                                 :ARG1 (vv26 / darurat)
+                                                 :location vv28))))
+     :location (vv19 / bandara
+                     :mod (vv9 / australia
+                               :mod (vv11 / denpasar
+                                          :mod (vv13 / bal)
+                                          :mod (vv14 / tumpang
+                                                     :mod (vv16 / dalam)
+                                                     :mod (vv17 / paksa)))))
+     :time (vv21 / minggu
+                 :mod (vv23 / 15102017))
+     :mod (vv25 / ada
+                :mod (vv27 / udara)))
+
+# ::snt Pesawat dengan nomor penerbangan QZ 535 tersebut telah mengudara selama 25 menit setelah lepas landas dari Bandara Perth ketika sebuah indikator memperingatkan pilot pesawat tersebut akan terjadinya kehilangan tekanan udara di kabin.
+
+(vv1 / udara
+     :ARG0 (vv2 / pesawat
+                :mod (vv4 / terbang
+                          :mod (vv6 / 535)))
+     :mod (vv8 / menit
+               :mod (vv10 / lepas
+                          :ARG1 (vv12 / bandara
+                                      :mod (vv14 / ingat
+                                                 :ARG0 (vv16 / pilot
+                                                             :mod (vv3 / nomor
+                                                                       :mod (vv5 / qz
+                                                                                 :mod (vv7 / telah))))
+                                                 :ARG1 (vv17 / jadi
+                                                             :mod (vv19 / hilang
+                                                                        :mod (vv21 / kabin)
+                                                                        :mod vv22)
+                                                             :ARG1 (vv20 / tekan))
+                                                 :mod (vv18 / akan)))
+                          :location (vv13 / perth)))
+     :ARG1 (vv9 / 25)
+     :ARG1 (vv11 / landas)
+     :mod (vv15 / indikator))
+
+# ::snt Pilot pesawat itu membuat keputusan untuk kembali ke Bandara Perth dan layanan darurat disiagakan di Bandara tersebut.
+
+(vv1 / buat
+     :ARG0 (vv2 / pilot
+                :mod (vv3 / pesawat))
+     :ARG1 (vv4 / putus)
+     :mod (vv5 / kembali
+               :location (vv6 / bandara
+                              :mod (vv8 / siaga
+                                        :location (vv7 / perth)
+                                        :mod (vv10 / layan
+                                                   :mod vv12)
+                                        :ARG1 (vv11 / darurat))))
+     :mod (vv9 / dan))
+
+# ::snt Video dari sejumlah penumpang di pesawat tersebut menunjukkan masker oksigen turun dari langit-langit di kabin dan penumpang diminta mengambil posisi bersiap menghadapi benturan (brace).
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / video
+                :mod (vv3 / tumpang)
+                :mod (vv5 / masker
+                          :mod (vv7 / turun
+                                    :location (vv9 / kabin))
+                          :mod (vv8 / langitlangit
+                                    :mod (vv10 / minta
+                                               :ARG1 (vv4 / pesawat)
+                                               :mod (vv12 / ambil
+                                                          :ARG1 (vv14 / siap)
+                                                          :ARG1 (vv16 / bentur
+                                                                      :mod vv18))
+                                               :ARG1 (vv13 / posisi
+                                                           :mod (vv15 / hadap
+                                                                      :ARG0 (vv17 / brace)))))))
+     :ARG1 (vv6 / oksigen)
+     :mod (vv11 / dan))
+
+# ::snt Pesawat mendarat dengan selamat pada pukul 12:40 malam dan tidak ada korban pada penumpang.
+
+(vv1 / darat
+     :ARG0 (vv2 / pesawat)
+     :location (vv3 / selamat)
+     :time (vv4 / pukul
+                :mod (vv5 / malam
+                          :mod (vv6 / 1240)))
+     :mod (vv7 / ada
+               :mod (vv8 / dan)
+               :mod (vv9 / tidak)
+               :ARG1 (vv10 / korban)
+               :ARG1 (vv11 / tumpang)))
+
+# ::snt Penerbangan QZ 535 itu dibatalkan dan penumpang dijadwalkan terbang kembali dengan penerbangan selanjutnya ke Denpasar.
+
+(vv1 / batal
+     :ARG1 (vv2 / terbang
+                :ARG1 (vv4 / 535)
+                :mod (vv5 / jadwal
+                          :ARG1 (vv3 / qz
+                                     :mod (vv6 / dan))
+                          :mod (vv8 / kembali)
+                          :ARG1 (vv9 / lanjut))
+                :mod (vv10 / denpasar)
+                :mod vv11
+                :mod vv12)
+     :ARG1 (vv7 / tumpang))
+
+# ::snt Kepada stasiun TV Channel Nine, sejumlah penumpang mengatakan mereka telah mengirim pesan teks kepada kerabat mereka karena khawatir mereka akan meninggal dunia.
+
+(vv1 / kata
+     :location (vv2 / stasiun
+                    :mod (vv3 / tv
+                              :name (vv4 / channel)))
+     :ARG0 (vv5 / nine)
+     :ARG0 (vv6 / tumpang)
+     :ARG1 (vv7 / kirim
+                :ARG0 (vv8 / mereka)
+                :mod (vv10 / pesan
+                           :mod (vv12 / kerabat))
+                :ARG1 (vv11 / teks)
+                :ARG1 (vv13 / tinggal
+                            :ARG0 (vv9 / telah)
+                            :mod (vv15 / akan)
+                            :mod (vv16 / dunia)
+                            :ARG1 vv17)
+                :ARG1 (vv14 / khawatir)))
+
+# ::snt Para teknisi minggu (15/10/2017) malam ini melakukan pemeriksaan terhadap pesawat terbang tersebut.
+
+(vv1 / laku
+     :ARG0 (vv2 / teknisi
+                :mod (vv3 / minggu
+                          :mod (vv4 / 15102017)))
+     :ARG0 (vv5 / malam)
+     :ARG1 (vv6 / periksa
+                :mod (vv7 / pesawat
+                          :mod (vv8 / terbang))))
+

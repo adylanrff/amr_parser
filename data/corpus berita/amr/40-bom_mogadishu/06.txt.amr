@@ -1,0 +1,43 @@
+# ::snt Sedikitnya 263 orang tewas akibat ledakan bom kembar di jantung ibu kota Somalia, Mogadishu, menurut para dokter, Senin (16/10), mengukuhkan serangan itu menjadi serangan paling mematikan sejak pemberontakan militan dimulai pada 2007.
+
+# ::snt Pejabat lokal menyatakan korban tewas lebih dari 200 orang pada Ahad (15/10) tanpa memberikan jumlah yang pasti menyusul ledakan yang menghantam dua persimpangan yang sibuk pada Sabtu.
+
+(vv1 / nyata
+     :ARG0 (vv2 / jabat
+                :mod (vv3 / lokal))
+     :ARG1 (vv4 / korban
+                :mod (vv5 / tewas
+                          :ARG1 (vv6 / orang
+                                     :mod (vv7 / lebih)
+                                     :mod (vv8 / 200))
+                          :ARG1 (vv9 / ahad
+                                     :mod (vv10 / 1510))))
+     :ARG1 (vv11 / beri
+                 :ARG1 (vv12 / jumlah
+                             :mod (vv13 / pasti)
+                             :mod (vv14 / susul
+                                        :ARG1 (vv15 / ledak))
+                             :mod (vv16 / hantam
+                                        :ARG1 (vv17 / simpang
+                                                    :mod (vv18 / dua)
+                                                    :mod (vv19 / sibuk
+                                                               :time (vv20 / sabtu)))))))
+
+# ::snt Delapan dari korban luka serius diangkut dengan ambulans ke bandara pada Senin pagi untuk diterbangkan ke Turki demi mendapatkan perawatan lebih lanjut.
+
+(vv1 / angkut
+     :ARG1 (vv2 / delapan
+                :mod (vv3 / korban
+                          :mod (vv4 / luka
+                                    :mod (vv5 / serius))))
+     :ARG1 (vv6 / ambulans
+                :mod (vv7 / bandara))
+     :ARG1 (vv8 / senin
+                :mod (vv9 / pagi))
+     :ARG1 (vv10 / terbang
+                 :ARG1 (vv11 / turki)
+                 :mod (vv12 / dapat
+                            :ARG1 (vv13 / awat
+                                        :mod (vv14 / lanjut
+                                                   :mod (vv15 / lebih))))))
+

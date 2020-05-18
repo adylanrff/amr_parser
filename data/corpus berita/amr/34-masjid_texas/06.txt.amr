@@ -1,0 +1,247 @@
+# ::snt Upaya Donald Trump dalam 'membangun tembok' untuk warga Amerika sepertinya berdampak buruk.
+
+(vv1 / dampak
+     :ARG0 (vv2 / upaya
+                :name (vv3 / donald
+                           :name (vv4 / trump))
+                :mod (vv5 / bangun
+                          :ARG1 (vv6 / tembok
+                                     :mod (vv7 / warga
+                                               :mod (vv8 / amerika)))))
+     :mod (vv9 / seperti)
+     :mod (vv10 / buruk))
+
+# ::snt Dampak buruk itu segera muncul beberapa saat setelah Trump menandatangai peraturan imigrasi barunya.
+
+# ::snt Dalam perintahnya soal pembatasan imigran yang masuk ke Amerika Serikat, Trump memberi pembatasan pada 7 negara Muslim.
+
+(vv1 / beri
+     :ARG1 (vv2 / perintah
+                :mod (vv3 / soal))
+     :ARG0 (vv4 / batas
+                :mod (vv6 / masuk
+                          :ARG1 (vv8 / serikat))
+                :mod (vv7 / amerika
+                          :mod (vv9 / trump)
+                          :name (vv10 / negara
+                                      :mod (vv12 / muslim)
+                                      :mod vv13))
+                :mod (vv11 / 7))
+     :ARG1 (vv5 / imigran))
+
+# ::snt Amerika tidak adakan mengeluarkan visa untuk Iran, Irak, Libya, Somalia, Sudan, Syria atau Yaman selama minimal 30 hari.
+
+(vv1 / adakan
+     :ARG0 (vv2 / amerika)
+     :mod (vv3 / tidak)
+     :mod (vv4 / keluar
+               :ARG1 (vv5 / visa)
+               :location (vv6 / iran
+                              :mod (vv7 / irak)
+                              :name (vv8 / libya
+                                         :name (vv9 / somalia
+                                                    :name (vv10 / sudan
+                                                                :mod (vv11 / syria))))
+                              :mod (vv12 / yaman
+                                         :mod (vv13 / atau)))
+               :ARG1 (vv14 / minimal))
+     :time (vv15 / hari
+                 :mod (vv16 / 30)))
+
+# ::snt Tidak hanya itu, pengungsi dari Suriah juga dilarang masuk ke Amerika tanpa batas waktu.
+
+(vv3 / larang
+     :mod (vv1 / hanya
+               :mod (vv2 / tidak))
+     :ARG1 (vv4 / ungsi
+                :mod (vv5 / suriah))
+     :mod (vv6 / juga)
+     :ARG1 (vv7 / masuk
+                :ARG1 (vv8 / amerika)
+                :location (vv9 / batas
+                               :mod (vv10 / waktu))))
+
+# ::snt Trump mengklaim bahwa aturan ini dirancang untuk 'melarang teroris radikal memasuki negaranya'.
+
+(vv1 / klaim
+     :ARG0 (vv2 / trump)
+     :mod (vv3 / rancang
+               :ARG1 (vv4 / atur)
+               :ARG1 (vv5 / larang
+                          :ARG1 (vv6 / teroris
+                                     :mod (vv7 / radikal)
+                                     :mod (vv8 / pasuk
+                                               :ARG1 (vv9 / negara))))))
+
+# ::snt Namun baru beberapa saat perintah itu dikeluarkan, masjid di Texas terbakar.
+
+(vv1 / keluar
+     :mod (vv2 / namun)
+     :ARG1 (vv3 / saat
+                :mod (vv4 / baru))
+     :ARG1 (vv5 / perintah)
+     :ARG1 (vv6 / masjid
+                :mod (vv7 / texas))
+     :ARG1 (vv8 / bakar))
+
+# ::snt Kebakaran itu diketahui oleh seorang pekerja di sebuah toko di seberang jalan.
+
+(vv1 / tahu
+     :ARG1 (vv2 / bakar)
+     :ARG1 (vv3 / kerja
+                :mod (vv4 / toko
+                          :mod (vv5 / seberang
+                                    :mod (vv6 / jalan)))))
+
+# ::snt Dia lantas melaporkan bahwa melihat asap dan api mengepul dari Islamic Center of Victoria di sekitar pukul 2:00.
+
+(vv1 / lapor
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / lantas)
+     :mod (vv4 / lihat
+               :ARG1 (vv5 / asap
+                          :mod (vv6 / api
+                                    :mod (vv7 / dan)))
+               :mod (vv8 / kepul
+                         :ARG1 (vv9 / islamic
+                                    :name (vv10 / center
+                                                :mod (vv11 / of
+                                                           :mod (vv12 / victoria))))
+                         :time (vv13 / pukul
+                                     :mod (vv14 / 200)))))
+
+# ::snt Dia kemudian memanggil pemadam kebakaran untuk memadamkan api dari masjid tersebut.
+
+(vv1 / panggil
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / madam
+                :mod (vv6 / api)
+                :ARG1 (vv7 / masjid)
+                :location vv8)
+     :ARG1 (vv5 / bakar))
+
+# ::snt Shahid Hashmi, Islamic center's president mengatakan: "Ini menyedihkan untuk berdiri di sana dan menonton (masjid itu) runtuh ke bawah, dan api itu begitu besar".
+
+(vv1 / kata
+     :ARG0 (vv2 / shahid
+                :name (vv3 / hashmi
+                           :name (vv4 / islamic
+                                      :mod (vv5 / centers
+                                                :mod (vv6 / president)))))
+     :ARG1 (vv7 / sedih
+                :mod (vv8 / diri
+                          :location (vv9 / sana)
+                          :mod (vv10 / tonton
+                                     :mod (vv11 / dan)
+                                     :ARG1 (vv13 / runtuh
+                                                 :location (vv15 / api
+                                                                 :mod (vv12 / masjid)
+                                                                 :mod (vv17 / begitu)))
+                                     :mod (vv14 / bawah
+                                                :mod (vv16 / besar
+                                                           :mod vv18))))))
+
+# ::snt Sementara itu Victoria Fire Marshal, Tom Legler, meminta bantuan dari Texas Fire Marshal's Office and federal Bureau of Alcohol, Tobacco, Firearms and Explosives untuk menyelidikinya.
+
+# ::snt Tom Legler meminta mereka untuk menentukan apa yang jadi menyebabkan kobaran api di masjid tersebut.
+
+(vv1 / minta
+     :ARG0 (vv2 / tom
+                :name (vv3 / legler))
+     :ARG0 (vv4 / mereka)
+     :ARG1 (vv5 / tentu
+                :ARG0 (vv6 / apa
+                           :mod (vv7 / sebab
+                                     :mod (vv8 / jadi)
+                                     :ARG1 (vv9 / kobar
+                                                :mod (vv10 / api)
+                                                :mod (vv11 / masjid))))))
+
+# ::snt Hashmi mengatakan pihak berwenang telah mengatakan kepadanya itu terlalu dini untuk berspekulasi.
+
+(vv1 / kata
+     :ARG0 (vv2 / hashmi)
+     :ARG1 (vv3 / pihak
+                :mod (vv4 / wenang))
+     :mod (vv5 / telah)
+     :ARG1 (vv6 / kepada)
+     :ARG1 (vv7 / dini
+                :mod (vv8 / terlalu))
+     :ARG1 (vv9 / spekulasi))
+
+# ::snt Apakah masjid itu terbakar karena kecelakaan atau dibakar masih belum dapat dipastikan.
+
+(vv1 / bakar
+     :mod (vv2 / apakah)
+     :ARG1 (vv3 / masjid)
+     :mod (vv4 / celaka)
+     :mod (vv5 / atau)
+     :mod (vv6 / dapat
+               :mod (vv7 / masih)
+               :mod (vv8 / belum))
+     :mod (vv9 / pasti))
+
+# ::snt Sebuah acara penggalangan dana telah dibentuk untuk masjid tersebut.
+
+(vv1 / bentuk
+     :ARG1 (vv2 / acara
+                :mod (vv3 / galang
+                          :mod (vv4 / dana)))
+     :mod (vv5 / telah)
+     :location (vv6 / masjid))
+
+# ::snt "Tidak ada apa pun sekarang," kata direktur pusat.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / apa
+                :mod (vv5 / kata
+                          :ARG1 (vv6 / direktur
+                                     :mod (vv7 / pusat))))
+     :mod (vv4 / sekarang))
+
+# ::snt "Kami tidak memiliki timah atau hal seperti apa yang dapat memicu api dan apa yang terjadi."
+
+(vv1 / milik
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / tidak)
+     :ARG1 (vv4 / timah
+                :mod (vv5 / hal
+                          :mod (vv6 / atau))
+                :mod (vv7 / apa
+                          :mod (vv8 / picu
+                                    :mod (vv10 / api)
+                                    :ARG1 (vv11 / dan))
+                          :mod (vv9 / dapat)
+                          :mod (vv12 / jadi)
+                          :mod vv13)))
+
+# ::snt Imam masjid tersebut, terjaga di pagi hari dan diperiksa pengawasan online masjid dan menemukan tidak ada alarm aktif dan pintu dibuka, kata Hashmi.
+
+# ::snt Tapi pada tanggal 21 Januari 2017 lalu, seseorang masuk dan mencuri beberapa elektronik, termasuk laptop.
+
+(vv1 / masuk
+     :mod (vv2 / tapi)
+     :ARG1 (vv3 / tanggal
+                :mod (vv4 / januari
+                          :mod (vv5 / 21)
+                          :mod (vv6 / 2017)))
+     :mod (vv7 / lalu)
+     :ARG0 (vv8 / orang)
+     :mod (vv9 / curi
+               :mod (vv10 / dan)
+               :ARG1 (vv11 / elektronik))
+     :ARG1 (vv12 / laptop))
+
+# ::snt Kejadian ini jelas membuat cemas bagi umat muslim di Amerika Serikat.
+
+(vv1 / buat
+     :ARG0 (vv2 / jadi)
+     :mod (vv3 / jelas)
+     :ARG1 (vv4 / cemas
+                :mod (vv5 / umat
+                          :mod (vv6 / muslim)
+                          :mod (vv7 / amerika
+                                    :mod (vv8 / serikat)))))
+

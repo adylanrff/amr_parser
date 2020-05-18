@@ -1,0 +1,19 @@
+# ::snt "Itu bom Molotov," ujar juru bicara pemerintah Myanmar, Zaw Htay seperti dikutip kantor berita AFP, Kamis (1/2/2018).
+
+(vv1 / ujar
+     :ARG0 (vv2 / itu)
+     :ARG0 (vv3 / bom
+                :mod (vv4 / molotov))
+     :ARG1 (vv5 / juru
+                :mod (vv6 / bicara
+                          :ARG1 (vv7 / perintah
+                                     :mod (vv8 / myanmar
+                                               :name (vv9 / zaw
+                                                          :name (vv10 / htay))))))
+     :mod (vv11 / kutip
+                :ARG1 (vv12 / kantor
+                            :mod (vv13 / berita
+                                       :mod (vv14 / afp
+                                                  :mod (vv15 / kamis)
+                                                  :mod (vv16 / 122018))))))
+

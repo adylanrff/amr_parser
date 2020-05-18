@@ -1,0 +1,128 @@
+# ::snt Polisi yang menyelidiki kematian bintang Hollywood, Robin Williams, mengatakan aktor kenamaan tersebut gantung diri di rumahnya di San Francisco, Amerika Serikat.
+
+(vv1 / kata
+     :ARG0 (vv2 / polisi
+                :mod (vv3 / selidik
+                          :ARG1 (vv4 / mati
+                                     :mod (vv5 / bintang
+                                               :mod (vv6 / hollywood
+                                                         :name (vv7 / robin
+                                                                    :name (vv8 / williams)))))))
+     :ARG1 (vv9 / aktor
+                :mod (vv10 / nama))
+     :ARG1 (vv11 / gantung
+                 :ARG1 (vv12 / diri
+                             :mod (vv13 / rumah
+                                        :mod (vv14 / san
+                                                   :name (vv15 / francisco
+                                                               :name (vv16 / amerika
+                                                                           :mod (vv17 / serikat))))))))
+
+# ::snt Pejabat kepolisian, Keith Boyd, mengatakan Williams ditemukan oleh asisten pribadinya di kamar tidur, hari Senin siang (11/08).
+
+(vv1 / kata
+     :ARG0 (vv2 / jabat
+                :mod (vv3 / polisi
+                          :mod (vv4 / keith
+                                    :name (vv5 / boyd))))
+     :ARG1 (vv6 / temu
+                :ARG1 (vv7 / williams)
+                :location (vv8 / asisten
+                               :mod (vv9 / pribadi)
+                               :mod (vv10 / kamar
+                                          :mod (vv11 / tidur)
+                                          :mod (vv12 / hari
+                                                     :mod (vv13 / senin)
+                                                     :mod (vv14 / siang
+                                                                :mod (vv15 / 1108)))))))
+
+# ::snt Menurut Boyd, asisten tersebut khawatir karena ketika pintu kamar diketuk tidak ada respons dari dalam kamar.
+
+# ::snt Ketika masuk ke kamar, asisten ini menemukan Williams sudah meninggal.
+
+(vv1 / temu
+     :mod (vv2 / masuk
+               :location (vv3 / kamar
+                              :mod (vv4 / asisten)))
+     :ARG1 (vv5 / williams)
+     :ARG1 (vv6 / tinggal
+                :mod (vv7 / sudah)))
+
+# ::snt Visum yang dilakukan pada Selasa pagi menunjukkan ia kehabisan nafas akibat tercekik.
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / visum
+                :mod (vv3 / laku
+                          :time (vv4 / selasa
+                                     :mod (vv5 / pagi))))
+     :ARG1 (vv6 / habis
+                :ARG0 (vv7 / ia)
+                :ARG1 (vv8 / nafas
+                           :mod (vv9 / akibat)))
+     :mod (vv10 / cekik))
+
+# ::snt Boyd mengatakan uji toksikologi akan dilakukan dan penyelidikan atas kasus kematian Williams masih dilakukan untuk memastikan sebab kematian aktor berusia 62 tahun tersebut.
+
+(vv1 / kata
+     :ARG0 (vv2 / boyd)
+     :ARG1 (vv3 / uji
+                :mod (vv4 / toksikologi))
+     :ARG1 (vv5 / laku
+                :mod (vv7 / dan)
+                :ARG1 (vv8 / lidi
+                           :mod (vv10 / mati
+                                      :name (vv13 / pasti
+                                                  :ARG1 (vv12 / masih))
+                                      :mod (vv16 / tahun
+                                                 :mod vv19)
+                                      :mod (vv17 / 62)))
+                :ARG1 (vv9 / kasus
+                           :mod (vv11 / williams))
+                :mod (vv14 / aktor)
+                :ARG1 (vv15 / usia
+                            :ARG1 vv18))
+     :ARG1 (vv6 / akan))
+
+# ::snt Robin Williams berjuang melawan kecanduan obat-obatan terlarang selama bertahun-tahun dan dalam beberapa waktu terakhir menjalani perawatan akibat depresi.
+
+(vv1 / juang
+     :ARG0 (vv2 / robin
+                :name (vv3 / williams))
+     :ARG1 (vv4 / lawan
+                :ARG1 (vv5 / candu
+                           :mod (vv6 / obatobatan)
+                           :mod (vv7 / larang
+                                     :ARG1 (vv8 / bertahuntahun))))
+     :mod (vv9 / jalan
+               :mod (vv10 / dan)
+               :ARG1 (vv11 / waktu
+                           :mod (vv12 / akhir))
+               :ARG1 (vv13 / awat
+                           :mod (vv14 / akibat
+                                      :mod (vv15 / depresi)))))
+
+# ::snt Presiden Barack Obama dan insan perfilman memberikan penghormatan kepada Williams.
+
+(vv1 / beri
+     :ARG0 (vv2 / presiden
+                :name (vv3 / barack
+                           :name (vv4 / obama))
+                :mod (vv5 / insan
+                          :mod (vv6 / dan)
+                          :mod (vv7 / film)))
+     :ARG1 (vv8 / hormat)
+     :ARG1 (vv9 / williams))
+
+# ::snt Williams dikenal antara lain berkat film Good Morning Vietnam dan meraih Oscar melalui Good Will Hunting.
+
+# ::snt Istri Williams, Susan Schneider, mengatakan sangat terpukul dengan kematiannya.
+
+(vv1 / kata
+     :ARG0 (vv2 / istri
+                :name (vv3 / williams
+                           :mod (vv4 / sus
+                                     :name (vv5 / schneider))))
+     :time (vv6 / pukul
+                :mod (vv7 / sangat))
+     :ARG1 (vv8 / mati))
+

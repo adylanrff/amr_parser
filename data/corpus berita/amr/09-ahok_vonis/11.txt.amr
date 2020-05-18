@@ -1,0 +1,49 @@
+# ::snt Sebelumnya anggota Majelis Hakim menyebut ada hal yang memberatkan Ahok yakni, terdakwa tidak merasa bersalah, dan pernyataan Ahok  menimbulkan keresahan masyarakat, dan memecah kerukunan umat beragama dan golongan.
+
+(vv1 / sebut
+     :ARG0 (vv2 / anggota
+                :mod (vv3 / majelis
+                          :name (vv4 / hakim)))
+     :ARG1 (vv5 / ada
+                :ARG1 (vv6 / hal
+                           :mod (vv7 / berat
+                                     :ARG0 (vv8 / ahok)
+                                     :mod (vv10 / rasa
+                                                :mod (vv12 / salah)
+                                                :mod (vv13 / timbul
+                                                           :mod (vv15 / nyata
+                                                                      :name (vv9 / dakwa))
+                                                           :ARG0 (vv18 / pecah
+                                                                       :mod (vv16 / resah
+                                                                                  :mod (vv20 / umat
+                                                                                             :mod vv24))
+                                                                       :ARG1 (vv22 / golong
+                                                                                   :mod (vv17 / masyarakat)))
+                                                           :ARG1 (vv19 / rukun
+                                                                       :mod vv23
+                                                                       :mod vv25)
+                                                           :mod (vv21 / agama)))
+                                     :ARG1 (vv11 / tidak))))
+     :mod (vv14 / dan))
+
+# ::snt Vonis Majelis hakim ini lebih berat dari tuntutan JPU yang hanya menuntut Ahok hukuman 1 tahun penjara dengan masa percobaan dua tahun.
+
+(vv1 / berat
+     :ARG0 (vv2 / vonis
+                :mod (vv3 / majelis
+                          :mod (vv4 / hakim)))
+     :mod (vv5 / lebih)
+     :mod (vv6 / tuntut
+               :mod (vv7 / jpu)
+               :name (vv8 / hanya)
+               :mod (vv9 / ahok
+                         :mod (vv11 / tahun
+                                    :mod (vv14 / masa
+                                               :mod (vv13 / penjara)
+                                               :mod vv17)
+                                    :mod (vv15 / coba)
+                                    :mod vv18)
+                         :mod (vv12 / 1))
+               :ARG1 (vv10 / hukum)
+               :ARG1 (vv16 / dua)))
+

@@ -1,0 +1,425 @@
+# ::snt Pagelaran Oscar, penghargaan film yang paling ditunggu-tunggu, berubah menjadi kekacauan ketika film 'La La Land' keliru disebut sebagai pemenang kategori Film Terbaik (Best Picture) padahal pemenang sebenarnya adalah film 'Moonlight'.
+
+# ::snt Kekagetan-pun menyeruak di Theatre Dolby karena kesalahan besar baru saja terjadi.
+
+(vv1 / seruak
+     :location (vv2 / theatre
+                    :name (vv3 / dolby))
+     :mod (vv4 / salah
+               :mod (vv5 / besar)
+               :mod (vv6 / baru)
+               :mod (vv7 / saja))
+     :mod (vv8 / jadi))
+
+# ::snt Presenter Warren Beatty mencoba untuk menjelaskan bahwa ia dan Faye Dunaway mengumumkan pemenang yang salah karena amplop yang mereka terima salah menyebutkan nama pemenang aktris terbaik, Emma Stone, dan film berjudul 'La La Land'.
+
+(vv1 / coba
+     :ARG0 (vv2 / presenter
+                :name (vv3 / warren
+                           :name (vv4 / beatty)))
+     :ARG1 (vv5 / jelas
+                :mod (vv6 / umum
+                          :ARG0 (vv7 / ia
+                                     :mod (vv8 / faye
+                                               :mod (vv9 / dan)
+                                               :name (vv11 / menang
+                                                           :mod (vv20 / emma
+                                                                      :name (vv23 / judul)
+                                                                      :mod (vv24 / land)))))
+                          :ARG1 (vv12 / sebut
+                                      :ARG0 (vv15 / mereka)
+                                      :ARG1 (vv19 / baik))
+                          :mod (vv14 / terima
+                                     :ARG0 (vv17 / nama
+                                                 :mod (vv13 / amplop
+                                                            :mod (vv16 / salah)))
+                                     :ARG1 (vv18 / aktris
+                                                 :mod (vv21 / stone)
+                                                 :name (vv22 / film
+                                                             :mod (vv10 / dunaway)
+                                                             :mod vv25
+                                                             :mod vv26))))))
+
+# ::snt Pembawa acara Jimmy Kimmel kemudian maju untuk menginformasikan para aktor bahwa film 'Moonlight' memang menjadi pemenang, sambil menunjukkan amplop sebagai bukti.
+
+(vv1 / maju
+     :ARG0 (vv2 / bawa
+                :ARG1 (vv3 / acara)
+                :name (vv4 / jimmy
+                           :name (vv5 / kimmel)))
+     :mod (vv6 / kemudian)
+     :ARG1 (vv7 / informasi
+                :ARG1 (vv8 / aktor)
+                :mod (vv9 / jadi
+                          :ARG0 (vv10 / film
+                                      :mod (vv11 / moonlight))
+                          :mod (vv12 / memang)
+                          :ARG1 (vv13 / menang)
+                          :mod (vv14 / tunjuk
+                                     :mod (vv15 / sambil)
+                                     :ARG1 (vv16 / amplop)
+                                     :ARG1 (vv17 / bukti)))))
+
+# ::snt Produser La La Land, Jordan Horwitz, berulang kali mengatakan "ini bukan lelucon" sebelum memberikan piala kepada produser 'Moonlight', dan mengatakan bahwa mereka pantas menang.
+
+(vv1 / kata
+     :ARG0 (vv2 / produser
+                :name (vv4 / jordan
+                           :name (vv6 / ulang
+                                      :ARG1 (vv8 / ini)))
+                :mod (vv14 / dan))
+     :mod (vv7 / kali)
+     :ARG1 (vv9 / lelucon
+                :mod (vv11 / beri
+                           :ARG1 (vv13 / moonlight)))
+     :ARG1 (vv10 / bukan)
+     :ARG1 (vv12 / piala
+                 :mod (vv3 / land
+                           :name (vv5 / horwitz)))
+     :mod (vv15 / menang
+                :ARG0 (vv17 / pantas)
+                :mod vv18)
+     :ARG1 (vv16 / mereka))
+
+# ::snt "Ada kalanya saya berpikir film ini tak mungkin," kata sutradara Moonlight, Barry Jenkins, kepada penonton yang tertegun.
+
+(vv1 / ada
+     :mod (vv2 / kala)
+     :mod (vv3 / pikir
+               :ARG0 (vv4 / saya)
+               :ARG1 (vv5 / film))
+     :mod (vv6 / kata
+               :mod (vv7 / tak)
+               :mod (vv8 / mungkin)
+               :ARG1 (vv9 / sutradara
+                          :name (vv10 / moonlight
+                                      :name (vv11 / barry
+                                                  :name (vv12 / jenkins))))
+               :mod (vv13 / tonton
+                          :mod (vv14 / tegun))))
+
+# ::snt Kimmel mencoba untuk memfokuskan perhatian kembali kepada penonton, dengan bercanda bahwa ia tahu dirinya akan "mengacaukan acara ini".
+
+(vv1 / coba
+     :ARG0 (vv2 / kimmel)
+     :mod (vv3 / fokus
+               :ARG1 (vv4 / perhati)
+               :mod (vv5 / kembali)
+               :ARG1 (vv6 / tonton)
+               :ARG1 (vv7 / canda
+                          :mod (vv8 / tahu
+                                    :ARG0 (vv9 / ia)
+                                    :ARG1 (vv10 / diri)
+                                    :mod (vv11 / acau
+                                               :mod (vv12 / akan)
+                                               :ARG1 (vv13 / acara))))))
+
+# ::snt Hingga kekeliruan di puncak acara, penghargaan Oscar diwarnai dengan sindiran terhadap Presiden AS Donald Trump dan argumen tentang inklusivitas.
+
+(vv1 / warna
+     :ARG1 (vv2 / keliru
+                :mod (vv3 / puncak
+                          :mod (vv4 / acara
+                                    :mod (vv5 / harga
+                                              :mod (vv6 / oscar)))))
+     :location (vv7 / sindir
+                    :mod (vv8 / presiden
+                              :name (vv9 / as
+                                         :name (vv10 / donald
+                                                     :name (vv11 / trump)))
+                              :mod (vv12 / argumen
+                                         :mod (vv13 / dan)
+                                         :mod (vv14 / inklusivitas)))))
+
+# ::snt Sutradara La La Land, Damien Chazell yang baru berusia 32 tahun, menjadi sutradara termuda yang memenangi Oscar.
+
+(vv1 / jadi
+     :ARG0 (vv2 / sutradara
+                :name (vv4 / land
+                           :name (vv6 / chazell))
+                :name (vv5 / damien
+                           :name (vv7 / usia
+                                      :mod (vv9 / tahun
+                                                :mod (vv11 / muda))
+                                      :ARG1 (vv10 / 32)))
+                :mod (vv8 / baru)
+                :mod (vv12 / tang
+                           :ARG0 vv14)
+                :mod (vv13 / oscar))
+     :ARG1 (vv3 / la))
+
+# ::snt Aktris utama La La Land, yakni Emma Stone, dinobatkan sebagai aktris terbaik, mengalahkan Isabelle Huppert (Elle), Ruth Negga (Loving), Natalie Portman (Jackie), dan Meryl Streep (Florence Foster Jenkins).
+
+(vv1 / nobat
+     :ARG1 (vv2 / aktris
+                :mod (vv4 / la
+                          :name (vv6 / emma
+                                     :name (vv9 / kalah
+                                                :ARG0 (vv12 / elle
+                                                            :name (vv15 / loving
+                                                                        :name (vv18 / jackie)))))
+                          :name (vv7 / stone))
+                :name (vv5 / land)
+                :mod (vv8 / baik)
+                :mod (vv10 / isabelle
+                           :name (vv13 / ruth
+                                       :name (vv16 / natalie
+                                                   :name (vv19 / meryl
+                                                               :mod (vv22 / florence
+                                                                          :name vv25
+                                                                          :name vv26)
+                                                               :name (vv23 / foster))))
+                           :mod (vv21 / streep
+                                      :name (vv24 / jenkins)))
+                :mod (vv11 / huppert
+                           :name (vv14 / negga
+                                       :name (vv17 / portman
+                                                   :name (vv20 / dan)))))
+     :ARG1 (vv3 / utama))
+
+# ::snt Ia sempat tertawa saat memeringatkan para pemain La La Land lainnya, dan teman-temannya: "Saya akan memeluk kalian erat ketika perasaan ini merasuki tubuh saya."
+
+(vv1 / tertawa
+     :ARG0 (vv2 / ia)
+     :mod (vv3 / sempat)
+     :mod (vv4 / ingat
+               :ARG1 (vv5 / saat)
+               :ARG1 (vv6 / main
+                          :mod (vv7 / la
+                                    :name (vv8 / land)
+                                    :name (vv9 / lain))
+                          :mod (vv10 / peluk
+                                     :mod (vv12 / temantemannya)
+                                     :ARG0 (vv13 / saya)
+                                     :ARG0 (vv14 / akan)
+                                     :mod (vv15 / kalian)
+                                     :ARG0 (vv16 / erat)
+                                     :mod (vv17 / rasuk
+                                                :ARG0 (vv19 / tubuh)
+                                                :ARG1 vv20)
+                                     :mod (vv18 / asa))))
+     :mod (vv11 / dan))
+
+# ::snt Terlepas dari munculnya tuduhan pelecehan seksual, Casey Affleck menerima penghargaan aktor terbaik untuk film Manchester by the Sea.
+
+(vv1 / terima
+     :mod (vv2 / lepas
+               :ARG1 (vv3 / muncul
+                          :mod (vv4 / tuduh
+                                    :mod (vv5 / leceh
+                                              :mod (vv6 / seksual)))))
+     :ARG0 (vv7 / casey
+                :name (vv8 / affleck))
+     :ARG1 (vv9 / harga
+                :mod (vv10 / aktor
+                           :mod (vv11 / baik))
+                :mod (vv12 / film
+                           :mod (vv13 / manchester)
+                           :mod (vv14 / by
+                                      :mod (vv15 / sea)))))
+
+# ::snt Davis mendapat piala aktris pendukung terbaik untuk film 'Fence', kisah seorang ayah Afrika-Amerika yang berjuang dengan hubungan ras di Amerika Serikat ketika mencoba untuk membesarkan keluarganya pada era 1950-an.
+
+(vv1 / dapat
+     :ARG0 (vv2 / davis)
+     :ARG1 (vv3 / piala
+                :mod (vv4 / aktris
+                          :mod (vv5 / dukung
+                                    :mod (vv6 / baik)))
+                :mod (vv7 / film
+                          :mod (vv8 / fence)
+                          :mod (vv9 / kisah)
+                          :mod (vv10 / ayah
+                                     :mod (vv11 / afrikaamerika)
+                                     :mod (vv12 / juang
+                                                :ARG1 (vv13 / hubung
+                                                            :mod (vv14 / ras)
+                                                            :mod (vv15 / amerika
+                                                                       :mod (vv16 / serikat)))
+                                                :mod (vv17 / coba
+                                                           :mod (vv18 / besar
+                                                                      :ARG1 (vv19 / keluarga)
+                                                                      :location (vv20 / era
+                                                                                      :mod (vv21 / 1950an)))))))))
+
+# ::snt David berbicara tentang kebanggannya menjadi bagian dari industri yang menggali dan mengagungkan cerita yang luar biasa dari orang-orang biasa di masa lalu.
+
+# ::snt "Saya menjadi seorang seniman dan terima kasih Tuhan saya melakukannya karena kami adalah satu-satunya profesi yang merayakan apa artinya menjalani hidup," sambungnya.
+
+(vv1 / jadi
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv4 / terima
+                :mod (vv6 / kasih
+                          :mod (vv8 / laku
+                                    :ARG0 (vv3 / seniman))
+                          :mod (vv9 / satusatunya
+                                    :ARG0 (vv11 / adalah)
+                                    :mod (vv12 / profesi
+                                               :mod (vv14 / apa
+                                                          :mod (vv16 / jalan
+                                                                     :ARG1 (vv18 / sambung))))
+                                    :mod (vv13 / raya
+                                               :ARG1 (vv15 / arti
+                                                           :mod (vv17 / hidup
+                                                                      :mod vv19)))))
+                :ARG1 (vv7 / tuhan))
+     :mod (vv5 / dan)
+     :mod (vv10 / kami))
+
+# ::snt Ada beberapa kejutan di saat Ali memenangi aktor pendukung terbaik untuk film Moonlight, di mana ia memerankan pengedar narkoba Miami yang mendidik seorang anak muda yang sedang tergoda dan terintimidasi.
+
+(vv1 / ada
+     :ARG1 (vv2 / kejut)
+     :ARG1 (vv3 / saat)
+     :mod (vv4 / tang
+               :ARG0 (vv5 / ali)
+               :ARG1 (vv6 / aktor
+                          :mod (vv7 / dukung
+                                    :mod (vv8 / baik))
+                          :mod (vv9 / film
+                                    :mod (vv10 / moonlight))))
+     :mod (vv11 / peran
+                :location (vv12 / mana)
+                :ARG0 (vv13 / ia)
+                :ARG1 (vv14 / edar
+                            :mod (vv15 / narkoba
+                                       :mod (vv16 / miami))
+                            :mod (vv17 / didik
+                                       :ARG0 (vv18 / anak
+                                                   :mod (vv19 / muda)
+                                                   :mod (vv20 / goda
+                                                              :mod (vv21 / sedang)
+                                                              :mod (vv22 / intimidasi
+                                                                         :mod (vv23 / dan))))))))
+
+# ::snt Pada penghargaan Screen Actors Guild Awards (SAG), Ali berbicara tentang pengalamannya menjadi Muslim, tapi di malam Oscar ia terus berterima kasih kepada guru-gurunya, bersama dengan para pemain film lainnya dan sang istri, yang baru melahirkan seorang anak perempuan empat hari lalu.
+
+(vv1 / bicara
+     :location (vv2 / harga
+                    :name (vv3 / screen
+                               :name (vv4 / actors
+                                          :name (vv5 / guild
+                                                     :name (vv6 / awards
+                                                                :name (vv7 / sag
+                                                                           :name (vv8 / ali)))))))
+     :location (vv9 / alam
+                    :mod (vv10 / jadi
+                               :ARG1 (vv11 / muslim)))
+     :ARG1 (vv12 / terima
+                 :mod (vv13 / tapi)
+                 :time (vv14 / malam
+                             :mod (vv15 / oscar))
+                 :ARG0 (vv16 / ia)
+                 :mod (vv17 / terus)
+                 :ARG1 (vv18 / kasih)
+                 :mod (vv19 / gurugurunya
+                            :mod (vv20 / main
+                                       :mod (vv21 / sama)
+                                       :mod (vv22 / film
+                                                  :mod (vv23 / lain))
+                                       :mod (vv24 / istri
+                                                  :mod (vv25 / dan)
+                                                  :mod (vv26 / lahir
+                                                             :mod (vv27 / baru)
+                                                             :ARG1 (vv28 / anak
+                                                                         :mod (vv29 / perempuan)
+                                                                         :mod (vv30 / hari
+                                                                                    :mod (vv31 / empat)
+                                                                                    :mod (vv32 / lalu)))))))))
+
+# ::snt Ali mengucapkan terima kasih kepada istrinya karena "menjadi pribadi yang tangguh di saat melalui proses persalinan".
+
+(vv1 / ucap
+     :ARG0 (vv2 / ali)
+     :ARG1 (vv3 / terima
+                :mod (vv4 / kasih)
+                :mod (vv5 / istri))
+     :mod (vv6 / jadi
+               :mod (vv7 / pribadi
+                         :mod (vv8 / tangguh
+                                   :mod (vv9 / saat)
+                                   :mod (vv10 / proses
+                                              :mod (vv11 / salin))))))
+
+# ::snt Momen ter-politik di malam Oscar datang dari seorang pemenang yang tak hadir dalam malam penghargaan ini.
+
+(vv1 / datang
+     :ARG0 (vv2 / momen
+                :mod (vv3 / politik
+                          :time (vv4 / malam
+                                     :mod (vv6 / menang
+                                               :mod (vv8 / tak))
+                                     :mod vv10)))
+     :ARG1 (vv7 / hadir
+                :time (vv5 / oscar)
+                :mod (vv9 / harga)))
+
+# ::snt Sutradara Iran, Asghar Farhadi, yang menerima piala Academy Award untuk film berbahasa asing terbaik 'The Salesman', memboikot upacara ini karena memprotes larangan imigrasi Presiden Trump yang kontroversial.
+
+(vv1 / boikot
+     :ARG0 (vv2 / sutradara
+                :name (vv3 / iran
+                           :name (vv4 / asghar
+                                      :name (vv5 / farhadi)))
+                :mod (vv6 / terima
+                          :ARG1 (vv7 / piala
+                                     :mod (vv8 / academy
+                                               :name (vv9 / award)))
+                          :ARG1 (vv10 / film
+                                      :mod (vv11 / bahasa
+                                                 :mod (vv12 / asing)
+                                                 :mod (vv13 / baik)
+                                                 :ARG1 (vv14 / the
+                                                             :name (vv15 / salesman))))))
+     :ARG1 (vv16 / upacara)
+     :mod (vv17 / protes
+                :ARG1 (vv18 / larang
+                            :mod (vv19 / imigrasi
+                                       :mod (vv20 / presiden
+                                                  :name (vv21 / trump)))
+                            :mod (vv22 / kontroversial))))
+
+# ::snt Ia mengutuk kebijakan "tak manusiawi" itu dalam sebuah pernyataan tegas yang dibacakan oleh Anousheh Ansari, seorang astronot perempuan Iran.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / bijak
+                :mod (vv4 / manusiawi
+                          :mod (vv5 / tak))
+                :mod (vv6 / nyata
+                          :mod (vv7 / tegas)
+                          :mod (vv8 / baca
+                                    :location (vv9 / anousheh
+                                                   :name (vv10 / ansari)
+                                                   :mod (vv11 / astronot
+                                                              :mod (vv12 / perempuan)
+                                                              :mod (vv13 / iran)))))))
+
+# ::snt Larangan imigrasi Trump yang kontroversial juga menjadi fokus dari protes di karpet merah Oscar, dengan sejumlah bintang menyematkan pita biru untuk menunjukkan dukungan kepada Serikat Kebebasan Sipil Amerika, yang berjuang untuk membatalkan larangan imigrasi tersebut.
+
+(vv1 / jadi
+     :ARG0 (vv2 / larang
+                :mod (vv4 / trump)
+                :mod (vv5 / kontroversial)
+                :mod (vv7 / fokus
+                          :mod (vv10 / merah)))
+     :mod (vv8 / protes
+               :mod (vv11 / oscar)
+               :mod (vv14 / pita
+                          :mod (vv17 / dukung
+                                     :mod (vv20 / sipil
+                                                :name (vv23 / batal
+                                                            :ARG1 (vv3 / imigrasi
+                                                                       :mod (vv6 / juga)))))))
+     :ARG1 (vv9 / karpet
+                :mod (vv12 / bintang)
+                :name (vv13 / semat
+                            :ARG1 (vv16 / tunjuk
+                                        :ARG1 (vv19 / bebas
+                                                    :mod (vv22 / juang
+                                                               :ARG1 vv25)))
+                            :mod (vv18 / serikat
+                                       :mod (vv21 / amerika)
+                                       :mod vv24)))
+     :mod (vv15 / biru))
+

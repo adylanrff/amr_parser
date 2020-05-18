@@ -1,0 +1,146 @@
+# ::snt "Menyatakan Jessica Kumala alias Jessica Kumala Wongso atau Jess telah terbukti sah dan meyakinkan bersalah melakukan pembunuhan berencana dan menjatuhkan pidana selama 20 tahun penjara dipotong masa tahanan dan menetapkan terdakwa tetap ditahan," ujar Ketua Majelis Hakim Kusworo di PN Jakarta Pusat, Kamis (27/10/2016).
+
+(vv1 / bukti
+     :mod (vv2 / nyata
+               :ARG0 (vv3 / jessica
+                          :name (vv5 / alias
+                                     :name (vv4 / mala
+                                                :name (vv8 / atau)))
+                          :name (vv6 / wongso)
+                          :mod (vv7 / jess
+                                    :mod (vv10 / sah))
+                          :mod (vv9 / telah)))
+     :mod (vv11 / yakin
+                :mod (vv14 / laku
+                           :ARG1 (vv19 / tahun
+                                       :mod (vv24 / tahan
+                                                  :mod (vv31 / kusworo)
+                                                  :ARG1 (vv33 / jakarta
+                                                              :mod vv40))
+                                       :mod (vv25 / tetap
+                                                  :mod (vv16 / rencana)
+                                                  :mod (vv29 / majelis
+                                                             :name (vv36 / 27102016))
+                                                  :ARG1 (vv32 / pn
+                                                              :name vv39)))
+                           :ARG1 (vv21 / penjara))
+                :mod (vv17 / jatuh
+                           :mod (vv15 / bunuh
+                                      :mod (vv20 / 20))
+                           :ARG1 (vv22 / potong
+                                       :ARG1 (vv27 / ketua
+                                                   :mod (vv34 / pusat
+                                                              :mod vv41)
+                                                   :mod (vv35 / kamis
+                                                              :mod vv42)
+                                                   :mod vv38)
+                                       :mod (vv30 / hakim
+                                                  :name vv37))
+                           :ARG1 (vv23 / masa
+                                       :mod (vv28 / ujar))
+                           :ARG1 (vv26 / dakwa))
+                :mod (vv18 / pidana))
+     :mod (vv12 / dan)
+     :mod (vv13 / salah))
+
+# ::snt "‎Bahwa terdakwa Jessica Kumala alias Jessica Kumala Wongso alias Jess, pada Rabu, 6 Januari 2016 bertempat di Restaurant Olivier, West Mall, Ground Floor, Grand Indonesia, Kebon Kacang, Tanah Abang, Jakata Pusat, dengan sengaja dan dengan rencana terlebih dahulu merampas nyawa orang lain," begitu bunyi surat dakwaan.
+
+(vv1 / dakwa
+     :ARG0 (vv2 / jessica
+                :name (vv4 / alias
+                           :name (vv3 / mala
+                                      :name (vv8 / januari
+                                                 :mod (vv12 / restaurant
+                                                            :name (vv16 / ground
+                                                                        :mod (vv20 / kebon
+                                                                                   :name (vv24 / jakata
+                                                                                               :mod (vv28 / dan))))
+                                                            :name (vv18 / grand
+                                                                        :mod (vv22 / tanah
+                                                                                   :name (vv26 / rampas
+                                                                                               :mod (vv30 / lebih)
+                                                                                               :mod (vv31 / dahulu)
+                                                                                               :location (vv32 / nyawa
+                                                                                                               :mod (vv36 / begitu))
+                                                                                               :mod (vv34 / lain)
+                                                                                               :ARG1 (vv35 / bunyi
+                                                                                                           :mod vv39
+                                                                                                           :ARG1 vv40)
+                                                                                               :ARG1 vv38))))
+                                                 :mod (vv13 / olivier
+                                                            :name (vv17 / floor
+                                                                        :name (vv21 / kacang
+                                                                                    :mod (vv25 / pusat))))))
+                           :name (vv9 / 6))
+                :name (vv5 / wongso)
+                :mod (vv6 / jess)
+                :mod (vv7 / rabu
+                          :mod (vv11 / tempat
+                                     :location (vv15 / mall
+                                                     :mod (vv19 / indonesia)
+                                                     :name (vv23 / abang
+                                                                 :name (vv27 / sengaja)))
+                                     :mod (vv29 / rencana
+                                                :mod (vv33 / orang
+                                                           :mod (vv37 / surat))))))
+     :ARG1 (vv10 / 2016)
+     :mod (vv14 / west))
+
+# ::snt Pasal 340 Kitab Undang-Undang Hukum Pidana yang mengatur tentang pembunuhan berencana mengancam Jessica dengan hukuman mati atau seumur hidup.
+
+(vv1 / rencana
+     :ARG0 (vv2 / pasal
+                :mod (vv3 / 340)
+                :mod (vv4 / kitab
+                          :name (vv5 / undangundang
+                                     :mod (vv6 / hukum
+                                               :mod (vv8 / atur
+                                                         :ARG1 (vv10 / ancam
+                                                                     :ARG1 (vv7 / pidana)
+                                                                     :ARG0 (vv12 / mati
+                                                                                 :mod (vv14 / atau))))
+                                               :mod (vv13 / umur
+                                                          :mod (vv15 / hidup)
+                                                          :mod vv16))))
+                :mod (vv9 / bunuh))
+     :mod (vv11 / jessica))
+
+# ::snt "Menjatuhkan pidana terhadap terdakwa Jessica Kumala atau Jessica Kumala Wongso dengan pidana penjara selama 20 tahun," kata jaksa Ardito membacakan tuntutannya.
+
+(vv1 / baca
+     :mod (vv2 / jatuh
+               :ARG1 (vv3 / pidana
+                          :mod (vv5 / jessica
+                                    :mod (vv7 / atau)
+                                    :name (vv8 / wongso)
+                                    :name (vv9 / penjara)
+                                    :mod (vv10 / tahun
+                                               :mod (vv14 / ardito)
+                                               :mod (vv15 / tuntut)))
+                          :mod (vv12 / kata
+                                     :ARG1 vv16)
+                          :mod (vv13 / jaksa
+                                     :mod vv17))
+               :ARG1 (vv4 / dakwa
+                          :name (vv6 / mala
+                                     :name (vv11 / 20))))
+     :ARG1 vv18)
+
+# ::snt Dalam pembelaan itu juga dibeberkan satu per satu bantahan terkait keterangan para saksi dan ahli yang dihadirkan jaksa penuntut umum .
+
+(vv1 / beber
+     :ARG1 (vv2 / bela)
+     :mod (vv3 / juga)
+     :mod (vv4 / bantah
+               :mod (vv5 / satu
+                         :mod (vv6 / kait
+                                   :ARG1 (vv8 / saksi
+                                              :mod (vv10 / dan))))
+               :mod (vv7 / terang
+                         :mod (vv9 / ahli
+                                   :mod (vv11 / hadir
+                                              :ARG0 (vv13 / tuntut
+                                                          :mod vv15))
+                                   :mod (vv12 / jaksa
+                                              :mod (vv14 / umum))))))
+

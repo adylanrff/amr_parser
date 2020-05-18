@@ -1,0 +1,21 @@
+# ::snt Pasalnya, AS merupakan salah satu negara penyumbang polusi terbesar di dunia.
+
+# ::snt "Kekecewaan besar terhadap Trump atas keputusan menarik diri dari perjanjian itu," ucap Frank di Kedutaan AS di Jakarta, Kamis, 24 Agustus 2017.
+
+(vv1 / tarik
+     :ARG0 (vv2 / kecewa
+                :mod (vv3 / besar)
+                :mod (vv4 / trump)
+                :mod (vv5 / putus))
+     :ARG1 (vv6 / diri
+                :mod (vv7 / janji
+                          :mod (vv8 / ucap)
+                          :mod (vv9 / frank
+                                    :mod (vv10 / kedutaan
+                                               :mod (vv11 / as))
+                                    :mod (vv12 / jakarta
+                                               :mod (vv13 / kamis)
+                                               :mod (vv14 / agustus
+                                                          :mod (vv15 / 24)
+                                                          :mod (vv16 / 2017)))))))
+

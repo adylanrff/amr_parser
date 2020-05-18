@@ -1,0 +1,57 @@
+# ::snt Crane pengangkat beton proyek pembangunan jalur ganda di jalur Manggarai-Jatinegara KM 1+300 (Matraman) atau di ruas Jalan Permata RT 14 RW 06 Kelurahan Kampung Melayu, Jatinegara, Jakarta Timur, ambruk dan menewaskan empat pekerja, Minggu (4/2/2018).
+
+# ::snt Di kasus tersebut, Joice Hutajulu, Kepala Humas Direktorat Jenderal Perkeretaapian Kementerian Perhubungan, hingga baru bisa memberikan keterangan singkat soal kejadian itu.
+
+(vv1 / beri
+     :ARG1 (vv2 / kasus)
+     :ARG0 (vv3 / joice
+                :name (vv4 / hutajulu
+                           :name (vv5 / kepala
+                                      :name (vv6 / humas)))
+                :name (vv7 / direktorat
+                           :name (vv8 / jenderal
+                                      :name (vv9 / perkeretaapian
+                                                 :name (vv10 / menteri
+                                                             :mod (vv11 / perhubungan))))))
+     :mod (vv12 / baru)
+     :mod (vv13 / bisa)
+     :ARG1 (vv14 / terang
+                 :mod (vv15 / singkat)
+                 :mod (vv16 / soal
+                            :mod (vv17 / jadi))))
+
+# ::snt Sementara itu, Edy Kuswoyo, Senior Manager Humas PT Kereta Api Indonesia (KAI) Daop 1 Jakarta, membenarkan adanya kecelakaan kerja di proyek tersebut.
+
+# ::snt Polisi hingga kini belum memeriksakan Kepala Pengawas proyek bersama penanggung jawab kontraktor.
+
+(vv1 / periksa
+     :ARG0 (vv2 / polisi)
+     :location (vv3 / kini)
+     :mod (vv4 / belum)
+     :ARG0 (vv5 / kepala
+                :mod (vv6 / pengawas
+                          :mod (vv7 / proyek))
+                :mod (vv8 / tanggung
+                          :mod (vv9 / jawab)
+                          :mod (vv10 / kontraktor))))
+
+# ::snt Diketahui dalam musibah itu ada empat pekerja tewas, yakni Jaenuddin (44), Dami Prasetyo (25), Jana Sutisna (44), dan Joni (34).
+
+(vv1 / ada
+     :mod (vv2 / tahu
+               :location (vv3 / musibah))
+     :ARG1 (vv4 / kerja
+                :mod (vv5 / empat)
+                :mod (vv6 / tewas)
+                :mod (vv7 / jaenuddin
+                          :mod (vv8 / 44)
+                          :name (vv10 / prasetyo
+                                      :mod (vv12 / jana
+                                                 :name (vv14 / joni
+                                                             :mod (vv16 / 34)
+                                                             :mod vv17)))
+                          :mod (vv13 / sutisna
+                                     :mod (vv9 / dami
+                                               :name (vv11 / 25)))
+                          :mod (vv15 / dan))))
+

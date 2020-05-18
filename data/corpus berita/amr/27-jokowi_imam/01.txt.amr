@@ -1,0 +1,182 @@
+# ::snt Presiden Joko Widodo menceritakan pengalamannya saat shalat berjemaah di Masjid di Kompleks Istana Kepresidenan Arg, di Kabul, Afghanistan, Senin (29/1/2018).
+
+(vv1 / cerita
+     :ARG0 (vv2 / presiden
+                :name (vv4 / widodo)
+                :name (vv13 / kabul
+                            :name (vv15 / senin)
+                            :mod vv17))
+     :ARG1 (vv6 / jemaah
+                :mod (vv8 / shalat)
+                :ARG0 (vv9 / masjid)
+                :location (vv10 / kompleks
+                                :name (vv12 / arg)
+                                :mod (vv14 / afghanistan
+                                           :name (vv16 / 2912018)))
+                :location (vv11 / istana
+                                :mod (vv3 / joko
+                                          :name (vv5 / alam))))
+     :mod (vv7 / saat))
+
+# ::snt Sebelumnya, video Jokowi tengah menjadi imam saat shalat ramai diberitakan banyak media massa dan jadi bahan pembicaraan netizen.
+
+(vv1 / jadi
+     :ARG0 (vv2 / video
+                :name (vv3 / jokowi
+                           :mod (vv4 / tengah)))
+     :ARG1 (vv5 / imam)
+     :ARG1 (vv8 / berita
+                :ARG1 (vv6 / shalat
+                           :mod (vv7 / saat)
+                           :mod (vv9 / ramai))
+                :ARG1 (vv10 / media
+                            :mod (vv11 / banyak)
+                            :mod (vv12 / massa)))
+     :mod (vv13 / dan)
+     :ARG1 (vv14 / bahan
+                 :mod (vv15 / bicara)
+                 :mod (vv16 / netizen)))
+
+# ::snt Video itu dirilis Biro Pers, Media, dan Informasi Sekretariat Presiden.
+
+(vv1 / rilis
+     :ARG1 (vv2 / video)
+     :ARG1 (vv3 / biro
+                :name (vv4 / pers
+                           :name (vv5 / media)
+                           :mod (vv6 / informasi
+                                     :mod (vv7 / dan)
+                                     :name (vv8 / sekretariat
+                                                :mod (vv9 / presiden))))))
+
+# ::snt Jokowi mengatakan, shalat memang dilakukan dua kali.
+
+(vv1 / kata
+     :ARG0 (vv2 / jokowi)
+     :ARG1 (vv3 / shalat)
+     :ARG1 (vv4 / laku
+                :mod (vv5 / memang)
+                :ARG1 (vv6 / kali
+                           :mod (vv7 / dua))))
+
+# ::snt "Yang pertama, itu kan shalat dzuhur, imamnya dari Imam Masjid di sana," kata Jokowi kepada wartawan di Kompleks Istana Kepresidenan, Jakarta, Rabu (31/1/2018).
+
+(vv1 / yang
+     :mod (vv2 / pertama)
+     :mod (vv3 / shalat
+               :mod (vv4 / kan)
+               :mod (vv5 / dzuhur
+                         :mod (vv6 / imam
+                                   :mod (vv8 / sana
+                                             :mod (vv10 / jokowi))))
+               :mod (vv7 / masjid)
+               :mod (vv9 / kata
+                         :name (vv11 / wartawan
+                                     :mod (vv13 / istana
+                                                :mod (vv15 / jakarta
+                                                           :mod (vv17 / 3112018)
+                                                           :mod vv18))))
+               :mod (vv12 / kompleks
+                          :name (vv14 / presiden
+                                      :name (vv16 / rabu)))))
+
+# ::snt Selanjutnya, karena menempuh perjalanan jauh dan berstatus sebagai Musafir, Jokowi dan rombongan langsung melanjutkan ke shalat ashar.
+
+(vv1 / tempuh
+     :mod (vv2 / lanjut
+               :mod (vv8 / jokowi)
+               :ARG0 (vv11 / shalat
+                           :mod vv14)
+               :mod (vv12 / ashar)
+               :ARG1 vv13)
+     :mod (vv3 / jalan
+               :mod (vv5 / status
+                         :mod (vv7 / musafir
+                                   :name (vv10 / langsung))
+                         :ARG1 (vv9 / rombong)))
+     :ARG1 (vv4 / jauh)
+     :mod (vv6 / dan))
+
+# ::snt Jokowi yang semula berada di saf barisan pertama bersama Presiden Afghanistan Ashraf Ghani, lalu maju dan mengambil posisi imam.
+
+(vv1 / ada
+     :ARG0 (vv2 / jokowi)
+     :mod (vv3 / mula)
+     :ARG1 (vv4 / saf
+                :mod (vv5 / baris
+                          :mod (vv6 / pertama))
+                :mod (vv7 / presiden
+                          :name (vv8 / afghanistan
+                                     :name (vv9 / ashraf
+                                                :name (vv10 / ghani)))))
+     :ARG1 (vv11 / maju
+                 :mod (vv12 / lalu)
+                 :mod (vv13 / ambil
+                            :mod (vv14 / dan)
+                            :ARG1 (vv15 / posisi
+                                        :mod (vv16 / imam)))))
+
+# ::snt Cerita Jokowi ini berbeda dengan penjelasan sebelumnya yang disampaikan Sekretaris Kabinet Pramono Anung.
+
+(vv1 / beda
+     :ARG0 (vv2 / cerita
+                :name (vv3 / jokowi))
+     :ARG1 (vv4 / jelas
+                :mod (vv5 / sampai
+                          :ARG0 (vv6 / sekretaris
+                                     :mod (vv7 / kabinet
+                                               :name (vv8 / pramono
+                                                          :name (vv9 / anung)))))))
+
+# ::snt Pramono justru menyebut, awalnya Jokowi menjadi imam shalat dzuhur.
+
+(vv1 / sebut
+     :ARG0 (vv2 / pramono)
+     :mod (vv3 / justru)
+     :mod (vv4 / jadi
+               :mod (vv5 / awal)
+               :ARG0 (vv6 / jokowi)
+               :ARG1 (vv7 / imam
+                          :mod (vv8 / shalat
+                                    :mod (vv9 / dzuhur)))))
+
+# ::snt Setelah itu, menurut Pramono, dilakukan shalat sunnah dimana Jokowi sudah tidak lagi menjadi imam.
+
+(vv1 / laku
+     :ARG1 (vv2 / pramono)
+     :ARG1 (vv3 / shalat
+                :mod (vv4 / sunnah))
+     :mod (vv5 / jadi
+               :mod (vv6 / mana)
+               :ARG0 (vv7 / jokowi)
+               :mod (vv8 / sudah)
+               :mod (vv9 / tidak)
+               :mod (vv10 / lagi)
+               :ARG1 (vv11 / imam)))
+
+# ::snt Menurut Pramono, shalat sunnah yang dilakukan setelah shalat dzuhur itu dilakukan sebanyak dua rakaat.
+
+(vv1 / laku
+     :ARG1 (vv2 / pramono
+                :mod (vv3 / shalat
+                          :mod (vv5 / dzuhur)
+                          :mod (vv6 / rakaat
+                                    :mod (vv8 / dua)
+                                    :mod vv9)))
+     :ARG1 (vv4 / sunnah)
+     :ARG1 (vv7 / banyak))
+
+# ::snt Shalat sunnah dilakukan untuk mendoakan warga Afghanistan yang tewas dalam berbagai serangan teror beberapa hari terakhir.
+
+(vv1 / laku
+     :ARG1 (vv2 / shalat
+                :mod (vv3 / sunnah))
+     :ARG1 (vv4 / doa
+                :ARG0 (vv5 / warga
+                           :mod (vv6 / afghanistan)
+                           :mod (vv7 / tewas
+                                     :location (vv8 / serang
+                                                    :mod (vv9 / teror)
+                                                    :mod (vv10 / hari
+                                                               :mod (vv11 / akhir)))))))
+

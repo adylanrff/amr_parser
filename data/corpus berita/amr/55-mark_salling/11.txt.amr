@@ -1,0 +1,35 @@
+# ::snt Polisi menemukan setidaknya ada lima puluh ribu konten pelecehan seksual anak-anak yang mereka amankan dari hard disk milik sang aktor di kediamannya.
+
+(vv1 / temu
+     :ARG0 (vv2 / polisi)
+     :mod (vv3 / ada
+               :mod (vv4 / tidak)
+               :ARG1 (vv5 / konten
+                          :mod (vv6 / lima
+                                    :mod (vv7 / puluh)
+                                    :mod (vv8 / ribu))
+                          :mod (vv9 / leceh
+                                    :mod (vv10 / seksual
+                                               :mod (vv11 / anakanak)))
+                          :mod (vv12 / aman
+                                     :ARG0 (vv13 / mereka)
+                                     :ARG1 (vv14 / hard
+                                                 :mod (vv15 / disk)
+                                                 :mod (vv16 / milik
+                                                            :ARG1 (vv17 / aktor
+                                                                        :mod (vv18 / diam))))))))
+
+# ::snt Di 2015, Salling sempat ditahan namun akhirnya dibebaskan dengan jaminan senilai $20 ribu.
+
+(vv1 / tahan
+     :mod (vv2 / 2015)
+     :ARG1 (vv3 / salling)
+     :mod (vv4 / sempat)
+     :mod (vv5 / bebas
+               :mod (vv6 / namun)
+               :mod (vv7 / akhir)
+               :ARG1 (vv8 / jamin
+                          :mod (vv9 / ribu
+                                    :mod (vv10 / nila)
+                                    :mod (vv11 / 20)))))
+

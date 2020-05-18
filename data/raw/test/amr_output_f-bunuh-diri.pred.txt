@@ -1,0 +1,361 @@
+(vv1 / lompat
+     :ARG0 (vv2 / ciptadi)
+     :mod (vv3 / nekat)
+     :ARG1 (vv4 / megatron
+                :mod (vv5 / jembatan
+                          :mod (vv6 / seberang
+                                    :mod (vv7 / orang)))
+                :mod (vv8 / kira
+                          :ARG1 (vv9 / yang)
+                          :mod (vv10 / tinggi)
+                          :mod (vv11 / capai
+                                     :ARG1 (vv12 / meter
+                                                 :mod (vv13 / 15))))))
+
+(vv1 / ungkap
+     :ARG1 (vv2 / hal)
+     :ARG0 (vv3 / kabag
+                :mod (vv4 / ops
+                          :name (vv5 / polrestabes
+                                     :name (vv6 / bandung
+                                                :mod (vv7 / kompol
+                                                          :name (vv8 / dede
+                                                                     :name (vv9 / rojudin)))))))
+     :mod (vv10 / damping
+                :ARG0 (vv11 / kasubag
+                            :name (vv12 / humas
+                                        :name (vv13 / kompol
+                                                    :name (vv14 / reny
+                                                                :name (vv15 / marthaliana)))))
+                :mod (vv16 / temu
+                           :mod (vv17 / saat)
+                           :ARG1 (vv18 / mapolrestabes
+                                       :name (vv19 / bandung
+                                                   :mod (vv20 / jumat))))))
+
+(vv1 / kata
+     :ARG0 (vv2 / rezha
+                :name (vv3 / noviana)
+                :mod (vv4 / warga
+                          :mod (vv5 / kota
+                                    :name (vv6 / bandung))))
+     :ARG0 (vv7 / ia)
+     :mod (vv8 / perhati
+               :mod (vv9 / dan)
+               :ARG0 (vv10 / jemaat
+                           :mod (vv11 / lain))
+               :mod (vv12 / langsung)
+               :ARG1 (vv13 / megatron
+                           :mod (vv14 / jembatan
+                                      :mod (vv15 / seberang
+                                                 :mod (vv16 / orang
+                                                            :mod (vv17 / depan)
+                                                            :mod (vv18 / kantor
+                                                                       :mod (vv19 / pos
+                                                                                  :mod (vv20 / besar
+                                                                                             :name (vv21 / bandung))))))))
+               :mod (vv22 / bubar
+                          :mod (vv23 / telah)
+                          :ARG1 (vv24 / salat
+                                      :mod (vv25 / jumat))
+                          :location (vv26 / masjid
+                                          :name (vv27 / raya
+                                                      :name (vv28 / bandung))))))
+
+(vv1 / diri
+     :time (vv2 / ketika)
+     :ARG0 (vv3 / tugas
+                :mod (vv4 / linmas)
+                :mod (vv5 / satpam
+                          :mod (vv6 / dan)))
+     :location (vv7 / atas
+                    :mod (vv8 / jpo)))
+
+(vv1 / bunuh
+     :ARG0 (vv2 / aksi)
+     :ARG1 (vv3 / diri)
+     :location (vv4 / alun
+                    :mod (vv5 / alun
+                              :name (vv6 / bandung)))
+     :mod (vv7 / lama
+               :mod (vv8 / belum))
+     :mod (vv9 / jadi))
+
+(vv1 / jatuh
+     :ARG0 (vv2 / pria
+                :mod (vv3 / tua))
+     :mod (vv4 / nekat)
+     :ARG1 (vv5 / diri)
+     :location (vv6 / jpo
+                    :mod (vv7 / alun
+                              :mod (vv8 / alun)
+                              :mod (vv9 / kota
+                                        :name (vv10 / bandung)))))
+
+(vv1 / kata
+     :ARG0 (vv2 / sudirman)
+     :ARG0 (vv3 / anggota
+                :mod (vv4 / linmas
+                          :name (vv5 / satpol
+                                     :mod (vv6 / pp
+                                               :mod (vv7 / kota
+                                                         :name (vv8 / bandung)))))
+                :mod (vv9 / jadi
+                          :ARG0 (vv10 / yang)
+                          :ARG1 (vv11 / saksi
+                                      :mod (vv12 / mata
+                                                 :mod (vv13 / aksi))
+                                      :mod (vv14 / bunuh
+                                                 :ARG1 (vv15 / diri)
+                                                 :location (vv16 / alun
+                                                                 :mod (vv17 / alun
+                                                                            :name (vv18 / bandung)))))))
+     :mod (vv19 / kira
+                :mod (vv20 / pria)
+                :mod (vv21 / usia
+                           :ARG1 (vv22 / tahun
+                                       :mod (vv23 / 50)))))
+
+(vv1 / jatuh
+     :ARG0 (vv2 / lelaki)
+     :ARG1 (vv3 / diri)
+     :ARG1 (vv4 / megatron
+                :mod (vv5 / jembatan
+                          :mod (vv6 / seberang))
+                :mod (vv7 / depan
+                          :mod (vv8 / pos
+                                    :name (vv9 / giro
+                                               :mod (vv10 / besar
+                                                          :mod (vv11 / bandung
+                                                                     :mod (vv12 / bandung
+                                                                                :mod (vv13 / jumat)))))))))
+
+(vv1 / akhir
+     :ARG0 (vv2 / lelaki
+                :mod (vv3 / tengah)
+                :mod (vv4 / baya
+                          :mod (vv5 / nekat)))
+     :ARG1 (vv6 / hidup
+                :mod (vv7 / tengah
+                          :mod (vv8 / padat
+                                    :mod (vv9 / lalu
+                                              :mod (vv10 / lintas))
+                                    :mod (vv11 / jalan
+                                               :name (vv12 / asia
+                                                           :mod (vv13 / afrika)))))))
+
+(vv1 / buat
+     :ARG0 (vv2 / pria
+                :mod (vv3 / misterius)
+                :mod (vv4 / bunuh
+                          :ARG0 (vv5 / yang)
+                          :ARG1 (vv6 / diri)
+                          :location (vv7 / jembatan
+                                         :mod (vv8 / seberang
+                                                   :mod (vv9 / orang))
+                                         :mod (vv10 / jalan
+                                                    :name (vv11 / asia
+                                                                :mod (vv12 / afrika
+                                                                           :mod (vv13 / bandung
+                                                                                      :mod (vv14 / jawa
+                                                                                                 :mod (vv15 / barat)))))))))
+     :ARG1 (vv16 / pesan
+                 :mod (vv17 / nekat
+                            :mod (vv18 / belum)
+                            :mod (vv19 / terjun))))
+
+(vv1 / diri
+     :time (vv2 / ketika)
+     :ARG0 (vv3 / tugas
+                :mod (vv4 / linmas)
+                :mod (vv5 / satpam
+                          :mod (vv6 / dan)))
+     :location (vv7 / atas
+                    :mod (vv8 / jpo)))
+
+(vv1 / kata
+     :ARG0 (vv2 / rezha
+                :name (vv3 / noviana)
+                :mod (vv4 / warga
+                          :mod (vv5 / kota
+                                    :name (vv6 / bandung))))
+     :ARG0 (vv7 / ia)
+     :mod (vv8 / perhati
+               :mod (vv9 / dan)
+               :ARG0 (vv10 / jemaat
+                           :mod (vv11 / lain))
+               :mod (vv12 / langsung)
+               :ARG1 (vv13 / megatron
+                           :mod (vv14 / jembatan
+                                      :mod (vv15 / seberang
+                                                 :mod (vv16 / orang
+                                                            :mod (vv17 / depan)
+                                                            :mod (vv18 / kantor
+                                                                       :mod (vv19 / pos
+                                                                                  :mod (vv20 / besar
+                                                                                             :name (vv21 / bandung))))))))
+               :mod (vv22 / bubar
+                          :mod (vv23 / telah)
+                          :ARG1 (vv24 / salat
+                                      :mod (vv25 / jumat))
+                          :location (vv26 / masjid
+                                          :name (vv27 / raya
+                                                      :name (vv28 / bandung))))))
+
+(vv1 / diri
+     :time (vv2 / ketika)
+     :ARG0 (vv3 / tugas
+                :mod (vv4 / linmas)
+                :mod (vv5 / satpam
+                          :mod (vv6 / dan)))
+     :location (vv7 / atas
+                    :mod (vv8 / jpo)))
+
+(vv1 / naik
+     :ARG0 (vv2 / lelaki
+                :mod (vv3 / tahu
+                          :mod (vv4 / yang)
+                          :mod (vv5 / belum)
+                          :location (vv6 / identitas)))
+     :mod (vv7 / sempat)
+     :ARG1 (vv8 / megatron
+                :mod (vv9 / atas)
+                :mod (vv10 / jpo
+                           :mod (vv11 / depan)
+                           :mod (vv12 / gedung
+                                      :mod (vv13 / kantor
+                                                 :mod (vv14 / pos
+                                                            :mod (vv15 / besar)))))
+                :mod (vv16 / pukul
+                           :mod (vv17 / wib
+                                      :mod (vv18 / 1100)))))
+
+(vv1 / catat
+     :ARG0 (vv2 / who)
+     :mod (vv3 / bunuh
+               :ARG1 (vv4 / diri)
+               :ARG1 (vv5 / sebab
+                          :mod (vv6 / mati
+                                    :mod (vv7 / lima)
+                                    :mod (vv8 / ujar))
+                          :mod (vv9 / juni
+                                    :mod (vv10 / lalu))))
+     :location (vv11 / jakarta))
+
+(vv1 / geger
+     :time (vv2 / jumat
+                :mod (vv3 / warga))
+     :ARG1 (vv4 / kota
+                :name (vv5 / bandung))
+     :ARG1 (vv6 / aksi
+                :mod (vv7 / bunuh
+                          :ARG1 (vv8 / diri
+                                     :mod (vv9 / lelaki
+                                               :mod (vv10 / paruh
+                                                          :mod (vv11 / baya))
+                                               :mod (vv12 / terjun
+                                                          :ARG0 (vv13 / yang)
+                                                          :location (vv14 / jembatan
+                                                                          :mod (vv15 / seberang)
+                                                                          :mod (vv16 / orang
+                                                                                     :mod (vv17 / alun
+                                                                                                :name (vv18 / alun
+                                                                                                            :name (vv19 / bandung)))))))))))
+
+(vv1 / tewas
+     :ARG0 (vv2 / warga
+                :mod (vv3 / kebumen
+                          :mod (vv4 / asal)
+                          :name (vv5 / ciptadi)))
+     :mod (vv6 / ketika)
+     :mod (vv7 / lompat
+               :mod (vv8 / telah)
+               :location (vv9 / jembatan
+                              :mod (vv10 / seberang
+                                         :mod (vv11 / orang))
+                              :mod (vv12 / letak
+                                         :ARG1 (vv13 / yang)
+                                         :location (vv14 / jalan
+                                                         :name (vv15 / asia
+                                                                     :mod (vv16 / afrika))
+                                                         :mod (vv17 / kota
+                                                                    :name (vv18 / bandung)))))))
+
+(vv1 / naik
+     :ARG0 (vv2 / korban
+                :mod (vv3 / kena
+                          :ARG0 (vv4 / yang)
+                          :ARG1 (vv5 / kaos
+                                     :mod (vv6 / putih)
+                                     :mod (vv7 / celana
+                                               :mod (vv8 / dan)
+                                               :mod (vv9 / training)))))
+     :ARG0 (vv10 / anak
+                 :mod (vv11 / tangga)
+                 :mod (vv12 / jpo)))
+
+(vv1 / rupa
+     :ARG0 (vv2 / saksi)
+     :ARG1 (vv3 / anggota
+                :mod (vv4 / linmas
+                          :name (vv5 / satpol
+                                     :mod (vv6 / pp)
+                                     :mod (vv7 / kota
+                                               :name (vv8 / bandung
+                                                          :name (vv9 / sudirman))))))
+     :mod (vv10 / kata
+                :ARG1 (vv11 / pria)
+                :mod (vv12 / kira
+                           :mod (vv13 / umur
+                                      :ARG1 (vv14 / tahun
+                                                  :mod (vv15 / 50))))))
+
+(vv1 / sebut
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / kena
+                :ARG1 (vv4 / pakai
+                           :mod (vv5 / putih)
+                           :mod (vv6 / celana
+                                     :mod (vv7 / dan)
+                                     :mod (vv8 / biru)))))
+
+(vv1 / naik
+     :ARG0 (vv2 / lelaki
+                :mod (vv3 / tahu
+                          :mod (vv4 / yang)
+                          :mod (vv5 / belum)
+                          :location (vv6 / identitas)))
+     :mod (vv7 / sempat)
+     :ARG1 (vv8 / megatron
+                :mod (vv9 / atas)
+                :mod (vv10 / jembatan
+                           :mod (vv11 / seberang))))
+
+(vv1 / bunuh
+     :ARG0 (vv2 / pria
+                :mod (vv3 / paruh
+                          :mod (vv4 / baya))
+                :mod (vv5 / identitas
+                          :mod (vv6 / nekat)))
+     :ARG1 (vv7 / diri
+                :mod (vv8 / jembatan
+                          :mod (vv9 / seberang
+                                    :mod (vv10 / orang))
+                          :mod (vv11 / ada
+                                     :ARG0 (vv12 / yang)
+                                     :ARG0 (vv13 / alun
+                                                 :mod (vv14 / dekat)
+                                                 :mod (vv15 / alun)
+                                                 :mod (vv16 / kota
+                                                            :name (vv17 / bandung
+                                                                        :mod (vv18 / jumat))))))))
+
+(vv1 / sebut
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / kena
+                :ARG1 (vv4 / pakai
+                           :mod (vv5 / putih)
+                           :mod (vv6 / celana
+                                     :mod (vv7 / dan)
+                                     :mod (vv8 / biru)))))
+

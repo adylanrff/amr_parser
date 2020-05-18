@@ -1,0 +1,36 @@
+# ::snt "Itu silakan setiap aparat penegak hukum punya hak untuk pejabat atau anggota masyarakat yang diperlukan untuk keterangan kesaksian lebih lanjut," ucapnya.
+
+(vv1 / sila
+     :ARG0 (vv2 / itu)
+     :ARG1 (vv3 / aparat
+                :mod (vv4 / tegak
+                          :mod (vv5 / hukum)))
+     :mod (vv6 / punya
+               :ARG1 (vv7 / hak
+                          :mod (vv8 / jabat
+                                    :mod (vv9 / anggota
+                                              :mod (vv10 / atau)
+                                              :mod (vv11 / masyarakat)
+                                              :mod (vv12 / perlu
+                                                         :ARG1 (vv13 / terang
+                                                                     :mod (vv14 / saksi)
+                                                                     :mod (vv15 / lanjut
+                                                                                :mod (vv16 / lebih))))))))
+     :mod (vv17 / ucap))
+
+# ::snt Saat dikonfirmasi, Wakil Ketua KPK, Saut Situmorang belum mau mengungkap status Zumi Zola.
+
+(vv3 / ungkap
+     :mod (vv1 / konfirmasi
+               :mod (vv2 / saat)
+               :ARG0 (vv4 / wakil
+                          :mod (vv5 / ketua
+                                    :name (vv6 / kpk
+                                               :name (vv7 / saut
+                                                          :name (vv8 / situmorang))))))
+     :mod (vv9 / belum)
+     :mod (vv10 / mau)
+     :ARG1 (vv11 / status
+                 :mod (vv12 / zumi
+                            :name (vv13 / zola))))
+

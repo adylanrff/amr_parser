@@ -1,0 +1,22 @@
+# ::snt Pesawat A320 tersebut seharusnya bersiap untuk mendarat di Runway 28 di Bandara Internasional San Francisco sebelum tengah malam pada hari Jumat waktu setempat.
+
+(vv1 / siap
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / a320))
+     :mod (vv4 / harus)
+     :mod (vv5 / darat
+               :location (vv6 / runway
+                              :mod (vv7 / 28))
+               :location (vv8 / bandara
+                              :mod (vv9 / internasional
+                                        :location (vv10 / san
+                                                        :name (vv11 / francisco)))
+                              :mod (vv12 / malam
+                                         :mod (vv13 / tengah)))
+               :time (vv14 / hari
+                           :mod (vv15 / jumat)
+                           :mod (vv16 / waktu
+                                      :mod (vv17 / tempat)))))
+
+# ::snt Tapi sebaliknya, pilot pesawat Air Canada dengan nomor penerbangan AC759 secara tidak sengaja mengambil tempat untuk Taxiway C, yang paralel dengan landasan pacu (runway), di mana empat pesawat—penuh penumpang dan bahan bakar—bersiap-siap untuk lepas landas.
+

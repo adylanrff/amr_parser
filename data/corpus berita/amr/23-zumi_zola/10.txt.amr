@@ -1,0 +1,120 @@
+# ::snt "(Pada) 25 Januari 2018 Ditjenim telah menerima Surat Keputusan KPK tentang pencegahan berpergian ke luar negeri atas nama Zumi Zola Zulkifli pekerjaan Gubernur Jambi periode 2016-2021," kata Agung saat dikonfirmasi, Rabu (31/1).
+
+(vv3 / terima
+     :ARG1 (vv1 / januari
+                :mod (vv2 / 25)
+                :mod (vv4 / 2018))
+     :ARG0 (vv5 / ditjenim)
+     :mod (vv6 / telah)
+     :ARG1 (vv7 / surat
+                :mod (vv8 / putus
+                          :mod (vv9 / kpk))
+                :mod (vv10 / cegah
+                           :mod (vv11 / pergi
+                                      :location (vv12 / negeri
+                                                      :mod (vv13 / luar))
+                                      :ARG1 (vv14 / nama
+                                                  :name (vv15 / zumi
+                                                              :name (vv16 / zola
+                                                                          :name (vv17 / zulkifli)))
+                                                  :mod (vv18 / kerja
+                                                             :mod (vv19 / gubernur
+                                                                        :name (vv20 / jambi))
+                                                             :mod (vv21 / periode
+                                                                        :mod (vv22 / 20162021)
+                                                                        :mod (vv23 / kata
+                                                                                   :mod (vv24 / agung)))
+                                                             :mod (vv25 / konfirmasi
+                                                                        :mod (vv26 / saat)
+                                                                        :ARG0 (vv27 / rabu
+                                                                                    :mod (vv28 / 311)))))))))
+
+# ::snt Agung mengatakan alasan pencegahan itu adalah karena keberadaan Zumi tetap di dalam wilayah Indonesia terkait proses penyidikan kasus korupsi di provinsi Jambi yang sedang ditangani KPK.
+
+(vv1 / kata
+     :ARG0 (vv2 / agung)
+     :ARG1 (vv3 / alas
+                :mod (vv4 / cegah))
+     :mod (vv5 / tetap
+               :mod (vv6 / adalah)
+               :ARG0 (vv7 / ada
+                          :mod (vv8 / zumi))
+               :location (vv9 / wilayah
+                              :mod (vv10 / dalam)
+                              :mod (vv11 / indonesia))
+               :mod (vv12 / kait
+                          :ARG1 (vv13 / proses
+                                      :mod (vv14 / sidi
+                                                 :ARG1 (vv15 / kasus
+                                                             :mod (vv16 / korupsi)))
+                                      :mod (vv17 / provinsi
+                                                 :mod (vv18 / jambi)
+                                                 :mod (vv19 / tangan
+                                                            :mod (vv20 / sedang)
+                                                            :ARG0 (vv21 / kpk)))))))
+
+# ::snt "Periode pencegahan berlaku untuk enam bulan ke depan," kata Agung.
+
+(vv1 / laku
+     :ARG0 (vv2 / periode
+                :mod (vv3 / cegah))
+     :time (vv4 / bulan
+                :mod (vv5 / enam))
+     :location (vv6 / depan
+                    :mod (vv7 / kata
+                              :name (vv8 / agung))))
+
+# ::snt Dari tangan mereka, penyidik KPK mengamankan uang sebesar Rp4,7 miliar dari total 'uang ketok' yang diduga telah disiapkan pihak Pemerintah Provinsi Jambi sejumlah Rp6 miliar.
+
+# ::snt Saat dikonfirmasi mengenai status Zumi pascapenggeledahan rumah dinasnya, Wakil Ketua KPK Saut Situmorang enggan menjelaskan lugas.
+
+# ::snt "Kalau sudah sampai geledah berarti apa? Ya (simpulkan sendiri)," katanya, Rabu (31/1).
+
+(vv1 / sampai
+     :mod (vv2 / sudah)
+     :ARG1 (vv3 / geledah)
+     :mod (vv4 / arti
+               :ARG1 (vv5 / apa
+                          :mod (vv6 / ya)
+                          :mod (vv7 / simpul
+                                    :mod (vv8 / sendiri)
+                                    :ARG1 (vv9 / rabu
+                                               :mod (vv10 / kata)
+                                               :mod (vv11 / 311))))))
+
+# ::snt Diketahui, kegiatan penggeledahan untuk  kepentingan penyidikan harus mendasarkan pada penerbitan surat perintah penyidikan (sprindik) terlebih dulu.
+
+(vv1 / dasar
+     :mod (vv2 / tahu
+               :mod (vv3 / giat
+                         :mod (vv4 / geledah)
+                         :mod (vv5 / penting
+                                   :mod (vv6 / sidi
+                                             :mod (vv12 / lebih)))))
+     :mod (vv8 / terbit
+               :mod (vv10 / perintah
+                          :mod (vv7 / harus)))
+     :ARG1 (vv9 / surat
+                :mod (vv11 / sprindik))
+     :mod (vv13 / dulu)
+     :mod vv14)
+
+# ::snt "Saya sudah menyampaikan kepada (penyidik), yang penyerahan apa itu dana uang itu, saya tidak tahu menahu," kata Zumi beberapa waktu lalu.
+
+(vv1 / sampai
+     :ARG0 (vv2 / saya)
+     :mod (vv4 / sidik
+               :mod (vv6 / apa))
+     :location (vv5 / serah
+                    :ARG1 (vv7 / tahu
+                               :ARG0 (vv3 / sudah)
+                               :ARG0 (vv9 / uang)
+                               :mod (vv11 / nahu
+                                          :ARG1 (vv13 / zumi))
+                               :mod (vv12 / kata
+                                          :name (vv14 / waktu
+                                                      :mod vv16)
+                                          :ARG1 (vv15 / lalu))))
+     :mod (vv8 / dana
+               :mod (vv10 / tidak)))
+

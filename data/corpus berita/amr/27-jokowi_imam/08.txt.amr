@@ -1,0 +1,17 @@
+# ::snt Di sela kunjungannya ke Afghanistan, Presiden Joko Widodo sempat menjadi imam salat zuhur para ulama. Seperti apa ceritanya?
+
+(vv1 / jadi
+     :ARG1 (vv2 / sela
+                :mod (vv3 / kunjung)
+                :mod (vv4 / afghanistan))
+     :ARG0 (vv5 / presiden
+                :name (vv6 / joko
+                           :name (vv7 / widodo)))
+     :mod (vv8 / sempat)
+     :ARG1 (vv9 / imam
+                :mod (vv10 / salat
+                           :mod (vv11 / zuhur))
+                :mod (vv12 / ulama
+                           :mod (vv13 / apa
+                                      :mod (vv14 / cerita)))))
+

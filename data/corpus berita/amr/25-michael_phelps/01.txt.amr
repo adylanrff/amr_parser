@@ -1,0 +1,48 @@
+# ::snt Michael Phelps menorehkan rekor sebagai atlet peraih medali emas Olimpiade terbanyak sepanjang sejarah setelah memenangkan lomba renang kategori estafet gaya bebas 4x100 meter di Rio de Janeiro, Brasil.
+
+(vv1 / toreh
+     :ARG0 (vv2 / michael
+                :name (vv3 / phelps))
+     :ARG1 (vv4 / rekor
+                :mod (vv5 / atlet
+                          :mod (vv6 / raih
+                                    :mod (vv7 / medali
+                                              :mod (vv8 / emas)
+                                              :mod (vv9 / olimpiade
+                                                        :mod (vv10 / banyak))))
+                          :mod (vv11 / sejarah
+                                     :mod (vv12 / panjang))))
+     :ARG1 (vv13 / menang
+                 :ARG1 (vv14 / lomba
+                             :mod (vv15 / renang
+                                        :mod (vv16 / kategori
+                                                   :mod (vv17 / estafet
+                                                              :mod (vv18 / gaya
+                                                                         :mod (vv19 / bebas)
+                                                                         :mod (vv20 / meter
+                                                                                    :mod (vv21 / 4x100))))))
+                             :mod (vv22 / rio
+                                        :name (vv23 / de
+                                                    :name (vv24 / janeiro
+                                                                :name (vv25 / brasil)))))))
+
+# ::snt Secara keseluruhan, pria berusia 31 tahun itu meraih 23 medali untuk Amerika Serikat dalam lima Olimpiade, 19 di antaranya merupakan medali emas.
+
+(vv1 / raih
+     :location (vv2 / seluruh)
+     :ARG0 (vv3 / pria
+                :mod (vv4 / usia
+                          :ARG1 (vv5 / tahun
+                                     :mod (vv6 / 31))))
+     :ARG1 (vv7 / medali
+                :mod (vv9 / amerika
+                          :mod (vv11 / olimpiade
+                                     :mod (vv13 / 19)
+                                     :mod (vv14 / rupa
+                                                :ARG1 (vv8 / 23)
+                                                :mod (vv16 / emas))))
+                :mod vv17)
+     :ARG1 (vv10 / serikat)
+     :location (vv12 / lima)
+     :ARG1 (vv15 / antara))
+

@@ -1,0 +1,19 @@
+# ::snt Pejabat Malaysia Airlines, Huib Gorter, mengumumkan sebanyak 295 orang atau seluruh penumpang dan kru MH17 dipastikan tewas.
+
+(vv1 / umum
+     :ARG0 (vv2 / jabat
+                :name (vv3 / malaysia
+                           :mod (vv4 / airlines
+                                     :name (vv5 / huib
+                                                :name (vv6 / gorter)))))
+     :ARG1 (vv7 / orang
+                :mod (vv8 / banyak)
+                :mod (vv9 / 295)
+                :mod (vv10 / tumpang
+                           :mod (vv11 / atau)))
+     :mod (vv12 / pasti
+                :mod (vv13 / dan)
+                :ARG1 (vv14 / kru
+                            :name (vv15 / mh17))
+                :mod (vv16 / tewas)))
+

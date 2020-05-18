@@ -1,0 +1,114 @@
+# ::snt Presiden AS Donald Trump diperkirakan akan menarik Amerika keluar dari perjanjian iklim global yang sempat menjadi terobosan, demikian ujar seorang pejabat Gedung Putih hari Rabu (31/5).
+
+(vv1 / kira
+     :ARG1 (vv2 / presiden
+                :name (vv3 / as
+                           :name (vv4 / donald
+                                      :name (vv5 / trump))))
+     :mod (vv6 / tarik
+               :mod (vv7 / akan)
+               :ARG0 (vv8 / amerika)
+               :ARG1 (vv9 / keluar
+                          :ARG1 (vv10 / janji
+                                      :mod (vv11 / iklim
+                                                 :mod (vv12 / global))
+                                      :mod (vv13 / jadi
+                                                 :mod (vv14 / sempat)
+                                                 :ARG1 (vv15 / terobos
+                                                             :mod (vv16 / demikian))
+                                                 :ARG1 (vv17 / jabat
+                                                             :mod (vv18 / ujar)
+                                                             :mod (vv19 / gedung
+                                                                        :mod (vv20 / putih
+                                                                                   :mod (vv21 / hari
+                                                                                              :mod (vv22 / rabu
+                                                                                                         :mod (vv23 / 315)))))))))))
+
+# ::snt Keluarnya Amerika dari perjanjian iklim global tersebut berarti memenuhi janji yang disampaikan oleh Presiden Donald Trump pada masa kampanye Pilpres AS tahun lalu, tetapi akan menimbulkan kemarahan sekutu-sekutu Amerika yang telah menghabiskan waktu bertahun-tahun melakukan perundingan yang rumit untuk menghasilkan perjanjian guna mengurangi emisi karbon.
+
+(vv1 / arti
+     :ARG0 (vv2 / keluar
+                :name (vv3 / amerika)
+                :mod (vv5 / iklim
+                          :mod (vv9 / presiden
+                                    :name (vv13 / kampanye
+                                                :mod (vv17 / lalu)))))
+     :ARG1 (vv10 / donald
+                 :name (vv14 / pilpres
+                             :mod (vv18 / timbul
+                                        :mod (vv22 / sekutusekutu
+                                                   :name (vv4 / janji
+                                                              :mod (vv8 / sampai
+                                                                        :ARG1 (vv12 / masa
+                                                                                    :mod (vv16 / tahun
+                                                                                               :mod (vv20 / akan))
+                                                                                    :mod (vv19 / tetapi))
+                                                                        :ARG1 (vv15 / as))
+                                                              :mod (vv11 / trump)))
+                                        :mod (vv23 / habis
+                                                   :mod (vv27 / laku
+                                                              :ARG1 (vv31 / kurang
+                                                                          :ARG1 vv35))
+                                                   :ARG1 (vv28 / runding
+                                                               :mod (vv32 / emisi
+                                                                          :mod vv36)
+                                                               :mod (vv33 / karbon)))
+                                        :ARG0 (vv24 / telah)
+                                        :ARG1 (vv30 / hasil
+                                                    :ARG1 (vv7 / penuh
+                                                               :ARG1 (vv6 / global))
+                                                    :mod vv34))))
+     :mod (vv21 / marah
+                :mod (vv25 / waktu
+                           :mod (vv29 / rumit))
+                :mod (vv26 / bertahuntahun)))
+
+# ::snt Meskipun Trump saat ini lebih memilih keluar dari perjanjian itu, ia dikenal kerap mengubah pemikirannya tentang keputusan-keputusan utama dan cenderung mencari nasihat dari sejumlah penasihat di dalam dan luar lingkarannya, hingga saat-saat terakhir.
+
+(vv8 / kenal
+     :ARG1 (vv5 / ubah
+                :mod (vv1 / pilih
+                          :ARG0 (vv2 / trump)
+                          :ARG1 (vv3 / saat)
+                          :mod (vv4 / lebih)
+                          :mod (vv6 / keluar)
+                          :ARG1 (vv7 / janji))
+                :mod (vv10 / kerap)
+                :ARG1 (vv11 / pikir
+                            :mod (vv12 / keputusankeputusan
+                                       :mod (vv13 / utama)))
+                :mod (vv14 / cari
+                           :mod (vv15 / dan)
+                           :mod (vv17 / nasihat
+                                      :mod (vv19 / luar
+                                                 :mod (vv16 / cenderung)
+                                                 :mod (vv22 / akhir)
+                                                 :mod vv23)
+                                      :mod (vv20 / lingkar)
+                                      :mod (vv21 / saatsaat
+                                                 :mod vv24))
+                           :ARG1 (vv18 / dalam)))
+     :ARG0 (vv9 / ia))
+
+# ::snt Trump direncanakan akan mengadakan pertemuan dengan Menteri Luar Negeri Rex Tillerson Rabu sore, yang sejauh ini tetap tidak ingin Amerika keluar dari perjanjian itu.
+
+(vv1 / rencana
+     :ARG1 (vv2 / trump)
+     :ARG1 (vv3 / ada
+                :mod (vv4 / akan)
+                :ARG1 (vv5 / temu
+                           :mod (vv6 / menteri
+                                     :mod (vv7 / luar
+                                               :mod (vv8 / negeri
+                                                         :name (vv9 / rex
+                                                                    :name (vv10 / tillerson
+                                                                                :name (vv11 / rabu)))))
+                                     :mod (vv12 / sore)
+                                     :mod (vv13 / ingin
+                                                :mod (vv14 / jauh)
+                                                :mod (vv15 / tetap)
+                                                :mod (vv16 / tidak)))))
+     :mod (vv17 / keluar
+                :ARG0 (vv18 / amerika)
+                :ARG1 (vv19 / janji)))
+

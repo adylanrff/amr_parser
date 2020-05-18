@@ -1,0 +1,26 @@
+# ::snt "Kemudian dihadang, ada pasukan TNI dan Polri, sehingga mereka menuju ke rumah ibadah GHKI Desa Suka Makmur, Kecamatan Gunung Meriah," kata Badrodin dikutip dari CNN Indonesia.
+
+(vv1 / dihadang
+     :mod (vv2 / kemudian)
+     :mod (vv3 / ada
+               :ARG1 (vv4 / pasu
+                          :mod (vv5 / tni
+                                    :mod (vv6 / polri
+                                              :mod (vv7 / dan))))
+               :mod (vv8 / tuju
+                         :ARG0 (vv9 / mereka)
+                         :location (vv10 / rumah
+                                         :mod (vv11 / ibadah)
+                                         :mod (vv12 / ghki
+                                                    :mod (vv13 / desa
+                                                               :mod (vv14 / suka
+                                                                          :name (vv15 / makmur))))
+                                         :mod (vv16 / camat
+                                                    :mod (vv17 / gunung
+                                                               :name (vv18 / riah)))))
+               :mod (vv19 / kutip
+                          :ARG1 (vv20 / kata
+                                      :name (vv21 / badrodin))
+                          :ARG1 (vv22 / cnn
+                                      :mod (vv23 / indonesia)))))
+

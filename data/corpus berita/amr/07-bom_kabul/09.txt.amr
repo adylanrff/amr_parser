@@ -1,0 +1,101 @@
+# ::snt Sedikitnya 95 orang terbunuh dan sekitar 160 orang lainnya luka-luka akibat serangan bom di ibukota Afghanistan, Kabul.
+
+# ::snt Pejabat setempat di Afghanistan menyebutkan 95 orang terenggut nyawanya akibat ledakan bom di Kabul hari Sabtu (27/01).
+
+(vv1 / sebut
+     :ARG0 (vv2 / jabat
+                :mod (vv3 / tempat)
+                :mod (vv4 / afghanistan))
+     :ARG1 (vv5 / orang
+                :mod (vv6 / 95)
+                :mod (vv7 / renggut
+                          :ARG1 (vv8 / nyawa)
+                          :ARG1 (vv9 / ledak
+                                     :mod (vv10 / akibat)
+                                     :mod (vv11 / bom)
+                                     :mod (vv12 / kabul
+                                                :mod (vv13 / hari
+                                                           :mod (vv14 / sabtu)
+                                                           :mod (vv15 / 2701)))))))
+
+# ::snt Taliban mengeluarkan sebuah pernyataan bahwa mereka mengklaim bertanggung jawab atas serangan tersebut, dengan mengatakan bahwa pihaknya telah menargetkan sebuah konvoi polisi di daerah itu.
+
+(vv1 / keluar
+     :ARG0 (vv2 / talib)
+     :ARG1 (vv3 / nyata)
+     :mod (vv4 / klaim
+               :ARG0 (vv5 / mereka)
+               :ARG1 (vv6 / tanggung
+                          :ARG1 (vv7 / jawab)
+                          :location (vv8 / serang))
+               :ARG1 (vv9 / kata
+                          :mod (vv10 / target
+                                     :ARG0 (vv11 / pihak)
+                                     :mod (vv12 / telah)
+                                     :ARG1 (vv13 / konvoi
+                                                 :mod (vv14 / polisi)
+                                                 :mod (vv15 / daerah))))))
+
+# ::snt Pekan lalu, kelompok militan tersebut mengepung Hotel Intercontinental dan menewaskan 20 orang, termasuk 14 warga asing.
+
+(vv1 / kepung
+     :ARG0 (vv2 / pekan
+                :mod (vv3 / lalu)
+                :mod (vv4 / kelompok
+                          :mod (vv5 / militan)))
+     :ARG1 (vv6 / hotel
+                :name (vv7 / intercontinental))
+     :mod (vv8 / tewas
+               :mod (vv9 / dan)
+               :ARG1 (vv10 / orang
+                           :mod (vv11 / 20))
+               :ARG1 (vv12 / masuk
+                           :ARG0 (vv13 / warga
+                                       :mod (vv14 / 14)
+                                       :mod (vv15 / asing)))))
+
+# ::snt Seorang pejabat Uni Eropa mengatakan bahwa delegasi  untuk Afghanistan di kawasan tersebut berada di "ruang aman" , dengan menambahkan bahwa mereka tidak menderita kerugian apapun.
+
+(vv1 / kata
+     :ARG0 (vv2 / jabat
+                :mod (vv3 / uni
+                          :mod (vv4 / eropa)))
+     :ARG1 (vv5 / ada
+                :ARG0 (vv6 / delegasi
+                           :mod (vv7 / afghanistan)
+                           :mod (vv8 / kawasan))
+                :ARG1 (vv9 / ruang
+                           :mod (vv10 / aman))
+                :mod (vv11 / tambah
+                           :mod (vv12 / derita
+                                      :ARG0 (vv13 / mereka)
+                                      :mod (vv14 / tidak)
+                                      :ARG1 (vv15 / rugi)))))
+
+# ::snt Apa yang terjadi selanjutnya: Pihak berwenang kemungkinan akan membuka penyelidikan terhadap serangan tersebut dan memperkuat keamanan di wilayah itu --yang menjadi lokasi beberapa kedutaan besar dan markas besar Uni Eropa di Kabul.
+
+(vv1 / buka
+     :ARG0 (vv2 / apa
+                :mod (vv3 / jadi
+                          :mod (vv5 / pihak
+                                    :mod (vv7 / mungkin))
+                          :ARG1 (vv6 / wenang
+                                     :ARG1 (vv8 / akan))
+                          :ARG1 (vv17 / besar)))
+     :mod (vv9 / lidi
+               :mod (vv11 / kuat
+                          :mod (vv13 / aman
+                                     :mod (vv16 / duta
+                                                :mod (vv19 / uni
+                                                           :mod vv23)
+                                                :mod (vv21 / kabul)))
+                          :ARG1 (vv15 / lokasi
+                                      :mod (vv18 / markas
+                                                 :mod (vv14 / wilayah
+                                                            :mod (vv4 / lanjut))
+                                                 :mod (vv20 / eropa)
+                                                 :mod vv22
+                                                 :mod vv24))))
+     :ARG1 (vv10 / serang)
+     :mod (vv12 / dan))
+

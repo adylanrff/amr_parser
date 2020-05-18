@@ -1,0 +1,19 @@
+# ::snt Sedangkan warga Belanda Johannes van den Hende berencana kembali ke rumahnya di Melbourne setelah berlibur bersama istri dan tiga anaknya.
+
+(vv1 / rencana
+     :mod (vv2 / sedang)
+     :ARG0 (vv3 / warga
+                :mod (vv4 / belanda)
+                :mod (vv5 / johannes
+                          :name (vv6 / van
+                                     :name (vv7 / den
+                                                :name (vv8 / hende)))))
+     :mod (vv9 / kembali
+               :location (vv10 / rumah))
+     :location (vv11 / melbourne)
+     :ARG1 (vv12 / libur
+                 :ARG1 (vv13 / istri
+                             :mod (vv14 / anak
+                                        :mod (vv15 / dan)
+                                        :mod (vv16 / tiga)))))
+

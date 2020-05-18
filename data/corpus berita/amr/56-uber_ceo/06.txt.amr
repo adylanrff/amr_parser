@@ -1,0 +1,42 @@
+# ::snt Uber pada hari Selasa waktu setempat menyatakan bersedia bekerja sama dalam penyelidikan awal yang dilakukan oleh Department of Justice terkait dugaan penyuapan yang diberitakan oleh Reuters.
+
+(vv1 / nyata
+     :ARG0 (vv2 / uber)
+     :time (vv3 / hari
+                :mod (vv4 / selasa)
+                :mod (vv5 / waktu
+                          :mod (vv6 / tempat)))
+     :mod (vv7 / sedia
+               :ARG1 (vv8 / kerja
+                          :mod (vv9 / sama)
+                          :mod (vv10 / lidi
+                                     :mod (vv11 / awal)
+                                     :mod (vv12 / laku
+                                                :ARG1 (vv13 / department
+                                                            :mod (vv14 / of
+                                                                       :mod (vv15 / justice)))
+                                                :ARG1 (vv16 / kait
+                                                            :ARG1 (vv17 / duga
+                                                                        :mod (vv18 / suap)
+                                                                        :mod (vv19 / berita
+                                                                                   :ARG1 (vv20 / reuters)))))))))
+
+# ::snt Investigasi awal ini adalah yang terbaru dalam serangkaian belitan hukum yang melilit Uber yang sedang dalam proses pengangkatan CEO baru yang lowong selama hampir dua bulan.
+
+(vv1 / baru
+     :ARG0 (vv2 / investigasi
+                :mod (vv3 / awal))
+     :mod (vv4 / adalah)
+     :mod (vv5 / bit
+               :mod (vv6 / hukum)
+               :mod (vv7 / lilit
+                         :ARG0 (vv8 / uber)
+                         :ARG1 (vv9 / proses
+                                    :mod (vv10 / sedang)
+                                    :mod (vv11 / angkat
+                                               :mod (vv12 / ceo)
+                                               :mod (vv13 / lowong
+                                                          :ARG1 (vv14 / bulan
+                                                                      :mod (vv15 / hampir)
+                                                                      :mod (vv16 / dua))))))))
+

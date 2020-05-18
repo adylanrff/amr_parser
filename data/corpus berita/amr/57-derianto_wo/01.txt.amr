@@ -1,0 +1,48 @@
+# ::snt Kabar itu membuat marah para netizen yang menyebut Derianto tidak menghormati Anies dan memutuskan untuk ramai-ramai mencopot aplikasi Traveloka dari ponsel pintar.
+
+(vv1 / buat
+     :ARG0 (vv2 / kabar)
+     :ARG1 (vv3 / marah
+                :ARG1 (vv4 / netizen
+                           :mod (vv5 / sebut
+                                     :ARG0 (vv6 / derianto)
+                                     :mod (vv7 / hormat
+                                               :mod (vv8 / tidak)
+                                               :ARG0 (vv9 / anies))
+                                     :mod (vv10 / putus
+                                                :mod (vv11 / dan)
+                                                :mod (vv12 / copot
+                                                           :ARG0 (vv13 / ramairamai)
+                                                           :ARG1 (vv14 / aplikasi
+                                                                       :mod (vv15 / traveloka)
+                                                                       :mod (vv16 / ponsel))))))))
+
+# ::snt Entah darimana awalnya informasi ini beredar, karena ternyata kabar itu hanyalah hoax.
+
+(vv1 / edar
+     :mod (vv2 / entah)
+     :mod (vv3 / darimana)
+     :mod (vv4 / awal)
+     :ARG0 (vv5 / informasi)
+     :mod (vv6 / nyata)
+     :ARG1 (vv7 / kabar)
+     :ARG1 (vv8 / hoax
+                :mod (vv9 / hanya)))
+
+# ::snt Ini berarti apa yang diisukan di media sosial soal dukungan Derianto terhadap aksi walk out tersebut tidaklah benar.
+
+(vv1 / arti
+     :ARG0 (vv2 / ini)
+     :ARG1 (vv3 / apa
+                :mod (vv4 / isu
+                          :location (vv5 / media
+                                         :mod (vv6 / sosial)
+                                         :mod (vv7 / soal
+                                                   :mod (vv8 / dukung
+                                                             :name (vv9 / derianto)
+                                                             :mod (vv10 / aksi
+                                                                        :mod (vv11 / walk
+                                                                                   :mod (vv12 / out))))))))
+     :mod (vv13 / benar
+                :mod (vv14 / tidak)))
+

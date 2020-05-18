@@ -1,0 +1,277 @@
+# ::snt LGBT (Lesbian Gay Biseksual dan Transgender) memang selalu hangat dibicarakan. Tidak hanya di Indonesia, tetapi juga di seluruh dunia. Bahkan, saat ini LGBT sudah menjadi salah satu isu internasional yang banyak menyita perhatian. Salah satunya, Taiwan.
+
+(vv1 / bicara
+     :ARG1 (vv2 / lgbt
+                :name (vv4 / gay
+                           :name (vv6 / transgender
+                                      :mod (vv8 / memang)))
+                :mod (vv7 / dan))
+     :mod (vv9 / hangat
+               :mod (vv11 / hanya
+                          :mod (vv13 / indonesia)))
+     :mod (vv10 / selalu)
+     :mod (vv12 / tidak)
+     :ARG1 (vv14 / tetapi)
+     :mod (vv15 / dunia
+                :mod (vv17 / jadi
+                           :ARG0 (vv3 / lesbian
+                                      :name (vv5 / biseksual))
+                           :mod (vv19 / saat)
+                           :ARG1 (vv20 / sudah)
+                           :mod (vv21 / salah
+                                      :mod (vv22 / satu)
+                                      :mod (vv23 / isu
+                                                 :mod (vv25 / sita
+                                                            :mod (vv27 / perhati
+                                                                       :name vv29)
+                                                            :ARG1 (vv28 / taiwan))
+                                                 :mod (vv26 / banyak)))
+                           :ARG1 (vv24 / internasional)))
+     :ARG1 (vv16 / juga)
+     :mod (vv18 / bahkan))
+
+# ::snt Taiwan merupakan negara pertama di Asia yang menyatakan dukungan terhadap kaum LGBT berupa legalitas undang-undang untuk pernikahan sejenis. Asal mula idenya berasal dari komunitas LGBT, kemudian disahkan secara hukum pada awal 2017. Tepat saat Taiwan dipimpin presiden wanita pertama, Tsai Ing Wen.
+
+# ::snt Mungkin, bagi masyarakat Indonesia masih merasa aneh ketika melihat sepasang laki-laki bergandengan tangan di jalanan umum. Tapi kalau di Taiwan, itulah yang terjadi. Tidak hanya banyak pasangan Gay, namun kaum Lesbian juga cukup mendominasi. Mereka bisa dijumpai di pusat kota Taipei, Ibu Kota Taiwan.
+
+(vv1 / rasa
+     :mod (vv2 / mungkin)
+     :location (vv3 / masyarakat
+                    :mod (vv4 / indonesia))
+     :mod (vv5 / masih)
+     :ARG1 (vv6 / aneh)
+     :ARG1 (vv7 / lihat
+                :ARG1 (vv8 / pasang
+                           :mod (vv10 / gandeng
+                                      :ARG1 (vv12 / jalan
+                                                  :mod (vv14 / jadi
+                                                             :ARG1 (vv9 / lakilaki)
+                                                             :mod (vv16 / taiwan)
+                                                             :location (vv17 / tidak)
+                                                             :mod (vv23 / kaum
+                                                                        :mod (vv26 / cukup))))
+                                      :location (vv13 / umum))
+                           :mod (vv11 / tangan)
+                           :mod (vv19 / banyak)
+                           :mod (vv20 / gay)
+                           :mod (vv21 / dominasi
+                                      :mod (vv24 / lesbian)
+                                      :ARG0 (vv25 / juga)
+                                      :mod (vv27 / mereka)
+                                      :mod (vv28 / jumpa
+                                                 :mod (vv31 / kota
+                                                            :name (vv18 / hanya)
+                                                            :name vv35)
+                                                 :location (vv32 / taipei
+                                                                 :name vv36))
+                                      :ARG0 (vv29 / bisa))
+                           :mod (vv22 / namun)))
+     :mod (vv15 / tapi)
+     :mod (vv30 / pusat
+                :mod (vv33 / ibu
+                           :name vv34)))
+
+# ::snt Banyak cara untuk kaum LGBT di Taiwan dapat menemukan pasangannya. Mulai dari aplikasi online untuk kencan sesama jenis, bar khusus gay, lesbian, dan komunitas-komunitas lainnya. Selain itu, kaum LGBT Taiwan dapat menemukan pasangannya secara tidak sengaja, entah berkenalan secara langsung atau dikenalkan oleh teman.
+
+(vv1 / temu
+     :ARG0 (vv2 / cara
+                :mod (vv3 / kaum
+                          :mod (vv5 / taiwan)
+                          :mod (vv6 / dapat))
+                :mod (vv7 / pasang
+                          :mod (vv14 / bar
+                                     :mod (vv20 / lain))))
+     :ARG0 (vv4 / lgbt
+                :name (vv8 / mulai))
+     :mod (vv9 / aplikasi
+               :mod (vv15 / khusus)
+               :mod (vv16 / gay
+                          :mod (vv22 / tidak)
+                          :mod (vv23 / sengaja)))
+     :mod (vv10 / online)
+     :ARG1 (vv11 / kencan
+                 :mod (vv17 / lesbian)
+                 :mod (vv18 / komunitaskomunitas
+                            :mod (vv24 / entah)
+                            :mod (vv25 / langsung)))
+     :ARG1 (vv12 / sama)
+     :ARG1 (vv13 / jenis
+                 :mod (vv19 / dan)
+                 :mod (vv21 / nal
+                            :mod (vv27 / atau)
+                            :mod (vv28 / teman)
+                            :mod vv29
+                            :mod vv30
+                            :mod vv31))
+     :mod (vv26 / kenal
+                :mod vv32
+                :ARG1 vv33))
+
+# ::snt Bicara tentang LGBT, tentunya masing-masing orang memiliki perspektif yang berbeda di kalangan masyarakat Taiwan. Pertanyaannya masih sama seperti halnya, setuju atau tidak. Jelas tidak semua masyarakat Taiwan mendukung sepenuhnya LGBT mengingat lingkup Asia masih memandang bahwa segala sesuatu yang tidak wajar adalah tabu.
+
+(vv1 / milik
+     :ARG0 (vv2 / bicara
+                :mod (vv3 / lgbt
+                          :mod (vv5 / masingmasing
+                                    :mod (vv7 / perspektif
+                                              :mod (vv9 / kalang
+                                                        :mod (vv11 / taiwan
+                                                                   :mod (vv15 / hal
+                                                                              :mod (vv20 / dukung
+                                                                                         :ARG0 (vv4 / tentu)
+                                                                                         :mod (vv27 / sesuatu
+                                                                                                    :mod vv34)
+                                                                                         :ARG1 (vv28 / wajar
+                                                                                                     :mod (vv25 / pandang
+                                                                                                                :mod (vv18 / atau)
+                                                                                                                :mod vv32))
+                                                                                         :mod vv31)))
+                                                        :mod (vv16 / tuju
+                                                                   :mod (vv21 / sepenuh)))
+                                              :mod (vv10 / masyarakat
+                                                         :mod (vv13 / sama
+                                                                    :mod (vv17 / jelas
+                                                                               :mod (vv12 / tanya)
+                                                                               :mod (vv22 / ingat
+                                                                                          :ARG1 (vv29 / adalah))
+                                                                               :mod (vv23 / lingkup
+                                                                                          :name vv30))
+                                                                    :mod (vv19 / tidak))
+                                                         :mod (vv14 / masih)
+                                                         :mod (vv24 / asia)
+                                                         :mod (vv26 / tabu
+                                                                    :ARG0 vv33
+                                                                    :mod vv35))))))
+     :ARG0 (vv6 / orang)
+     :ARG1 (vv8 / beda))
+
+# ::snt Dalam sebuah survei yang dilakukan untuk mengamati reaksi atas isu LGBT, didapati bahwa 53 persen masyarakat Taiwan mendukung adanya pernikahan sesama jenis. Sebanyak 37 persen lainnya menolak atau tidak mendukung. Sedangkan orang yang berusia antara 20 dan 29 tahun, yang mendukung sebesar 78 persen.
+
+# ::snt Sumber pertentangan utama berasal dari komunitas Kristen di Taiwan, hanya 25 persen masyarakat yang mendukung pernikahan sesama jenis mengutip United Daily News Taiwan. Berlatar belakang dukungan karakter dari masyarakat Taiwan yang open minded dan sangat demokratis, tidak heran mereka tidak pernah mau banyak mencampuri urusan kehidupan orang lain.
+
+(vv1 / asal
+     :ARG0 (vv2 / sumber
+                :mod (vv3 / tentang
+                          :mod (vv4 / utama)))
+     :location (vv5 / komunitas
+                    :mod (vv6 / kristen)
+                    :mod (vv7 / taiwan))
+     :location (vv10 / 25)
+     :ARG1 (vv13 / nikah
+                 :mod (vv18 / news
+                            :name (vv8 / persen
+                                       :mod (vv11 / masyarakat
+                                                  :mod (vv9 / hanya)
+                                                  :mod (vv15 / kutip
+                                                             :ARG1 (vv20 / belakang
+                                                                         :mod (vv16 / united
+                                                                                    :mod (vv21 / karakter))))
+                                                  :mod (vv26 / sangat)
+                                                  :mod (vv27 / heran
+                                                             :mod (vv32 / campur
+                                                                        :mod vv38
+                                                                        :ARG1 vv39)
+                                                             :ARG0 (vv34 / urus
+                                                                         :mod vv40)
+                                                             :mod (vv35 / hidup
+                                                                        :mod vv41)))
+                                       :mod (vv12 / dukung
+                                                  :mod (vv14 / jenis)
+                                                  :ARG1 (vv17 / daily
+                                                              :name (vv22 / open))
+                                                  :mod (vv23 / minded
+                                                             :mod (vv28 / tidak))
+                                                  :mod (vv25 / dan))))
+                 :mod (vv19 / latar
+                            :ARG1 (vv24 / demokratis
+                                        :mod (vv29 / mereka)
+                                        :mod (vv30 / mau
+                                                   :mod (vv33 / banyak)
+                                                   :mod (vv36 / orang
+                                                              :mod vv42)
+                                                   :mod (vv37 / lain))
+                                        :mod (vv31 / pernah)))))
+
+# ::snt Dari sisi agama yang mayoritas masyarakat Taiwan penganut ajaran Buddhisme dan agama Tiongkok tradisional, tidak memiliki larangan tertulis sebagai dasar yang kuat dalam melawan orientasi seksual atau pernikahan sejenis.
+
+# ::snt Masyarakat Taiwan masih satu rumpun dengan Negara Republik Rakyat Tiongkok. Ras Tionghoa dan masih menganut sistem patriarki, yakni garis keturunan hanya akan dapat diteruskan atau diwariskan oleh anak laki-laki. Sama seperti di negara lain, di Taiwan memiliki keturunan adalah sesuatu yang diamanahkan bahkan diwajibkan.
+
+# ::snt Meski yang lebih diutamakan adalah keturunan laki-laki yang dinilai dapat meneruskan marga atau nama keluarga pada keturunan selanjutnya. Makin maraknya anak muda di Taiwan yang tergabung dalam kaum LGBT, membuat banyak orang tua resah akan kelangsungan garis keturunan mereka. Contohnya saja pada kasus gay, orang tua yang sangat mengharapkan keturunan dari anak laki-lakinya harus "menelan pil pahit" lantaran anaknya memilih garis hidup yang berbeda.
+
+# ::snt Sebab, ketika orang tua merelakan anaknya menjadi gay, itu berarti tidak akan dapat memiliki keturunan biologis seumur hidup mereka. Perlu diketahui, bahwa jumlah anak dalam satu keluarga di Taiwan tidaklah terlalu banyak. Rata-rata dua anak sehingga orang tua cukup protektif terhadap anak-anaknya.
+
+# ::snt Kekecewaan orang tua dari kaum LGBT dapat terlihat terutama pada anak laki-lakinya. Sebab, dia yang semula diharapkan untuk dapat meneruskan garis keturunan namun sayangnya tidak dapat memenuhi angan kedua orang tuanya. Jika dilihat dari sisi orang tua, mereka sangat berharap kebahagiaan anaknya, namun di sisi lain mereka juga ingin anaknya tumbuh sesuai dengan harapan.
+
+(vv1 / lihat
+     :ARG1 (vv2 / kecewa
+                :mod (vv3 / orang
+                          :mod (vv6 / lgbt)
+                          :mod (vv7 / dapat)
+                          :mod (vv8 / anak
+                                    :mod (vv17 / penuh
+                                               :mod (vv13 / mula)
+                                               :mod (vv28 / mereka)
+                                               :mod (vv30 / tumbuh
+                                                          :ARG1 (vv21 / angan
+                                                                      :mod (vv4 / tua))
+                                                          :mod vv43)
+                                               :mod (vv31 / sesuai)
+                                               :ARG1 vv32)
+                                    :mod (vv18 / namun))
+                          :mod vv33)
+                :mod (vv9 / utama))
+     :mod (vv11 / harap
+                :ARG1 (vv22 / dua)
+                :mod (vv23 / sisi
+                           :mod (vv5 / kaum
+                                     :mod (vv10 / lakilakinya))
+                           :mod vv39)
+                :mod (vv24 / sangat)
+                :mod vv36
+                :ARG1 vv37
+                :mod vv38)
+     :location (vv14 / terus
+                     :mod (vv12 / dia)
+                     :ARG1 (vv25 / bahagia
+                                 :mod (vv15 / garis
+                                            :mod (vv26 / ingin
+                                                       :ARG0 (vv16 / turun)
+                                                       :mod (vv29 / juga)
+                                                       :location vv35
+                                                       :ARG0 vv40
+                                                       :mod vv41
+                                                       :mod vv42)))
+                     :mod (vv27 / lain))
+     :mod (vv19 / sayang)
+     :mod (vv20 / tidak)
+     :location vv34)
+
+# ::snt Semua keputusan yang dibuat pasti akan menimbulkan dampak baik dan buruk, demikian halnya pada kasus ini. Melihat sisi positifnya, banyak dari kaum LGBT Taiwan yang menemukan kebebasan dalam berekspresi. Termasuk, mengemukakan pendapat dan merasa memiliki kendali atas jalan kehidupannya. Bukankah itu inti dari sebuah kebebasan? Betapa bahagia seseorang jika mampu menemukan jati dirinya yang sebenarnya tanpa harus menutupinya, dan untuk kaum LGBT tidak perlu bersembunyi untuk dapat bertemu dengan kaumnya.
+
+# ::snt Saya menilai bahwa segala sesuatu yang terlalu dilarang tidak akan memberikan efek jera karena LGBT adalah hanya masalah moralitas, bukan kriminalitas. Bila dilihat sisi negatifnya, semenjak keputusan ini dibuat atas usulan kaum muda, tentu dapat memengaruhi perkembangan mental generasi muda yang akan memandang LGBT bukanlah suatu hal yang tabu lagi.
+
+# ::snt Bukankah hal tersebut sebenarnya dapat merusak moral generasi muda? karena dianggap hal tersebut adalah benar dan mereka dapat terinspirasi akan hal tersebut karena terbiasa dari kecil melihat kewajarannya.s
+
+(vv1 / rusak
+     :ARG1 (vv2 / bukankah)
+     :ARG0 (vv3 / hal
+                :mod (vv18 / kewajarannyas))
+     :mod (vv6 / moral
+               :mod (vv11 / inspirasi
+                          :ARG1 (vv5 / dapat)
+                          :mod (vv9 / anggap
+                                    :ARG1 (vv4 / benar
+                                               :mod (vv14 / akan)
+                                               :mod (vv15 / biasa
+                                                          :ARG1 vv20
+                                                          :mod vv21)))
+                          :mod (vv16 / kecil)
+                          :ARG1 (vv17 / lihat
+                                      :ARG1 vv22)
+                          :mod vv19))
+     :mod (vv7 / generasi
+               :mod (vv12 / dan))
+     :mod (vv8 / muda)
+     :ARG1 (vv10 / adalah)
+     :ARG1 (vv13 / mereka))
+

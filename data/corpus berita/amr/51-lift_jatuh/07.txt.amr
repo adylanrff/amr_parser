@@ -1,0 +1,71 @@
+# ::snt Para korban kini tengah dirawat di Rumah Sakit Pusat Pertamina dan Puskesmas Kebayoran Baru.
+
+(vv1 / rawat
+     :ARG1 (vv2 / korban)
+     :location (vv3 / kini)
+     :mod (vv4 / tengah)
+     :location (vv5 / rumah
+                    :name (vv6 / sakit
+                               :mod (vv7 / pusat
+                                         :name (vv8 / pertamina)))
+                    :mod (vv9 / puskesmas
+                              :mod (vv10 / dan)
+                              :name (vv11 / kebayoran
+                                          :name (vv12 / baru)))))
+
+# ::snt "Untuk saat ini dokter tidak memperbolehkan korban atau pasien dimintai keterangan karena masih dalam penanganan," ujar Teguh di tempat kejadian perkara.
+
+(vv1 / boleh
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / dokter)
+     :mod (vv4 / tidak)
+     :ARG1 (vv5 / korban
+                :mod (vv6 / pasien
+                          :mod (vv7 / atau)))
+     :mod (vv8 / minta
+               :ARG1 (vv9 / terang
+                          :mod (vv10 / tangan
+                                     :mod (vv11 / masih)
+                                     :mod (vv12 / teguh
+                                                :ARG0 (vv13 / ujar)
+                                                :mod (vv14 / tempat
+                                                           :mod (vv15 / jadi
+                                                                      :mod (vv16 / perkara))))))))
+
+# ::snt "Ketika di posisi lantai satu, tiba-tiba lift terjatuh dan terdengar bunyi keras di basement," kata Ati.
+
+(vv1 / jatuh
+     :location (vv2 / posisi
+                    :mod (vv3 / lantai)
+                    :mod (vv4 / tibatiba
+                              :mod (vv5 / lift)))
+     :mod (vv6 / dengar
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / bunyi
+                          :mod (vv9 / keras)
+                          :mod (vv10 / basement
+                                     :mod (vv11 / kata
+                                                :name (vv12 / ati))))))
+
+# ::snt "Saya membawa korban yang mengalami patah tulang kaki sebelah kiri dan leher dan anak sekolah yg mengalami syok," kata Herman.
+
+(vv1 / bawa
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / korban
+                :mod (vv4 / alami
+                          :ARG1 (vv6 / tulang
+                                     :mod (vv8 / kiri
+                                               :mod (vv10 / leher
+                                                          :mod (vv12 / anak
+                                                                     :mod (vv5 / patah
+                                                                               :mod (vv7 / kaki)
+                                                                               :mod (vv9 / belah))
+                                                                     :mod (vv13 / sekolah)
+                                                                     :mod (vv15 / syok
+                                                                                :mod vv18)))
+                                               :mod (vv11 / dan)
+                                               :mod (vv14 / yg)))
+                          :ARG0 (vv16 / kata)
+                          :ARG1 (vv17 / herman)))
+     :ARG1 vv19)
+

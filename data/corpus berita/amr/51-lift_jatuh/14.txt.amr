@@ -1,0 +1,72 @@
+# ::snt "Petugas sedang periksa di lokasi kejadian," kata Kepala Satuan Reserse Kriminal Polrestro Jakarta Selatan Ajun Komisaris Besar Polisi Budi Hermanto di Jakarta, Jumat.
+
+(vv1 / periksa
+     :ARG0 (vv2 / tugas)
+     :mod (vv3 / sedang)
+     :location (vv4 / lokasi
+                    :mod (vv5 / jadi)
+                    :mod (vv6 / kata
+                              :name (vv7 / kepala
+                                         :mod (vv8 / satu
+                                                   :mod (vv9 / reserse
+                                                             :name (vv10 / kriminal
+                                                                         :name (vv11 / polrestro
+                                                                                     :name (vv12 / jakarta
+                                                                                                 :name (vv14 / ajun
+                                                                                                             :ARG1 (vv13 / selatan)
+                                                                                                             :name (vv16 / besar
+                                                                                                                         :mod (vv18 / budi
+                                                                                                                                    :name (vv20 / jumat))))
+                                                                                                 :time vv21)))))
+                                         :mod (vv15 / komisaris
+                                                    :mod (vv17 / polisi
+                                                               :name (vv19 / hermanto)))))))
+
+# ::snt Budi belum dapat menjelaskan kronologis kejadian musibah tersebut karena penyidik kepolisian masih melakukan pemeriksaan.
+
+(vv1 / jelas
+     :ARG0 (vv2 / budi)
+     :mod (vv3 / belum)
+     :mod (vv4 / dapat)
+     :ARG1 (vv5 / kronologis
+                :mod (vv6 / jadi
+                          :mod (vv7 / musibah)))
+     :ARG1 (vv8 / laku
+                :ARG0 (vv9 / sidik
+                           :mod (vv10 / kepolisian))
+                :mod (vv11 / masih)
+                :ARG1 (vv12 / periksa)))
+
+# ::snt Berdasarkan informasi, musibah tersebut melukai sejumlah orang yang berada di lift namun belum diketahui ada atau tidak korban meninggal dunia.
+
+(vv3 / luka
+     :location (vv1 / informasi
+                    :mod (vv2 / dasar)
+                    :mod (vv4 / musibah))
+     :ARG1 (vv5 / orang
+                :mod (vv6 / ada
+                          :location (vv8 / tahu
+                                         :mod (vv7 / lift)
+                                         :mod (vv10 / belum)
+                                         :mod (vv11 / tinggal
+                                                    :mod (vv13 / tidak)
+                                                    :mod (vv14 / korban)
+                                                    :ARG0 (vv15 / dunia)
+                                                    :ARG1 vv16)
+                                         :mod (vv12 / atau))
+                          :mod (vv9 / namun))))
+
+# ::snt Petugas keamanan dibantu pengunjung pusat perbelanjaan itu mengevakuasi para korban yang terjebak di dalam lift. 
+
+(vv1 / bantu
+     :ARG1 (vv2 / tugas
+                :mod (vv3 / aman))
+     :ARG1 (vv4 / unjung
+                :mod (vv5 / pusat
+                          :mod (vv6 / belanja)))
+     :mod (vv7 / evakuasi
+               :ARG1 (vv8 / korban
+                          :mod (vv9 / jebak
+                                    :location (vv10 / lift
+                                                    :mod (vv11 / dalam))))))
+

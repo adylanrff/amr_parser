@@ -1,0 +1,224 @@
+# ::snt Rumah Sakit Siloam, Semanggi, Jakarta Selatan memutuskan mengambil tindakan medis berupa operasi terhadap tujuh orang korban insiden reruntuhan selasar tower Bursa Efek Indonesia (BEI).
+
+(vv1 / putus
+     :ARG0 (vv2 / rumah
+                :name (vv3 / sakit
+                           :mod (vv4 / siloam
+                                     :mod (vv5 / semanggi
+                                               :name (vv6 / jakarta
+                                                          :name (vv7 / selatan))))))
+     :mod (vv8 / ambil
+               :ARG1 (vv9 / tindak
+                          :mod (vv10 / medis))
+               :ARG1 (vv11 / upa
+                           :ARG1 (vv12 / operasi
+                                       :mod (vv13 / orang
+                                                  :mod (vv14 / tujuh)
+                                                  :mod (vv15 / korban)
+                                                  :mod (vv16 / insiden
+                                                             :mod (vv17 / runtuh
+                                                                        :mod (vv18 / selasar
+                                                                                   :mod (vv19 / tower
+                                                                                              :mod (vv20 / bursa
+                                                                                                         :mod (vv21 / efek
+                                                                                                                    :mod (vv22 / indonesia
+                                                                                                                               :name (vv23 / bei)))))))))))))
+
+# ::snt Head Bussiness Development RS Siloam Semanggi Triana Tambunan mengatakan, tindakan ini diambil setelah melakukan pemeriksaan dan menemukan luka patah tulang yang dialami tujuh orang di bagian tubuh berbeda-beda.
+
+(vv1 / kata
+     :ARG0 (vv2 / head
+                :name (vv3 / bussiness
+                           :mod (vv4 / development))
+                :name (vv5 / rs
+                           :name (vv6 / siloam
+                                      :mod (vv7 / semanggi
+                                                :name (vv8 / triana
+                                                           :name (vv9 / tambun))))))
+     :ARG1 (vv10 / tindak)
+     :mod (vv11 / ambil
+                :ARG1 (vv12 / laku
+                            :ARG1 (vv13 / periksa)
+                            :ARG1 (vv14 / temu
+                                        :mod (vv15 / dan)
+                                        :ARG1 (vv16 / luka
+                                                    :mod (vv17 / patah
+                                                               :mod (vv18 / tulang))
+                                                    :mod (vv19 / alami
+                                                               :ARG1 (vv20 / orang
+                                                                           :mod (vv21 / tujuh))
+                                                               :ARG1 (vv22 / bagi
+                                                                           :mod (vv23 / tubuh)
+                                                                           :mod (vv24 / berbedabeda))))))))
+
+# ::snt "Satu orang operasi juga tadi sudah selesai operasinya," ujar Triana.
+
+(vv1 / selesai
+     :ARG0 (vv2 / orang
+                :mod (vv3 / operasi))
+     :ARG1 (vv4 / juga)
+     :mod (vv5 / tadi)
+     :time (vv6 / sudah)
+     :mod (vv7 / ujar
+               :ARG0 vv9)
+     :ARG1 (vv8 / triana))
+
+# ::snt Lebih dari itu, dia menyatakan, total pasien korban insiden reruntuhan selasar tower BEI yang masih menjalani perawatan di RS Siloam, Semanggi, berjumlah 23 orang.
+
+(vv1 / nyata
+     :mod (vv2 / lebih)
+     :ARG0 (vv3 / dia)
+     :ARG1 (vv4 / total)
+     :ARG1 (vv5 / pasien
+                :mod (vv6 / korban)
+                :mod (vv7 / insiden
+                          :mod (vv8 / runtuh
+                                    :mod (vv9 / selasar
+                                              :mod (vv10 / tower
+                                                         :mod (vv11 / bei)))
+                                    :mod (vv12 / jalan
+                                               :mod (vv13 / masih)
+                                               :ARG1 (vv14 / awat)
+                                               :location (vv15 / rs
+                                                               :name (vv16 / siloam
+                                                                           :mod (vv17 / semanggi)))))))
+     :ARG1 (vv18 / jumlah
+                 :ARG1 (vv19 / orang
+                             :mod (vv20 / 23))))
+
+# ::snt Menurutnya, 23 pasien itu akan menjalani rawat inap dengan penanganan dari 50 orang dokter dan perawat di RS Siloam, Semanggi.
+
+(vv4 / jalan
+     :ARG1 (vv1 / pasien
+                :mod (vv2 / turut)
+                :mod (vv3 / 23))
+     :mod (vv5 / akan)
+     :ARG1 (vv6 / rawat
+                :mod (vv7 / inap))
+     :ARG1 (vv8 / tangan
+                :mod (vv9 / orang
+                          :mod (vv10 / 50)
+                          :mod (vv11 / dokter
+                                     :mod (vv12 / awat
+                                                :mod (vv13 / dan)
+                                                :mod (vv14 / rs
+                                                           :name (vv15 / siloam
+                                                                       :mod (vv16 / semanggi))))))))
+
+# ::snt Triana menambahkan, pihaknya menyediakan tiga lantai untuk digunakan sebagai area perawatan korban insiden reruntuhan selasar tower BEI.
+
+(vv1 / tambah
+     :ARG0 (vv2 / pihak)
+     :ARG1 (vv3 / sedia
+                :ARG1 (vv4 / lantai
+                           :mod (vv5 / tiga))
+                :mod (vv6 / guna
+                          :location (vv7 / area
+                                         :mod (vv8 / awat
+                                                   :mod (vv9 / korban
+                                                             :mod (vv10 / insiden
+                                                                        :mod (vv11 / runtuh
+                                                                                   :mod (vv12 / selasar
+                                                                                              :mod (vv13 / tower
+                                                                                                         :mod (vv14 / bei)))))))))))
+
+# ::snt "Kami sediakan tiga lantai, satu lantai untuk emergency sudah pasti," ucap dia.
+
+(vv1 / sedia
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / lantai
+                :mod (vv4 / tiga)
+                :mod (vv5 / emergency
+                          :mod (vv7 / sudah))
+                :mod (vv6 / pasti
+                          :mod (vv8 / ucap)))
+     :mod (vv9 / dia)
+     :ARG1 vv10)
+
+# ::snt Koresponden CNN Indonesia Hera F Haryn, melaporkan, saat kejadian tersebut ratusan mahasiswa berada di Gedung BEI.
+
+(vv1 / lapor
+     :ARG0 (vv2 / koresponden
+                :name (vv3 / cnn
+                           :mod (vv4 / indonesia))
+                :name (vv5 / hera
+                           :name (vv6 / f
+                                      :name (vv7 / haryn))))
+     :ARG1 (vv8 / jadi
+                :mod (vv9 / saat))
+     :mod (vv10 / ada
+                :ARG0 (vv11 / mahasiswa)
+                :location (vv12 / gedung
+                                :mod (vv13 / bei))))
+
+# ::snt "Ratusan orang, kebanyakan mahasiswa dari Universitas Bina Darma Palembang," demikian laporan Hera kepada CNN Indonesia TV.
+
+(vv1 / ratus
+     :mod (vv2 / orang
+               :mod (vv3 / mahasiswa
+                         :mod (vv4 / universitas
+                                   :mod (vv5 / bina
+                                             :name (vv6 / darma
+                                                        :name (vv7 / palembang))))
+                         :mod (vv8 / lapor
+                                   :mod (vv9 / demikian)
+                                   :name (vv10 / hera)
+                                   :mod (vv11 / cnn
+                                              :mod (vv12 / indonesia
+                                                         :name (vv13 / tv)))))))
+
+# ::snt Data sementara pihak kepolisian menyebutkan, jumlah total korban insiden robohnya selasar menara Bursa Efek Indonesia (BEI) adalah sebanyak 77 orang.
+
+(vv1 / sebut
+     :ARG0 (vv2 / data
+                :mod (vv3 / pihak
+                          :mod (vv4 / kepolisian)))
+     :ARG1 (vv5 / jumlah
+                :mod (vv6 / total)
+                :mod (vv7 / korban)
+                :mod (vv8 / insiden
+                          :mod (vv9 / roboh)
+                          :mod (vv10 / selasar
+                                     :mod (vv11 / menara
+                                                :mod (vv12 / bursa
+                                                           :mod (vv13 / efek
+                                                                      :mod (vv14 / indonesia
+                                                                                 :name (vv15 / bei))))))))
+     :mod (vv16 / orang
+                :mod (vv17 / adalah)
+                :mod (vv18 / banyak)
+                :mod (vv19 / 77)))
+
+# ::snt "RSAL Mintohardjo ada 17 orang, RS Siloam Semanggi 32 orang , RS Pusat Pertamina ada tujuh orang, RSUD Tarakan ada satu orang, dan RS Jakarta 20 orang," ucap Setyo dalam keterangan tertulis, Senin (15/1).
+
+(vv1 / ada
+     :ARG0 (vv2 / rsal
+                :name (vv3 / mintohardjo))
+     :ARG1 (vv4 / orang
+                :mod (vv9 / 32)
+                :mod (vv10 / pusat
+                           :name (vv17 / jakarta))
+                :mod (vv11 / pertamina)
+                :mod (vv12 / tujuh)
+                :mod (vv18 / 20)
+                :mod (vv19 / ucap)
+                :mod (vv21 / terang
+                           :mod vv28)
+                :mod (vv24 / 151)
+                :mod vv25
+                :mod vv26
+                :mod vv27)
+     :ARG1 (vv6 / rs
+                :mod (vv5 / 17)
+                :mod (vv8 / semanggi
+                          :mod (vv15 / satu))
+                :name (vv13 / rsud
+                            :name (vv20 / setyo))
+                :mod (vv16 / dan)
+                :mod (vv22 / tulis
+                           :ARG0 vv29)
+                :name (vv23 / senin
+                            :mod vv30))
+     :ARG1 (vv7 / siloam
+                :mod (vv14 / tara)))
+

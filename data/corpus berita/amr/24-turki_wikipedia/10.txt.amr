@@ -1,0 +1,18 @@
+# ::snt Pemerintah Turki memblokir website ensiklopedia online terbesar di dunia, Wikipedia, Sabtu, 29 April 2017.
+
+(vv1 / blokir
+     :ARG0 (vv2 / perintah
+                :mod (vv3 / turki))
+     :ARG1 (vv4 / website
+                :mod (vv5 / ensiklopedia
+                          :mod (vv6 / online)
+                          :mod (vv7 / besar))
+                :mod (vv8 / dunia
+                          :mod (vv9 / wikipedia)
+                          :mod (vv10 / sabtu
+                                     :mod (vv11 / april
+                                                :mod (vv12 / 29)
+                                                :mod (vv13 / 2017))))))
+
+# ::snt "Alih-alih berkoordinasi melawan terorisme, Wikipedia justru menjadi sumber informasi yang mencemarkan nama Turki di dunia internasional," ujar Kementerian Komunikasi Turki.
+

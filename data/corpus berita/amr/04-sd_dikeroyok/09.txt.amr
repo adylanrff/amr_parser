@@ -1,0 +1,24 @@
+# ::snt Terduga pelaku harus diperiksa di rumah dan didampingi orangtua.
+
+(vv1 / periksa
+     :ARG1 (vv2 / duga)
+     :ARG1 (vv3 / laku)
+     :mod (vv4 / harus)
+     :location (vv5 / rumah)
+     :mod (vv6 / damping
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / orangtua)))
+
+# ::snt Selain itu, polisi juga tengah mengembangkan apakah ada unsur kelalaian dari sekolah atau tidak.
+
+(vv1 / kembang
+     :ARG0 (vv2 / polisi)
+     :mod (vv3 / juga)
+     :mod (vv4 / tengah)
+     :mod (vv5 / ada
+               :ARG1 (vv6 / unsur
+                          :mod (vv7 / lalai)
+                          :mod (vv8 / sekolah
+                                    :mod (vv9 / tidak
+                                              :mod (vv10 / atau))))))
+

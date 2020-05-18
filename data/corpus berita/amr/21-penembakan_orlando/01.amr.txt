@@ -1,0 +1,274 @@
+# ::snt Pria bersenjata yang menewaskan puluhan orang di sebuah klub malam gay di Orlando, Florida, telah diidentifikasi sebagai Omar Mateen, warga AS yang telah dikenal FBI sejak 2013.
+
+# ::snt Mateen melepaskan tembakan di dalam klub malam Pulse, Minggu dini hari dalam penembakan paling mematikan dalam sejarah AS modern.
+
+(vv1 / lepas
+     :ARG0 (vv2 / mateen)
+     :ARG1 (vv3 / tembak
+                :mod (vv5 / dalam)
+                :mod (vv12 / paling))
+     :ARG1 (vv4 / klub
+                :mod (vv6 / malam
+                          :mod (vv8 / minggu))
+                :mod (vv7 / pulse
+                          :mod (vv9 / hari
+                                    :mod (vv11 / mati
+                                               :mod (vv13 / sejarah
+                                                          :mod (vv15 / modern))
+                                               :location (vv14 / as
+                                                               :mod vv16)))))
+     :time (vv10 / dini))
+
+# ::snt Pejabat FBI mengatakan pria 29 tahun yang kemudian tewas ditembak oleh polisi itu, tampaknya "cenderung berpihak terhadap" ideologi Islam radikal, meskipun tidak jelas apakah serangan itu tergolong kasus terorisme domestik atau internasional.
+
+(vv1 / kata
+     :ARG0 (vv2 / jabat
+                :name (vv3 / fbi))
+     :ARG1 (vv4 / pria
+                :mod (vv5 / tahun
+                          :mod (vv6 / 29))
+                :mod (vv7 / tembak
+                          :mod (vv8 / kemudian)
+                          :mod (vv9 / tewas)
+                          :location (vv10 / polisi)))
+     :ARG1 (vv11 / pihak
+                 :mod (vv12 / tampak)
+                 :mod (vv13 / cenderung)
+                 :ARG1 (vv14 / ideologi
+                             :mod (vv15 / islam
+                                        :mod (vv16 / radikal)))
+                 :mod (vv17 / jelas
+                            :mod (vv18 / tidak)))
+     :mod (vv19 / golong
+                :mod (vv20 / apakah)
+                :ARG1 (vv21 / serang)
+                :ARG1 (vv22 / kasus
+                            :mod (vv23 / terorisme
+                                       :mod (vv24 / domestik
+                                                  :mod (vv25 / internasional
+                                                             :mod (vv26 / atau)))))))
+
+# ::snt Mateen melakukan panggilan darurat 911 tak lama sebelum dia dilaporkan menyatakan kesetiaannya kepada kelompok yang menamakan diri Negara Islam atau ISIS.
+
+(vv1 / laku
+     :ARG0 (vv2 / mateen)
+     :ARG1 (vv3 / panggil
+                :mod (vv4 / darurat
+                          :mod (vv5 / 911))
+                :mod (vv6 / lama
+                          :mod (vv7 / tak)))
+     :mod (vv8 / lapor
+               :ARG1 (vv9 / dia))
+     :mod (vv10 / nyata
+                :ARG1 (vv11 / setia
+                            :mod (vv12 / kelompok
+                                       :mod (vv13 / nama
+                                                  :ARG1 (vv14 / diri
+                                                              :mod (vv15 / negara
+                                                                         :mod (vv16 / islam))
+                                                              :mod (vv17 / isis
+                                                                         :mod (vv18 / atau))))))))
+
+# ::snt Kelompok ini kemudian mengatakan bahwa 'pejuang' IS telah melakukan serangan itu, tetapi tidak menyebutkan apakah mereka terlibat langsung atau hanya mengambil kredit atas pengaruh mereka yang menginspirasikan tindakan itu.
+
+(vv1 / kata
+     :ARG0 (vv2 / kelompok)
+     :mod (vv3 / kemudian)
+     :ARG1 (vv4 / laku
+                :ARG0 (vv5 / juang
+                           :mod (vv6 / is))
+                :mod (vv7 / telah)
+                :ARG1 (vv8 / serang)
+                :mod (vv9 / sebut
+                          :mod (vv10 / tetapi)
+                          :mod (vv11 / tidak)
+                          :mod (vv12 / libat
+                                     :mod (vv13 / apakah)
+                                     :ARG1 (vv14 / mereka)
+                                     :mod (vv15 / langsung)
+                                     :mod (vv16 / ambil
+                                                :mod (vv17 / atau)
+                                                :mod (vv18 / hanya)
+                                                :ARG1 (vv19 / kredit
+                                                            :mod (vv20 / pengaruh
+                                                                       :mod (vv21 / inspirasi
+                                                                                  :ARG1 (vv22 / tindak)))))))))
+
+# ::snt Sementara itu ayah Mateen mengatakan kepada NBC News serangan itu "tidak ada hubungannya dengan agama."
+
+(vv1 / kata
+     :ARG0 (vv2 / ayah
+                :mod (vv3 / mateen))
+     :ARG1 (vv4 / nbc
+                :name (vv5 / news))
+     :ARG1 (vv6 / ada
+                :ARG0 (vv7 / serang)
+                :mod (vv8 / tidak)
+                :ARG1 (vv9 / hubung)
+                :ARG1 (vv10 / agama)))
+
+# ::snt Seddique Mateen mengatakan anaknya menjadi "sangat marah" setelah melihat dua pria berciuman di pusat kota Miami baru-baru ini.
+
+(vv1 / kata
+     :ARG0 (vv2 / seddique
+                :name (vv3 / mateen))
+     :ARG1 (vv4 / anak)
+     :ARG1 (vv5 / jadi
+                :mod (vv6 / marah
+                          :mod (vv7 / sangat))
+                :ARG1 (vv8 / lihat
+                           :ARG1 (vv9 / pria
+                                      :mod (vv10 / dua)
+                                      :mod (vv11 / cium)
+                                      :mod (vv12 / pusat
+                                                 :mod (vv13 / kota
+                                                            :name (vv14 / miami
+                                                                        :name (vv15 / barubaru))))))))
+
+# ::snt Seiring munculnya pertanyaan tentang riwayat si penembak, Agen Khusus FBI Ron Hopper mengatakan kepada wartawan bahwa FBI pernah mewawancarai Mateen dua kali pada tahun 2013, terkait pernyataannya kepada kawan-kawannya yang terkait kesetiaannya kepada ISIS.
+
+# ::snt Penyelidikan FBI tidak menemukan "hubungan substansial" antara Mateen dan Abu-Salha dan kasus itu ditutup, kata Agen Khusus Hopper.
+
+# ::snt Meskipun berada di radar FBI, Manteen tidak masuk daftar pantau terkait terorisme dan berhak secara legal memegang lisensi senjata api, menurut catatan negara bagian Florida.
+
+(vv1 / masuk
+     :ARG1 (vv2 / ada
+                :location (vv3 / radar
+                               :mod (vv4 / fbi
+                                         :name (vv5 / manteen))))
+     :mod (vv6 / tidak)
+     :ARG1 (vv7 / daftar
+                :mod (vv8 / pantau)
+                :mod (vv9 / kait
+                          :ARG1 (vv10 / terorisme)
+                          :mod (vv11 / hak
+                                     :mod (vv12 / dan)
+                                     :mod (vv13 / legal))))
+     :mod (vv14 / pegang
+                :ARG1 (vv15 / lisensi
+                            :mod (vv16 / senjata
+                                       :mod (vv17 / api))
+                            :mod (vv18 / catat
+                                       :mod (vv19 / negara
+                                                  :mod (vv20 / bagi
+                                                             :mod (vv21 / florida)))))))
+
+# ::snt Terungkap bahwa Mateen telah bekerja sebagai petugas keamanan bersenjata untuk perusahaan bernama G4S sejak tahun 2007.
+
+(vv4 / ungkap
+     :mod (vv1 / kerja
+               :ARG0 (vv2 / mateen)
+               :mod (vv3 / telah)
+               :ARG1 (vv5 / tugas
+                          :mod (vv6 / aman
+                                    :mod (vv7 / senjata))
+                          :mod (vv8 / usaha
+                                    :mod (vv9 / nama
+                                              :ARG0 (vv10 / g4s))))
+               :time (vv11 / tahun
+                           :mod (vv12 / 2007))))
+
+# ::snt Mateen lahir di New York dari orang tua asal Afghanistan tetapi pindah ke Fort Pierce, sebuah kota kecil sekitar dua jam perjalanan di selatan Orlando.
+
+(vv1 / lahir
+     :ARG0 (vv2 / mateen)
+     :location (vv3 / new
+                    :mod (vv4 / york))
+     :ARG1 (vv5 / orang
+                :mod (vv6 / tua)
+                :mod (vv7 / afghanistan))
+     :ARG1 (vv8 / pindah
+                :mod (vv9 / tetapi)
+                :location (vv10 / fort
+                                :name (vv11 / pierce)
+                                :mod (vv12 / kota
+                                           :mod (vv13 / kecil)
+                                           :mod (vv14 / jam
+                                                      :mod (vv15 / dua)
+                                                      :mod (vv16 / jalan)
+                                                      :mod (vv17 / selatan
+                                                                 :name (vv18 / orlando)))))))
+
+# ::snt Mantan istrinya mengatakan kepada Washington Post bahwa dia orang yang suka melakukan kekerasan dan mentalnya tidak stabil dan telah memukulnya berulang kali.
+
+# ::snt Pasangan ini menikah di Fort Pierce pada 2009 setelah bertemu secara online, tapi setelah berbagai kekerasan rumah tangga, orang tuanya campur tangan dan memindahkannya dari rumah mereka hanya beberapa bulan kemudian.
+
+(vv1 / meni
+     :ARG0 (vv2 / pasang)
+     :location (vv3 / fort
+                    :name (vv4 / pierce))
+     :mod (vv5 / 2009)
+     :ARG1 (vv6 / temu
+                :mod (vv7 / online)
+                :mod (vv8 / campur
+                          :mod (vv9 / tapi)
+                          :location (vv10 / keras
+                                          :mod (vv11 / rumah
+                                                     :mod (vv13 / tua)
+                                                     :mod (vv18 / hanya)))
+                          :ARG1 (vv15 / pindah
+                                      :location (vv12 / orang
+                                                      :mod (vv14 / tangan))
+                                      :mod (vv17 / bulan
+                                                 :mod (vv19 / kemudian)
+                                                 :mod vv20))
+                          :mod (vv16 / dan))))
+
+# ::snt Pasangan ini bercerai pada tahun 2011.
+
+(vv1 / cerai
+     :ARG0 (vv2 / pasang)
+     :ARG1 (vv3 / tahun
+                :mod (vv4 / 2011)))
+
+# ::snt Pihak berwenang yakin dia secara khusus menargetkan tempat gay, kata situs TMZ.
+
+(vv1 / yakin
+     :ARG0 (vv2 / pihak
+                :mod (vv3 / wenang))
+     :mod (vv4 / target
+               :ARG0 (vv5 / dia)
+               :ARG1 (vv6 / khusus)
+               :ARG1 (vv7 / tempat
+                          :mod (vv8 / gay
+                                    :mod (vv9 / kata
+                                              :ARG1 (vv10 / situs
+                                                          :mod (vv11 / tmz)))))))
+
+# ::snt Dalam serangkaian foto media sosial, Mateen terlihat mengenakan T-shirt bertuliskan Departemen Kepolisian New York lengkap dengan lambangnya.
+
+(vv1 / lihat
+     :location (vv2 / foto
+                    :mod (vv3 / media
+                              :mod (vv4 / sosial
+                                        :name (vv5 / mateen))))
+     :ARG1 (vv6 / kena
+                :ARG0 (vv7 / tshirt)
+                :ARG1 (vv8 / tulis
+                           :ARG1 (vv9 / departemen
+                                      :mod (vv10 / polisi
+                                                 :name (vv11 / new
+                                                             :mod (vv12 / york)))
+                                      :mod (vv13 / lengkap))))
+     :ARG1 (vv14 / lambang))
+
+# ::snt Namun, NYPD mengatakan Mateen tidak ada kaitannya dengan mereka dan baju itu adalah barang tak resmi yang bisa dibeli di toko manapun.
+
+(vv1 / kata
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / nypd)
+     :ARG1 (vv4 / ada
+                :ARG0 (vv5 / mateen)
+                :mod (vv6 / tidak)
+                :ARG1 (vv7 / kait)
+                :ARG1 (vv8 / mereka))
+     :ARG1 (vv9 / barang
+                :mod (vv10 / dan)
+                :ARG0 (vv11 / baju)
+                :mod (vv12 / adalah)
+                :mod (vv13 / resmi
+                           :mod (vv14 / tak))
+                :mod (vv15 / beli
+                           :mod (vv16 / bisa)
+                           :location (vv17 / toko))))
+

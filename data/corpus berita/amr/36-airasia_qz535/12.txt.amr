@@ -1,0 +1,83 @@
+# ::snt Penumpang lain, Mark Bailey, mengatakan kepanikan muncul saat awak kabin berteriak " penumpang, turun, penumpang, turun."
+
+(vv1 / kata
+     :ARG0 (vv2 / tumpang
+                :mod (vv5 / bailey)
+                :name (vv6 / panik))
+     :ARG1 (vv8 / teriak
+                :ARG1 (vv3 / lain)
+                :mod (vv11 / kabin)
+                :ARG0 (vv12 / turun
+                            :ARG1 (vv4 / mark
+                                       :name (vv7 / muncul)))
+                :mod vv14)
+     :mod (vv9 / saat)
+     :mod (vv10 / awak
+                :mod vv13)
+     :mod vv15)
+
+# ::snt " Kami memuji pilot kami untuk mendaratkan pesawat dengan aman dan mematuhi prosedur operasi standar," tutur Kepala bagian Keselamatan AirAsia Group, Kapten Ling Liong Tien.
+
+(vv1 / puji
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / pilot)
+     :ARG1 (vv4 / darat
+                :ARG1 (vv5 / pesawat)
+                :mod (vv6 / aman))
+     :mod (vv7 / patuh
+               :mod (vv8 / dan)
+               :ARG1 (vv9 / prosedur
+                          :mod (vv10 / operasi
+                                     :mod (vv11 / standar))
+                          :mod (vv12 / tutur)
+                          :mod (vv13 / kepala
+                                     :mod (vv14 / bagi
+                                                :mod (vv15 / selamat
+                                                           :mod (vv16 / airasia
+                                                                      :mod (vv17 / group
+                                                                                 :name (vv18 / kapten
+                                                                                             :name (vv19 / ling
+                                                                                                         :name (vv20 / liong)
+                                                                                                         :name (vv21 / tien)))))))))))
+
+# ::snt " Kami berkomitmen penuh terhadap keselamatan para tamu dan kru kami dan akan terus memastikan bahwa kami mematuhi standar keselamatan tertinggi," kata dia menambahkan.
+
+(vv1 / komitmen
+     :ARG0 (vv2 / kami)
+     :mod (vv4 / selamat
+               :ARG1 (vv7 / dan)
+               :mod (vv15 / tambah)
+               :mod vv16
+               :mod vv17)
+     :location (vv5 / tamu
+                    :mod (vv8 / pasti
+                              :mod (vv10 / terus)
+                              :mod (vv12 / standar)
+                              :mod (vv13 / tinggi)
+                              :mod (vv14 / kata)))
+     :mod (vv11 / patuh
+                :ARG0 (vv3 / penuh)
+                :ARG1 (vv6 / kru
+                           :mod (vv9 / akan)))
+     :mod vv18)
+
+# ::snt Kala itu, seorang pilot mendesak penumpang untuk berdoa setelah mendapat masalah teknis yang menyebabkan goncangan hebat pada penerbangan AirAsia X dari Malaysia menuju ke Perth.
+
+(vv1 / desak
+     :location (vv2 / kala)
+     :ARG0 (vv3 / pilot)
+     :ARG1 (vv4 / tumpang)
+     :ARG1 (vv5 / doa)
+     :ARG1 (vv6 / dapat
+                :ARG1 (vv7 / masalah
+                           :mod (vv8 / teknis)
+                           :mod (vv9 / sebab
+                                     :ARG1 (vv10 / goncangan
+                                                 :mod (vv11 / hebat)
+                                                 :mod (vv12 / terbang
+                                                            :mod (vv13 / airasia
+                                                                       :name (vv14 / x))
+                                                            :mod (vv15 / malaysia
+                                                                       :mod (vv16 / perth
+                                                                                  :mod (vv17 / tuju)))))))))
+

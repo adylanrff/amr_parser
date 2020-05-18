@@ -1,0 +1,30 @@
+# ::snt Dalam rekaman percakapan yang tersebar di internet diketahui, saat itu pilot Air Canada meminta ATC untuk mengecek ulang kesiapan landasan yang akan didaratinya karena ia melihat ada deretan lampu seperti lampu pesawat yang sedang berjajar di taxiway.
+
+(vv1 / tahu
+     :location (vv2 / rekam
+                    :mod (vv3 / cakap)
+                    :mod (vv4 / sebar
+                              :location (vv5 / internet)))
+     :ARG1 (vv6 / saat)
+     :mod (vv7 / minta
+               :ARG0 (vv8 / pilot
+                          :mod (vv9 / air
+                                    :mod (vv10 / canada)))
+               :ARG0 (vv11 / atc)
+               :ARG1 (vv12 / ecek
+                           :ARG1 (vv13 / ulang
+                                       :mod (vv14 / kesiap
+                                                  :mod (vv15 / landas)
+                                                  :mod (vv16 / darat
+                                                             :mod (vv17 / akan)
+                                                             :mod (vv18 / lihat
+                                                                        :ARG0 (vv19 / ia)
+                                                                        :ARG1 (vv20 / ada
+                                                                                    :ARG1 (vv21 / deret
+                                                                                                :mod (vv22 / lampu
+                                                                                                           :mod (vv24 / jajar
+                                                                                                                      :mod (vv26 / taxiway)
+                                                                                                                      :mod vv27)
+                                                                                                           :mod (vv25 / sedang))
+                                                                                                :mod (vv23 / pesawat))))))))))
+

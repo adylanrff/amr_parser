@@ -1,0 +1,30 @@
+# ::snt "Maaf ada kesalahan, dan ini adalah kesalahan saya," ucapnya.
+
+(vv1 / ada
+     :mod (vv2 / maaf)
+     :ARG1 (vv3 / salah
+                :mod (vv5 / ini)
+                :ARG0 (vv6 / adalah)
+                :mod (vv7 / ucap)
+                :mod vv8)
+     :mod (vv4 / dan))
+
+# ::snt Harvey langsung mengumumkan, "Runner up pertama adalah Kolombia, dan Miss Universe 2015 adalah Filipina."
+
+# ::snt Kurang dari lima menit, mahkota Miss Universe pun dicopot dari kepala Ariadna dan disematkan di kepala Pia.
+
+(vv4 / copot
+     :ARG1 (vv1 / menit
+                :mod (vv2 / kurang)
+                :mod (vv3 / lima))
+     :ARG1 (vv5 / mahkota
+                :name (vv6 / miss
+                           :name (vv7 / universe)))
+     :mod (vv8 / pun)
+     :ARG1 (vv9 / kepala
+                :name (vv11 / semat
+                            :ARG1 (vv10 / ariadna)
+                            :mod (vv13 / pia))
+                :name vv14)
+     :mod (vv12 / dan))
+

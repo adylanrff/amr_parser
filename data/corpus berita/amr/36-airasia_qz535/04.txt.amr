@@ -1,0 +1,105 @@
+# ::snt Pesawat tersebut kembali ke Perth dan mendarat selamat di bandara dan penumpang dilaporkan naik pesawat lain yang disediakan oleh maskapai murah itu ke Bali.
+
+(vv1 / kembali
+     :ARG0 (vv2 / pesawat
+                :mod (vv13 / maskapai
+                           :mod vv16)
+                :mod (vv14 / murah))
+     :location (vv4 / darat
+                    :mod (vv6 / selamat)
+                    :mod (vv8 / lapor
+                              :mod (vv7 / bandara)
+                              :ARG1 (vv11 / lain)
+                              :ARG1 (vv12 / sedia
+                                          :location (vv15 / bal)
+                                          :ARG1 vv17))
+                    :location (vv9 / tumpang))
+     :mod (vv5 / dan)
+     :mod (vv10 / naik
+                :ARG1 (vv3 / perth)))
+
+# ::snt Media Australia mengutip pengakuan seorang penumpang bernama Clare Askew yang mengatakan kepanikan penumpang meningkat karena perilaku awak kabin yang berteriak, menangis, dan kaget.
+
+(vv1 / kutip
+     :ARG0 (vv2 / media
+                :name (vv3 / australia))
+     :ARG0 (vv4 / aku
+                :mod (vv5 / tumpang
+                          :mod (vv7 / clare
+                                    :name (vv9 / kata
+                                               :ARG1 (vv11 / tingkat
+                                                           :ARG1 (vv13 / awak
+                                                                       :mod (vv15 / teriak
+                                                                                  :ARG1 (vv17 / kaget
+                                                                                              :mod vv19))
+                                                                       :mod (vv16 / menang
+                                                                                  :mod (vv18 / dan))))
+                                               :ARG1 (vv12 / perilaku
+                                                           :mod (vv14 / kabin))))
+                          :mod (vv10 / panik
+                                     :mod (vv6 / nama
+                                               :ARG0 (vv8 / askew))))))
+
+# ::snt Seorang penumpang lainnya mengatakan bahwa pilot juga tidak berusaha memberikan pengumuman apa pun hingga pesawat berbalik arah dan mendarat di Perth.
+
+(vv1 / kata
+     :ARG0 (vv2 / tumpang
+                :mod (vv3 / lain))
+     :ARG1 (vv4 / usaha
+                :ARG0 (vv5 / pilot)
+                :mod (vv6 / juga)
+                :mod (vv7 / tidak)
+                :ARG1 (vv8 / beri
+                           :ARG1 (vv9 / umum
+                                      :mod (vv10 / apa)
+                                      :mod (vv11 / pesawat
+                                                 :mod (vv12 / balik
+                                                            :ARG1 (vv13 / arah)
+                                                            :mod (vv14 / darat
+                                                                       :mod (vv15 / dan)
+                                                                       :location (vv16 / perth))))))))
+
+# ::snt Seorang penumpang yang hanya diidentifikasi sebagai Leah, diwawancarai oleh Nine News, mengatakan beberapa penumpang mengangkat telepon mereka dan mengirim pesan teks ke keluarga, percaya bahwa mereka akan meninggal.
+
+(vv1 / wawancara
+     :ARG1 (vv2 / tumpang
+                :mod (vv4 / hanya))
+     :ARG1 (vv7 / news)
+     :ARG1 (vv9 / angkat
+                :ARG0 (vv3 / identifikasi
+                           :mod (vv5 / leah)
+                           :mod (vv6 / nine
+                                     :name (vv8 / kata
+                                                :mod (vv10 / telepon))))
+                :ARG1 (vv11 / kirim
+                            :mod (vv13 / pesan
+                                       :mod (vv15 / keluarga)
+                                       :mod (vv16 / percaya
+                                                  :mod (vv18 / mereka)))
+                            :ARG1 (vv14 / teks)
+                            :ARG1 (vv17 / tinggal
+                                        :ARG0 (vv19 / akan)
+                                        :mod vv20))
+                :mod (vv12 / dan)))
+
+# ::snt Pada bulan Juni, sebuah penerbangan AirAsia X D7237 dalam perjalanan ke Kuala Lumpur dari Perth terpaksa mundur 90 menit dari jadwal seharusnya karena masalah teknis.
+
+(vv1 / mundur
+     :ARG1 (vv2 / bulan
+                :mod (vv3 / juni)
+                :mod (vv4 / terbang
+                          :mod (vv5 / airasia
+                                    :name (vv6 / x
+                                               :mod (vv7 / d7237)))
+                          :mod (vv8 / jalan
+                                    :mod (vv9 / kuala
+                                              :mod (vv10 / lumpur))
+                                    :mod (vv11 / perth))))
+     :mod (vv12 / paksa)
+     :ARG1 (vv13 / menit
+                 :mod (vv14 / 90))
+     :location (vv15 / jadwal
+                     :mod (vv16 / harus)
+                     :mod (vv17 / masalah
+                                :mod (vv18 / teknis))))
+

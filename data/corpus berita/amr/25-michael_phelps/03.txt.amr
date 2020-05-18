@@ -1,0 +1,95 @@
+# ::snt erenang Michael Phelps, merengkuh medali emas ke-19 saat tim Amerika Serikat memenangi 4x100 estafet putra pada Minggu, 7 Agustus, waktu setempat.
+
+(vv1 / rengkuh
+     :ARG0 (vv2 / erenang
+                :name (vv3 / michael
+                           :name (vv4 / phelps)))
+     :ARG1 (vv5 / medali
+                :mod (vv6 / emas)
+                :mod (vv7 / ke19))
+     :mod (vv8 / tang
+               :mod (vv9 / saat)
+               :ARG0 (vv10 / tim
+                           :mod (vv11 / amerika
+                                      :mod (vv12 / serikat)))
+               :ARG1 (vv13 / estafet
+                           :mod (vv14 / 4x100)
+                           :mod (vv15 / putra))
+               :ARG1 (vv16 / minggu
+                           :mod (vv17 / agustus
+                                      :mod (vv18 / 7)
+                                      :mod (vv19 / waktu
+                                                 :mod (vv20 / tempat))))))
+
+# ::snt Saingan terdekat tim AS, Perancis mendapat peringkat kedua, sedangkan Australia ketiga.
+
+(vv1 / dapat
+     :ARG0 (vv2 / saing
+                :mod (vv3 / dekat)
+                :mod (vv4 / tim
+                          :mod (vv5 / as
+                                    :mod (vv6 / perancis))))
+     :ARG1 (vv7 / peringkat
+                :mod (vv8 / dua))
+     :ARG1 (vv9 / australia
+                :mod (vv10 / sedang)
+                :mod (vv11 / tiga)))
+
+# ::snt Total waktu yang ditempuh tim AS dalam balap renang kali ini adalah 3:09:92.
+
+(vv1 / 30992
+     :ARG0 (vv2 / total
+                :mod (vv3 / waktu)
+                :mod (vv4 / tempuh
+                          :location (vv5 / tim
+                                         :mod (vv6 / as))
+                          :ARG1 (vv7 / balap
+                                     :mod (vv8 / renang)
+                                     :mod (vv9 / kali))))
+     :mod (vv10 / adalah))
+
+# ::snt Ryan Held dan Nathan Adrian menyelesaikan balap renang dan membawa medali emas pulang bagi AS.
+
+(vv1 / selesai
+     :ARG0 (vv2 / ryan
+                :name (vv3 / held)
+                :mod (vv4 / nathan
+                          :mod (vv5 / dan)
+                          :name (vv7 / balap
+                                     :mod (vv9 / bawa
+                                               :ARG1 (vv6 / adrian)
+                                               :ARG1 (vv11 / emas)))))
+     :ARG1 (vv8 / renang)
+     :mod (vv10 / medali
+                :mod (vv12 / pulang
+                           :ARG1 vv14)
+                :mod (vv13 / as)))
+
+# ::snt Phelps sempat pensiun usai Olimpiade London 2012 namun kembali terjun ke kolam renang setelah mengaku kecewa dengan penampilan tim negaranya ketika dikalahkan oleh Perancis dalam balapan 4x100 estafet putra pada kejuaraan dunia 2013.
+
+(vv1 / pensiun
+     :ARG0 (vv2 / phelps)
+     :mod (vv3 / sempat)
+     :location (vv4 / olimpiade
+                    :name (vv5 / london
+                               :mod (vv6 / 2012)))
+     :mod (vv7 / terjun
+               :mod (vv8 / namun)
+               :mod (vv9 / kembali)
+               :location (vv10 / kolam
+                               :mod (vv11 / renang))
+               :mod (vv12 / aku
+                          :mod (vv13 / kecewa)
+                          :ARG1 (vv14 / tampil
+                                      :mod (vv15 / tim
+                                                 :mod (vv16 / negara)))
+                          :mod (vv17 / kalah
+                                     :location (vv18 / perancis)
+                                     :ARG1 (vv19 / balap
+                                                 :mod (vv20 / estafet
+                                                            :mod (vv21 / 4x100)
+                                                            :mod (vv22 / putra))
+                                                 :mod (vv23 / juara
+                                                            :mod (vv24 / dunia)
+                                                            :mod (vv25 / 2013)))))))
+

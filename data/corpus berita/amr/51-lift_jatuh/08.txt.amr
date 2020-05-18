@@ -1,0 +1,240 @@
+# ::snt Sebanyak 25 pengunjung dilaporkan cedera akibat lift yang mereka tumpangi di Blok M Square, Jakarta Selatan, anjlok, pada Jumat (18/3/2017) siang.
+
+(vv4 / lapor
+     :mod (vv1 / unjung
+               :mod (vv2 / banyak)
+               :mod (vv3 / 25))
+     :ARG1 (vv5 / cedera
+                :mod (vv6 / akibat
+                          :mod (vv7 / lift))
+                :mod (vv8 / tumpang
+                          :ARG0 (vv9 / mereka)
+                          :location (vv10 / blok
+                                          :mod (vv11 / m
+                                                     :mod (vv12 / square
+                                                                :name (vv13 / jakarta
+                                                                            :name (vv14 / selatan)))))))
+     :mod (vv15 / anjlok
+                :time (vv16 / jumat
+                            :mod (vv17 / 1832017))
+                :time (vv18 / siang)))
+
+# ::snt Kasubag Humas Polres Metro Jakarta Selatan, Kompol Purwanta, mengatakan para korban itu telah dilarikan ke Rumah Sakit Pusat Pertamina, Jakarta Selatan.
+
+(vv1 / kata
+     :ARG0 (vv2 / kasubag
+                :name (vv3 / humas
+                           :name (vv4 / polres
+                                      :mod (vv5 / metro
+                                                :name (vv6 / jakarta
+                                                           :name (vv8 / kompol
+                                                                      :name (vv11 / lari
+                                                                                  :mod (vv14 / sakit
+                                                                                             :mod vv17)
+                                                                                  :location (vv15 / pusat
+                                                                                                  :name vv18)))
+                                                           :name (vv9 / purwanta)
+                                                           :mod (vv10 / korban))))))
+     :ARG1 (vv12 / telah)
+     :mod (vv13 / rumah
+                :name (vv16 / pertamina
+                            :name (vv7 / selatan))))
+
+# ::snt Purwanta mengatakan ke-25 orang itu merupakan jemaah yang baru selesai melaksanakan shalat Jumat di Masjid Nurul Iman yang terletak di lantai 7 Blok M Square, dan sejumlah siswi SMA.
+
+(vv1 / kata
+     :ARG0 (vv2 / purwanta)
+     :ARG1 (vv3 / rupa
+                :mod (vv4 / ke25)
+                :ARG0 (vv5 / orang)
+                :ARG1 (vv6 / jemaah
+                           :mod (vv9 / laksana
+                                     :mod (vv7 / selesai
+                                               :mod (vv8 / baru))
+                                     :ARG1 (vv10 / shalat
+                                                 :mod (vv11 / jumat))
+                                     :location (vv12 / masjid
+                                                     :name (vv13 / nurul
+                                                                 :mod (vv14 / iman))
+                                                     :mod (vv15 / letak
+                                                                :location (vv16 / lantai
+                                                                                :mod (vv17 / 7)
+                                                                                :mod (vv18 / blok
+                                                                                           :mod (vv19 / m
+                                                                                                      :mod (vv20 / square)))
+                                                                                :mod (vv21 / siswi
+                                                                                           :mod (vv22 / dan)
+                                                                                           :mod (vv23 / sma)))))))))
+
+# ::snt "Kondisi lift penuh saat akan turun dan sinyal lift berbunyi namun tetap saja dipaksakan sehingga pada saat di lantai 3 lift terjatuh dan terdengar bunyi keras di basement," ujar Purwanta.
+
+# ::snt Penyidik Polres Metro Jakarta Selatan saat ini masih melakukan olah tempat kejadian perkara (TKP).
+
+(vv1 / laku
+     :ARG0 (vv2 / sidik
+                :name (vv3 / polres
+                           :mod (vv4 / metro
+                                     :name (vv5 / jakarta
+                                                :name (vv6 / selatan)))))
+     :ARG1 (vv7 / saat)
+     :mod (vv8 / masih)
+     :ARG1 (vv9 / olah
+                :mod (vv10 / tempat
+                           :mod (vv11 / jadi
+                                      :mod (vv12 / perkara
+                                                 :name (vv13 / tkp))))))
+
+# ::snt 1. Sutoto (40 tahun)
+
+(vv1 / sutoto
+     :mod (vv2 / 1)
+     :mod (vv3 / tahun
+               :mod (vv4 / 40)))
+
+# ::snt 2. Salmudin (33)
+
+(vv1 / salmudin
+     :mod (vv2 / 2)
+     :mod (vv3 / 33))
+
+# ::snt 3. Bumi Suhartan (31)
+
+(vv1 / bumi
+     :mod (vv2 / 3)
+     :mod (vv3 / suhartan
+               :mod (vv4 / 31)))
+
+# ::snt 4. Diana (18)
+
+(vv1 / ana
+     :mod (vv2 / 4)
+     :mod (vv3 / 18))
+
+# ::snt 5. Hani Nurhasanah (18)
+
+(vv1 / hani
+     :mod (vv2 / 5)
+     :name (vv3 / nurhasanah)
+     :mod (vv4 / 18))
+
+# ::snt 6. Lesi (25)
+
+(vv1 / lesi
+     :mod (vv2 / 6)
+     :mod (vv3 / 25))
+
+# ::snt 7. Shadiq Al beri (41)
+
+(vv3 / beri
+     :ARG0 (vv1 / shadiq
+                :mod (vv2 / 7)
+                :mod (vv4 / al))
+     :mod (vv5 / 41))
+
+# ::snt 8. Ridwan (48)
+
+(vv1 / ridwan
+     :mod (vv2 / 8)
+     :mod (vv3 / 48))
+
+# ::snt 9. David Evan (26)
+
+(vv1 / david
+     :mod (vv2 / 9)
+     :name (vv3 / evan)
+     :mod (vv4 / 26))
+
+# ::snt 10. Ari Budi Nugraha (19)
+
+(vv1 / ari
+     :mod (vv2 / 10)
+     :name (vv3 / budi
+                :name (vv4 / nugraha))
+     :mod (vv5 / 19))
+
+# ::snt 11. Ade Gunawan (16)
+
+(vv1 / ade
+     :mod (vv2 / 11)
+     :name (vv3 / gunawan)
+     :mod (vv4 / 16))
+
+# ::snt 13. Yasa (41)
+
+(vv1 / yasa
+     :mod (vv2 / 13)
+     :mod (vv3 / 41))
+
+# ::snt 14. Nina azmia (18)
+
+(vv1 / nina
+     :mod (vv2 / 14)
+     :name (vv3 / azmia)
+     :mod (vv4 / 18))
+
+# ::snt 15. Nadira Indriani (18)
+
+(vv1 / nadira
+     :mod (vv2 / 15)
+     :name (vv3 / indriani)
+     :mod (vv4 / 18))
+
+# ::snt 16. Afdal (50)
+
+(vv1 / afdal
+     :mod (vv2 / 16)
+     :mod (vv3 / 50))
+
+# ::snt 17. Widyaningrum (19)
+
+(vv1 / widyaningrum
+     :mod (vv2 / 17)
+     :mod (vv3 / 19))
+
+# ::snt 18. Endang Supriatna (28)
+
+(vv1 / endang
+     :mod (vv2 / 18)
+     :name (vv3 / supriatna)
+     :mod (vv4 / 28))
+
+# ::snt 19. Sunardi (21)
+
+(vv1 / sunardi
+     :mod (vv2 / 19)
+     :mod (vv3 / 21))
+
+# ::snt 20. Subiri (57)
+
+(vv1 / subiri
+     :mod (vv2 / 20)
+     :mod (vv3 / 57))
+
+# ::snt 21. Mahmud (20)
+
+(vv1 / mahmud
+     :mod (vv2 / 21)
+     :mod (vv3 / 20))
+
+# ::snt 22. Irfan irmansyah (21)
+
+(vv1 / irfan
+     :mod (vv2 / 22)
+     :mod (vv3 / irmansyah)
+     :mod (vv4 / 21))
+
+# ::snt 23. Bagus pribadi (19)
+
+(vv1 / bagus
+     :mod (vv2 / 23)
+     :mod (vv3 / pribadi)
+     :mod (vv4 / 19))
+
+# ::snt 24. Indra nur Rahman (24)
+
+(vv1 / indra
+     :mod (vv2 / 24)
+     :mod (vv3 / nur
+               :name vv5)
+     :name (vv4 / rahman))
+

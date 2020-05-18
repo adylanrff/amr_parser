@@ -1,0 +1,84 @@
+# ::snt "Ini merupakan perjalanan yang sangat hebat," kata Phelps, yang telah meraih rekor dengan mengumpulkan total 16 medali, termasuk delapan emas di antaranya pada Olimpiade Beijing.
+
+(vv1 / rupa
+     :ARG0 (vv2 / ini)
+     :ARG1 (vv3 / jalan
+                :mod (vv4 / hebat
+                          :mod (vv5 / sangat))
+                :mod (vv6 / kata
+                          :name (vv7 / phelps)
+                          :mod (vv8 / raih
+                                    :mod (vv9 / telah)
+                                    :ARG1 (vv10 / rekor)
+                                    :ARG1 (vv11 / kumpul
+                                                :ARG1 (vv12 / total)
+                                                :ARG1 (vv13 / medali
+                                                            :mod (vv14 / 16))
+                                                :mod (vv15 / masuk
+                                                           :ARG1 (vv16 / emas
+                                                                       :mod (vv17 / delapan)
+                                                                       :mod (vv18 / olimpiade
+                                                                                  :mod (vv19 / antara)
+                                                                                  :name (vv20 / beijing)))))))))
+
+# ::snt Sedangkan di Olimpiade London 2012 dia telah memenangkan satu medali emas dan dua medali perak.
+
+(vv1 / menang
+     :mod (vv2 / sedang)
+     :ARG1 (vv3 / olimpiade
+                :name (vv4 / london
+                           :mod (vv5 / 2012)))
+     :ARG0 (vv6 / dia)
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / medali
+                :mod (vv9 / emas)
+                :mod (vv10 / dan)
+                :mod (vv11 / dua)
+                :mod (vv12 / perak)
+                :mod vv13))
+
+# ::snt "Ini adalah medali emas pertama (di Olimpiade London), jadi saya sangat senang," kata Phelps.
+
+(vv1 / medali
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / adalah)
+     :mod (vv4 / emas)
+     :mod (vv5 / pertama)
+     :mod (vv6 / olimpiade
+               :name (vv7 / london))
+     :mod (vv8 / jadi)
+     :mod (vv9 / senang
+               :ARG0 (vv10 / saya)
+               :mod (vv11 / sangat)
+               :ARG1 (vv12 / kata
+                           :name (vv13 / phelps))))
+
+# ::snt Pencapaian rekor Phelps masih bisa diperbesar karena dia memiliki dua kesempatan lagi untuk meraih kemenangan tiga kali berturut-turut pada 100 m gaya kupu-kupu dan gaya ganti perseorangan 200 m.
+
+(vv1 / besar
+     :ARG1 (vv2 / capai
+                :mod (vv3 / rekor
+                          :mod (vv4 / phelps)))
+     :mod (vv5 / masih)
+     :mod (vv6 / bisa)
+     :mod (vv7 / milik
+               :ARG0 (vv8 / dia)
+               :ARG1 (vv9 / sempat
+                          :mod (vv10 / dua)
+                          :mod (vv11 / lagi))
+               :ARG1 (vv12 / raih
+                           :ARG1 (vv13 / menang
+                                       :mod (vv16 / berturutturut
+                                                  :ARG1 (vv17 / m
+                                                              :mod (vv19 / gaya
+                                                                         :mod (vv18 / 100)
+                                                                         :mod (vv22 / ganti)
+                                                                         :mod (vv23 / orang)
+                                                                         :mod (vv24 / 200)
+                                                                         :mod vv25)
+                                                              :mod (vv20 / kupukupu)
+                                                              :mod (vv21 / dan)
+                                                              :mod vv26)))
+                           :ARG1 (vv14 / kali
+                                       :mod (vv15 / tiga)))))
+

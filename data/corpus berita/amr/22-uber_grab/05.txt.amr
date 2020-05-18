@@ -1,0 +1,172 @@
+# ::snt Menurut narasumber Bloomberg, kesepakatan itu akan diumumkan secepatnya pada Senin (26/3/2018) di Singapura.
+
+(vv1 / umum
+     :ARG1 (vv2 / narasumber
+                :name (vv3 / bloomberg))
+     :ARG1 (vv4 / sepakat)
+     :mod (vv5 / akan)
+     :mod (vv6 / cepat)
+     :time (vv7 / senin
+                :mod (vv8 / 2632018))
+     :location (vv9 / singapura))
+
+# ::snt Adapun, melenggangnya Uber dari kawasan Asia Tenggara ini memberikan kemenangan kepada Grab, sehingga Grab hanya akan menghadapi kompetitor lokal, Go-Jek.
+
+# ::snt Sementara ini, perwakilan baik dari Grab maupun Uber menolak memberikan komentar.
+
+(vv1 / tolak
+     :ARG0 (vv2 / wakil
+                :mod (vv3 / baik)
+                :mod (vv4 / grab
+                          :mod (vv5 / uber
+                                    :mod (vv6 / maupun))))
+     :ARG1 (vv7 / beri))
+
+# ::snt Selain itu, kesepakatan antara Uber dan Grab ini juga memperlihatkan kekalahan lainnya bagi Uber di pasar internasional.
+
+(vv1 / lihat
+     :ARG0 (vv2 / sepakat
+                :mod (vv3 / uber
+                          :mod (vv5 / dan)))
+     :mod (vv7 / kalah
+               :mod (vv4 / grab
+                         :mod (vv6 / juga))
+               :mod (vv9 / pasar
+                         :mod vv11))
+     :ARG1 (vv8 / lain)
+     :location (vv10 / internasional))
+
+# ::snt Sebelumnya, ketika masih dipimpin oleh Travis Kalanick, Uber telah menjual bisnisnya di China pada 2016 untuk ditukarkan dengan 17,5% saham dalam Didi Chuxing.
+
+(vv3 / jual
+     :mod (vv1 / pimpin
+               :mod (vv2 / masih)
+               :ARG1 (vv4 / travis
+                          :name (vv5 / kalanick
+                                     :name (vv6 / uber))))
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / bisnis)
+     :location (vv9 / china)
+     :mod (vv10 / 2016)
+     :ARG1 (vv11 / tukar
+                 :ARG1 (vv12 / saham
+                             :mod (vv13 / 175))
+                 :ARG1 (vv14 / didi
+                             :name (vv15 / chuxing))))
+
+# ::snt Kemudian, Uber juga telah setuju untuk menjual bisnisnya di Rusia untuk Yandex, sesaat sebelum Khosrowshahi ditunjuk menggantikan Kalanick sebagai Chief Executive Officer.
+
+(vv1 / tuju
+     :mod (vv2 / kemudian)
+     :ARG0 (vv3 / uber)
+     :mod (vv4 / juga)
+     :mod (vv5 / telah)
+     :ARG1 (vv6 / jual
+                :ARG1 (vv7 / bisnis)
+                :location (vv8 / rusia)
+                :mod (vv9 / yandex
+                          :mod (vv10 / saat))
+                :ARG1 (vv11 / tunjuk
+                            :ARG1 (vv12 / khosrowshahi)
+                            :ARG1 (vv13 / ganti
+                                        :ARG0 (vv14 / kalanick)
+                                        :ARG1 (vv15 / chief
+                                                    :mod (vv16 / executive
+                                                               :mod (vv17 / officer)))))))
+
+# ::snt Kini, Khorowshahi telah diberi tugas untuk menyelesaikan seluruh masalah keuangan perusahaan untuk persiapan IPO tahun depan.
+
+(vv1 / beri
+     :ARG1 (vv2 / kini)
+     :ARG1 (vv3 / khorowshahi)
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / tugas)
+     :ARG1 (vv6 / selesai
+                :ARG1 (vv7 / masalah
+                           :mod (vv8 / uang
+                                     :mod (vv9 / usaha))
+                           :mod (vv10 / siap
+                                      :mod (vv11 / ipo)
+                                      :mod (vv12 / tahun
+                                                 :mod (vv13 / depan))))))
+
+# ::snt Adapun, langkah untuk keluar dari pasar seperti Asia Tenggara akan meningkatkan laba Uber yang telah hangus, sebanyak US$10,7 miliar sejak awal berdirinya sembilan tahun yang lalu.
+
+(vv1 / tingkat
+     :ARG0 (vv2 / langkah
+                :mod (vv3 / keluar
+                          :location (vv4 / pasar
+                                         :mod (vv5 / asia
+                                                   :mod (vv6 / tenggara)))))
+     :mod (vv7 / akan)
+     :ARG1 (vv8 / laba
+                :name (vv9 / uber)
+                :mod (vv10 / hangus
+                           :mod (vv11 / telah)
+                           :location (vv14 / miliar
+                                           :mod (vv12 / us107
+                                                      :mod (vv13 / banyak)))))
+     :mod (vv15 / diri
+                :mod (vv16 / awal)
+                :ARG1 (vv17 / tahun
+                            :mod (vv18 / sembilan))
+                :mod (vv19 / lalu)))
+
+# ::snt Khorowshahi juga memberikan sinyal dalam kunjungannya ke Asia bulan lalu, bahwa dia akan lebih berusaha dan berkomitmen untuk mengincar pasar seperti Jepang dan India.
+
+(vv1 / beri
+     :ARG0 (vv2 / khorowshahi)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / sinyal
+                :mod (vv5 / kunjung
+                          :mod (vv6 / asia
+                                    :mod (vv7 / bulan))))
+     :ARG1 (vv8 / usaha
+                :mod (vv9 / lalu)
+                :ARG0 (vv10 / dia)
+                :mod (vv11 / akan)
+                :mod (vv12 / lebih)
+                :mod (vv13 / komitmen
+                           :mod (vv14 / dan)
+                           :mod (vv16 / pasar
+                                      :mod (vv18 / india
+                                                 :mod (vv15 / incar
+                                                            :ARG1 (vv17 / jepang
+                                                                        :mod vv19)))))))
+
+# ::snt Adapun, Grab telah memiliki lebih dari 86 juta aplikasi mobile yang diunduh.
+
+(vv1 / milik
+     :mod (vv2 / adapun)
+     :ARG0 (vv3 / grab)
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / aplikasi
+                :mod (vv6 / lebih)
+                :mod (vv7 / juta
+                          :mod (vv8 / 86))
+                :mod (vv9 / mobile)
+                :mod (vv10 / unduh)))
+
+# ::snt Saat ini, perusahaan ride-hailing asal Malaysia tersebut telah menawarkan layanan di lebih dari 190 kota di seluruh Singapura, Indonesia, Filipina, Malaysia, Thailand, Vietnam, Myanmar, dan Kamboja.
+
+(vv1 / tawar
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / usaha
+                :mod (vv4 / ridehailing)
+                :mod (vv5 / malaysia
+                          :mod (vv7 / telah)
+                          :name (vv16 / vietnam
+                                      :name (vv18 / kamboja
+                                                  :mod vv20))))
+     :mod (vv8 / layan
+               :mod (vv10 / lebih))
+     :ARG1 (vv9 / kota
+                :mod (vv11 / 190)
+                :mod (vv12 / singapura
+                           :name (vv14 / filipina
+                                       :name (vv6 / asal))
+                           :mod (vv19 / dan))
+                :mod (vv13 / indonesia
+                           :name (vv15 / thailand
+                                       :name (vv17 / myanmar)))))
+

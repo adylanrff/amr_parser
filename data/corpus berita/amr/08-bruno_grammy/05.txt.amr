@@ -1,0 +1,75 @@
+# ::snt Mars secara total mendapatkan 6 penghargaan, termasuk untuk kategori lagu terbaik untuk lagu "That's What I Like" dan Album Terbaik Tahun ini serta Rekaman Terbaik untuk albumnya yang bertajuk "24K Magic".
+
+(vv1 / dapat
+     :ARG0 (vv2 / mars)
+     :ARG1 (vv3 / total)
+     :ARG1 (vv4 / harga
+                :mod (vv5 / 6))
+     :ARG1 (vv6 / masuk
+                :ARG1 (vv7 / kategori
+                           :mod (vv8 / lagu
+                                     :mod (vv10 / thats
+                                                :name (vv14 / album
+                                                            :mod (vv11 / what
+                                                                       :name (vv15 / dan))
+                                                            :mod (vv19 / tajuk
+                                                                       :ARG1 vv24)
+                                                            :mod (vv20 / 24k
+                                                                       :mod vv25)
+                                                            :mod vv23))
+                                     :mod (vv13 / like)
+                                     :mod (vv17 / rekam
+                                                :mod (vv12 / i
+                                                           :name (vv16 / tahun))
+                                                :mod (vv18 / serta)
+                                                :mod vv22)
+                                     :mod (vv21 / magic))
+                           :mod (vv9 / baik))))
+
+# ::snt Kemenangannya ini menggagalkan peluang penyanyi rap Kendrick Lamar untuk menjadi musisi hip hop pertama yang memenangkan kategori Album Terbaik Tahun ini dalam 14 tahun terakhir.
+
+(vv1 / gagal
+     :ARG0 (vv2 / menang
+                :ARG1 (vv14 / album
+                            :mod (vv16 / tahun
+                                       :mod vv19
+                                       :mod vv20))
+                :ARG1 (vv18 / akhir))
+     :ARG1 (vv4 / nyanyi
+                :mod (vv6 / kendrick
+                          :name (vv8 / jadi
+                                     :ARG1 (vv10 / hip
+                                                 :mod (vv12 / pertama)))))
+     :ARG1 (vv9 / musisi
+                :mod (vv3 / peluang
+                          :mod (vv5 / rap
+                                    :name (vv7 / lamar)))
+                :mod (vv11 / hop
+                           :mod (vv13 / kategori
+                                      :mod (vv15 / baik)
+                                      :mod (vv17 / 14)))))
+
+# ::snt "Lagu-lagu [dalam album saya] ini ditulis dengan rasa gembira, dengan cinta, dan memang hanya itu yang saya inginkan dari album ini, melihat semua orang berdansa," ujar Mars yang berusia 32 tahun kepada Reuters.
+
+(vv1 / tulis
+     :ARG1 (vv2 / lagulagu
+                :mod (vv3 / album))
+     :ARG1 (vv5 / gembira)
+     :mod (vv8 / ingin
+               :location (vv4 / rasa
+                              :mod (vv6 / cinta
+                                        :mod (vv9 / memang))
+                              :mod (vv7 / dan))
+               :mod (vv10 / hanya)
+               :mod (vv11 / saya)
+               :ARG0 (vv12 / lihat
+                           :ARG1 (vv14 / dansa)))
+     :mod (vv13 / orang
+                :mod (vv15 / mars
+                           :mod (vv17 / usia
+                                      :ARG1 (vv19 / 32)
+                                      :ARG1 vv21))
+                :mod (vv16 / ujar)
+                :mod (vv18 / tahun
+                           :mod (vv20 / reuters))))
+

@@ -1,0 +1,121 @@
+# ::snt Rumah pemimpin de facto Myanmar, Aung San Suu Kyi, di Yangon dilaporkan dilempar bom motolov oleh orang tak dikenal, Kamis (1/2).
+
+(vv1 / lapor
+     :ARG1 (vv2 / rumah
+                :mod (vv3 / pimpin
+                          :mod (vv4 / de
+                                    :mod (vv5 / facto
+                                              :name (vv6 / myanmar
+                                                         :name (vv7 / aung
+                                                                    :name (vv8 / san
+                                                                               :name (vv9 / suu
+                                                                                          :name (vv10 / kyi))))))))
+                :mod (vv11 / yangon))
+     :ARG1 (vv12 / lempar
+                 :ARG1 (vv13 / bom
+                             :mod (vv14 / motolov))
+                 :ARG1 (vv15 / orang
+                             :mod (vv16 / kenal
+                                        :mod (vv17 / tak)
+                                        :ARG1 (vv18 / kamis
+                                                    :mod (vv19 / 12))))))
+
+# ::snt "Itu adalah bom molotov," ucap juru bicara pemerintah, Zaw Htay, mengonfirmasi kepada AFP.
+
+(vv1 / bom
+     :ARG0 (vv2 / itu)
+     :mod (vv3 / adalah)
+     :mod (vv4 / molotov)
+     :mod (vv5 / ucap)
+     :mod (vv6 / konfirmasi
+               :ARG0 (vv7 / juru
+                          :mod (vv8 / bicara)
+                          :mod (vv9 / perintah
+                                    :name (vv10 / zaw
+                                                :name (vv11 / htay))))
+               :ARG1 (vv12 / afp)))
+
+# ::snt Htay tak menjelaskan lebih jauh mengenai insiden tersebut, termasuk motif serangan yang diyakini mengincar penasihat negara sekaligus tokoh demokrasi di negara Asia Tenggara itu.
+
+# ::snt Namun, saat insiden terjadi, Suu Kyi sedang berada di Naypyidaw untuk memperingati tahun kedua pemerintahannya.
+
+(vv1 / jadi
+     :mod (vv2 / namun)
+     :ARG1 (vv3 / saat)
+     :ARG1 (vv4 / insiden)
+     :mod (vv5 / ada
+               :ARG0 (vv6 / suu
+                          :name (vv7 / kyi))
+               :mod (vv8 / sedang)
+               :ARG1 (vv9 / naypyidaw)
+               :ARG1 (vv10 / ingat
+                           :ARG1 (vv11 / tahun
+                                       :mod (vv12 / dua)
+                                       :mod (vv13 / perintah)))))
+
+# ::snt Serangan itu terjadi ketika Suu Kyi menjadi sorotan dunia internasional lantaran krisis kemanusiaan yang kembali memburuk di negara bagian Rakhine sejak Agustus lalu.
+
+(vv1 / jadi
+     :mod (vv2 / serang)
+     :ARG0 (vv3 / suu
+                :name (vv4 / kyi))
+     :ARG1 (vv5 / sorot
+                :mod (vv6 / dunia
+                          :mod (vv7 / internasional))
+                :mod (vv8 / krisis
+                          :mod (vv9 / lantar)
+                          :mod (vv10 / manusia)
+                          :mod (vv11 / buruk
+                                     :mod (vv12 / kembali)
+                                     :location (vv13 / negara
+                                                     :mod (vv14 / bagi
+                                                                :mod (vv15 / rakhine)))
+                                     :ARG1 (vv16 / agustus
+                                                 :mod (vv17 / lalu))))))
+
+# ::snt Peraih Nobel Perdamaian yang memenangkan pemilu 2015 itu dianggap gagal melindungi etnis minoritas Muslim, terutama Rohingya, yang terus menjadi target persekusi serta diskriminasi di negaranya.
+
+(vv1 / anggap
+     :ARG1 (vv2 / raih
+                :mod (vv3 / nobel
+                          :mod (vv4 / damai))
+                :mod (vv5 / menang
+                          :ARG1 (vv6 / milu
+                                     :mod (vv7 / 2015))))
+     :mod (vv8 / gagal)
+     :mod (vv9 / lindung
+               :ARG1 (vv10 / etnis
+                           :mod (vv11 / minoritas
+                                      :mod (vv12 / muslim))
+                           :mod (vv13 / rohingya
+                                      :mod (vv14 / utama))
+                           :mod (vv15 / jadi
+                                      :mod (vv16 / terus)
+                                      :ARG1 (vv17 / target
+                                                  :mod (vv18 / persekusi)
+                                                  :mod (vv19 / diskriminasi
+                                                             :mod (vv20 / serta)
+                                                             :mod (vv21 / negara)))))))
+
+# ::snt Krisis di Rakhine juga telah menyebabkan lebih dari 700 ribu Rohingya melarikan diri ke Bangladesh, memicu gelombang pengungsi di negara tetangga Myanmar lainnya.
+
+(vv1 / sebab
+     :ARG0 (vv2 / krisis
+                :mod (vv3 / rakhine))
+     :mod (vv4 / juga)
+     :mod (vv5 / telah)
+     :mod (vv6 / rohingya
+               :mod (vv7 / lebih)
+               :mod (vv8 / ribu
+                         :mod (vv9 / 700)))
+     :mod (vv10 / lari
+                :ARG1 (vv11 / diri)
+                :location (vv12 / bangladesh))
+     :mod (vv13 / picu
+                :ARG1 (vv14 / gelombang
+                            :mod (vv15 / ungsi)
+                            :mod (vv16 / negara
+                                       :mod (vv17 / tetangga
+                                                  :mod (vv18 / myanmar
+                                                             :mod (vv19 / lain)))))))
+

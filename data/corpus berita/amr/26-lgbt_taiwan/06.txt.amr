@@ -1,0 +1,181 @@
+# ::snt Mahkamah Agung di Taiwan hari Rabu (24/05) mengeluarkan keputusan yang membuka jalan bagi legalisasi perkawinan sesama jenis.
+
+(vv1 / keluar
+     :ARG0 (vv2 / mahkamah
+                :name (vv3 / agung)
+                :mod (vv4 / taiwan
+                          :mod (vv5 / hari
+                                    :mod (vv6 / rabu
+                                              :mod (vv7 / 2405)))))
+     :ARG1 (vv8 / putus
+                :mod (vv9 / buka
+                          :ARG1 (vv10 / jalan
+                                      :mod (vv11 / legalisasi
+                                                 :mod (vv12 / kawin
+                                                            :mod (vv13 / sama
+                                                                       :mod (vv14 / jenis))))))))
+
+# ::snt Para hakim agung mengatakan bahwa hukum yang berlaku saat ini yang melarang perkawinan sesama jenis tidak konstitusional.
+
+(vv1 / kata
+     :ARG0 (vv2 / hakim
+                :mod (vv3 / agung))
+     :ARG1 (vv4 / hukum
+                :mod (vv5 / laku
+                          :ARG1 (vv6 / saat))
+                :mod (vv7 / larang
+                          :ARG1 (vv8 / kawin
+                                     :mod (vv9 / sama
+                                               :mod (vv10 / jenis))
+                                     :mod (vv11 / konstitusional
+                                                :mod (vv12 / tidak))))))
+
+# ::snt Parlemen diberi waktu dua tahun untuk mengubah undang-undang dan jika peraturan hukum tersebut disetujui, Taiwan akan menjadi negara pertama di Asia yang secara resmi mengakui perkawinan sesama jenis.
+
+(vv1 / beri
+     :ARG1 (vv2 / parlemen)
+     :ARG1 (vv3 / waktu
+                :mod (vv4 / tahun
+                          :mod (vv5 / dua)))
+     :ARG1 (vv6 / ubah
+                :ARG1 (vv7 / undangundang))
+     :mod (vv8 / tuju
+               :mod (vv9 / dan)
+               :ARG1 (vv10 / atur
+                           :mod (vv11 / hukum))
+               :ARG0 (vv12 / taiwan)
+               :ARG1 (vv13 / jadi
+                           :mod (vv14 / akan)
+                           :ARG1 (vv15 / negara
+                                       :mod (vv16 / pertama)
+                                       :mod (vv17 / asia)
+                                       :mod (vv18 / aku
+                                                  :mod (vv19 / resmi)
+                                                  :ARG1 (vv20 / kawin
+                                                              :mod (vv21 / sama)
+                                                              :mod (vv22 / jenis)))))))
+
+# ::snt Taiwan dikenal menjunjung nilai-nilai liberal dan kawasan ini juga menggelar acara tahunan pawai gay terbesar di kawasan.
+
+(vv1 / kenal
+     :ARG1 (vv2 / taiwan)
+     :ARG1 (vv3 / junjung
+                :ARG1 (vv4 / nilainilai
+                           :mod (vv5 / liberal)))
+     :mod (vv6 / gelar
+               :mod (vv7 / dan)
+               :ARG0 (vv8 / kawasan)
+               :mod (vv10 / acara
+                          :mod (vv9 / juga)
+                          :mod (vv12 / pawai
+                                     :mod (vv14 / besar)
+                                     :mod vv15))
+               :ARG1 (vv11 / tahun
+                           :mod (vv13 / gay))))
+
+# ::snt Namun isu ini masih membelah pandangan masyarakat.
+
+(vv1 / belah
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / isu)
+     :mod (vv4 / masih)
+     :ARG1 (vv5 / pandang
+                :mod (vv6 / masyarakat)))
+
+# ::snt Wartawan BBC di Taiwan, Cindy Sui, mengatakan kelompok-kelompok agama dan kalangan orang tua bertekad untuk menekan parlemen agar tidak meloloskan RUU yang mengakui perkawinan sesama jenis.
+
+(vv1 / kata
+     :ARG0 (vv2 / wartawan
+                :name (vv3 / bbc)
+                :mod (vv4 / taiwan
+                          :name (vv5 / cindy
+                                     :name (vv6 / sui))))
+     :ARG1 (vv7 / kelompokkelompok
+                :mod (vv8 / agama)
+                :mod (vv9 / kalang
+                          :mod (vv10 / dan)
+                          :mod (vv11 / orang
+                                     :mod (vv12 / tua))
+                          :mod (vv13 / tekad
+                                     :ARG1 (vv14 / tekan
+                                                 :ARG1 (vv15 / parlemen)
+                                                 :mod (vv16 / lolos
+                                                            :mod (vv17 / tidak)
+                                                            :ARG0 (vv18 / ruu
+                                                                        :mod (vv19 / aku
+                                                                                   :ARG1 (vv20 / kawin
+                                                                                               :mod (vv21 / sama)
+                                                                                               :mod (vv22 / jenis))))))))))
+
+# ::snt Mereka beralasan untuk masalah sepenting ini tidak cukup ditentukan oleh anggota parlemen dan mestinya pemerintah meminta pendapat seluruh rakyat melalui referendum.
+
+(vv1 / alas
+     :ARG0 (vv2 / mereka)
+     :location (vv3 / masalah
+                    :mod (vv4 / penting))
+     :mod (vv5 / tentu
+               :mod (vv6 / tidak)
+               :mod (vv7 / cukup)
+               :ARG1 (vv8 / anggota
+                          :mod (vv9 / parlemen))
+               :mod (vv10 / minta
+                          :mod (vv11 / dan)
+                          :mod (vv12 / mesti)
+                          :ARG0 (vv13 / pemerintah)
+                          :ARG1 (vv14 / dapat
+                                      :mod (vv15 / rakyat))
+                          :ARG1 (vv16 / referendum))))
+
+# ::snt Sementara itu, kelompok-kelompok yang pro berharap parlemen akan mengeluarkan undang-undang yang tak hanya mengakui perkawinan sesama jenis tapi juga memberi hak-hak yang sama, seperti yang dimiliki pasangan suami-istri.
+
+(vv1 / keluar
+     :ARG0 (vv2 / kelompokkelompok
+                :mod (vv3 / pro))
+     :mod (vv4 / harap
+               :ARG1 (vv5 / parlemen))
+     :mod (vv6 / akan)
+     :ARG1 (vv7 / undangundang
+                :mod (vv8 / aku
+                          :mod (vv9 / tak)
+                          :mod (vv10 / hanya)
+                          :ARG1 (vv11 / kawin
+                                      :mod (vv12 / jenis))
+                          :mod (vv13 / beri
+                                     :ARG1 (vv14 / tapi)
+                                     :mod (vv15 / juga)
+                                     :ARG1 (vv16 / hakhak
+                                                 :mod (vv17 / sama)
+                                                 :mod (vv18 / milik
+                                                            :ARG1 (vv19 / pasang))))))
+     :mod (vv20 / suamiistri))
+
+# ::snt Hak-hak yang dimaksud adalah adopsi, pola asuh dan hukum waris.
+
+(vv1 / adopsi
+     :ARG0 (vv2 / hakhak
+                :mod (vv3 / maksud))
+     :mod (vv4 / adalah)
+     :mod (vv5 / pola
+               :mod (vv6 / asuh)
+               :mod (vv7 / hukum
+                         :mod (vv8 / dan)
+                         :mod (vv9 / waris))))
+
+# ::snt RUU perkawinan sesama jenis sudah dimasukkan ke parlemen namun belum diketahui seberapa cepat RUU ini akan disetujui.
+
+(vv1 / masuk
+     :ARG1 (vv2 / ruu
+                :mod (vv4 / sama
+                          :mod (vv6 / sudah)))
+     :mod (vv7 / parlemen)
+     :location (vv8 / tahu
+                    :mod (vv10 / belum)
+                    :mod (vv11 / berapa
+                               :mod (vv3 / kawin
+                                         :mod (vv5 / jenis))
+                               :mod (vv13 / tuju
+                                          :mod vv15))
+                    :ARG1 (vv12 / cepat))
+     :mod (vv9 / namun)
+     :mod (vv14 / akan))
+

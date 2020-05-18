@@ -1,0 +1,65 @@
+# ::snt Hanya gara-gara mencetak gol bunuh diri saat bermain sepak bola di sekolahnya, seorang siswa SD di Kota Kediri, Jawa Timur, harus masuk rumah sakit karena lumpuh dianiaya teman-temannya.
+
+# ::snt Siswa berinisial T tersebut mengalami kelumpuhan dan harus intensif dirawat di ruang ICU Rumah Sakit Bhayangkara.
+
+(vv1 / alami
+     :ARG0 (vv2 / siswa
+                :mod (vv3 / inisial
+                          :ARG1 (vv4 / t)))
+     :ARG1 (vv5 / lumpuh)
+     :mod (vv6 / rawat
+               :mod (vv7 / dan)
+               :mod (vv8 / harus)
+               :mod (vv9 / intensif)
+               :ARG1 (vv10 / ruang
+                           :mod (vv11 / icu
+                                      :mod (vv12 / rumah
+                                                 :name (vv13 / sakit
+                                                             :name (vv14 / bhayangkara)))))))
+
+# ::snt Ketika bermain sepak bola, T justru mencetak gol ke gawangnya sendiri sehingga rekan-rekannya marah.
+
+(vv1 / cetak
+     :mod (vv2 / main
+               :ARG1 (vv3 / sepak
+                          :mod (vv4 / bola
+                                    :mod (vv5 / t))))
+     :mod (vv6 / justru)
+     :ARG1 (vv7 / gol
+                :mod (vv8 / gawang
+                          :mod (vv9 / sendiri)))
+     :mod (vv10 / rekanrekannya)
+     :mod (vv11 / marah))
+
+# ::snt Chevy mengklaim, oleh pihak sekolah, persoalan itu sudah diselesaikan dengan perdamaian antara penganiaya dan korban.
+
+(vv1 / klaim
+     :ARG0 (vv2 / chevy)
+     :location (vv3 / pihak
+                    :mod (vv4 / sekolah))
+     :mod (vv5 / selesai
+               :ARG1 (vv6 / soal)
+               :mod (vv7 / sudah)
+               :ARG1 (vv8 / damai
+                          :mod (vv9 / aniaya
+                                    :mod (vv10 / korban
+                                               :mod (vv11 / dan))))))
+
+# ::snt Kondisi kesehatan T ternyata semakin parah, sehingga harus dirawat di ruang ICU RS Bhayangkara per Jumat (26/1).
+
+(vv1 / kondisi
+     :mod (vv2 / sehat)
+     :mod (vv3 / parah
+               :mod (vv4 / nyata)
+               :mod (vv5 / makin))
+     :mod (vv6 / rawat
+               :mod (vv7 / harus)
+               :ARG1 (vv8 / ruang
+                          :mod (vv9 / icu)
+                          :mod (vv10 / rs
+                                     :name (vv11 / bhayangkara))
+                          :mod (vv12 / jumat
+                                     :mod (vv13 / 261)))))
+
+# ::snt Setelah insiden itu, Wali Kota Kediri Abdullah Abu Bakar meminta pengawasan orang tua, guru, maupun warga terhadap anak ditingkatkan untuk mencegah kenakalan pada anak.
+

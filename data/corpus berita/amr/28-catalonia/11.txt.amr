@@ -1,0 +1,115 @@
+# ::snt Tak lama setelah pemungutan suara berakhir, Perdana Menteri Spanyol Mariano Rajoy menyatakan tidak ada referendum dan kebanyakan besar warga Catalonia dibodohi untuk mengikuti pemungutan suara ilegal.
+
+(vv3 / nyata
+     :mod (vv1 / akhir
+               :mod (vv2 / tak)
+               :ARG0 (vv5 / mungut
+                          :mod (vv7 / perdana
+                                    :mod (vv10 / mariano
+                                               :name (vv13 / tidak)))
+                          :mod (vv8 / menteri
+                                    :mod (vv11 / rajoy)))
+               :ARG1 (vv9 / spanyol
+                          :name (vv12 / ada
+                                      :mod (vv15 / bodoh
+                                                 :mod (vv18 / besar)
+                                                 :ARG1 (vv20 / catalonia)
+                                                 :ARG1 (vv22 / ilegal))
+                                      :ARG1 (vv16 / dan))))
+     :mod (vv4 / lama)
+     :ARG1 (vv14 / referendum)
+     :mod (vv17 / banyak
+                :mod (vv19 / warga
+                           :mod (vv21 / ikut
+                                      :ARG1 (vv6 / suara
+                                                 :mod vv23)))))
+
+# ::snt "Referendum yang ingin melikuidasi konstitusi kita dan memisahkan sebagian dari negara kita tanpa memedulikan opini seluruh negeri tidak bisa terjadi," kata Rajoy, dikutip dari BBC, Senin 2 Oktober 2017.
+
+(vv1 / jadi
+     :ARG1 (vv2 / referendum
+                :mod (vv3 / likuidasi
+                          :mod (vv4 / ingin)
+                          :ARG1 (vv5 / konstitusi)
+                          :mod (vv6 / pisah
+                                    :mod (vv7 / dan)
+                                    :location (vv8 / negara)
+                                    :ARG1 (vv9 / peduli
+                                               :ARG1 (vv10 / opini
+                                                           :mod (vv11 / negeri))))))
+     :mod (vv12 / tidak)
+     :mod (vv13 / bisa)
+     :ARG1 (vv14 / kata
+                 :name (vv15 / rajoy)
+                 :mod (vv16 / kutip
+                            :location (vv17 / bbc
+                                            :mod (vv18 / senin)
+                                            :mod (vv19 / oktober
+                                                       :mod (vv20 / 2)
+                                                       :mod (vv21 / 2017))))))
+
+# ::snt "Kita menunjukkan bahwa negara demokratis kita punya cara untuk melindungi diri dari serangan serius seperti referendum ilegal ini," lanjut dia lagi.
+
+# ::snt Ketika polisi Spanyol secara paksa mengusir para pemilih dan memindahkan kotak suara dari Tempat Pemungutan Suara (TPS), ratusan warga Madrid berkumpul di Plaza Mayor Madrid sambil melambaikan bendera Spanyol dan menyanyikan "Viva Espana" untuk mendukung tindakan polisi tersebut.
+
+(vv5 / kumpul
+     :mod (vv1 / usir
+               :ARG0 (vv2 / polisi
+                          :mod (vv4 / paksa))
+               :ARG1 (vv6 / pilih)
+               :ARG1 (vv8 / dan)
+               :mod (vv9 / kotak
+                         :mod (vv13 / tps)
+                         :mod (vv15 / madrid)))
+     :ARG0 (vv18 / lambai
+                 :mod (vv24 / dukung
+                            :ARG1 vv30)
+                 :ARG1 (vv25 / tindak
+                             :mod (vv3 / spanyol))
+                 :mod vv26)
+     :location (vv21 / nyanyi
+                     :mod (vv11 / tempat
+                                :mod (vv16 / plaza
+                                           :name (vv22 / viva
+                                                       :name vv28)))
+                     :ARG1 vv27
+                     :ARG1 vv29)
+     :mod (vv23 / espana)
+     :mod-of (vv20 / bendera
+                   :name-of (vv17 / mayor
+                                  :mod-of (vv10 / suara
+                                                :mod-of (vv7 / pindah
+                                                             :ARG1 (vv12 / mungut
+                                                                         :mod (vv14 / warga
+                                                                                    :mod (vv19 / sambil))))))))
+
+# ::snt "Kami harus membela Spanyol, negara yang hebat," kata Rosa Maria Gonzalez, seorang warga Madrid yang ikut dalam aksi ini.
+
+# ::snt Sementara itu, pemimpin partai kedua terbesar di Spanyol, PSOE Sosialis, Pedro Sanchez, mengatakan bahwa referendum Catalonia adalah hari yang menyedihkan dan berakhirnya demokrasi Spanyol.
+
+# ::snt Presiden Catalonia Carles Puigdemont-lah yang telah mempelopori dorongan politikus separatis agar terus maju menggelar pemungutan suara, meski ada penangguhan dari Mahkamah Konstitusi dan penentangan sengit oleh pemerintah pusat.
+
+(vv1 / presiden
+     :name (vv2 / catalonia
+                :name (vv3 / carles
+                           :name (vv4 / puigdemontlah)))
+     :mod (vv5 / lopor
+               :mod (vv6 / telah)
+               :ARG1 (vv7 / dorong
+                          :mod (vv8 / politikus
+                                    :mod (vv9 / separatis)))
+               :ARG1 (vv10 / maju
+                           :mod (vv11 / terus)
+                           :ARG1 (vv12 / gelar
+                                       :ARG1 (vv13 / mungut
+                                                   :mod (vv14 / suara)))
+                           :mod (vv15 / ada
+                                      :ARG1 (vv16 / tangguh
+                                                  :mod (vv17 / mahkamah
+                                                             :mod (vv18 / konstitusi)
+                                                             :mod (vv19 / tentang
+                                                                        :mod (vv20 / dan)
+                                                                        :mod (vv21 / sengit)
+                                                                        :mod (vv22 / pemerintah
+                                                                                   :mod (vv23 / pusat)))))))))
+

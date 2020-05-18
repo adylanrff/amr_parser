@@ -1,0 +1,16 @@
+# ::snt "Ini akan menjadi masalah seumur hidup untuk kedua wanita [Ariadna dan Pia] itu," tulis seorang netizen.
+
+(vv1 / jadi
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / masalah
+                :mod (vv5 / umur
+                          :mod (vv6 / hidup))
+                :mod (vv7 / wanita
+                          :mod (vv8 / dua)
+                          :mod (vv9 / ariadna)))
+     :mod (vv10 / tulis
+                :mod (vv11 / dan)
+                :ARG0 (vv12 / pia)
+                :ARG1 (vv13 / netizen)))
+

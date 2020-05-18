@@ -1,0 +1,23 @@
+# ::snt Pemerintah Korea Utara, Jumat (13/12/2013) dini hari, menyatakan telah mengeksekusi mati Jang Song Thaek, paman dari pemimpin negara itu, Kim Jong Un.
+
+(vv1 / nyata
+     :ARG0 (vv2 / pemerintah
+                :mod (vv3 / korea
+                          :mod (vv4 / utara))
+                :mod (vv5 / jumat
+                          :mod (vv6 / 13122013)))
+     :time (vv7 / hari
+                :mod (vv8 / dini))
+     :ARG1 (vv9 / eksekusi
+                :mod (vv10 / telah)
+                :mod (vv11 / mati)
+                :ARG0 (vv12 / jang
+                            :name (vv13 / song
+                                        :name (vv14 / thaek))
+                            :ARG0 (vv15 / paman
+                                        :mod (vv16 / pimpin
+                                                   :mod (vv17 / negara)
+                                                   :mod (vv18 / kim
+                                                              :name (vv19 / jong
+                                                                          :mod (vv20 / un))))))))
+

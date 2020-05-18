@@ -1,0 +1,237 @@
+# ::snt Duta Besar Amerika Serikat untuk PBB Nikki Haley belakangan menjadi sorotan atas kalimat-kalimat konfrontatifnya terhadap negara-negara yang menolak keputusan AS untuk menjadikan Yerusalem sebagai ibu kota Israel.
+
+(vv1 / jadi
+     :ARG0 (vv2 / duta
+                :mod (vv3 / besar
+                          :name (vv4 / amerika
+                                     :mod (vv5 / serikat)))
+                :mod (vv6 / pbb
+                          :name (vv7 / nikki
+                                     :name (vv8 / haley))))
+     :location (vv9 / belakang)
+     :ARG1 (vv10 / sorot
+                 :mod (vv11 / kalimatkalimat
+                            :mod (vv12 / konfrontatif)
+                            :mod (vv13 / negaranegara)
+                            :mod (vv14 / tolak
+                                       :ARG1 (vv15 / putus
+                                                   :mod (vv16 / as)))))
+     :ARG0 (vv17 / yerusalem)
+     :ARG1 (vv18 / ibu
+                 :mod (vv19 / kota
+                            :name (vv20 / israel))))
+
+# ::snt Seperti diberitakan sebelumnya, pemungutan suara di sidang darurat Majelis Umum PBB, Kamis (21/12/2017), mendapati 128 negara menentang langkah Amerika Serikat yang mengakui Yerusalem sebagai ibu kota Israel.
+
+(vv1 / dapat
+     :ARG1 (vv2 / berita)
+     :ARG0 (vv3 / mungut
+                :mod (vv4 / suara)
+                :mod (vv5 / sidang
+                          :mod (vv6 / darurat)
+                          :mod (vv7 / majelis
+                                    :mod (vv8 / umum)
+                                    :mod (vv9 / pbb
+                                              :mod (vv10 / kamis
+                                                         :mod (vv11 / 21122017))))))
+     :ARG1 (vv12 / negara
+                 :mod (vv13 / 128))
+     :ARG1 (vv14 / tentang
+                 :ARG1 (vv15 / langkah
+                             :name (vv16 / amerika
+                                         :mod (vv17 / serikat))
+                             :mod (vv18 / aku
+                                        :ARG0 (vv19 / yerusalem)
+                                        :ARG1 (vv20 / ibu
+                                                    :mod (vv21 / kota
+                                                               :name (vv22 / israel)))))))
+
+# ::snt Seperti dirilis situs PBB, hanya 9 negara mendukung langkah Amerika, sementara 35 negara lain abstain.
+
+(vv1 / dukung
+     :ARG1 (vv2 / rilis
+                :ARG1 (vv3 / situs
+                           :mod (vv4 / pbb)))
+     :ARG0 (vv5 / negara
+                :mod (vv7 / 9)
+                :mod (vv8 / langkah
+                          :mod (vv6 / hanya)
+                          :name (vv10 / 35))
+                :mod (vv11 / lain)
+                :mod vv12)
+     :ARG1 (vv9 / amerika))
+
+# ::snt Kantor berita AFP menyebutkan, di barisan yang sama dengan Amerika Serikat dan Israel adalah Guatemala, Honduras, Togo, Mikronesia, Nauru, Palau, dan Kepulauan Marshall.
+
+(vv1 / sebut
+     :ARG0 (vv2 / kantor
+                :ARG1 (vv3 / berita
+                           :mod (vv4 / afp)))
+     :ARG1 (vv5 / baris
+                :mod (vv6 / sama
+                          :ARG1 (vv7 / amerika
+                                     :mod (vv8 / serikat))))
+     :mod (vv9 / guatemala
+               :mod (vv10 / dan)
+               :ARG0 (vv12 / adalah)
+               :mod (vv13 / honduras
+                          :name (vv15 / mikronesia
+                                      :name (vv17 / palau)))
+               :name (vv14 / togo
+                           :name (vv16 / nauru
+                                       :name (vv18 / kepulauan
+                                                   :mod (vv11 / israel)
+                                                   :name vv20)))
+               :mod (vv19 / marshall)))
+
+# ::snt Geram atas 'kekalahan' tersebut, pemerintahan Donald Trump melalui Haley selaku duta besarnya mulai menebar ancaman: "Bagi mereka yang tidak memiliki punggung kita, kita mengambil nama (baca: menandai)."
+
+(vv8 / selaku
+     :mod (vv3 / tebar
+               :ARG1 (vv1 / kalah
+                          :mod (vv2 / geram))
+               :ARG0 (vv4 / perintah
+                          :name (vv5 / donald
+                                     :name (vv6 / trump))
+                          :mod (vv7 / haley))
+               :mod (vv11 / mulai)
+               :ARG0 (vv12 / ancam
+                           :mod (vv13 / mereka
+                                      :mod (vv14 / milik
+                                                 :mod (vv15 / tidak)
+                                                 :ARG1 (vv16 / punggung
+                                                             :mod (vv17 / ambil
+                                                                        :ARG0 (vv18 / kita)
+                                                                        :ARG1 (vv19 / nama
+                                                                                    :mod (vv20 / baca)))))))
+               :mod (vv21 / tanda))
+     :ARG1 (vv9 / duta
+                :mod (vv10 / besar)))
+
+# ::snt Cuitan tersebut juga mendapat kritik keras karena sikap arogan Haley yang merasa AS selalu dimintai bantuan oleh PBB namun justru keputusan mereka diserang di sidang PBB.
+
+# ::snt "…Kami tidak mengharapkan mereka yang kami bantu justru menyerang kami dan mengkritisi pilihan kami," ujarnya.
+
+# ::snt Haley juga sempat memberikan cuitan sindiran sambil menampilkan dirinya sedang berbicara dengan Presiden AS Donald Trump.
+
+(vv1 / beri
+     :ARG0 (vv2 / haley)
+     :mod (vv3 / juga)
+     :mod (vv4 / sempat)
+     :ARG1 (vv5 / cuit
+                :mod (vv6 / sindir))
+     :ARG1 (vv7 / tampil
+                :mod (vv8 / sambil)
+                :ARG1 (vv9 / diri)
+                :mod (vv10 / bicara
+                           :mod (vv11 / sedang)
+                           :ARG1 (vv12 / presiden
+                                       :name (vv13 / as
+                                                   :name (vv14 / donald
+                                                               :name (vv15 / trump)))))))
+
+# ::snt Dalam cuitannya tersebut, Haley menyatakan bahwa Trump berujar "Biarkan mereka melawan kita, kita justru akan mengirit lebih banyak."
+
+# ::snt Haley bahkan secara khusus memajang nama-nama negara yang memilih untuk mendukung sikap mereka atau memilih abstain dalam pemungutan suara tersebut.
+
+# ::snt Terbaru, Reuters mengabarkan bahwa Haley akan mewakili AS mengundang semua negara yang tidak menentang keputusan AS dalam resolusi PBB (baik mendukung AS maupun abstain) untuk hadir dalam sebuah pesta.
+
+(vv1 / abar
+     :ARG0 (vv2 / baru
+                :mod (vv3 / reuters))
+     :mod (vv4 / wakil
+               :ARG0 (vv5 / haley)
+               :mod (vv6 / akan)
+               :ARG1 (vv7 / as
+                          :mod (vv19 / hadir
+                                     :ARG1 vv22))
+               :ARG1 (vv10 / tentang
+                           :mod (vv13 / resolusi
+                                      :mod (vv16 / baik)
+                                      :mod (vv17 / abstain
+                                                 :mod (vv20 / pesta)))
+                           :ARG1 (vv14 / pbb)
+                           :location (vv15 / dukung
+                                           :ARG1 (vv9 / negara
+                                                      :mod (vv12 / putus
+                                                                 :mod (vv8 / undang
+                                                                           :ARG1 (vv11 / tidak))))
+                                           :mod (vv18 / maupun)
+                                           :ARG1 vv21))))
+
+# ::snt Hal ini dilakukan sebagai ucapan terima kasih atas "persahabatan mereka dengan Amerika Serikat".
+
+(vv1 / laku
+     :ARG1 (vv2 / hal)
+     :ARG1 (vv3 / ucap
+                :mod (vv4 / terima
+                          :mod (vv5 / kasih))
+                :mod (vv6 / sahabat
+                          :mod (vv7 / amerika
+                                    :mod (vv8 / serikat)))))
+
+# ::snt Undangan, yang dikirim melalui email, menyatakan bahwa undangan formal akan menyusul, dan menetapkan tanggal pesta akan jatuh pada tanggal 3 Januari 2018.
+
+# ::snt Dua negara, melalui para diplomatnya bahkan secara terang-terangan mengkritisi aksi AS yang menebar ancaman-ancaman.
+
+(vv3 / kritisi
+     :ARG0 (vv1 / negara
+                :mod (vv2 / dua)
+                :mod (vv4 / diplomat))
+     :mod (vv5 / bahkan)
+     :mod (vv6 / terangterangan)
+     :ARG1 (vv7 / aksi
+                :mod (vv8 / as)
+                :mod (vv9 / tebar
+                          :ARG0 (vv10 / ancamanancaman))))
+
+# ::snt "Tidak ada negara terhormat yang tunduk pada tekanan seperti itu," kata menteri luar negeri Turki, Mevlüt Çavu?o?lu.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / negara
+                :mod (vv4 / hormat)
+                :mod (vv5 / tunduk
+                          :ARG1 (vv6 / tekan
+                                     :mod (vv7 / kata
+                                               :ARG1 (vv8 / menteri)
+                                               :ARG1 (vv9 / negeri
+                                                          :mod (vv10 / luar)
+                                                          :mod (vv11 / turki
+                                                                     :name (vv12 / mevl t)))))))
+     :mod (vv13 / avuolu))
+
+# ::snt Di antara negara-negara lain yang bersikap kritis terhadap komentar Trump dan Haley adalah Bolivia.
+
+(vv3 / bolivia
+     :mod (vv1 / negaranegara
+               :mod (vv2 / antara)
+               :mod (vv4 / lain)
+               :mod (vv5 / sikap
+                         :mod (vv6 / kritis)
+                         :location (vv7 / komentar
+                                        :name (vv8 / trump
+                                                   :mod (vv9 / haley
+                                                             :mod (vv10 / dan))))))
+     :mod (vv11 / adalah))
+
+# ::snt "Nama pertama yang harus ditulisnya adalah Bolivia," ujar duta besar Bolovia PBB, Sacha Sergio Llorenty Soliz.
+
+(vv1 / ujar
+     :ARG0 (vv2 / nama
+                :mod (vv3 / pertama)
+                :mod (vv4 / tulis
+                          :mod (vv5 / harus)))
+     :ARG0 (vv6 / bolivia
+                :mod (vv7 / adalah))
+     :ARG1 (vv8 / duta
+                :mod (vv9 / besar)
+                :mod (vv10 / bolovia
+                           :name (vv11 / pbb
+                                       :name (vv12 / sacha
+                                                   :name (vv13 / sergio
+                                                               :name (vv14 / llorenty))))))
+     :mod (vv15 / soliz))
+
+# ::snt "Kami menyesalkan arogansi dan sikap tidak menghormati keputusan berdaulat negara-negara anggota dan multilateralisme."
+

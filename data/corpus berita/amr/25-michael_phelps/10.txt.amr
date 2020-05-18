@@ -1,0 +1,73 @@
+# ::snt Atlet 31 tahun itu mempersembahkan emas bagi AS setelah menjadi juara di nomor 4x100 meter gaya bebas estafet putra, Minggu (7/8) waktu setempat.
+
+(vv1 / sembah
+     :ARG0 (vv2 / atlet
+                :mod (vv3 / tahun
+                          :mod (vv4 / 31)))
+     :ARG1 (vv5 / emas)
+     :ARG1 (vv6 / as)
+     :ARG1 (vv7 / jadi
+                :ARG1 (vv8 / juara
+                           :mod (vv9 / nomor
+                                     :mod (vv10 / meter
+                                                :mod (vv11 / 4x100))
+                                     :mod (vv12 / gaya
+                                                :mod (vv13 / bebas)
+                                                :mod (vv14 / estafet
+                                                           :mod (vv15 / putra
+                                                                      :mod (vv16 / minggu)
+                                                                      :mod (vv17 / waktu
+                                                                                 :mod (vv18 / 78)
+                                                                                 :mod (vv19 / tempat)))))))))
+
+# ::snt Dilansir dari Sports Mole, Senin (8/8), Phelps yang terjun sebagai perenang kedua tim AS berhasil mencatat waktu 47,12 detik, dan mengantarkan AS kembali meraih emas di cabang olahraga (cabor) tersebut dengan mencatat waktu terbaik 3 menit 9,92 detik.
+
+# ::snt Dengan tambahan medali tersebut, Phelps telah mengoleksi 23 medali dengan rincian 19 emas, 2 perak dan 2 perunggu, dalam empat edisi Olimpaide sejak 2004 lalu.
+
+(vv1 / koleksi
+     :ARG1 (vv2 / tambah
+                :mod (vv3 / medali
+                          :mod (vv7 / rincian
+                                    :mod (vv9 / 19)
+                                    :mod (vv11 / 2)
+                                    :mod (vv14 / edisi
+                                               :mod (vv17 / 2004)
+                                               :mod (vv18 / lalu)
+                                               :mod vv19))))
+     :ARG1 (vv4 / phelps)
+     :ARG0 (vv5 / telah)
+     :mod (vv6 / 23)
+     :location (vv8 / emas
+                    :mod (vv10 / perak
+                               :mod (vv12 / perunggu
+                                          :mod (vv13 / dan)
+                                          :mod (vv15 / empat)
+                                          :mod (vv16 / olimpaide))))
+     :mod vv20)
+
+# ::snt Selanjutnya atlet yang sempat pensiun dan kembali lagi pada 2014 lalu itu berpeluang menambah pundi-pundi raihan medalinya saat turun di nomor 200 meter gaya kupu-kupu perseorangan putra.
+
+(vv1 / peluang
+     :mod (vv2 / lanjut)
+     :ARG0 (vv3 / atlet
+                :mod (vv4 / pensiun
+                          :mod (vv5 / sempat)
+                          :mod (vv6 / kembali
+                                    :mod (vv7 / dan)
+                                    :mod (vv8 / lagi))
+                          :ARG1 (vv9 / lalu
+                                     :mod (vv10 / 2014))))
+     :mod (vv11 / tambah
+                :ARG1 (vv12 / pundipundi
+                            :mod (vv13 / raih
+                                       :mod (vv14 / medali)))
+                :ARG1 (vv15 / turun
+                            :mod (vv16 / saat)
+                            :location (vv17 / nomor
+                                            :mod (vv18 / meter
+                                                       :mod (vv19 / 200))
+                                            :mod (vv20 / gaya
+                                                       :mod (vv21 / kupukupu
+                                                                  :mod (vv22 / orang
+                                                                             :mod (vv23 / putra))))))))
+

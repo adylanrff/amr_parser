@@ -1,0 +1,69 @@
+# ::snt "Chang yang menjadi pembimbing keponakannya Kim Jong-un saat transisi pemerintahan dari Kim Jong-il, ternyata lebih buruk dari seekor anjing," demikian laporan KCNA.
+
+(vv1 / chang
+     :mod (vv2 / jadi
+               :ARG1 (vv3 / bimbing
+                          :mod (vv4 / keponakan
+                                    :mod (vv5 / kim
+                                              :name (vv7 / nyata
+                                                         :ARG1 (vv9 / transisi
+                                                                    :mod (vv6 / jongun)
+                                                                    :mod (vv8 / saat)
+                                                                    :mod (vv11 / jongil))
+                                                         :mod (vv13 / lebih))
+                                              :name (vv12 / buruk
+                                                          :mod (vv14 / anjing
+                                                                     :mod (vv16 / lapor
+                                                                                :name vv18)
+                                                                     :mod (vv17 / kcna))
+                                                          :mod (vv15 / demikian)))))
+               :mod (vv10 / perintah)))
+
+# ::snt Dalam laporan KCNA disebutkan Chang segera dieksekusi setelah mendapat vonis Pengadilan Militer.
+
+(vv1 / sebut
+     :ARG1 (vv2 / lapor
+                :name (vv3 / kcna))
+     :ARG1 (vv4 / eksekusi
+                :ARG1 (vv5 / chang)
+                :mod (vv6 / segera)
+                :ARG1 (vv7 / dapat
+                           :ARG1 (vv8 / vonis
+                                      :mod (vv9 / pengadilan
+                                                :mod (vv10 / militer))))))
+
+# ::snt Tudingan itu, berlanjut dengan penangkapan terhadap Chang ketika sedang mengikuti rapat Partai Komunis pada awal pekan ini.
+
+(vv1 / lanjut
+     :ARG0 (vv2 / tuding)
+     :ARG1 (vv3 / tangkap
+                :mod (vv4 / chang))
+     :mod (vv5 / ikut
+               :mod (vv6 / sedang)
+               :ARG1 (vv7 / rapat
+                          :mod (vv8 / partai
+                                    :mod (vv9 / komunis)))
+               :time (vv10 / pekan
+                           :mod (vv11 / awal))))
+
+# ::snt Menanggapi tentang eksekusi terhadap Chang, pemerintah Amerika Serikat (AS) mengatakan belum bisa memastikan laporan itu, namun tidak memiliki alasan untuk meragukan kebenarannya.
+
+(vv1 / kata
+     :ARG1 (vv2 / tanggap
+                :ARG1 (vv3 / eksekusi
+                           :mod (vv4 / chang
+                                     :mod (vv5 / perintah
+                                               :name (vv6 / amerika
+                                                          :mod (vv7 / serikat)
+                                                          :mod (vv8 / as))))))
+     :ARG1 (vv9 / pasti
+                :mod (vv10 / belum)
+                :mod (vv11 / bisa)
+                :ARG1 (vv12 / lapor)
+                :mod (vv13 / milik
+                           :mod (vv14 / namun)
+                           :mod (vv15 / tidak)
+                           :ARG1 (vv16 / alas)
+                           :ARG1 (vv17 / ragu
+                                       :ARG1 (vv18 / benar)))))
+

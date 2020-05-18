@@ -1,0 +1,60 @@
+# ::snt Moonlight, akhirnya sukses menyabet penghargaan dalam Academy Awards atau Piala Oscar 2017 ini.
+
+(vv1 / sabet
+     :ARG0 (vv2 / moonlight)
+     :mod (vv3 / akhir)
+     :mod (vv4 / sukses)
+     :ARG1 (vv5 / harga
+                :mod (vv6 / academy
+                          :name (vv7 / awards)
+                          :mod (vv8 / piala
+                                    :mod (vv9 / atau)
+                                    :name (vv10 / oscar
+                                                :mod (vv11 / 2017))))))
+
+# ::snt Kemenangan ini cukup tidak terduga, karena sejak awal La La Land lah yang digadang-gadang menjadi pemenang film terbaik di Oscar 2017 ini.
+
+(vv1 / duga
+     :ARG1 (vv2 / menang
+                :mod (vv13 / oscar
+                           :mod vv16)
+                :mod vv15)
+     :mod (vv4 / tidak)
+     :mod (vv5 / la
+               :name (vv7 / jadi
+                          :ARG1 (vv3 / cukup)
+                          :ARG0 (vv6 / awal))
+               :mod (vv8 / land
+                         :mod (vv11 / film
+                                    :mod (vv14 / 2017)))
+               :name (vv10 / digadanggadang)
+               :mod (vv12 / baik))
+     :mod (vv9 / lah))
+
+# ::snt Penobatan Moonlight sebagai pemenang film terbaik juga sempat rancu, ketika semula dibacakan film terbaik adalah La La Land. Bahkan revisi ini dilakukan setelah para kru La La Land naik panggung
+
+(vv1 / rancu
+     :ARG0 (vv2 / penobatan
+                :name (vv3 / moonlight)
+                :mod (vv4 / menang
+                          :mod (vv5 / film
+                                    :mod (vv7 / juga)
+                                    :mod (vv8 / sempat))))
+     :mod (vv9 / baca
+               :ARG1 (vv6 / baik)
+               :mod (vv12 / adalah))
+     :mod (vv10 / mula)
+     :ARG1 (vv11 / land
+                 :mod (vv15 / bahkan)
+                 :ARG0 (vv16 / revisi))
+     :ARG1 (vv13 / la
+                 :name (vv14 / laku
+                             :mod vv20
+                             :ARG1 vv21
+                             :ARG1 vv22)
+                 :name (vv18 / kru
+                             :mod (vv17 / naik
+                                        :ARG0 vv23
+                                        :ARG1 vv24)))
+     :ARG1 (vv19 / panggung))
+

@@ -1,0 +1,14 @@
+# ::snt Sampai berita ini terbit, baik Grab maupun Uber belum mau berkomentar banyak atas kesepakatan ini.
+
+(vv3 / mau
+     :mod (vv1 / terbit
+               :ARG0 (vv2 / berita)
+               :mod (vv4 / baik)
+               :ARG0 (vv5 / grab
+                          :mod (vv6 / uber
+                                    :mod (vv7 / maupun))))
+     :mod (vv8 / belum)
+     :mod (vv9 / komentar
+               :mod (vv10 / banyak)
+               :ARG1 (vv11 / sepakat)))
+

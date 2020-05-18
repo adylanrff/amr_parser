@@ -1,0 +1,97 @@
+# ::snt "Tingkat maksimal, sedikit lebih rendah dibandingkan dengan yang dicapai selama banjir pada Juni 2016, diperkirakan dicapai," demikian perkiraan lembaga milik pemerintah Vigicrues.
+
+(vv1 / kira
+     :ARG1 (vv2 / tingkat
+                :mod (vv3 / maksimal)
+                :mod (vv4 / rendah
+                          :mod (vv5 / sedikit)
+                          :mod (vv6 / lebih)
+                          :mod (vv7 / banding)
+                          :mod (vv8 / capai
+                                    :ARG1 (vv10 / juni
+                                                :mod (vv12 / demikian))
+                                    :ARG1 (vv11 / 2016)
+                                    :mod (vv13 / lembaga
+                                               :mod (vv15 / pemerintah
+                                                          :name vv17)))))
+     :mod (vv9 / banjir)
+     :mod (vv14 / milik
+                :mod (vv16 / vigicrues)))
+
+# ::snt Hujan yang turun terus-menerus mengakibatkan banjir, terutama di Wilayah Paris --tempat permukaan air yang tinggi merendam jalan dan memasak Museum Louvre menutup lantai bawah Departemen Seni Islam buat publik sampai 29 Januari.
+
+(vv1 / akibat
+     :ARG0 (vv2 / hujan
+                :mod (vv3 / turun
+                          :ARG1 (vv4 / terusmenerus)))
+     :ARG1 (vv5 / banjir)
+     :location (vv6 / wilayah
+                    :mod (vv7 / utama)
+                    :mod (vv8 / paris)
+                    :mod (vv9 / tempat
+                              :mod (vv10 / muka
+                                         :mod (vv11 / air)
+                                         :mod (vv12 / tinggi)))
+                    :mod (vv13 / rendam
+                               :ARG1 (vv14 / jalan
+                                           :mod (vv15 / masak
+                                                      :mod (vv16 / dan)
+                                                      :ARG1 (vv17 / museum
+                                                                  :name (vv18 / louvre))))))
+     :mod (vv19 / tutup
+                :ARG1 (vv20 / lantai
+                            :mod (vv21 / bawah
+                                       :mod (vv22 / departemen
+                                                  :mod (vv23 / seni
+                                                             :mod (vv24 / islam))))
+                            :mod (vv25 / publik
+                                       :mod (vv26 / buat)
+                                       :mod (vv27 / januari
+                                                  :mod (vv28 / 29))))))
+
+# ::snt Operator kereta SNCF juga menutup jalur kereta pelaju RER --yang berada di sepanjang Sungai Seine dan digunakan oleh wisatawan untuk mencapai Menara Eiffel, Notre-Dame Cathedral dan Versailles.
+
+(vv1 / tutup
+     :ARG0 (vv2 / operator
+                :mod (vv3 / kereta
+                          :mod (vv5 / juga)
+                          :mod (vv8 / rer)))
+     :mod (vv6 / jalur
+               :mod (vv4 / sncf)
+               :mod (vv10 / panjang
+                          :mod (vv12 / seine)))
+     :ARG1 (vv7 / laju
+                :mod (vv9 / ada
+                          :ARG1 (vv11 / sungai
+                                      :name (vv13 / guna
+                                                  :mod (vv15 / wisatawan)
+                                                  :location (vv17 / menara
+                                                                  :mod (vv20 / cathedral)
+                                                                  :mod vv23)
+                                                  :mod (vv18 / eiffel
+                                                             :name (vv21 / versailles
+                                                                         :mod (vv16 / capai
+                                                                                    :ARG1 (vv19 / notredame
+                                                                                                :mod vv22))))))
+                          :mod (vv14 / dan))))
+
+# ::snt Dinas cuaca Prancis, Meteo France, menempatkan delapan kabupaten pada siaga oranye sampai Senin sore akibat resiko banjir yang terus tinggi.
+
+(vv1 / tempat
+     :ARG0 (vv2 / dinas
+                :mod (vv3 / cuaca
+                          :mod (vv4 / prancis
+                                    :name (vv5 / meteo
+                                               :mod (vv6 / france)))))
+     :ARG1 (vv7 / kabupaten
+                :mod (vv8 / delapan)
+                :mod (vv9 / siaga
+                          :mod (vv10 / oranye)
+                          :mod (vv11 / senin)
+                          :mod (vv12 / sore
+                                     :mod (vv13 / akibat
+                                                :mod (vv14 / resiko
+                                                           :mod (vv15 / banjir)
+                                                           :mod (vv16 / tinggi
+                                                                      :mod (vv17 / terus))))))))
+

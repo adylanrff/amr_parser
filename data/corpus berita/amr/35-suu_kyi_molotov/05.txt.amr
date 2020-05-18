@@ -1,0 +1,99 @@
+# ::snt Satu bom Molotov dilemparkan ke kompleks kediaman pinggir danau pemimpin Myanmar Aung San Suu Kyi di Yangon pada Kamis, saat dia sedang tidak berada di rumahnya, kata seorang juru bicara pemerintah.
+
+(vv3 / lempar
+     :ARG1 (vv1 / bom
+                :mod (vv2 / satu)
+                :mod (vv4 / molotov))
+     :location (vv5 / kompleks
+                    :mod (vv6 / diam)
+                    :mod (vv7 / pinggir
+                              :mod (vv8 / danau
+                                        :mod (vv9 / pimpin
+                                                  :name (vv10 / myanmar
+                                                              :name (vv11 / aung
+                                                                          :name (vv12 / san
+                                                                                      :name (vv13 / suu
+                                                                                                  :name (vv14 / kyi))))))))
+                    :mod (vv15 / yangon))
+     :time (vv16 / kamis)
+     :mod (vv17 / ada
+                :ARG1 (vv18 / saat)
+                :ARG0 (vv19 / dia)
+                :mod (vv20 / sedang)
+                :mod (vv21 / tidak)
+                :location (vv22 / rumah
+                                :mod (vv23 / kata
+                                           :ARG1 (vv24 / juru
+                                                       :mod (vv25 / bicara
+                                                                  :ARG1 (vv26 / pemerintah)))))))
+
+# ::snt Suu Kyi sedang berada di Naypyidaw pada saat kejadian dan dijadwalkan bertemu parlemen untuk memperingati tahun kedua partai National League for Democracy (NLD) yang menaunginya mulai berkuasa.
+
+(vv1 / ada
+     :ARG0 (vv2 / suu
+                :name (vv3 / kyi))
+     :mod (vv4 / sedang)
+     :ARG1 (vv5 / naypyidaw)
+     :ARG1 (vv6 / saat
+                :mod (vv7 / jadi))
+     :mod (vv8 / jadwal
+               :mod (vv9 / dan)
+               :ARG1 (vv10 / temu
+                           :ARG1 (vv11 / parlemen)
+                           :ARG1 (vv12 / ingat
+                                       :ARG1 (vv13 / tahun
+                                                   :mod (vv14 / dua)
+                                                   :mod (vv15 / partai
+                                                              :mod (vv16 / national
+                                                                         :name (vv17 / league
+                                                                                     :name (vv18 / for
+                                                                                                 :name (vv19 / democracy
+                                                                                                             :name (vv20 / nld)))))
+                                                              :mod (vv21 / naung
+                                                                         :mod (vv22 / mulai
+                                                                                    :ARG1 (vv23 / kuasa)))))))))
+
+# ::snt "Itu adalah bom Molotov," kata juru bicara Zaw Htay kepada AFP, tanpa memberikan rincian lebih lanjut tentang kemungkinan motif serangan kecil tetapi jarang terhadap pahlawan demokrasi Myanmar itu.
+
+(vv1 / bom
+     :ARG0 (vv2 / itu)
+     :mod (vv3 / adalah)
+     :mod (vv4 / molotov)
+     :mod (vv5 / kata
+               :ARG1 (vv6 / juru))
+     :mod (vv7 / bicara
+               :ARG1 (vv8 / zaw
+                          :name (vv9 / htay))
+               :ARG1 (vv10 / afp)
+               :ARG1 (vv11 / beri
+                           :ARG1 (vv12 / rincian
+                                       :mod (vv13 / lanjut
+                                                  :mod (vv14 / lebih))
+                                       :mod (vv15 / mungkin
+                                                  :mod (vv16 / motif
+                                                             :mod (vv17 / serang
+                                                                        :mod (vv18 / kecil)))
+                                                  :mod (vv19 / pahlawan
+                                                             :mod (vv20 / tetapi)
+                                                             :mod (vv21 / jarang)
+                                                             :mod (vv22 / demokrasi
+                                                                        :mod (vv23 / myanmar))))))))
+
+# ::snt Suu Kyi semakin menjadi sasaran kemarahan komunitas internasional karena kegagalannya berbicara atas nama komunitas muslim Rohingya di Myanmar.
+
+(vv1 / jadi
+     :ARG0 (vv2 / suu
+                :name (vv3 / kyi))
+     :mod (vv4 / makin)
+     :ARG1 (vv5 / sasar
+                :mod (vv6 / marah
+                          :mod (vv7 / komunitas
+                                    :mod (vv9 / bicara
+                                              :ARG0 (vv11 / nama
+                                                          :mod (vv8 / internasional)
+                                                          :mod vv15)
+                                              :ARG1 (vv12 / muslim
+                                                          :mod (vv14 / myanmar)))
+                                    :mod (vv13 / rohingya))))
+     :mod (vv10 / gagal))
+

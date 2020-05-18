@@ -1,0 +1,202 @@
+# ::snt Di antara negara-negara yang abstain adalah Argentina, Australia, Kanada, Kolombia, Republik Czech, Hungaria, Meksiko, Filipina, Polandia, Rwanda, Sudan Selatan dan Uganda.
+
+(vv3 / argentina
+     :mod (vv1 / negaranegara
+               :mod (vv2 / antara)
+               :mod (vv4 / abstain))
+     :mod (vv5 / adalah)
+     :name (vv6 / australia
+                :mod (vv7 / kanada
+                          :name (vv8 / kolombia
+                                     :name (vv9 / republik
+                                                :mod (vv10 / czech)
+                                                :mod (vv11 / hungaria
+                                                           :name (vv12 / meksiko
+                                                                       :name (vv13 / filipina
+                                                                                   :name (vv14 / polandia)
+                                                                                   :name (vv15 / rwanda
+                                                                                               :name (vv16 / sudan
+                                                                                                           :name (vv17 / selatan))))))))))
+     :mod (vv18 / uganda
+                :mod (vv19 / dan)))
+
+# ::snt Sejumlah negara bersuara atas hasil pemungutan suara tersebut.
+
+(vv1 / suara
+     :ARG0 (vv2 / negara)
+     :ARG1 (vv3 / hasil
+                :mod (vv4 / mungut)))
+
+# ::snt Perdana Menteri Israel Benjamin Netanyahu kecewa dan menganggap 128 negara bergabung dalam pentas drama di PBB yang tak logis.
+
+(vv1 / kecewa
+     :ARG0 (vv2 / perdana
+                :mod (vv3 / menteri
+                          :mod (vv4 / israel
+                                    :name (vv5 / benjamin
+                                               :mod (vv6 / netanyahu)))))
+     :mod (vv7 / anggap
+               :ARG1 (vv8 / dan)
+               :ARG1 (vv9 / negara
+                          :mod (vv10 / 128))
+               :mod (vv11 / gabung
+                          :ARG1 (vv12 / pentas
+                                      :mod (vv13 / drama)
+                                      :mod (vv14 / pbb)
+                                      :mod (vv15 / logis
+                                                 :mod (vv16 / tak))))))
+
+# ::snt Juru Bicara Presiden Palestina Mahmoud Abbas, Nabil Abu Rdainah, menyebut hasil voting di Majelis Umum PBB adalah kemenangan bagi negaranya.
+
+(vv1 / sebut
+     :ARG0 (vv2 / juru
+                :name (vv3 / bicara
+                           :mod (vv4 / presiden
+                                     :name (vv5 / palestina
+                                                :name (vv6 / mahmoud
+                                                           :name (vv7 / abbas
+                                                                      :name (vv8 / nabil
+                                                                                 :name (vv9 / abu
+                                                                                            :name (vv10 / rdainah)))))))))
+     :ARG1 (vv11 / hasil
+                 :mod (vv12 / voting)
+                 :mod (vv13 / majelis
+                            :mod (vv14 / umum)
+                            :mod (vv15 / pbb)))
+     :ARG1 (vv16 / menang
+                 :mod (vv17 / adalah)
+                 :mod (vv18 / negara)))
+
+# ::snt Duta Besar Prancis untuk PBB Francois Delattre menegaskan sikap negaranya bahwa status Yerusalam harus diputuskan melalui konsensus internasional, bukan sepihak oleh negara tertentu.
+
+# ::snt "Resolusi yang diadopsi hari ini hanya mengonfirmasi ketentuan hukum internasional yang relevan di Yerusalem," katanya.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / resolusi
+                :mod (vv3 / adopsi
+                          :time (vv4 / hari)))
+     :mod (vv5 / hanya)
+     :ARG1 (vv6 / tentu
+                :mod (vv7 / hukum
+                          :mod (vv8 / internasional))
+                :mod (vv9 / relevan
+                          :mod (vv10 / yerusalem)))
+     :mod (vv11 / kata))
+
+# ::snt Kementerian Urusan Internasional Botswana menyatakan bahwa negara tersebut menolak intimidasi dari siapa pun.
+
+(vv1 / nyata
+     :ARG0 (vv2 / menteri
+                :name (vv3 / urus
+                           :name (vv4 / internasional
+                                      :name (vv5 / botswana))))
+     :mod (vv6 / tolak
+               :ARG0 (vv7 / negara)
+               :ARG1 (vv8 / intimidasi
+                          :mod (vv9 / siapa))))
+
+# ::snt "Botswana tidak akan diintimidasi oleh ancaman tersebut dan akan menggunakan hak kedaulatannya berdasarkan prinsip kebijakan luar negerinya, yang menegaskan bahwa Yerusalem adalah isu status akhir yang mendasar, yang harus diselesaikan melalui negosiasi sesuai dengan resolusi Perserikatan Bangsa-Bangsa yang relevan," kata kementerian tersebut.
+
+(vv1 / intimidasi
+     :ARG1 (vv2 / botswana)
+     :mod (vv3 / tidak)
+     :mod (vv4 / akan)
+     :mod (vv6 / guna
+               :mod (vv5 / ancam)
+               :mod (vv8 / hak
+                         :mod (vv10 / dasar
+                                    :ARG1 (vv13 / negeri
+                                                :mod (vv16 / isu
+                                                           :ARG0 (vv19 / status
+                                                                       :mod (vv12 / bijak)
+                                                                       :mod (vv22 / harus))
+                                                           :mod (vv20 / akhir)
+                                                           :mod (vv21 / selesai
+                                                                      :mod (vv24 / sesuai)
+                                                                      :ARG1 (vv25 / resolusi
+                                                                                  :mod (vv28 / relevan
+                                                                                             :ARG1 vv31)
+                                                                                  :mod (vv30 / menteri)))
+                                                           :mod (vv23 / negosiasi
+                                                                      :mod (vv26 / perserikatan
+                                                                                 :name (vv29 / kata
+                                                                                             :ARG1 vv32))
+                                                                      :mod (vv27 / bangsabangsa))))))
+               :ARG1 (vv9 / daulat)
+               :ARG1 (vv11 / prinsip
+                           :mod (vv14 / luar)
+                           :mod (vv15 / tegas
+                                      :ARG1 (vv18 / adalah))
+                           :mod (vv17 / yerusalem)))
+     :mod (vv7 / dan))
+
+# ::snt Duta Besar Kanada untuk PBB Marc-Andre Blanchard mengatakan bahwa negaranya memilih tak ambil bagian dalam voting karena resolusi yang diajukan juga tidak membuat kemajuan untuk perdamaian Israel dan Palestina.
+
+(vv1 / kata
+     :ARG0 (vv2 / duta
+                :mod (vv3 / besar
+                          :name (vv4 / kanada))
+                :mod (vv5 / pbb
+                          :name (vv6 / marcandre
+                                     :name (vv7 / blanchard))))
+     :mod (vv8 / pilih
+               :ARG0 (vv9 / negara)
+               :ARG1 (vv10 / ambil
+                           :mod (vv11 / tak)
+                           :ARG1 (vv12 / bagi
+                                       :mod (vv13 / voting))))
+     :mod (vv14 / buat
+                :ARG0 (vv15 / resolusi
+                            :mod (vv16 / aju))
+                :mod (vv17 / juga)
+                :mod (vv18 / tidak)
+                :ARG1 (vv19 / maju
+                            :mod (vv20 / damai
+                                       :mod (vv21 / israel)
+                                       :mod (vv22 / palestina
+                                                  :mod (vv23 / dan))))))
+
+# ::snt "Kami kecewa bahwa resolusi ini sepihak dan tidak memajukan prospek perdamaian yang kami cita-citakan, karena itulah kami berpantang untuk memilih hari ini," katanya.
+
+(vv1 / kecewa
+     :ARG0 (vv2 / kami)
+     :mod (vv5 / maju
+               :mod (vv8 / prospek
+                         :mod (vv11 / pantang
+                                    :ARG0 (vv4 / pihak
+                                               :mod (vv7 / tidak))
+                                    :ARG0 (vv14 / hari)
+                                    :mod (vv15 / kata))
+                         :mod (vv12 / itu))
+               :mod (vv9 / damai)
+               :ARG1 (vv10 / citacitakan
+                           :ARG0 (vv3 / resolusi
+                                      :mod (vv6 / dan))
+                           :mod (vv13 / pilih
+                                      :ARG1 vv16)))
+     :mod vv17)
+
+# ::snt "Hasil tersebut menunjukan bahwa pemerintah dan rakyat Indonesia bersama mayoritas dunia, mendukung perjuangan rakyat Palestina," kata Kementerian Luar Negeri (Kemlu) dalam sebuah pernyataan yang diterima SINDOnews, Jumat (22/12/2017).
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / hasil)
+     :mod (vv3 / dukung
+               :ARG0 (vv4 / perintah
+                          :mod (vv5 / rakyat
+                                    :mod (vv7 / indonesia)
+                                    :mod (vv8 / dunia)
+                                    :mod (vv11 / kata
+                                               :name (vv13 / luar
+                                                           :mod (vv15 / kemlu))))
+                          :mod (vv9 / juang
+                                    :mod (vv6 / dan)
+                                    :mod (vv12 / menteri
+                                               :mod (vv14 / negeri
+                                                          :name (vv16 / nyata
+                                                                      :mod (vv18 / sindonews
+                                                                                 :time (vv20 / 22122017)
+                                                                                 :mod vv21))))
+                                    :mod (vv17 / terima
+                                               :ARG0 (vv19 / jumat))))
+               :ARG1 (vv10 / palestina)))
+

@@ -1,0 +1,16 @@
+# ::snt Kapolres Aceh Utara melalui Kapolsek Langkahan Ipda Samsul Bahri membenarkan adanya temuan mayat perempuan tersebut.
+
+(vv1 / benar
+     :ARG0 (vv2 / kapolres
+                :name (vv3 / aceh
+                           :mod (vv4 / utara))
+                :mod (vv5 / kapolsek
+                          :mod (vv6 / langkah
+                                    :name (vv7 / ipda
+                                               :name (vv8 / samsul
+                                                          :name (vv9 / bahri))))))
+     :ARG1 (vv10 / ada
+                 :mod (vv11 / temu
+                            :mod (vv12 / mayat
+                                       :mod (vv13 / perempuan)))))
+

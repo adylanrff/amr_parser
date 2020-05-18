@@ -1,0 +1,22 @@
+# ::snt Sri Wahyuni Agustiani (21) mempersembahkan medali perak cabang angkat berat sekaligus medali pertama bagi kontingen Indonesia di Olimpiade 2016.
+
+(vv1 / sembah
+     :ARG0 (vv2 / sri
+                :name (vv3 / wahyuni
+                           :name (vv4 / agustiani
+                                      :mod (vv5 / 21))))
+     :ARG1 (vv6 / medali
+                :mod (vv7 / perak
+                          :mod (vv9 / angkat
+                                    :mod (vv11 / sekaligus)))
+                :mod (vv8 / cabang
+                          :mod (vv10 / berat))
+                :mod (vv12 / pertama)
+                :mod (vv13 / kontingen
+                           :mod (vv15 / olimpiade
+                                      :mod vv17)
+                           :mod (vv16 / 2016))
+                :mod (vv14 / indonesia)))
+
+# ::snt Menpora Imam Nachrawi yang turut mendukung di lokasi Olimpiade juga langsung memberikan selamat dan memeluk Sri Wahyuni. Selamat Yuni!
+

@@ -1,0 +1,122 @@
+# ::snt Robohnya selasar atap Tower II Bursa Efek Indonesia (BEI), Senayan, Jakarta mengakibatkan puluhan orang luka-luka sehingga harus mendapatkan perawatan intensif di tiga rumah sakit.
+
+(vv1 / akibat
+     :ARG0 (vv2 / robohnya)
+     :ARG0 (vv3 / selasar
+                :mod (vv4 / atap
+                          :mod (vv5 / tower
+                                    :mod (vv6 / ii)))
+                :mod (vv7 / bursa
+                          :mod (vv8 / efek
+                                    :mod (vv9 / indonesia)
+                                    :name (vv10 / bei
+                                                :name (vv11 / senayan
+                                                            :name (vv12 / jakarta))))))
+     :ARG1 (vv13 / orang
+                 :mod (vv14 / lukaluka))
+     :mod (vv15 / dapat
+                :mod (vv16 / harus)
+                :ARG1 (vv17 / awat
+                            :mod (vv18 / intensif))
+                :location (vv19 / rumah
+                                :mod (vv20 / tiga)
+                                :mod (vv21 / sakit))))
+
+# ::snt Kepala Divisi Hubungan Masyarakat (Div Humas) Polri, Irjen Pol Setyo Wasisto mengatakan, sampai saat ini tercatat sudah 77 korban karena kecelakaan tersebut.
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / divisi
+                          :mod (vv4 / hubung
+                                    :mod (vv5 / masyarakat
+                                              :mod (vv6 / div
+                                                        :name (vv7 / humas
+                                                                   :name (vv8 / polri
+                                                                              :name (vv9 / irjen
+                                                                                         :name (vv10 / pol
+                                                                                                     :name (vv11 / setyo
+                                                                                                                 :name (vv12 / wasisto)))))))))))
+     :ARG1 (vv13 / saat)
+     :mod (vv14 / catat
+                :ARG1 (vv15 / korban
+                            :mod (vv16 / sudah)
+                            :mod (vv17 / 77)
+                            :mod (vv18 / celaka))))
+
+# ::snt "Terdapat korban luka berjumlah 77 orang, namun dua orang sudah diperbolehkan pulang, rawat jalan," kata Setyo dalam keterangan tertulis, Jakarta, Senin (15/1).
+
+(vv1 / dapat
+     :ARG1 (vv2 / korban
+                :mod (vv3 / luka)
+                :mod (vv4 / jumlah
+                          :ARG1 (vv5 / orang
+                                     :mod (vv7 / boleh
+                                               :ARG1 (vv6 / 77)
+                                               :mod (vv9 / dua)
+                                               :mod (vv11 / pulang
+                                                          :ARG1 (vv13 / jalan
+                                                                      :mod (vv15 / setyo))
+                                                          :ARG1 (vv17 / tulis
+                                                                      :ARG0 (vv19 / senin)))
+                                               :time (vv12 / rawat
+                                                           :mod (vv14 / kata
+                                                                      :name (vv16 / terang
+                                                                                  :mod (vv18 / jakarta
+                                                                                             :mod (vv20 / 151)
+                                                                                             :mod vv21)))))
+                                     :mod (vv10 / sudah))))
+     :mod (vv8 / namun))
+
+# ::snt Setyo menuturkan, saat ini terdapat 75 korban yang tengah mendapat perawatan di empat rumah sakit, korban diantaranya mengalami luka kritis hingga patah tulang.
+
+# ::snt "Terdapat korban luka patah tulang akibat robohnya selasar BEI," papar Setyo.
+
+(vv1 / dapat
+     :ARG1 (vv2 / korban
+                :mod (vv3 / luka
+                          :mod (vv4 / patah
+                                    :mod (vv5 / tulang)))
+                :mod (vv6 / akibat
+                          :mod (vv7 / roboh)
+                          :mod (vv8 / selasar
+                                    :name (vv9 / bei
+                                               :mod (vv10 / papar
+                                                          :name (vv11 / setyo)))))))
+
+# ::snt Setyo merinci, sejumlah korban mendapat perawatan di Rumah Sakit Angkatan Laut (RSAL) Mintoharjo berjumlah 17 orang, di RS MRCCC Siloam Semanggi terdapat 31 orang, di Rumah Sakit Pusat Pertamina (RSPP) 7 orang dan Rumah Sakit Jakarta 20 orang.
+
+(vv1 / merinci
+     :ARG0 (vv2 / setyo)
+     :ARG1 (vv3 / korban
+                :mod (vv4 / dapat
+                          :ARG1 (vv6 / rumah
+                                     :mod (vv9 / laut
+                                               :name (vv15 / rs
+                                                           :name (vv24 / dan)))
+                                     :name (vv10 / rsal
+                                                 :name (vv16 / mrccc
+                                                             :name (vv25 / jakarta)))
+                                     :name (vv11 / mintoharjo)
+                                     :name (vv12 / jumlah
+                                                 :ARG1 (vv18 / semanggi)
+                                                 :location (vv23 / 7))
+                                     :mod (vv13 / orang
+                                                :mod (vv8 / angkat
+                                                          :name (vv14 / 17))
+                                                :mod (vv22 / rspp
+                                                           :mod (vv20 / pusat
+                                                                      :name vv29))
+                                                :mod vv27
+                                                :mod vv31
+                                                :mod vv34)
+                                     :mod (vv21 / pertamina
+                                                :name vv30)
+                                     :mod vv32)
+                          :ARG1 (vv19 / 31)))
+     :mod (vv5 / awat
+               :mod (vv7 / sakit
+                         :mod vv28
+                         :name vv33))
+     :ARG1 (vv17 / siloam
+                 :mod (vv26 / 20)))
+

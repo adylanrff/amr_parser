@@ -1,0 +1,17 @@
+# ::snt "Unreal!! I love you all!!!," tulis Bruno Mars singkat di Instagram pribadinya pada 29 Januari 2018.
+
+(vv1 / all
+     :ARG0 (vv2 / unreal
+                :mod (vv3 / i
+                          :mod (vv4 / love
+                                    :mod (vv5 / you))))
+     :ARG1 (vv6 / tulis
+                :name (vv7 / bruno
+                           :name (vv8 / mars))
+                :mod (vv9 / singkat
+                          :mod (vv12 / januari
+                                     :mod (vv13 / 29)
+                                     :mod (vv14 / 2018)))
+                :mod (vv10 / instagram
+                           :mod (vv11 / pribadi))))
+

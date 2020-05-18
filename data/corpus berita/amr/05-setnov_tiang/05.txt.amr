@@ -1,0 +1,282 @@
+# ::snt Novanto dirawat di rumah sakit menyusul kecelakaan mobil yang membawanya pada Kamis (16/11).
+
+(vv1 / rawat
+     :ARG1 (vv2 / novanto)
+     :location (vv3 / rumah
+                    :mod (vv4 / sakit)
+                    :mod (vv5 / susul
+                              :ARG1 (vv6 / celaka
+                                         :mod (vv7 / mobil)
+                                         :mod (vv8 / bawa
+                                                   :ARG1 (vv9 / kamis
+                                                              :mod (vv10 / 1611)))))))
+
+# ::snt Pengacaranya mengatakan Novanto pucat, bengkak di kepala, dan tangannya penuh luka dan berdarah.
+
+(vv1 / kata
+     :ARG0 (vv2 / acara)
+     :ARG0 (vv3 / novanto
+                :mod (vv4 / pucat
+                          :mod (vv5 / bengkak))
+                :mod (vv6 / kepala
+                          :mod (vv7 / tangan
+                                    :mod (vv8 / dan)
+                                    :mod (vv10 / luka
+                                               :mod vv12)
+                                    :mod (vv11 / darah
+                                               :mod (vv9 / penuh))))))
+
+# ::snt Ia dirawat di RS Medika Permata Hijau tapi kemudian dipindahkan ke RSCM oleh KPK dengan alasan KPK ingin mendapatkan informasi medis yang lebih objektif.
+
+# ::snt Pada Minggu malam, Direktur RSCM, Soejono, dalam keterangan pers mengatakan kondisi Novanto membaik dan tidak lagi memerlukan perawatan inap.
+
+(vv1 / kata
+     :ARG1 (vv2 / minggu
+                :mod (vv3 / malam)
+                :mod (vv7 / terang
+                          :mod (vv8 / pers)))
+     :ARG0 (vv4 / direktur
+                :name (vv5 / rscm
+                           :name (vv6 / soejono)))
+     :ARG1 (vv9 / kondisi)
+     :ARG1 (vv10 / baik
+                 :ARG0 (vv11 / novanto)
+                 :mod (vv12 / perlu
+                            :mod (vv13 / dan)
+                            :mod (vv14 / tidak)
+                            :mod (vv15 / lagi)
+                            :ARG1 (vv16 / awat
+                                        :mod (vv17 / inap)))))
+
+# ::snt Ia menjelaskan bahwa serangkaian wawancara medis, pemeriksaan fisik, dan beberapa pemeriksaan penunjang dilakukan untuk menyimpulkan kondisi kesehatan Novanto.
+
+(vv1 / jelas
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / laku
+                :ARG1 (vv4 / wawancara
+                           :mod (vv5 / medis)
+                           :mod (vv6 / periksa
+                                     :mod (vv8 / dan)
+                                     :mod (vv9 / tunjang)
+                                     :mod (vv10 / simpul
+                                                :ARG1 (vv12 / sehat)))
+                           :mod (vv7 / fisik))
+                :ARG1 (vv11 / kondisi
+                            :mod (vv13 / novanto)
+                            :mod vv14)))
+
+# ::snt "Tim dokter RSCM menyatakan yang bersangkutan (Novanto) tidak ada indikasi lagi dirawat inap," kata Soejono.
+
+(vv1 / nyata
+     :ARG0 (vv2 / tim
+                :mod (vv3 / dokter
+                          :mod (vv4 / rscm)))
+     :mod (vv5 / sangkut
+               :ARG0 (vv6 / novanto))
+     :mod (vv7 / ada
+               :mod (vv8 / tidak)
+               :ARG1 (vv9 / indikasi)
+               :mod (vv10 / rawat
+                          :mod (vv11 / lagi)
+                          :ARG1 (vv12 / inap
+                                      :mod (vv13 / kata
+                                                 :name (vv14 / soejono))))))
+
+# ::snt Novanto meninggalkan RSCM dengan menggunakan kursi roda.
+
+(vv1 / tinggal
+     :ARG0 (vv2 / novanto)
+     :ARG1 (vv3 / rscm)
+     :mod (vv4 / guna
+               :ARG1 (vv5 / kursi
+                          :mod (vv6 / roda))))
+
+# ::snt Tidak lama kemudian ia tiba di gedung KPK dengan rompi khas berwarna oranye, yang biasanya dipakai oleh mereka yang ditetapkan sebagai tersangka dan menjalani penahanan.
+
+(vv3 / tiba
+     :mod (vv1 / lama
+               :mod (vv2 / tidak))
+     :mod (vv4 / kemudian)
+     :ARG0 (vv5 / ia)
+     :location (vv6 / gedung
+                    :mod (vv7 / kpk))
+     :ARG1 (vv8 / rompi
+                :mod (vv9 / khas)
+                :mod (vv10 / warna
+                           :mod (vv11 / oranye))
+                :mod (vv12 / pakai
+                           :mod (vv13 / biasa)
+                           :ARG1 (vv14 / mereka
+                                       :mod (vv15 / tetap
+                                                  :ARG1 (vv16 / sangka)
+                                                  :mod (vv17 / jalan
+                                                             :mod (vv18 / dan)
+                                                             :ARG1 (vv19 / tahan)))))))
+
+# ::snt Kepada para wartawan Novanto mengatakan bahwa dia tidak mengira akan dipindahkan ke Rutan KPK.
+
+(vv1 / kata
+     :ARG1 (vv2 / wartawan
+                :name (vv3 / novanto))
+     :mod (vv4 / ira
+               :ARG0 (vv5 / dia)
+               :mod (vv6 / tidak)
+               :ARG1 (vv7 / pindah
+                          :mod (vv8 / akan)
+                          :location (vv9 / rutan
+                                         :name (vv10 / kpk)))))
+
+# ::snt Tim penyidik KPK mendatangi rumah Novanto di Jakarta Selatan pada Rabu (15/11) malam namun yang bersangkutan tidak ada di tempat.
+
+(vv1 / datang
+     :ARG0 (vv2 / tim
+                :mod (vv3 / sidik
+                          :name (vv4 / kpk)))
+     :ARG1 (vv5 / rumah
+                :name (vv6 / novanto)
+                :mod (vv7 / jakarta
+                          :name (vv8 / selatan)))
+     :ARG1 (vv9 / rabu
+                :mod (vv10 / 1511)
+                :mod (vv11 / malam))
+     :mod (vv12 / ada
+                :mod (vv13 / namun)
+                :mod (vv14 / sangkut)
+                :mod (vv15 / tidak)
+                :location (vv16 / tempat)))
+
+# ::snt Pada Kamis ia memberikan wawancara dengan MetroTV melalui telepon, mengatakan bahwa ia akan memenuhi panggilan KPK.
+
+(vv1 / beri
+     :ARG1 (vv2 / kamis)
+     :ARG0 (vv3 / ia)
+     :ARG1 (vv5 / metrotv)
+     :ARG1 (vv6 / telepon)
+     :ARG1 (vv7 / kata
+                :ARG1 (vv9 / akan))
+     :ARG1 (vv8 / penuh
+                :ARG0 (vv4 / wawancara)
+                :mod (vv10 / panggil
+                           :name vv12)
+                :ARG1 (vv11 / kpk)))
+
+# ::snt Ia juga mengatakan kasus yang menjeratnya ini 'berbau politis'.
+
+(vv1 / kata
+     :ARG0 (vv2 / ia)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / kasus
+                :mod (vv5 / jerat)
+                :mod (vv6 / bau
+                          :ARG1 (vv7 / politis))))
+
+# ::snt Berita kecelakaan ini menarik perhatian publik dan muncul aneka meme, baik yang terkait dengan tiang listrik maupun kondisi Novanto.
+
+(vv1 / tarik
+     :ARG0 (vv2 / berita
+                :mod (vv3 / celaka))
+     :ARG1 (vv4 / perhati
+                :mod (vv5 / publik))
+     :mod (vv6 / muncul
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / aneka
+                          :mod (vv9 / meme
+                                    :mod (vv10 / baik)
+                                    :mod (vv11 / kait
+                                               :ARG1 (vv12 / tiang
+                                                           :mod (vv13 / listrik)
+                                                           :mod (vv14 / kondisi
+                                                                      :mod (vv15 / maupun)
+                                                                      :mod (vv16 / novanto))))))))
+
+# ::snt Polisi mengatakan menyelidiki kecelakaan untuk memastikan tidak ada unsur rekayasa.
+
+(vv1 / kata
+     :ARG0 (vv2 / polisi)
+     :mod (vv3 / selidik
+               :ARG1 (vv4 / celaka)
+               :ARG1 (vv5 / pasti
+                          :ARG1 (vv6 / ada
+                                     :mod (vv7 / tidak)
+                                     :ARG1 (vv8 / unsur
+                                                :mod (vv9 / rekayasa))))))
+
+# ::snt KPK berpendapat bahwa Novanto diduga ikut terlibat dalam kasus korupsi pengadaaan Kartu Tanda Penduduk Elektronik atau e-KTP, yang mengakibatkan kerugian negara Rp 2,3 triliun dari nilai total proyek sebesar Rp5,9 triliun.
+
+(vv1 / dapat
+     :ARG0 (vv2 / kpk)
+     :mod (vv5 / duga
+               :ARG1 (vv3 / ikut
+                          :ARG0 (vv4 / novanto)
+                          :mod (vv6 / libat
+                                    :ARG1 (vv7 / kasus
+                                               :mod (vv8 / korupsi)
+                                               :mod (vv9 / pengadaaan
+                                                         :ARG1 (vv10 / kartu
+                                                                     :mod (vv11 / tanda
+                                                                                :name (vv12 / duduk
+                                                                                            :mod (vv13 / elektronik)
+                                                                                            :mod (vv14 / ektp
+                                                                                                       :mod (vv15 / atau))))))
+                                               :mod (vv16 / akibat
+                                                          :ARG1 (vv17 / rugi
+                                                                      :mod (vv18 / negara
+                                                                                 :mod (vv19 / rp))
+                                                                      :mod (vv20 / triliun
+                                                                                 :mod (vv22 / nilai
+                                                                                            :mod (vv24 / proyek)
+                                                                                            :mod (vv26 / besar)))
+                                                                      :mod (vv23 / total
+                                                                                 :mod (vv25 / rp59
+                                                                                            :mod (vv21 / 23)
+                                                                                            :mod vv27)))))))))
+
+# ::snt KPK menetapkannya sebagai tersangka tapi ia membawa keputusan KPK itu ke praperadilan yang ia menangkan.
+
+(vv1 / tetap
+     :ARG0 (vv2 / kpk)
+     :ARG1 (vv4 / bawa
+                :mod (vv6 / ia)
+                :ARG0 (vv7 / putus
+                           :mod (vv3 / sangka))
+                :ARG1 (vv9 / menang
+                           :ARG0 (vv8 / praperadilan
+                                      :mod vv11))
+                :ARG1 vv10)
+     :mod (vv5 / tapi))
+
+# ::snt Tapi KPK menetapkannya kembali sebagai tersangka.
+
+(vv1 / tetap
+     :mod (vv2 / tapi)
+     :ARG0 (vv3 / kpk)
+     :mod (vv4 / kembali)
+     :ARG1 (vv5 / sangka))
+
+# ::snt Dalam kasus ini, yang sudah menjadi terpidana adalah mantan Direktur Jenderal Dukcapil Kementerian Dalam Negeri, Irman -yang diganjar tujuh tahun penjara- dan seorang bawahannya, Sugiharto, dengan vonis lima tahun penjara.
+
+(vv1 / mantan
+     :mod (vv2 / kasus
+               :mod (vv3 / jadi
+                         :mod (vv4 / sudah)
+                         :ARG1 (vv5 / pidana)))
+     :mod (vv6 / adalah)
+     :name (vv7 / direktur
+                :mod (vv8 / jenderal
+                          :name (vv9 / dukcapil
+                                     :name (vv10 / menteri)
+                                     :mod (vv11 / negeri
+                                                :mod (vv12 / dalam)
+                                                :name (vv13 / irman)))))
+     :mod (vv14 / ganjar
+                :ARG1 (vv15 / tahun
+                            :mod (vv17 / penjara
+                                       :mod (vv20 / sugiharto))
+                            :mod (vv18 / bawah
+                                       :mod (vv21 / vonis
+                                                  :mod (vv16 / tujuh))
+                                       :mod (vv22 / lima)
+                                       :mod vv23)
+                            :mod (vv19 / dan)
+                            :mod vv24)))
+

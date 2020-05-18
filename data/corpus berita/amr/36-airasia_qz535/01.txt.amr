@@ -1,0 +1,51 @@
+# ::snt PESAWAT Air Asia dengan nomor penerbangan QZ 535 rute Perth (Australia) menuju Denpasar (Bali, Indonesia) terpaksa putar balik pada Minggu (15/9/2017).
+
+(vv1 / putar
+     :ARG0 (vv2 / pesawat
+                :ARG1 (vv3 / air
+                           :mod (vv4 / asia))
+                :mod (vv5 / nomor
+                          :mod (vv6 / terbang
+                                    :mod (vv7 / qz
+                                              :mod (vv8 / 535)))
+                          :mod (vv9 / rute
+                                    :mod (vv10 / perth
+                                               :name (vv11 / australia))
+                                    :mod (vv12 / denpasar
+                                               :mod (vv13 / tuju)
+                                               :mod (vv14 / bal
+                                                          :mod (vv15 / indonesia))))))
+     :mod (vv16 / paksa)
+     :ARG1 (vv17 / balik)
+     :ARG1 (vv18 / minggu
+                 :mod (vv19 / 1592017)))
+
+# ::snt Beberapa media massa, termasuk media online, mengabarkan tentang kepanikan yang terjadi saat pesawat terbang Air Asia QZ 535 itu mengalami gangguan teknis.
+
+(vv1 / abar
+     :ARG0 (vv2 / media
+                :mod (vv4 / masuk
+                          :ARG1 (vv3 / massa))
+                :mod (vv5 / online)
+                :mod (vv6 / panik
+                          :mod (vv8 / pesawat
+                                    :mod (vv10 / terbang)
+                                    :mod (vv11 / air
+                                               :name (vv13 / qz
+                                                           :mod (vv15 / alami
+                                                                      :ARG1 (vv17 / teknis))))
+                                    :mod (vv12 / asia
+                                               :name (vv14 / 535)))))
+     :ARG1 (vv7 / jadi
+                :location (vv9 / saat))
+     :mod (vv16 / ganggu
+                :mod vv18))
+
+# ::snt Seperti biasa, kejadian seperti ini selalu saja mengundang banyak pertanyaan dari orang awam tentang apa sebenarnya yang terjadi.
+
+# ::snt Pada setiap terjadi kecelakaan pesawat terbang, dipastikan banyak orang yang ingin dengan segera mengetahui apa yang menyebabkan terjadinya kecelakaan tersebut.
+
+# ::snt Dari kondisi yang seperti inilah, maka wajar saja kemudian banyak orang membuat analisis sendiri-sendiri dengan latar pengetahuan yang dimilikinya masing-masing untuk mengambil kesimpulan tentang apa sebenarnya yang menjadi penyebab terjadinya kecelakaan.
+
+# ::snt Mengapa demikian? Karena, analisis yang dilakukan belum berdasar kepada data-data yang akurat atau valid, di samping akan sangat tergantung kepada kompetensi individu yang melakukan analisis tersebut.
+

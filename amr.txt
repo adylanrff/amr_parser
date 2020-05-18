@@ -1,0 +1,7 @@
+(vv1 / makan
+     :ARG0 (vv2 / aku)
+     :ARG1 (vv3 / kue)
+     :time (vv4 / pagi
+                :mod (vv5 / hari))
+     :location (vv6 / bandung))
+

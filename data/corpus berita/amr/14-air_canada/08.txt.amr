@@ -1,0 +1,211 @@
+# ::snt Kejadian Insiden pesawat Air Canada hampir mendarat di laluan rayap yang sesak sedang disiasat pihak berkuasa penerbangan Amerika Syarikat (AS).
+
+(vv1 / darat
+     :ARG0 (vv2 / jadi
+                :mod (vv3 / insiden
+                          :mod (vv4 / pesawat
+                                    :mod (vv5 / air
+                                              :mod (vv6 / canada)))))
+     :mod (vv7 / hampir)
+     :location (vv8 / lalu
+                    :mod (vv9 / rayap)
+                    :mod (vv10 / sesak)
+                    :mod (vv11 / siasat
+                               :mod (vv12 / sedang)
+                               :ARG0 (vv13 / pihak
+                                           :mod (vv14 / kuasa
+                                                      :ARG1 (vv15 / terbang
+                                                                  :mod (vv16 / amerika
+                                                                             :mod (vv17 / syarikat
+                                                                                        :name (vv18 / as)))))))))
+
+# ::snt Siasatan itu dilancarkan selepas pesawat berkenaan diberi kebenaran untuk mendarat di landasan kapal terbang di Lapangan Terbang Antarabangsa San Francisco.
+
+# ::snt "PESAWAT AIRBUS A320 MILIK AIR CANADA SUDAH MENDAPAT KELULUSAN UNTUK MENDARAT DI LANDASAN 28-KANAN DI LAPANGAN TERBANG ANTARABANGSA SAN FRANCISCO SEBELUM TENGAH MALAM, PADA KHAMIS LALU.
+
+(vv1 / dapat
+     :ARG0 (vv2 / pesawat
+                :mod (vv3 / airbus
+                          :mod (vv4 / a320
+                                    :name (vv5 / milik
+                                               :mod (vv6 / air
+                                                         :mod (vv7 / canada
+                                                                   :mod (vv8 / sudah)))))))
+     :ARG0 (vv9 / kelulusan)
+     :location (vv10 / darat
+                     :mod (vv11 / untuk))
+     :location (vv12 / landasan
+                     :mod (vv13 / di)
+                     :name (vv15 / lapangan
+                                 :mod (vv14 / 28kanan)
+                                 :mod (vv17 / antarabangsa
+                                            :mod (vv19 / francisco))
+                                 :mod (vv21 / belum)))
+     :location (vv16 / terbang
+                     :mod (vv18 / san
+                                :name (vv20 / tengah
+                                            :mod (vv22 / malam)
+                                            :time (vv23 / khamis
+                                                        :ARG1 (vv25 / lalu)
+                                                        :mod vv26)
+                                            :mod (vv24 / pada)))))
+
+# ::snt "Bagaimanapun, juruterbang secara tidak sengaja beratur untuk mendarat di laluan rayap C, yang terletak selari dengan landasan kapal terbang terbabit.
+
+(vv1 / atur
+     :ARG0 (vv2 / juruterbang)
+     :mod (vv3 / tidak)
+     :mod (vv4 / sengaja)
+     :mod (vv5 / darat
+               :location (vv6 / lalu
+                              :mod (vv7 / rayap
+                                        :mod (vv8 / c))
+                              :mod (vv9 / letak
+                                        :mod (vv10 / selar)
+                                        :location (vv11 / landas
+                                                        :mod (vv12 / kapal
+                                                                   :mod (vv13 / terbang)
+                                                                   :mod (vv14 / babit)))))))
+
+# ::snt "Berikutan itu, pengawal trafik udara terpaksa mengarahkan pesawat Air Canada keluar dari laluan rayap itu dan ia berjaya mendarat dengan selamat selepas membuat cubaan kedua," kata Pentadbiran Penerbangan Persekutuan (FAA) dalam satu kenyataan.
+
+(vv1 / arah
+     :ARG1 (vv2 / ikut)
+     :ARG0 (vv3 / awal
+                :mod (vv4 / trafik
+                          :mod (vv5 / udara)))
+     :mod (vv6 / paksa)
+     :ARG1 (vv7 / pesawat
+                :ARG1 (vv8 / air
+                           :mod (vv9 / canada)))
+     :mod (vv10 / keluar
+                :ARG1 (vv11 / lalu
+                            :mod (vv12 / rayap)))
+     :mod (vv13 / jaya
+                :mod (vv14 / dan)
+                :ARG0 (vv15 / ia)
+                :mod (vv16 / darat
+                           :location (vv17 / selamat)
+                           :mod (vv18 / buat
+                                      :mod (vv19 / lepas)
+                                      :ARG1 (vv20 / cubaan
+                                                  :mod (vv21 / dua)
+                                                  :mod (vv22 / kata
+                                                             :name (vv23 / pentadbiran
+                                                                         :mod (vv24 / terbang
+                                                                                    :mod (vv25 / sekutu
+                                                                                               :mod (vv26 / faa))))))
+                                      :ARG1 (vv27 / nyata
+                                                  :mod (vv28 / satu))))))
+
+# ::snt Ketika insiden berlaku, sebanyak empat pesawat sedang bersiap sedia untuk berlepas di laluan rayap C, sebelum menara kawalan mengarahkan pesawat Air Canada yang membawa 135 penumpang dan lima anak kapal itu menukar haluannya.
+
+(vv3 / siap
+     :ARG1 (vv1 / laku
+                :ARG0 (vv2 / insiden)
+                :location (vv4 / pesawat
+                               :mod (vv6 / empat)
+                               :mod (vv7 / sedang)
+                               :mod (vv17 / canada)
+                               :mod (vv19 / tumpang
+                                          :mod (vv21 / tukar
+                                                     :mod (vv23 / anak
+                                                                :ARG1 (vv25 / kapal)
+                                                                :mod (vv26 / haluan))
+                                                     :ARG0 (vv24 / lima)
+                                                     :ARG1 vv27))))
+     :mod (vv8 / sedia)
+     :mod (vv9 / lepas
+               :ARG1 (vv11 / rayap
+                           :mod (vv13 / arah
+                                      :ARG1 (vv5 / banyak)
+                                      :location (vv15 / kawal))))
+     :ARG1 (vv10 / lalu
+                 :mod (vv12 / c))
+     :ARG1 (vv14 / menara
+                 :mod (vv16 / air
+                            :mod (vv18 / bawa
+                                       :ARG1 (vv20 / 135))))
+     :mod (vv22 / dan))
+
+# ::snt SEMENTARA ITU, SIASATAN FAA BERTUJUAN MENGETAHUI JARAK PENERBANGAN AC759 PESAWAT AIR CANADA YANG DALAM PERJALANAN DARI TORONTO KE SAN FRANCISCO DENGAN LAIN-LAIN PESAWAT YANG SEDANG BERSIAP SEDIA DI LALUAN RAYAP C.
+
+(vv1 / tuju
+     :mod (vv2 / sementara)
+     :ARG0 (vv3 / siasatan
+                :mod (vv4 / faa))
+     :ARG1 (vv5 / tahu
+                :ARG1 (vv6 / jarak
+                           :mod (vv7 / terbang
+                                     :mod (vv8 / ac759
+                                               :mod (vv9 / pesawat
+                                                         :mod (vv11 / canada
+                                                                    :mod (vv13 / perjalanan
+                                                                               :mod (vv16 / dari)
+                                                                               :mod (vv17 / san
+                                                                                          :mod (vv20 / lainlain
+                                                                                                     :mod (vv10 / air
+                                                                                                                :mod (vv12 / yang))
+                                                                                                     :ARG1 (vv23 / sedang)
+                                                                                                     :name (vv24 / sedia))
+                                                                                          :name (vv21 / dengan))
+                                                                               :mod (vv19 / francisco)
+                                                                               :mod (vv22 / siap
+                                                                                          :mod (vv25 / lalu
+                                                                                                     :mod (vv28 / c)
+                                                                                                     :mod vv29)
+                                                                                          :name (vv26 / di)
+                                                                                          :mod (vv27 / rayap))))
+                                                         :mod (vv14 / dalam)))))
+                :location (vv15 / toronto
+                                :mod (vv18 / ke)))
+     :mod vv30)
+
+# ::snt Kejadian itu mungkin mengakibatkan kemalangan yang dahsyat, tetapi ia berjaya dielakkan sebelum ia berlaku.
+
+(vv1 / akibat
+     :ARG0 (vv2 / jadi)
+     :mod (vv3 / mungkin)
+     :ARG1 (vv4 / malang
+                :mod (vv5 / dahsyat))
+     :mod (vv6 / elak
+               :mod (vv7 / tetapi)
+               :ARG1 (vv8 / ia)
+               :ARG1 (vv9 / jaya)
+               :mod (vv10 / laku))
+     :mod vv11)
+
+# ::snt "Kalau anda boleh bayangkan sebuah pesawat Airbus bertembung dengan empat pesawat penumpang bersaiz besar, penuh dengan bahan bakar dan penumpang, kemudian bayangkan bagaimana teruknya kalau kejadian ini berlaku," kata bekas juruterbang United Airlines, Ross Aimer kepada The Mercury News.
+
+(vv1 / bayang
+     :ARG0 (vv2 / anda)
+     :mod (vv3 / boleh)
+     :ARG1 (vv4 / pesawat
+                :mod (vv6 / tembung
+                          :location (vv5 / airbus))
+                :mod (vv7 / empat)
+                :mod (vv8 / tumpang
+                          :mod (vv16 / teruk
+                                     :mod (vv19 / jadi)))
+                :mod (vv9 / bersaiz
+                          :mod (vv12 / bahan
+                                     :mod (vv15 / kemudian))
+                          :mod (vv13 / bakar))
+                :mod (vv11 / penuh)
+                :mod (vv14 / dan))
+     :ARG0 (vv10 / besar)
+     :mod (vv17 / bagaimana)
+     :ARG1 (vv18 / laku
+                 :ARG0 (vv21 / bekas
+                             :mod (vv24 / airlines
+                                        :name (vv27 / the
+                                                    :name vv30)))
+                 :ARG1 (vv22 / juruterbang
+                             :name (vv25 / ross
+                                         :name (vv28 / mercury
+                                                     :name vv31))))
+     :ARG1 (vv20 / kata
+                 :mod (vv23 / united
+                            :mod (vv26 / aimer))
+                 :ARG1 (vv29 / news)))
+

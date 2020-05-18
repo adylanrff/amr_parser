@@ -1,0 +1,51 @@
+# ::snt Pasangan ganda campuran Indonesia Tontowi Ahmad dan Liliyana Natsir membuat lagu kebangsaan Indonesia Raya berkumandang di Brasil tepat pada 17 Agustus 2016 waktu Brasil atau saat peringatan hari jadi ke-71 kemerdekaan Indonesia, dengan medali emas mengalahkan pasangan Malaysia Chan Peng Soon dan Goh Liu Ying.
+
+# ::snt Tontowi/Liliyana menaklukkan Chan/Goh dua set langsung 21-14 21-12.
+
+(vv1 / takluk
+     :ARG0 (vv2 / changoh
+                :mod (vv3 / set
+                          :mod (vv4 / dua)
+                          :mod (vv5 / langsung)
+                          :mod (vv6 / 2114)
+                          :mod (vv7 / 2112))))
+
+# ::snt Setelah itu permainan mulai lebih menarik karena Chan/Goh bermain lebih tenang, namun pasangan Indonesia sudah unggul terlalu jauh sehingga tak terkejar lagi.
+
+# ::snt Setelah itu keunggulan meningkat menjadi 20-12 dan kesalahan dari Goh membuat Indonesia mendapat kado terbaik di hari jadinya ini.(red/TNC**W)
+
+(vv1 / tingkat
+     :ARG0 (vv2 / unggul)
+     :ARG1 (vv3 / jadi
+                :mod (vv5 / buat
+                          :ARG1 (vv7 / salah
+                                     :mod (vv9 / indonesia))
+                          :ARG0 (vv8 / goh)
+                          :ARG1 (vv10 / dapat
+                                      :ARG1 (vv12 / baik))
+                          :ARG1 (vv11 / kado
+                                      :mod (vv13 / hari
+                                                 :mod (vv4 / 2012)
+                                                 :mod vv15)
+                                      :mod (vv14 / iniredtncw))))
+     :mod (vv6 / dan))
+
+# ::snt Pada penyisihan group 14 Agustus dua ganda tersebut sudah bertemu dan Tontowi/Liliyana juga menang telak dengan skor 21-15 21-11.
+
+(vv1 / temu
+     :location (vv2 / sisih
+                    :mod (vv3 / group)
+                    :mod (vv4 / agustus
+                              :mod (vv5 / 14)
+                              :mod (vv6 / dua)))
+     :ARG0 (vv7 / ganda)
+     :mod (vv8 / sudah)
+     :ARG1 (vv9 / menang
+                :ARG1 (vv10 / dan)
+                :ARG0 (vv11 / tontowililiyana)
+                :mod (vv12 / juga)
+                :mod (vv13 / telak)
+                :ARG1 (vv14 / skor
+                            :mod (vv15 / 2115)
+                            :mod (vv16 / 2111))))
+

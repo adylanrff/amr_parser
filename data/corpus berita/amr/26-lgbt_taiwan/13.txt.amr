@@ -1,0 +1,57 @@
+# ::snt Upaya untuk melegalkan pernikahan gay di Taiwan dengan cepat mendapat momentum setelah Presiden Tsai Ing-wen yang mulai menjabat tugas Mei tahun lalu, secara terbuka mendukung kesetaraan perkawinan.
+
+(vv1 / dapat
+     :ARG0 (vv2 / upaya
+                :mod (vv3 / legal
+                          :ARG1 (vv4 / nikah
+                                     :mod (vv5 / gay))
+                          :ARG1 (vv6 / taiwan)))
+     :mod (vv7 / cepat)
+     :ARG1 (vv8 / momentum
+                :mod (vv9 / presiden
+                          :name (vv10 / tsai
+                                      :name (vv11 / ingwen))
+                          :mod (vv12 / mulai
+                                     :ARG1 (vv13 / jabat
+                                                 :ARG1 (vv14 / tugas
+                                                             :mod (vv15 / mei)
+                                                             :mod (vv16 / tahun
+                                                                        :mod (vv17 / lalu)))))))
+     :mod (vv18 / dukung
+                :ARG1 (vv19 / buka)
+                :ARG1 (vv20 / tara
+                            :mod (vv21 / kawin))))
+
+# ::snt Pengajuan pernikahan sesama jenis ini dimulai setelah pemerintah menolak permohonan aktivis Chi Chia-wei dan pasangannya untuk menikah pada 2013.
+
+(vv1 / mulai
+     :ARG1 (vv2 / aju
+                :mod (vv3 / nikah
+                          :mod (vv4 / sama
+                                    :mod (vv5 / jenis))))
+     :ARG1 (vv6 / tolak
+                :ARG0 (vv7 / pemerintah)
+                :ARG1 (vv8 / mohon
+                           :mod (vv9 / aktivis
+                                     :mod (vv10 / chi
+                                                :name (vv11 / chiawei)
+                                                :mod (vv12 / pasang
+                                                           :mod (vv13 / dan)))))
+                :ARG1 (vv14 / meni
+                            :mod (vv15 / 2013))))
+
+# ::snt Dia mengatakan kepada kantor berita AFP bahwa dia "100% yakin" bahwa keputusan tersebut akan menguntungkan dia.
+
+# ::snt Hingga saat ini tidak ada wilayah lain di Asia yang melegalkan pernikahan sesama jenis.
+
+(vv1 / ada
+     :ARG1 (vv2 / saat)
+     :mod (vv3 / tidak)
+     :ARG1 (vv4 / wilayah
+                :mod (vv5 / lain)
+                :mod (vv6 / asia)
+                :mod (vv7 / legal
+                          :ARG1 (vv8 / nikah
+                                     :mod (vv9 / sama)
+                                     :mod (vv10 / jenis)))))
+

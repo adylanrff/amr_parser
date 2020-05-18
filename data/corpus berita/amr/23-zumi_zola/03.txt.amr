@@ -1,0 +1,29 @@
+# ::snt Kabar Gubernur Jambi, Zumi Zola Zulkifli ditetapkan sebagai tersangka dalam kasus dugaan suap pengesahan RAPBD Provinsi Jambi 2018, tidak mengganggu aktivitas pemerintahan di Pemprov Jambi.
+
+(vv1 / tetap
+     :ARG1 (vv2 / kabar
+                :name (vv3 / gubernur
+                           :name (vv4 / jambi
+                                      :name (vv7 / zulkifli)
+                                      :mod (vv17 / tidak))))
+     :ARG1 (vv10 / duga
+                 :mod (vv13 / rapbd
+                            :mod (vv16 / ganggu
+                                       :mod (vv19 / perintah)
+                                       :ARG1 (vv20 / pemprov
+                                                   :name (vv6 / zola
+                                                              :name (vv9 / kasus
+                                                                         :mod (vv12 / kesah
+                                                                                    :name (vv15 / 2018))))))))
+     :ARG1 (vv11 / suap
+                 :mod (vv14 / provinsi
+                            :name (vv5 / zumi
+                                       :name (vv8 / sangka))))
+     :mod (vv18 / aktivitas
+                :mod vv21
+                :mod vv22))
+
+# ::snt Hal itu ditegaskan oleh Sekretaris Daerah (Sekda) Provinsi Jambi, HM Dianto saat dikonfirmasi wartawan, di rumah dinas Wakil Gubernur Jambi, H Fachrori Umar, Kamis (1/2/2018).
+
+# ::snt Saat ini Pemprov Jambi sedang menyiapkan kedatangan Menteri Tenaga Kerja (Menaker), Muhammad Hanif Dhakiri ke Jambi guna membicarakan pelaksanaan Liga Pekerja Indonesia (LPI) di Provinsi Jambi.
+

@@ -1,0 +1,74 @@
+# ::snt Menindaklanjuti kasus ini, pihak Dinas Pendidikan Kota Kediri telah melakukan bimbingan konseling kepada korban dan pelaku pengeroyokan yang notabene adalah anak-anak SD.
+
+(vv1 / laku
+     :mod (vv2 / menindaklanjuti
+               :ARG1 (vv3 / kasus))
+     :ARG0 (vv4 / pihak)
+     :ARG0 (vv5 / dinas
+                :mod (vv6 / didik
+                          :mod (vv7 / kota
+                                    :mod (vv8 / kediri))))
+     :mod (vv9 / telah)
+     :ARG1 (vv10 / bimbing
+                 :mod (vv11 / konseling)
+                 :mod (vv12 / korban))
+     :ARG1 (vv13 / anakanak
+                 :mod (vv14 / dan)
+                 :mod (vv17 / adalah)
+                 :name (vv18 / sd))
+     :mod (vv15 / keroyok)
+     :mod (vv16 / notabene))
+
+# ::snt Kepala Bidang Pendidikan Dasar Kantor Dinas Pendidikan Kota Kediri Chevy Ning Suyudi membenarkan bahwa korban menerima keroyokan dari teman-temannya karena tidak sengaja melakukan gol bunuh diri saat bermain sepakbola di halaman sekolah.
+
+(vv1 / benar
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / bidang
+                          :mod (vv4 / didik
+                                    :mod (vv6 / kantor
+                                              :mod (vv8 / kota
+                                                        :mod (vv10 / chevy)))
+                                    :mod (vv7 / dinas
+                                              :mod (vv5 / dasar)
+                                              :mod (vv9 / diri
+                                                        :mod (vv12 / suyudi)
+                                                        :name (vv13 / terima
+                                                                    :ARG0 (vv16 / temantemannya)
+                                                                    :ARG1 (vv17 / laku
+                                                                                :mod (vv20 / gol
+                                                                                           :mod (vv23 / saat))
+                                                                                :mod (vv21 / bunuh
+                                                                                           :ARG1 (vv11 / ning
+                                                                                                       :name (vv14 / korban)))
+                                                                                :ARG1 (vv22 / main
+                                                                                            :mod (vv25 / halaman
+                                                                                                       :mod vv28)
+                                                                                            :ARG1 (vv26 / sekolah)
+                                                                                            :location vv27)
+                                                                                :mod (vv24 / sepakbola))
+                                                                    :ARG1 (vv19 / sengaja)))))))
+     :mod (vv15 / keroyokan
+                :mod (vv18 / tidak)))
+
+# ::snt Menurut pengakuan kedua orangtua T, anaknya mendapatkan pukulan dari salah satu pelaku, serta pemalakan atau permintaan uang secara paksa.
+
+# ::snt Tidak hanya Dinas Pendidikan yang melakukan bimbingam, petugas unit PPA Polresta Kediri juga melakukan pendampingan psikologi bagi orangtua dan pelaku pengeroyokan.
+
+(vv1 / laku
+     :mod (vv2 / tidak)
+     :mod (vv3 / hanya)
+     :ARG0 (vv4 / dinas
+                :mod (vv5 / pendidikan))
+     :ARG1 (vv6 / bimbingam
+                :mod (vv7 / tugas
+                          :mod (vv8 / unit
+                                    :mod (vv9 / ppa
+                                              :name (vv10 / polresta
+                                                          :name (vv11 / kediri))))))
+     :mod (vv12 / juga)
+     :ARG1 (vv13 / damping
+                 :mod (vv14 / psikologi)
+                 :mod (vv15 / orangtua))
+     :mod (vv16 / dan)
+     :mod (vv17 / keroyok))
+

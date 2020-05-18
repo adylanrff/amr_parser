@@ -1,0 +1,110 @@
+# ::snt Korea Selatan (Korsel), Jumat (13/12/2013), menyatakan keprihatinan mendalam setelah Korea Utara (Korut) mengumumkan pelaksanaan eksekusi terhadap Jang Song-thaek, paman pemimpin Korut, Kim Jong Un.
+
+(vv1 / nyata
+     :ARG0 (vv2 / korea
+                :name (vv4 / korsel
+                           :time (vv6 / 13122013))
+                :name (vv5 / jumat
+                           :mod (vv7 / prihatin
+                                     :mod (vv3 / selatan)
+                                     :mod (vv9 / utara)))
+                :mod (vv10 / umum
+                           :ARG0 (vv12 / laksana
+                                       :mod (vv15 / songthaek)
+                                       :mod (vv16 / paman
+                                                  :mod (vv19 / jong
+                                                             :mod vv22)))
+                           :ARG1 (vv14 / jang
+                                       :name (vv17 / pimpin
+                                                   :name (vv13 / eksekusi))
+                                       :mod (vv18 / kim
+                                                  :name vv21))))
+     :ARG1 (vv8 / dalam)
+     :mod (vv11 / korut
+                :name (vv20 / un)))
+
+# ::snt "Pemerintah memiliki keprihatinan mendalam terkait rangkaian terbaru perkembangan di Korea Utara dan mengawasi situasi secara saksama," kata Kementerian Unifikasi Korsel dalam sebuah pernyataan.
+
+(vv1 / milik
+     :ARG0 (vv2 / pemerintah)
+     :ARG1 (vv3 / prihatin
+                :mod (vv4 / dalam)
+                :mod (vv5 / kait
+                          :ARG1 (vv6 / rangkai
+                                     :mod (vv7 / baru)
+                                     :mod (vv8 / kembang)
+                                     :mod (vv9 / korea
+                                               :mod (vv10 / utara)))))
+     :mod (vv11 / awas
+                :mod (vv12 / dan)
+                :ARG1 (vv13 / situasi
+                            :mod (vv14 / saksama)
+                            :mod (vv15 / kata
+                                       :name (vv16 / menteri
+                                                   :mod (vv17 / unifikasi
+                                                              :name (vv18 / korsel)))))
+                :ARG1 (vv19 / nyata)))
+
+# ::snt Kasus Jang merupakan guncangan terbesar sejak Kim Jong Un mengambil alih kepemimpinan dari mendiang ayahnya dua tahun lalu.
+
+(vv1 / rupa
+     :ARG0 (vv2 / kasus
+                :name (vv3 / jang))
+     :ARG1 (vv4 / guncang
+                :mod (vv5 / besar)
+                :mod (vv6 / kim
+                          :name (vv7 / jong
+                                     :mod (vv8 / un))))
+     :mod (vv9 / ambil
+               :ARG1 (vv10 / alih
+                           :ARG1 (vv11 / pimpin
+                                       :mod (vv12 / mendiang
+                                                  :mod (vv13 / ayah)
+                                                  :mod (vv14 / tahun
+                                                             :mod (vv15 / dua)
+                                                             :mod (vv16 / lalu)))))))
+
+# ::snt "Jang, yang menjadi pembimbing keponakannya saat transisi kepemimpinan dari Kim Jong Il kepada Kim Jong Un pada 2011, 'lebih buruk dari seekor anjing'," tulis KCNA.
+
+(vv1 / jang
+     :mod (vv2 / jadi
+               :ARG1 (vv3 / bimbing
+                          :mod (vv4 / keponakan))
+               :ARG1 (vv5 / transisi
+                          :mod (vv6 / saat)
+                          :mod (vv7 / pimpin)
+                          :mod (vv8 / kim
+                                    :name (vv10 / il)
+                                    :name (vv11 / un))
+                          :mod (vv9 / jong
+                                    :name (vv12 / 2011)
+                                    :mod (vv13 / buruk
+                                               :mod (vv16 / tulis)
+                                               :mod (vv17 / kcna))))
+               :mod (vv14 / lebih)
+               :mod (vv15 / anjing
+                          :mod vv18
+                          :mod vv19)))
+
+# ::snt Jang yang menikah dengan kakak Kim Jong Il memegang posisi senior di partai berkuasa dan Komisi Pertahanan Nasional, badan militer tinggi Utara.
+
+(vv1 / pegang
+     :ARG0 (vv2 / jang
+                :mod (vv3 / meni
+                          :ARG1 (vv4 / kakak
+                                     :mod (vv5 / kim
+                                               :name (vv6 / jong
+                                                          :name (vv7 / il))))))
+     :ARG1 (vv8 / posisi
+                :mod (vv9 / senior)
+                :mod (vv10 / partai
+                           :mod (vv11 / kuasa)
+                           :mod (vv12 / komisi
+                                      :mod (vv13 / dan)
+                                      :mod (vv14 / tahan
+                                                 :name (vv15 / nasional))
+                                      :mod (vv16 / badan
+                                                 :mod (vv17 / militer)
+                                                 :mod (vv18 / tinggi)
+                                                 :mod (vv19 / utara))))))
+

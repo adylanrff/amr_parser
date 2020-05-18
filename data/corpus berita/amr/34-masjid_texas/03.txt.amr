@@ -1,0 +1,81 @@
+# ::snt Empat gereja dan sebuah kuil Yahudi (sinagoga) di Victoria, Texas, Amerika Serikat, ditawarkan sebagai tempat ibadah sementara warga muslim, menyusul kebakaran yang menghancurkan masjid mereka.
+
+(vv3 / tawar
+     :ARG1 (vv1 / gereja
+                :mod (vv2 / empat)
+                :mod (vv4 / kuil
+                          :mod (vv5 / dan)
+                          :mod (vv6 / yahudi
+                                    :mod (vv7 / sinagoga))
+                          :mod (vv8 / victoria
+                                    :name (vv9 / texas
+                                               :name (vv10 / amerika
+                                                           :mod (vv11 / serikat))))))
+     :location (vv12 / tempat
+                     :mod (vv13 / ibadah))
+     :mod (vv14 / susul
+                :ARG0 (vv15 / warga
+                            :mod (vv16 / muslim))
+                :ARG1 (vv17 / bakar
+                            :mod (vv18 / hancur
+                                       :ARG1 (vv19 / masjid)))))
+
+# ::snt Seperti dilansir The Hindu, Senin, 30 Januari 2017, langkah solidaritas itu dilakukan setelah masjid yang dikenal dengan nama Pusat Islam Victoria tersebut musnah dalam kebakaran pada Sabtu dinihari waktu Amerika Serikat.
+
+(vv1 / laku
+     :ARG1 (vv2 / lansir
+                :ARG1 (vv3 / hindu
+                           :mod (vv4 / senin))
+                :ARG1 (vv5 / januari
+                           :mod (vv6 / 30)
+                           :mod (vv7 / 2017)))
+     :ARG1 (vv8 / langkah
+                :mod (vv9 / solidaritas))
+     :location (vv10 / masjid
+                     :mod (vv11 / kenal
+                                :ARG1 (vv12 / nama
+                                            :mod (vv13 / pusat
+                                                       :mod (vv14 / islam
+                                                                  :name (vv15 / victoria))))))
+     :mod (vv16 / musnah
+                :location (vv17 / bakar
+                                :mod (vv18 / sabtu
+                                           :mod (vv19 / dinihari)
+                                           :mod (vv20 / waktu
+                                                      :mod (vv21 / amerika
+                                                                 :mod (vv22 / serikat)))))))
+
+# ::snt Beruntung, tempat ibadah tersebut dalam keadaan kosong saat kejadian sehingga tidak menyebabkan korban jiwa.
+
+(vv1 / tempat
+     :mod (vv2 / untung)
+     :mod (vv3 / ibadah)
+     :mod (vv4 / ada
+               :mod (vv5 / kosong))
+     :mod (vv6 / sebab
+               :mod (vv7 / saat)
+               :ARG0 (vv8 / jadi)
+               :mod (vv9 / tidak)
+               :ARG1 (vv10 / korban
+                           :mod (vv11 / jiwa))))
+
+# ::snt Kepolisian di Kota Victoria, Texas, Amerika, dibantu aparat federal, seperti FBI, menyelidiki kebakaran masjid yang terjadi pada Sabtu dinihari waktu setempat itu.
+
+(vv1 / bantu
+     :ARG1 (vv2 / polisi
+                :mod (vv3 / kota
+                          :name (vv4 / victoria
+                                     :name (vv5 / texas
+                                                :name (vv6 / amerika)))))
+     :ARG1 (vv7 / aparat
+                :mod (vv8 / federal)
+                :mod (vv9 / fbi))
+     :mod (vv10 / selidik
+                :ARG1 (vv11 / bakar
+                            :mod (vv12 / masjid)
+                            :mod (vv13 / jadi
+                                       :time (vv14 / sabtu
+                                                   :mod (vv15 / dinihari)
+                                                   :mod (vv16 / waktu
+                                                              :mod (vv17 / tempat)))))))
+

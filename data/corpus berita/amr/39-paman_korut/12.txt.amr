@@ -1,0 +1,32 @@
+# ::snt "Bila benar, ini adalah salah contoh dari kebrutalan ekstrim rezim Korut," ucap Juru Bicara Gedung Putih, Patrick Ventrell, seperti dikutip dari Reuters, Jumat (13/12/2013).
+
+# ::snt "Kami terus mengikuti perkembangan di Korut dan berkonsultasi dengan sekutu kami di Asia," ditambahkannya.
+
+(vv1 / ikut
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / terus)
+     :ARG1 (vv4 / kembang
+                :mod (vv5 / korut))
+     :mod (vv6 / konsultasi
+               :mod (vv7 / dan)
+               :location (vv8 / sekutu)
+               :location (vv9 / asia))
+     :mod (vv10 / tambah))
+
+# ::snt Beberapa pengamat menilai keputusan Kim adalah untuk membuktikan dirinya bisa memerintah Korut seperti yang dilakukan ayahnya Kim Jong-il.
+
+(vv3 / bukti
+     :mod (vv1 / nilai
+               :ARG0 (vv2 / amat)
+               :ARG1 (vv4 / putus
+                          :mod (vv5 / kim
+                                    :name vv14)))
+     :mod (vv7 / diri)
+     :ARG1 (vv8 / perintah
+                :mod (vv10 / korut
+                           :mod (vv12 / ayah
+                                      :mod (vv6 / adalah)))
+                :ARG0 (vv11 / laku
+                            :ARG0 (vv13 / jongil)))
+     :ARG1 (vv9 / bisa))
+

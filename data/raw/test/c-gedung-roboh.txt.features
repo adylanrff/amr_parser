@@ -1,0 +1,685 @@
+# ::id c-gedung-roboh-json.2
+# ::snt Pengalihan dilakukan bagi pengendara yang melaju dari arah mal Bintaro XChange dan tol Bintaro menuju Jalan Boulevard Bintaro dengan menggunakan flyover di atas lampu merah Indomobil.
+# ::tokens ["Pengalihan", "dilakukan", "bagi", "pengendara", "yang", "melaju", "dari", "arah", "mal", "Bintaro", "XChange", "dan", "tol", "Bintaro", "menuju", "Jalan", "Boulevard", "Bintaro", "dengan", "menggunakan", "flyover", "di", "atas", "lampu", "merah", "Indomobil"]
+# ::lemmas ["alih_1", "laku_1", "bagi_1", "kendara_1", "yang_1", "laju_1", "dari_1", "arah_1", "mal_1", "bintaro_1", "xchange_1", "dan_1", "tol_1", "bintaro_2", "tuju_1", "jalan_1", "boulevard_1", "bintaro_3", "dengan_1", "guna_1", "flyover_1", "di_1", "atas_1", "lampu_1", "merah_1", "indomobil_1"]
+# ::pos_tags ["NN", "VB", "IN", "NN", "SC", "VB", "IN", "NN", "NN", "NNP", "NNP", "CC", "NN", "NNP", "VB", "NNP", "NNP", "NNP", "SC", "VB", "NN", "IN", "NN", "JJ", "JJ", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "LOC", "O", "O", "O", "LOC", "O", "LOC", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "LOC"]
+# ::snt-type body
+# ::preferred
+(vv1 / laku
+      :ARG0 (vv3 / kendara
+            :mod (vv4 / laju
+                  :mod (vv5 / arah
+                        :mod (m / mal
+                              :name (b / bintaro
+                                    :name (x / xchange)))
+                        :mod (vv8 / tol
+                              :mod (vv7 / dan)
+                              :mod (vv9 / tuju
+                                    :ARG1 (vv10 / jalan
+                                          :name (vv11 / boulevard
+                                                :name (vv12 / bintaro))))
+                              :name (vv6 / bintaro)))))
+      :ARG1 (vv2 / alih)
+      :mod (vv15 / dengan
+            :mod (vv16 / guna
+                  :ARG1 (vv17 / flyover
+                        :location (vv18 / atas
+                              :mod (vv19 / lampu
+                                    :mod (vv21 / merah)
+                                    :name (vv20 / indomobil)))))))
+
+# ::id c-gedung-roboh-json.3
+# ::snt Kegagalan struktur dan kesalahan tes tanah yang mengakibatkan gedung miring juga terjadi pada Menara Saidah di Jalan MT Haryono, Jakarta Timur.
+# ::tokens ["Kegagalan", "struktur", "dan", "kesalahan", "tes", "tanah", "yang", "mengakibatkan", "gedung", "miring", "juga", "terjadi", "pada", "Menara", "Saidah", "di", "Jalan", "MT", "Haryono", "Jakarta", "Timur"]
+# ::lemmas ["gagal_1", "struktur_1", "dan_1", "salah_1", "tes_1", "tanah_1", "yang_1", "akibat_1", "gedung_1", "miring_1", "juga_1", "jadi_1", "pada_1", "menara_1", "saidah_1", "di_1", "jalan_1", "mt_1", "haryono_1", "jakarta_1", "timur_1"]
+# ::pos_tags ["NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "NN", "NN", "RB", "VB", "IN", "NNP", "NNP", "IN", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "LOC", "O", "LOC", "O", "NOR", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / jadi
+      :ARG1 (vv2 / akibat
+            :ARG0 (vv3 / gagal
+                  :ARG1 (vv8 / struktur)
+                  :mod (vv4 / dan
+                        :mod (vv5 / salah
+                              :ARG1 (vv6 / tes
+                                    :mod (vv7 / tanah)))))
+            :ARG1 (vv9 / gedung
+                  :mod (vv10 / miring)))
+      :location (vv11 / menara
+            :location (vv12 / jalan
+                  :location (vv13 / jakarta
+                        :mod (vv14 / timur))
+                  :name (vv15 / mt
+                        :name (vv16 / haryono)))
+            :name (vv17 / saidah)))
+
+# ::id c-gedung-roboh-json.5
+# ::snt Kapolres Tangerang Selatan, AKBP Ayi Supardan membenarkan peristiwa robohnya gedung di Bintaro yang menarik perhatian masyarakat banyak.
+# ::tokens ["Kapolres", "Tangerang", "Selatan", "AKBP", "Ayi", "Supardan", "membenarkan", "peristiwa", "robohnya", "gedung", "di", "Bintaro", "yang", "menarik", "perhatian", "masyarakat", "banyak"]
+# ::lemmas ["kapolres_1", "tangerang_1", "selatan_1", "akbp_1", "ayi_1", "supardan_1", "benar_1", "peristiwa_1", "roboh_1", "gedung_1", "di_1", "bintaro_1", "yang_1", "tarik_1", "perhati_1", "masyarakat_1", "banyak_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "RB", "VB", "IN", "NNP", "SC", "VB", "NN", "NN", "CD"]
+# ::ner_tags ["NOR", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / benar
+      :ARG0 (vv2 / Kapolres
+            :location (vv6 / tangerang
+                  :mod (vv7 / selatan))
+            :mod (vv5 / akbp)
+            :name (vv3 / ayi
+                  :name (vv4 / supardan)))
+      :ARG1 (vv8 / peristiwa
+            :location (vv9 / bintaro)
+            :mod (vv10 / roboh
+                  :ARG1 (vv11 / gedung))
+            :mod (vv12 / tarik
+                  :ARG1 (vv13 / hati
+                        :mod (vv14 / masyarakat
+                              :mod (vv15 / banyak))))))
+
+# ::id c-gedung-roboh-json.6
+# ::snt Panin memutuskan tidak melanjutkan pembangunan gedung itu karena dinyatakan tidak lulus uji kelayakan.
+# ::tokens ["Panin", "memutuskan", "tidak", "melanjutkan", "pembangunan", "gedung", "itu", "karena", "dinyatakan", "tidak", "lulus", "uji", "kelayakan"]
+# ::lemmas ["panin_1", "putus_1", "tidak_1", "lanjut_1", "bangun_1", "gedung_1", "itu_1", "karena_1", "nyata_1", "tidak_2", "lulus_1", "uji_1", "layak_1"]
+# ::pos_tags ["NNP", "VB", "NEG", "VB", "NN", "NN", "PR", "SC", "VB", "NEG", "VB", "NN", "VB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / putus
+      :ARG0 (vv2 / Panin)
+      :ARG1 (vv3 / lanjut
+            :ARG1 (vv4 / bangun
+                  :ARG1 (vv5 / gedung)))
+      :mod (vv6 / karena
+            :mod (vv7 / nyata
+                  :ARG1 (vv8 / lulus
+                        :ARG1 (vv10 / uji
+                              :ARG1 (vv11 / layak))
+                        :mod (vv9 / tidak)))))
+
+# ::id c-gedung-roboh-json.7
+# ::snt Gedung tersebut dinyatakan tidak lulus uji sehingga pembangunan gedung diputuskan tidak dilanjutkan.
+# ::tokens ["Gedung", "tersebut", "dinyatakan", "tidak", "lulus", "uji", "sehingga", "pembangunan", "gedung", "diputuskan", "tidak", "dilanjutkan"]
+# ::lemmas ["gedung_1", "sebut_1", "nyata_1", "tidak_1", "lulus_1", "uji_1", "sehingga_1", "bangun_1", "gedung_2", "putus_1", "tidak_2", "lanjut_1"]
+# ::pos_tags ["NN", "PR", "VB", "NEG", "VB", "NN", "SC", "NN", "NN", "VB", "NEG", "VB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / nyata
+      :ARG1 (vv2 / gedung
+            :mod (vv3 / sebut))
+      :mod (vv4 / lulus
+            :ARG1 (vv6 / uji)
+            :mod (vv5 / tidak))
+      :mod (vv7 / sehingga
+            :mod (vv8 / bangun
+                  :ARG1 (vv12 / gedung)
+                  :mod (vv9 / putus
+                        :ARG1 (vv10 / lanjut
+                              :mod (vv11 / tidak))))))
+
+# ::id c-gedung-roboh-json.8
+# ::snt Kasat Reskrim Polres Tangerangg Selatan, AKP Samian mengatakan saat ini pihaknya melakukan penyelidikan untuk mengetahui penyebab runtuhnya gedung.
+# ::tokens ["Kasat", "Reskrim", "Polres", "Tangerangg", "Selatan", "AKP", "Samian", "mengatakan", "saat", "ini", "pihaknya", "melakukan", "penyelidikan", "untuk", "mengetahui", "penyebab", "runtuhnya", "gedung"]
+# ::lemmas ["kasat_1", "reskrim_1", "polres_1", "tangerangg_1", "selatan_1", "akp_1", "samian_1", "kata_1", "saat_1", "ini_1", "pihak_1", "laku_1", "lidi_1", "untuk_1", "tahu_1", "sebab_1", "runtuh_1", "gedung_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "PR", "RB", "VB", "NN", "SC", "VB", "NN", "RB", "VB"]
+# ::ner_tags ["NOR", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / kasat
+            :mod (vv5 / polres
+                  :location (vv6 / tangerang
+                        :location (vv7 / selatan)))
+            :mod (vv8 / reskrim)
+            :name (vv3 / akp
+                  :name (vv4 / samian)))
+      :ARG1 (vv9 / laku
+            :ARG0 (vv16 / pihak)
+            :ARG1 (vv15 / selidik)
+            :mod (vv10 / untuk
+                  :mod (vv11 / tahu
+                        :ARG1 (vv12 / sebab
+                              :mod (vv13 / runtuh
+                                    :ARG1 (vv14 / gedung)))))
+            :time (vv17 / saat
+                  :mod (vv18 / ini))))
+
+# ::id c-gedung-roboh-json.9
+# ::snt hingga kini kami masih mendalami peristiwa tersebut.
+# ::tokens ["hingga", "kini", "kami", "masih", "mendalami", "peristiwa", "tersebut"]
+# ::lemmas ["hingga_1", "kini_1", "kami_1", "masih_1", "dalam_1", "peristiwa_1", "sebut_1"]
+# ::pos_tags ["IN", "NN", "PRP", "MD", "VB", "NN", "PR"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / dalam
+      :ARG0 (vv3 / kami)
+      :ARG1 (vv4 / peristiwa
+            :mod (vv5 / sebut))
+      :mod (vv2 / masih)
+      :time (vv6 / hingga
+            :mod (vv7 / ini)))
+
+# ::id c-gedung-roboh-json.9
+# ::snt Kejadian tersebut tidak timbul korban.
+# ::tokens ["Kejadian", "tersebut", "tidak", "timbul", "korban"]
+# ::lemmas ["jadi_1", "sebut_1", "tidak_1", "timbul_1", "korban_1"]
+# ::pos_tags ["NN", "PR", "NEG", "VB", "NN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / timbul
+      :ARG0 (vv4 / jadi)
+      :ARG1 (vv5 / korban)
+      :mod (vv2 / sebut)
+      :mod (vv3 / tidak))
+
+# ::id c-gedung-roboh-json.9
+# ::snt terjadi kerugian material.
+# ::tokens ["terjadi", "kerugian", "material"]
+# ::lemmas ["jadi_1", "rugi_1", "material_1"]
+# ::pos_tags ["VB", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / jadi
+      :ARG1 (vv2 / rugi
+            :mod (vv3 / material)))
+
+# ::id c-gedung-roboh-json.10
+# ::snt Pembongkaran gedung di Sektor 7, Bintaro, Tangerang Selatan, diduga menyalahi prosedur.
+# ::tokens ["Pembongkaran", "gedung", "di", "Sektor", "7", "Bintaro", "Tangerang", "Selatan", "diduga", "menyalahi", "prosedur"]
+# ::lemmas ["bongkar_1", "gedung_1", "di_1", "sektor_1", "7_1", "bintaro_1", "tangerang_1", "selatan_1", "duga_1", "salah_1", "prosedur_1"]
+# ::pos_tags ["NN", "NN", "IN", "NN", "CD", "NNP", "NNP", "NNP", "VB", "VB", "NN"]
+# ::ner_tags ["O", "O", "O", "O", "CRD", "NOR", "ORG", "PER", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / duga
+      :ARG0 (vv2 / bongkar
+            :ARG1 (vv8 / gedung)
+            :location (vv3 / sektor
+                  :location (vv4 / bintaro
+                        :location (vv5 / tangerang
+                              :mod (vv6 / selatan)))
+                  :mod (vv7 / 7)))
+      :ARG1 (vv9 / salah
+            :ARG1 (vv10 / prosedur)))
+
+# ::id c-gedung-roboh-json.11
+# ::snt Arus lalu lintas dari pintu keluar Tol Pondok Aren dialihkan melalui jembatan layang.
+# ::tokens ["Arus", "lalu", "lintas", "dari", "pintu", "keluar", "Tol", "Pondok", "Aren", "dialihkan", "melalui", "jembatan", "layang"]
+# ::lemmas ["arus_1", "lalu_1", "lintas_1", "dari_1", "pintu_1", "keluar_1", "tol_1", "pondok_1", "aren_1", "alih_1", "lalu_2", "jembatan_1", "layang_1"]
+# ::pos_tags ["NN", "CC", "NN", "IN", "NN", "VB", "NNP", "NNP", "NNP", "VB", "IN", "NN", "NN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "LOC", "O", "PER", "O", "O", "O", "LOC"]
+# ::snt-type body
+# ::preferred
+(vv1 / alih
+      :ARG1 (vv2 / arus
+            :location (vv3 / pintu
+                  :mod (vv4 / tol
+                        :name (vv5 / pondok
+                              :name (vv6 / aren)))
+                  :mod (vv7 / keluar))
+            :mod (vv8 / lalu
+                  :mod (vv9 / lintas)))
+      :mod (vv10 / lalu
+            :ARG1 (vv11 / jembatan
+                  :mod (vv12 / layang))))
+
+# ::id c-gedung-roboh-json.12
+# ::snt Uji kelayakan dinyatakan tidak lulus uji sehingga bangunan dibiarkan untuk tidak dilanjutkan.
+# ::tokens ["Uji", "kelayakan", "dinyatakan", "tidak", "lulus", "uji", "sehingga", "bangunan", "dibiarkan", "untuk", "tidak", "dilanjutkan"]
+# ::lemmas ["uji_1", "layak_1", "nyata_1", "tidak_1", "lulus_1", "uji_2", "sehingga_1", "bangun_1", "biar_1", "untuk_1", "tidak_2", "lanjut_1"]
+# ::pos_tags ["NNP", "VB", "VB", "NEG", "VB", "NN", "SC", "NN", "VB", "SC", "NEG", "VB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / nyata
+      :ARG0 (vv2 / uji
+            :mod (vv3 / layak))
+      :ARG1 (vv4 / lulus
+            :ARG1 (vv6 / uji)
+            :mod (vv5 / tidak))
+      :mod (vv7 / sehingga
+            :mod (vv8 / biar
+                  :ARG1 (vv9 / bangun)
+                  :mod (vv10 / untuk
+                        :mod (vv11 / lanjut
+                              :mod (vv12 / tidak))))))
+
+# ::id c-gedung-roboh-json.13
+# ::snt Warga Bintaro Jaya, Tangerang Selatan, digegerkan getaran dan dentuman keras, Kamis 2 Juni.
+# ::tokens ["Warga", "Bintaro", "Jaya", "Tangerang", "Selatan", "digegerkan", "getaran", "dan", "dentuman", "keras", "Kamis", "2", "Juni"]
+# ::lemmas ["warga_1", "bintaro_1", "jaya_1", "tangerang_1", "selatan_1", "geger_1", "getar_1", "dan_1", "dentum_1", "keras_1", "kamis_1", "2_1", "juni_1"]
+# ::pos_tags ["NN", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "CC", "NN", "JJ", "NNP", "CD", "NNP"]
+# ::ner_tags ["O", "ORG", "NOR", "O", "PER", "O", "O", "O", "O", "O", "DAT", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / geger
+      :ARG0 (vv7 / getar
+            :location (vv8 / gedung
+                  :mod (vv9 / milik
+                        :ARG0 (vv10 / bank
+                              :name (vv11 / panin
+                                    :name (vv12 / bank)))))
+            :mod (vv13 / dan
+                  :mod (vv14 / dentum
+                        :mod (vv15 / keras))))
+      :ARG1 (vv2 / warga
+            :location (vv3 / bintaro
+                  :location (vv4 / tangerang
+                        :mod (vv5 / selatan))
+                  :mod (vv6 / jaya)))
+      :time (vv16 / kamis
+            :mod (vv17 / 2
+                  :mod (vv18 / juni))))
+
+# ::id c-gedung-roboh-json.14
+# ::snt Nadia mengatakan, sejak pagi sekitar pukul 08.00 WIB, dia melihat ada petugas yang merobohkan lantai di bangunan tersebut.
+# ::tokens ["Nadia", "mengatakan", "sejak", "pagi", "sekitar", "pukul", "0800", "WIB", "dia", "melihat", "ada", "petugas", "yang", "merobohkan", "lantai", "di", "bangunan", "tersebut"]
+# ::lemmas ["nadia_1", "kata_1", "sejak_1", "pagi_1", "sekitar_1", "pukul_1", "0800_1", "wib_1", "dia_1", "lihat_1", "ada_1", "tugas_1", "yang_1", "roboh_1", "lantai_1", "di_1", "bangun_1", "sebut_1"]
+# ::pos_tags ["NNP", "VB", "IN", "NN", "IN", "NN", "CD", "NN", "PRP", "VB", "VB", "NN", "SC", "VB", "NN", "IN", "NN", "PR"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "PRC", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / nadia)
+      :ARG1 (vv3 / lihat
+            :ARG0 (vv4 / dia)
+            :ARG1 (vv5 / ada
+                  :ARG1 (vv6 / tugas
+                        :mod (vv7 / roboh
+                              :ARG1 (vv10 / lantai)
+                              :location (vv8 / bangunan
+                                    :mod (vv9 / sebut))))))
+      :time (vv11 / sejak
+            :mod (vv12 / sekitar
+                  :mod (vv13 / pukul
+                        :mod (vv14 / 08.00
+                              :mod (vv15 / WIB))))
+            :mod (vv16 / pagi)))
+
+# ::id c-gedung-roboh-json.15
+# ::snt Kawasan sekitar gedung 21 lantai milik Panin di Jalan Boulevard Bintaro Jaya, Tangerang Selatan, masih ditutup untuk umum hingga Jumat pagi menjelang siang ini.
+# ::tokens ["Kawasan", "sekitar", "gedung", "21", "lantai", "milik", "Panin", "di", "Jalan", "Boulevard", "Bintaro", "Jaya", "Tangerang", "Selatan", "masih", "ditutup", "untuk", "umum", "hingga", "Jumat", "pagi", "menjelang", "siang", "ini"]
+# ::lemmas ["kawasan_1", "sekitar_1", "gedung_1", "21_1", "lantai_1", "milik_1", "panin_1", "di_1", "jalan_1", "boulevard_1", "bintaro_1", "jaya_1", "tangerang_1", "selatan_1", "masih_1", "tutup_1", "untuk_1", "umum_1", "hingga_1", "jumat_1", "pagi_1", "jelang_1", "siang_1", "ini_1"]
+# ::pos_tags ["NN", "IN", "NN", "CD", "NN", "NN", "NNP", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "MD", "VB", "SC", "JJ", "IN", "NNP", "NN", "IN", "NN", "PR"]
+# ::ner_tags ["PER", "O", "O", "CRD", "O", "O", "ORG", "O", "LOC", "NOR", "O", "O", "ORG", "PER", "O", "O", "O", "O", "O", "DAT", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutup
+      :ARG1 (vv2 / kawasan
+            :location (vv3 / sekitar
+                  :location (vv4 / jalan
+                        :location (vv5 / tangerang
+                              :mod (vv6 / selatan))
+                        :name (vv7 / boulevard
+                              :name (vv8 / bintaro
+                                    :name (vv9 / jaya))))
+                  :mod (vv10 / gedung
+                        :mod (vv11 / milik
+                              :ARG0 (vv12 / panin))
+                        :mod (vv13 / 21
+                              :mod (vv14 / lantai)))))
+      :mod (vv15 / untuk
+            :mod (vv16 / umum))
+      :time (vv17 / hingga
+            :mod (vv18 / jumat
+                  :mod (vv19 / pagi
+                        :mod (vv20 / jelang
+                              :mod (vv21 / siang))))))
+
+# ::id c-gedung-roboh-json.17
+# ::snt Gedung roboh di Bintaro yang dibeli dari Bank Panin pada tahun 1998 oleh Jaya Property itu memang terlihat sudah tua.
+# ::tokens ["Gedung", "roboh", "di", "Bintaro", "yang", "dibeli", "dari", "Bank", "Panin", "pada", "tahun", "1998", "oleh", "Jaya", "Property", "itu", "memang", "terlihat", "sudah", "tua"]
+# ::lemmas ["gedung_1", "roboh_1", "di_1", "bintaro_1", "yang_1", "beli_1", "dari_1", "bank_1", "panin_1", "pada_1", "tahun_1", "1998_1", "oleh_1", "jaya_1", "property_1", "itu_1", "memang_1", "lihat_1", "sudah_1", "tua_1"]
+# ::pos_tags ["NNP", "VB", "IN", "NNP", "SC", "VB", "IN", "NNP", "NNP", "IN", "NN", "CD", "IN", "NNP", "NNP", "PR", "RB", "VB", "MD", "JJ"]
+# ::ner_tags ["O", "O", "O", "PER", "O", "O", "O", "ORG", "LOC", "O", "O", "CRD", "O", "PER", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / lihat
+      :ARG0 (vv14 / tua)
+      :ARG1 (vv3 / Gedung
+            :location (vv12 / bintaro)
+            :mod (vv4 / beli
+                  :ARG0 (vv5 / jaya
+                        :name (vv6 / property))
+                  :mod (vv9 / dari
+                        :mod (vv10 / bank
+                              :name (vv11 / panin)))
+                  :time (vv7 / tahun
+                        :mod (vv8 / 1998)))
+            :mod (vv13 / roboh))
+      :mod (vv2 / memang))
+
+# ::id c-gedung-roboh-json.18
+# ::snt Property Development Panin Group Paulus Indra Intan menunggu rekomendasi dari Pemerintah Kota Tangerang Selatan untuk mendapatkan kontraktor dan konsultan bersertifikat.
+# ::tokens ["Property", "Development", "Panin", "Group", "Paulus", "Indra", "Intan", "menunggu", "rekomendasi", "dari", "Pemerintah", "Kota", "Tangerang", "Selatan", "untuk", "mendapatkan", "kontraktor", "dan", "konsultan", "bersertifikat"]
+# ::lemmas ["property_1", "development_1", "panin_1", "group_1", "paulus_1", "indra_1", "intan_1", "tunggu_1", "rekomendasi_1", "dari_1", "perintah_1", "kota_1", "tangerang_1", "selatan_1", "untuk_1", "dapat_1", "kontraktor_1", "dan_1", "konsultan_1", "sertifikat_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "IN", "NNP", "NNP", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "O", "PER", "O", "O", "O", "NOR", "O", "O", "PER", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tunggu
+      :ARG0 (vv2 / property
+            :mod (vv6 / development
+                  :name (vv7 / panin
+                        :name (vv8 / group)))
+            :name (vv3 / paulus
+                  :name (vv4 / indra
+                        :name (vv5 / intan))))
+      :ARG1 (vv9 / rekomendasi
+            :ARG0 (vv15 / pemerintah
+                  :location (vv16 / kota
+                        :mod (vv17 / tangerang
+                              :mod (vv18 / selatan)))
+                  :mod (vv19 / dari))
+            :mod (vv10 / untuk
+                  :mod (vv11 / dapat
+                        :ARG1 (vv12 / kontrak
+                              :mod (vv13 / konsultan
+                                    :mod (vv14 / sertifikat)))))))
+
+# ::id c-gedung-roboh-json.19
+# ::snt Kemarin, para petugas Polres Tangsel dan juga Polsek Pondok Aren masih berjaga di sekitar gedung roboh itu sekitar pukul 16.30 WIB.
+# ::tokens ["Kemarin", "para", "petugas", "Polres", "Tangsel", "dan", "juga", "Polsek", "Pondok", "Aren", "masih", "berjaga", "di", "sekitar", "gedung", "roboh", "itu", "sekitar", "pukul", "1630", "WIB"]
+# ::lemmas ["kemarin_1", "para_1", "tugas_1", "polres_1", "tangsel_1", "dan_1", "juga_1", "polsek_1", "pondok_1", "aren_1", "masih_1", "jaga_1", "di_1", "sekitar_1", "gedung_1", "roboh_1", "itu_1", "sekitar_2", "pukul_1", "1630_1", "wib_1"]
+# ::pos_tags ["NN", "DT", "NN", "NNP", "NNP", "CC", "RB", "NNP", "NNP", "NNP", "MD", "VB", "IN", "IN", "NN", "NN", "PR", "IN", "NN", "CD", "NNP"]
+# ::ner_tags ["O", "O", "O", "ORG", "PER", "O", "O", "ORG", "LOC", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "TIM", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / jaga
+      :ARG0 (vv2 / tugas
+            :location (vv7 / polres
+                  :mod (vv8 / tangsel))
+            :mod (vv3 / dan
+                  :location (vv4 / polsek
+                        :mod (vv5 / pondok
+                              :mod (vv6 / aren))))
+            :mod (vv9 / para))
+      :location (vv10 / sekitar
+            :mod (vv11 / gedung
+                  :mod (vv12 / roboh)))
+      :time (vv13 / sekitar
+            :mod (vv14 / pukul
+                  :mod (vv15 / 16.3
+                        :mod (vv16 / wib)))))
+
+# ::id c-gedung-roboh-json.20
+# ::snt Sebuah gedung kosong di dekat Bintaro Trade Center, Sektor 7, Bintaro, Kota Tangerang Selatan, roboh pada Kamis, sekitar pukul 15.00 WIB.
+# ::tokens ["Sebuah", "gedung", "kosong", "di", "dekat", "Bintaro", "Trade", "Center", "Sektor", "7", "Bintaro", "Kota", "Tangerang", "Selatan", "roboh", "pada", "Kamis", "sekitar", "pukul", "1500", "WIB"]
+# ::lemmas ["buah_1", "gedung_1", "kosong_1", "di_1", "dekat_1", "bintaro_1", "trade_1", "center_1", "sektor_1", "7_1", "bintaro_2", "kota_1", "tangerang_1", "selatan_1", "roboh_1", "pada_1", "kamis_1", "sekitar_1", "pukul_1", "1500_1", "wib_1"]
+# ::pos_tags ["NND", "NN", "JJ", "IN", "JJ", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "IN", "NNP", "IN", "NN", "CD", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "ORG", "O", "NOR", "ORG", "CRD", "NOR", "O", "ORG", "PER", "O", "O", "DAT", "O", "O", "TIM", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / roboh
+      :ARG0 (vv2 / gedung
+            :location (vv3 / dekat
+                  :name (vv4 / bintaro
+                        :location (vv5 / sektor
+                              :location (vv6 / bintaro
+                                    :location (vv7 / kota
+                                          :mod (vv8 / tangerang
+                                                :mod (vv9 / selatan))))
+                              :name (vv10 / 7))
+                        :name (vv11 / trade
+                              :name (vv12 / center))))
+            :mod (vv13 / kosong)
+            :mod (vv14 / buah))
+      :time (vv15 / kamis
+            :time (vv16 / sekitar
+                  :mod (vv17 / pukul
+                        :mod (vv18 / 15.0
+                              :mod (vv19 / wib))))))
+
+# ::id c-gedung-roboh-json.21
+# ::snt Saksi mata, Nadia yang bekerja tak jauh dari lokasi ambruknya gedung kembar itu mengungkapkan sekitar pukul 08.00 WIB, dia melihat sejumlah orang merobohkan lantai di gedung kembar.
+# ::tokens ["Saksi", "mata", "Nadia", "yang", "bekerja", "tak", "jauh", "dari", "lokasi", "ambruknya", "gedung", "kembar", "itu", "mengungkapkan", "sekitar", "pukul", "0800", "WIB", "dia", "melihat", "sejumlah", "orang", "merobohkan", "lantai", "di", "gedung", "kembar"]
+# ::lemmas ["saksi_1", "mata_1", "nadia_1", "yang_1", "kerja_1", "tak_1", "jauh_1", "dari_1", "lokasi_1", "ambruk_1", "gedung_1", "kembar_1", "itu_1", "ungkap_1", "sekitar_1", "pukul_1", "0800_1", "wib_1", "dia_1", "lihat_1", "jumlah_1", "orang_1", "roboh_1", "lantai_1", "di_1", "gedung_2", "kembar_2"]
+# ::pos_tags ["NN", "NN", "NNP", "SC", "VB", "NEG", "JJ", "IN", "NN", "NN", "NN", "NN", "PR", "VB", "IN", "NN", "CD", "NN", "PRP", "VB", "CD", "NN", "VB", "NN", "IN", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / ungkap
+      :ARG0 (vv2 / saksi
+            :mod (vv4 / mata)
+            :mod (vv5 / kerja
+                  :location (vv6 / jauh
+                        :mod (vv7 / lokasi
+                              :mod (vv8 / ambruk
+                                    :ARG1 (vv9 / gedung
+                                          :mod (vv10 / kembar))))
+                        :mod (vv11 / tak)))
+            :name (vv3 / nadia))
+      :ARG1 (vv12 / lihat
+            :ARG0 (vv13 / dia)
+            :ARG1 (vv14 / orang
+                  :mod (vv15 / roboh
+                        :ARG1 (vv18 / lantai)
+                        :location (vv16 / gedung
+                              :mod (vv17 / kembar)))
+                  :mod (vv19 / jumlah)))
+      :time (vv20 / sekitar
+            :mod (vv21 / pukul
+                  :mod (vv22 / 08.00
+                        :mod (vv23 / WIB)))))
+
+# ::id c-gedung-roboh-json.22
+# ::snt Airin menuturkan sejarah gedung tersebut memang gedung tersebut telah mendapat izin mendirikan perkantoran.
+# ::tokens ["Airin", "menuturkan", "sejarah", "gedung", "tersebut", "memang", "gedung", "tersebut", "telah", "mendapat", "izin", "mendirikan", "perkantoran"]
+# ::lemmas ["airin_1", "tutur_1", "sejarah_1", "gedung_1", "sebut_1", "memang_1", "gedung_2", "sebut_2", "telah_1", "dapat_1", "izin_1", "diri_1", "kantor_1"]
+# ::pos_tags ["NN", "VB", "NN", "NN", "PR", "RB", "NN", "PR", "MD", "VB", "NN", "VB", "NN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutur
+      :ARG0 (vv2 / Airin)
+      :ARG1 (vv3 / sejarah
+            :mod (vv4 / gedung
+                  :mod (vv5 / sebut)))
+      :mod (vv6 / dapat
+            :ARG1 (vv7 / izin
+                  :mod (vv8 / diri
+                        :ARG1 (vv9 / kantor)))
+            :mod (vv10 / telah)))
+
+# ::id c-gedung-roboh-json.23
+# ::snt Hingga saat ini, kepolisian masih memblokir akses di depan gedung milik Bank Panin yang roboh pada Kamis 2 Juni itu.
+# ::tokens ["Hingga", "saat", "ini", "kepolisian", "masih", "memblokir", "akses", "di", "depan", "gedung", "milik", "Bank", "Panin", "yang", "roboh", "pada", "Kamis", "2", "Juni", "itu"]
+# ::lemmas ["hingga_1", "saat_1", "ini_1", "polisi_1", "masih_1", "blokir_1", "akses_1", "di_1", "depan_1", "gedung_1", "milik_1", "bank_1", "panin_1", "yang_1", "roboh_1", "pada_1", "kamis_1", "2_1", "juni_1", "itu_1"]
+# ::pos_tags ["IN", "NN", "PR", "NN", "MD", "VB", "NN", "IN", "NN", "NN", "NN", "NNP", "NNP", "SC", "VB", "IN", "NNP", "CD", "NNP", "PR"]
+# ::ner_tags ["O", "O", "O", "GPE", "O", "O", "O", "O", "O", "O", "O", "ORG", "LOC", "O", "O", "O", "DAT", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / blokir
+      :ARG0 (vv3 / polisi)
+      :ARG1 (vv4 / akses)
+      :location (vv5 / depan
+            :mod (vv6 / gedung
+                  :mod (vv7 / roboh
+                        :time (vv8 / kamis
+                              :mod (vv9 / 2
+                                    :mod (vv10 / juni))))
+                  :mod (vv11 / milik
+                        :ARG0 (vv12 / bank
+                              :name (vv13 / panin)))))
+      :mod (vv2 / masih))
+
+# ::id c-gedung-roboh-json.24
+# ::snt Polres Tangerang Selatan memberlakukan pengalihan arus lalu lintas menyusul robohnya gedung Panin di Bintaro Sektor 7, Tangerang Selatan, Kamis pukul 15.00 WIB.
+# ::tokens ["Polres", "Tangerang", "Selatan", "memberlakukan", "pengalihan", "arus", "lalu", "lintas", "menyusul", "robohnya", "gedung", "Panin", "di", "Bintaro", "Sektor", "7", "Tangerang", "Selatan", "Kamis", "pukul", "1500", "WIB"]
+# ::lemmas ["polres_1", "tangerang_1", "selatan_1", "laku_1", "alih_1", "arus_1", "lalu_1", "lintas_1", "susul_1", "roboh_1", "gedung_1", "panin_1", "di_1", "bintaro_1", "sektor_1", "7_1", "tangerang_2", "selatan_2", "kamis_1", "pukul_1", "1500_1", "wib_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "VB", "NN", "NN", "CC", "NN", "VB", "RB", "VB", "NNP", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NN", "CD", "NNP"]
+# ::ner_tags ["ORG", "NOR", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "LOC", "O", "ORG", "O", "DAT", "GPE", "O", "EVT", "O", "TIM", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / laku
+      :ARG0 (vv2 / polres
+            :location (vv3 / tangerang
+                  :mod (vv4 / selatan)))
+      :ARG1 (vv5 / alih
+            :ARG1 (vv6 / arus
+                  :mod (vv7 / lalu
+                        :mod (vv8 / lintas))))
+      :time (vv9 / susul
+            :mod (vv10 / roboh
+                  :ARG1 (vv20 / gedung
+                        :name (vv21 / panin))
+                  :location (vv15 / bintaro
+                        :location (vv16 / tangerang
+                              :mod (vv17 / selatan))
+                        :mod (vv18 / sektor
+                              :mod (vv19 / 7)))
+                  :time (vv11 / kamis
+                        :mod (vv12 / pukul
+                              :mod (vv13 / 15.0
+                                    :mod (vv14 / wib)))))))
+
+# ::id c-gedung-roboh-json.25
+# ::snt Bank Panin sebagai pemilik memutuskan tidak melanjutkan pembangunan gedung itu karena dinyatakan tidak lulus uji kelayakan.
+# ::tokens ["Bank", "Panin", "sebagai", "pemilik", "memutuskan", "tidak", "melanjutkan", "pembangunan", "gedung", "itu", "karena", "dinyatakan", "tidak", "lulus", "uji", "kelayakan"]
+# ::lemmas ["bank_1", "panin_1", "bagai_1", "milik_1", "putus_1", "tidak_1", "lanjut_1", "bangun_1", "gedung_1", "itu_1", "karena_1", "nyata_1", "tidak_2", "lulus_1", "uji_1", "layak_1"]
+# ::pos_tags ["NNP", "NNP", "IN", "NN", "VB", "NEG", "VB", "NN", "NN", "PR", "SC", "VB", "NEG", "VB", "NN", "VB"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / putus
+      :ARG0 (vv2 / bank
+            :name (vv3 / panin))
+      :ARG1 (vv10 / lanjut
+            :ARG1 (vv12 / bangun
+                  :ARG1 (vv13 / gedung))
+            :mod (vv11 / tidak))
+      :mod (vv4 / karena
+            :mod (vv5 / nyata
+                  :ARG1 (vv6 / lulus
+                        :ARG1 (vv7 / uji
+                              :ARG1 (vv8 / layak))
+                        :mod (vv9 / tidak)))))
+
+# ::id c-gedung-roboh-json.26
+# ::snt Kapolres Tangerang Selatan Ajun Komisaris Besar Ayi Supardan menjelaskan perihal gedung yang roboh di Sektor 7, Bintaro, Tangerang Selatan, Kamis siang.
+# ::tokens ["Kapolres", "Tangerang", "Selatan", "Ajun", "Komisaris", "Besar", "Ayi", "Supardan", "menjelaskan", "perihal", "gedung", "yang", "roboh", "di", "Sektor", "7", "Bintaro", "Tangerang", "Selatan", "Kamis", "siang"]
+# ::lemmas ["kapolres_1", "tangerang_1", "selatan_1", "ajun_1", "komisaris_1", "besar_1", "ayi_1", "supardan_1", "jelas_1", "perihal_1", "gedung_1", "yang_1", "roboh_1", "di_1", "sektor_1", "7_1", "bintaro_1", "tangerang_2", "selatan_2", "kamis_1", "siang_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "NN", "SC", "VB", "IN", "NN", "CD", "NNP", "NNP", "NNP", "NNP", "VB"]
+# ::ner_tags ["NOR", "O", "O", "O", "O", "ORG", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "CRD", "LOC", "GPE", "O", "EVT", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / jelas
+      :ARG0 (vv2 / Kapolres
+            :location (vv7 / tangerang
+                  :mod (vv8 / selatan))
+            :mod (vv5 / komisaris
+                  :mod (vv6 / besar))
+            :name (vv3 / ayi
+                  :name (vv4 / supardan)))
+      :ARG1 (vv9 / perihal
+            :mod (vv10 / gedung
+                  :location (vv11 / sektor
+                        :location (vv12 / bintaro
+                              :location (vv13 / tangerang
+                                    :mod (vv14 / selatan)))
+                        :mod (vv15 / 7))
+                  :mod (vv16 / roboh
+                        :time (vv17 / kamis
+                              :time (vv18 / siang))))))
+
+# ::id c-gedung-roboh-json.27
+# ::snt Sebelum sisi depan gedung tersebut roboh kemarin, memang sedang dilakukan pembongkaran oleh 15 pekerja bangunan.
+# ::tokens ["Sebelum", "sisi", "depan", "gedung", "tersebut", "roboh", "kemarin", "memang", "sedang", "dilakukan", "pembongkaran", "oleh", "15", "pekerja", "bangunan"]
+# ::lemmas ["belum_1", "sisi_1", "depan_1", "gedung_1", "sebut_1", "roboh_1", "kemarin_1", "memang_1", "sedang_1", "laku_1", "bongkar_1", "oleh_1", "15_1", "kerja_1", "bangun_1"]
+# ::pos_tags ["SC", "NN", "NN", "NN", "PR", "VB", "NN", "RB", "MD", "VB", "NN", "IN", "CD", "NN", "NN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CRD", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / laku
+      :ARG0 (vv5 / kerja
+            :mod (vv6 / 15)
+            :mod (vv7 / bangun))
+      :ARG1 (vv4 / bongkar)
+      :mod (vv2 / sedang
+            :mod (vv3 / memang))
+      :time (vv8 / belum
+            :mod (vv9 / roboh
+                  :ARG0 (vv11 / sisi
+                        :mod (vv12 / depan
+                              :mod (vv13 / gedung)))
+                  :time (vv10 / kemarin))))
+
+# ::id c-gedung-roboh-json.28
+# ::snt Benar peristiwa gedung Bintaro roboh ini terjadi siang tadi sekitar pukul 14.00 WIB, ungkap AKBP Ayi Supardan, Kapolres Tangerang Selatan, Kamis.
+# ::tokens ["Benar", "peristiwa", "gedung", "Bintaro", "roboh", "ini", "terjadi", "siang", "tadi", "sekitar", "pukul", "1400", "WIB", "ungkap", "AKBP", "Ayi", "Supardan", "Kapolres", "Tangerang", "Selatan", "Kamis"]
+# ::lemmas ["benar_1", "peristiwa_1", "gedung_1", "bintaro_1", "roboh_1", "ini_1", "jadi_1", "siang_1", "tadi_1", "sekitar_1", "pukul_1", "1400_1", "wib_1", "ungkap_1", "akbp_1", "ayi_1", "supardan_1", "kapolres_1", "tangerang_1", "selatan_1", "kamis_1"]
+# ::pos_tags ["NN", "NN", "NN", "NNP", "NN", "PR", "VB", "NN", "NN", "IN", "NN", "CD", "NN", "VB", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "NOR", "O", "O", "O", "GPE", "O", "EVT"]
+# ::snt-type body
+# ::preferred
+(vv1 / ungkap
+      :ARG0 (vv2 / akbp
+            :mod (vv3 / kapolres
+                  :location (vv4 / tangerang
+                        :mod (vv5 / selatan)))
+            :name (vv6 / ayi
+                  :name (vv7 / supardan)))
+      :ARG1 (vv8 / benar
+            :mod (vv9 / peristiwa
+                  :mod (vv10 / jadi
+                        :time (vv11 / siang
+                              :mod (vv16 / tadi)
+                              :time (vv12 / sekitar
+                                    :mod (vv13 / pukul
+                                          :mod (vv14 / 14.0
+                                                :mod (vv15 / wib))))))
+                  :mod (vv17 / roboh
+                        :ARG0 (vv18 / gedung
+                              :location (vv19 / bintaro)))))
+      :time (vv20 / kamis))
+
+# ::id c-gedung-roboh-json.29
+# ::snt Wali Kota Tangerang Selatan Airin Rachmi Diany menyambangi langsung gedung roboh di Bintaro, Tangerang Selatan.
+# ::tokens ["Wali", "Kota", "Tangerang", "Selatan", "Airin", "Rachmi", "Diany", "menyambangi", "langsung", "gedung", "roboh", "di", "Bintaro", "Tangerang", "Selatan"]
+# ::lemmas ["wali_1", "kota_1", "tangerang_1", "selatan_1", "airin_1", "rachmi_1", "diany_1", "sambang_1", "langsung_1", "gedung_1", "roboh_1", "di_1", "bintaro_1", "tangerang_2", "selatan_2"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "RB", "VB", "NN", "IN", "NNP", "NNP", "NNP"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "LOC", "GPE", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sambang
+      :ARG0 (vv2 / wali
+            :location (vv6 / tangerang
+                  :mod (vv7 / selatan))
+            :mod (vv8 / kota)
+            :name (vv3 / airin
+                  :name (vv4 / rachmi
+                        :name (vv5 / diany))))
+      :ARG1 (vv9 / gedung
+            :mod (vv10 / roboh))
+      :location (vv11 / bintaro
+            :location (vv12 / tangerang
+                  :mod (vv13 / selatan)))
+      :mod (vv14 / langsung))
+
+# ::id c-gedung-roboh-json.30
+# ::snt Kepala daerah akan memberikan persetujuan setelah mendapat pertimbangan dari tim ahli bangunan atau gedung.
+# ::tokens ["Kepala", "daerah", "akan", "memberikan", "persetujuan", "setelah", "mendapat", "pertimbangan", "dari", "tim", "ahli", "bangunan", "atau", "gedung"]
+# ::lemmas ["kepala_1", "daerah_1", "akan_1", "beri_1", "tuju_1", "telah_1", "dapat_1", "timbang_1", "dari_1", "tim_1", "ahli_1", "bangun_1", "atau_1", "gedung_1"]
+# ::pos_tags ["NN", "NN", "MD", "VB", "NN", "SC", "VB", "NN", "IN", "NN", "NN", "NN", "CC", "NN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / beri
+      :ARG0 (vv2 / kepala
+            :mod (vv3 / daerah))
+      :ARG1 (vv4 / setuju)
+      :time (vv5 / telah
+            :mod (vv6 / dapat
+                  :ARG1 (vv7 / timbang
+                        :mod (vv8 / dari
+                              :mod (vv9 / ahli
+                                    :mod (vv10 / gedung
+                                          :mod (vv11 / atau))
+                                    :mod (vv12 / bangunan)))))))
+

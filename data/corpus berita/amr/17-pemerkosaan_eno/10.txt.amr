@@ -1,0 +1,26 @@
+# ::snt Ada yang menarik dari pemeriksaan kasus perkosaan dan pembunuhan sadis karyawati pabrik Eno Parihah, 29 tahun, di Kosambi, Kabupaten Tangerang, oleh Reserse Mobil (Resmob) Polda Metro Jaya.
+
+(vv1 / ada
+     :mod (vv2 / tarik
+               :ARG1 (vv3 / periksa
+                          :mod (vv4 / kasus
+                                    :mod (vv5 / perkosa)
+                                    :mod (vv6 / bunuh
+                                              :mod (vv7 / dan)
+                                              :mod (vv8 / sadis)
+                                              :mod (vv9 / karyawati
+                                                        :mod (vv10 / pabrik
+                                                                   :name (vv11 / eno
+                                                                               :name (vv12 / parihah)))
+                                                        :mod (vv13 / tahun
+                                                                   :mod (vv14 / 29))
+                                                        :mod (vv15 / kosambi
+                                                                   :mod (vv16 / kabupaten
+                                                                              :name (vv17 / tangerang)))))))
+               :location (vv18 / reserse
+                               :ARG0 (vv19 / mobil
+                                           :name (vv20 / resmob
+                                                       :name (vv21 / polda
+                                                                   :mod (vv22 / metro
+                                                                              :name (vv23 / jaya))))))))
+

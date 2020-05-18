@@ -1,0 +1,362 @@
+# ::snt Meski Komisi Pemberantasan Korupsi (KPK) belum mau mengumumkan status tersangka terhadap Gubernur Jambi, Zumi Zola.
+
+(vv1 / umum
+     :ARG0 (vv2 / komisi
+                :name (vv3 / berantas
+                           :name (vv4 / korupsi
+                                      :name (vv5 / kpk))))
+     :mod (vv6 / belum)
+     :mod (vv7 / mau)
+     :ARG1 (vv8 / status
+                :mod (vv9 / sangka)
+                :mod (vv10 / gubernur
+                           :name (vv11 / jambi
+                                       :name (vv12 / zumi
+                                                   :name (vv13 / zola))))))
+
+# ::snt Namun berdasarkan surat pencegahan yang dilayangkan KPK kepada Ditjen Imigrasi, Zumi Zola berstatus sebagai tersangka.
+
+(vv1 / status
+     :mod (vv2 / namun)
+     :ARG1 (vv3 / surat
+                :mod (vv4 / dasar)
+                :mod (vv5 / cegah)
+                :mod (vv6 / layang
+                          :ARG1 (vv7 / kpk)
+                          :location (vv8 / ditjen
+                                         :mod (vv9 / imigrasi))))
+     :ARG0 (vv10 / zumi
+                 :name (vv11 / zola))
+     :ARG1 (vv12 / sangka))
+
+# ::snt "Di situ (di surat pencegahan) tertulis (Zumi Zola) tersangka," ujar Kabag Humas dan TU Ditjen Imigrasi Kemenkumham, Agung Sampurno saat dikonfirmasi, Kamis (1/2/2018).
+
+(vv1 / sangka
+     :location (vv2 / situ
+                    :mod (vv3 / surat
+                              :mod (vv4 / cegah)
+                              :mod (vv5 / tulis
+                                        :ARG0 (vv6 / zumi
+                                                   :name (vv7 / zola)))))
+     :mod (vv8 / ujar)
+     :ARG0 (vv9 / kabag
+                :name (vv10 / humas
+                            :mod (vv11 / tu
+                                       :mod (vv12 / dan)
+                                       :mod (vv13 / ditjen
+                                                  :mod (vv14 / imigrasi
+                                                             :name (vv15 / kemenkumham
+                                                                         :name (vv16 / agung
+                                                                                     :name (vv17 / sampurno))))))))
+     :mod (vv18 / konfirmasi
+                :mod (vv19 / saat)
+                :ARG1 (vv20 / kamis
+                            :mod (vv21 / 122018))))
+
+# ::snt Surat tersebut telah diterima‎ Ditjen Imigrasi Kemenkumham dari KPK pada Kamis, 25 Februari 2018.
+
+(vv1 / terima
+     :ARG1 (vv2 / surat)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / ditjen
+                :name (vv5 / imigrasi
+                           :name (vv6 / kemenkumham))
+                :mod (vv7 / kpk))
+     :ARG1 (vv8 / kamis
+                :mod (vv9 / februari
+                          :mod (vv10 / 25)
+                          :mod (vv11 / 2018))))
+
+# ::snt Zumi Zola sendiri telah dicegah berpergian ke luar negeri selama enam bulan ke depan.
+
+(vv1 / cegah
+     :ARG1 (vv2 / zumi
+                :name (vv3 / zola)
+                :mod (vv4 / sendiri))
+     :mod (vv5 / telah)
+     :ARG1 (vv6 / pergi
+                :location (vv7 / luar)
+                :location (vv8 / negeri))
+     :ARG1 (vv9 / bulan
+                :mod (vv10 / enam))
+     :location (vv11 / depan))
+
+# ::snt "Tanggal 25 Januari 2018 Ditjenim telah menerima Surat Keputusan KPK tentang pencegahan bepergian ke luar negeri atas nama Zumi Zola Zulkifli," ungkap Agung.
+
+(vv1 / terima
+     :ARG1 (vv2 / tanggal
+                :mod (vv3 / januari
+                          :mod (vv4 / 25)
+                          :mod (vv5 / 2018)))
+     :ARG0 (vv6 / ditjenim)
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / surat
+                :mod (vv9 / putus
+                          :mod (vv10 / kpk))
+                :mod (vv11 / cegah
+                           :mod (vv12 / pergi
+                                      :location (vv13 / negeri
+                                                      :mod (vv14 / luar)))
+                           :mod (vv15 / nama
+                                      :name (vv16 / zumi
+                                                  :name (vv17 / zola
+                                                              :name (vv18 / zulkifli)))
+                                      :mod (vv19 / ungkap
+                                                 :ARG1 (vv20 / agung))))))
+
+# ::snt Masa pencegahan Zumi Zola akan berlaku hingga enam bulan ke depan.
+
+(vv1 / laku
+     :ARG0 (vv2 / masa
+                :mod (vv3 / cegah
+                          :name (vv4 / zumi
+                                     :name (vv5 / zola))))
+     :mod (vv6 / akan)
+     :time (vv7 / bulan
+                :mod (vv8 / enam))
+     :location (vv9 / depan))
+
+# ::snt Seperti diketahui, hari penyidik KPK melakukan penggeledahan di rumah dinas Zumi Zola.
+
+# ::snt Terkait hal tersebut, Pimpinan KPK, Saut Situmorang, mengaku telah meningkatkan penyelidikan baru kasus suap proses pengesahan anggaran APBD Pemprov Jambi ke tingkat penyidikan.
+
+(vv1 / aku
+     :mod (vv2 / kait
+               :ARG1 (vv3 / hal))
+     :ARG0 (vv4 / pimpin
+                :name (vv5 / kpk
+                           :name (vv6 / saut
+                                      :name (vv7 / situmorang))))
+     :mod (vv8 / tingkat
+               :mod (vv10 / lidi
+                          :mod (vv9 / telah)
+                          :mod (vv12 / kasus
+                                     :mod (vv14 / proses
+                                                :mod (vv16 / anggar
+                                                           :mod (vv18 / pemprov
+                                                                      :name (vv20 / sidi))))
+                                     :mod (vv15 / kesah
+                                                :mod (vv17 / apbd
+                                                           :name (vv19 / jambi))))
+                          :mod (vv13 / suap))
+               :ARG1 (vv11 / baru)
+               :mod vv21))
+
+# ::snt Pasalnya, menurut Saut penggeledahan tersebut dilakukan jika sebuah kasus telah masuk ke tingkat penyidikan.
+
+(vv1 / laku
+     :mod (vv2 / pasal)
+     :ARG1 (vv3 / saut)
+     :ARG1 (vv4 / geledah)
+     :ARG1 (vv5 / masuk
+                :ARG0 (vv6 / kasus)
+                :mod (vv7 / telah)
+                :ARG1 (vv8 / tingkat
+                           :mod (vv9 / sidi))))
+
+# ::snt Di tingkat penyidikan KPK dipastikan sudah mengantongi nama tersangka.
+
+(vv1 / pasti
+     :ARG1 (vv2 / tingkat
+                :mod (vv3 / sidi
+                          :name (vv4 / kpk)))
+     :ARG1 (vv5 / kantong
+                :mod (vv6 / sudah)
+                :ARG1 (vv7 / nama)
+                :ARG1 (vv8 / sangka)))
+
+# ::snt "Kalau sudah sampai geledah udah di tahap apa, (penyidikan) ya sudah kamu jawab itu," ujar Saut di Gedung KPK, Jalan Kuningan Persada, Jakarta Selatan, Rabu (31/1/2018).
+
+# ::snt Saut masih enggan untuk menyebutkan bahwa tersangka tersebut merupakan Zumi Zola.
+
+(vv1 / enggan
+     :ARG0 (vv2 / saut)
+     :mod (vv3 / masih)
+     :mod (vv4 / sebut
+               :ARG1 (vv5 / rupa
+                          :ARG0 (vv6 / sangka)
+                          :ARG1 (vv7 / zumi
+                                     :name (vv8 / zola)))))
+
+# ::snt Status tersangka baru penyidikan ini akan diumumkan KPK dalam beberapa hari kedepan.
+
+(vv1 / umum
+     :ARG1 (vv2 / status
+                :mod (vv3 / sangka
+                          :mod (vv4 / baru))
+                :mod (vv5 / sidi))
+     :mod (vv6 / akan)
+     :ARG0 (vv7 / kpk)
+     :time (vv8 / hari)
+     :mod (vv9 / depan))
+
+# ::snt "Pokoknya ada perkembangan siginikan nanti kita umumkan ke depan," tambah Saut.
+
+(vv1 / ada
+     :ARG0 (vv2 / pokok)
+     :ARG1 (vv3 / kembang
+                :mod (vv4 / siginikan))
+     :mod (vv5 / umum
+               :mod (vv6 / nanti)
+               :ARG0 (vv7 / kita)
+               :location (vv8 / depan
+                              :mod (vv9 / tambah))
+               :ARG0 (vv10 / saut)))
+
+# ::snt Hingga berita ini diturunkan, suasana di rumah dinas Zumi Zola masih tampak dikawal Brimob.
+
+(vv1 / turun
+     :ARG1 (vv2 / berita)
+     :ARG1 (vv3 / suasana
+                :mod (vv4 / rumah
+                          :mod (vv5 / dinas
+                                    :mod (vv6 / zumi
+                                              :name (vv7 / zola)))))
+     :ARG1 (vv10 / kawal
+                 :mod (vv8 / tampak
+                           :mod (vv9 / masih))
+                 :ARG0 (vv11 / brimob)))
+
+# ::snt Seperti diketahui, KPK sedang melakukan pengembangan penyidikan perkara kasus suap pengesahan APBD Jambi tahun anggaran 2016.
+
+(vv1 / laku
+     :ARG1 (vv2 / tahu)
+     :ARG0 (vv3 / kpk)
+     :mod (vv4 / sedang)
+     :ARG1 (vv5 / kembang
+                :mod (vv6 / sidi
+                          :ARG1 (vv7 / perkara
+                                     :mod (vv8 / kasus
+                                               :mod (vv9 / suap
+                                                         :mod (vv10 / kesah
+                                                                    :mod (vv11 / apbd
+                                                                               :name (vv12 / jambi)))))))
+                :mod (vv13 / tahun
+                           :mod (vv14 / anggar
+                                      :mod (vv15 / 2016)))))
+
+# ::snt Dalam kasus ini, KPK telah menetapkan empat tersangka yakni Anggota Komisi I DPRD Jambi dari fraksi Partai Amanat Nasional Supriono yang ditetapkan sebagai tersangka penerima.
+
+(vv1 / tetap
+     :ARG1 (vv2 / kasus)
+     :ARG0 (vv3 / kpk)
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / sangka
+                :mod (vv7 / anggota
+                          :mod (vv9 / i
+                                    :mod (vv11 / jambi))
+                          :mod (vv13 / partai
+                                     :name (vv15 / nasional
+                                                 :name (vv17 / terima))))
+                :mod (vv8 / komisi
+                          :name (vv10 / dprd
+                                      :name (vv12 / fraksi
+                                                  :mod (vv14 / amanat
+                                                             :name (vv16 / supriono)))))
+                :mod vv18)
+     :ARG1 (vv6 / empat))
+
+# ::snt Sementara tiga tersangka yang diduga sebagai pemberi adalah Erwan Malik selaku Pelaksana tugas Sekretaris Daerah Provinsi Jambi, Arfan selaku Pelaksana tugas Kepala Dinas Pekerjaan Umum dan Perumahan Rakyat Provinsi Jambi dan Saifuddin (SAI) selaku Asisten Daerah 3 Provinsi Jambi.
+
+(vv3 / erwan
+     :ARG0 (vv1 / sangka
+                :mod (vv2 / tiga)
+                :mod (vv4 / duga
+                          :ARG1 (vv5 / beri)))
+     :mod (vv6 / adalah)
+     :name (vv7 / malik)
+     :mod (vv8 / pelaksana
+               :mod (vv10 / sekretaris
+                          :mod (vv13 / jambi
+                                     :name (vv21 / rakyat
+                                                 :mod (vv16 / dinas
+                                                            :mod (vv24 / asisten
+                                                                       :mod (vv14 / arfan)
+                                                                       :mod (vv17 / kerja
+                                                                                  :mod (vv25 / 3)))))))
+               :mod (vv11 / daerah
+                          :mod (vv15 / kepala
+                                     :mod (vv23 / sai)
+                                     :mod vv26
+                                     :mod vv30)
+                          :mod vv33)
+               :mod vv32)
+     :mod (vv9 / tugas
+               :mod (vv12 / provinsi
+                          :name (vv18 / umum)
+                          :name (vv19 / rumah
+                                      :mod vv27
+                                      :mod vv29)
+                          :name (vv20 / dan))
+               :mod (vv22 / saifuddin
+                          :mod vv28
+                          :name vv31)))
+
+# ::snt Penetapan keempat orang tersebut sebagai tersangka berdasarkan hasil gelar perkara operasi tangkap tangan (OTT) terkait adanya serah terima uang ke Suprino di Jambi kemarin.
+
+(vv1 / kait
+     :ARG1 (vv2 / tetap
+                :mod (vv3 / orang
+                          :mod (vv4 / empat))
+                :mod (vv5 / sangka))
+     :ARG1 (vv6 / dasar
+                :ARG1 (vv7 / hasil
+                           :mod (vv8 / gelar
+                                     :mod (vv9 / perkara
+                                               :mod (vv10 / operasi
+                                                          :mod (vv11 / tangkap
+                                                                     :mod (vv12 / tangan
+                                                                                :mod (vv13 / ott))))))))
+     :ARG1 (vv14 / ada
+                 :mod (vv15 / serah
+                            :mod (vv16 / terima
+                                       :ARG1 (vv17 / uang)))
+                 :mod (vv18 / suprino)
+                 :mod (vv19 / jambi))
+     :time (vv20 / kemarin))
+
+# ::snt Atas perbuatannya, Supriono terduga penerima disangka Pasal 12 huruf a atau huruf b atau Pasal 11 Undang-Undang Nomor 31 tahun 1999 sebagaimana diubah dengan Undang-Undang Nomor 20 tahun 2001 tentang pemberantasan tindak pidana korupsi jo Pasal 55 ayat (1) ke-1 KUHPidana.
+
+# ::snt Sementara untuk tiga terduga pemberi disangka Pasal 5 ayat (1) huruf a atau huruf b atau Pasal 13 Undang-Undang Nomor 31 tahun 1999 sebagaimana diubah dengan Undang-Undang Nomor 20 tahun 2001 tentang pemberantasan tindak pidana korupsi jo Pasal 55 ayat (1) ke-1 KUHPidana.
+
+(vv3 / sangka
+     :ARG1 (vv1 / duga
+                :mod (vv2 / tiga))
+     :ARG1 (vv4 / beri)
+     :ARG1 (vv5 / pasal
+                :mod (vv8 / 1)
+                :mod (vv9 / huruf
+                          :mod (vv6 / ayat
+                                    :mod (vv10 / a)
+                                    :mod (vv11 / atau)
+                                    :mod (vv12 / b)
+                                    :mod vv37)
+                          :mod (vv14 / undangundang
+                                     :mod (vv22 / berantas
+                                                :mod vv32)
+                                     :mod (vv23 / tindak
+                                                :mod vv33)
+                                     :mod (vv25 / korupsi
+                                                :mod vv35))
+                          :mod (vv15 / nomor
+                                     :mod (vv24 / pidana
+                                                :mod vv34))
+                          :mod (vv16 / tahun
+                                     :mod (vv26 / jo
+                                                :mod (vv7 / 5))
+                                     :mod (vv27 / 55)
+                                     :mod (vv29 / kuhpidana)
+                                     :mod vv30)
+                          :mod (vv18 / 1999))
+                :mod (vv13 / 13)
+                :mod (vv17 / 31)
+                :mod (vv19 / ubah
+                           :mod (vv21 / 2001)
+                           :mod vv31)
+                :mod (vv20 / 20)
+                :mod vv36)
+     :mod (vv28 / ke1
+                :name vv38))
+
+# ::snt Atas perkara ini, setidaknya penyidik telah memeriksa 49 saksi mereka berasal dari unsur anggota DPRD Jambi, Gubernur dan Wakil Gubernur Jambi, Staf dan PNS di pemprov Jambi, swasta dan lainnya‎. 
+

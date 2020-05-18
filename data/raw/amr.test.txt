@@ -1,0 +1,19 @@
+# ::id 2
+# ::snt JR Saragih lalu menaiki podium yang disediakan para pendukungnya yang begitu setia menunggu di halaman gedung.
+# ::tokens ["JR", "Saragih", "lalu", "menaiki", "podium", "yang", "disediakan", "para", "pendukungnya", "yang", "begitu", "setia", "menunggu", "di", "halaman", "gedung"]
+# ::lemmas ["jr", "saragih", "lalu", "naik", "podium", "yang", "sedia", "para", "dukung", "yang", "begitu", "setia", "tunggu", "di", "halaman"]
+# ::pos_tags ["PROPN", "PROPN", "ADV", "VERB", "PROPN", "PRON", "VERB", "DET", "NOUN", "PRON", "ADV", "ADJ", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(n1 / naik
+      :ARG0 (p1 / person
+            :name (n2 / name
+                  :op1 "JR"
+                  :op2 "Saragih"))
+      :ARG1 (p2 / podium
+            :ARG0 (p3 / person
+                  :ARG0-of (d / dukung)
+                  :ARG1-of (t / tunggu)
+                  :location (h / halaman
+                        :mod (g / gedung))
+                  :mod (s2 / setia))
+            :ARG1-of (s1 / sedia)))

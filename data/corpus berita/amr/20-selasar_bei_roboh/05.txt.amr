@@ -1,0 +1,33 @@
+# ::snt Seluruh karyawan yang berkantor di gedung Bursa Efek Indonesia, berhamburan ke luar setelah selasar tower II roboh.
+
+(vv1 / hambur
+     :ARG0 (vv2 / karyawan
+                :mod (vv3 / kantor
+                          :location (vv4 / gedung
+                                         :mod (vv5 / bursa
+                                                   :mod (vv6 / efek
+                                                             :mod (vv7 / indonesia))))))
+     :location (vv8 / luar)
+     :mod (vv9 / selasar
+               :ARG1 (vv10 / tower
+                           :mod (vv11 / ii)))
+     :mod (vv12 / roboh))
+
+# ::snt Penuhnya karyawan yang masih bertahan di depan gedung BEI dan ada sebagian di lobi depan Pasific Place membuat arus kendaraan di SCBD, Sudirman menjadi tersendat.
+
+# ::snt "Banyak juga, kebanyakan dari anak-anak sekolah yang sedang kunjungan ke BEI," ujar Issa.
+
+# ::snt Issa mengaku, sempat melakukan pertolongan kepada korban yang tertimpa bangunan, dengan mencarikan taksi untuk mengantar korban di rumah sakit terdekat.
+
+# ::snt "Ada yang bajunya sampe robek, punggungnya kayaknya patah," ucap Issa.
+
+(vv3 / ada
+     :mod (vv1 / sampe
+               :ARG0 (vv2 / baju)
+               :ARG1 (vv4 / robek
+                          :ARG1 (vv5 / punggung)
+                          :mod (vv6 / patah
+                                    :mod (vv7 / kayak)
+                                    :mod (vv8 / ucap))))
+     :mod (vv9 / issa))
+

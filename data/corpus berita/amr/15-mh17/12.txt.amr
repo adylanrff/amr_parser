@@ -1,0 +1,140 @@
+# ::snt Setelah kasus hilangnya MH370 yang hingga kini masih misteri, maskapai penerbangan Malaysia kembali mengalami musibah setelah pesawat mereka seri MH17 rute Amsterdam-Kuala Lumpur ditembak jatuh di perbatasan Ukraina.
+
+(vv1 / alami
+     :ARG1 (vv2 / kasus
+                :mod (vv3 / hilang)
+                :mod (vv4 / mh370)
+                :mod (vv5 / misteri
+                          :mod (vv6 / kini
+                                    :mod (vv7 / masih))
+                          :mod (vv8 / maskapai
+                                    :mod (vv9 / terbang
+                                              :mod (vv10 / malaysia)))))
+     :mod (vv11 / kembali)
+     :ARG1 (vv12 / musibah
+                 :ARG1 (vv13 / pesawat
+                             :mod (vv14 / seri
+                                        :mod (vv15 / mh17)
+                                        :mod (vv16 / rute
+                                                   :name (vv17 / amsterdamkuala
+                                                               :mod (vv18 / lumpur))))))
+     :mod (vv19 / tembak
+                :ARG1 (vv20 / jatuh
+                            :location (vv21 / batas
+                                            :mod (vv22 / ukraina)))))
+
+# ::snt Duta Besar Republik Indonesia untuk Malaysia Herman Prayitno mengatakan, akan segera mencari informasi ke maskapai penerbangan Malaysia untuk memastikan adanya warga negara Indonesia (WNI) yang menjadi penumpang pesawat nahas MH-17 tersebut.
+
+# ::snt "Sampai saat ini Malaysian Airlines belum membuka manifest penumpang pesawat MH-17 yang jatuh di perbatasan Ukraina," kata Herman Pratikno dalam wawancara melalui telepon dengan sebuah stasiun televisi swasta, Jumat (18/7/2014) dini hari.
+
+(vv1 / buka
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / malaysian
+                :mod (vv4 / airlines))
+     :mod (vv5 / belum)
+     :ARG1 (vv6 / manifest
+                :mod (vv7 / tumpang
+                          :mod (vv8 / pesawat
+                                    :mod (vv9 / mh17)))
+                :mod (vv10 / jatuh
+                           :location (vv11 / batas
+                                           :mod (vv12 / ukraina)
+                                           :mod (vv13 / kata
+                                                      :name (vv14 / herman
+                                                                  :name (vv15 / pratikno))))
+                           :location (vv16 / wawancara)
+                           :location (vv17 / telepon
+                                           :mod (vv18 / stasiun
+                                                      :mod (vv19 / televisi
+                                                                 :mod (vv20 / swasta))
+                                                      :mod (vv21 / jumat
+                                                                 :mod (vv22 / 1872014))
+                                                      :mod (vv23 / dini
+                                                                 :mod (vv24 / hari)))))))
+
+# ::snt Menurut Herman, dirinya akan menanyakan informasi daftar penumpang (manifest) pesawat Malaysian Airlines MH-17 yang jatuh di perbatasan Ukraina dan Rusia pada Kamis (17/7) malam.
+
+(vv1 / tanya
+     :ARG1 (vv2 / herman)
+     :ARG0 (vv3 / diri)
+     :mod (vv4 / akan)
+     :ARG1 (vv5 / informasi
+                :mod (vv6 / daftar
+                          :mod (vv7 / tumpang
+                                    :mod (vv8 / manifest
+                                              :mod (vv9 / pesawat
+                                                        :mod (vv10 / malaysian
+                                                                   :mod (vv11 / airlines
+                                                                              :name (vv12 / mh17)))
+                                                        :mod (vv13 / jatuh
+                                                                   :location (vv14 / batas
+                                                                                   :mod (vv15 / ukraina
+                                                                                              :mod (vv16 / rusia
+                                                                                                         :mod (vv17 / dan))))
+                                                                   :ARG1 (vv18 / kamis
+                                                                               :mod (vv19 / malam
+                                                                                          :mod (vv20 / 177))))))))))
+
+# ::snt Ia menjelaskan, jika ada WNI yang menjadi penumpang pesawat dalam penerbangan dari Amsterdam, Belanda ke Kualalumpur, Malaysia tersebut, agar segera menghubungi Kedutaan Besar Republik Indonesia (KBRI) di Den Haag, Belanda serta Kualalumpur, Malaysia untuk mencari tahu informasi manifest.
+
+# ::snt Sementara itu, seorang WNI yang berdomisili di Jakarta, Yuriah Tansil, menghubungi sebuah stasiun televisi swasta menginformasikan bahwa adiknya yang bernama, Ninik Yuliani, adalah salah satu penumpang pesawat MH-17 yang nahas.
+
+# ::snt Dalam percakapan melalui telepon tersebut, Yuriah menjelaskan, bahwa Ninik yang bekerja di Amsterdam Belanda dan akan kembali ke Indonesia.
+
+(vv1 / jelas
+     :mod (vv2 / cakap
+               :mod (vv3 / telepon))
+     :ARG0 (vv4 / yuriah)
+     :ARG0 (vv5 / ninik
+                :mod (vv6 / kerja
+                          :location (vv7 / amsterdam
+                                         :mod (vv8 / belanda))
+                          :mod (vv9 / kembali
+                                    :mod (vv10 / dan)
+                                    :mod (vv11 / akan)
+                                    :ARG1 (vv12 / indonesia)))))
+
+# ::snt Setelah tiba di Kualalumpur, Malaysia, kata dia, akan melanjutkan penerbangan ke Jakarta.
+
+(vv1 / lanjut
+     :mod (vv2 / tiba
+               :location (vv3 / kualalumpur
+                              :name (vv4 / malaysia)))
+     :ARG0 (vv5 / kata)
+     :mod (vv6 / akan)
+     :ARG1 (vv7 / terbang)
+     :location (vv8 / jakarta))
+
+# ::snt Sebelumnya, Menteri Luar Negeri Indonesia meminta agar Duta Besar Republik Indonesia di Den Haag, Belanda dan di Kuala Lumpur, Malaysia agar segera mengecek daftar penumpang pesawat MH17, guna memastikan apakah ada warga negara Indonesia di pasawat nahas tersebut.
+
+# ::snt "Pemerintah Indonesia mengikuti perkembangan berita jatuhnya pesawat Malaysian Airlines dalam penerbangan dari Amsterdam ke Kuala Lumpur yang jatuh di perbatasan Ukraina," kata juru bicara Kementerian Luar Negeri Michael Tene dalam wawancara dengan stasiun televisi swasta.
+
+(vv1 / ikut
+     :ARG0 (vv2 / perintah
+                :mod (vv3 / indonesia))
+     :ARG1 (vv4 / kembang
+                :mod (vv5 / berita
+                          :mod (vv6 / jatuh
+                                    :location (vv15 / ukraina)))
+                :mod (vv7 / pesawat
+                          :mod (vv9 / airlines))
+                :mod (vv8 / malaysian
+                          :mod (vv10 / terbang
+                                     :mod (vv12 / kuala
+                                                :mod (vv14 / batas
+                                                           :mod (vv16 / kata
+                                                                      :ARG1 (vv18 / bicara))
+                                                           :mod (vv17 / juru
+                                                                      :mod (vv19 / menteri
+                                                                                 :mod (vv21 / negeri
+                                                                                            :name (vv23 / tene)))
+                                                                      :mod (vv20 / luar
+                                                                                 :mod (vv22 / michael
+                                                                                            :name (vv24 / wawancara
+                                                                                                        :mod (vv26 / televisi))))
+                                                                      :mod (vv25 / stasiun
+                                                                                 :mod (vv27 / swasta)
+                                                                                 :mod vv28))))
+                                     :mod (vv13 / lumpur)))
+                :mod (vv11 / amsterdam)))
+

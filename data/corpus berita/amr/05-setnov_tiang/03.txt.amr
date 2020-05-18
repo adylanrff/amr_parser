@@ -1,0 +1,71 @@
+# ::snt "Dalam jarak 5 meter melihat mobil menikung menabrak pohon, kemudian menabrak tiang listrik," ucap saksi kepada polisi seperti disampaikan Halim.
+
+(vv1 / lihat
+     :location (vv2 / jarak
+                    :mod (vv3 / meter
+                              :mod (vv4 / 5)))
+     :ARG1 (vv5 / mobil
+                :mod (vv6 / tikung)
+                :mod (vv7 / tabrak
+                          :ARG1 (vv9 / kemudian)
+                          :mod (vv10 / tiang
+                                     :mod (vv12 / saksi
+                                                :mod (vv14 / polisi
+                                                           :mod (vv16 / halim))
+                                                :mod (vv15 / sampai
+                                                           :ARG1 vv17))
+                                     :mod (vv13 / ucap))
+                          :ARG1 (vv11 / listrik)))
+     :mod (vv8 / pohon))
+
+# ::snt Berdasarkan pantauan di lokasi kecelakaan, tiang listrik yang ditabrak oleh mobil ini ada di sisi kanan jalan.
+
+(vv3 / ada
+     :ARG1 (vv1 / pantau
+                :mod (vv2 / dasar)
+                :mod (vv4 / lokasi
+                          :mod (vv5 / celaka)
+                          :mod (vv6 / tiang
+                                    :mod (vv7 / listrik)
+                                    :mod (vv8 / tabrak
+                                              :location (vv9 / mobil)))))
+     :location (vv10 / sisi
+                     :mod (vv11 / kanan)
+                     :mod (vv12 / jalan)))
+
+# ::snt Kesimpulan sementara dari pemeriksaan dan pengecekan kondisi mobil adalah mobil bergerak ke kanan, naik ke trotoar, dan menabrak tiang listrik.
+
+(vv1 / mobil
+     :ARG0 (vv2 / simpul
+                :mod (vv3 / periksa
+                          :mod (vv4 / kece
+                                    :mod (vv5 / dan)
+                                    :mod (vv7 / adalah))))
+     :mod (vv8 / gerak)
+     :mod (vv9 / naik
+               :location (vv11 / trotoar)
+               :location (vv12 / tabrak
+                               :mod (vv6 / kondisi)
+                               :ARG1 (vv14 / listrik))
+               :mod (vv13 / tiang
+                          :mod vv15))
+     :mod (vv10 / kanan))
+
+# ::snt "Kap dan bemper rusak, ban depan kaca pecah, kaca tengah dan kiri pecah," ujar Halim.
+
+(vv1 / rusak
+     :ARG0 (vv2 / kap
+                :mod (vv3 / bemper
+                          :mod (vv4 / dan)))
+     :ARG1 (vv6 / depan)
+     :mod (vv10 / kiri
+                :mod (vv5 / ban
+                          :mod (vv7 / kaca
+                                    :mod (vv12 / halim)
+                                    :mod vv13)
+                          :mod (vv8 / pecah
+                                    :ARG1 (vv9 / tengah)))
+                :mod (vv11 / ujar)
+                :mod vv14)
+     :ARG1 vv15)
+

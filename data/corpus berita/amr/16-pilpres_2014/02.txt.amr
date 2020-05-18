@@ -1,0 +1,175 @@
+# ::snt Komisi Pemilihan Umum hari Selasa (22/7) menetapkan pasangan Joko Widodo dan Jusuf Kalla sebagai pemenang pemilihan presiden dan wakil presiden 2014.
+
+(vv1 / tetap
+     :ARG0 (vv2 / komisi
+                :mod (vv3 / pilih
+                          :mod (vv5 / hari
+                                    :mod (vv7 / 227))
+                          :mod (vv17 / 2014))
+                :mod (vv6 / selasa
+                          :mod (vv8 / pasang
+                                    :name (vv10 / widodo)
+                                    :mod (vv16 / wakil
+                                               :mod (vv14 / menang
+                                                          :mod (vv4 / umum))
+                                               :mod vv18))))
+     :ARG1 (vv9 / joko
+                :name (vv11 / jusuf
+                            :mod (vv13 / kalla)
+                            :name (vv15 / presiden
+                                        :mod vv19
+                                        :mod vv20))
+                :mod (vv12 / dan)))
+
+# ::snt Hasil rekapitulasi suara pemilu presiden 2014 yang dikeluarkan Komisi Pemilihan Umum (KPU) menyatakan calon presiden dan wakil presiden nomor urut dua Joko Widodo-Jusuf Kalla unggul atas pasangan Prabowo Subianto-Hatta Rajasa.
+
+# ::snt Dengan demikian maka Ketua Komisi Pemilihan Umum Husni Kamil Manik menetapkan pasangan Joko Widodo dan Jusuf Kalla sebagai pemenang pemilihan presiden dan wakil presiden 2014.
+
+# ::snt Dalam proses rekapitulasi , saksi dari calon presiden dan wakil presiden Prabowo Subianto-Hatta Rajasa melakukan walk out atau keluar dari ruang rapat pleno KPU atas perintah Prabowo Subianto.
+
+# ::snt Salah satu saksi kubu Prabowo-Hatta, Rambe Kamarulzaman membacakan instruksi Prabowo Subianto di ruang sidang pleno, di antaranya tentang penolakan pelaksanaan pemilu presiden yang dinilai tidak demokratis dan bertentangan dengan Undang-undang Dasar 1945.
+
+# ::snt Selain itu lanjut Kamarulzaman juga menyatakan banyak rekomendasi Badan Pengawas Pemilu (Bawaslu) terutama terkait pencoblosan ulang di 5802 tempat pemungutan suara (TPS) di DKI Jakarta diabaikan oleh KPU.
+
+(vv1 / nyata
+     :ARG0 (vv2 / lanjut
+                :mod (vv3 / kamarulzaman))
+     :mod (vv4 / juga)
+     :ARG1 (vv5 / rekomendasi
+                :mod (vv6 / banyak)
+                :mod (vv7 / badan
+                          :name (vv8 / awas
+                                     :name (vv9 / milu
+                                                :name (vv10 / bawaslu)))))
+     :mod (vv11 / kait
+                :mod (vv12 / utama)
+                :ARG1 (vv13 / coblos
+                            :mod (vv14 / ulang)))
+     :mod (vv17 / abai
+                :ARG1 (vv15 / tempat
+                            :mod (vv16 / 5802)
+                            :mod (vv18 / mungut
+                                       :mod (vv19 / suara
+                                                  :mod (vv20 / tps)))
+                            :mod (vv21 / dki
+                                       :name (vv22 / jakarta)))
+                :ARG1 (vv23 / kpu)))
+
+# ::snt Dia juga menyebut ditemukannya sejumlah tindak pidana kecurangan pemilu yang disebutnya melibatkan penyelenggara pemilu dan pihak asing dengan tujuan tertentu.
+
+(vv1 / sebut
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / temu
+                :ARG1 (vv5 / tindak
+                           :mod (vv6 / pidana)
+                           :mod (vv7 / curang
+                                     :mod (vv8 / milu))))
+     :ARG1 (vv10 / selenggara
+                 :mod (vv9 / libat
+                           :ARG0 (vv11 / pihak
+                                       :mod (vv13 / asing)
+                                       :mod (vv14 / tuju)
+                                       :mod vv15))
+                 :mod (vv12 / dan)))
+
+# ::snt KPU juga dinilai selalu mengalihkan masalah ke MK, seolah-seolah setiap keberatan tim Prabowo merupakan bagian sengketa yang harus diselesaikan MK.
+
+(vv1 / alih
+     :ARG0 (vv2 / kpu)
+     :mod (vv3 / nilai
+               :mod (vv4 / juga))
+     :mod (vv5 / selalu)
+     :ARG1 (vv6 / masalah
+                :mod (vv7 / mk
+                          :mod (vv9 / rupa
+                                    :ARG0 (vv11 / tim
+                                                :name (vv13 / bagi
+                                                            :mod (vv15 / selesai
+                                                                       :mod vv17)
+                                                            :mod (vv16 / harus)))
+                                    :mod (vv14 / sengketa))))
+     :ARG1 (vv8 / seolahseolah)
+     :mod (vv10 / berat
+                :mod (vv12 / prabowo)))
+
+# ::snt Menurut Prabowo tambahnya telah terjadi kecurangan massif, terstruktur dan sistematis.
+
+(vv1 / jadi
+     :ARG1 (vv2 / prabowo)
+     :ARG1 (vv3 / tambah)
+     :mod (vv4 / telah)
+     :ARG1 (vv5 / curang
+                :mod (vv6 / massif)
+                :mod (vv7 / struktur
+                          :mod (vv8 / sistematis
+                                    :mod (vv9 / dan)))))
+
+# ::snt "Atas pertimbangan tersebut di atas maka kami capres dan cawapres Prabowo Subianto-Hatta Rajasa sebagai pengemban mandat suara dari rakyat akan menggunakan hak konstitusional kami menolak pelaksanaan pilpres 2014 yang cacat hukum dan menarik diri dari proses yang sedang berlangsung sekarang ini," papar Rambe Kamarulzaman.
+
+# ::snt Sementara, pengamat Politik Universitas Pendidikan Indonesia (UPI) Bandung Karim Suryadi mengatakan terlalu dini untuk menyatakan bahwa semua kesalahan dilakukan secara sistematis, terstruktur dan massif.
+
+(vv1 / kata
+     :ARG0 (vv2 / amat
+                :mod (vv3 / politik
+                          :name (vv4 / universitas
+                                     :mod (vv5 / didik
+                                               :mod (vv6 / indonesia))))
+                :mod (vv7 / upi
+                          :name (vv8 / bandung
+                                     :name (vv9 / karim
+                                                :name (vv10 / suryadi)))))
+     :ARG1 (vv11 / dini
+                 :mod (vv12 / terlalu))
+     :mod (vv13 / nyata
+                :ARG1 (vv14 / laku
+                            :ARG1 (vv15 / salah)
+                            :ARG1 (vv16 / sistematis
+                                        :mod (vv17 / struktur)
+                                        :mod (vv18 / massif
+                                                   :mod (vv19 / dan))))))
+
+# ::snt Dia berharap langkah selanjutnya yang dilakukan tim Prabowo-Hatta tetap konstitusional karena pelaksanaan pemilu ini harus ditempatkan sebagai bagian dari pembangunan demokrasi dan politik.
+
+(vv1 / harap
+     :ARG0 (vv2 / dia)
+     :ARG1 (vv3 / langkah
+                :mod (vv4 / lanjut)
+                :mod (vv5 / laku
+                          :ARG1 (vv6 / tim
+                                     :mod (vv7 / prabowohatta)
+                                     :mod (vv8 / konstitusional
+                                               :mod (vv9 / tetap)))))
+     :mod (vv10 / tempat
+                :ARG1 (vv11 / laksana
+                            :mod (vv12 / milu))
+                :mod (vv13 / harus)
+                :ARG1 (vv14 / bagi
+                            :mod (vv15 / bangun
+                                       :mod (vv16 / demokrasi)
+                                       :mod (vv17 / politik
+                                                  :mod (vv18 / dan))))))
+
+# ::snt Pakar Hukum Tata Negara daari Universitas Indonesia, Refly Harun mengungkapkan bahwa mundurnya Prabowo Subianto dari pemilihan presiden 2014 tidak mengganggu legitimasi pilpres.
+
+(vv1 / ungkap
+     :ARG0 (vv2 / pakar
+                :mod (vv3 / hukum
+                          :mod (vv4 / tata
+                                    :mod (vv5 / negara)))
+                :mod (vv6 / universitas
+                          :mod (vv7 / daari)
+                          :mod (vv8 / indonesia)
+                          :mod (vv9 / refly
+                                    :name (vv10 / harun))))
+     :mod (vv11 / ganggu
+                :ARG0 (vv12 / mundur
+                            :name (vv13 / prabowo
+                                        :name (vv14 / subianto))
+                            :mod (vv15 / pilih
+                                       :mod (vv16 / presiden
+                                                  :mod (vv17 / 2014))))
+                :mod (vv18 / tidak)
+                :ARG1 (vv19 / legitimasi
+                            :mod (vv20 / pilpres))))
+

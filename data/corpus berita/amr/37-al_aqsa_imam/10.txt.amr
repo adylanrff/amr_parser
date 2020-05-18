@@ -1,0 +1,27 @@
+# ::snt "Biarlah Jumat menjadi titik balik dalam perjuangan membela al-Quds (Yerusalem timur) dan al-Aqsa," ujar pemimpin Hamas, Ismail Haniyeh dalam pidatonya yang disiarkan televisi pada Kamis (20/7) waktu setempat.
+
+(vv1 / jadi
+     :ARG0 (vv2 / biarlah
+                :time (vv3 / jumat))
+     :ARG1 (vv4 / titik
+                :mod (vv5 / balik)
+                :mod (vv6 / juang
+                          :mod (vv7 / bela
+                                    :ARG1 (vv8 / alquds
+                                               :name (vv9 / yerusalem
+                                                          :mod (vv10 / timur))))))
+     :mod (vv11 / ujar
+                :mod (vv12 / dan)
+                :ARG0 (vv13 / alaqsa)
+                :ARG1 (vv14 / pimpin
+                            :name (vv15 / hamas
+                                        :name (vv16 / ismail
+                                                    :name (vv17 / haniyeh)))
+                            :mod (vv18 / pidato
+                                       :mod (vv19 / siar
+                                                  :ARG1 (vv20 / televisi)
+                                                  :time (vv21 / kamis
+                                                              :mod (vv22 / waktu
+                                                                         :mod (vv23 / 207)
+                                                                         :mod (vv24 / tempat))))))))
+

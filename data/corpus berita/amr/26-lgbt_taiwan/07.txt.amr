@@ -1,0 +1,56 @@
+# ::snt "Meski saya kira masih panjang jalan menuju munculnya hal yang sama di seantero Asia, saya pikir beberapa negara Asia Timur, seperti Jepang dan Vietnam, mungkin lebih siap untuk legislasi persamaan hak (bagi LGBT)," tutur Ray Chan, legislator pertama di Hong Kong yang terang-terangan mengaku gay.
+
+# ::snt "Taiwan dan Cina dararan memiliki akar dan budaya yang sama, jadi artinya masyarakat Cina harusnya juga bisa menerima ide (pelegalan) pernikahan sejenis," unkap Li Yinhe, akademisi, seksolog sekaligus juga aktivis LGBT di Cina.
+
+# ::snt Sementara itu, legislator Taiwan lainnya dari partai oposisi Kuomintang, Kung Wen-chi, memandang bahwa putusan soal pernikahan sejenis itu tidak akan sampai menjauhkan lagi "jarak" antara Taiwan dan Cina.
+
+# ::snt "Kami (Taiwan) bisa saja mendapatkan respek, menerima sejumlah dukungan dari masyarakat internasional, tapi itu bukan berarti bakal mengubah hubungan lintas-selat (antara Taiwan dan Cina)," ucapnya.
+
+(vv1 / dapat
+     :ARG0 (vv2 / kami
+                :name (vv3 / taiwan
+                           :mod (vv20 / dan)))
+     :mod (vv5 / saja)
+     :mod (vv6 / respek)
+     :ARG1 (vv7 / terima
+                :ARG1 (vv9 / masyarakat
+                           :mod (vv11 / arti
+                                      :mod (vv13 / itu)
+                                      :ARG0 (vv14 / bukan)
+                                      :mod (vv15 / ubah
+                                                 :mod (vv17 / hubung
+                                                            :mod (vv4 / bisa)
+                                                            :mod (vv19 / cina
+                                                                       :mod (vv21 / ucap)))
+                                                 :ARG1 (vv18 / lintasselat)))))
+     :ARG1 (vv8 / dukung
+                :mod (vv10 / internasional))
+     :mod (vv12 / tapi)
+     :mod (vv16 / bakal)
+     :mod vv22)
+
+# ::snt "Yang harus digarisbawahi dari hubungan lintas-selat ini adalah bahwa kedua pihak (wilayah) merupakan bagian dari 'Satu Cina', dan itu belum berubah sama sekali," tegasnya lagi.
+
+(vv1 / digarisbawahi
+     :mod (vv2 / harus)
+     :ARG1 (vv3 / hubung
+                :mod (vv4 / lintasselat))
+     :mod (vv5 / rupa
+               :mod (vv6 / adalah)
+               :ARG0 (vv7 / pihak
+                          :mod (vv8 / dua)
+                          :mod (vv9 / wilayah))
+               :ARG1 (vv10 / bagi
+                           :mod (vv11 / cina
+                                      :mod (vv12 / satu)))
+               :mod (vv13 / ubah
+                          :mod (vv14 / dan)
+                          :ARG0 (vv15 / itu)
+                          :mod (vv16 / belum)
+                          :mod (vv17 / sama
+                                     :mod (vv18 / sekali))
+                          :mod (vv19 / tegas)
+                          :mod (vv20 / lagi))))
+
+# ::snt "Jika Taiwan adalah salah satu provinsinya Cina, maka bukankah itu berarti bahwa Cina (kini) menjadi negara pertama di Asia yang melegalkan pernikahan sesama jenis?" tutur pengguna Weibo yang tak disebutkan namanya itu.
+

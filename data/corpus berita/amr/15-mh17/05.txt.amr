@@ -1,0 +1,162 @@
+# ::snt Terduga pelaku yang terlibat dalam penembakan pesawat Malaysia Airlines MH17 akan diadili di Belanda.
+
+(vv1 / adil
+     :mod (vv2 / duga)
+     :ARG1 (vv3 / laku
+                :mod (vv4 / libat
+                          :ARG1 (vv5 / tembak
+                                     :mod (vv6 / pesawat
+                                               :name (vv7 / malaysia
+                                                          :mod (vv8 / airlines
+                                                                    :name (vv9 / mh17)))))))
+     :mod (vv10 / akan)
+     :location (vv11 / belanda))
+
+# ::snt Sebanyak 298 orang yang berada dalam pesawat rute Amsterdam - Kuala Lumpur itu tewas setelah pesawat tersebut jatuh pada 17 Juli 2014 lalu.
+
+# ::snt Tim investigasi gabungan yang beranggotakan Australia, Belgia, Malaysia, Belanda, dan Ukraina telah memastikan bahwa pesawat itu ditembak jatuh rudal BUK buatan Rusia.
+
+(vv1 / pasti
+     :ARG0 (vv2 / tim
+                :mod (vv3 / investigasi
+                          :mod (vv4 / gabung))
+                :mod (vv5 / anggota
+                          :ARG1 (vv6 / australia
+                                     :name (vv7 / belgia
+                                                :name (vv8 / malaysia
+                                                           :name (vv9 / belanda
+                                                                      :mod (vv10 / ukraina
+                                                                                 :mod (vv11 / dan))))))))
+     :mod (vv12 / telah)
+     :mod (vv13 / tembak
+                :ARG1 (vv14 / pesawat)
+                :ARG1 (vv15 / jatuh
+                            :ARG1 (vv16 / rudal
+                                        :name (vv17 / buk
+                                                    :mod (vv18 / buat
+                                                               :name (vv19 / rusia)))))))
+
+# ::snt Negara-negara yang tergabung dalam tim investigasi gabungan itu telah setuju untuk mengadili para terduga yang dianggap terlibat dalam penembakan pesawat tersebut di Belanda.
+
+# ::snt Hal itu disampaikan Menteri Luar Negeri Belanda Bery Koenders, Rabu (5/7/2017).
+
+(vv1 / sampai
+     :ARG1 (vv2 / hal)
+     :ARG0 (vv3 / menteri
+                :mod (vv4 / luar
+                          :mod (vv5 / negeri
+                                    :mod (vv6 / belanda
+                                              :name (vv7 / bery
+                                                         :name (vv8 / koenders
+                                                                    :name (vv9 / rabu
+                                                                               :mod (vv10 / 572017)))))))))
+
+# ::snt "Insiden MH17 ini membuktikan bagaimana sebuah tragedi dapat memicu kerja sama internasional dan tekad untuk menegakkan keadilan," ucap Bery.
+
+(vv1 / bukti
+     :ARG0 (vv2 / insiden
+                :name (vv3 / mh17))
+     :mod (vv4 / picu
+               :mod (vv5 / bagaimana)
+               :ARG0 (vv6 / tragedi)
+               :mod (vv7 / dapat)
+               :ARG1 (vv8 / kerja
+                          :mod (vv9 / sama
+                                    :mod (vv10 / internasional))
+                          :mod (vv11 / tekad
+                                     :mod (vv12 / dan)))
+               :mod (vv13 / tegak
+                          :ARG1 (vv14 / adil
+                                      :mod (vv15 / ucap)
+                                      :mod (vv16 / bery)))))
+
+# ::snt Tak hanya kelima negara tersebut, Inggris juga menyatakan dukungannya untuk menindak tegas pelaku yang bertanggungjawab atas tragedi tersebut.
+
+(vv1 / nyata
+     :mod (vv2 / tak)
+     :ARG0 (vv3 / negara
+                :mod (vv4 / hanya)
+                :mod (vv5 / lima))
+     :ARG0 (vv6 / inggris)
+     :mod (vv7 / juga)
+     :ARG1 (vv8 / dukung)
+     :ARG1 (vv9 / tindak
+                :mod (vv10 / tegas)
+                :ARG1 (vv11 / laku
+                            :mod (vv12 / bertanggungjawab
+                                       :ARG1 (vv13 / tragedi)))))
+
+# ::snt "Inggris memberikan dukungan dan kerja sama penuh atas proses hukum ini," kata Menteri Luar Negeri Inggris Boris Johnson.
+
+(vv1 / beri
+     :ARG0 (vv2 / inggris
+                :name (vv15 / johnson))
+     :ARG1 (vv4 / kerja
+                :mod (vv6 / sama)
+                :mod (vv7 / penuh)
+                :mod (vv8 / proses
+                          :mod (vv10 / kata
+                                     :name (vv12 / luar
+                                                 :mod (vv14 / boris
+                                                            :name vv16)))
+                          :mod (vv11 / menteri
+                                     :mod (vv13 / negeri
+                                                :mod (vv3 / dukung
+                                                          :mod (vv5 / dan)
+                                                          :mod (vv9 / hukum)))))))
+
+# ::snt Perdana Menteri Belanda Mark Rutte juga mengaku senang begitu mengetahui bahwa para terduga yang dianggap terlibat dalam insiden MH17 akan diadili di Belanda.
+
+(vv1 / aku
+     :ARG0 (vv2 / perdana
+                :mod (vv3 / menteri
+                          :name (vv4 / belanda
+                                     :name (vv6 / rutte))))
+     :mod (vv8 / senang)
+     :mod (vv9 / tahu
+               :mod (vv11 / adil
+                          :location (vv5 / mark
+                                         :name (vv7 / juga))
+                          :ARG1 (vv13 / anggap
+                                      :mod (vv15 / insiden
+                                                 :mod (vv17 / akan)))
+                          :mod vv18)
+               :mod (vv12 / duga
+                          :mod (vv14 / libat
+                                     :ARG1 (vv16 / mh17))))
+     :mod (vv10 / begitu))
+
+# ::snt "Ini merupakan langkah selanjutnya untuk mengetahui kebenaran di balik semua ini," demikian pernyataan Mark Rutte.
+
+(vv1 / rupa
+     :ARG0 (vv2 / ini)
+     :ARG1 (vv3 / langkah
+                :mod (vv4 / lanjut)
+                :mod (vv5 / tahu
+                          :ARG1 (vv6 / benar)
+                          :location (vv7 / balik
+                                         :mod (vv8 / semua))))
+     :mod (vv9 / nyata
+               :mod (vv10 / demikian)
+               :name (vv11 / mark
+                           :name (vv12 / rutte))))
+
+# ::snt Tim investigasi gabungan mengatakan pada September lalu bahwa ada rudal yang ditembakkan dari sebuah daerah di bawah teritori separatis Rusia.
+
+(vv1 / kata
+     :ARG0 (vv2 / tim
+                :mod (vv3 / investigasi
+                          :mod (vv4 / gabung)))
+     :ARG1 (vv5 / september
+                :mod (vv6 / lalu))
+     :ARG1 (vv7 / ada
+                :ARG1 (vv8 / rudal
+                           :mod (vv9 / tembak
+                                     :location (vv10 / daerah
+                                                     :mod (vv11 / bawah
+                                                                :mod (vv12 / teritori
+                                                                           :mod (vv13 / separatis
+                                                                                      :mod (vv14 / rusia)))))))))
+
+# ::snt Belanda terlibat dalam penyelidikan kasus ini mengingat sebagian besar dari ratusan penumpang pesawat Boeing 777 itu merupakan warga Belanda. 
+

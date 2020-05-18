@@ -1,0 +1,137 @@
+# ::snt Perenang Amerika Serikat, Michael Phelps, berhasil memenangkan medali emas pembuka di Olimpiade Rio de Janeiro 2016 dari nomor estafet 4x100 meter, Minggu (7/8) waktu setempat.
+
+(vv1 / hasil
+     :ARG0 (vv2 / perenang
+                :name (vv3 / amerika
+                           :mod (vv4 / serikat))
+                :name (vv5 / michael
+                           :name (vv6 / phelps)))
+     :ARG1 (vv7 / menang
+                :ARG1 (vv8 / medali
+                           :mod (vv9 / emas)
+                           :mod (vv10 / buka)
+                           :mod (vv11 / olimpiade
+                                      :name (vv12 / rio
+                                                  :mod (vv13 / de
+                                                             :name (vv14 / janeiro
+                                                                         :mod (vv15 / 2016))))))
+                :ARG1 (vv16 / nomor
+                            :mod (vv17 / estafet
+                                       :mod (vv18 / meter
+                                                  :mod (vv19 / 4x100)
+                                                  :mod (vv20 / minggu
+                                                             :mod (vv21 / waktu
+                                                                        :mod (vv22 / 78)
+                                                                        :mod (vv23 / tempat))))))))
+
+# ::snt Bagi perenang asal Amerika Serikat tersebut, ini merupakan medali emas ke-19 selama kali keempat tampil di Olimpiade sejak 2004.
+
+(vv1 / rupa
+     :ARG1 (vv2 / renang
+                :mod (vv3 / amerika
+                          :mod (vv4 / asal)
+                          :mod (vv5 / serikat)))
+     :ARG0 (vv6 / medali
+                :mod (vv7 / emas
+                          :mod (vv8 / ke19))
+                :mod (vv9 / kali
+                          :mod (vv10 / empat))
+                :mod (vv11 / tampil
+                           :location (vv12 / olimpiade)
+                           :mod (vv13 / 2004))))
+
+# ::snt Tim Amerika Serikat mencatat waktu tercepat yakni 3 menit 9,92 detik, sementara Perancis dan Australia berakhir di urutan kedua dan ketiga.
+
+# ::snt Catatan waktu ini masih lebih lambat dibandingkan saat tim renang Amerika meraih medali emas di Olimpiade Beijing 2008.
+
+(vv1 / lambat
+     :ARG0 (vv2 / catat
+                :mod (vv3 / waktu))
+     :mod (vv4 / masih)
+     :mod (vv5 / lebih)
+     :mod (vv6 / banding
+               :location (vv7 / tim
+                              :mod (vv8 / saat)
+                              :mod (vv9 / renang
+                                        :name (vv10 / amerika))
+                              :mod (vv11 / raih
+                                         :ARG1 (vv12 / medali
+                                                     :mod (vv13 / emas)
+                                                     :mod (vv14 / olimpiade
+                                                                :name (vv15 / beijing)
+                                                                :mod (vv16 / 2008)))))))
+
+# ::snt Saat itu, Phelps dan kawan-kawan berhasil mencatat rekor waktu tercepat sepanjang sejarah, yakni 3 menit 8,24 detik.
+
+(vv1 / hasil
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / phelps
+                :mod (vv4 / kawankawan
+                          :mod (vv5 / dan)))
+     :mod (vv6 / catat
+               :ARG1 (vv7 / rekor
+                          :mod (vv8 / waktu
+                                    :mod (vv9 / cepat))
+                          :mod (vv10 / sejarah
+                                     :mod (vv11 / panjang)))
+               :ARG1 (vv12 / menit
+                           :mod (vv13 / 3)
+                           :mod (vv14 / detik
+                                      :mod (vv15 / 824)))))
+
+# ::snt Sebelumnya perenang Amerika Serikat lainnya, Katie Ledecky, pun berhasil mendapat medali emas di nomor 400 meter gaya bebas.
+
+(vv1 / hasil
+     :ARG0 (vv2 / renang
+                :name (vv3 / amerika
+                           :mod (vv4 / serikat)
+                           :mod (vv5 / lain))
+                :mod (vv6 / katie
+                          :name (vv7 / ledecky)
+                          :mod (vv8 / pun)))
+     :ARG1 (vv9 / dapat
+                :ARG1 (vv10 / medali
+                            :mod (vv11 / emas))
+                :location (vv12 / nomor
+                                :mod (vv13 / meter
+                                           :mod (vv14 / 400))
+                                :mod (vv15 / gaya
+                                           :mod (vv16 / bebas)))))
+
+# ::snt Amerika Serikat sementara ini menjadi negara yang meraih medali terbanyak di Olimpiade 2016 yakni 12 medali (tiga emas, lima perak dan empat perunggu).
+
+(vv1 / jadi
+     :ARG0 (vv2 / amerika
+                :mod (vv3 / serikat))
+     :ARG1 (vv4 / negara
+                :mod (vv5 / raih
+                          :ARG1 (vv6 / medali
+                                     :mod (vv7 / banyak)
+                                     :mod (vv8 / olimpiade
+                                               :mod (vv10 / 12))
+                                     :mod (vv9 / 2016)
+                                     :mod (vv11 / emas
+                                                :mod (vv13 / perak
+                                                           :mod (vv15 / perunggu
+                                                                      :mod (vv17 / empat)
+                                                                      :mod vv18))
+                                                :mod (vv14 / lima))
+                                     :mod (vv12 / tiga)
+                                     :mod (vv16 / dan)))))
+
+# ::snt Perolehan tersebut masih akan bertambah lantaran tahun ini mereka mengirim 562 atlet dari 38 cabang olahraga. 
+
+(vv1 / tambah
+     :ARG0 (vv2 / oleh)
+     :mod (vv3 / masih)
+     :mod (vv4 / akan)
+     :ARG1 (vv5 / kirim
+                :mod (vv6 / lantar)
+                :time (vv7 / tahun)
+                :ARG0 (vv8 / mereka)
+                :ARG1 (vv9 / atlet
+                           :mod (vv10 / 562)
+                           :mod (vv11 / cabang
+                                      :mod (vv12 / 38)
+                                      :mod (vv13 / olahraga)))))
+

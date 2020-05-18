@@ -1,0 +1,77 @@
+# ::snt Seorang nenek berusia 92 tahun harus mendekam di penjara setelah dilaporkan oleh kerbatnya sendiri, karena menebang pohon durian.
+
+(vv1 / dekam
+     :ARG0 (vv2 / nenek
+                :mod (vv3 / usia
+                          :ARG1 (vv4 / tahun
+                                     :mod (vv5 / 92))))
+     :mod (vv6 / harus)
+     :location (vv7 / penjara)
+     :mod (vv8 / lapor
+               :mod (vv9 / kerbat
+                         :mod (vv10 / sendiri))
+               :mod (vv11 / tebang
+                          :ARG1 (vv12 / pohon
+                                      :mod (vv13 / durian)))))
+
+# ::snt Marshal Tarigan, Hakim Pengadilan Negeri (PN) Balige, Tobasa, Sumatera Utara, telah menetapkan Saulina Boru Sitorus atau yang dikenal Ompu Linda, harus menjalani hukuman 1 bulan 14 hari.
+
+(vv1 / tetap
+     :ARG0 (vv2 / marshal
+                :name (vv3 / tarigan
+                           :name (vv4 / hakim
+                                      :name (vv5 / adil
+                                                 :mod (vv6 / negeri
+                                                           :mod (vv7 / pn
+                                                                     :name (vv8 / balige
+                                                                                :name (vv9 / tobasa
+                                                                                           :name (vv10 / sumatera
+                                                                                                       :mod (vv11 / utara))))))))))
+     :mod (vv12 / telah)
+     :ARG0 (vv13 / saulina
+                 :name (vv14 / boru
+                             :name (vv15 / sitorus))
+                 :mod (vv18 / kenal
+                            :ARG1 (vv19 / ompu
+                                        :name (vv20 / linda))))
+     :mod (vv16 / jalan
+                :mod (vv17 / atau)
+                :mod (vv21 / harus)
+                :ARG1 (vv22 / hukum
+                            :mod (vv23 / bulan
+                                       :mod (vv24 / 1))
+                            :mod (vv25 / hari
+                                       :mod (vv26 / 14)))))
+
+# ::snt "Menurut kami, terdakwa harus menjalani hukuman satu bulan empat belas hari," ujar Hakim lalu mengetuk palu sidang.
+
+(vv3 / jalan
+     :mod (vv1 / dakwa
+               :ARG1 (vv2 / kami))
+     :mod (vv4 / harus)
+     :ARG1 (vv5 / hukum
+                :mod (vv6 / bulan
+                          :mod (vv7 / satu)
+                          :mod (vv8 / hari
+                                    :mod (vv9 / empat
+                                              :mod (vv10 / belas)))))
+     :mod (vv11 / ujar)
+     :mod (vv12 / ketuk
+                :ARG0 (vv13 / hakim)
+                :mod (vv14 / lalu)
+                :ARG1 (vv15 / palu
+                            :mod (vv16 / sidang))))
+
+# ::snt Sementara itu, Saulina mengaku telah mendapatkan izin dari pemilik tanah wakaf.
+
+(vv1 / aku
+     :ARG0 (vv2 / saulina)
+     :mod (vv3 / dapat
+               :mod (vv4 / telah)
+               :ARG1 (vv5 / izin
+                          :mod (vv6 / milik
+                                    :mod (vv7 / tanah
+                                              :mod (vv8 / wakaf))))))
+
+# ::snt Selain itu, enam anak Saulina juga ikut terseret dalam kasus ini dan telah divonis hukam penjara 4 bulan 10 hari, mereka adalah Marbun Naiborhu (46), Bilson Naiborhu (60), Hotler Naiborhu (52), Luster Naiborhu (62), Maston Naiborhu (47) dan Jisman Naiborhu (45), masih harus menjalani sisa masa tahanan beberapa hari lagi.
+

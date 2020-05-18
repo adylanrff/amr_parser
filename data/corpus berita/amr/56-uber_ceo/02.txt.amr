@@ -1,0 +1,32 @@
+# ::snt Informasi ini diketahui dari surat yang dikirimkan oleh dewan perusahaan Uber ke seluruh pegawai perusahaan ride sharing tersebut.
+
+(vv1 / tahu
+     :ARG1 (vv2 / informasi)
+     :location (vv3 / surat
+                    :mod (vv4 / kirim
+                              :ARG1 (vv5 / dewan
+                                         :mod (vv6 / usaha
+                                                   :name (vv8 / pegawai
+                                                              :mod (vv7 / uber))
+                                                   :mod (vv10 / sharing)))
+                              :ARG1 (vv9 / ride
+                                         :mod vv11))))
+
+# ::snt Selain surat dari dewan perusahaan Uber, ada juga surat perpisahan yang ditulis oleh Dara Khosrowshahi dan dikirimkan kepada para pegawai di Expedia.
+
+(vv1 / ada
+     :ARG1 (vv2 / surat
+                :mod (vv4 / usaha
+                          :name (vv6 / juga))
+                :mod (vv8 / tulis
+                          :ARG1 (vv10 / khosrowshahi)
+                          :ARG1 (vv12 / dan))
+                :mod (vv9 / dara
+                          :name (vv11 / kirim
+                                      :mod (vv13 / pegawai
+                                                 :mod vv15)
+                                      :ARG1 (vv14 / expedia))))
+     :ARG1 (vv3 / dewan
+                :mod (vv5 / uber))
+     :mod (vv7 / pisah))
+

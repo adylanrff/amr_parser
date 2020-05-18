@@ -1,0 +1,99 @@
+# ::snt Presiden Amerika Serikat Donald Trump mengumumkan bahwa AS menarik diri dari perjanjian Paris tentang perubahan iklim yang disepakati pada 2015.
+
+(vv1 / umum
+     :ARG0 (vv2 / presiden
+                :name (vv3 / amerika
+                           :mod (vv4 / serikat))
+                :name (vv5 / donald
+                           :name (vv6 / trump)))
+     :mod (vv7 / tarik
+               :ARG0 (vv8 / as)
+               :ARG1 (vv9 / diri
+                          :mod (vv10 / janji
+                                     :mod (vv11 / paris)
+                                     :mod (vv12 / ubah
+                                                :mod (vv13 / iklim)
+                                                :mod (vv14 / pakat
+                                                           :mod (vv15 / 2015)))))))
+
+# ::snt Seperti dilansir BBC, Jumat 2 Juni 2017, Trump mengatakan pihaknya akan mulai bergerak untuk menegosiasikan kesepakatan baru yang adil, yang tidak akan merugikan bisnis dan pekerja di Amerika Serikat.
+
+# ::snt Selama masa kampanye pemilihan Presiden kemarin, Trump memang mengatakan akan mengambil langkah membantu industri minyak dan batu bara di negaranya.
+
+(vv1 / kata
+     :ARG1 (vv2 / masa
+                :mod (vv3 / kampanye
+                          :mod (vv4 / pilih
+                                    :mod (vv5 / presiden
+                                              :time (vv6 / kemarin)))))
+     :ARG0 (vv7 / trump)
+     :mod (vv8 / memang)
+     :mod (vv9 / ambil
+               :mod (vv10 / akan)
+               :ARG1 (vv11 / langkah)
+               :ARG1 (vv12 / bantu
+                           :ARG1 (vv13 / industri
+                                       :mod (vv14 / minyak)
+                                       :mod (vv15 / batu
+                                                  :mod (vv16 / dan)
+                                                  :mod (vv17 / bara)
+                                                  :mod (vv18 / negara))))))
+
+# ::snt "Saya yakin negara-negara bagian, kota-kota dan (pelaku) bisnis akan melangkah maju dan melakukan lebih banyak lagi untuk memimpin dan membantu melindungi satu planet yang kita miliki untuk generasi penerus," ujar Obama.
+
+(vv1 / yakin
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / negaranegara
+                :mod (vv4 / bagi
+                          :mod (vv5 / kotakota))
+                :mod (vv6 / laku
+                          :mod (vv8 / bisnis)
+                          :ARG1 (vv9 / lang
+                                     :ARG1 (vv7 / dan)
+                                     :mod (vv13 / lebih)
+                                     :ARG1 (vv14 / lagi))
+                          :mod (vv11 / maju)
+                          :mod (vv15 / pimpin
+                                     :mod (vv19 / milik
+                                                :ARG0 (vv23 / obama
+                                                            :mod vv27)
+                                                :location (vv24 / ujar)))
+                          :ARG1 (vv18 / planet
+                                      :mod (vv22 / terus))))
+     :mod (vv12 / banyak
+                :mod (vv16 / bantu
+                           :mod (vv10 / akan)
+                           :mod (vv20 / kita))
+                :mod (vv17 / lindung
+                           :ARG1 (vv21 / generasi
+                                       :mod vv25
+                                       :mod vv26))))
+
+# ::snt Diketahui Amerika Serikat menyumbang sekitar 15 persen emisi karbon global, namun negara itu juga merupakan sumber keuangan dan teknologi yang signifikan bagi negara-negara berkembang dalam upaya mereka memerangi suhu bumi yang meningkat.
+
+(vv1 / sumbang
+     :mod (vv2 / tahu
+               :ARG1 (vv3 / amerika
+                          :mod (vv4 / serikat)))
+     :location (vv5 / persen
+                    :mod (vv6 / 15))
+     :ARG1 (vv7 / emisi
+                :mod (vv8 / karbon
+                          :mod (vv9 / global)))
+     :ARG1 (vv10 / rupa
+                 :mod (vv11 / namun)
+                 :ARG0 (vv12 / negara)
+                 :mod (vv13 / juga)
+                 :ARG1 (vv14 / sumber
+                             :ARG1 (vv15 / uang
+                                         :mod (vv16 / teknologi
+                                                    :mod (vv17 / dan)
+                                                    :mod (vv18 / signifikan
+                                                               :mod (vv19 / negaranegara)))))
+                 :mod (vv20 / kembang
+                            :location (vv21 / upaya
+                                            :mod (vv22 / rang
+                                                       :ARG1 (vv23 / suhu
+                                                                   :mod (vv24 / bumi)
+                                                                   :mod (vv25 / tingkat)))))))
+

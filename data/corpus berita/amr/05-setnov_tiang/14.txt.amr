@@ -1,0 +1,52 @@
+# ::snt Ketua DPR RI Setya Novanto kecelakaan lalu lintas, dan kekinian tengah dirawat di Rumah Sakit Medika Permata Hijau, Jakarta Barat, Kamis (16/11/2017).
+
+(vv1 / rawat
+     :ARG1 (vv2 / ketua
+                :mod (vv3 / dpr
+                          :mod (vv4 / ri
+                                    :name (vv5 / setya
+                                               :name (vv6 / novanto))))
+                :mod (vv7 / celaka
+                          :mod (vv8 / lalu)
+                          :mod (vv9 / lintas)
+                          :mod (vv10 / kini
+                                     :mod (vv11 / dan)
+                                     :mod (vv12 / tengah))))
+     :location (vv13 / rumah
+                     :name (vv14 / sakit
+                                 :name (vv15 / medika
+                                             :name (vv16 / permata
+                                                         :mod (vv17 / hijau
+                                                                    :name (vv18 / jakarta
+                                                                                :mod (vv19 / barat
+                                                                                           :mod (vv20 / kamis
+                                                                                                      :mod (vv21 / 16112017))))))))))
+
+# ::snt Fredrich Yunadi, kuasa hukum Setnov, mengatakan kliennya sebenarnya ingin ke kantor KPK Kamis malam ini.
+
+(vv1 / kata
+     :ARG0 (vv2 / fredrich
+                :name (vv3 / yunadi)
+                :mod (vv4 / kuasa
+                          :mod (vv5 / hukum
+                                    :mod (vv6 / setnov))))
+     :ARG1 (vv7 / klien)
+     :mod (vv8 / ingin
+               :mod (vv9 / benar)
+               :location (vv10 / kantor
+                               :name (vv11 / kpk
+                                           :name (vv12 / kamis))
+                               :mod (vv13 / malam))))
+
+# ::snt Ia mengatakan, Setnov kekinian berada di RS Medika Permata Hijau.
+
+(vv1 / kata
+     :ARG0 (vv2 / ia)
+     :ARG0 (vv3 / setnov
+                :mod (vv4 / kini))
+     :ARG1 (vv5 / ada
+                :location (vv6 / rs
+                               :name (vv7 / medika
+                                          :name (vv8 / permata
+                                                     :mod (vv9 / hijau))))))
+

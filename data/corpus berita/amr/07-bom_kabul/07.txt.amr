@@ -1,0 +1,16 @@
+# ::snt "Mengecam dengan keras serangan yang terjadi di sana," kata Komite Keselamatan Jurnalis Afganistan (AJSC) melalui akun Twitter mereka.
+
+(vv3 / kecam
+     :location (vv1 / serang
+                    :mod (vv2 / keras)
+                    :mod (vv4 / jadi
+                              :location (vv5 / sana
+                                             :mod (vv6 / kata
+                                                       :name (vv7 / komite
+                                                                  :name (vv8 / selamat
+                                                                             :name (vv9 / jurnalis
+                                                                                        :name (vv10 / afganistan
+                                                                                                    :name (vv11 / ajsc)))))))
+                              :location (vv12 / akun
+                                              :mod (vv13 / twitter)))))
+

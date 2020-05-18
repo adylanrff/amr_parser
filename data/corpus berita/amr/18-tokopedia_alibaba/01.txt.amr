@@ -1,0 +1,64 @@
+# ::snt Tokopedia merayakan ulang tahun ke-8 yang juga bertepatan dengan hari kemerdekaan Republik Indonesia (RI) pada hari ini, Kamis (17/8/2017).
+
+(vv1 / raya
+     :ARG0 (vv2 / tokopedia)
+     :ARG1 (vv3 / ulang
+                :mod (vv4 / tahun
+                          :mod (vv5 / ke8))
+                :time (vv6 / tepat
+                           :mod (vv7 / juga)
+                           :time (vv8 / hari
+                                      :mod (vv10 / republik
+                                                 :mod (vv12 / ri))
+                                      :mod (vv14 / 1782017))
+                           :time (vv9 / merdeka
+                                      :mod (vv11 / indonesia
+                                                 :name (vv13 / kamis
+                                                             :mod vv15))))))
+
+# ::snt Pada kesempatan tersebut, e-Commerce yang identik dengan warna hijau ini mengumumkan babak investasi baru yang bisa dibilang mengejutkan.
+
+(vv1 / umum
+     :ARG1 (vv2 / sempat)
+     :ARG0 (vv3 / ecommerce
+                :mod (vv4 / identik
+                          :mod (vv5 / warna
+                                    :mod (vv6 / hijau))))
+     :ARG1 (vv7 / babak
+                :mod (vv8 / investasi
+                          :mod (vv9 / baru))
+                :mod (vv10 / bilang
+                           :mod (vv11 / bisa)))
+     :mod (vv12 / kejut))
+
+# ::snt "Alibaba Group dan Tokopedia memiliki kesamaan visi dalam membantu UMKM dalam kesuksesan usahanya dan kami sangat senang dapat bekerja sama bersama Tokopedia untuk melayani seluruh masyarakat Indonesia," jelas Daniel Zhang, CEO Alibaba Group.
+
+(vv1 / milik
+     :ARG0 (vv2 / alibaba
+                :mod (vv4 / tokopedia
+                          :mod (vv8 / bantu
+                                    :ARG1 (vv14 / sangat)
+                                    :ARG1 (vv15 / kerja
+                                                :mod (vv7 / visi)
+                                                :mod (vv11 / usaha)
+                                                :mod (vv21 / daniel
+                                                           :name vv27)
+                                                :ARG1 (vv22 / zhang
+                                                            :mod vv28))))
+                :mod (vv5 / dan)
+                :mod (vv6 / sama
+                          :mod (vv12 / senang
+                                     :mod (vv9 / umkm)
+                                     :ARG0 (vv18 / masyarakat
+                                                 :mod vv24
+                                                 :mod vv25
+                                                 :mod vv26)
+                                     :mod (vv19 / indonesia))))
+     :ARG1 (vv10 / sukses
+                 :mod (vv16 / dapat)
+                 :mod (vv17 / layan
+                            :ARG1 (vv23 / ceo
+                                        :name (vv3 / group))))
+     :ARG1 (vv13 / kami)
+     :ARG1 (vv20 / jelas))
+

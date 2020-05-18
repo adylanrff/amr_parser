@@ -1,0 +1,254 @@
+# ::snt Vonis tersebut lebih berat dari dakwaan Jaksa Penuntut Umum (JPU) yang hanya menuntut Ahok pidana penjara selama 1 tahun dengan masa percobaan 2 tahun.
+
+# ::snt Vonis terhadap Ahok ini juga menjadi perhatian dunia, sejumlah media asing seperti stasiun televisi Arab berbasis di Qatar, Aljazeera juga turut memberitakan putusan hukum terhadap Ahok tersebut.
+
+(vv1 / jadi
+     :ARG0 (vv2 / vonis
+                :mod (vv3 / ahok))
+     :mod (vv5 / perhati
+               :mod (vv8 / asing)
+               :mod (vv9 / stasiun
+                         :mod (vv12 / bas
+                                    :ARG1 (vv15 / berita
+                                                :mod (vv6 / dunia)
+                                                :mod (vv18 / hukum)
+                                                :ARG1 vv19))
+                         :mod (vv14 / aljazeera)))
+     :ARG1 (vv7 / media
+                :mod (vv10 / televisi
+                           :name (vv13 / qatar
+                                       :name (vv16 / turut)))
+                :mod (vv11 / arab))
+     :ARG1 (vv17 / putus
+                 :mod (vv4 / juga)
+                 :mod vv20))
+
+# ::snt Aljazeera melaporkan bahwa para demonstran anti Ahok merayakan keputusan vonis itu di luar Auditorium Kementerian Pertanian yang ternyata lebih lama dari tuntutan JPU.
+
+(vv1 / lapor
+     :ARG0 (vv2 / aljazeera)
+     :mod (vv3 / raya
+               :ARG0 (vv4 / demonstran
+                          :mod (vv5 / anti)
+                          :name (vv6 / ahok))
+               :ARG1 (vv7 / putus
+                          :mod (vv8 / vonis))
+               :location (vv9 / luar
+                              :mod (vv10 / auditorium
+                                         :name (vv11 / menteri
+                                                     :mod (vv12 / pertanian))
+                                         :mod (vv13 / lama
+                                                    :mod (vv14 / nyata)
+                                                    :mod (vv15 / lebih)
+                                                    :mod (vv16 / tuntut
+                                                               :name (vv17 / jpu)))))))
+
+# ::snt "Tentu saja, banyak orang di Indonesia akan mempertanyakan keputusan ini, mereka akan bertanya-tanya seperti apa preseden ini akan dibuat untuk kasus lain, betapa mudahnya melakukan tuduhan penghujatan terhadap lawan-lawan lain terutama jika mereka kebetulan berasal dari minoritas di negara ini," kata reporter Aljazeera, Step Vaessen, yang melaporkan langsung dari Auditorium Kementerian Pertanian.
+
+(vv1 / tanya
+     :mod (vv2 / tentu
+               :mod (vv3 / saja))
+     :ARG0 (vv4 / orang
+                :mod (vv5 / banyak)
+                :mod (vv6 / indonesia))
+     :mod (vv7 / akan)
+     :ARG1 (vv10 / mereka)
+     :mod (vv11 / apa
+                :mod (vv15 / lain)
+                :mod (vv16 / laku
+                           :ARG1 (vv21 / lawanlawan
+                                       :mod (vv19 / tuduh
+                                                  :mod (vv24 / betul)
+                                                  :mod (vv25 / minoritas
+                                                             :mod (vv30 / step
+                                                                        :name (vv35 / menteri
+                                                                                    :mod vv40))
+                                                             :mod (vv31 / vaessen))))
+                           :mod (vv22 / asal
+                                      :ARG0 (vv13 / buat
+                                                  :mod (vv9 / bertanyatanya
+                                                            :mod (vv8 / putus)
+                                                            :ARG0 (vv12 / preseden)
+                                                            :mod (vv14 / kasus
+                                                                       :mod (vv18 / mudah)))
+                                                  :ARG1 (vv17 / betapa)
+                                                  :ARG1 (vv20 / hujat))
+                                      :mod (vv27 / kata
+                                                 :ARG1 (vv32 / lapor
+                                                             :mod vv37
+                                                             :location vv38)
+                                                 :mod (vv36 / pertanian))
+                                      :mod (vv28 / reporter
+                                                 :name (vv33 / langsung))
+                                      :ARG1 (vv29 / aljazeera
+                                                  :name (vv34 / auditorium
+                                                              :name vv39)))
+                           :ARG1 (vv23 / utama)
+                           :mod (vv26 / negara))))
+
+# ::snt "Ini akan membuat sulit untuk mengadakan pidato, orang harus lebih berhati-hati terhadap kata-kata yang mereka gunakan, karena tampaknya cukup mudah untuk menghadapi risiko dituduh dan mendapatkan vonis hukuman sekarang," kata Vaessen.
+
+(vv1 / buat
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / akan)
+     :mod (vv4 / sulit)
+     :ARG1 (vv5 / ada
+                :ARG1 (vv6 / pidato
+                           :mod (vv7 / orang))
+                :mod (vv8 / berhatihati
+                          :mod (vv9 / harus)
+                          :mod (vv10 / lebih)
+                          :mod (vv11 / katakata
+                                     :mod (vv12 / guna
+                                                :ARG0 (vv13 / mereka)
+                                                :mod (vv14 / mudah
+                                                           :mod (vv15 / tampak)
+                                                           :mod (vv16 / cukup)
+                                                           :mod (vv17 / hadap
+                                                                      :ARG1 (vv18 / risiko)
+                                                                      :mod (vv19 / tuduh)
+                                                                      :mod (vv20 / dapat
+                                                                                 :mod (vv21 / dan)
+                                                                                 :ARG1 (vv22 / vonis
+                                                                                             :mod (vv23 / hukum)
+                                                                                             :mod (vv24 / sekarang
+                                                                                                        :mod (vv25 / kata
+                                                                                                                   :name (vv26 / vaessen))))))))))))
+
+# ::snt Media lain seperti kantor berita Prancis AFP, memberitakan Ahok diadili karena tuduhan menghina agama saat kampanye pencalonan Gubernur DKI Jakarta, yang menurut para kritikus bermotif politik.
+
+# ::snt Pengadilan itu, seperti yang diberitakan Channel News Asia, terjadi setelah serangkaian demonstrasi besar di ibu kota untuk melawan sang gubernur yang biasa disapa Ahok, yang mendorong ratusan ribu orang turun ke jalan.
+
+(vv1 / jadi
+     :ARG1 (vv2 / pengadilan
+                :mod (vv3 / berita
+                          :ARG1 (vv4 / channel
+                                     :name (vv5 / news
+                                                :name (vv6 / asia)))))
+     :ARG1 (vv7 / demonstrasi
+                :mod (vv8 / besar)
+                :mod (vv9 / ibu
+                          :mod (vv10 / kota))
+                :mod (vv11 / lawan
+                           :ARG0 (vv12 / gubernur
+                                       :mod (vv13 / sapa
+                                                  :mod (vv14 / biasa)
+                                                  :ARG1 (vv15 / ahok
+                                                              :mod (vv16 / dorong
+                                                                         :ARG1 (vv17 / orang
+                                                                                     :mod (vv18 / ribu))
+                                                                         :ARG1 (vv19 / turun
+                                                                                     :location (vv20 / jalan)))))))))
+
+# ::snt Sementara kantor berita Inggris Reuters membuat judul "Gubernur Jakarta yang beragama Kristen dipenjara karena menghina Islam".
+
+(vv1 / buat
+     :ARG0 (vv2 / kantor
+                :mod (vv3 / berita
+                          :mod (vv4 / inggris
+                                    :mod (vv5 / reuters))))
+     :ARG1 (vv6 / judul
+                :name (vv7 / gubernur
+                           :name (vv8 / jakarta))
+                :mod (vv9 / agama
+                          :ARG1 (vv10 / kristen)))
+     :mod (vv11 / penjara
+                :mod (vv12 / hina
+                           :ARG1 (vv13 / islam))))
+
+# ::snt Reuters melaporkan pemerintah Indonesia telah dikritik karena tidak berbuat cukup dalam melindungi kelompok minoritas agama, namun Presiden Joko Widodo yang disebut media ini sebagai sekutu utama Ahok meminta semua pihak menghormati proses hukum.
+
+(vv1 / lapor
+     :ARG0 (vv2 / reuters)
+     :ARG1 (vv3 / perintah
+                :mod (vv4 / indonesia))
+     :mod (vv5 / kritik
+               :mod (vv6 / telah)
+               :mod (vv7 / buat
+                         :mod (vv8 / tidak)
+                         :mod (vv9 / cukup)
+                         :ARG1 (vv10 / lindung
+                                     :ARG1 (vv11 / kelompok
+                                                 :mod (vv12 / minoritas
+                                                            :mod (vv13 / agama))))))
+     :mod (vv14 / minta
+                :mod (vv15 / namun)
+                :ARG0 (vv16 / presiden
+                            :name (vv17 / joko
+                                        :name (vv18 / widodo))
+                            :mod (vv19 / sebut
+                                       :ARG1 (vv20 / media)
+                                       :ARG1 (vv21 / sekutu
+                                                   :mod (vv22 / utama)
+                                                   :name (vv23 / ahok))))
+                :ARG1 (vv24 / pihak)
+                :ARG1 (vv25 / hormat
+                            :ARG1 (vv26 / proses
+                                        :mod (vv27 / hukum)))))
+
+# ::snt Ahok menjadi terdakwa kasus penodaan agama setelah video pidatonya di Kepulauan Seribu pada 27 September 2016 lalu diunggah ke sosial media, ketika dia menyebut adanya pihak yang menggunakan Alquran Surat Al Maidah 51 untuk membohongi, dan memicu serangkaian aksi besar dari organisasi-organisasi massa Islam.
+
+(vv1 / jadi
+     :ARG0 (vv2 / ahok)
+     :mod (vv3 / dakwa
+               :ARG1 (vv4 / kasus
+                          :mod (vv5 / noda
+                                    :mod (vv6 / agama)))
+               :ARG1 (vv7 / video
+                          :mod (vv8 / pidato)
+                          :mod (vv9 / kepulauan
+                                    :mod (vv10 / ribu))
+                          :mod (vv11 / september
+                                     :mod (vv12 / 27)
+                                     :mod (vv13 / 2016))))
+     :mod (vv14 / unggah
+                :mod (vv15 / lalu)
+                :location (vv16 / sosial
+                                :mod (vv17 / media)))
+     :mod (vv18 / sebut
+                :ARG0 (vv19 / dia)
+                :ARG1 (vv20 / ada
+                            :mod (vv21 / pihak
+                                       :mod (vv22 / guna
+                                                  :ARG0 (vv23 / alquran
+                                                              :name (vv24 / surat
+                                                                          :mod (vv25 / al
+                                                                                     :name (vv26 / maidah
+                                                                                                 :mod (vv27 / 51)))))
+                                                  :ARG1 (vv28 / bohong
+                                                              :mod (vv29 / picu
+                                                                         :mod (vv30 / dan)
+                                                                         :ARG1 (vv31 / aksi
+                                                                                     :mod (vv32 / besar)
+                                                                                     :mod (vv33 / organisasiorganisasi
+                                                                                                :mod (vv34 / massa
+                                                                                                           :mod (vv35 / islam)))))))))))
+
+# ::snt Ahok menyatakan akan mengajukan banding terhadap keputusan majelis hakim Pengadilan Negeri Jakarta Utara tersebut.
+
+(vv1 / nyata
+     :ARG0 (vv2 / ahok)
+     :mod (vv3 / aju
+               :mod (vv4 / akan)
+               :ARG1 (vv5 / banding
+                          :mod (vv6 / putus
+                                    :mod (vv7 / majelis
+                                              :mod (vv8 / hakim
+                                                        :mod (vv9 / adil
+                                                                  :mod (vv10 / negeri
+                                                                             :name (vv11 / jakarta
+                                                                                         :mod (vv12 / utara))))))))))
+
+# ::snt "Kami akan melakukan banding," kata Ahok setelah berunding dengan tim kuasa hukumnya.
+
+(vv1 / laku
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / banding
+                :mod (vv5 / kata
+                          :name (vv6 / ahok)))
+     :mod (vv7 / runding
+               :ARG1 (vv8 / tim
+                          :mod (vv9 / kuasa)
+                          :mod (vv10 / hukum))))
+

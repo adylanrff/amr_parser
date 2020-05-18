@@ -1,0 +1,104 @@
+# ::snt Pengadilan konstitusi Taiwan memutuskan bahwa pasangan sesama jenis memiliki hak untuk menikah secara legal.
+
+(vv1 / putus
+     :ARG0 (vv2 / pengadilan
+                :mod (vv3 / konstitusi
+                          :mod (vv4 / taiwan)))
+     :mod (vv5 / milik
+               :ARG0 (vv6 / pasang
+                          :mod (vv7 / sama)
+                          :mod (vv8 / jenis))
+               :ARG1 (vv9 / hak)
+               :ARG1 (vv10 / meni
+                           :mod (vv11 / legal))))
+
+# ::snt Dalam pernyataan keputusan pada Rabu (24/5), pengadilan Judicial Yuan menyatakan bahwa hukum pernikahan yang berlaku selama ini merupakan "pelanggaran terhadap kebebasan pernikahan dan kesetaraan manusia."
+
+(vv1 / nyata
+     :mod (vv2 / putus)
+     :mod (vv3 / rabu
+               :mod (vv4 / 245)
+               :mod (vv5 / adil
+                         :mod (vv6 / judicial
+                                   :name (vv7 / yuan))))
+     :mod (vv8 / rupa
+               :ARG0 (vv9 / hukum
+                          :mod (vv10 / nikah)
+                          :mod (vv12 / langgar
+                                     :mod (vv14 / tara
+                                                :mod (vv16 / manusia)
+                                                :mod vv17)))
+               :ARG1 (vv13 / bebas
+                           :mod (vv11 / laku)
+                           :mod (vv15 / dan))))
+
+# ::snt Pengadilan memutuskan untuk memberikan waktu paling lama dua tahun bagi pembuat hukum untuk menyusun amandemen yang mengizinkan pernikahan sesama jenis.
+
+(vv1 / putus
+     :ARG0 (vv2 / pengadilan)
+     :mod (vv3 / beri
+               :ARG1 (vv4 / waktu
+                          :mod (vv5 / lama
+                                    :mod (vv6 / paling))
+                          :mod (vv7 / tahun
+                                    :mod (vv8 / dua)))
+               :location (vv9 / buat
+                              :mod (vv10 / hukum)
+                              :mod (vv11 / susun
+                                         :ARG1 (vv12 / amandemen
+                                                     :mod (vv13 / izin
+                                                                :ARG1 (vv14 / nikah
+                                                                            :mod (vv15 / sama)
+                                                                            :mod (vv16 / jenis))))))))
+
+# ::snt "Jika hukum yang relevan yang tidak diamandemen atau diberlakukan dalam dua tahun, dua orang sesama jenis yang ingin bersatu permanen harus diterima pendaftaran pernikahannya," tulis Judicial Yuan sebagaimana dikutip Reuters.
+
+(vv1 / terima
+     :ARG1 (vv2 / hukum
+                :mod (vv3 / relevan)
+                :mod (vv4 / amandemen
+                          :mod (vv5 / tidak)
+                          :mod (vv6 / laku
+                                    :mod (vv7 / atau)
+                                    :time (vv8 / tahun
+                                               :mod (vv9 / dua)
+                                               :mod (vv10 / orang
+                                                          :mod (vv12 / jenis)
+                                                          :mod (vv14 / ingin))
+                                               :mod (vv11 / sama
+                                                          :mod (vv13 / satu
+                                                                     :mod (vv15 / permanen)
+                                                                     :mod (vv16 / harus)))))))
+     :mod (vv17 / daftar
+                :mod (vv19 / tulis
+                           :ARG0 (vv21 / yuan))
+                :mod (vv20 / judicial
+                           :name (vv22 / kutip
+                                       :ARG0 vv24)))
+     :ARG1 (vv18 / nikah)
+     :mod (vv23 / reuters))
+
+# ::snt Dengan keputusan ini, Taiwan menjadi negara pertama yang mengizinkan pernikahan sesama jenis, setelah perjuangan panjang para aktivis kaum lesbian, gay, biseksual, dan transgender selama ini.
+
+(vv1 / jadi
+     :ARG1 (vv2 / putus)
+     :ARG0 (vv3 / taiwan)
+     :ARG1 (vv4 / negara
+                :mod (vv5 / pertama)
+                :mod (vv6 / izin
+                          :ARG1 (vv7 / nikah
+                                     :mod (vv8 / jenis))
+                          :location (vv9 / juang
+                                         :mod (vv10 / panjang)
+                                         :mod (vv11 / aktivis
+                                                    :mod (vv12 / kaum
+                                                               :mod (vv13 / lesbian
+                                                                          :mod (vv14 / gay
+                                                                                     :mod (vv15 / biseksual
+                                                                                                :mod (vv16 / transgender
+                                                                                                           :mod (vv17 / dan)))))))))))
+
+# ::snt Sejak tahun lalu, partai pemenang pemilu Taiwan, Partai Demokratik Progresif, pun mendukung perubahan hukum mengenai pernikahan yang selama ini harus dilakukan antara pria dan perempuan.
+
+# ::snt Dalam pernyataan putusan ini, pengadilan pun menyebut, "kebebasan pernikahan dua orang sesama jenis, ketika sudah diresmikan, akan menjadi konstitusi kolektif, bersama pernikahan lain jenis, untuk masyarakat yang lebih stabil."
+

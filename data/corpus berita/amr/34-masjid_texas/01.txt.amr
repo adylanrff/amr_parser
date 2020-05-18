@@ -1,0 +1,36 @@
+# ::snt Selama masjid belum rampung dibangun, para pemimpin jemaat Yahudi setempat memberi kunci singoga kepada pemimpin jemaah Muslim agar bisa menggunakan rumah ibadah itu.
+
+(vv5 / beri
+     :mod (vv1 / bangun
+               :location (vv2 / masjid))
+     :ARG1 (vv3 / rampung
+                :mod (vv4 / belum))
+     :ARG0 (vv6 / pimpin
+                :mod (vv8 / yahudi)
+                :mod (vv13 / muslim))
+     :ARG1 (vv10 / kunci
+                 :mod (vv7 / jemaat
+                           :mod (vv9 / tempat))
+                 :mod (vv12 / jemaah
+                            :mod (vv14 / guna
+                                       :mod (vv16 / rumah
+                                                  :mod vv18)
+                                       :ARG1 (vv17 / ibadah))))
+     :ARG1 (vv11 / singoga)
+     :mod (vv15 / bisa))
+
+# ::snt "Kami selalu memiliki hubungan yang baik dengan masyarakat di sini," lanjut Hashmi, yang dikutip Jumat (3/2/2017).
+
+(vv1 / milik
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / selalu)
+     :ARG1 (vv4 / hubung
+                :mod (vv5 / baik)
+                :mod (vv6 / masyarakat
+                          :mod (vv7 / sini
+                                    :mod (vv8 / lanjut)
+                                    :mod (vv9 / hashmi)
+                                    :mod (vv10 / kutip
+                                               :ARG1 (vv11 / jumat
+                                                           :mod (vv12 / 322017)))))))
+

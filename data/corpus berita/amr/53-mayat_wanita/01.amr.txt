@@ -1,0 +1,144 @@
+# ::snt Warga Desa Alue Dua, Kecamatan Langkahan, Kabupaten Aceh Utara, Minggu (4/2/2018), dihebohkan temuan mayat berjenis kelamin perempuan di pinggiran sungai desa itu. Bersama mayat itu juga ditemukan janin.
+
+(vv1 / heboh
+     :ARG1 (vv2 / warga
+                :mod (vv3 / desa
+                          :name (vv5 / dua))
+                :mod (vv7 / langkahan))
+     :ARG1 (vv14 / mayat)
+     :ARG1 (vv15 / jenis
+                 :ARG1 (vv19 / sungai
+                             :mod (vv4 / alue
+                                       :mod (vv6 / camat
+                                                 :name (vv8 / kabupaten
+                                                            :name (vv10 / utara))
+                                                 :mod (vv9 / aceh
+                                                           :mod (vv11 / minggu
+                                                                      :mod (vv13 / temu
+                                                                                 :mod (vv16 / kelamin
+                                                                                            :mod (vv20 / juga)
+                                                                                            :mod (vv21 / janin))
+                                                                                 :ARG1 (vv17 / perempuan)
+                                                                                 :mod (vv18 / pinggir
+                                                                                            :mod vv22)
+                                                                                 :mod vv23
+                                                                                 :ARG1 vv24))
+                                                           :mod (vv12 / 422018)))))))
+
+# ::snt Kepala Humas Polres Aceh Utara, AKP M Jafaruddin mengatakan, awalnya seorang petani melihat mayat itu di pinggir sungai. Setelah itu, warga langsung melaporkan ke Polsek Langkahan, Aceh Utara.
+
+(vv1 / kata
+     :ARG0 (vv2 / kepala
+                :name (vv3 / humas
+                           :name (vv4 / polres
+                                      :name (vv5 / aceh
+                                                 :mod (vv7 / akp
+                                                           :name (vv10 / lihat
+                                                                       :mod (vv13 / mayat)
+                                                                       :ARG0 (vv14 / pinggir
+                                                                                   :mod (vv17 / warga))
+                                                                       :ARG1 (vv15 / sungai)
+                                                                       :location (vv16 / lapor
+                                                                                       :ARG0 (vv19 / polsek
+                                                                                                   :mod vv22)
+                                                                                       :mod (vv20 / langkah
+                                                                                                  :name (vv6 / utara))
+                                                                                       :location vv21)
+                                                                       :mod (vv18 / langsung)))
+                                                 :mod (vv8 / m
+                                                           :name (vv11 / awal)))))
+                :mod (vv9 / jafaruddin))
+     :mod (vv12 / tani))
+
+# ::snt "Dari pemeriksaan sementara, wanita ini kira-kira berusia 20 tahun. Tingginya sekitar 160 sentimeter dan berkulit sawo matang. Kami prediksi, mayat ini sudah empat hari di sungai karena jasadnya sudah tak utuh," ujar Jafaruddin.
+
+(vv1 / usia
+     :ARG1 (vv2 / periksa)
+     :ARG0 (vv3 / wanita)
+     :mod (vv4 / kirakira)
+     :ARG1 (vv5 / tahun
+                :mod (vv6 / 20)
+                :mod (vv7 / tinggi))
+     :location (vv8 / sentimeter
+                    :mod (vv9 / 160))
+     :mod (vv10 / kulit
+                :mod (vv11 / dan)
+                :ARG1 (vv12 / sawo
+                            :mod (vv13 / matang)
+                            :mod (vv14 / prediksi
+                                       :mod (vv15 / mayat))))
+     :time (vv16 / hari
+                 :mod (vv17 / sudah)
+                 :mod (vv19 / sungai)
+                 :mod (vv20 / utuh
+                            :mod (vv18 / empat)
+                            :ARG0 (vv22 / tak)
+                            :mod (vv23 / jafaruddin
+                                       :mod vv25)
+                            :mod (vv24 / ujar))
+                 :mod (vv21 / jasad)))
+
+# ::snt Jafaruddin menambahkan, pihaknya belum bisa menemukan identitas mayat wanita itu. Wajahnya sulit dikenali.
+
+(vv1 / tambah
+     :ARG0 (vv2 / jafaruddin)
+     :ARG0 (vv3 / pihak)
+     :ARG1 (vv4 / temu
+                :mod (vv5 / belum)
+                :mod (vv6 / bisa)
+                :ARG1 (vv7 / identitas
+                           :mod (vv8 / mayat
+                                     :mod (vv9 / wanita))
+                           :mod (vv10 / wajah
+                                      :mod (vv11 / sulit))))
+     :mod (vv12 / nali))
+
+# ::snt Puluhan masyarakat memadati pinggiran sungai untuk melihat proses evakuasi jenazah tersebut.
+
+(vv1 / padat
+     :ARG0 (vv2 / masyarakat)
+     :ARG1 (vv3 / pinggir
+                :mod (vv4 / sungai))
+     :ARG1 (vv5 / lihat
+                :ARG1 (vv6 / proses
+                           :mod (vv7 / evakuasi
+                                     :mod (vv8 / jenazah)))))
+
+# ::snt "Dugaan kita ini korban pembunuhan. Bisa jadi terkait dengan adanya bayi yang juga ditemukan bersama korban," terangnya.
+
+(vv1 / kait
+     :ARG1 (vv2 / duga)
+     :ARG1 (vv3 / korban
+                :mod (vv5 / bisa)
+                :mod vv12)
+     :mod (vv6 / jadi)
+     :mod (vv7 / ada
+               :mod (vv9 / temu
+                         :ARG1 (vv4 / bunuh)
+                         :mod (vv11 / terang))
+               :mod (vv10 / juga))
+     :ARG1 (vv8 / bayi))
+
+# ::snt Saat ini, polisi membawa jenazah tersebut ke Rumah Sakit Umum Cut Meutia Aceh Utara di Lhokseumawe untuk kepentingan otopsi dan penyimpanan jenazah.
+
+# ::snt "Bagi masyarakat yang ada keluarganya hilang, silakan datang ke rumah sakit. Mana tahu, jenazah tersebut bisa dikenali. Kami terus mendalami kasus ini," pungkasnya.
+
+(vv1 / datang
+     :location (vv2 / masyarakat
+                    :mod (vv3 / ada
+                              :ARG0 (vv4 / keluarga)))
+     :mod (vv5 / hilang)
+     :ARG1 (vv6 / sila)
+     :location (vv7 / rumah
+                    :mod (vv8 / sakit))
+     :mod (vv9 / tahu
+               :mod (vv10 / mana))
+     :mod (vv11 / nali
+                :ARG1 (vv12 / jenazah)
+                :mod (vv13 / bisa)
+                :ARG1 (vv14 / kami)
+                :ARG1 (vv15 / dalam
+                            :mod (vv16 / terus)
+                            :ARG1 (vv17 / kasus)))
+     :ARG0 (vv18 / pungkas))
+

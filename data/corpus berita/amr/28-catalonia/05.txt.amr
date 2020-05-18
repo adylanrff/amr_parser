@@ -1,0 +1,52 @@
+# ::snt Dituturkan juru bicara pemerintah regional Catalonia, Jordi Turull, jumlah pemilih dalam referendum kemerdekaan ini mewakili 42,3 persen dari total 5,34 juta pemilih yang terdaftar di Catalonia.
+
+(vv1 / wakil
+     :mod (vv2 / tutur
+               :ARG1 (vv3 / juru
+                          :mod (vv4 / bicara)
+                          :mod (vv5 / perintah
+                                    :mod (vv6 / regional)
+                                    :name (vv7 / catalonia
+                                               :name (vv9 / turull)))))
+     :ARG0 (vv11 / pilih
+                 :mod (vv19 / daftar
+                            :mod (vv8 / jordi
+                                      :name (vv10 / jumlah
+                                                  :mod (vv12 / referendum
+                                                             :mod (vv15 / 423))
+                                                  :mod (vv14 / persen
+                                                             :mod (vv17 / juta
+                                                                        :mod vv20)
+                                                             :mod (vv18 / 534)))))
+                 :mod vv21)
+     :ARG1 (vv16 / total
+                 :mod (vv13 / merdeka)))
+
+# ::snt Turull menyebut ada 2,02 juta warga Catalonia yang memilih 'iya' untuk pertanyaan 'Apakah Anda ingin Catalonia menjadi negara merdeka dalam bentuk republik?' dalam surat suara referendum. 
+
+# ::snt "Dengan harapan dan penderitaan hari ini, warga Catalonia telah memenangkan hak untuk menjadi sebuah negara merdeka dalam bentuk republik," tegasnya dalam pernyataan yang disiarkan televisi setempat, sesaat usai pemungutan suara ditutup pada Minggu (1/9/2017).
+
+# ::snt "Pemerintahan saya, dalam beberapa hari ke depan akan mengirimkan hasil voting hari ini kepada parlemen Catalan, tempat kedaulatan rakyat berada, agar mereka bisa bertindak sesuai undang-undang referendum," imbuhnya.
+
+(vv1 / kirim
+     :ARG0 (vv2 / perintah
+                :mod (vv3 / hari)
+                :mod (vv5 / akan))
+     :mod (vv6 / hasil
+               :time (vv4 / depan)
+               :mod (vv8 / parlemen
+                         :mod (vv10 / tempat
+                                    :mod (vv12 / rakyat)
+                                    :mod (vv14 / tindak
+                                               :ARG0 (vv16 / bisa)
+                                               :mod (vv17 / undangundang
+                                                          :mod (vv19 / referendum
+                                                                     :mod vv21)
+                                                          :mod (vv20 / imbuh))
+                                               :ARG1 (vv18 / sesuai)))))
+     :ARG1 (vv7 / voting)
+     :location (vv9 / catalan)
+     :mod (vv11 / daulat
+                :mod (vv13 / ada
+                           :mod (vv15 / mereka))))
+

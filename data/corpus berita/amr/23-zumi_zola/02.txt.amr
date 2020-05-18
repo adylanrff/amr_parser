@@ -1,0 +1,147 @@
+# ::snt Menteri Dalam Negeri Tjahjo Kumolo mengaku, belum mendapatkan surat pemberitahuan dari Komisi Pemberantasan Korupsi (KPK) soal status Gubernur Jambi Zumi Zola Zulkifli.
+
+(vv1 / aku
+     :ARG0 (vv2 / menteri
+                :mod (vv3 / negeri
+                          :mod (vv4 / dalam)
+                          :name (vv5 / tjahjo
+                                     :name (vv6 / kumolo))))
+     :mod (vv7 / dapat
+               :mod (vv8 / belum)
+               :ARG1 (vv9 / surat
+                          :mod (vv10 / pemberitahuan)
+                          :mod (vv11 / komisi
+                                     :name (vv12 / berantas
+                                                 :name (vv13 / korupsi
+                                                             :name (vv14 / kpk)))
+                                     :mod (vv15 / soal
+                                                :mod (vv16 / status
+                                                           :mod (vv17 / gubernur
+                                                                      :name (vv18 / jambi
+                                                                                  :name (vv19 / zumi
+                                                                                              :name (vv20 / zola
+                                                                                                          :name (vv21 / zulkifli)))))))))))
+
+# ::snt Oleh sebab itu, Tjahjo belum dapat berkomentar apa-apa mengenai pemberitaan sejumlah media massa yang menyebut bahwa KPK telah menetapkan Zola sebagai tersangka.
+
+(vv1 / komentar
+     :ARG0 (vv2 / tjahjo)
+     :mod (vv3 / belum)
+     :mod (vv4 / dapat)
+     :ARG1 (vv5 / apaapa)
+     :ARG1 (vv6 / berita
+                :mod (vv7 / media
+                          :mod (vv8 / massa)
+                          :mod (vv9 / sebut
+                                    :mod (vv10 / tetap
+                                               :ARG0 (vv11 / kpk)
+                                               :mod (vv12 / telah)
+                                               :ARG0 (vv13 / zola)
+                                               :ARG1 (vv14 / sangka))))))
+
+# ::snt "(Tersangka) itu kan di media, tapi dasar kami itu adalah surat resmi," lanjut Tjahjo.
+
+(vv1 / surat
+     :mod (vv2 / sangka
+               :mod (vv3 / kan)
+               :mod (vv4 / media
+                         :mod (vv6 / dasar)))
+     :mod (vv5 / tapi)
+     :ARG0 (vv7 / kami)
+     :mod (vv8 / adalah)
+     :mod (vv9 / resmi)
+     :mod (vv10 / lanjut)
+     :name (vv11 / tjahjo))
+
+# ::snt "Jadi ya tunggu saja," ujar Tjahjo.
+
+(vv1 / tunggu
+     :mod (vv2 / jadi)
+     :mod (vv3 / ya)
+     :mod (vv4 / saja)
+     :mod (vv5 / ujar)
+     :mod (vv6 / tjahjo))
+
+# ::snt Diberitakan sebelumnya, KPK melayangkan surat pencegahan untuk Gubernur Jambi Zumi Zola kepada Direktorat Jenderal Imigrasi Kementerian Hukum dan Hak Asasi Manusia.
+
+(vv1 / layang
+     :ARG1 (vv2 / berita)
+     :ARG0 (vv3 / kpk)
+     :ARG1 (vv4 / surat
+                :mod (vv5 / cegah)
+                :mod (vv6 / gubernur
+                          :name (vv7 / jambi
+                                     :name (vv8 / zumi
+                                                :name (vv9 / zola)))))
+     :location (vv10 / direktorat
+                     :name (vv11 / jenderal
+                                 :mod (vv12 / imigrasi
+                                            :mod (vv13 / menteri
+                                                       :mod (vv14 / hukum))
+                                            :mod (vv15 / hak
+                                                       :mod (vv16 / dan)
+                                                       :mod (vv17 / asasi
+                                                                  :mod (vv18 / manusia)))))))
+
+# ::snt "Tanggal 25 Januari 2018, Ditjen Imigrasi menerima surat keputusan KPK tentang pencegahan berpergian ke luar negeri atas nama Zumi Zola Zulkifli, pekerjaan Gubernur Jambi 2016-2021," ujar Kepala Bagian Humas dan Umum Ditjen Imigrasi Agung Sampurno, saat dihubungi wartawan, Rabu (31/1/2018).
+
+(vv1 / terima
+     :ARG1 (vv2 / tanggal
+                :mod (vv3 / januari
+                          :mod (vv4 / 25)
+                          :mod (vv5 / 2018)))
+     :ARG0 (vv6 / ditjen
+                :mod (vv8 / surat
+                          :mod (vv11 / cegah
+                                     :mod (vv14 / luar)
+                                     :mod (vv17 / zola
+                                                :name (vv20 / gubernur
+                                                            :name (vv23 / kepala
+                                                                        :mod (vv26 / humas
+                                                                                   :mod (vv29 / agung
+                                                                                              :name (vv32 / saat)))
+                                                                        :name (vv27 / umum
+                                                                                    :mod (vv7 / imigrasi
+                                                                                              :mod (vv31 / hubung
+                                                                                                         :mod (vv34 / rabu
+                                                                                                                    :mod vv37)
+                                                                                                         :ARG0 (vv35 / 3112018)))
+                                                                                    :mod (vv30 / sampurno))
+                                                                        :mod (vv33 / wartawan
+                                                                                   :mod vv36)))))
+                          :mod (vv13 / negeri
+                                     :mod (vv16 / zumi
+                                                :name (vv19 / pekerjaan
+                                                            :name (vv22 / 20162021)
+                                                            :mod (vv25 / bagi
+                                                                       :name (vv28 / dan))))))
+                :mod (vv9 / putus
+                          :mod (vv12 / pergi
+                                     :location (vv15 / nama
+                                                     :name (vv18 / zulkifli)
+                                                     :mod (vv21 / jambi
+                                                                :mod (vv24 / ujar))))))
+     :ARG1 (vv10 / kpk))
+
+# ::snt "Alasan pencegahan adalah karena keberadaan beliau diperlukan terkait penyidikan kasus korupsi menerima hadiah atau janji terkait proyek-proyek di Provinsi Jambi," ucap Agung.
+
+(vv1 / perlu
+     :ARG1 (vv2 / alas
+                :mod (vv3 / cegah))
+     :mod (vv4 / adalah)
+     :ARG1 (vv5 / ada)
+     :ARG1 (vv6 / kait
+                :ARG1 (vv8 / kasus
+                           :mod (vv10 / terima
+                                      :ARG1 (vv12 / janji
+                                                  :mod (vv7 / sidi
+                                                            :ARG1 (vv9 / korupsi))
+                                                  :mod (vv14 / proyekproyek
+                                                             :mod (vv16 / jambi)))))
+                :ARG1 (vv15 / provinsi
+                            :name (vv17 / ucap)
+                            :mod (vv18 / agung)
+                            :mod vv19))
+     :ARG1 (vv11 / hadiah
+                 :mod (vv13 / atau)))
+

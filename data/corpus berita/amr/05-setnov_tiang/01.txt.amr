@@ -1,0 +1,131 @@
+# ::snt Ketua DPR Setya Novanto ternyata mengalami kecelakaan di kawasan perumahan mewah di daerah Permata Hijau, Kebayoran Lama, Jakarta Selatan.
+
+(vv1 / alami
+     :ARG0 (vv2 / ketua
+                :mod (vv3 / dpr
+                          :name (vv4 / setya
+                                     :name (vv5 / novanto))))
+     :mod (vv6 / nyata)
+     :ARG1 (vv7 / celaka
+                :mod (vv8 / kawasan
+                          :mod (vv9 / rumah
+                                    :mod (vv10 / mewah))
+                          :mod (vv11 / daerah
+                                     :name (vv12 / permata
+                                                 :mod (vv13 / hijau
+                                                            :name (vv14 / kebayoran
+                                                                        :name (vv15 / lama
+                                                                                    :name (vv16 / jakarta
+                                                                                                :name (vv17 / selatan))))))))))
+
+# ::snt Pantauan Warta Kota di lokasi, Kamis (16/11/2017) malam, mobil yang membawa Setya Novanto menabrak tepat di perempatan Jalan Permata Berlian, Permata Hijau.
+
+# ::snt Melaju dari arah perumahan, mobil Toyota Fortuner hitam B 1172 ZLO itu menghantam sebuah pohon.
+
+(vv1 / hantam
+     :mod (vv2 / laju
+               :ARG1 (vv3 / arah
+                          :mod (vv4 / perumahan
+                                    :mod (vv5 / mobil
+                                              :mod (vv6 / toyota
+                                                        :mod (vv7 / fortuner))
+                                              :mod (vv8 / b
+                                                        :mod (vv9 / hitam)
+                                                        :mod (vv10 / 1172)
+                                                        :mod (vv11 / zlo))))))
+     :ARG1 (vv12 / pohon))
+
+# ::snt Pecahan mobil milik Setya Novanto juga masih terlihat berceceran di pinggiran trotoar yang langsung berbatasan dengan kali.
+
+(vv1 / lihat
+     :ARG1 (vv2 / pecah
+                :mod (vv3 / mobil
+                          :mod (vv4 / milik
+                                    :name (vv5 / setya
+                                               :name (vv6 / novanto)))))
+     :mod (vv7 / juga)
+     :mod (vv8 / masih)
+     :ARG1 (vv9 / cecer
+                :location (vv10 / pinggir
+                                :mod (vv11 / trotoar)
+                                :mod (vv12 / batas
+                                           :mod (vv13 / langsung)
+                                           :ARG1 (vv14 / kali)))))
+
+# ::snt Kanit lantas Polrestro Jakarta Selatan Ajun Komisaris Sunarjo menuturkan, dari keterangan saksi mata bernama Kosasih, mobil Setya Novanto terlihat melaju kencang dari arah perumahan menuju perempatan Permata Hijau.
+
+(vv1 / tutur
+     :ARG0 (vv2 / kanit)
+     :mod (vv3 / lantas)
+     :ARG0 (vv4 / polrestro
+                :name (vv5 / jakarta
+                           :name (vv6 / selatan))
+                :name (vv7 / ajun
+                           :name (vv8 / komisaris
+                                      :name (vv9 / sunarjo))))
+     :ARG1 (vv10 / terang
+                 :mod (vv11 / saksi
+                            :mod (vv12 / mata)
+                            :mod (vv13 / nama
+                                       :ARG1 (vv14 / kosasih
+                                                   :mod (vv15 / mobil
+                                                              :name (vv16 / setya
+                                                                          :name (vv17 / novanto)))))))
+     :mod (vv18 / lihat
+                :ARG1 (vv19 / laju
+                            :mod (vv20 / kencang)
+                            :ARG1 (vv21 / arah
+                                        :mod (vv22 / rumah)
+                                        :mod (vv23 / empat
+                                                   :mod (vv24 / tuju)
+                                                   :mod (vv25 / permata
+                                                              :mod (vv26 / hijau)))))))
+
+# ::snt "Mobilnya ngehantem pohon, bannya naik ke trotoar," ungkap Sunarjo.
+
+(vv1 / naik
+     :ARG0 (vv2 / mobil
+                :mod (vv3 / ngehantem
+                          :mod (vv4 / pohon
+                                    :mod (vv5 / ban))))
+     :location (vv6 / trotoar
+                    :mod (vv7 / ungkap)
+                    :name (vv8 / sunarjo)))
+
+# ::snt Sunarjo mengungkapkan, polisi memang baru belakangan mendapatkan informasi tersebut.
+
+(vv1 / ungkap
+     :ARG0 (vv2 / sunarjo)
+     :ARG0 (vv3 / polisi
+                :mod (vv4 / baru
+                          :mod (vv5 / memang)))
+     :ARG1 (vv6 / dapat
+                :mod (vv7 / belakang)
+                :ARG1 (vv8 / informasi)))
+
+# ::snt Setelah mendapat kabar dan menuju lokasi, mobil Setnov sudah tidak ada.
+
+(vv1 / dapat
+     :ARG1 (vv2 / kabar)
+     :location (vv5 / lokasi
+                    :mod (vv3 / tuju
+                              :mod (vv4 / dan))
+                    :mod (vv6 / mobil
+                              :mod (vv7 / setnov)))
+     :mod (vv8 / ada
+               :mod (vv9 / sudah)
+               :mod (vv10 / tidak)))
+
+# ::snt Menurut keterangan warga, mobil Setya Novanto langsung dibawa kabur oleh sebuah mobil derek.
+
+(vv1 / bawa
+     :ARG1 (vv2 / terang
+                :mod (vv3 / warga
+                          :mod (vv4 / mobil
+                                    :name (vv6 / novanto)
+                                    :mod vv10)))
+     :mod (vv8 / kabur
+               :location (vv5 / setya
+                              :name (vv7 / langsung)))
+     :ARG1 (vv9 / derek))
+

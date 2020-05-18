@@ -1,0 +1,6 @@
+pandas
+numpy
+anago
+stanfordnlp
+penman
+gensim

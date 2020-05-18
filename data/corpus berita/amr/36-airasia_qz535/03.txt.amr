@@ -1,0 +1,119 @@
+# ::snt Pesawat yang berangkat dari Perth, Australia, dengan tujuan Bali, Indonesia tersebut diduga terjun bebas lantaran hilangnya tekanan udara dalam kabin pesawat.
+
+# ::snt FlightRadar sendiri adalah sebuah website yang mampu melacak penerbangan secara global menggunakan GPS.
+
+(vv1 / website
+     :ARG0 (vv2 / flightradar
+                :mod (vv3 / sendiri))
+     :mod (vv4 / adalah)
+     :mod (vv5 / lacak
+               :mod (vv6 / mampu)
+               :ARG1 (vv7 / terbang)
+               :mod (vv8 / guna
+                         :mod (vv9 / global)
+                         :ARG1 (vv10 / gps))))
+
+# ::snt Kejadian ini pun membuat Bandara Internasional Perth (Perth International Airport) menyiapkan pelayanan darurat ketika pesawat tersebut mendarat kembali, 78 menit setelah lepas landas.
+
+(vv1 / buat
+     :ARG0 (vv2 / jadi)
+     :ARG1 (vv3 / bandara
+                :mod (vv4 / internasional)
+                :mod (vv5 / perth
+                          :name (vv6 / international
+                                     :mod (vv8 / siap
+                                               :ARG1 (vv10 / darurat)
+                                               :mod (vv12 / pesawat)))
+                          :mod (vv7 / airport)))
+     :mod (vv9 / layan
+               :mod (vv11 / darat
+                          :ARG0 (vv13 / kembali)
+                          :mod (vv14 / menit
+                                     :mod (vv16 / lepas
+                                                :ARG1 vv18))
+                          :ARG1 (vv15 / 78)
+                          :ARG1 (vv17 / landas))))
+
+# ::snt Diberitakan, sebuah insiden menimpa pesawat AirAsia penerbangan QZ535 yang baru saja 25 menit lepas landas dari Perth, Australia, menuju Bali, Minggu (15/10/2017).
+
+(vv1 / berita
+     :ARG1 (vv2 / insiden
+                :mod (vv3 / timpa
+                          :ARG1 (vv4 / pesawat
+                                     :mod (vv5 / airasia
+                                               :mod (vv6 / terbang
+                                                         :mod (vv7 / qz535)))
+                                     :mod (vv12 / lepas
+                                                :mod (vv8 / menit
+                                                          :mod (vv9 / baru)
+                                                          :mod (vv10 / saja)
+                                                          :mod (vv11 / 25))
+                                                :ARG1 (vv13 / landas
+                                                            :mod (vv14 / perth
+                                                                       :name (vv15 / australia)
+                                                                       :mod (vv16 / bal
+                                                                                  :mod (vv17 / tuju)
+                                                                                  :mod (vv18 / minggu)
+                                                                                  :mod (vv19 / 15102017)))))))))
+
+# ::snt Seluruh penumpang dilanda kepanikan, lantaran awak kabin pesawat pun panik dan kalang kabut dalam menghadapi situasi tersebut.
+
+(vv1 / landa
+     :ARG1 (vv2 / tumpang)
+     :ARG1 (vv3 / panik
+                :mod (vv5 / awak
+                          :mod (vv7 / pesawat))
+                :ARG0 (vv6 / kabin
+                           :mod (vv8 / kalang
+                                     :mod (vv10 / kabut)
+                                     :mod (vv11 / hadap
+                                                :ARG1 vv13)
+                                     :mod (vv12 / situasi)))
+                :mod (vv9 / dan))
+     :ARG1 (vv4 / lantar))
+
+# ::snt Head of Safety Grup AirAsia, Kapten Ling Liong Tien, mengapresiasi langkah yang diambil pilot untuk mendaratkan kembali pesawat, sesuai dengan prosedur standar operasional.
+
+(vv1 / apresiasi
+     :ARG0 (vv2 / head
+                :mod (vv3 / of
+                          :mod (vv4 / safety
+                                    :mod (vv5 / grup
+                                              :mod (vv6 / airasia
+                                                        :name (vv7 / kapten
+                                                                   :name (vv8 / ling
+                                                                              :name (vv9 / liong
+                                                                                         :name (vv10 / tien)))))))))
+     :ARG1 (vv11 / langkah
+                 :mod (vv12 / ambil
+                            :ARG1 (vv13 / pilot)
+                            :ARG1 (vv14 / darat
+                                        :mod (vv15 / kembali)
+                                        :ARG1 (vv16 / pesawat
+                                                    :mod (vv17 / sesuai))
+                                        :ARG1 (vv18 / prosedur
+                                                    :mod (vv19 / standar)
+                                                    :mod (vv20 / operasional))))))
+
+# ::snt "Kami berkomitmen untuk menjaga keselamatan penumpang dan juga awak kabin serta kami akan terus memastikan bahwa kami mengikuti standar keselamatan yang tertinggi," kata Ling.
+
+# ::snt Dalam keterangan tertulisnya, pihak AirAsia meminta maaf atas ketidaknyamanan yang ditimbulkan dan mengatakan bahwa seluruh penumpang penerbangan QZ535 telah dipindahkan ke penerbangan berikutnya.
+
+(vv1 / minta
+     :ARG1 (vv2 / terang
+                :mod (vv3 / tulis))
+     :ARG0 (vv4 / pihak
+                :mod (vv5 / airasia))
+     :ARG1 (vv6 / maaf
+                :mod (vv7 / ketidaknyamanan
+                          :mod (vv8 / timbul)))
+     :mod (vv9 / kata
+               :mod (vv10 / dan)
+               :mod (vv11 / pindah
+                          :ARG1 (vv12 / tumpang
+                                      :mod (vv13 / terbang
+                                                 :mod (vv15 / telah)
+                                                 :mod vv17))
+                          :location (vv14 / qz535)
+                          :mod (vv16 / ikut))))
+

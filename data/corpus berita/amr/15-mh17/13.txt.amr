@@ -1,0 +1,70 @@
+# ::snt Pesawat Malaysia Airlines MH17 ditembak di wilayah udara Ukraina dan 280 penumpan dan 15 awak tewas.
+
+(vv1 / tembak
+     :ARG1 (vv2 / pesawat
+                :name (vv3 / malaysia
+                           :mod (vv4 / airlines
+                                     :name (vv5 / mh17))))
+     :location (vv6 / wilayah
+                    :mod (vv7 / udara
+                              :mod (vv8 / ukraina))
+                    :mod (vv9 / penumpan
+                              :mod (vv10 / dan)
+                              :mod (vv12 / awak
+                                         :mod (vv11 / 280)
+                                         :mod (vv14 / tewas)))
+                    :mod (vv13 / 15))
+     :mod vv15)
+
+# ::snt Sementara itu, 47 penumpang lainnya belum diketahui asal kewarganegaraannya.
+
+(vv3 / tahu
+     :ARG1 (vv1 / tumpang
+                :mod (vv2 / 47)
+                :mod (vv4 / lain))
+     :mod (vv5 / belum)
+     :location (vv6 / kewarganegaraannya
+                    :mod (vv7 / asal)))
+
+# ::snt Pesawat milik maskapai penerbangan Malaysia diduga ditembak jatuh di atas Ukraina oleh gerilyawan pada Kamis (17/7/2014), menewaskan 295 orang di dalamnya, ungkap pejabat kementerian dalam negeri Ukraina seperti dikutip kantor berita Interfax-Ukraine.
+
+(vv1 / duga
+     :ARG1 (vv2 / pesawat
+                :mod (vv3 / milik
+                          :mod (vv4 / maskapai
+                                    :mod (vv5 / terbang
+                                              :mod (vv6 / malaysia)))))
+     :mod (vv7 / tembak
+               :ARG1 (vv8 / jatuh
+                          :location (vv9 / ukraina
+                                         :mod (vv11 / gerilyawan
+                                                    :mod (vv13 / 1772014)))
+                          :location (vv12 / kamis
+                                          :mod (vv14 / tewas
+                                                     :ARG1 (vv16 / 295)
+                                                     :location (vv18 / ungkap
+                                                                     :ARG1 (vv20 / menteri))))))
+     :mod (vv15 / orang
+                :mod (vv17 / dalam
+                           :mod (vv19 / jabat
+                                      :mod (vv21 / negeri
+                                                 :mod (vv10 / atas))
+                                      :mod (vv22 / kutip
+                                                 :ARG1 (vv24 / berita
+                                                             :mod vv26))
+                                      :mod (vv23 / kantor
+                                                 :mod (vv25 / interfaxukraine))))))
+
+# ::snt Salah satu korban asal Indonesia bernama Ninik Yuliani yang diduga menjadi salah satu penumpang pesawat Malaysia Airlines MH-17 yang jatuh di perbatasan negara Ukraina dan Rusia, Kamis malam.
+
+# ::snt Pesawat naas tersebut dalam perjalanan dari Amsterdam, Belanda ke Kuala Lumpur, Malaysia.
+
+(vv1 / pesawat
+     :mod (vv2 / naas)
+     :mod (vv3 / jalan
+               :mod (vv4 / amsterdam
+                         :mod (vv5 / belanda)
+                         :mod (vv6 / kuala
+                                   :mod (vv7 / lumpur
+                                             :name (vv8 / malaysia))))))
+

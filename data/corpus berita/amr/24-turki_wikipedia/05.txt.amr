@@ -1,0 +1,64 @@
+# ::snt Turki memblokir akses terhadap ensiklopedia online (daring) Wikipedia di seluruh wilayah negara tersebut, Sabtu (29/4/2017).
+
+(vv1 / blokir
+     :ARG0 (vv2 / turki)
+     :ARG1 (vv3 / akses
+                :mod (vv4 / ensiklopedia
+                          :mod (vv5 / online
+                                    :mod (vv6 / daring
+                                              :mod (vv7 / wikipedia)))
+                          :mod (vv8 / wilayah
+                                    :mod (vv9 / negara)
+                                    :mod (vv10 / sabtu
+                                               :mod (vv11 / 2942017))))))
+
+# ::snt Tidak jelas mengapa Turki melarang akses terhadap salah satu situs populer di dunia.
+
+# ::snt Masyarakat Istanbul tidak dapat mengakses halaman Wikipedia sama sekali tanpa menggunakan Virtual Private Network (VPN).
+
+(vv1 / akses
+     :ARG0 (vv2 / masyarakat
+                :mod (vv3 / istanbul))
+     :mod (vv4 / tidak)
+     :mod (vv5 / dapat)
+     :ARG1 (vv6 / halaman
+                :mod (vv7 / wikipedia)
+                :mod (vv8 / sama
+                          :mod (vv9 / sekali)))
+     :mod (vv10 / guna
+                :ARG1 (vv11 / virtual
+                            :name (vv12 / private
+                                        :name (vv13 / network
+                                                    :name (vv14 / vpn))))))
+
+# ::snt "Setelah dilakukan analisis teknik dan pertimbangan hukum Nr 5651, sebuah kebijakan administratif telah dilakukan untuk situs tersebut," menurut pernyataan Otoritas Informasi dan Teknologi Komunikasi Turki.
+
+(vv1 / laku
+     :ARG1 (vv2 / analisis
+                :mod (vv3 / teknik)
+                :mod (vv4 / timbang
+                          :mod (vv5 / dan)
+                          :mod (vv7 / nr
+                                    :mod (vv9 / bijak
+                                              :mod (vv11 / telah)))))
+     :ARG1 (vv10 / administratif)
+     :mod (vv12 / situs)
+     :ARG1 (vv13 / nyata
+                 :mod (vv15 / informasi))
+     :ARG1 (vv14 / otoritas
+                 :mod (vv16 / teknologi
+                            :mod (vv6 / hukum
+                                      :mod (vv8 / 5651))
+                            :mod (vv18 / turki))
+                 :mod (vv17 / komunikasi
+                            :mod vv19)))
+
+# ::snt Tidak ada alasan yang disampaikan berkaitan dengan pemblokiran ini.
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / alas
+                :mod (vv4 / sampai
+                          :ARG1 (vv5 / kait
+                                     :location (vv6 / blokir)))))
+

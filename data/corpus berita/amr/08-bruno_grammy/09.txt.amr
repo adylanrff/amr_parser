@@ -1,0 +1,19 @@
+# ::snt Album Bruno ini mengalahkan Childish Gambino (Awaken, My Love!), Jay-Z (4:44), Kendrick Lamar (DAMN), dan Lorde (Melodrama).
+
+(vv1 / kalah
+     :ARG0 (vv2 / album
+                :name (vv3 / bruno))
+     :ARG0 (vv4 / childish
+                :name (vv5 / gambino
+                           :name (vv6 / awaken
+                                      :name (vv7 / my
+                                                 :name (vv8 / love
+                                                            :name (vv9 / jayz
+                                                                       :mod (vv10 / 444)
+                                                                       :name (vv11 / kendrick
+                                                                                   :name (vv12 / lamar
+                                                                                               :name (vv13 / damn))))))))
+                :mod (vv14 / lorde
+                           :mod (vv15 / dan)
+                           :name (vv16 / melodrama))))
+

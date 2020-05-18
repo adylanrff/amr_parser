@@ -1,0 +1,133 @@
+# ::snt Pebulutangkis Indonesia, Tontowi Ahmad mengaku bangga bisa mempersembahkan medali emas Olimpiade tepat pada Hari Kemerdekaan Republik Indonesia ke-71 hari Rabu (17/8).
+
+# ::snt "Sangat senang, bangga bisa mengharumkan nama Indonesia di kancah dunia dan saya sangat bersyukur sekali," ujar Tontowi Ahmad kepada VOA hari Sabtu (20/8).
+
+# ::snt Lewat Tontowi dan Lilyana Natsir, Indonesia memperoleh medali emas satu-satunya lewat cabang bulutangkis nomor ganda campuran dalam Olimpiade 2016 di Rio de Janeiro, Brazil.
+
+(vv3 / oleh
+     :mod (vv1 / tontowi
+               :mod (vv2 / lewat)
+               :mod (vv5 / dan))
+     :ARG1 (vv9 / emas)
+     :mod-of (vv11 / cabang
+                   :mod (vv13 / nomor
+                              :mod (vv15 / campur
+                                         :mod (vv17 / 2016)))
+                   :mod (vv14 / ganda)
+                   :mod (vv16 / olimpiade
+                              :mod (vv18 / rio
+                                         :name (vv20 / janeiro
+                                                     :name vv22)))
+                   :mod (vv19 / de
+                              :name (vv21 / brazil))
+                   :mod-of (vv8 / medali
+                                :mod (vv10 / satusatunya)
+                                :mod (vv12 / bulutangkis)
+                                :mod-of (vv6 / natsir
+                                             :mod-of (vv4 / lilyana
+                                                          :name (vv7 / indonesia))))))
+
+# ::snt Atlet yang akrab disapa Owi ini merayakan di Rio dengan cara sederhana.
+
+(vv1 / raya
+     :ARG0 (vv2 / atlet
+                :mod (vv3 / sapa
+                          :mod (vv4 / akrab)
+                          :ARG1 (vv5 / owi)))
+     :ARG1 (vv6 / rio)
+     :ARG1 (vv7 / cara
+                :mod (vv8 / sederhana)))
+
+# ::snt "Dengan sujud syukur kepada Allah SWT," katanya.
+
+(vv1 / sujud
+     :ARG1 (vv2 / syukur)
+     :location (vv3 / allah
+                    :name (vv4 / swt))
+     :location (vv5 / kata))
+
+# ::snt Rasa syukur juga diungkapkan Manajer Tim Cabang Bulutangkis Indonesia, Rexy Mainaky, yang turut mendampingi pasangan Tontowi/Lilyana bertanding di Rio.
+
+(vv1 / ungkap
+     :ARG1 (vv2 / rasa
+                :mod (vv3 / syukur))
+     :mod (vv4 / juga)
+     :ARG0 (vv5 / manajer
+                :name (vv6 / tim
+                           :mod (vv7 / cabang
+                                     :name (vv8 / bulutangkis
+                                                :mod (vv9 / indonesia)
+                                                :name (vv10 / rexy
+                                                            :name (vv11 / mainaky)))))
+                :mod (vv12 / damping
+                           :mod (vv13 / turut)
+                           :ARG1 (vv14 / pasang
+                                       :mod (vv15 / tontowililyana)
+                                       :mod (vv16 / tanding
+                                                  :ARG1 (vv17 / rio))))))
+
+# ::snt "Tradisi" emas olimpiade itu sempat terhenti dalam Olimpiade tahun 2012 di London, tapi tahun ini tersambung kembali lewat kemenangan Tontowi/Lilyana.
+
+(vv1 / henti
+     :ARG1 (vv2 / tradisi
+                :mod (vv3 / emas)
+                :mod (vv4 / olimpiade
+                          :mod (vv7 / 2012)))
+     :location (vv5 / sempat)
+     :mod (vv6 / tahun
+               :mod (vv9 / sambung
+                         :ARG1 (vv8 / london)
+                         :mod (vv12 / menang
+                                    :mod vv15
+                                    :mod vv16)
+                         :mod (vv13 / lewat)
+                         :ARG1 (vv14 / tontowililyana)))
+     :location (vv10 / tapi)
+     :mod (vv11 / kembali))
+
+# ::snt Pasangan ganda campuran itu merebut medali emas setelah mengalahkan pasangan Malaysia, Chan Peng Soon/Goh Liu Ying dengan skor 21-14 dan 21-12.
+
+(vv1 / rebut
+     :ARG0 (vv2 / pasang
+                :mod (vv4 / campur)
+                :mod (vv5 / medali
+                          :mod (vv7 / kalah
+                                    :ARG1 (vv3 / ganda)
+                                    :ARG1 (vv15 / 2114
+                                                :mod (vv17 / dan))))
+                :mod (vv9 / chan
+                          :name (vv11 / soongoh
+                                      :name (vv13 / ying))))
+     :ARG1 (vv6 / emas)
+     :ARG1 (vv8 / malaysia
+                :name (vv10 / peng
+                            :name (vv12 / liu
+                                        :name (vv14 / skor
+                                                    :mod (vv16 / 2112
+                                                               :mod vv18))))))
+
+# ::snt Rencananya Tontowi, Lilyana dan tim bulutangkis akan tiba hari Selasa (23/8) di tanah air, di mana mereka akan memperlihatkan medalinya kepada Presiden Joko Widodo di Istana.
+
+(vv1 / tiba
+     :ARG0 (vv2 / rencana)
+     :ARG0 (vv3 / tontowi
+                :name (vv4 / lilyana)
+                :mod (vv5 / tim
+                          :mod (vv6 / dan)
+                          :mod (vv7 / bulutangkis)))
+     :mod (vv8 / akan)
+     :ARG1 (vv10 / selasa
+                 :mod (vv12 / tanah
+                            :mod (vv14 / lihat
+                                       :mod (vv9 / hari
+                                                 :mod (vv11 / 238))
+                                       :ARG1 (vv16 / mereka)
+                                       :ARG0 (vv17 / medali)
+                                       :ARG1 (vv18 / presiden
+                                                   :name (vv20 / widodo))
+                                       :ARG1 (vv19 / joko
+                                                   :name (vv21 / istana))
+                                       :location vv22)))
+     :location (vv13 / air)
+     :ARG1 (vv15 / mana))
+

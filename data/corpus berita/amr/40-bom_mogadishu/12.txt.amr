@@ -1,0 +1,21 @@
+# ::snt "Dalam 10 tahun kami bekerja sebagai petugas medis di #Mogadishu, kami tidak pernah melihat insiden separah ini," ucap Layanan Ambulans Aamin lewat akun Twitter resminya, @AaminAmbulance.
+
+# ::snt Dari laporan tim penyelamat, setidaknya 276 orang tewas dalam insiden ledakan bom dan 300 orang lainnya mengalami luka-luka.
+
+(vv1 / tewas
+     :location (vv2 / lapor
+                    :mod (vv3 / tim
+                              :mod (vv4 / selamat)))
+     :ARG0 (vv5 / orang
+                :mod (vv7 / 276)
+                :mod (vv8 / insiden
+                          :mod (vv10 / bom))
+                :mod (vv12 / 300)
+                :mod (vv13 / alami
+                           :ARG0 (vv6 / tidak)
+                           :ARG1 vv16)
+                :mod (vv15 / lukaluka))
+     :ARG1 (vv9 / ledak
+                :mod (vv11 / dan))
+     :mod (vv14 / lain))
+

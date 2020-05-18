@@ -1,0 +1,27 @@
+# ::snt Pengelola Gedung BEI Farida Riyadi mengatakan, gedung yang telah berdiri 20 tahun lalu itu, terakhir kali dilakukan pengecekan berkala, Mei 2017 lalu.
+
+# ::snt "Untuk daerah sana (tower 2) nggak ada," lanjutnya.
+
+(vv1 / ada
+     :location (vv2 / daerah
+                    :mod (vv3 / sana))
+     :ARG0 (vv4 / tower
+                :mod (vv5 / 2))
+     :mod (vv6 / nggak)
+     :ARG1 (vv7 / lanjut))
+
+# ::snt "Kita nggak bisa ngomong masih diselidiki karena itu juga kan sering dilewati pengunjung," tandasnya.
+
+(vv1 / ngomong
+     :ARG0 (vv2 / kita)
+     :mod (vv3 / nggak)
+     :mod (vv4 / bisa)
+     :mod (vv5 / selidik
+               :mod (vv6 / masih))
+     :mod (vv7 / lewat
+               :mod (vv8 / juga)
+               :mod (vv9 / kan)
+               :mod (vv10 / sering)
+               :ARG1 (vv11 / unjung
+                           :mod (vv12 / tandas))))
+

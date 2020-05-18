@@ -1,0 +1,67 @@
+# ::snt Di antara jasad yang berhasil diidentifikasi adalah Maryam Abdullahi, seorang mahasiswi kedokteran di Mogadishu.
+
+(vv3 / maryam
+     :mod (vv1 / jasad
+               :mod (vv2 / antara)
+               :mod (vv4 / identifikasi
+                         :mod (vv5 / hasil)))
+     :mod (vv6 / adalah)
+     :name (vv7 / abdullahi)
+     :mod (vv8 / mahasiswi
+               :mod (vv9 / dokter))
+     :mod (vv10 / mogadishu))
+
+# ::snt Nahas, ia tewas satu hari sebelum hari wisudanya.
+
+(vv1 / tewas
+     :mod (vv2 / nahas)
+     :ARG0 (vv3 / ia)
+     :time (vv4 / hari
+                :mod (vv6 / wisuda)
+                :mod vv7)
+     :time (vv5 / satu))
+
+# ::snt Kakak Maryam menjelaskan betapa hancurny keluarga mendengar kabar tersebut.
+
+(vv1 / jelas
+     :ARG0 (vv2 / kakak
+                :name (vv3 / maryam))
+     :mod (vv4 / dengar
+               :mod (vv5 / betapa)
+               :ARG0 (vv6 / hancurny
+                          :mod (vv7 / keluarga))
+               :ARG1 (vv8 / kabar)))
+
+# ::snt Ia mengatakan bahwa ia berkomunikasi dengan Maryam sekitar 20 menit sebelum terjadinya ledakan bom truk tersebut.
+
+# ::snt Namun Maryam tak kunjung menelpon hingga ada kabar soal ledakan tersebut dan Maryam menjadi satu di antara ratusan korban tewas.
+
+(vv1 / telpon
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / maryam)
+     :mod (vv5 / kunjung)
+     :mod (vv6 / ada
+               :ARG1 (vv8 / soal
+                          :mod (vv10 / jadi
+                                     :ARG0 (vv4 / tak)
+                                     :mod (vv12 / satu)
+                                     :ARG1 (vv13 / korban
+                                                 :mod (vv15 / ratus)
+                                                 :mod (vv16 / tewas)
+                                                 :mod vv17)
+                                     :ARG1 (vv14 / antara)))
+               :mod (vv11 / dan))
+     :mod (vv7 / kabar
+               :mod (vv9 / ledak)))
+
+# ::snt Hingga saat ini masih belum ada kelompok militan manapun yang mengklaim serangan tersebut.
+
+(vv1 / ada
+     :ARG1 (vv2 / saat)
+     :mod (vv3 / masih)
+     :mod (vv4 / belum)
+     :ARG1 (vv5 / kelompok
+                :mod (vv6 / militan)
+                :mod (vv7 / klaim
+                          :ARG1 (vv8 / serang))))
+

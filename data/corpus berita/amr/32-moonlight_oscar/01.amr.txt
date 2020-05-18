@@ -1,0 +1,200 @@
+# ::snt Moonlight meraih penghargaan film terbaik Oscar 2017, penghargaan tertinggi pada ajang tahunan itu, setelah insiden salah baca pemenang.
+
+(vv1 / raih
+     :ARG0 (vv2 / moonlight)
+     :ARG1 (vv3 / harga
+                :mod (vv4 / film
+                          :mod (vv6 / oscar
+                                    :mod (vv8 / tinggi))
+                          :mod (vv7 / 2017))
+                :mod (vv5 / baik)
+                :mod (vv9 / ajang
+                          :mod (vv11 / insiden
+                                     :mod (vv13 / baca)
+                                     :mod vv15))
+                :mod (vv10 / tahun))
+     :ARG1 (vv12 / salah
+                 :mod (vv14 / menang)))
+
+# ::snt Sebelumnya, presenter Warren Beaty dan Faye Dunaway mengumumkan film musikal La La Land yang memenangkan penghargaan film terbaik
+
+(vv1 / umum
+     :ARG0 (vv2 / presenter
+                :name (vv3 / warren
+                           :name (vv4 / beaty))
+                :mod (vv5 / faye
+                          :mod (vv6 / dan)
+                          :name (vv7 / dunaway)))
+     :ARG1 (vv8 / film
+                :mod (vv10 / la
+                           :name (vv12 / menang
+                                       :ARG1 vv15)
+                           :name (vv13 / harga
+                                       :mod (vv9 / musikal)))
+                :mod (vv11 / land)
+                :mod (vv14 / baik)
+                :mod vv16))
+
+# ::snt Namun, ketika seluruh produser dan tim La La Land sampai di panggung, panitia menyusul dan menyerahkan amplop merah lain. Ternyata presenter membaca amplop untuk penghargaan aktris terbaik yang sebelumnya diumumkan dan dimenangkan oleh Emma Stone untuk film La La Land.
+
+# ::snt Moonlight sendiri berkisah tentang beratnya kehidupan seorang lelaki homoseksual berkulit hitam di Miami, Florida. Film ini bertutur dalam tiga babak; saat si karakter masih anak-anak, remaja dan dewasa.
+
+(vv1 / kisah
+     :ARG0 (vv2 / moonlight)
+     :mod (vv3 / sendiri)
+     :ARG1 (vv4 / berat
+                :mod (vv5 / hidup
+                          :mod (vv6 / lelaki
+                                    :mod (vv7 / homoseksual)
+                                    :mod (vv8 / kulit
+                                              :mod (vv9 / hitam))
+                                    :mod (vv10 / miami
+                                               :name (vv11 / florida
+                                                           :name (vv12 / film))))))
+     :mod (vv13 / tutur
+                :location (vv14 / babak
+                                :mod (vv15 / tiga)
+                                :mod (vv18 / karakter
+                                           :mod (vv16 / anakanak
+                                                      :mod (vv17 / saat)
+                                                      :mod (vv19 / masih)
+                                                      :mod (vv20 / remaja)
+                                                      :mod (vv21 / dewasa
+                                                                 :mod (vv22 / dan)))))))
+
+# ::snt Adapun predikat Aktor Terbaik diraih aktor Casey Affleck melalui perannya dalam film Manchester by the Sea.
+
+(vv1 / raih
+     :ARG1 (vv2 / predikat
+                :name (vv3 / aktor
+                           :mod (vv5 / casey
+                                     :name (vv7 / peran
+                                                :mod (vv9 / manchester)))
+                           :name (vv6 / affleck)))
+     :ARG1 (vv4 / baik)
+     :location (vv8 / film
+                    :mod (vv10 / by
+                               :mod (vv12 / sea))
+                    :mod (vv11 / the
+                               :mod vv13)))
+
+# ::snt Dalam perhelatan Academy Awards 2017 yang digelar di Dolby Theatre, Los Angeles, Emma berhasil menyisihkan Isabelle Huppert (Elle), Natalie Portman (Jackie), Ruth Negga (Loving) dan Meryl Streep (Florence Foster Jenkins).
+
+(vv1 / hasil
+     :mod (vv2 / helat
+               :mod (vv3 / academy
+                         :name (vv4 / awards
+                                    :mod (vv5 / 2017)))
+               :mod (vv6 / gelar
+                         :location (vv7 / dolby
+                                        :name (vv8 / theatre
+                                                   :mod (vv9 / los
+                                                             :mod (vv10 / angeles
+                                                                        :name (vv11 / emma)))))))
+     :mod (vv12 / sisih
+                :ARG0 (vv13 / isabelle
+                            :name (vv14 / huppert
+                                        :name (vv15 / elle))
+                            :name (vv16 / natalie
+                                        :name (vv17 / portman
+                                                    :name (vv18 / jackie
+                                                                :name (vv19 / ruth
+                                                                            :name (vv20 / negga
+                                                                                        :name (vv21 / loving))))))
+                            :mod (vv22 / meryl
+                                       :mod (vv23 / dan)
+                                       :name (vv24 / streep
+                                                   :name (vv25 / florence
+                                                               :name (vv26 / foster
+                                                                           :name (vv27 / jenkins))))))))
+
+# ::snt "Kepada semua aktris perempuan dalam kategori ini, kalian semua luar biasa. Ini adalah kehormatan yang luar biasa," kata Emma dalam pidatonya.
+
+(vv1 / hormat
+     :mod (vv2 / aktris
+               :mod (vv3 / perempuan)
+               :mod (vv4 / kategori))
+     :ARG0 (vv5 / kalian
+                :mod (vv6 / luar
+                          :mod (vv8 / adalah)
+                          :mod (vv9 / kata
+                                    :name vv12)
+                          :mod (vv11 / pidato)))
+     :mod (vv7 / biasa)
+     :mod (vv10 / emma)
+     :mod vv13)
+
+# ::snt Sementar itu, aktor Casey Affleck berhasil menyisihkan para nominator lainnya dan meraih predikat sebagai Aktor Terbaik melalui perannya dalam film Manchester by the Sea.
+
+(vv1 / hasil
+     :ARG0 (vv2 / aktor
+                :name (vv4 / affleck)
+                :mod (vv12 / peran
+                           :mod (vv14 / manchester
+                                      :mod (vv16 / the
+                                                 :mod vv18))))
+     :mod (vv6 / nominator
+               :mod (vv8 / raih
+                         :ARG1 (vv10 / predikat
+                                     :mod (vv3 / casey
+                                               :name (vv5 / sisih
+                                                          :ARG1 (vv7 / lain))))
+                         :ARG1 (vv11 / baik)
+                         :location (vv13 / film
+                                         :mod (vv15 / by
+                                                    :mod (vv17 / sea)))))
+     :mod (vv9 / dan))
+
+# ::snt Affleck mengalahkan beberapa nama aktor lainnya, mulai Denzel Washington (dalam film Fences), Andrew Garfield (Hacksaw Ridge), Ryan Gosling (La La Land), serta Viggo Mortensen (Captain Fantastic).
+
+(vv1 / kalah
+     :ARG0 (vv2 / affleck)
+     :ARG1 (vv3 / nama
+                :mod (vv4 / aktor
+                          :mod (vv5 / lain))
+                :mod (vv6 / denzel
+                          :mod (vv7 / mulai)
+                          :name (vv8 / washington)))
+     :ARG1 (vv9 / film
+                :mod (vv10 / fences
+                           :name (vv11 / andrew
+                                       :name (vv12 / garfield
+                                                   :name (vv13 / hacksaw
+                                                               :name (vv14 / ridge
+                                                                           :name (vv15 / ryan
+                                                                                       :name (vv16 / gosling
+                                                                                                   :name (vv17 / la
+                                                                                                               :name (vv18 / land)
+                                                                                                               :name (vv19 / viggo
+                                                                                                                           :mod (vv21 / mortensen
+                                                                                                                                      :name (vv23 / fantastic))
+                                                                                                                           :name (vv22 / captain
+                                                                                                                                       :name vv24)))))))))
+                           :mod (vv20 / serta))))
+
+# ::snt Selain Piala Oscar 2017, Casey Affleck sebelumnya telah berhasil membawa pulang piala di ajang Golden Globe 2017 lewat perannya sebagai tokoh Lee Chandler dalam film yang disutradarai oleh Kenneth Lenorgan itu.
+
+(vv1 / hasil
+     :ARG1 (vv2 / piala
+                :name (vv4 / 2017))
+     :ARG0 (vv7 / telah)
+     :mod (vv9 / pulang
+               :ARG1 (vv3 / oscar
+                          :mod (vv5 / casey
+                                    :name (vv8 / bawa
+                                               :ARG1 (vv11 / golden
+                                                           :name (vv14 / lewat))
+                                               :location (vv15 / tokoh
+                                                               :name (vv18 / film
+                                                                           :mod (vv21 / lenorgan))
+                                                               :mod (vv20 / kenneth
+                                                                          :name vv23)))))
+               :ARG1 (vv12 / globe
+                           :mod (vv6 / affleck)))
+     :mod (vv10 / ajang
+                :mod (vv13 / peran
+                           :mod (vv16 / lee
+                                      :name (vv19 / sutradara
+                                                  :mod vv22))
+                           :mod (vv17 / chandler))))
+

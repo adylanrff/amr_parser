@@ -1,0 +1,84 @@
+# ::snt "Jang melakukan tindakan anti-partai dan kontrarevolusioner yang bertujuan untuk menggulingkan pemerintahan partai komunis," tulis kantor berita resmi Korea Utara KCNA seperti dilansir dari USA Today, Jumat (13/12/2013).
+
+(vv1 / laku
+     :ARG0 (vv2 / jang)
+     :ARG1 (vv3 / tindak
+                :mod (vv4 / antipartai
+                          :mod (vv5 / kontrarevolusioner
+                                    :mod (vv6 / dan)))
+                :mod (vv7 / tuju
+                          :ARG1 (vv8 / guling
+                                     :ARG1 (vv9 / perintah
+                                                :mod (vv10 / partai
+                                                           :mod (vv11 / komunis)
+                                                           :mod (vv12 / tulis)
+                                                           :mod (vv13 / kantor
+                                                                      :mod (vv14 / berita
+                                                                                 :mod (vv15 / resmi)
+                                                                                 :mod (vv16 / korea
+                                                                                            :mod (vv17 / utara
+                                                                                                       :name (vv18 / kcna))))
+                                                                      :mod (vv19 / lansir
+                                                                                 :mod (vv20 / usa
+                                                                                            :mod (vv21 / today
+                                                                                                       :mod (vv22 / jumat
+                                                                                                                  :mod (vv23 / 13122013))))))))))))
+
+# ::snt Menanggapi berita tersebut, Departemen Luar Negeri AS mengatakan pihaknya sedang mengikuti perkembangan itu di Korea Utara.
+
+(vv1 / kata
+     :ARG1 (vv2 / tanggap
+                :ARG1 (vv3 / berita))
+     :ARG0 (vv4 / departemen
+                :mod (vv5 / luar
+                          :mod (vv6 / negeri
+                                    :mod (vv7 / as))))
+     :ARG1 (vv8 / pihak)
+     :mod (vv9 / ikut
+               :mod (vv10 / sedang)
+               :ARG1 (vv11 / kembang)
+               :ARG1 (vv12 / korea
+                           :mod (vv13 / utara))))
+
+# ::snt "Meskipun kami tidak dapat secara independen memverifikasi perkembangan ini, kami tidak punya alasan untuk meragukan laporan resmi KCNA," kata wakil juru bicara Marie Harf.
+
+# ::snt "Jika terkonfirmasi, ini adalah contoh lain dari kebrutalan ekstrim rezim Korea Utara," tambah Marie.
+
+(vv1 / contoh
+     :mod (vv2 / konfirmasi)
+     :mod (vv3 / adalah)
+     :mod (vv4 / lain)
+     :mod (vv5 / brutal
+               :mod (vv6 / ekstrim)
+               :mod (vv7 / rezim
+                         :mod (vv8 / korea
+                                   :mod (vv9 / utara)))
+               :mod (vv10 / tambah
+                          :ARG0 (vv11 / marie))))
+
+# ::snt Vicotor mengungkapkan, Jenderal Ri Young-ho, pemimpin militer yang sering muncul bersama Kim Jong-il -- ayah Kim Jong-un dalam foto-foto kenegaraan, juga menghilang pada bulan Juli 2012, sebelum dikabarkan meninggal.
+
+(vv1 / ungkap
+     :ARG0 (vv2 / vicotor)
+     :ARG0 (vv3 / jenderal
+                :mod (vv4 / ri
+                          :name (vv5 / youngho))
+                :mod (vv6 / pimpin
+                          :mod (vv7 / militer)
+                          :mod (vv8 / muncul
+                                    :mod (vv9 / sering)
+                                    :ARG1 (vv10 / kim
+                                                :name (vv12 / ayah
+                                                            :name (vv11 / jongil))
+                                                :mod (vv13 / jongun)
+                                                :name (vv14 / fotofoto
+                                                            :mod (vv16 / hilang
+                                                                       :mod (vv18 / bulan
+                                                                                  :mod (vv20 / 2012))
+                                                                       :ARG1 (vv19 / juli
+                                                                                   :mod (vv21 / kabar))
+                                                                       :ARG1 (vv22 / tinggal)
+                                                                       :mod vv23)))
+                                    :ARG1 (vv15 / negara))))
+     :mod (vv17 / juga))
+

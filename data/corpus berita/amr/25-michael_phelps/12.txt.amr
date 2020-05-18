@@ -1,0 +1,39 @@
+# ::snt Kita tahu, Phelps telah menjadi bagian dari tim renang Amerika Serikat sejak 2004 dan sangat ingin membalas kekalahannya pada di London, 2012 lalu.
+
+(vv1 / tahu
+     :ARG0 (vv2 / kita)
+     :mod (vv3 / jadi
+               :ARG0 (vv4 / phelps)
+               :mod (vv5 / telah)
+               :ARG1 (vv6 / bagi
+                          :mod (vv7 / tim
+                                    :mod (vv8 / renang)
+                                    :mod (vv9 / amerika
+                                              :mod (vv10 / serikat))))
+               :mod (vv11 / 2004)
+               :mod (vv12 / balas
+                          :mod (vv13 / dan)
+                          :mod (vv14 / sangat)
+                          :mod (vv15 / ingin)
+                          :ARG1 (vv16 / kalah)
+                          :location (vv17 / london
+                                          :mod (vv18 / 2012))))
+     :mod (vv19 / lalu))
+
+# ::snt Emas ini menjadi medali ke-23 Phelps selama mengikuti Olimpiade: 19 emas, dua perak, dan dua perunggu.
+
+(vv1 / jadi
+     :ARG0 (vv2 / emas)
+     :ARG1 (vv4 / ke23
+                :name (vv6 / ikut
+                           :ARG1 (vv8 / 19)))
+     :ARG1 (vv7 / olimpiade
+                :mod (vv3 / medali
+                          :mod (vv5 / phelps))
+                :mod (vv9 / perak
+                          :mod (vv11 / perunggu
+                                     :mod (vv12 / dan)
+                                     :mod vv14))
+                :mod (vv10 / dua)
+                :mod vv13))
+

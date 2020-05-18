@@ -1,0 +1,103 @@
+# ::snt Penduduk di Kota Paris, Prancis telah diperingatkan mengenai ancaman banjir, setelah air di Sungai Seine yang terus meluap, dipicu oleh curah hujan tinggi -- dua kali lipat lebih banyak dari biasanya -- sejak Januari 2018.
+
+(vv1 / ingat
+     :ARG1 (vv2 / duduk
+                :location (vv3 / kota
+                          :location (vv4 / paris
+                                    :location (vv5 / prancis))))
+     :mod (vv6 / telah)
+     :mod (vv7 / ancam
+                    :mod (vv8 / banjir)
+                    :ARG1 (vv9 / air
+                               :location (vv10 / sungai
+                                          :name (vv11 / seine)
+                                          :mod (vv12 / luap
+                                                     :mod (vv13 / terus)))))
+     :mod (vv14 / picu
+                :mod (vv15 / curah
+                                :mod (vv16 / hujan
+                                           :mod (vv17 / tinggi))
+                                :mod (vv18 / kali
+                                           :quant (vv19 / dua))
+                                :mod (vv20 / lipat
+                                           :mod (vv21 / banyak
+                                                      :mod (vv22 / lebih))
+                                           :ARG1 (vv23 / januari
+                                                       :mod (vv24 / biasa)
+                                                       :time (vv25 / 2018))))))
+
+# ::snt Seperti dikutip dari The Guardian (25/1/2018), luapan air dari Sungai Seine telah membanjir jalan yang ada di dekatnya dan menyebabkan gangguan pada sejumlah jaringan transportasi kota.
+
+(vv1 / banjir
+     :mod (vv2 / kutip
+               :ARG1 (vv3 / guardian
+                          :time (vv4 / 2512018)))
+     :ARG0 (vv5 / luapan
+                :mod (vv6 / air)
+                :location (vv7 / sungai
+                          :name (vv8 / seine)))
+     :mod (vv9 / telah)
+     :ARG1 (vv10 / jalan
+                 :mod (vv11 / ada
+                            :location (vv12 / dekat)
+                            :mod (vv13 / sebab
+                                       :mod (vv14 / dan)
+                                       :ARG1 (vv15 / ganggu)
+                                       :mod (vv16 / jaring
+                                                       :mod (vv17 / transportasi
+                                                                  :mod (vv18 / kota)))))))
+
+# ::snt Hingga Rabu, 24 Januari 2018, air di Sungai Seine, Paris telah mencapai ketinggian sekitar 5 meter -- 4 meter lebih tinggi dari ketinggian normal.
+
+(vv1 / capai
+     :ARG1 (vv2 / rabu
+                :time (vv3 / januari
+                          :time (vv4 / 24)
+                          :time (vv5 / 2018)))
+     :ARG1 (vv6 / air
+                :location (vv7 / sungai
+                          :name (vv8 / seine
+                                     :location (vv9 / paris))))
+     :mod (vv10 / telah)
+     :ARG1 (vv11 / tinggi
+                 :mod (vv12 / meter
+                            :mod (vv15 / lebih)
+                            :mod (vv16 / normal)
+                            :mod vv17)
+                 :quant (vv13 / 5)
+                 :quant (vv14 / 4)
+                 :mod vv18
+                 :mod vv19))
+
+# ::snt Diperkirakan, air di sungai akan mencapai ketinggian sekitar 6 meter pada Sabtu akhir pekan nanti.
+
+(vv1 / capai
+     :mod (vv2 / kira
+               :ARG1 (vv3 / air
+                          :location (vv4 / sungai)))
+     :mod (vv5 / akan)
+     :ARG1 (vv6 / tinggi
+                :quant (vv7 / meter
+                          :quant (vv8 / 6)))
+     :ARG1 (vv9 / sabtu
+                :time (vv10 / akhir)
+                :time (vv11 / pekan))
+     :mod (vv12 / nanti))
+
+# ::snt Jika curah hujan masih tinggi beberapa hari ke depan, luapan air mungkin akan meluas ke kawasan Paris lainnya.
+
+(vv1 / luas
+     :mod (vv2 / curah
+               :mod (vv3 / hujan))
+     :mod (vv4 / tinggi
+               :mod (vv5 / masih)
+               :ARG1 (vv6 / hari)
+               :mod (vv7 / depan))
+     :ARG0 (vv8 / luap
+                :ARG1 (vv9 / air))
+     :mod (vv10 / mungkin)
+     :mod (vv11 / akan)
+     :location (vv12 / kawasan
+                     :location (vv13 / paris)
+                     :location (vv14 / lain)))
+

@@ -1,0 +1,215 @@
+# ::snt Majelis hakim Pengadilan Negeri Jakarta Pusat menjatuhkan vonis hukuman 20 tahun penjara kepada terdakwa kasus kematian Wayan Mirna Salihin, Jessica Kumala Wongso, Kamis (27/10/2016) sore.
+
+(vv1 / jatuh
+     :ARG0 (vv2 / majelis
+                :mod (vv3 / hakim
+                          :mod (vv4 / adil
+                                    :mod (vv5 / negeri
+                                              :name (vv6 / jakarta
+                                                         :mod (vv7 / pusat))))))
+     :ARG1 (vv8 / vonis
+                :mod (vv9 / hukum)
+                :mod (vv10 / tahun
+                           :mod (vv11 / 20)
+                           :mod (vv12 / penjara)))
+     :mod (vv13 / dakwa
+                :ARG1 (vv14 / kasus
+                            :mod (vv15 / mati
+                                       :mod (vv16 / wayan
+                                                  :name (vv17 / mirna
+                                                              :name (vv18 / salihin
+                                                                          :name (vv19 / jessica
+                                                                                      :name (vv20 / kumala
+                                                                                                  :name (vv21 / wongso
+                                                                                                              :name (vv22 / kamis
+                                                                                                                          :mod (vv23 / 27102016)))))))))))
+     :time (vv24 / sore))
+
+# ::snt Jessica dianggap bersalah dan memenuhi unsur dalam Pasal 340 Kitab Undang-Undang Hukum Pidana (KUHP) tentang Pembunuhan Berencana.
+
+(vv1 / anggap
+     :ARG1 (vv2 / jessica)
+     :mod (vv3 / salah)
+     :mod (vv4 / penuh
+               :mod (vv5 / dan)
+               :ARG1 (vv6 / unsur
+                          :mod (vv7 / pasal
+                                    :mod (vv8 / 340)
+                                    :mod (vv9 / kitab
+                                              :name (vv10 / undangundang
+                                                          :mod (vv11 / hukum
+                                                                     :mod (vv12 / pidana
+                                                                                :mod (vv13 / kuhp)))))
+                                    :mod (vv14 / bunuh
+                                               :mod (vv15 / rencana))))))
+
+# ::snt "Menyatakan terdakwa Jessica Kumala Wongso terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana pembunuhan berencana, menjatuhkan pidana 20 tahun penjara," kata Ketua Majelis Hakim Kisworo.
+
+(vv1 / bukti
+     :mod (vv2 / nyata
+               :ARG1 (vv3 / dakwa
+                          :name (vv4 / jessica
+                                     :name (vv5 / mala
+                                                :name (vv6 / wongso)))))
+     :ARG1 (vv7 / sah)
+     :mod (vv8 / yakin
+               :mod (vv9 / dan)
+               :mod (vv10 / salah)
+               :mod (vv11 / laku
+                          :ARG1 (vv12 / tindak
+                                      :mod (vv13 / pidana
+                                                 :mod (vv15 / rencana)
+                                                 :mod (vv18 / 20)
+                                                 :mod (vv20 / kata
+                                                            :ARG1 (vv22 / majelis
+                                                                        :name (vv24 / kisworo))))
+                                      :mod (vv16 / jatuh
+                                                 :ARG1 (vv14 / bunuh)))
+                          :ARG1 (vv17 / tahun
+                                      :mod (vv19 / penjara
+                                                 :mod (vv21 / ketua
+                                                            :mod (vv23 / hakim
+                                                                       :name vv25)))))))
+
+# ::snt Putusan majelis hakim sesuai dengan tuntutan jaksa penuntut umum.
+
+# ::snt Sebelumnya, jaksa penuntut umum menuntut Jessica dengan hukuman 20 tahun penjara, sesuai dengan ketentuan dalam Pasal 340 KUHP.
+
+(vv1 / tuntut
+     :ARG0 (vv2 / jaksa)
+     :mod (vv3 / umum)
+     :ARG0 (vv4 / jessica)
+     :ARG1 (vv5 / hukum
+                :mod (vv6 / tahun
+                          :mod (vv7 / 20))
+                :mod (vv8 / penjara
+                          :mod (vv9 / sesuai
+                                    :mod (vv10 / tentu
+                                               :mod (vv11 / pasal
+                                                          :name (vv12 / kuhp
+                                                                      :mod (vv13 / 340))))))))
+
+# ::snt Menurut majelis, hal yang memberatkan Jessica dalam kasus ini ialah perbuatan terdakwa membuat Wayan Mirna Salihin meninggal dunia, perbuatan keji dan sadis, terdakwa tidak pernah menyesal, dan tidak mengakui perbuatannya.
+
+(vv1 / buat
+     :mod (vv2 / majelis
+               :mod (vv3 / hal)
+               :mod (vv4 / berat
+                         :ARG0 (vv5 / jessica)
+                         :ARG1 (vv6 / kasus)))
+     :mod (vv7 / ialah)
+     :ARG1 (vv8 / dakwa
+                :mod (vv19 / pernah))
+     :ARG1 (vv10 / wayan
+                 :name (vv12 / salihin))
+     :mod (vv15 / sadis
+                :mod (vv9 / tinggal
+                          :ARG0 (vv11 / mirna
+                                      :name (vv13 / dunia))
+                          :ARG1 (vv14 / keji
+                                      :mod (vv16 / dan)))
+                :mod (vv17 / sesal
+                           :mod (vv20 / aku
+                                      :mod (vv18 / tidak)
+                                      :mod vv21)
+                           :mod vv22
+                           :mod vv23)))
+
+# ::snt Majelis juga menganggap ada hal yang meringankan, yakni Jessica masih berusia muda.
+
+(vv1 / anggap
+     :ARG0 (vv2 / majelis)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / ada
+                :ARG1 (vv5 / hal
+                           :mod (vv6 / ringan
+                                     :mod (vv7 / usia
+                                               :ARG0 (vv8 / jessica)
+                                               :mod (vv9 / masih)
+                                               :mod (vv10 / muda))))))
+
+# ::snt "Menimbang bahwa air mata terdakwa tidak tulus dari hati nurani yang mendalam," tutur hakim anggota Binsar Gultom, secara terpisah.
+
+(vv4 / timbang
+     :mod (vv1 / dakwa
+               :ARG1 (vv2 / air
+                          :mod (vv3 / mata))
+               :mod (vv5 / tulus
+                         :mod (vv6 / tidak)
+                         :mod (vv7 / hati
+                                   :mod (vv8 / nurani)
+                                   :mod (vv9 / dalam
+                                             :ARG1 (vv10 / tutur
+                                                         :ARG1 (vv11 / hakim
+                                                                     :mod (vv12 / anggota
+                                                                                :mod (vv13 / binsar
+                                                                                           :name (vv14 / gultom)))))
+                                             :ARG1 (vv15 / pisah))))))
+
+# ::snt Majelis pun meyakini ada pengaruh dorongan melakukan pembunuhan berencana dari fase hidup yang dialami Jessica selama di Australia hingga akhirnya dia pindah ke Indonesia.
+
+(vv1 / yakin
+     :ARG0 (vv2 / majelis)
+     :mod (vv3 / ada
+               :ARG1 (vv4 / pengaruh
+                          :mod (vv5 / dorong))
+               :ARG1 (vv6 / laku
+                          :ARG1 (vv7 / bunuh
+                                     :mod (vv8 / rencana
+                                               :location (vv9 / fase
+                                                              :mod (vv10 / hidup)
+                                                              :mod (vv11 / alami
+                                                                         :ARG0 (vv12 / jessica)
+                                                                         :location (vv13 / australia)))))))
+     :mod (vv14 / pindah
+                :mod (vv15 / akhir)
+                :ARG0 (vv16 / dia)
+                :ARG1 (vv17 / indonesia)))
+
+# ::snt Para penonton di dalam ruang sidang menyambut dengan tepuk tangan atas putusan majelis hakim itu.
+
+(vv1 / sambut
+     :ARG0 (vv2 / tonton
+                :mod (vv3 / ruang
+                          :mod (vv4 / dalam)
+                          :mod (vv5 / sidang)))
+     :ARG1 (vv6 / tepuk
+                :mod (vv7 / tangan)
+                :mod (vv8 / putus
+                          :mod (vv9 / majelis
+                                    :mod (vv10 / hakim)))))
+
+# ::snt Jessica pun diberikan kesempatan menanggapi vonis tersebut.
+
+(vv1 / beri
+     :ARG1 (vv2 / jessica)
+     :mod (vv3 / pun)
+     :ARG1 (vv4 / sempat
+                :mod (vv5 / tanggap
+                          :ARG1 (vv6 / vonis))))
+
+# ::snt "Saya tidak terima dengan putusan ini, selanjutnya saya serahkan kepada penasihat hukum," kata Jessica.
+
+(vv1 / terima
+     :ARG0 (vv2 / saya)
+     :mod (vv4 / putus)
+     :ARG1 (vv5 / serah
+                :ARG0 (vv3 / tidak)
+                :mod (vv7 / nasihat
+                          :mod (vv9 / kata
+                                    :name vv11))
+                :ARG1 (vv8 / hukum
+                           :mod (vv10 / jessica)))
+     :ARG1 (vv6 / lanjut))
+
+# ::snt Kuasa hukum terdakwa, Otto Hasibuan, menyatakan banding atas putusan tersebut.
+
+(vv1 / nyata
+     :ARG0 (vv2 / kuasa
+                :mod (vv3 / hukum)
+                :mod (vv4 / dakwa
+                          :ARG1 (vv5 / otto
+                                     :name (vv6 / hasibuan))))
+     :ARG1 (vv7 / banding
+                :mod (vv8 / putus)))
+

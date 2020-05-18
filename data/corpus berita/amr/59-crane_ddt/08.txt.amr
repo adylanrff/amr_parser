@@ -1,0 +1,112 @@
+# ::snt Korban meninggal akibat crane ambruk di proyek Double-Double Track (DDT) PT Kereta Api Indonesia (PT KAI) di Matraman, Jakarta Timur, bertambah menjadi empat orang.
+
+(vv1 / tinggal
+     :ARG0 (vv2 / korban)
+     :ARG1 (vv3 / akibat
+                :mod (vv4 / crane))
+     :mod (vv5 / ambruk
+               :location (vv6 / proyek
+                              :mod (vv7 / doubledouble
+                                        :name (vv8 / track
+                                                   :name (vv9 / ddt)))
+                              :mod (vv10 / pt
+                                         :mod (vv11 / kereta
+                                                    :mod (vv13 / indonesia))
+                                         :mod (vv12 / api
+                                                    :mod (vv14 / kai))
+                                         :name (vv15 / matraman
+                                                     :name (vv17 / timur)
+                                                     :mod (vv19 / jadi
+                                                                :ARG1 (vv21 / empat)))
+                                         :mod (vv16 / jakarta
+                                                    :mod (vv18 / tambah
+                                                               :ARG1 (vv20 / orang
+                                                                           :mod vv22)))))))
+
+# ::snt Gubernur DKI Jakarta Anies Baswedan menyebutkan dua pekerja yang meninggal di rumah sakit bernama Jana Sutisna asal Kampung Cikadung RT 03 RW 13, Padalarang, Bandung, Jawa Barat.
+
+(vv1 / sebut
+     :ARG0 (vv2 / gubernur
+                :name (vv3 / dki
+                           :name (vv4 / jakarta
+                                      :name (vv5 / anies
+                                                 :name (vv6 / baswedan)))))
+     :ARG1 (vv7 / kerja
+                :mod (vv8 / dua)
+                :mod (vv9 / tinggal
+                          :ARG1 (vv10 / rumah
+                                      :mod (vv11 / sakit)
+                                      :mod (vv12 / nama
+                                                 :ARG0 (vv13 / jana
+                                                             :name (vv14 / sutisna)))
+                                      :mod (vv15 / kampung
+                                                 :mod (vv16 / asal)
+                                                 :name (vv17 / cikadung
+                                                             :mod (vv18 / rt
+                                                                        :mod (vv19 / 03)))
+                                                 :mod (vv20 / rw
+                                                            :mod (vv21 / 13)
+                                                            :name (vv22 / padalarang
+                                                                        :mod (vv23 / bandung
+                                                                                   :mod (vv24 / jawa
+                                                                                              :mod (vv25 / barat))))))))))
+
+# ::snt Kemudian, Dami Prasetyo (25) asal Kampung Kewarakan Wetan, RT 03 RW 01, Kelurahan Kendal Rejo, Kecamatan Pituruh, Kabupaten Purworejo, Jawa tengah.
+
+(vv1 / dami
+     :mod (vv2 / kemudian)
+     :name (vv3 / prasetyo
+                :mod (vv4 / 25))
+     :mod (vv5 / kampung
+               :mod (vv6 / asal)
+               :name (vv7 / wara
+                          :name (vv8 / wetan
+                                     :mod (vv9 / rt
+                                               :mod (vv10 / 03)
+                                               :name (vv11 / rw
+                                                           :mod (vv12 / 01)))))
+               :mod (vv13 / lurah
+                          :name (vv14 / kendal
+                                      :name (vv15 / rejo))
+                          :mod (vv16 / camat
+                                     :name (vv17 / pituruh)
+                                     :mod (vv18 / kabupaten
+                                                :mod (vv19 / purworejo
+                                                           :name (vv20 / jawa
+                                                                       :mod (vv21 / tengah))))))))
+
+# ::snt Para pekerja yang meninggal maupun luka ringan dilarikan ke Rumah Sakit Premier Jatinegara dan Rumah Sakit Hermina, Jatinegara, Jakarta Timur.
+
+(vv1 / lari
+     :ARG1 (vv2 / kerja
+                :mod (vv3 / tinggal)
+                :mod (vv4 / luka
+                          :mod (vv5 / maupun)
+                          :mod (vv6 / ringan)))
+     :location (vv7 / rumah
+                    :mod (vv8 / sakit
+                              :name (vv11 / dan)
+                              :name vv15)
+                    :name (vv9 / premier
+                               :name (vv12 / hermina
+                                           :name (vv13 / jakarta
+                                                       :mod vv17)))
+                    :name (vv10 / jatinegara
+                                :name vv16)
+                    :mod (vv14 / timur)))
+
+# ::snt Pekerja lainnya yang mengalami luka ringan adalah Zaenal (37) asal Garut, Jawa Barat.
+
+(vv1 / zaenal
+     :ARG0 (vv2 / kerja
+                :mod (vv3 / lain)
+                :mod (vv4 / alami
+                          :ARG1 (vv5 / luka
+                                     :mod (vv6 / ringan))))
+     :mod (vv7 / adalah)
+     :mod (vv8 / 37)
+     :mod (vv9 / garut
+               :mod (vv10 / asal)
+               :mod (vv11 / jawa
+                          :mod (vv12 / barat))))
+

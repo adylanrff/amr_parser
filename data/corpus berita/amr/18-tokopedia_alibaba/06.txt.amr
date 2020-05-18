@@ -1,0 +1,87 @@
+# ::snt "Alibaba Group dan Tokopedia memiliki kesamaan visi membantu UMKM dalam kesuksesan usahanya, dan Kami sangat senang dapat bekerja sama bersama Tokopedia untuk melayani seluruh masyarakat Indonesia," kata Daniel Zhang, CEO Alibaba Group, di Jakarta.
+
+(vv1 / milik
+     :ARG0 (vv2 / alibaba
+                :mod (vv4 / tokopedia
+                          :mod (vv8 / bantu
+                                    :ARG1 (vv14 / kami)
+                                    :ARG1 (vv15 / sangat)))
+                :mod (vv5 / dan)
+                :mod (vv6 / sama
+                          :mod (vv12 / kerja
+                                     :mod (vv7 / visi)
+                                     :mod (vv9 / umkm)
+                                     :mod (vv11 / usaha)
+                                     :mod (vv21 / daniel
+                                                :name vv27)
+                                     :ARG1 (vv22 / zhang
+                                                 :mod vv28))
+                          :mod (vv13 / senang
+                                     :ARG0 (vv19 / indonesia)
+                                     :mod (vv20 / kata
+                                                :name vv26))))
+     :ARG1 (vv10 / sukses
+                 :mod (vv16 / dapat)
+                 :mod (vv18 / masyarakat
+                            :mod (vv24 / jakarta)
+                            :mod vv25))
+     :ARG1 (vv17 / layan
+                 :ARG1 (vv23 / ceo
+                             :name (vv3 / group))
+                 :location vv29))
+
+# ::snt Sementara itu, CEO dan Co-Founder Tokopedia William Tanuwijaya menjelaskan, dana tersebut akan digunakan untuk meningkatkan skala dan kualitas pelayanan Tokopedia kepada pengguna.
+
+(vv1 / jelas
+     :ARG0 (vv2 / ceo
+                :mod (vv3 / cofounder
+                          :mod (vv4 / dan)
+                          :name (vv6 / william
+                                     :name (vv9 / guna
+                                                :mod (vv13 / kualitas
+                                                           :mod (vv5 / tokopedia
+                                                                     :name (vv8 / dana))
+                                                           :mod vv17)
+                                                :ARG1 (vv14 / layan
+                                                            :name (vv7 / tanuwijaya))))))
+     :ARG1 (vv10 / akan)
+     :mod (vv11 / tingkat
+                :location (vv12 / skala
+                                :mod vv16)
+                :ARG1 vv15))
+
+# ::snt "Sekaligus mempermudah para penjual dan mitra Tokopedia mengembangkan usahanya ke seluruh pelosok nusantara bahkan hingga ke penjuru dunia," tutur Wiliam.
+
+(vv1 / mudah
+     :mod (vv2 / sekaligus)
+     :ARG1 (vv3 / jual
+                :mod (vv4 / mitra
+                          :mod (vv5 / dan)
+                          :name (vv6 / tokopedia)))
+     :mod (vv7 / kembang
+               :ARG1 (vv8 / usaha)
+               :location (vv9 / pelosok
+                              :mod (vv10 / nusantara)
+                              :mod (vv11 / bahkan))
+               :location (vv12 / penjuru
+                               :mod (vv13 / dunia
+                                          :mod (vv14 / tutur
+                                                     :name (vv15 / wiliam))))))
+
+# ::snt "Kami percaya kemitraan ini akan mempercepat terwujudnya misi kami dalam menggerakkan pemerataan ekonomi secara digital," lanjutnya.
+
+(vv1 / percaya
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / cepat
+               :ARG0 (vv4 / mitra)
+               :mod (vv5 / akan)
+               :ARG1 (vv6 / wujud
+                          :mod (vv7 / misi))
+               :mod (vv8 / gerak
+                         :ARG1 (vv9 / perata
+                                    :mod (vv10 / ekonomi))
+                         :ARG1 (vv11 / digital)))
+     :mod (vv12 / lanjut))
+
+# ::snt Tokopedia didirikan pada 2009 dan menjadi perusahaan platform marketplace di Indonesia yang memungkinkan jutaan UMKM dan pemegang merek lokal di Indonesia memulai dan mengembangkan usaha mereka secara online.
+

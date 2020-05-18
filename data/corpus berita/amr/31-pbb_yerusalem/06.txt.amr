@@ -1,0 +1,142 @@
+# ::snt Pemungutan suara (voting) di sidang darurat Majelis Umum PBB, Kamis (21/12/2017), mendapati 128 negara menentang langkah Amerika Serikat yang mengakui Yerusalem sebagai ibu kota Israel.
+
+(vv1 / dapat
+     :ARG0 (vv2 / pemungutan
+                :mod (vv3 / suara
+                          :mod (vv4 / voting))
+                :mod (vv5 / sidang
+                          :mod (vv6 / darurat)
+                          :mod (vv7 / majelis
+                                    :mod (vv8 / umum)
+                                    :mod (vv9 / pbb
+                                              :mod (vv10 / kamis
+                                                         :mod (vv11 / 21122017))))))
+     :ARG1 (vv12 / negara
+                 :mod (vv13 / 128))
+     :ARG1 (vv14 / tentang
+                 :ARG1 (vv15 / langkah
+                             :name (vv16 / amerika
+                                         :mod (vv17 / serikat))
+                             :mod (vv18 / aku
+                                        :ARG0 (vv19 / yerusalem)
+                                        :ARG1 (vv20 / ibu
+                                                    :mod (vv21 / kota
+                                                               :name (vv22 / israel)))))))
+
+# ::snt Resolusi tersebut menegaskan kembali bahwa status final Yerusalem hanya dapat diselesaikan melalui pembicaraan langsung antara Palestina dan Israel sebagaimana disepakati dalam sejumlah resolusi PBB sebelumnya.
+
+(vv1 / tegas
+     :ARG0 (vv2 / resolusi
+                :mod vv17)
+     :mod (vv4 / selesai
+               :ARG1 (vv6 / final
+                          :mod (vv8 / hanya))
+               :mod (vv9 / dapat)
+               :mod (vv10 / bicara
+                          :mod (vv12 / palestina
+                                     :mod (vv14 / dan))
+                          :mod (vv13 / israel
+                                     :mod (vv15 / pakat
+                                                :ARG1 (vv3 / kembali))))
+               :ARG1 (vv11 / langsung)
+               :mod (vv16 / pbb))
+     :mod (vv5 / status
+               :mod (vv7 / yerusalem)))
+
+# ::snt Pemungutan suara di Majelis Umum PBB ini digelar setelah Amerika Serikat pada Senin (18/12/2017) menggunakan hak veto untuk menolak rancangan resolusi Dewan Keamanan PBB yang meminta negara itu membatalkan pengakuan Yerusalem sebagai ibu kota Israel.
+
+(vv1 / gelar
+     :ARG1 (vv2 / pemungutan
+                :mod (vv3 / suara)
+                :mod (vv4 / majelis
+                          :mod (vv5 / umum
+                                    :mod (vv6 / pbb))))
+     :location (vv8 / serikat)
+     :time (vv10 / 18122017)
+     :mod (vv12 / hak
+                :mod (vv14 / tolak
+                           :ARG1 (vv16 / resolusi
+                                       :mod (vv18 / aman
+                                                  :mod (vv7 / amerika
+                                                            :mod (vv9 / senin
+                                                                      :mod (vv11 / guna
+                                                                                 :ARG1 (vv13 / veto)
+                                                                                 :ARG1 (vv15 / rancang
+                                                                                             :mod (vv17 / dewan
+                                                                                                        :mod (vv19 / minta
+                                                                                                                   :ARG1 (vv21 / batal
+                                                                                                                               :ARG0 (vv23 / yerusalem))))
+                                                                                             :mod (vv20 / negara)))))))
+                           :ARG1 (vv22 / aku
+                                       :mod (vv24 / ibu
+                                                  :mod (vv26 / israel))
+                                       :mod (vv25 / kota
+                                                  :name vv27)))))
+
+# ::snt Hanya Amerika Serikat yang menentang rancangan resolusi di sidang Dewan Keamanan PBB itu dari 15 anggota.
+
+(vv1 / amerika
+     :mod (vv2 / hanya)
+     :mod (vv3 / serikat)
+     :mod (vv4 / tentang
+               :ARG1 (vv5 / rancang
+                          :mod (vv6 / resolusi)
+                          :mod (vv7 / sidang
+                                    :mod (vv8 / dewan
+                                              :mod (vv9 / aman
+                                                        :mod (vv10 / pbb)))))
+               :ARG1 (vv11 / anggota
+                           :mod (vv12 / 15))))
+
+# ::snt Adapun pengakuan Yerusalem sebagai ibu kota Israel dinyatakan Presiden Amerika Serikat Donald Trump pada Selasa (6/12/2017) dan langsung mendapat penolakan dari berbagai belahan dunia, termasuk Indonesia.
+
+(vv1 / nyata
+     :ARG1 (vv2 / aku
+                :mod (vv3 / yerusalem)
+                :mod (vv4 / ibu
+                          :mod (vv5 / kota
+                                    :name (vv6 / israel))))
+     :ARG0 (vv7 / presiden
+                :name (vv8 / amerika
+                           :mod (vv9 / serikat))
+                :mod (vv10 / donald
+                           :name (vv11 / trump)))
+     :ARG1 (vv12 / selasa
+                 :mod (vv13 / 6122017))
+     :mod (vv14 / dapat
+                :mod (vv15 / dan)
+                :mod (vv16 / langsung)
+                :ARG1 (vv17 / tolak
+                            :ARG1 (vv18 / bahan
+                                        :mod (vv19 / dunia)))
+                :ARG1 (vv20 / masuk
+                            :ARG1 (vv21 / indonesia))))
+
+# ::snt Resolusi PBB 377 yang terbit pada 1950 menjadi payung hukum penyelenggaraan sidang darurat Majelis Umum PBB dalam hal Dewan Keamanan PBB gagal membuat resolusi terkait perdamaian karena penggunaan hak veto.
+
+# ::snt Duta Besar Amerika Serikat untuk PBB Nikki Haley menyatakan, negaranya tetap akan memindahkan kedutaan besarnya di Israel ke Yerusalem sekalipun ada resolusi Majelis Umum PBB ini.
+
+# ::snt "Ketika kami memberikan kontribusi yang murah hati kepada PBB, kami juga memiliki harapan yang sah bahwa niat baik kami diakui dan dihormati," ujar Haley.
+
+# ::snt Adapun Duta Besar Palestina untuk PBB Riyad Mansour menyebut hasil pemungutan suara 128 berbanding sembilan ini merupakan kemunduran besar bagi Amerika Serikat.
+
+(vv1 / sebut
+     :mod (vv2 / adapun)
+     :ARG0 (vv3 / duta
+                :mod (vv4 / besar
+                          :name (vv6 / pbb
+                                     :name (vv8 / mansour)))
+                :mod (vv7 / riyad
+                          :name (vv9 / hasil
+                                     :mod (vv11 / suara
+                                                :mod (vv13 / banding
+                                                           :mod (vv15 / rupa
+                                                                      :mod (vv17 / amerika
+                                                                                 :mod vv19))))
+                                     :mod (vv14 / sembilan))))
+     :ARG1 (vv10 / mungut
+                 :mod (vv12 / 128))
+     :ARG1 (vv16 / mundur
+                 :mod (vv5 / palestina)
+                 :mod (vv18 / serikat)))
+

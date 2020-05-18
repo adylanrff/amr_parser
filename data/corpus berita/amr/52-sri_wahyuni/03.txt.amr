@@ -1,0 +1,103 @@
+# ::snt Sri Wahyuni meraih medali perak lewat kelas 48 kg putri dengan total mengangkat beban 192 kilogram, yaitu 85 kg snatch dan 107 kg clean and jerk.
+
+(vv1 / raih
+     :ARG0 (vv2 / sri
+                :name (vv3 / wahyuni))
+     :ARG1 (vv4 / medali
+                :mod (vv5 / perak)
+                :mod (vv6 / kelas
+                          :mod (vv7 / lewat)
+                          :mod (vv8 / kg
+                                    :mod (vv11 / total)
+                                    :mod (vv22 / and))
+                          :mod (vv12 / angkat
+                                     :ARG1 (vv15 / 192))))
+     :ARG1 (vv13 / beban
+                 :mod (vv16 / snatch
+                            :mod (vv9 / 48)
+                            :mod (vv19 / dan))
+                 :mod (vv18 / clean
+                            :mod (vv10 / putri)
+                            :mod (vv21 / jerk
+                                       :mod vv24))
+                 :mod (vv20 / 107)
+                 :mod vv23)
+     :ARG1 (vv14 / kilogram
+                 :mod (vv17 / 85)))
+
+# ::snt Peraih medali emas di kelas ini adalah Sopita Tanasan asal Thailand dengan total angkatan beban 200 kg, lewat 92 kg snatch dan 108 kg clean and jerk, sementara Hiromi Miyake asal Jepang yang empat tahun lalu meraih medali perak di kelas yang sama, kini mendapat medali perunggu dengan mengangkat 188 kg.
+
+(vv1 / sopita
+     :ARG0 (vv2 / raih
+                :mod (vv4 / emas)
+                :ARG1 (vv5 / kelas
+                           :mod vv40)
+                :mod (vv8 / thailand
+                          :mod (vv13 / kg
+                                     :mod (vv23 / dapat
+                                                :mod (vv3 / medali
+                                                          :mod (vv7 / tanasan)
+                                                          :mod (vv9 / asal)
+                                                          :mod vv39
+                                                          :mod vv42)
+                                                :ARG1 (vv6 / adalah)
+                                                :mod (vv17 / 92)
+                                                :ARG0 (vv33 / perunggu)
+                                                :mod vv41)
+                                     :mod (vv26 / jepang
+                                                :mod (vv14 / 200))
+                                     :mod (vv29 / lalu)
+                                     :mod vv43))
+                :mod vv38)
+     :mod (vv10 / total
+                :mod (vv16 / lewat))
+     :name (vv11 / angkat
+                 :mod (vv18 / clean
+                            :mod (vv21 / jerk
+                                       :mod (vv31 / sama))
+                            :mod (vv28 / empat)
+                            :mod (vv30 / perak))
+                 :ARG1 (vv22 / and)
+                 :mod (vv24 / hiromi
+                            :name (vv34 / 188)
+                            :mod vv35
+                            :mod vv36))
+     :mod (vv12 / beban
+                :mod (vv19 / dan))
+     :mod (vv15 / snatch
+                :mod (vv20 / 108)
+                :mod (vv25 / miyake)
+                :mod (vv27 / tahun
+                           :mod vv37))
+     :mod (vv32 / kini))
+
+# ::snt Indonesia menargetkan tiga medali emas pada Olimpiade 2016.
+
+(vv1 / target
+     :ARG0 (vv2 / indonesia)
+     :ARG1 (vv3 / medali
+                :mod (vv4 / tiga)
+                :mod (vv5 / emas))
+     :location (vv6 / olimpiade
+                    :mod (vv7 / 2016)))
+
+# ::snt Dari tiga target medali emas itu, dua emas diharapkan pemerintah diraih oleh cabang olahraga bulu tangkis dan satu dari angkat besi.
+
+(vv3 / harap
+     :location (vv1 / target
+                    :mod (vv2 / tiga)
+                    :mod (vv4 / medali
+                              :mod (vv5 / emas
+                                        :mod (vv7 / pemerintah))))
+     :ARG1 (vv6 / dua)
+     :ARG1 (vv8 / raih
+                :ARG1 (vv10 / olahraga
+                            :mod (vv12 / tangkis
+                                       :mod (vv14 / dan))))
+     :ARG1 (vv9 / cabang
+                :mod (vv11 / bulu
+                           :mod (vv13 / satu
+                                      :mod (vv15 / angkat
+                                                 :mod vv17)
+                                      :mod (vv16 / besi)))))
+

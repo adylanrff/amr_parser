@@ -1,0 +1,49 @@
+# ::snt Otopsi yang dilakukan pada Selasa (12/8/2014) pagi waktu setempat menunjukkan bahwa tidak adanya indikasi perlawanan atau perkelahian fisik sehingga disimpulkan penyebab kematian Robin benar karena bunuh diri.
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / otopsi
+                :mod (vv3 / laku
+                          :time (vv4 / selasa
+                                     :mod (vv5 / 1282014)
+                                     :mod (vv6 / pagi
+                                               :mod (vv7 / waktu
+                                                         :mod (vv8 / tempat))))))
+     :mod (vv9 / ada
+               :mod (vv10 / tidak)
+               :ARG1 (vv11 / indikasi
+                           :mod (vv12 / lawan)
+                           :mod (vv13 / kelahi
+                                      :mod (vv14 / atau)
+                                      :mod (vv15 / fisik)))
+               :mod (vv16 / simpul
+                          :ARG1 (vv17 / sebab
+                                      :mod (vv18 / mati
+                                                 :name (vv19 / robin)
+                                                 :mod (vv20 / benar)))
+                          :mod (vv21 / bunuh
+                                     :ARG1 (vv22 / diri)))))
+
+# ::snt "Saat ditemukan Robin berada dalam posisi duduk, tidak bereaksi dan dengan sabuk melilit lehernya sedangkan ujung sabuk terjepit di antara pintu lemari yang tertutup dan kusen pintu," ujar asisten pribadi Robin dikutip dari CNN, Rabu (13/8/2014).
+
+# ::snt Hasil tes toksikologi akan memakan waktu beberapa minggu untuk menunjukkan apakah Robin berada di bawah pengaruh obat-obatan atau alkohol saat meninggal dunia.
+
+(vv1 / makan
+     :ARG0 (vv2 / hasil
+                :mod (vv3 / tes
+                          :mod (vv4 / toksikologi)))
+     :mod (vv5 / akan)
+     :ARG1 (vv6 / waktu
+                :mod (vv7 / minggu))
+     :mod (vv8 / tunjuk)
+     :mod (vv9 / ada
+               :mod (vv10 / apakah)
+               :ARG0 (vv11 / robin)
+               :ARG1 (vv12 / bawah
+                           :mod (vv13 / pengaruh
+                                      :mod (vv14 / obatobatan
+                                                 :mod (vv15 / alkohol
+                                                            :mod (vv16 / atau)))))
+               :mod (vv17 / tinggal
+                          :ARG1 (vv18 / saat)
+                          :ARG1 (vv19 / dunia))))
+

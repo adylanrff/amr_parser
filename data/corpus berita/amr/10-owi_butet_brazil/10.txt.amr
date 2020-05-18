@@ -1,0 +1,31 @@
+# ::snt Liliyana/Tontowi menumbangkan ganda campuram Malaysia, Chan Peng Soon/Goh Liu Ying dua set langsung dengan skor 21-14, 21-12 dalam pertandingan yang digelar di di Riocentro Pavilion 4, Rio de Janeiro, Brasil, Rabu, waktu setempat.
+
+(vv1 / tumbang
+     :ARG0 (vv2 / liliyanatontowi)
+     :ARG1 (vv3 / ganda)
+     :ARG1 (vv4 / campuram
+                :name (vv5 / malaysia
+                           :name (vv6 / chan
+                                      :name (vv7 / peng
+                                                 :name (vv8 / soongoh
+                                                            :name (vv9 / liu
+                                                                       :name (vv10 / ying)))))))
+     :ARG1 (vv11 / set
+                 :mod (vv12 / dua)
+                 :mod (vv13 / langsung))
+     :ARG1 (vv14 / skor
+                 :mod (vv15 / 2114)
+                 :mod (vv16 / 2112)
+                 :mod (vv17 / tanding
+                            :mod (vv18 / gelar
+                                       :location (vv19 / riocentro
+                                                       :name (vv20 / pavilion
+                                                                   :mod (vv21 / 4))
+                                                       :name (vv22 / rio
+                                                                   :mod (vv23 / de
+                                                                              :name (vv24 / janeiro
+                                                                                          :name (vv25 / brasil)))))
+                                       :ARG1 (vv26 / waktu
+                                                   :mod (vv27 / rabu)
+                                                   :mod (vv28 / tempat))))))
+

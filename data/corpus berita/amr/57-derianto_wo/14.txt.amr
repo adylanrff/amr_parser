@@ -1,0 +1,82 @@
+# ::snt Traveloka memberikan klarifikasi terkait rumor salah satu pendirinya, Derianto Kusumo, melakukan aksi walk out saat Gubernur DKI Jakarta, Anies Baswedan, berpidato di acara HUT ke-90 Kolese Kanisius di Kemayoran pada Sabtu (11/11/2017) lalu.
+
+# ::snt Penyedia layanan pemesanan tiket perjalanan dan hotel itu membantah Derianto hadir dalam acara tersebut, sehingga tidak mungkin ia terlibat aksi walk out.
+
+(vv1 / ban
+     :ARG0 (vv2 / sedia
+                :mod (vv3 / layan
+                          :mod (vv4 / mesan
+                                    :mod (vv5 / tiket
+                                              :mod (vv6 / jalan
+                                                        :mod (vv7 / hotel
+                                                                  :mod (vv8 / dan)))))))
+     :ARG1 (vv9 / hadir
+                :ARG0 (vv10 / derianto)
+                :ARG1 (vv11 / acara))
+     :mod (vv12 / libat
+                :mod (vv13 / tidak)
+                :mod (vv14 / mungkin)
+                :ARG1 (vv15 / ia)
+                :ARG1 (vv16 / aksi
+                            :mod (vv17 / walk
+                                       :mod (vv18 / out)))))
+
+# ::snt "Beliau berhalangan hadir dikarenakan beliau sedang melakukan perjalanan dinas yang telah direncanakan beberapa bulan sebelumnya," kata Busyra dalam keterangan resminya, Selasa (14/11/2017).
+
+(vv1 / halang
+     :ARG0 (vv2 / beliau)
+     :ARG1 (vv4 / karena)
+     :mod (vv5 / laku
+               :ARG0 (vv3 / hadir)
+               :mod (vv7 / jalan
+                         :mod (vv9 / rencana
+                                   :mod (vv11 / bulan
+                                              :mod (vv13 / busyra))
+                                   :time (vv12 / kata
+                                               :name (vv14 / terang
+                                                           :mod (vv16 / selasa
+                                                                      :mod vv18)
+                                                           :mod (vv17 / 14112017)))
+                                   :ARG1 (vv15 / resmi))
+                         :mod (vv10 / telah))
+               :ARG1 (vv8 / dinas))
+     :mod (vv6 / sedang))
+
+# ::snt Terkait pidato Anies di acara Kolese Kanisius, Busyra menyatakan bahwa Traveloka merupakan perusahaan berbasis teknologi yang didirikan oleh anak-anak Indonesia, mengedepankan nilai saling menghargai, bertoleransi, dan berinovasi.
+
+(vv1 / nyata
+     :mod (vv2 / kait
+               :ARG1 (vv3 / pidato
+                          :name (vv4 / anies)
+                          :mod (vv5 / acara
+                                    :mod (vv6 / kolese
+                                              :name (vv7 / kanisius
+                                                         :name (vv8 / busyra))))))
+     :mod (vv9 / rupa
+               :ARG0 (vv10 / traveloka)
+               :ARG1 (vv11 / usaha
+                           :mod (vv12 / bas
+                                      :ARG1 (vv13 / teknologi
+                                                  :mod (vv14 / diri
+                                                             :location (vv15 / anakanak
+                                                                             :name (vv16 / indonesia))
+                                                             :mod (vv17 / depan
+                                                                        :ARG1 (vv18 / nilai)
+                                                                        :ARG1 (vv19 / harga
+                                                                                    :mod (vv20 / saling)
+                                                                                    :ARG1 (vv21 / toleransi))))))))
+     :mod (vv22 / inovasi
+                :mod (vv23 / dan)))
+
+# ::snt "Nilai-nilai ini senantiasa diterapkan kepada karyawan maupun pemangku kepentingan eksternal," ujarnya.
+
+(vv1 / terap
+     :ARG1 (vv2 / nilainilai)
+     :mod (vv3 / senantiasa)
+     :ARG1 (vv4 / karyawan
+                :mod (vv5 / mang
+                          :mod (vv6 / maupun)
+                          :mod (vv7 / penting
+                                    :mod (vv8 / eksternal))))
+     :mod (vv9 / ujar))
+

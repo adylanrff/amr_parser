@@ -1,0 +1,42 @@
+# ::snt Mark Salling, yang dikenal sebagai bintang serial Glee, ditemukan tewas di usia 35 tahun pada Selasa (30/1/2018) di kediamannya di Los Angeles, Amerika Serikat.
+
+(vv1 / temu
+     :ARG1 (vv2 / mark
+                :mod (vv3 / salling)
+                :mod (vv4 / kenal
+                          :ARG1 (vv5 / bintang
+                                     :mod (vv6 / serial
+                                               :mod (vv7 / glee)))))
+     :ARG1 (vv8 / tewas
+                :ARG1 (vv9 / usia
+                           :mod (vv10 / tahun
+                                      :mod (vv11 / 35))))
+     :time (vv12 / selasa
+                 :mod (vv13 / 3012018))
+     :ARG1 (vv14 / diam
+                 :mod (vv15 / los
+                            :mod (vv16 / angeles
+                                       :name (vv17 / amerika
+                                                   :mod (vv18 / serikat))))))
+
+# ::snt Meskipun Mark Salling dinyatakan bersalah dalam kasus pornografi anak sejak Oktober 2017, rekan-rekannya sesama bintang Glee tetap menyampaikan rasa duka atas meninggalnya sahabat mereka tersebut.
+
+(vv4 / sampai
+     :mod (vv1 / nyata
+               :ARG1 (vv2 / mark
+                          :name (vv3 / salling))
+               :mod (vv5 / salah)
+               :ARG1 (vv6 / kasus
+                          :mod (vv7 / pornografi
+                                    :mod (vv8 / anak))
+                          :mod (vv9 / oktober
+                                    :mod (vv10 / 2017))))
+     :ARG0 (vv11 / rekanrekannya)
+     :ARG0 (vv12 / bintang
+                 :mod (vv13 / glee))
+     :mod (vv14 / tetap)
+     :ARG1 (vv15 / rasa
+                 :mod (vv16 / duka))
+     :ARG1 (vv17 / tinggal
+                 :ARG1 (vv18 / sahabat)))
+

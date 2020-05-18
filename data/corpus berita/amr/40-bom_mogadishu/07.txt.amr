@@ -1,0 +1,136 @@
+# ::snt Senator Abshir Mohamed Ahmed mengatakan korban serangan bom mobil ganda di Mogadishu, ibu kota Somalia, bertambah menjadi setidaknya 230 orang.
+
+(vv1 / kata
+     :ARG0 (vv2 / senator
+                :name (vv3 / abshir
+                           :name (vv4 / mohamed
+                                      :name (vv5 / ahmed))))
+     :ARG1 (vv6 / korban
+                :mod (vv7 / serang
+                          :mod (vv8 / bom)
+                          :mod (vv9 / mobil
+                                    :mod (vv10 / ganda)))
+                :mod (vv11 / mogadishu
+                           :mod (vv12 / ibu
+                                      :mod (vv13 / kota
+                                                 :name (vv14 / somalia)))))
+     :mod (vv15 / tambah
+                :ARG1 (vv16 / jadi
+                            :mod (vv17 / tidak)
+                            :ARG1 (vv18 / orang
+                                        :mod (vv19 / 230)))))
+
+# ::snt Ia menyampaikan hal tersebut pada Minggu waktu setempat (15/10), mengutip rumah sakit sebagai sumber informasi terkait jumlah korban.
+
+(vv1 / sampai
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / hal)
+     :time (vv4 / minggu
+                :mod (vv5 / waktu
+                          :mod (vv6 / tempat
+                                    :mod (vv7 / 1510))))
+     :mod (vv8 / kutip
+               :ARG1 (vv9 / rumah
+                          :mod (vv10 / sakit)
+                          :mod (vv11 / sumber
+                                     :mod (vv12 / informasi)
+                                     :mod (vv13 / kait
+                                                :ARG1 (vv14 / jumlah
+                                                            :mod (vv15 / korban)))))))
+
+# ::snt Serangan yang terjadi sehari sebelumnya itu menghancurkan puluhan kios dan Safari Hotel yang populer di jantung kota.
+
+(vv1 / hancur
+     :ARG0 (vv2 / serang
+                :mod (vv3 / jadi
+                          :time (vv4 / hari)))
+     :ARG1 (vv5 / puluh
+                :mod (vv6 / kios
+                          :mod (vv7 / safari
+                                    :mod (vv8 / dan)
+                                    :ARG1 (vv9 / hotel
+                                               :mod (vv10 / populer
+                                                          :mod (vv11 / jantung
+                                                                     :mod (vv12 / kota))))))))
+
+# ::snt Rekaman video dari lokasi kejadian menunjukkan bangunan-bangunan rusak dan truk yang terbakar akibat ledakan pertama.
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / rekam
+                :mod (vv3 / video)
+                :mod (vv4 / lokasi
+                          :mod (vv5 / jadi)))
+     :ARG0 (vv6 / bangunanbangunan
+                :mod (vv7 / rusak)
+                :mod (vv8 / truk
+                          :mod (vv9 / dan))
+                :mod (vv10 / bakar
+                           :ARG1 (vv11 / akibat
+                                       :mod (vv12 / ledak
+                                                  :mod (vv13 / pertama))))))
+
+# ::snt Sebuah bangunan putih besar ambruk dan gedung-gedung lain tampak hancur hitam legam.
+
+(vv1 / ambruk
+     :ARG0 (vv2 / bangun
+                :mod (vv3 / putih)
+                :mod (vv4 / besar))
+     :mod (vv5 / tampak
+               :mod (vv6 / dan)
+               :ARG0 (vv7 / gedunggedung
+                          :mod (vv8 / lain))
+               :ARG1 (vv9 / hancur
+                          :mod (vv10 / hitam)
+                          :mod (vv11 / legam))))
+
+# ::snt Beberapa menit setelah serangan pertama, bom mobil kedua meledak di dekat distrik Madina.
+
+(vv1 / ledak
+     :location (vv2 / menit)
+     :location (vv3 / serang
+                    :mod (vv4 / pertama)
+                    :mod (vv5 / bom
+                              :mod (vv6 / mobil
+                                        :mod (vv7 / dua))))
+     :location (vv8 / distrik
+                    :mod (vv9 / dekat)
+                    :name (vv10 / madina)))
+
+# ::snt Sejauh ini belum ada pihak yang mengklaim bertanggung jawab.
+
+(vv1 / ada
+     :location (vv2 / jauh)
+     :mod (vv3 / belum)
+     :ARG0 (vv4 / pihak
+                :mod (vv5 / klaim
+                          :mod (vv6 / tanggung
+                                    :ARG1 (vv7 / jawab)))))
+
+# ::snt Pasukan keamanan telah diberi tahu soal kendaraan pembawa bahan peledak dan sempat mengejarnya di distrik K5 saat ledakan terjadi, kata Kolonel Ahmed Hassan dari kepolisian Mogadishu.
+
+# ::snt Distrik ramai itu adalah lokasi yang dipenuhi sejumlah gedung, restoran dan hotel.
+
+(vv1 / lokasi
+     :ARG0 (vv2 / distrik
+                :mod (vv3 / ramai))
+     :mod (vv4 / adalah)
+     :mod (vv5 / penuh
+               :ARG1 (vv6 / gedung
+                          :mod (vv7 / restoran)
+                          :mod (vv8 / hotel
+                                    :mod (vv9 / dan)))))
+
+# ::snt Video lain dari tempat kejadian di media sosial menunjukkan asap hitam membumbung tinggi.
+
+(vv1 / tunjuk
+     :ARG0 (vv2 / video
+                :mod (vv3 / lain)
+                :mod (vv4 / tempat
+                          :mod (vv5 / jadi)
+                          :mod (vv6 / media
+                                    :mod (vv7 / sosial))))
+     :ARG1 (vv8 / asap
+                :mod (vv9 / hitam)
+                :mod (vv10 / bumbung
+                           :mod (vv11 / tinggi))))
+

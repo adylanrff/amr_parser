@@ -1,0 +1,128 @@
+# ::snt Dunia mengutuk teror bom Taliban di Kabul, Afganistan yang menewaskan sedikitnya 95 orang dan melukai sekitar 200 orang kemarin, 27 Januari 2018.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / dunia)
+     :ARG1 (vv3 / teror
+                :mod (vv4 / bom
+                          :mod (vv5 / talib))
+                :mod (vv6 / kabul
+                          :name (vv7 / afganistan))
+                :mod (vv8 / tewas
+                          :mod (vv9 / sedikit)
+                          :ARG1 (vv10 / orang
+                                      :mod (vv12 / luka
+                                                 :location (vv11 / 95)
+                                                 :mod (vv14 / 200)
+                                                 :ARG1 (vv16 / kemarin))
+                                      :mod (vv15 / januari
+                                                 :time (vv17 / 27)
+                                                 :mod (vv18 / 2018)
+                                                 :mod vv19))
+                          :mod (vv13 / dan))))
+
+# ::snt Sekretaris Jenderal PBB, Antonio Guterres mengatakan serangan membabibuta terhadap warga sipil merupakan kejahatan terhadap HAM dan hukum internasional dan tidak akan pernah dibenarkan.
+
+(vv1 / kata
+     :ARG0 (vv2 / sekretaris
+                :mod (vv3 / jenderal
+                          :mod (vv4 / pbb
+                                    :name (vv5 / antonio
+                                               :name (vv6 / guterres)))))
+     :ARG1 (vv7 / serang
+                :mod (vv8 / membabibuta)
+                :mod (vv9 / warga
+                          :mod (vv10 / sipil))
+                :mod (vv11 / rupa
+                           :ARG1 (vv12 / jahat
+                                       :mod (vv13 / ham
+                                                  :mod (vv14 / hukum
+                                                             :mod (vv15 / dan)
+                                                             :mod (vv16 / internasional)
+                                                             :mod (vv17 / benar
+                                                                        :mod (vv19 / akan)
+                                                                        :mod (vv20 / pernah)
+                                                                        :mod vv21))))))
+     :ARG1 (vv18 / tidak))
+
+# ::snt "Mereka yang bertanggung jawab atas serangan hari ini harus diadili," kata Guterres dalam pernyataannya melalui juru bicaranya, seperti dikutip dari Associated Press of Pakistan, 27 Januari 2018.
+
+(vv1 / adil
+     :ARG1 (vv2 / mereka
+                :mod (vv3 / tanggung
+                          :ARG1 (vv4 / jawab)
+                          :location (vv5 / serang
+                                         :mod (vv6 / hari))))
+     :mod (vv7 / harus)
+     :ARG1 (vv8 / kata
+                :name (vv9 / guterres))
+     :ARG1 (vv10 / nyata
+                 :mod (vv11 / juru
+                            :mod (vv12 / lalu)
+                            :mod (vv13 / bicara)
+                            :mod (vv14 / kutip
+                                       :ARG1 (vv15 / associated
+                                                   :mod (vv16 / press)
+                                                   :mod (vv17 / of
+                                                              :mod (vv18 / pakistan)))
+                                       :ARG1 (vv19 / januari
+                                                   :mod (vv20 / 27)
+                                                   :mod (vv21 / 2018))))))
+
+# ::snt Guterres juga menyampaiakn rasa duka yang mendalam kepada keluarga korban dan berarap agar yang mengalami luka segera sembuh.
+
+(vv1 / menyampaiakn
+     :ARG0 (vv2 / guterres)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / rasa
+                :mod (vv5 / duka)
+                :mod (vv6 / dalam
+                          :ARG1 (vv7 / keluarga
+                                     :mod (vv8 / korban))
+                          :mod (vv9 / berarap
+                                    :mod (vv10 / dan)
+                                    :mod (vv11 / alami
+                                               :ARG1 (vv12 / luka)
+                                               :mod (vv13 / sembuh
+                                                          :mod (vv14 / segera)))))))
+
+# ::snt "Saya mengutuk serangan bom mobil yang tercela di Kabul hari ini yang menewaskan warga sipil tak berdosa dan ratusan orang terluka," kata Trump seperti dikutip dari Washington Post.
+
+(vv1 / kutuk
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / serang
+                :mod (vv4 / bom
+                          :mod (vv5 / mobil))
+                :mod (vv6 / cela
+                          :mod (vv7 / kabul)
+                          :time (vv8 / hari))
+                :mod (vv9 / tewas
+                          :ARG0 (vv10 / warga
+                                      :mod (vv11 / sipil)
+                                      :mod (vv12 / dosa
+                                                 :mod (vv13 / tak)))))
+     :mod (vv14 / luka
+                :mod (vv15 / dan)
+                :ARG1 (vv16 / orang)
+                :ARG1 (vv17 / kata
+                            :name (vv18 / trump))
+                :mod (vv19 / kutip
+                           :ARG1 (vv20 / washington)))
+     :ARG1 (vv21 / post))
+
+# ::snt Trump pun menyerukan seluruh negara mengambil aksi nyata melawan Taliban dan teroris yang mendukungnya.
+
+(vv1 / seru
+     :ARG0 (vv2 / trump)
+     :mod (vv3 / pun)
+     :ARG1 (vv4 / negara)
+     :mod (vv5 / ambil
+               :ARG1 (vv6 / aksi
+                          :mod (vv7 / nyata)
+                          :mod (vv8 / talib
+                                    :mod (vv9 / lawan)
+                                    :mod (vv10 / teroris
+                                               :mod (vv11 / dan)
+                                               :mod (vv12 / dukung))))))
+
+# ::snt Kutukan sekaligus kecaman atas teror bom mobil Taliban di Kabul, Afganistan juga disampaikan oleh pemerintah kerajaan Inggris dan India serta negara-negara di Timur Tengah seperti Uni Emirat Arab, Arab Saudi, dan Bahrain.
+

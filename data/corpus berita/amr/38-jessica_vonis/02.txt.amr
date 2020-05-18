@@ -1,0 +1,153 @@
+# ::snt Usai pembacaan vonis 20 tahun penjara, bukan tangisan yang diekspresikan Jessica Kumala Wongso.
+
+(vv1 / penjara
+     :mod (vv2 / baca
+               :mod (vv3 / vonis
+                         :mod (vv4 / tahun
+                                   :mod (vv5 / 20))))
+     :mod (vv6 / tangis
+               :mod (vv7 / bukan)
+               :mod (vv8 / ekspresi
+                         :ARG0 (vv9 / jessica
+                                    :name (vv10 / mala
+                                                :name (vv11 / wongso))))))
+
+# ::snt Ketika Ketua Majelis Hakim Kisworo mengetukkan palu tanda persidangan berakhir, Jessica langsung menghampiri para penasihat hukumnya.
+
+(vv6 / akhir
+     :mod (vv1 / ketuk
+               :ARG0 (vv2 / ketua
+                          :mod (vv3 / majelis
+                                    :name (vv4 / hakim
+                                               :name (vv5 / kisworo))))
+               :ARG1 (vv7 / palu
+                          :mod (vv8 / tanda
+                                    :mod (vv9 / sidang))))
+     :ARG1 (vv10 / hampir
+                 :ARG0 (vv11 / jessica)
+                 :mod (vv12 / langsung)
+                 :ARG1 (vv13 / nasihat
+                             :mod (vv14 / hukum))))
+
+# ::snt Satu hal tidak lazim yang dilakukannya usai persidangan berlangsung adalah kali ini dia menghadap ke penonton sebelah kanan dan mengungkapkan terima kasih kepada pendukungnya.
+
+(vv1 / langsung
+     :ARG0 (vv2 / hal
+                :mod (vv3 / lazim
+                          :mod (vv4 / tidak))
+                :mod (vv5 / laku
+                          :ARG1 (vv6 / sidang)))
+     :mod (vv7 / hadap
+               :mod (vv8 / adalah)
+               :ARG1 (vv9 / kali)
+               :ARG0 (vv10 / dia)
+               :mod (vv11 / tonton
+                          :mod (vv12 / kanan
+                                     :mod (vv13 / belah)))
+               :mod (vv14 / ungkap
+                          :mod (vv15 / dan)
+                          :ARG1 (vv16 / terima
+                                      :mod (vv17 / kasih))
+                          :ARG1 (vv18 / dukung))))
+
+# ::snt Ia mengatupkan tangannya sambil menunduk kepada mereka.
+
+(vv1 / katup
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / tangan)
+     :ARG1 (vv4 / tunduk
+                :mod (vv5 / sambil)
+                :ARG1 (vv6 / mereka)))
+
+# ::snt Tak lupa, senyuman tersungging di wajah perempuan berumur 28 tahun ini.
+
+(vv1 / lupa
+     :mod (vv2 / tak)
+     :ARG1 (vv3 / senyum)
+     :mod (vv4 / sungging
+               :ARG1 (vv5 / wajah
+                          :mod (vv6 / perempuan)
+                          :mod (vv7 / umur
+                                    :ARG1 (vv8 / tahun
+                                               :mod (vv9 / 28))))))
+
+# ::snt Sebelumnya, Hakim Kisworo mengatakan bahwa tindakan Jessica meracun Mirna sudah sesuai alat bukti dan keterangan ahli yang dihadirkan Jaksa Penuntut Umum (JPU).
+
+(vv1 / kata
+     :ARG0 (vv2 / hakim
+                :name (vv3 / kisworo))
+     :ARG1 (vv4 / racun
+                :ARG0 (vv5 / tindak
+                           :name (vv6 / jessica))
+                :ARG0 (vv7 / mirna)
+                :mod (vv8 / sesuai
+                          :mod (vv9 / sudah))
+                :ARG1 (vv10 / alat
+                            :mod (vv11 / bukti)
+                            :mod (vv12 / terang
+                                       :mod (vv13 / dan)
+                                       :mod (vv14 / ahli)
+                                       :mod (vv15 / hadir
+                                                  :ARG0 (vv16 / jaksa
+                                                              :name (vv17 / tuntut
+                                                                          :mod (vv18 / umum
+                                                                                     :name (vv19 / jpu)))))))))
+
+# ::snt "Atas ini kami menjatuhkan 20 tahun penjara kepada terdakwa Jessica Kumala Wongso," ujar Kisworo.
+
+(vv1 / jatuh
+     :mod (vv2 / atas)
+     :ARG0 (vv3 / kami)
+     :ARG1 (vv4 / tahun
+                :mod (vv5 / 20)
+                :mod (vv6 / penjara))
+     :location (vv7 / dakwa
+                    :name (vv8 / jessica
+                               :name (vv9 / mala
+                                          :name (vv10 / wongso))))
+     :mod (vv11 / ujar)
+     :mod (vv12 / kisworo))
+
+# ::snt Ketika itu, dirinya sempat tertunduk lemas di kursi pesakitan.
+
+(vv1 / tunduk
+     :ARG1 (vv2 / diri)
+     :mod (vv3 / sempat)
+     :mod (vv4 / lemas)
+     :location (vv5 / kursi
+                    :mod (vv6 / sakit)))
+
+# ::snt Kedua, terdakwa kejam karena membunuh teman akrabnya sendiri.
+
+(vv1 / dakwa
+     :mod (vv2 / dua)
+     :mod (vv3 / kejam)
+     :mod (vv4 / bunuh
+               :ARG1 (vv5 / teman
+                          :mod (vv6 / akrab)
+                          :mod (vv7 / sendiri))))
+
+# ::snt Sedangkan, sambung Kisworo, hanya satu pandangan majelis hakim yang meringankan Jessica.
+
+(vv1 / sambung
+     :mod (vv2 / sedang)
+     :mod (vv3 / pandang
+               :mod (vv4 / hanya)
+               :mod (vv5 / satu)
+               :mod (vv6 / majelis
+                         :mod (vv7 / hakim))
+               :mod (vv8 / ringan
+                         :ARG0 (vv9 / jessica))))
+
+# ::snt "Jessica masih muda sehingga diharapkan terdakwa bisa merubah sikapnya," katanya.
+
+(vv3 / jessica
+     :mod (vv1 / muda
+               :mod (vv2 / masih))
+     :mod (vv4 / harap
+               :mod (vv5 / dakwa
+                         :mod (vv6 / rubah
+                                   :mod (vv7 / bisa)
+                                   :ARG1 (vv8 / sikap
+                                              :mod (vv9 / kata))))))
+

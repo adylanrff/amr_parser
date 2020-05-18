@@ -1,0 +1,100 @@
+# ::snt Bom molotov telah dilemparkan ke kawasan vila tepi danau milik pemimpin de facto Myanmar, Aung San Suu Kyi di pinggiran kota Yangon.
+
+(vv1 / lempar
+     :ARG1 (vv2 / bom
+                :mod (vv3 / molotov))
+     :mod (vv4 / telah)
+     :location (vv5 / kawasan
+                    :mod (vv6 / tepi)
+                    :mod (vv7 / danau
+                              :mod (vv8 / milik
+                                        :mod (vv9 / pimpin
+                                                  :mod (vv10 / de
+                                                             :mod (vv11 / facto
+                                                                        :name (vv12 / myanmar
+                                                                                    :name (vv13 / aung
+                                                                                                :name (vv14 / san
+                                                                                                            :name (vv15 / suu
+                                                                                                                        :name (vv16 / kyi)))))))))))
+     :location (vv17 / pinggir
+                     :mod (vv18 / kota
+                                :name (vv19 / yangon))))
+
+# ::snt Tidak diketahui motif ataupun siapa yang bertanggung jawab atas lemparan bom molotov pada Kamis, 1 Februari 2018.
+
+(vv1 / tahu
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / motif
+                :mod (vv4 / siapa)
+                :mod (vv5 / tanggung
+                          :ARG1 (vv6 / jawab)
+                          :ARG1 (vv7 / lempar
+                                     :mod (vv8 / bom
+                                               :mod (vv9 / molotov)))
+                          :time (vv10 / kamis
+                                      :mod (vv11 / februari
+                                                 :mod (vv12 / 1)
+                                                 :mod (vv13 / 2018))))))
+
+# ::snt Beberapa bulan terakhir, Suu Kyi menjadi sasaran kecaman internasional atas dugaan pembersihan etnis oleh pemerintahnya terhadap kelompok minoritas Muslim Rohingya di negara tersebut.
+
+(vv1 / jadi
+     :time (vv2 / bulan
+                :mod (vv3 / akhir))
+     :ARG0 (vv4 / suu
+                :name (vv5 / kyi))
+     :ARG1 (vv6 / sasar
+                :mod (vv7 / kecam
+                          :mod (vv8 / internasional))
+                :mod (vv9 / duga
+                          :mod (vv10 / bersih
+                                     :mod (vv11 / etnis))
+                          :mod (vv12 / perintah
+                                     :mod (vv13 / kelompok
+                                                :mod (vv14 / minoritas
+                                                           :mod (vv15 / muslim
+                                                                      :name (vv16 / rohingya)))
+                                                :mod (vv17 / negara))))))
+
+# ::snt Pemerintah Suu Kyi tegas membantah tuduhan bahwa pihaknya dengan sengaja menargetkan warga sipil Rohingya di negara bagian Rakhine.
+
+(vv1 / ban
+     :ARG0 (vv2 / perintah
+                :name (vv3 / suu
+                           :name (vv4 / kyi)))
+     :mod (vv5 / tegas)
+     :ARG1 (vv6 / tuduh)
+     :mod (vv7 / target
+               :ARG0 (vv8 / pihak)
+               :mod (vv9 / sengaja)
+               :ARG0 (vv10 / warga
+                           :mod (vv11 / sipil
+                                      :name (vv12 / rohingya))
+                           :mod (vv13 / negara
+                                      :mod (vv14 / bagi
+                                                 :mod (vv15 / rakhine))))))
+
+# ::snt Tapi di dalam negeri, Aung San Suu Kyi, yang memenangkan pemilihan pada tahun 2015, masih dianggap sebagai pahlawan wanita mayoritas penduduk Budha, yang dengan senang hati menjulukinya "Lady".
+
+(vv1 / anggap
+     :mod (vv2 / tapi)
+     :ARG1 (vv3 / negeri
+                :mod (vv4 / dalam)
+                :mod (vv5 / aung
+                          :name (vv6 / san
+                                     :name (vv7 / suu
+                                                :name (vv8 / kyi))))
+                :mod (vv9 / menang
+                          :ARG1 (vv10 / pilih)
+                          :ARG1 (vv11 / tahun
+                                      :mod (vv12 / 2015))))
+     :mod (vv13 / masih)
+     :ARG1 (vv14 / pahlawan
+                 :mod (vv15 / wanita
+                            :mod (vv16 / duduk
+                                       :mod (vv17 / budha)))
+                 :mod (vv18 / juluk
+                            :mod (vv19 / senang)
+                            :ARG0 (vv20 / hati)
+                            :ARG0 (vv21 / lady))))
+

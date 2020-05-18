@@ -1,0 +1,282 @@
+# ::snt Sebanyak 25 korban luka jatuhnya lift di mal Blok M Square dibawa ke Rumah Sakit Pusat Pertamina, Jakarta Selatan, Jumat (17/3/2017) siang.
+
+(vv4 / bawa
+     :ARG1 (vv1 / korban
+                :mod (vv2 / banyak)
+                :mod (vv3 / 25)
+                :mod (vv5 / luka
+                          :mod (vv6 / jatuh)
+                          :mod (vv7 / lift))
+                :mod (vv8 / mal
+                          :mod (vv9 / blok
+                                    :mod (vv10 / m
+                                               :mod (vv11 / square)))))
+     :location (vv12 / rumah
+                     :name (vv13 / sakit)
+                     :mod (vv14 / pusat
+                                :name (vv15 / pertamina
+                                            :name (vv16 / jakarta
+                                                        :name (vv17 / selatan))))
+                     :time (vv18 / jumat
+                                 :mod (vv19 / 1732017)))
+     :time (vv20 / siang))
+
+# ::snt Para korban dibawa ke Unit Gawat Darurat dan langsung mendapat penanganan medis.
+
+(vv1 / bawa
+     :ARG1 (vv2 / korban)
+     :location (vv3 / unit
+                    :mod (vv4 / gawat
+                              :mod (vv5 / darurat)))
+     :mod (vv6 / dapat
+               :mod (vv7 / dan)
+               :mod (vv8 / langsung)
+               :ARG1 (vv9 / tangan
+                          :mod (vv10 / medis))))
+
+# ::snt Sebagian korban mengalami luka dan patah tulang di bagian kaki, tangan, leher dan kepala.
+
+(vv1 / alami
+     :ARG0 (vv2 / korban)
+     :ARG1 (vv3 / luka
+                :mod (vv4 / patah
+                          :mod (vv5 / dan)
+                          :mod (vv7 / bagi
+                                    :mod (vv9 / tangan
+                                              :mod (vv11 / kepala
+                                                         :mod (vv6 / tulang)))
+                                    :mod vv12))
+                :mod (vv8 / kaki
+                          :mod (vv10 / leher))))
+
+# ::snt Tiga orang di antara korban merupakan karyawan unit Kompas Gramedia, GWS.
+
+(vv3 / rupa
+     :ARG0 (vv1 / orang
+                :mod (vv2 / tiga)
+                :mod (vv4 / korban
+                          :mod (vv5 / antara)))
+     :ARG1 (vv6 / karyawan
+                :mod (vv7 / unit
+                          :mod (vv8 / kompas
+                                    :name (vv9 / gramedia
+                                               :name (vv10 / gws))))))
+
+# ::snt Diberitakan, lift di mal Blok M Square Jakarta Selatan yang sarat pengunjung jatuh dari lantai 7 hingga ke lantai basement.
+
+(vv1 / jatuh
+     :ARG1 (vv2 / berita
+                :ARG1 (vv3 / lift
+                           :mod (vv4 / mal
+                                     :mod (vv5 / blok)
+                                     :mod (vv6 / m
+                                               :mod (vv7 / square
+                                                         :name (vv8 / jakarta
+                                                                    :name (vv9 / selatan)))))))
+     :mod (vv10 / sarat
+                :mod (vv11 / unjung))
+     :location (vv12 / lantai
+                     :mod (vv14 / basement)
+                     :mod vv15)
+     :location (vv13 / 7))
+
+# ::snt Sebagian yang berada di dalam lift adalah pengunjung mal dan karyawan yang baru selesai menunaikan Salat Jumat.
+
+(vv1 / unjung
+     :ARG0 (vv2 / bagi
+                :mod (vv3 / ada
+                          :location (vv4 / lift
+                                         :mod (vv5 / dalam))))
+     :mod (vv6 / adalah)
+     :mod (vv7 / mal
+               :mod (vv8 / karyawan
+                         :mod (vv9 / dan)))
+     :mod (vv10 / tunai
+                :mod (vv11 / baru)
+                :mod (vv12 / selesai)
+                :ARG1 (vv13 / salat
+                            :time (vv14 / jumat))))
+
+# ::snt 1. Sutoto, 40 th
+
+(vv1 / sutoto
+     :mod (vv2 / 1)
+     :mod (vv3 / th
+               :mod (vv4 / 40)))
+
+# ::snt 2. Salmudin, 33 th
+
+(vv1 / salmudin
+     :mod (vv2 / 2)
+     :name (vv3 / th
+                :mod (vv4 / 33)))
+
+# ::snt 3. Bumi Suhartan, 31
+
+(vv1 / bumi
+     :mod (vv2 / 3)
+     :mod (vv3 / suhartan
+               :mod (vv4 / 31)))
+
+# ::snt 4. Lesi, 25 th
+
+(vv1 / lesi
+     :mod (vv2 / 4)
+     :mod (vv3 / th
+               :mod (vv4 / 25)))
+
+# ::snt 5. Diana, 18 th
+
+(vv1 / ana
+     :mod (vv2 / 5)
+     :mod (vv3 / th
+               :mod (vv4 / 18)))
+
+# ::snt 6. Hani Nurhasanah, 18 th
+
+(vv1 / hani
+     :mod (vv2 / 6)
+     :name (vv3 / nurhasanah
+                :mod (vv4 / 18))
+     :mod (vv5 / th))
+
+# ::snt 7. Shadiq Alberi, 41 th
+
+(vv1 / shadiq
+     :mod (vv2 / 7)
+     :name (vv3 / alberi)
+     :mod (vv4 / th
+               :mod (vv5 / 41)))
+
+# ::snt 8. Ridwan, 48 th
+
+(vv1 / ridwan
+     :mod (vv2 / 8)
+     :mod (vv3 / th
+               :mod (vv4 / 48)))
+
+# ::snt 9. David Evan, 26 th
+
+(vv1 / david
+     :mod (vv2 / 9)
+     :name (vv3 / evan)
+     :mod (vv4 / th
+               :mod (vv5 / 26)))
+
+# ::snt 10. Ari Budi Nurgaha, 25 th
+
+(vv1 / ari
+     :mod (vv2 / 10)
+     :name (vv3 / budi
+                :name (vv4 / nurgaha
+                           :mod (vv5 / th
+                                     :mod (vv6 / 25)))))
+
+# ::snt 11. Ade Gunawan, 26 th
+
+(vv1 / ade
+     :mod (vv2 / 11)
+     :name (vv3 / gunawan)
+     :mod (vv4 / th
+               :mod (vv5 / 26)))
+
+# ::snt 12. Wisnu Panduwinata, 30 th
+
+(vv1 / wisnu
+     :mod (vv2 / 12)
+     :name (vv3 / panduwinata)
+     :mod (vv4 / th
+               :mod (vv5 / 30)))
+
+# ::snt 13. Yasa, 41 th
+
+(vv1 / yasa
+     :mod (vv2 / 13)
+     :mod (vv3 / th
+               :mod (vv4 / 41)))
+
+# ::snt 14. Nina Azmia, 18 th
+
+(vv1 / nina
+     :mod (vv2 / 14)
+     :name (vv3 / azmia)
+     :mod (vv4 / th
+               :mod (vv5 / 18)))
+
+# ::snt 15. Nadira Indriani, 18 th
+
+(vv1 / nadira
+     :mod (vv2 / 15)
+     :name (vv3 / indriani)
+     :mod (vv4 / th
+               :mod (vv5 / 18)))
+
+# ::snt 16. Afdal, 50 th
+
+(vv1 / afdal
+     :mod (vv2 / 16)
+     :mod (vv3 / th
+               :mod (vv4 / 50)))
+
+# ::snt 17. Widyaningrum, 19 th
+
+(vv1 / widyaningrum
+     :mod (vv2 / 17)
+     :mod (vv3 / th
+               :mod (vv4 / 19)))
+
+# ::snt 18. Endang Supriatna, 28 th
+
+(vv1 / endang
+     :mod (vv2 / 18)
+     :name (vv3 / supriatna)
+     :mod (vv4 / th
+               :mod (vv5 / 28)))
+
+# ::snt 19. Sunardi, 21 th
+
+(vv1 / sunardi
+     :mod (vv2 / 19)
+     :mod (vv3 / th
+               :mod (vv4 / 21)))
+
+# ::snt 20. Subiri, 57 th
+
+(vv1 / subiri
+     :mod (vv2 / 20)
+     :mod (vv3 / th
+               :mod (vv4 / 57)))
+
+# ::snt 21. Mahmud, 20 th
+
+(vv1 / mahmud
+     :mod (vv2 / 21)
+     :mod (vv3 / th
+               :mod (vv4 / 20)))
+
+# ::snt 22. Irfan Irmansyah, 21 th
+
+(vv1 / irfan
+     :mod (vv2 / 22)
+     :name (vv3 / irmansyah)
+     :mod (vv4 / th
+               :mod (vv5 / 21)))
+
+# ::snt 23. Bagus Pribadi, 19 th
+
+(vv1 / bagus
+     :mod (vv2 / 23)
+     :mod (vv3 / pribadi)
+     :mod (vv4 / th
+               :mod (vv5 / 19)))
+
+# ::snt 24. Indra Nur Rahman, 24 th
+
+# ::snt 25. Suna Wijaya, 52 th
+
+(vv1 / suna
+     :mod (vv2 / 25)
+     :name (vv3 / wijaya)
+     :mod (vv4 / th
+               :mod (vv5 / 52)))
+

@@ -1,0 +1,54 @@
+# ::snt Mark Salling meninggal dunia di usia 35 tahun, pada Rabu (30/1/2018).
+
+(vv1 / tinggal
+     :ARG0 (vv2 / mark
+                :name (vv3 / salling))
+     :ARG1 (vv4 / dunia)
+     :ARG1 (vv5 / usia
+                :mod (vv6 / tahun
+                          :mod (vv7 / 35)))
+     :ARG1 (vv8 / rabu
+                :mod (vv9 / 3012018)))
+
+# ::snt Tubuh Mark ditemukan di sebuah lapangan kecil dekat sungai Big Tujunga yang tak jauh dari rumahnya di Sunland, Los Angeles, Amerika Serikat.
+
+# ::snt Polisi menemukan jasadnya saat harus memeriksa keadaan Mark yang saat ini terjerat kasus video porno anak usia di bawah umur.
+
+(vv1 / temu
+     :ARG0 (vv2 / polisi)
+     :ARG1 (vv3 / jasad)
+     :ARG1 (vv4 / periksa
+                :mod (vv5 / saat)
+                :mod (vv7 / ada
+                          :name (vv9 / jerat
+                                     :ARG1 (vv6 / harus)
+                                     :ARG1 (vv11 / video
+                                                 :mod (vv13 / anak
+                                                            :mod (vv15 / bawah
+                                                                       :mod vv17))))
+                          :mod (vv10 / kasus
+                                     :mod (vv12 / porno
+                                                :mod (vv14 / usia))
+                                     :mod (vv16 / umur)))
+                :ARG1 (vv8 / mark)))
+
+# ::snt Pengacara Mark, Michael J Proctor telah mengonfirmasi langsung kematian aktor yang terkenal setelah membintangi tv series populer 'Glee' sebagai Puck.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / acara
+                :name (vv3 / mark
+                           :name (vv4 / michael
+                                      :mod (vv5 / j
+                                                :name (vv6 / proctor)))))
+     :mod (vv7 / telah)
+     :ARG1 (vv8 / mati
+                :mod (vv9 / langsung)
+                :mod (vv10 / aktor)
+                :mod (vv11 / kenal))
+     :ARG1 (vv12 / bintang
+                 :ARG1 (vv13 / tv
+                             :mod (vv14 / series
+                                        :mod (vv15 / populer
+                                                   :mod (vv16 / glee))))
+                 :ARG1 (vv17 / puck)))
+

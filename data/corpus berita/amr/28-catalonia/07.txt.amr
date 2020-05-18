@@ -1,0 +1,85 @@
+# ::snt Pemerintah daerah Catalonia mengumumkan kemenangan telah para pendukung referendum dalam pemungutan suara pada Minggu (01/10).
+
+(vv1 / umum
+     :ARG0 (vv2 / perintah
+                :mod (vv3 / daerah
+                          :name (vv4 / catalonia)))
+     :ARG1 (vv5 / menang
+                :mod (vv6 / dukung
+                          :mod (vv7 / telah)
+                          :mod (vv8 / referendum)
+                          :mod (vv9 / mungut
+                                    :mod (vv10 / suara)
+                                    :mod (vv11 / minggu
+                                               :mod (vv12 / 0110))))))
+
+# ::snt "Hampir 8 persen suara menolak kemerdekaan dan sisa surat suara kosong atau tidak berlaku," ujarnya.
+
+(vv4 / tolak
+     :ARG0 (vv1 / persen
+                :mod (vv2 / hampir)
+                :mod (vv3 / 8))
+     :ARG0 (vv5 / suara
+                :mod (vv11 / laku
+                           :mod (vv13 / tidak)
+                           :mod (vv14 / ujar)))
+     :ARG1 (vv7 / sisa
+                :mod (vv9 / surat
+                          :mod (vv6 / merdeka
+                                    :mod (vv8 / dan)))
+                :mod (vv10 / kosong
+                           :mod (vv12 / atau)))
+     :mod vv15)
+
+# ::snt Lebih dari 800 orang terluka saat polisi anti huru hara menyerang pemrotes damai dan warga sipil tak bersenjata yang berusaha memberikan suara mereka.
+
+(vv4 / luka
+     :ARG1 (vv1 / orang
+                :mod (vv2 / lebih)
+                :mod (vv3 / 800))
+     :location (vv5 / polisi
+                    :mod (vv6 / saat)
+                    :mod (vv7 / anti))
+     :mod (vv8 / serang
+               :ARG0 (vv9 / huru
+                          :mod (vv10 / hara))
+               :ARG1 (vv11 / pemrotes
+                           :mod (vv12 / damai)
+                           :mod (vv13 / warga
+                                      :mod (vv14 / dan)
+                                      :mod (vv15 / sipil)
+                                      :mod (vv16 / senjata
+                                                 :mod (vv17 / tak))
+                                      :mod (vv18 / usaha
+                                                 :ARG1 (vv19 / beri
+                                                             :ARG1 (vv20 / suara)))))))
+
+# ::snt Layanan kesehatan Catalan mengatakan 844 warga sipil telah dirawat di rumah sakit karena cedera, termasuk dua orang dalam kondisi serius akibat terkena peluru karet, sementara 33 petugas polisi juga terluka.
+
+(vv1 / kata
+     :ARG0 (vv2 / layan
+                :mod (vv3 / sehat
+                          :mod (vv4 / catalan)))
+     :ARG0 (vv5 / warga
+                :mod (vv6 / 844)
+                :mod (vv7 / sipil))
+     :mod (vv8 / rawat
+               :mod (vv9 / telah)
+               :location (vv10 / rumah
+                               :mod (vv11 / sakit)))
+     :mod (vv12 / masuk
+                :ARG1 (vv13 / cedera)
+                :ARG1 (vv14 / orang
+                            :mod (vv15 / dua)
+                            :mod (vv16 / kondisi
+                                       :mod (vv17 / serius)
+                                       :mod (vv18 / kena
+                                                  :mod (vv19 / akibat)
+                                                  :ARG1 (vv20 / peluru
+                                                              :mod (vv21 / karet))
+                                                  :ARG1 (vv22 / tugas
+                                                              :mod (vv23 / 33)
+                                                              :mod (vv24 / polisi))))))
+     :mod (vv25 / luka
+                :mod (vv26 / juga)))
+

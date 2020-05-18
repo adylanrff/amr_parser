@@ -1,0 +1,64 @@
+# ::snt Media Pemerintah Korea Utara, Selasa (17/12/2013), menghapus hampir semua arsip dan berita terkait eksekusi paman Kim Jong Un, Jang Song Thaek, yang sudah diunggah ke internet.
+
+(vv1 / hapus
+     :ARG0 (vv2 / media
+                :mod (vv3 / perintah
+                          :mod (vv4 / korea
+                                    :mod (vv5 / utara)))
+                :mod (vv6 / selasa
+                          :mod (vv7 / 17122013)))
+     :ARG1 (vv8 / arsip
+                :mod (vv9 / hampir)
+                :mod (vv10 / berita
+                           :mod (vv11 / dan)))
+     :mod (vv12 / kait
+                :ARG1 (vv13 / eksekusi
+                            :mod (vv14 / paman
+                                       :mod (vv15 / kim
+                                                  :name (vv16 / jong
+                                                              :mod (vv17 / un
+                                                                         :name (vv18 / jang
+                                                                                     :name (vv19 / song
+                                                                                                 :name (vv20 / thaek)))))))
+                            :mod (vv21 / unggah
+                                       :mod (vv22 / sudah)
+                                       :location (vv23 / internet)))))
+
+# ::snt Penghapusan ribuan artikel itu adalah yang terbesar yang pernah dilakukan kantor berita KCNA dan harian Rodong Sinmun.
+
+(vv1 / besar
+     :ARG0 (vv2 / hapus
+                :mod (vv3 / ribu
+                          :mod (vv4 / artikel)))
+     :mod (vv5 / adalah)
+     :mod (vv6 / laku
+               :mod (vv7 / pernah)
+               :ARG1 (vv8 / kantor
+                          :mod (vv9 / berita
+                                    :mod (vv10 / kcna))
+                          :mod (vv11 / hari
+                                     :mod (vv12 / dan)
+                                     :mod (vv13 / rodong
+                                                :name (vv14 / sinmun))))))
+
+# ::snt Sejumlah berita yang menyebut nama Jang Song Thaek sudah terlebih dahulu disunting, tautan yang mengarah kepada Jang atau rekannya dihilangkan, serta rekaman video diedit sehingga tak ada lagi wajah Jang di dalamnya.
+
+# ::snt Penghilangan massal ribuan artikel ini terpantau oleh situs NK News, sebuah situs berita yang mendedikasikan diri untuk meliput berbagai berita tentang Korea Utara.
+
+(vv1 / pantau
+     :ARG1 (vv2 / hilang
+                :mod (vv3 / massal
+                          :mod (vv4 / ribu
+                                    :mod (vv5 / artikel))))
+     :ARG1 (vv6 / situs
+                :mod (vv7 / nk
+                          :name (vv9 / berita
+                                     :mod vv15))
+                :mod (vv8 / news)
+                :mod (vv10 / dedikasi
+                           :ARG1 (vv13 / korea
+                                       :mod vv16)
+                           :mod (vv14 / utara))
+                :mod (vv12 / liput
+                           :ARG1 (vv11 / diri))))
+

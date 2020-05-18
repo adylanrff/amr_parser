@@ -1,0 +1,798 @@
+# ::id d-indo-fuji-json.1
+# ::snt INDOSAT Ooredoo bersama Fujitsu Indonesia menandatangani Nota Kesepahaman dalam rangka memantapkan kemitraan dengan para pelanggan bisnis yang telah dibangun dalam menghadirkan solusi Smart Mobility dan Internet of Things.
+# ::tokens ["INDOSAT", "Ooredoo", "bersama", "Fujitsu", "Indonesia", "menandatangani", "Nota", "Kesepahaman", "dalam", "rangka", "memantapkan", "kemitraan", "dengan", "para", "pelanggan", "bisnis", "yang", "telah", "dibangun", "dalam", "menghadirkan", "solusi", "Smart", "Mobility", "dan", "Internet", "of", "Things"]
+# ::lemmas ["indosat_1", "ooredoo_1", "sama_1", "fujitsu_1", "indonesia_1", "menandatangani_1", "nota_1", "paham_1", "dalam_1", "rangka_1", "mantap_1", "mitra_1", "dengan_1", "para_1", "langgan_1", "bisnis_1", "yang_1", "telah_1", "bangun_1", "dalam_2", "hadir_1", "solusi_1", "smart_1", "mobility_1", "dan_1", "internet_1", "of_1", "things_1"]
+# ::pos_tags ["NNP", "NNP", "IN", "NNP", "NNP", "VB", "NNP", "NNP", "IN", "NN", "VB", "NN", "IN", "DT", "NN", "NN", "SC", "MD", "VB", "IN", "VB", "NN", "NNP", "NNP", "CC", "NN", "NNP", "NNP"]
+# ::ner_tags ["ORG", "O", "O", "ORG", "NOR", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "PER", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / menandatangani
+      :ARG0 (vv2 / INDOSAT
+            :mod (vv3 / sama
+                  :name (vv4 / fujitsu
+                        :name (vv5 / indonesia)))
+            :name (vv6 / ooredoo))
+      :ARG1 (vv7 / nota
+            :mod (vv8 / paham
+                  :mod (vv9 / dalam
+                        :mod (vv10 / rangka
+                              :mod (vv11 / mantap
+                                    :ARG1 (vv26 / mitra
+                                          :ARG0 (vv15 / langgan
+                                                :ARG1 (vv16 / bisnis))
+                                          :mod (vv12 / bangun
+                                                :mod (vv13 / telah
+                                                      :mod (vv14 / yang)))))))))
+      :mod (vv17 / dalam
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / solusi
+                        :name (vv20 / smart
+                              :mod (vv21 / dan
+                                    :name (vv22 / internet
+                                          :name (vv23 / of
+                                                :name (vv24 / things))))
+                              :name (vv25 / mobility))))))
+
+# ::id d-indo-fuji-json.2
+# ::snt Indosat Ooredoo bersama Fujitsu Indonesia menandatangani Nota Kesepahaman dalam rangka memantapkan kemitraan dengan para pelanggan bisnis yang telah dibangun dalam menghadirkan solusi Smart Mobility dan Internet of Things.
+# ::tokens ["Indosat", "Ooredoo", "bersama", "Fujitsu", "Indonesia", "menandatangani", "Nota", "Kesepahaman", "dalam", "rangka", "memantapkan", "kemitraan", "dengan", "para", "pelanggan", "bisnis", "yang", "telah", "dibangun", "dalam", "menghadirkan", "solusi", "Smart", "Mobility", "dan", "Internet", "of", "Things"]
+# ::lemmas ["indosat_1", "ooredoo_1", "sama_1", "fujitsu_1", "indonesia_1", "menandatangani_1", "nota_1", "paham_1", "dalam_1", "rangka_1", "mantap_1", "mitra_1", "dengan_1", "para_1", "langgan_1", "bisnis_1", "yang_1", "telah_1", "bangun_1", "dalam_2", "hadir_1", "solusi_1", "smart_1", "mobility_1", "dan_1", "internet_1", "of_1", "things_1"]
+# ::pos_tags ["NNP", "NNP", "IN", "NNP", "NNP", "VB", "NNP", "NNP", "IN", "NN", "VB", "NN", "IN", "DT", "NN", "NN", "SC", "MD", "VB", "IN", "VB", "NN", "NNP", "NNP", "CC", "NN", "NNP", "NNP"]
+# ::ner_tags ["ORG", "O", "O", "ORG", "NOR", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "PER", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / menandatangani
+      :ARG0 (vv2 / INDOSAT
+            :mod (vv3 / sama
+                  :name (vv4 / fujitsu
+                        :name (vv5 / indonesia)))
+            :name (vv6 / ooredoo))
+      :ARG1 (vv7 / nota
+            :mod (vv8 / paham
+                  :mod (vv9 / dalam
+                        :mod (vv10 / rangka
+                              :mod (vv11 / mantap
+                                    :ARG1 (vv26 / mitra
+                                          :ARG0 (vv15 / langgan
+                                                :ARG1 (vv16 / bisnis))
+                                          :mod (vv12 / bangun
+                                                :mod (vv13 / telah
+                                                      :mod (vv14 / yang)))))))))
+      :mod (vv17 / dalam
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / solusi
+                        :name (vv20 / smart
+                              :mod (vv21 / dan
+                                    :name (vv22 / internet
+                                          :name (vv23 / of
+                                                :name (vv24 / things))))
+                              :name (vv25 / mobility))))))
+
+# ::id d-indo-fuji-json.3
+# ::snt Smart Mobility dan IoT mengalami perkembangan cukup signifikan sehingga mengubah cara perusahaan dalam mengelola aset.
+# ::tokens ["Smart", "Mobility", "dan", "IoT", "mengalami", "perkembangan", "cukup", "signifikan", "sehingga", "mengubah", "cara", "perusahaan", "dalam", "mengelola", "aset"]
+# ::lemmas ["smart_1", "mobility_1", "dan_1", "iot_1", "alami_1", "kembang_1", "cukup_1", "signifikan_1", "sehingga_1", "ubah_1", "cara_1", "usaha_1", "dalam_1", "kelola_1", "aset_1"]
+# ::pos_tags ["NNP", "NNP", "CC", "NNP", "VB", "NN", "RB", "JJ", "SC", "VB", "NN", "NN", "IN", "NN", "NN"]
+# ::ner_tags ["ORG", "PER", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / alam
+      :ARG0 (vv2 / Smart
+            :mod (vv3 / mobility
+                  :mod (vv4 / iot
+                        :mod (vv5 / dan))))
+      :ARG1 (vv6 / kembang
+            :mod (vv7 / signifikan
+                  :mod (vv8 / cukup)))
+      :mod (vv9 / hingga
+            :mod (vv10 / ubah
+                  :ARG1 (vv11 / cara
+                        :mod (vv12 / usaha
+                              :mod (vv13 / dalam
+                                    :mod (vv14 / kelola
+                                          :ARG1 (vv15 / aset))))))))
+
+# ::id d-indo-fuji-json.4
+# ::snt Indosat Ooredoo bersama Fujitsu Indonesia menandatangani Nota Kesepahaman dalam rangka memantapkan kemitraan dengan para pelanggan bisnis yang telah menghadirkan solusi Smart Mobility dan Internet of Things.
+# ::tokens ["Indosat", "Ooredoo", "bersama", "Fujitsu", "Indonesia", "menandatangani", "Nota", "Kesepahaman", "dalam", "rangka", "memantapkan", "kemitraan", "dengan", "para", "pelanggan", "bisnis", "yang", "telah", "menghadirkan", "solusi", "Smart", "Mobility", "dan", "Internet", "of", "Things"]
+# ::lemmas ["indosat_1", "ooredoo_1", "sama_1", "fujitsu_1", "indonesia_1", "menandatangani_1", "nota_1", "paham_1", "dalam_1", "rangka_1", "mantap_1", "mitra_1", "dengan_1", "para_1", "langgan_1", "bisnis_1", "yang_1", "telah_1", "hadir_1", "solusi_1", "smart_1", "mobility_1", "dan_1", "internet_1", "of_1", "things_1"]
+# ::pos_tags ["NNP", "NNP", "IN", "NNP", "NNP", "VB", "NNP", "NNP", "IN", "NN", "VB", "NN", "IN", "DT", "NN", "NN", "SC", "MD", "VB", "NN", "NNP", "NNP", "CC", "NN", "NNP", "NNP"]
+# ::ner_tags ["ORG", "O", "O", "ORG", "NOR", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "PER", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / menandatangani
+      :ARG0 (vv2 / INDOSAT
+            :mod (vv3 / sama
+                  :name (vv4 / fujitsu
+                        :name (vv5 / indonesia)))
+            :name (vv6 / ooredoo))
+      :ARG1 (vv7 / nota
+            :mod (vv8 / paham
+                  :mod (vv9 / dalam
+                        :mod (vv10 / rangka
+                              :mod (vv11 / mantap
+                                    :ARG1 (vv26 / mitra
+                                          :ARG0 (vv15 / langgan
+                                                :ARG1 (vv16 / bisnis))
+                                          :mod (vv12 / bangun
+                                                :mod (vv13 / telah
+                                                      :mod (vv14 / yang)))))))))
+      :mod (vv17 / dalam
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / solusi
+                        :name (vv20 / smart
+                              :mod (vv21 / dan
+                                    :name (vv22 / internet
+                                          :name (vv23 / of
+                                                :name (vv24 / things))))
+                              :name (vv25 / mobility))))))
+
+# ::id d-indo-fuji-json.5
+# ::snt Kerja sama ini akan berfokus pada sektor otomotif dan transportasi dan akan diperluas ke berbagai sektor industri untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "dan", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "dan_2", "akan_2", "luas_1", "ke_1", "bagai_1", "sektor_2", "industri_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "CC", "MD", "VB", "IN", "CD", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.6
+# ::snt Mobilitas akan menyediakan cara untuk mengoptimalkan strategi perusahaan dengan memanfaatkan aplikasi dan layanan yang dapat memproses data real-time, tutur Achmad Sofwan, President Director Fujitsu Indonesia.
+# ::tokens ["Mobilitas", "akan", "menyediakan", "cara", "untuk", "mengoptimalkan", "strategi", "perusahaan", "dengan", "memanfaatkan", "aplikasi", "dan", "layanan", "yang", "dapat", "memproses", "data", "realtime", "tutur", "Achmad", "Sofwan", "President", "Director", "Fujitsu", "Indonesia"]
+# ::lemmas ["mobilitas_1", "akan_1", "sedia_1", "cara_1", "untuk_1", "optimal_1", "strategi_1", "usaha_1", "dengan_1", "manfaat_1", "aplikasi_1", "dan_1", "layan_1", "yang_1", "dapat_1", "proses_1", "data_1", "realtime_1", "tutur_1", "achmad_1", "sofwan_1", "president_1", "director_1", "fujitsu_1", "indonesia_1"]
+# ::pos_tags ["NN", "MD", "VB", "NN", "SC", "VB", "NN", "NN", "SC", "VB", "NN", "CC", "NN", "SC", "MD", "VB", "NN", "NN", "VB", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "NOR", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutur
+      :ARG0 (vv2 / president
+            :mod (vv5 / director
+                  :name (vv6 / fujitsu
+                        :name (vv7 / indonesia)))
+            :name (vv3 / achmad
+                  :name (vv4 / sofwan)))
+      :ARG1 (vv8 / sedia
+            :ARG0 (vv16 / mobilitas)
+            :ARG1 (vv17 / cara
+                  :mod (vv18 / optimal
+                        :ARG1 (vv19 / strategi
+                              :mod (vv20 / usaha))))
+            :mod (vv9 / manfaat
+                  :ARG1 (vv10 / layanan
+                        :mod (vv11 / proses
+                              :ARG1 (vv12 / data
+                                    :mod (vv13 / realtime)))
+                        :mod (vv14 / dan))
+                  :ARG1 (vv15 / aplikasi))))
+
+# ::id d-indo-fuji-json.7
+# ::snt Kerja sama ini akan berfokus pada sektor otomotif dan transportasi dan akan diperluas ke berbagai sektor industri untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "dan", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "dan_2", "akan_2", "luas_1", "ke_1", "bagai_1", "sektor_2", "industri_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "CC", "MD", "VB", "IN", "CD", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.8
+# ::snt Indosat Ooredoo bekerja sama dengan Fujitsu Indonesia menghadirkan solusi Smart Mobility dan Internet of Things.
+# ::tokens ["Indosat", "Ooredoo", "bekerja", "sama", "dengan", "Fujitsu", "Indonesia", "menghadirkan", "solusi", "Smart", "Mobility", "dan", "Internet", "of", "Things"]
+# ::lemmas ["indosat_1", "ooredoo_1", "kerja_1", "sama_1", "dengan_1", "fujitsu_1", "indonesia_1", "hadir_1", "solusi_1", "smart_1", "mobility_1", "dan_1", "internet_1", "of_1", "things_1"]
+# ::pos_tags ["NNP", "NNP", "VB", "JJ", "IN", "NNP", "NNP", "VB", "NN", "NNP", "NNP", "CC", "NN", "NNP", "NNP"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "ORG", "NOR", "O", "O", "PER", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kerja
+      :ARG0 (vv2 / Indosat
+            :mod (vv3 / ooredoo))
+      :ARG1 (vv4 / hadir
+            :ARG1 (vv5 / solusi
+                  :name (vv6 / smart
+                        :name (vv7 / mobility)
+                        :name (vv8 / internet
+                              :mod (vv11 / dan)
+                              :name (vv9 / of
+                                    :name (vv10 / things))))))
+      :mod (vv12 / sama)
+      :mod (vv13 / fujitsu
+            :mod (vv14 / dengan)
+            :name (vv15 / indonesia)))
+
+# ::id d-indo-fuji-json.11
+# ::snt President Director Fujitsu, Achmad Sofwan mengungkap, mobilitas akan menyediakan cara mengoptimalisasikan strategi perusahaan dengan memanfaatkan aplikasi dan layanan dalam aktivitas memproses data real-time.
+# ::tokens ["President", "Director", "Fujitsu", "Achmad", "Sofwan", "mengungkap", "mobilitas", "akan", "menyediakan", "cara", "mengoptimalisasikan", "strategi", "perusahaan", "dengan", "memanfaatkan", "aplikasi", "dan", "layanan", "dalam", "aktivitas", "memproses", "data", "realtime"]
+# ::lemmas ["president_1", "director_1", "fujitsu_1", "achmad_1", "sofwan_1", "ungkap_1", "mobilitas_1", "akan_1", "sedia_1", "cara_1", "optimalisasi_1", "strategi_1", "usaha_1", "dengan_1", "manfaat_1", "aplikasi_1", "dan_1", "layan_1", "dalam_1", "aktivitas_1", "proses_1", "data_1", "realtime_1"]
+# ::pos_tags ["FW", "FW", "NNP", "NNP", "NNP", "VB", "NN", "MD", "VB", "NN", "VB", "NN", "NN", "SC", "VB", "NN", "CC", "NN", "IN", "NN", "NN", "NN", "FW"]
+# ::ner_tags ["ORG", "NOR", "O", "ORG", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / ungkap
+      :ARG0 (vv2 / president
+            :mod (vv5 / director
+                  :name (vv6 / fujitsu))
+            :name (vv3 / achmad
+                  :name (vv4 / sofwan)))
+      :ARG1 (vv7 / sedia
+            :ARG0 (vv15 / mobilitas)
+            :ARG1 (vv16 / cara
+                  :mod (vv17 / optimal
+                        :ARG1 (vv18 / strategi
+                              :mod (vv19 / usaha))))
+            :mod (vv8 / manfaat
+                  :ARG1 (vv9 / layanan
+                        :mod (vv10 / proses
+                              :ARG1 (vv11 / data
+                                    :mod (vv12 / realtime)))
+                        :mod (vv13 / dan))
+                  :ARG1 (vv14 / aplikasi))))
+
+# ::id d-indo-fuji-json.12
+# ::snt Kerja sama ini akan berfokus pada sektor otomotif dan transportasi dan akan diperluas ke berbagai sektor industri untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "dan", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "dan_2", "akan_2", "luas_1", "ke_1", "bagai_1", "sektor_2", "industri_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "CC", "MD", "VB", "IN", "CD", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.13
+# ::snt Kemitraan ini menyinergikan peranti, layanan, dan solusi teknologi informasi mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "menyinergikan", "peranti", "layanan", "dan", "solusi", "teknologi", "informasi", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "peranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_1", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "JJ", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.14
+# ::snt Mobilitas akan menyediakan cara untuk mengoptimalkan strategi perusahaan dengan memanfaatkan aplikasi dan layanan yang dapat memproses data real-time, tutur Achmad Sofwan, President Director Fujitsu Indonesia.
+# ::tokens ["Mobilitas", "akan", "menyediakan", "cara", "untuk", "mengoptimalkan", "strategi", "perusahaan", "dengan", "memanfaatkan", "aplikasi", "dan", "layanan", "yang", "dapat", "memproses", "data", "realtime", "tutur", "Achmad", "Sofwan", "President", "Director", "Fujitsu", "Indonesia"]
+# ::lemmas ["mobilitas_1", "akan_1", "sedia_1", "cara_1", "untuk_1", "optimal_1", "strategi_1", "usaha_1", "dengan_1", "manfaat_1", "aplikasi_1", "dan_1", "layan_1", "yang_1", "dapat_1", "proses_1", "data_1", "realtime_1", "tutur_1", "achmad_1", "sofwan_1", "president_1", "director_1", "fujitsu_1", "indonesia_1"]
+# ::pos_tags ["NN", "MD", "VB", "NN", "SC", "VB", "NN", "NN", "SC", "VB", "NN", "CC", "NN", "SC", "MD", "VB", "NN", "NN", "VB", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "NOR", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutur
+      :ARG0 (vv2 / president
+            :mod (vv5 / director
+                  :name (vv6 / fujitsu
+                        :name (vv7 / indonesia)))
+            :name (vv3 / achmad
+                  :name (vv4 / sofwan)))
+      :ARG1 (vv8 / sedia
+            :ARG0 (vv16 / mobilitas)
+            :ARG1 (vv17 / cara
+                  :mod (vv18 / optimal
+                        :ARG1 (vv19 / strategi
+                              :mod (vv20 / usaha))))
+            :mod (vv9 / manfaat
+                  :ARG1 (vv10 / layanan
+                        :mod (vv11 / proses
+                              :ARG1 (vv12 / data
+                                    :mod (vv13 / realtime)))
+                        :mod (vv14 / dan))
+                  :ARG1 (vv15 / aplikasi))))
+
+# ::id d-indo-fuji-json.15
+# ::snt Mobilitas akan menyediakan cara untuk mengoptimalkan strategi perusahaan dengan memanfaatkan aplikasi dan layanan yang dapat memproses data real-time, ujarnya.
+# ::tokens ["Mobilitas", "akan", "menyediakan", "cara", "untuk", "mengoptimalkan", "strategi", "perusahaan", "dengan", "memanfaatkan", "aplikasi", "dan", "layanan", "yang", "dapat", "memproses", "data", "realtime", "ujarnya"]
+# ::lemmas ["mobilitas_1", "akan_1", "sedia_1", "cara_1", "untuk_1", "optimal_1", "strategi_1", "usaha_1", "dengan_1", "manfaat_1", "aplikasi_1", "dan_1", "layan_1", "yang_1", "dapat_1", "proses_1", "data_1", "realtime_1", "ujar_1"]
+# ::pos_tags ["NN", "MD", "VB", "NN", "SC", "VB", "NN", "NN", "SC", "VB", "NN", "CC", "NN", "SC", "MD", "VB", "NN", "NN", "RB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / ujar
+      :ARG1 (vv2 / sedia
+            :ARG0 (vv10 / mobilitas)
+            :ARG1 (vv11 / cara
+                  :mod (vv12 / optimal
+                        :ARG1 (vv13 / strategi
+                              :mod (vv14 / usaha))))
+            :mod (vv3 / manfaat
+                  :ARG1 (vv4 / layanan
+                        :mod (vv5 / proses
+                              :ARG1 (vv6 / data
+                                    :mod (vv7 / realtime)))
+                        :mod (vv8 / dan))
+                  :ARG1 (vv9 / aplikasi))))
+
+# ::id d-indo-fuji-json.16
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan terbaru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "terbaru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.17
+# ::snt Kerja sama ini akan berfokus pada sektor otomotif dan transportasi dan akan diperluas ke berbagai sektor industri termasuk sektor publik untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "dan", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "termasuk", "sektor", "publik", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "dan_2", "akan_2", "luas_1", "ke_1", "bagai_1", "sektor_2", "industri_1", "masuk_1", "sektor_3", "publik_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "CC", "MD", "VB", "IN", "CD", "NN", "NN", "VB", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.18
+# ::snt Director Chief Wholesale and Enterprise Indosat Ooredoo Herfini Haryono menyebutkan bahwa era digital dapat dipandang sebagai sebuah peluang besar bagi institusi maupun perusahaan untuk menjadi lebih efektif.
+# ::tokens ["Director", "Chief", "Wholesale", "and", "Enterprise", "Indosat", "Ooredoo", "Herfini", "Haryono", "menyebutkan", "bahwa", "era", "digital", "dapat", "dipandang", "sebagai", "sebuah", "peluang", "besar", "bagi", "institusi", "maupun", "perusahaan", "untuk", "menjadi", "lebih", "efektif"]
+# ::lemmas ["director_1", "chief_1", "wholesale_1", "and_1", "enterprise_1", "indosat_1", "ooredoo_1", "herfini_1", "haryono_1", "sebut_1", "bahwa_1", "era_1", "digital_1", "dapat_1", "pandang_1", "bagai_1", "buah_1", "peluang_1", "besar_1", "bagi_1", "institusi_1", "maupun_1", "usaha_1", "untuk_1", "jadi_1", "lebih_1", "efektif_1"]
+# ::pos_tags ["FW", "FW", "FW", "FW", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "SC", "NN", "NN", "MD", "VB", "IN", "NND", "NN", "JJ", "IN", "NN", "CC", "NN", "SC", "VB", "RB", "JJ"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sebut
+      :ARG0 (vv2 / director
+            :location (vv5 / indosat
+                  :name (vv6 / ooredoo))
+            :mod (vv7 / chief
+                  :mod (vv8 / wholesale
+                        :mod (vv9 / and
+                              :mod (vv10 / enterprise))))
+            :name (vv3 / herfini
+                  :name (vv4 / haryono)))
+      :ARG1 (vv11 / pandang
+            :ARG0 (vv12 / institusi
+                  :mod (vv13 / mau
+                        :mod (vv14 / usaha)))
+            :ARG1 (vv21 / era
+                  :mod (vv22 / digital))
+            :mod (vv15 / peluang
+                  :mod (vv16 / untuk
+                        :mod (vv17 / jadi
+                              :ARG1 (vv18 / efektif
+                                    :mod (vv19 / lebih))))
+                  :mod (vv20 / besar))))
+
+# ::id d-indo-fuji-json.19
+# ::snt Smart mobility dan IoT mengalami perkembangan yang cukup signifikan sehingga mengubah cara perusahaan dalam mengelola aset.
+# ::tokens ["Smart", "mobility", "dan", "IoT", "mengalami", "perkembangan", "yang", "cukup", "signifikan", "sehingga", "mengubah", "cara", "perusahaan", "dalam", "mengelola", "aset"]
+# ::lemmas ["smart_1", "mobility_1", "dan_1", "iot_1", "alami_1", "kembang_1", "yang_1", "cukup_1", "signifikan_1", "sehingga_1", "ubah_1", "cara_1", "usaha_1", "dalam_1", "kelola_1", "aset_1"]
+# ::pos_tags ["FW", "FW", "CC", "NNP", "VB", "NN", "SC", "RB", "JJ", "SC", "VB", "NN", "NN", "IN", "NN", "NN"]
+# ::ner_tags ["PER", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / alam
+      :ARG0 (vv2 / Smart
+            :mod (vv3 / mobility
+                  :mod (vv4 / iot
+                        :mod (vv5 / dan))))
+      :ARG1 (vv6 / kembang
+            :mod (vv7 / signifikan
+                  :mod (vv8 / cukup)))
+      :mod (vv9 / hingga
+            :mod (vv10 / ubah
+                  :ARG1 (vv11 / cara
+                        :mod (vv12 / usaha
+                              :mod (vv13 / dalam
+                                    :mod (vv14 / kelola
+                                          :ARG1 (vv15 / aset))))))))
+
+# ::id d-indo-fuji-json.20
+# ::snt Herfini Haryono, Director & Chief Wholesale and Enterprise Indosat Ooredoo menuturkan era digital dapat dipandang sebagai sebuah peluang besar bagi institusi maupun perusahaan untuk menjadi lebih efektif.
+# ::tokens ["Herfini", "Haryono", "Director", "Chief", "Wholesale", "and", "Enterprise", "Indosat", "Ooredoo", "menuturkan", "era", "digital", "dapat", "dipandang", "sebagai", "sebuah", "peluang", "besar", "bagi", "institusi", "maupun", "perusahaan", "untuk", "menjadi", "lebih", "efektif"]
+# ::lemmas ["herfini_1", "haryono_1", "director_1", "chief_1", "wholesale_1", "and_1", "enterprise_1", "indosat_1", "ooredoo_1", "tutur_1", "era_1", "digital_1", "dapat_1", "pandang_1", "bagai_1", "buah_1", "peluang_1", "besar_1", "bagi_1", "institusi_1", "maupun_1", "usaha_1", "untuk_1", "jadi_1", "lebih_1", "efektif_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "NN", "MD", "VB", "IN", "NND", "NN", "JJ", "IN", "NN", "CC", "NN", "SC", "VB", "RB", "JJ"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "ORG", "NOR", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutur
+      :ARG0 (vv2 / director
+            :location (vv5 / indosat
+                  :name (vv6 / ooredoo))
+            :mod (vv7 / chief
+                  :mod (vv8 / wholesale
+                        :mod (vv9 / and
+                              :mod (vv10 / enterprise))))
+            :name (vv3 / herfini
+                  :name (vv4 / haryono)))
+      :ARG1 (vv11 / pandang
+            :ARG0 (vv12 / institusi
+                  :mod (vv13 / mau
+                        :mod (vv14 / usaha)))
+            :ARG1 (vv21 / era
+                  :mod (vv22 / digital))
+            :mod (vv15 / peluang
+                  :mod (vv16 / untuk
+                        :mod (vv17 / jadi
+                              :ARG1 (vv18 / efektif
+                                    :mod (vv19 / lebih))))
+                  :mod (vv20 / besar))))
+
+# ::id d-indo-fuji-json.21
+# ::snt Kerja sama ini akan berfokus pada sektor otomotif dan transportasi dan akan diperluas ke berbagai sektor industri termasuk sektor publik untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "dan", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "termasuk", "sektor", "publik", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "dan_2", "akan_2", "luas_1", "ke_1", "bagai_1", "sektor_2", "industri_1", "masuk_1", "sektor_3", "publik_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "CC", "MD", "VB", "IN", "CD", "NN", "NN", "VB", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.22
+# ::snt Sebagai awal kerja sama ini akan berfokus pada sektor otomotif dan transportasi, yang akan diperluas ke berbagai sektor industri termasuk sektor publik untuk memenuhi kebutuhan pelanggan korporasi di Indonesia.
+# ::tokens ["Sebagai", "awal", "kerja", "sama", "ini", "akan", "berfokus", "pada", "sektor", "otomotif", "dan", "transportasi", "yang", "akan", "diperluas", "ke", "berbagai", "sektor", "industri", "termasuk", "sektor", "publik", "untuk", "memenuhi", "kebutuhan", "pelanggan", "korporasi", "di", "Indonesia"]
+# ::lemmas ["bagai_1", "awal_1", "kerja_1", "sama_1", "ini_1", "akan_1", "fokus_1", "pada_1", "sektor_1", "otomotif_1", "dan_1", "transportasi_1", "yang_1", "akan_2", "luas_1", "ke_1", "bagai_2", "sektor_2", "industri_1", "masuk_1", "sektor_3", "publik_1", "untuk_1", "penuh_1", "butuh_1", "langgan_1", "korporasi_1", "di_1", "indonesia_1"]
+# ::pos_tags ["IN", "NN", "NN", "JJ", "PR", "MD", "VB", "IN", "NN", "JJ", "CC", "NN", "SC", "MD", "VB", "IN", "CD", "NN", "NN", "VB", "NN", "NN", "SC", "VB", "NN", "NN", "NN", "IN", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE"]
+# ::snt-type body
+# ::preferred
+(vv1 / fokus
+      :ARG0 (vv2 / kerja
+            :mod (vv3 / sama))
+      :ARG1 (vv4 / sektor
+            :mod (vv5 / transportasi
+                  :mod (vv6 / dan))
+            :mod (vv7 / otomotif))
+      :mod (vv19 / bagai
+            :mod (vv20 / awal))
+      :mod (vv8 / luas
+            :ARG1 (vv15 / sektor
+                  :mod (vv16 / industri)
+                  :mod (vv17 / bagai))
+            :mod (vv9 / untuk
+                  :mod (vv10 / penuh
+                        :ARG1 (vv11 / butuh
+                              :ARG0 (vv12 / langgan
+                                    :ARG1 (vv13 / korporasi
+                                          :location (vv14 / indonesia))))))
+            :mod (vv18 / dan)))
+
+# ::id d-indo-fuji-json.23
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.24
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.25
+# ::snt Herfini Haryono, Director & Chief Wholesale and Enterprise Indosat Ooredoo menuturkan era digital dapat dipandang sebagai sebuah peluang besar bagi institusi maupun perusahaan untuk menjadi lebih efektif.
+# ::tokens ["Herfini", "Haryono", "Director", "Chief", "Wholesale", "and", "Enterprise", "Indosat", "Ooredoo", "menuturkan", "era", "digital", "dapat", "dipandang", "sebagai", "sebuah", "peluang", "besar", "bagi", "institusi", "maupun", "perusahaan", "untuk", "menjadi", "lebih", "efektif"]
+# ::lemmas ["herfini_1", "haryono_1", "director_1", "chief_1", "wholesale_1", "and_1", "enterprise_1", "indosat_1", "ooredoo_1", "tutur_1", "era_1", "digital_1", "dapat_1", "pandang_1", "bagai_1", "buah_1", "peluang_1", "besar_1", "bagi_1", "institusi_1", "maupun_1", "usaha_1", "untuk_1", "jadi_1", "lebih_1", "efektif_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "NN", "MD", "VB", "IN", "NND", "NN", "JJ", "IN", "NN", "CC", "NN", "SC", "VB", "RB", "JJ"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "ORG", "NOR", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tutur
+      :ARG0 (vv2 / director
+            :location (vv5 / indosat
+                  :name (vv6 / ooredoo))
+            :mod (vv7 / chief
+                  :mod (vv8 / wholesale
+                        :mod (vv9 / and
+                              :mod (vv10 / enterprise))))
+            :name (vv3 / herfini
+                  :name (vv4 / haryono)))
+      :ARG1 (vv11 / pandang
+            :ARG0 (vv12 / institusi
+                  :mod (vv13 / mau
+                        :mod (vv14 / usaha)))
+            :ARG1 (vv21 / era
+                  :mod (vv22 / digital))
+            :mod (vv15 / peluang
+                  :mod (vv16 / untuk
+                        :mod (vv17 / jadi
+                              :ARG1 (vv18 / efektif
+                                    :mod (vv19 / lebih))))
+                  :mod (vv20 / besar))))
+
+# ::id d-indo-fuji-json.26
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.27
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+
+# ::id d-indo-fuji-json.28
+# ::snt Achmad Sofwan, President Director Fujitsu Indonesia menambahkan bahwa kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Achmad", "Sofwan", "President", "Director", "Fujitsu", "Indonesia", "menambahkan", "bahwa", "kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["achmad_1", "sofwan_1", "president_1", "director_1", "fujitsu_1", "indonesia_1", "tambah_1", "bahwa_1", "mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_2", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VB", "SC", "NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["ORG", "NOR", "O", "O", "O", "ORG", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv23 / tambah
+      :ARG0 (vv24 / president
+            :mod (vv27 / director
+                  :name (vv28 / fujitsu
+                        :name (vv29 / indonesia)))
+            :name (vv25 / achmad
+                  :name (vv26 / sofwan)))
+      :ARG1 (vv1 / sinergi
+            :ARG0 (vv2 / mitra)
+            :ARG1 (vv3 / peranti
+                  :mod (vv4 / layan
+                        :mod (vv5 / solusi
+                              :mod (vv6 / teknologi
+                                    :mod (vv7 / informasi
+                                          :mod (vv8 / mutakhir)))
+                              :mod (vv9 / dan))))
+            :mod (vv10 / dengan
+                  :mod (vv11 / milik
+                        :ARG0 (vv12 / indosat
+                              :mod (vv13 / oredoo))
+                        :ARG1 (vv14 / teknologi
+                              :mod (vv15 / telekomunikasi
+                                    :mod (vv16 / depan)))))
+            :mod (vv17 / untuk
+                  :mod (vv18 / hadir
+                        :ARG1 (vv19 / layan
+                              :mod (vv20 / dan)
+                              :mod (vv21 / baru))
+                        :ARG1 (vv22 / produk)))))
+
+# ::id d-indo-fuji-json.29
+# ::snt Kemitraan ini mensinergikan piranti, layanan, dan solusi teknologi informasi yang mutakhir dari Fujitsu dengan teknologi telekomunikasi terdepan yang dimiliki Indosat Ooredoo untuk menghadirkan produk dan layanan baru.
+# ::tokens ["Kemitraan", "ini", "mensinergikan", "piranti", "layanan", "dan", "solusi", "teknologi", "informasi", "yang", "mutakhir", "dari", "Fujitsu", "dengan", "teknologi", "telekomunikasi", "terdepan", "yang", "dimiliki", "Indosat", "Ooredoo", "untuk", "menghadirkan", "produk", "dan", "layanan", "baru"]
+# ::lemmas ["mitra_1", "ini_1", "sinergi_1", "piranti_1", "layan_1", "dan_1", "solusi_1", "teknologi_1", "informasi_1", "yang_1", "mutakhir_1", "dari_1", "fujitsu_1", "dengan_1", "teknologi_2", "telekomunikasi_1", "depan_1", "yang_2", "milik_1", "indosat_1", "ooredoo_1", "untuk_1", "hadir_1", "produk_1", "dan_2", "layan_2", "baru_1"]
+# ::pos_tags ["NN", "PR", "VB", "NN", "NN", "CC", "NN", "NN", "NN", "SC", "VB", "IN", "NNP", "IN", "NN", "NN", "NN", "SC", "VB", "NNP", "NNP", "SC", "VB", "NN", "CC", "NN", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sinergi
+      :ARG0 (vv2 / mitra)
+      :ARG1 (vv3 / peranti
+            :mod (vv4 / layan
+                  :mod (vv5 / solusi
+                        :mod (vv6 / teknologi
+                              :mod (vv7 / informasi
+                                    :mod (vv8 / mutakhir)))
+                        :mod (vv9 / dan))))
+      :mod (vv10 / dengan
+            :mod (vv11 / milik
+                  :ARG0 (vv12 / indosat
+                        :mod (vv13 / oredoo))
+                  :ARG1 (vv14 / teknologi
+                        :mod (vv15 / telekomunikasi
+                              :mod (vv16 / depan)))))
+      :mod (vv17 / untuk
+            :mod (vv18 / hadir
+                  :ARG1 (vv19 / layan
+                        :mod (vv20 / dan)
+                        :mod (vv21 / baru))
+                  :ARG1 (vv22 / produk))))
+

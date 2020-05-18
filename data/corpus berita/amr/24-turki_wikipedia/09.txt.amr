@@ -1,0 +1,79 @@
+# ::snt Jaringan pemantau penyensoran internet melaporkan bahwa Turki telah menghambat akses ke Wikipedia, layanan encyclopedia online gratis.
+
+(vv1 / lapor
+     :ARG0 (vv2 / jaring
+                :mod (vv3 / pantau
+                          :mod (vv4 / sensor
+                                    :mod (vv5 / internet))))
+     :mod (vv6 / hambat
+               :ARG0 (vv7 / turki)
+               :mod (vv8 / telah)
+               :ARG1 (vv9 / akses
+                          :mod (vv10 / wikipedia
+                                     :mod (vv11 / layan
+                                                :mod (vv12 / encyclopedia
+                                                           :mod (vv13 / online
+                                                                      :mod (vv14 / gratis))))))))
+
+# ::snt Tidak ada pernyataan resmi mengenai mengapa situs tersebut diblokir tetapi media Turki melaporkan penyebabnya adalah "konten yang berhubungan dengan teror."
+
+(vv1 / ada
+     :mod (vv2 / tidak)
+     :ARG1 (vv3 / nyata
+                :mod (vv4 / resmi))
+     :mod (vv5 / blokir
+               :mod (vv6 / mengapa)
+               :ARG1 (vv7 / situs)
+               :mod (vv8 / lapor
+                         :mod (vv9 / tetapi)
+                         :ARG0 (vv10 / media
+                                     :mod (vv11 / turki))
+                         :ARG1 (vv12 / sebab)))
+     :mod (vv13 / konten
+                :mod (vv14 / adalah)
+                :mod (vv15 / hubung
+                           :ARG1 (vv16 / teror))))
+
+# ::snt Surat kabar Daily Hurriyet mengatakan Turki telah berkomunikasi dengan Wikipedia untuk penghapusan konten yang mendukung teror dan memberi kesan Turki sebagai "pendukung teror."
+
+# ::snt NTV melaporkan bahwa Turki menuntut Wikipedia agar membuka kantor di negara itu, bertindak sesuai dengan hukum internasional dan mematuhi keputusan pengadilan dan "tidak ikut dalam operasi penghentian penulisan informasi mengenai Turki."
+
+(vv1 / lapor
+     :ARG0 (vv2 / ntv)
+     :mod (vv3 / tuntut
+               :ARG0 (vv4 / turki)
+               :ARG1 (vv6 / buka
+                          :ARG1 (vv8 / negara))
+               :mod (vv7 / kantor
+                         :mod (vv9 / tindak
+                                   :mod (vv11 / hukum
+                                              :mod (vv13 / patuh
+                                                         :mod (vv15 / putus
+                                                                    :mod (vv18 / tidak))
+                                                         :ARG1 (vv17 / ikut
+                                                                     :mod (vv16 / adil)
+                                                                     :mod (vv20 / henti
+                                                                                :mod vv23)
+                                                                     :location (vv21 / tulis
+                                                                                     :mod vv24))
+                                                         :mod (vv19 / operasi
+                                                                    :mod (vv5 / wikipedia)
+                                                                    :mod (vv22 / informasi))))
+                                   :location (vv12 / internasional)
+                                   :mod (vv14 / dan)))
+               :ARG1 (vv10 / sesuai)))
+
+# ::snt Apabila tuntutan ini dipenuhi dan konten dihapus, situs tersebut akan dibuka kembali, menurut media Turki. 
+
+(vv1 / penuh
+     :ARG1 (vv2 / tuntut)
+     :mod (vv3 / buka
+               :mod (vv4 / dan)
+               :mod (vv8 / akan)
+               :mod (vv9 / kembali)
+               :ARG1 (vv10 / media
+                           :mod (vv11 / turki)))
+     :ARG1 (vv5 / hapus
+                :ARG1 (vv6 / konten)
+                :location (vv7 / situs)))
+

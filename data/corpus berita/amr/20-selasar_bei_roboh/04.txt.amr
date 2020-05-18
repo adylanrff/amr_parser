@@ -1,0 +1,311 @@
+# ::snt Polisi masih menyelidiki penyebab ambruknya sebuah lantai mezanin di gedung II Bursa Efek Indonesia, Jakarta, namun meyakini bahwa tidak ada unsur terorisme dalam peristiwa ini.
+
+(vv1 / selidik
+     :ARG0 (vv2 / polisi)
+     :mod (vv3 / masih)
+     :ARG1 (vv4 / sebab
+                :mod (vv5 / ambruk
+                          :mod (vv6 / lantai
+                                    :mod (vv7 / mezanin)
+                                    :mod (vv8 / gedung
+                                              :mod (vv9 / ii)
+                                              :mod (vv10 / bursa
+                                                         :mod (vv11 / efek
+                                                                    :mod (vv12 / indonesia
+                                                                               :name (vv13 / jakarta))))))))
+     :mod (vv14 / yakin
+                :mod (vv15 / namun)
+                :mod (vv16 / ada
+                           :mod (vv17 / tidak)
+                           :ARG1 (vv18 / unsur
+                                       :mod (vv19 / terorisme))
+                           :ARG1 (vv20 / peristiwa))))
+
+# ::snt "Kami bisa memastikan bahwa kejadian ini bukan disebabkan oleh bom," kata juru bicara Polri, Irjen Setyo Wasisto kepada para wartawan yang berkerumun di BEI, kawasan Jenderal Sudirman jakarta.
+
+(vv1 / pasti
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / bisa)
+     :mod (vv4 / sebab
+               :ARG1 (vv5 / jadi)
+               :mod (vv6 / bukan)
+               :location (vv7 / bom
+                              :mod (vv8 / kata
+                                        :ARG1 (vv9 / juru))
+                              :mod (vv10 / bicara
+                                         :ARG1 (vv11 / polri
+                                                     :name (vv12 / irjen
+                                                                 :name (vv13 / setyo
+                                                                             :name (vv14 / wasisto))))))
+               :ARG1 (vv15 / wartawan
+                           :mod (vv16 / kerumun
+                                      :ARG1 (vv17 / bei
+                                                  :mod (vv18 / kawasan
+                                                             :mod (vv19 / jenderal
+                                                                        :name (vv20 / sudirman
+                                                                                    :name (vv21 / jakarta)))))))))
+
+# ::snt Gubernur Jakarta Anies Baswedan mengunjungi tempat kejadian dan mengatakan pihaknya akan melakukan "audit gedung" yang terakhir dilakukan pada Mei tahun lalu.
+
+(vv1 / unjung
+     :ARG0 (vv2 / gubernur
+                :name (vv3 / jakarta
+                           :name (vv4 / anies
+                                      :name (vv5 / baswedan))))
+     :ARG1 (vv6 / tempat
+                :mod (vv7 / jadi))
+     :mod (vv8 / kata
+               :mod (vv9 / dan)
+               :ARG1 (vv10 / pihak)
+               :ARG1 (vv11 / laku
+                           :mod (vv13 / audit
+                                      :mod (vv12 / akan)
+                                      :mod (vv15 / akhir))
+                           :ARG1 (vv14 / gedung)
+                           :mod (vv16 / mei
+                                      :mod (vv18 / lalu))
+                           :ARG1 (vv17 / tahun
+                                       :mod vv19))))
+
+# ::snt "Sekaligus juga saya sampaikan supaya mulai dilakukan audit (gedung) malam ini," kata Anies kepada para wartawan.
+
+(vv1 / sampai
+     :mod (vv2 / sekaligus)
+     :mod (vv3 / juga)
+     :ARG0 (vv4 / saya)
+     :ARG1 (vv5 / laku
+                :mod (vv6 / mulai)
+                :ARG1 (vv7 / audit
+                           :mod (vv8 / gedung
+                                     :mod (vv9 / malam))
+                           :mod (vv10 / kata
+                                      :name (vv11 / anies)))
+                :ARG1 (vv12 / wartawan)))
+
+# ::snt Pihak manajemen juga mengklaim bahwa mereka memenuhi peraturan keselamatan dengan pemeriksaan keamanan gedung setahun lalu.
+
+(vv1 / klaim
+     :ARG0 (vv2 / pihak
+                :mod (vv3 / manajemen))
+     :mod (vv4 / juga)
+     :mod (vv5 / penuh
+               :ARG0 (vv6 / mereka)
+               :ARG1 (vv7 / atur
+                          :mod (vv8 / selamat)
+                          :mod (vv9 / periksa
+                                    :mod (vv10 / aman
+                                               :mod (vv11 / gedung
+                                                          :mod (vv12 / tahun
+                                                                     :mod (vv13 / lalu))))))))
+
+# ::snt Menteri Keuangan Sri Mulyani Indrawati mengatakan ia berharap ambruknya selasar BEI tak akan mempengaruhi keyakinan investor.
+
+(vv1 / kata
+     :ARG0 (vv2 / menteri
+                :mod (vv3 / uang
+                          :name (vv4 / sri
+                                     :name (vv5 / mulyani
+                                                :name (vv6 / indrawati)))))
+     :mod (vv7 / harap
+               :ARG0 (vv8 / ia)
+               :ARG1 (vv9 / ambruk
+                          :mod (vv10 / selasar
+                                     :name (vv11 / bei))))
+     :mod (vv12 / pengaruh
+                :mod (vv13 / tak)
+                :mod (vv14 / akan)
+                :ARG1 (vv15 / yakin
+                            :mod (vv16 / investor))))
+
+# ::snt Sejumlah orang tampak dibawa keluar gedung dengan tandu, namun wartawan dilarang mendekat.
+
+(vv1 / bawa
+     :ARG1 (vv2 / orang)
+     :mod (vv3 / tampak)
+     :ARG1 (vv4 / keluar
+                :ARG1 (vv5 / gedung))
+     :location (vv6 / tandu)
+     :ARG1 (vv7 / larang
+                :mod (vv8 / namun)
+                :ARG1 (vv9 / wartawan))
+     :mod (vv10 / dekat))
+
+# ::snt "Yang roboh itu selasar, lantai yang digunakan orang berlalu lalang di lantai dua " kata Kabid Humas Polda Metro Jaya, Kombes Argo Yuwono, kepada wartawan.
+
+(vv1 / roboh
+     :ARG0 (vv2 / yang)
+     :ARG1 (vv3 / selasar
+                :ARG1 (vv4 / lantai
+                           :mod (vv10 / dua))
+                :mod (vv6 / orang
+                          :mod (vv8 / lalang
+                                    :location (vv5 / guna
+                                                   :ARG0 (vv7 / lalu
+                                                              :mod (vv9 / kata
+                                                                        :mod (vv11 / kabid
+                                                                                   :name (vv13 / polda
+                                                                                               :mod (vv15 / jaya)))
+                                                                        :name (vv12 / humas
+                                                                                    :name (vv14 / metro
+                                                                                                :name (vv16 / kombes
+                                                                                                            :name (vv18 / yuwono))
+                                                                                                :name (vv17 / argo
+                                                                                                            :name (vv19 / wartawan))))
+                                                                        :ARG1 vv20)))))))
+
+# ::snt "Sejumlah korban, kebanyakan luka-luka di tangan dan kaki dan bagian badan lain, dibawa ke berbagai rumah sakit terdekat," katanya.
+
+# ::snt "Jadi di lantai dua Gedung II, itu ada selasar yang biasa dipakai berjalan oleh para karyawan, itu yang roboh," kata Argo pula.
+
+(vv1 / ada
+     :mod (vv2 / jadi)
+     :location (vv3 / lantai
+                    :mod (vv4 / gedung
+                              :mod (vv5 / dua)
+                              :mod (vv6 / ii)))
+     :ARG1 (vv7 / selasar
+                :mod (vv8 / pakai
+                          :mod (vv9 / biasa)
+                          :ARG1 (vv10 / jalan
+                                      :ARG1 (vv11 / karyawan
+                                                  :mod (vv12 / roboh
+                                                             :ARG1 (vv13 / kata
+                                                                         :name (vv14 / argo))
+                                                             :mod (vv15 / pula)))))))
+
+# ::snt Ia menyatakan, korban luka setidaknya 72 orang, namun jumlahnya masih didata.
+
+(vv1 / nyata
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / korban
+                :mod (vv4 / luka)
+                :mod (vv5 / orang
+                          :mod (vv6 / tidak)
+                          :mod (vv7 / 72)))
+     :ARG1 (vv8 / jumlah
+                :mod (vv9 / namun))
+     :mod (vv10 / data
+                :mod (vv11 / masih)))
+
+# ::snt Mereka yang terluka, termasuk yang mengalami patah tulang, dilarikan ke RS Siloam Semanggi, RS Pertamina, dan RSAL Mintoharjo.
+
+(vv1 / lari
+     :ARG1 (vv2 / mereka
+                :mod (vv3 / luka)
+                :mod (vv4 / masuk)
+                :mod (vv5 / alami
+                          :ARG1 (vv6 / patah
+                                     :mod (vv7 / tulang))))
+     :location (vv8 / rs
+                    :name (vv9 / siloam
+                               :mod (vv11 / pertamina))
+                    :name (vv10 / semanggi)
+                    :name (vv12 / rsal
+                                :mod (vv14 / mintoharjo)
+                                :name vv15)
+                    :mod (vv13 / dan)))
+
+# ::snt Sementara itu, Ririen, karyawan Ernest & Young yang bekerja di lantai lima Gedung BEI menyebut selasar (lantai mezzanine) yang diduga roboh berada di antara kantor Bank Central Asia (BCA) dan Bank Rakyat Indonesia (BRI).
+
+# ::snt "Saat saya sedang keluar dari pintu gerbang BEI, itu ambruk, semua orang terlihat panik," ujarnya kepada Abraham utama dari BBC Indonesia.
+
+(vv5 / ambruk
+     :mod (vv1 / keluar
+               :mod (vv2 / saat)
+               :ARG0 (vv3 / saya)
+               :mod (vv4 / sedang)
+               :ARG1 (vv6 / pintu
+                          :mod (vv7 / gerbang
+                                    :mod (vv8 / bei))))
+     :ARG1 (vv9 / orang)
+     :mod (vv10 / lihat
+                :mod (vv11 / panik)
+                :mod (vv12 / ujar)
+                :ARG1 (vv13 / abraham
+                            :mod (vv14 / utama)
+                            :mod (vv15 / bbc
+                                       :mod (vv16 / indonesia)))))
+
+# ::snt Selain karyawan perkantoran, Ririen menyebut rombongan mahasiswa yang melakukan karyawisata juga berada di gedung itu saat selasar ambruk.
+
+(vv1 / sebut
+     :ARG1 (vv2 / karyawan
+                :mod (vv3 / kantor
+                          :name (vv4 / ririen)))
+     :ARG1 (vv5 / rombong
+                :mod (vv6 / mahasiswa)
+                :mod (vv7 / laku
+                          :ARG1 (vv8 / karyawisata)
+                          :ARG1 (vv9 / ada
+                                     :mod (vv10 / juga)
+                                     :location (vv11 / gedung)
+                                     :ARG1 (vv12 / selasar
+                                                 :mod (vv13 / saat)))))
+     :mod (vv14 / ambruk))
+
+# ::snt "Lift dimatikan dan semua akses ditutup," tuturnya.
+
+(vv1 / mati
+     :ARG1 (vv2 / lift)
+     :mod (vv3 / tutup
+               :mod (vv4 / dan)
+               :ARG1 (vv5 / akses)
+               :ARG1 (vv6 / tutur)))
+
+# ::snt Bursa Efek Indonesia mengumumkan, perdagangan BEI Senin (15/01) Sesi II akan diundur selama satu jam karena alasan force majeur.
+
+(vv5 / undur
+     :mod (vv1 / umum
+               :ARG0 (vv2 / bursa
+                          :mod (vv3 / efek
+                                    :mod (vv4 / indonesia)))
+               :ARG1 (vv6 / dagang
+                          :mod (vv7 / bei
+                                    :name (vv8 / senin
+                                               :mod (vv9 / 1501)))))
+     :ARG1 (vv10 / sesi
+                 :mod (vv11 / ii))
+     :mod (vv12 / akan)
+     :ARG1 (vv13 / jam
+                 :mod (vv14 / satu)
+                 :mod (vv15 / alas
+                            :mod (vv16 / force
+                                       :mod (vv17 / majeur)))))
+
+# ::snt Sejauh ini banyak pekerja berkerumun di halaman gedung yang kemudian ditutup dengan garis polisi.
+
+(vv1 / kerumun
+     :mod (vv2 / jauh)
+     :ARG0 (vv3 / kerja
+                :mod (vv4 / banyak))
+     :location (vv5 / halaman
+                    :mod (vv6 / gedung)
+                    :mod (vv7 / tutup
+                              :mod (vv8 / kemudian)
+                              :location (vv9 / garis
+                                             :mod (vv10 / polisi)))))
+
+# ::snt Tampak kesibukan puluhan petugas polisi, namun sudah tak terlihat adanya suasana kegawatan baik di kalangan petugas maupun para pekerja dan orang-orang yang berkerumun di luar.
+
+(vv1 / tampak
+     :ARG1 (vv2 / sibuk
+                :mod (vv3 / puluh)
+                :ARG1 (vv4 / tugas
+                           :mod (vv6 / lihat
+                                     :mod (vv8 / sudah)
+                                     :mod (vv9 / tak)
+                                     :mod (vv10 / ada
+                                                :mod (vv12 / gawat)
+                                                :mod (vv15 / kerja
+                                                           :mod (vv17 / orangorang
+                                                                      :mod (vv19 / kerumun
+                                                                                 :location vv21))
+                                                           :mod (vv18 / dan)
+                                                           :mod (vv20 / luar)))
+                                     :ARG1 (vv11 / suasana
+                                                 :mod (vv13 / baik)
+                                                 :mod (vv14 / kalang
+                                                            :mod (vv5 / polisi)
+                                                            :mod (vv16 / maupun)))))
+                :ARG1 (vv7 / namun)))
+

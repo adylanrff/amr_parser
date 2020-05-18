@@ -1,0 +1,104 @@
+# ::snt Kapolres Kota Tangerang AKBP Sabilul Alif menceritakan kronologi aksi main hakim sendiri yang menimpa R dan M di Jalan Peusar, Kampung Kadu, RT 07/03 Kelurahan Sukamulya, Kecamatan Cikupa, Kabupaten Tangerang, hari Jumat (10/11).
+
+(vv1 / cerita
+     :ARG0 (vv2 / kapolres
+                :mod (vv3 / kota
+                          :name (vv4 / tangerang
+                                     :name (vv6 / sabilul
+                                                :name (vv8 / kronologi
+                                                           :mod (vv10 / main
+                                                                      :mod (vv11 / hakim
+                                                                                 :mod (vv12 / sendiri)))
+                                                           :mod (vv13 / timpa
+                                                                      :ARG1 (vv14 / r
+                                                                                  :mod (vv15 / m
+                                                                                             :mod (vv16 / dan)))
+                                                                      :location (vv17 / jalan
+                                                                                      :name (vv18 / peusar
+                                                                                                  :name (vv19 / kampung
+                                                                                                              :name (vv20 / kadu
+                                                                                                                          :mod (vv21 / rt
+                                                                                                                                     :mod (vv22 / 0703)))))
+                                                                                      :ARG1 (vv23 / lurah
+                                                                                                  :name (vv24 / sukamulya)
+                                                                                                  :name (vv25 / camat
+                                                                                                              :name (vv26 / cikupa)
+                                                                                                              :mod (vv27 / kabupaten
+                                                                                                                         :name (vv5 / akbp
+                                                                                                                                    :name (vv7 / alif))
+                                                                                                                         :mod (vv28 / hari
+                                                                                                                                    :mod (vv29 / jumat)
+                                                                                                                                    :mod (vv30 / 1011))))))))))))
+     :ARG1 (vv9 / aksi))
+
+# ::snt "Ketua RT berinisial G menggedor pintu ini, kebetulan pintu ini tidak tertutup rapat dan langsung dipaksa mengaku berbuat mesum," kata Sabilul, di lokasi kontrakan Korban, Selasa (14/11).
+
+(vv1 / gedor
+     :ARG0 (vv2 / ketua
+                :mod (vv3 / rt
+                          :mod (vv4 / inisial
+                                    :ARG1 (vv5 / g))))
+     :ARG1 (vv6 / pintu
+                :mod (vv8 / tutup
+                          :ARG1 (vv7 / betul)
+                          :mod (vv10 / rapat)
+                          :ARG1 (vv11 / paksa
+                                      :mod (vv13 / langsung)
+                                      :mod (vv14 / aku
+                                                 :mod (vv16 / mesum
+                                                            :mod (vv18 / sabilul)
+                                                            :mod (vv20 / kontra
+                                                                       :mod (vv22 / selasa
+                                                                                  :mod vv24))))
+                                      :mod (vv15 / buat
+                                                 :ARG1 (vv17 / kata
+                                                             :name (vv19 / lokasi
+                                                                         :mod (vv21 / korban
+                                                                                    :mod (vv23 / 1411))))))
+                          :mod (vv12 / dan)))
+     :mod (vv9 / tidak))
+
+# ::snt "Di tengah perjalanan itu dia dipaksa untuk mengaku telah berbuat mesum," ungkapnya.
+
+(vv1 / paksa
+     :location (vv2 / tengah
+                    :mod (vv3 / jalan))
+     :ARG1 (vv4 / dia)
+     :mod (vv5 / aku
+               :mod (vv6 / buat
+                         :mod (vv7 / telah)
+                         :ARG1 (vv8 / mesum
+                                    :mod (vv9 / ungkap)))))
+
+# ::snt Korban yang diperiksa di Mapolresta Tangerang membantah melakukan tindakan asusila seperti yang dituduhkan warga.
+
+(vv1 / ban
+     :ARG0 (vv2 / korban
+                :mod (vv3 / periksa
+                          :location (vv4 / mapolresta
+                                         :name (vv5 / tangerang))))
+     :ARG1 (vv6 / laku
+                :ARG1 (vv7 / tindak
+                           :mod (vv8 / tuduh
+                                     :ARG0 (vv9 / warga)))))
+
+# ::snt "Tidak (asusila), dan pada saat digerebek mereka juga menggunakan pakaian lengkap," ujar Kasat Reskrim Polresta Tangerang, Wiwin Setiawan.
+
+(vv3 / guna
+     :mod (vv1 / asusila
+               :mod (vv2 / tidak)
+               :mod (vv4 / dan))
+     :ARG1 (vv5 / saat
+                :mod (vv6 / gerebek))
+     :ARG0 (vv7 / mereka)
+     :mod (vv8 / juga)
+     :ARG1 (vv9 / pakai
+                :mod (vv10 / lengkap)
+                :mod (vv11 / kasat
+                           :mod (vv12 / ujar)
+                           :name (vv13 / reskrim
+                                       :name (vv14 / polresta
+                                                   :name (vv15 / tangerang
+                                                               :name (vv16 / wiwin
+                                                                           :name (vv17 / setiawan))))))))
+

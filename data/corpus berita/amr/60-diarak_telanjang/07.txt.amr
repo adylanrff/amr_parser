@@ -1,0 +1,39 @@
+# ::snt Detik-detik nan mencekam juga disampaikan Kasat Reskrim Polresta Tangerang, Kompol Wiwin Setyawan, yang menyebut kejadian itu berlangsung selama kurang lebih 1 jam.
+
+(vv1 / sampai
+     :ARG1 (vv2 / detikdetik
+                :mod (vv3 / nan)
+                :mod (vv4 / cekam))
+     :mod (vv5 / juga)
+     :ARG1 (vv6 / kasat
+                :name (vv7 / reskrim
+                           :name (vv8 / polresta
+                                      :name (vv9 / tangerang
+                                                 :name (vv10 / kompol
+                                                             :name (vv11 / wiwin
+                                                                         :name (vv12 / setyawan))))))
+                :mod (vv13 / sebut
+                           :ARG1 (vv14 / jadi)))
+     :mod (vv15 / langsung
+                :ARG1 (vv16 / jam
+                            :mod (vv17 / kurang)
+                            :mod (vv18 / lebih)
+                            :mod (vv19 / 1))))
+
+# ::snt Tim siber juga dikerahkan untuk menelusuri penyebar video karena dianggap melanggar Undang-Undang Informasi dan Transaksi Elektronik.
+
+(vv1 / kerah
+     :ARG1 (vv2 / tim
+                :mod (vv3 / siber))
+     :mod (vv4 / juga)
+     :mod (vv5 / telusur
+               :ARG0 (vv6 / sebar
+                          :mod (vv7 / video))
+               :mod (vv8 / anggap
+                         :ARG1 (vv9 / langgar
+                                    :ARG0 (vv10 / undangundang
+                                                :mod (vv11 / informasi)
+                                                :mod (vv12 / transaksi
+                                                           :mod (vv13 / dan)
+                                                           :mod (vv14 / elektronik)))))))
+

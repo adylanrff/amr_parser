@@ -1,0 +1,33 @@
+# ::snt Presiden Barack Hussein Obama yang sejak awal pidatonya mendukung kaum gay menyambut keputusan itu dan menyebutnya sebagai tonggak sejarah bagi rakyat Amerika.
+
+(vv1 / dukung
+     :ARG0 (vv2 / presiden
+                :name (vv3 / barack
+                           :name (vv4 / hussein
+                                      :name (vv5 / obama)))
+                :mod (vv6 / pidato
+                          :mod (vv7 / awal)))
+     :ARG1 (vv8 / kaum
+                :mod (vv9 / gay))
+     :mod (vv10 / sambut
+                :ARG1 (vv11 / putus)
+                :mod (vv12 / sebut
+                           :mod (vv13 / dan)
+                           :location (vv14 / tonggak
+                                           :mod (vv15 / sejarah)
+                                           :mod (vv16 / rakyat
+                                                      :mod (vv17 / amerika))))))
+
+# ::snt "Ketika semua warga Amerika diperlakukan setara maka kita semua semakin bebas," kata dia.
+
+(vv4 / bebas
+     :mod (vv1 / laku
+               :ARG1 (vv2 / warga
+                          :mod (vv3 / amerika))
+               :mod (vv5 / tara))
+     :ARG0 (vv6 / kita)
+     :mod (vv7 / makin)
+     :ARG1 (vv8 / kata))
+
+# ::snt Buat menyambut keputusan itu pada malam harinya Gedung Putih dihiasi lampu-lampu berwarna pelangi, simbol kaum gay.
+

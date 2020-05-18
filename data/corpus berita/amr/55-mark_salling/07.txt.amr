@@ -1,0 +1,181 @@
+# ::snt Mark Salling, salah satu pemain dalam serial televisi "Glee", meninggal dunia pada usia 35 tahun, Selasa (30/1/2018) waktu setempat.
+
+# ::snt Beberapa pekan sebelum vonisnya atas pornografi anak ditetapkan pada Maret mendatang.
+
+(vv1 / tetap
+     :ARG1 (vv2 / pekan
+                :mod (vv3 / vonis
+                          :mod (vv4 / pornografi
+                                    :mod (vv5 / anak))))
+     :ARG1 (vv6 / maret
+                :mod (vv7 / datang)))
+
+# ::snt Pengacara Mark Salling, Michael Proctor, mengonfirmasi kabar kematian Salling tapi enggan berkomentar soal laporan dari laman selebritas TMZ yang mengatakan seorang sumber dari pihak berwenang menyebut Mark Salling bunuh diri.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / acara
+                :name (vv3 / mark
+                           :name (vv5 / michael
+                                      :name (vv9 / komentar
+                                                 :mod (vv12 / soal
+                                                            :mod (vv15 / selebritas
+                                                                       :name (vv18 / sumber
+                                                                                   :mod (vv21 / sebut
+                                                                                              :ARG0 (vv4 / salling
+                                                                                                         :name (vv8 / mati
+                                                                                                                    :mod (vv6 / proctor)))
+                                                                                              :mod vv24)))
+                                                            :mod (vv16 / tmz))
+                                                 :mod (vv13 / lapor)
+                                                 :ARG1 (vv14 / laman
+                                                             :mod (vv17 / kata
+                                                                        :ARG1 (vv20 / wenang))
+                                                             :mod (vv19 / pihak
+                                                                        :mod (vv22 / bunuh
+                                                                                   :ARG1 vv25)
+                                                                        :mod (vv23 / diri)))))
+                           :name (vv7 / kabar
+                                      :mod (vv11 / enggan))))
+     :ARG1 (vv10 / tapi))
+
+# ::snt Proctor tidak mengungkapkan penyebab kematian Mark Salling.
+
+(vv1 / ungkap
+     :ARG0 (vv2 / proctor)
+     :mod (vv3 / tidak)
+     :ARG1 (vv4 / sebab
+                :mod (vv5 / mati
+                          :name (vv6 / mark
+                                     :name (vv7 / salling)))))
+
+# ::snt "Saya bisa mengonfirmasi bahwa Mark Salling meninggal dunia pagi ini," kata Proctor dalam pernyataan seperti dilansir Reuters.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / bisa)
+     :ARG1 (vv4 / tinggal
+                :ARG0 (vv5 / mark
+                           :name (vv6 / salling))
+                :ARG1 (vv7 / dunia
+                           :mod (vv8 / pagi))
+                :ARG1 (vv9 / kata
+                           :mod (vv10 / proctor))
+                :ARG1 (vv11 / nyata
+                            :mod (vv12 / lansir
+                                       :ARG0 (vv13 / reuters)))))
+
+# ::snt Polisi dan kantor koroner Los Angeles County mengonfirmasi bahwa menemukan jenazah di Los Angeles, tapi mereka tidak segera mengungkapkan identitasnya.
+
+(vv1 / konfirmasi
+     :ARG0 (vv2 / polisi
+                :mod (vv3 / kantor
+                          :mod (vv4 / dan)
+                          :mod (vv5 / koroner)
+                          :mod (vv6 / angeles
+                                    :name (vv8 / temu
+                                               :location (vv7 / county)
+                                               :ARG1 (vv10 / ungkap
+                                                           :mod (vv12 / mereka)
+                                                           :ARG0 (vv13 / tidak)
+                                                           :mod (vv14 / segera)
+                                                           :mod (vv15 / identitas)
+                                                           :ARG1 vv16)))))
+     :mod (vv9 / jenazah)
+     :mod (vv11 / tapi))
+
+# ::snt Salling ditangkap pada 2015 setelah menunjukkan pornografi anak di komputernya pada pacarnya yang kemudian melaporkannya ke polisi, kata Departemen Kehakiman AS.
+
+(vv1 / tangkap
+     :ARG1 (vv2 / salling)
+     :mod (vv3 / 2015)
+     :ARG1 (vv4 / tunjuk
+                :ARG1 (vv5 / pornografi
+                           :mod (vv6 / anak)
+                           :mod (vv7 / komputer
+                                     :mod (vv8 / pacar
+                                               :mod (vv9 / lapor
+                                                         :mod (vv10 / kemudian)
+                                                         :ARG1 (vv11 / polisi
+                                                                     :mod (vv12 / kata)
+                                                                     :mod (vv13 / departemen
+                                                                                :name (vv14 / hakim
+                                                                                            :mod (vv15 / as))))))))))
+
+# ::snt Dia diizinkan tetap bebas saat kasusnya berlangsung, dan dijadwalkan kembali ke pengadilan pada 7 Maret untuk mendengar vonis.
+
+(vv1 / izin
+     :ARG1 (vv2 / dia)
+     :mod (vv3 / bebas
+               :mod (vv4 / tetap))
+     :mod (vv5 / langsung
+               :mod (vv6 / saat)
+               :ARG0 (vv7 / kasus)
+               :mod (vv8 / jadwal
+                         :mod (vv9 / dan)
+                         :mod (vv10 / kembali
+                                    :location (vv11 / adil))
+                         :ARG1 (vv12 / maret
+                                     :mod (vv13 / 7))
+                         :ARG1 (vv14 / dengar
+                                     :ARG1 (vv15 / vonis)))))
+
+# ::snt Mark Salling terancam hukuman empat sampai tujuh tahun dalam penjara.
+
+(vv1 / ancam
+     :ARG1 (vv2 / mark
+                :name (vv3 / salling))
+     :ARG1 (vv4 / hukum
+                :mod (vv5 / empat))
+     :ARG1 (vv6 / tahun
+                :mod (vv7 / tujuh))
+     :location (vv8 / penjara))
+
+# ::snt Sejak 2009-2015, Mark Salling jadi bagian dari "Glee".
+
+(vv1 / jadi
+     :mod (vv2 / 20092015)
+     :ARG0 (vv3 / mark
+                :name (vv4 / salling))
+     :ARG1 (vv5 / bagi
+                :mod (vv6 / glee)))
+
+# ::snt Dia berakting sebagai Puck, pemain football yang juga penindas di SMA, tapi belakangan sisi lembutnya muncul setelah bergabung dengan klub paduan suara di sekolahnya.
+
+(vv1 / akting
+     :ARG0 (vv2 / dia)
+     :ARG1 (vv3 / puck
+                :mod (vv4 / main
+                          :mod (vv5 / football))
+                :mod (vv6 / tindas
+                          :mod (vv7 / juga)
+                          :mod (vv8 / sma)))
+     :mod (vv9 / muncul
+               :mod (vv10 / tapi)
+               :ARG0 (vv11 / belakang)
+               :ARG0 (vv12 / sisi
+                           :mod (vv13 / lembut))
+               :mod (vv14 / gabung
+                          :ARG1 (vv15 / klub
+                                      :mod (vv16 / padu
+                                                 :mod (vv17 / suara))
+                                      :mod (vv18 / sekolah)))))
+
+# ::snt "Mark adalah orang yang lembut dan penuh kasih, punya kreativitas besar, berusaha menebus kesalahan dengan sebaik-baiknya," kata Proctor.
+
+(vv1 / orang
+     :ARG0 (vv2 / mark)
+     :mod (vv3 / adalah)
+     :mod (vv4 / lembut
+               :mod (vv7 / penuh
+                         :mod (vv8 / kasih)))
+     :mod (vv5 / punya
+               :mod (vv6 / dan)
+               :ARG1 (vv9 / kreativitas
+                          :mod (vv10 / besar))
+               :ARG1 (vv11 / usaha
+                           :ARG1 (vv12 / tebus
+                                       :ARG1 (vv13 / salah)
+                                       :mod (vv14 / sebaikbaiknya
+                                                  :mod (vv15 / kata
+                                                             :name (vv16 / proctor)))))))
+

@@ -1,0 +1,58 @@
+# ::snt Menurut dia, Jumat (7/7/2017) lalu atau tepat pada hari Ammar Zoni diciduk polisi, pria yang dikenal lewat perannya dalam sinetron 7 Manusia Harimau itu sedang libur shooting.
+
+(vv11 / ciduk
+      :ARG1 (vv1 / libur
+                 :ARG1 (vv2 / dia
+                            :mod (vv3 / jumat
+                                      :mod (vv4 / 772017)
+                                      :mod (vv5 / lalu
+                                                :mod (vv6 / tepat
+                                                          :mod (vv7 / atau)))
+                                      :mod (vv8 / hari
+                                                :mod (vv9 / ammar
+                                                          :name (vv10 / zoni)))))
+                 :mod (vv21 / sedang)
+                 :ARG1 (vv22 / shooting))
+      :ARG0 (vv12 / polisi
+                  :mod (vv13 / pria)
+                  :mod (vv14 / kenal
+                             :ARG1 (vv15 / peran
+                                         :mod (vv16 / lewat))
+                             :ARG1 (vv17 / sinetron
+                                         :mod (vv18 / 7)
+                                         :mod (vv19 / manusia
+                                                    :mod (vv20 / harimau))))))
+
+# ::snt Ia mengatakan, pihaknya kaget Ammar Zoni ditangkap dan menyesalkan penangkapan tersebut, apalagi karena berkait penyalahgunaan nakotika.
+
+# ::snt "Kami nyesalin banget terjadi seperti itu," kata Aziz.
+
+(vv1 / nyesalin
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / jadi
+               :mod (vv4 / banget)
+               :location (vv5 / kata
+                              :name (vv6 / aziz))))
+
+# ::snt Sebelumnya, Ammar Zoni diamankan Tim Pemburu Narkoba Polisi Resort Metropolitan Jakarta Pusat, pada Jumat lalu (7/7/2017) di kediamannya di kawasan Depok, Jawa Barat.
+
+(vv1 / aman
+     :ARG1 (vv2 / ammar
+                :name (vv3 / zoni))
+     :ARG1 (vv4 / tim
+                :mod (vv5 / buru
+                          :name (vv6 / narkoba))
+                :mod (vv7 / polisi
+                          :name (vv8 / resort
+                                     :mod (vv9 / metropolitan
+                                               :name (vv10 / jakarta
+                                                           :mod (vv11 / pusat)))))
+                :mod (vv15 / diam
+                           :mod (vv16 / kawasan
+                                      :mod (vv17 / depok
+                                                 :mod (vv18 / jawa
+                                                            :mod (vv19 / barat))))))
+     :ARG1 (vv12 / jumat
+                 :mod (vv13 / lalu)
+                 :mod (vv14 / 772017)))
+

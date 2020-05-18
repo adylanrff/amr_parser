@@ -1,0 +1,1036 @@
+(vv1 / ajar
+     :ARG0 (vv2 / siswa)
+     :location (vv3 / sekolah
+                    :location (vv4 / di)))
+(vv1 / tanam
+     :ARG1 (vv2 / padi)
+     :ARG0 (vv3 / pak
+                :name (vv4 / tani)))
+(vv1 / pergi
+     :ARG0 (vv2 / ayah)
+     :location (vv3 / kantor
+                    :location (vv4 / ke)))
+(vv1 / main
+     :ARG0 (vv2 / adik)
+     :location (vv3 / teman
+                    :mod (vv4 / dengan)))
+(vv1 / ajak
+     :ARG0 (vv2 / ibu
+                :name (vv3 / fio))
+     :ARG1 (vv4 / adik)
+     :location (vv5 / pasar
+                    :location (vv6 / ke)))
+(vv1 / punya
+     :ARG0 (vv2 / om
+                :name (vv3 / irwan))
+     :ARG1 (vv4 / sepatu
+                :mod (vv5 / baru)))
+(vv1 / dagang
+     :mod (vv3 / jual
+               :ARG0 (vv2 / para)
+               :location (vv5 / pasar
+                              :location (vv6 / di)
+                              :mod (vv7 / hari)
+                              :mod (vv8 / ini)))
+     :mod (vv4 / ramai))
+(vv1 / siap
+     :ARG0 (vv2 / serta
+                :mod (vv3 / lomba))
+     :location (vv4 / garis
+                    :location (vv5 / di)
+                    :mod (vv6 / start)))
+(vv1 / baca
+     :ARG0 (vv2 / bu
+                :name (vv3 / anna))
+     :ARG1 (vv4 / buku)
+     :mod (vv5 / kemarin))
+(vv1 / baca
+     :ARG0 (vv2 / bu
+                :name (vv3 / anna))
+     :ARG1 (vv4 / buku
+                :name (vv5 / bobo)))
+(vv1 / baca
+     :ARG1 (vv2 / anna)
+     :ARG1 (vv3 / buku
+                :name (vv4 / bobo)))
+(vv1 / kena
+     :ARG0 (vv2 / zulia)
+     :ARG1 (vv3 / baju
+                :mod (vv4 / merah)))
+(vv1 / kena
+     :ARG1 (vv2 / baju
+                :mod (vv3 / merah))
+     :ARG0 (vv4 / zulia))
+(vv1 / pintal
+     :ARG1 (vv2 / benang
+                :mod (vv3 / wol))
+     :ARG0 (vv4 / ashita))
+(vv1 / mintal
+     :ARG0 (vv2 / ashita)
+     :ARG1 (vv3 / benang
+                :mod (vv4 / sutra)))
+(vv1 / main
+     :ARG0 (vv2 / profesor
+                :name (vv3 / joko))
+     :ARG1 (vv4 / bola))
+(vv1 / main
+     :ARG1 (vv2 / bola)
+     :ARG0 (vv3 / profesor
+                :name (vv4 / joko)))
+(vv1 / menang
+     :ARG0 (vv2 / pak
+                :name (vv3 / andi))
+     :location (vv4 / tengah
+                    :location (vv5 / di)
+                    :mod (vv6 / main
+                              :mod (vv7 / salah))))
+(vv1 / main
+     :ARG1 (vv2 / voli)
+     :ARG0 (vv3 / risya))
+(vv1 / tendang
+     :ARG1 (vv2 / bola
+                :mod (vv3 / itu))
+     :ARG0 (vv4 / bos
+                :name (vv5 / andi)))
+(vv1 / etik
+     :ARG1 (vv2 / aku)
+     :ARG1 (vv3 / cerita))
+(vv1 / ketik
+     :ARG1 (vv2 / cerita)
+     :ARG0 (vv3 / aku))
+(vv1 / benci
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / kucing))
+(vv1 / mereka
+     :mod (vv2 / siswa
+               :mod (vv3 / sma
+                         :name (vv4 / dua)
+                         :name (vv5 / nusantara))))
+(vv1 / rupa
+     :ARG0 (vv2 / ramadhan)
+     :ARG1 (vv3 / bulan
+                :mod (vv4 / suci
+                          :ARG0 (vv5 / yang))))
+(vv1 / baca
+     :ARG0 (vv2 / andi)
+     :ARG1 (vv3 / buku))
+(vv1 / baca
+     :ARG1 (vv2 / buku)
+     :ARG0 (vv3 / andi))
+(vv1 / kerja
+     :ARG1 (vv2 / tugas)
+     :ARG0 (vv3 / siwan)
+     :location (vv4 / pustaka
+                    :location (vv5 / di)
+                    :mod (vv6 / kampus)))
+(vv1 / putar
+     :ARG0 (vv2 / bola
+                :mod (vv3 / itu))
+     :location (vv4 / udara
+                    :location (vv5 / di)))
+(vv1 / sapa
+     :ARG0 (vv2 / dika)
+     :ARG1 (vv3 / orang
+                :mod (vv4 / tiap)
+                :mod (vv5 / lewat
+                          :ARG1 (vv6 / yang))))
+(vv1 / gerak
+     :ARG0 (vv2 / menara
+                :name (vv3 / pisa))
+     :mod (vv4 / miring
+               :mod (vv5 / makin)))
+(vv1 / baca
+     :ARG1 (vv2 / jurnal)
+     :ARG0 (vv3 / sonia
+                :mod (vv4 / hari
+                          :mod (vv5 / sekolah)))
+     :mod (vv6 / kembali))
+(vv1 / abad
+     :ARG1 (vv2 / umur
+                :mod (vv4 / nan))
+     :ARG0 (vv3 / bangun))
+(vv1 / naik
+     :ARG0 (vv2 / tante
+                :name (vv3 / ari))
+     :ARG1 (vv4 / sepeda))
+(vv1 / dokter
+     :ARG0 (vv2 / ibu)
+     :mod (vv3 / adalah)
+     :mod (vv4 / orang))
+(vv1 / beli
+     :ARG0 (vv2 / kakek
+                :name (vv3 / arya))
+     :ARG1 (vv4 / telur)
+     :location (vv5 / minimarket
+                    :location (vv6 / di)))
+(vv1 / dapat
+     :ARG1 (vv2 / aji)
+     :ARG1 (vv3 / kerja
+                :mod (vv4 / bagus
+                          :ARG0 (vv5 / yang))
+                :mod (vv6 / usaha
+                          :location (vv7 / di)
+                          :mod (vv8 / multinasional))))
+(vv1 / ayah
+     :mod (vv2 / bawa
+               :ARG1 (vv3 / boneka)))
+(vv1 / main
+     :ARG0 (vv2 / kesang)
+     :ARG1 (vv3 / bola))
+(vv1 / pergi
+     :ARG0 (vv2 / ibu)
+     :location (vv3 / kantor
+                    :location (vv4 / ke)))
+(vv1 / antar
+     :ARG1 (vv2 / ibu)
+     :ARG1 (vv3 / ayah)
+     :location (vv4 / pasar
+                    :location (vv5 / ke)))
+(vv1 / bulan
+     :mod (vv3 / gaji
+               :mod (vv2 / tiap)
+               :mod (vv5 / rumah
+                         :mod (vv6 / satu)
+                         :mod (vv7 / buah)))
+     :mod (vv4 / tara))
+(vv1 / bawa
+     :ARG0 (vv2 / aceng)
+     :ARG1 (vv3 / sesuatu)
+     :location (vv4 / meru
+                    :location (vv5 / dari)))
+(vv1 / rupa
+     :ARG0 (vv2 / teknologi
+                :mod (vv3 / guna
+                          :ARG0 (vv4 / yang)
+                          :ARG0 (vv6 / mutakhir
+                                     :ARG0 (vv5 / mereka)
+                                     :mod vv8)))
+     :mod (vv7 / paling))
+(vv1 / beli
+     :ARG0 (vv2 / jabbar)
+     :ARG1 (vv3 / untuk))
+(vv1 / ayu
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / makin)
+     :ARG1 (vv4 / senyum
+                :mod (vv5 / dengan))
+     :ARG1 (vv6 / wajah
+                :location (vv7 / di)))
+(vv1 / buat
+     :ARG0 (vv2 / jadi)
+     :mod (vv3 / kemarin)
+     :ARG0 (vv4 / rifqy)
+     :mod (vv5 / sadar))
+(vv1 / suka
+     :ARG1 (vv2 / ia)
+     :ARG1 (vv3 / dekat
+                :mod (vv4 / mereka)
+                :mod (vv6 / ini))
+     :mod (vv5 / lama))
+(vv1 / tahu
+     :ARG0 (vv2 / bu
+                :name (vv3 / rifqy))
+     :ARG1 (vv4 / asa))
+(vv1 / selesai
+     :ARG0 (vv2 / dia)
+     :ARG1 (vv3 / tugas
+                :mod (vv4 / tepat))
+     :location (vv5 / waktu
+                    :mod (vv6 / pada)))
+(vv1 / pilih
+     :ARG0 (vv2 / mereka)
+     :mod (vv3 / tinggal
+               :location (vv4 / pinggir
+                              :location (vv5 / di)
+                              :name (vv6 / jakarta))))
+(vv1 / jarak
+     :mod (vv2 / rumah
+               :mod (vv3 / mereka))
+     :mod (vv4 / dekat
+               :ARG0 (vv5 / yang)
+               :mod (vv6 / sekarang)
+               :mod (vv7 / lebih)
+               :mod (vv8 / tempat
+                         :location (vv9 / ke)
+                         :mod (vv10 / kerja))))
+(vv1 / nanti
+     :ARG0 (vv2 / shiana)
+     :mod (vv3 / sekarang)
+     :mod (vv4 / sedang)
+     :ARG1 (vv5 / adik)
+     :mod (vv6 / lahir
+               :location (vv7 / dunia
+                              :location (vv8 / ke))))
+(vv1 / semangat
+     :ARG0 (vv2 / ibu)
+     :ARG1 (vv3 / gadis
+                :mod (vv4 / itu))
+     :location (vv5 / garis
+                    :location (vv6 / di)
+                    :mod (vv7 / finish))
+     :ARG1 (vv8 / pagi
+                :mod (vv9 / tadi)))
+(vv1 / lihat
+     :ARG0 (vv2 / aku)
+     :mod (vv3 / dapat)
+     :ARG1 (vv4 / raut
+                :mod (vv5 / sedih)))
+(vv1 / lihat
+     :ARG1 (vv2 / raut
+                :mod (vv3 / sedih))
+     :mod (vv4 / dapat)
+     :ARG0 (vv5 / aku))
+(vv1 / antar
+     :ARG0 (vv2 / pak
+                :name (vv3 / rifqy))
+     :ARG0 (vv4 / aku
+                :mod (vv5 / hari
+                          :mod (vv6 / ini))))
+(vv1 / putus
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / meni
+               :ARG1 (vv4 / tahun
+                          :mod (vv5 / depan))))
+(vv1 / dapat
+     :ARG0 (vv2 / putri)
+     :ARG1 (vv3 / sorot
+                :mod (vv4 / tunjuk
+                          :location (vv5 / di)
+                          :mod (vv6 / itu))))
+(vv1 / sangka
+     :ARG0 (vv3 / ada
+                :mod (vv2 / yang))
+     :mod (vv4 / bagus
+               :ARG0 (vv5 / ia)
+               :mod (vv6 / itu)))
+(vv1 / tampak
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / cantik
+               :mod (vv4 / sekali))
+     :ARG1 (vv5 / malam
+                :mod (vv6 / ini)))
+(vv1 / dapat
+     :ARG1 (vv2 / aku)
+     :ARG1 (vv3 / tawar
+                :mod (vv4 / tarik)
+                :mod (vv5 / usaha
+                          :location (vv6 / dari)
+                          :mod (vv7 / itu))))
+(vv1 / dapat
+     :ARG1 (vv2 / tawar
+                :mod (vv3 / tarik))
+     :ARG0 (vv4 / aku
+                :mod (vv5 / usaha
+                          :location (vv6 / dari)
+                          :mod (vv7 / itu))))
+(vv1 / lihat
+     :ARG0 (vv2 / mereka)
+     :ARG1 (vv3 / hasil
+                :mod (vv4 / skripsi))
+     :mod (vv5 / kemarin))
+(vv1 / lihat
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / skripsi))
+     :ARG0 (vv4 / mereka)
+     :mod (vv5 / kemarin))
+(vv1 / terbit
+     :ARG0 (vv2 / buah)
+     :mod (vv3 / tarik)
+     :mod (vv4 / buku)
+     :ARG1 vv5)
+(vv1 / lihat
+     :ARG1 (vv2 / contoh)
+     :ARG0 (vv3 / mereka)
+     :location (vv4 / blog
+                    :location (vv5 / dari)))
+(vv1 / raya
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / sukses
+                :mod (vv4 / buku)))
+(vv1 / raya
+     :ARG1 (vv2 / sukses
+                :mod (vv3 / buku))
+     :ARG0 (vv4 / kami))
+(vv1 / rupa
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / orang
+                :mod (vv4 / dermawan
+                          :ARG0 (vv5 / yang))))
+(vv1 / satpam
+     :mod (vv3 / kenal
+               :ARG0 (vv2 / semua)
+               :ARG0 (vv5 / utami))
+     :mod (vv4 / kampus))
+(vv1 / kenal
+     :ARG1 (vv2 / utami)
+     :ARG1 (vv3 / satpam
+                :mod (vv4 / semua)
+                :mod (vv5 / kampus)))
+(vv1 / awal
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / karir
+                :mod (vv4 / musik))
+     :mod (vv5 / bagus
+               :mod (vv6 / dengan)))
+(vv1 / bintang
+     :mod (vv2 / kini)
+     :ARG0 (vv3 / ia)
+     :mod (vv4 / adalah)
+     :mod (vv5 / sayang
+               :mod (vv6 / gemar)))
+(vv1 / bawa
+     :ARG0 (vv2 / azhila)
+     :ARG1 (vv3 / tas
+                :mod (vv4 / buat
+                          :ARG1 (vv5 / yang)
+                          :time (vv6 / kulit
+                                     :location (vv7 / dari)
+                                     :mod (vv8 / harimau)
+                                     :mod (vv9 / asli)))))
+(vv1 / harga
+     :ARG1 (vv2 / tulis)
+     :location (vv3 / juri
+                    :mod (vv4 / oleh)))
+(vv1 / harga
+     :ARG0 (vv2 / juri)
+     :ARG1 (vv3 / tulis))
+(vv1 / akhir
+     :ARG0 (vv2 / bu
+                :name (vv3 / ayu))
+     :ARG1 (vv4 / kisah
+                :mod (vv5 / bahagia)))
+(vv1 / pesona
+     :ARG1 (vv2 / orangorang)
+     :location (vv3 / diri
+                    :mod (vv4 / dengan)
+                    :mod (vv5 / hari
+                              :mod (vv6 / ini))))
+(vv1 / beri
+     :ARG0 (vv2 / aku)
+     :ARG1 (vv3 / uang
+                :mod (vv4 / rupiah
+                          :mod (vv5 / lima)
+                          :mod (vv6 / ribu))))
+(vv1 / bawa
+     :ARG0 (vv2 / paman
+                :name (vv3 / anto))
+     :ARG1 (vv4 / bingkis))
+(vv1 / kunjung
+     :ARG1 (vv2 / museum
+                :name (vv3 / van
+                           :mod (vv4 / gogh)))
+     :ARG0 (vv5 / aku))
+(vv1 / main
+     :ARG0 (vv2 / wafir)
+     :mod (vv3 / jago)
+     :ARG1 (vv4 / gitar))
+(vv1 / pilih
+     :ARG0 (vv2 / mereka)
+     :mod (vv3 / akhir)
+     :mod (vv4 / gabung
+               :mod (vv5 / untuk)))
+(vv1 / firman
+     :mod (vv2 / anak
+               :mod (vv3 / nakal)))
+(vv1 / pergi
+     :ARG0 (vv2 / saya)
+     :location (vv3 / sekolah
+                    :location (vv4 / dari)))
+(vv1 / laksana
+     :ARG1 (vv2 / seminar
+                :mod (vv3 / itu))
+     :location (vv4 / gedung
+                    :location (vv5 / di)
+                    :mod (vv6 / serba
+                              :name (vv7 / guna))))
+(vv1 / wisata
+     :time (vv2 / hari
+                :mod (vv3 / ini))
+     :ARG0 (vv4 / kita)
+     :mod (vv5 / akan)
+     :location (vv6 / yogyakarta
+                    :location (vv7 / ke)))
+(vv1 / mampir
+     :ARG0 (vv2 / pulang
+                :mod (vv3 / kantor
+                          :location (vv4 / dari)))
+     :ARG0 (vv5 / aku)
+     :location (vv6 / rumah
+                    :location (vv7 / ke)
+                    :mod (vv8 / makan)))
+(vv1 / baca
+     :ARG1 (vv2 / buku)
+     :ARG0 (vv3 / ibu
+                :name (vv4 / dita)))
+(vv1 / kita
+     :mod (vv2 / haus))
+(vv1 / tanya
+     :ARG0 (vv2 / mas
+                :name (vv3 / ridho))
+     :location (vv4 / guru
+                    :mod (vv5 / pada)))
+(vv1 / suara
+     :mod (vv2 / harimau)
+     :mod (vv3 / aum))
+(vv1 / masak
+     :ARG0 (vv2 / ibu
+                :name (vv3 / rina))
+     :location (vv4 / dapur
+                    :location (vv5 / di)))
+(vv1 / pergi
+     :ARG0 (vv2 / ibu
+                :name (vv3 / tina))
+     :location (vv4 / pasar
+                    :location (vv5 / ke)))
+(vv1 / tutup
+     :ARG1 (vv2 / jendela)
+     :ARG0 (vv3 / pak
+                :name (vv4 / ton)))
+(vv1 / dia
+     :mod (vv2 / goda))
+(vv1 / duduk
+     :ARG0 (vv2 / dia))
+(vv1 / kami
+     :mod (vv2 / sujud))
+(vv1 / tutup
+     :ARG1 (vv2 / mata)
+     :ARG0 (vv3 / bu
+                :name (vv4 / resti)))
+(vv1 / buat
+     :ARG0 (vv2 / kak
+                :name (vv3 / sally))
+     :ARG1 (vv4 / adon))
+(vv1 / ikut
+     :ARG1 (vv2 / bapak
+                :name (vv3 / john))
+     :ARG0 (vv4 / aku))
+(vv1 / bangun
+     :ARG1 (vv2 / rumah)
+     :ARG1 (vv3 / tukang))
+(vv1 / kakek
+     :name (vv2 / glenn)
+     :mod (vv3 / tinggal))
+(vv1 / lamar
+     :ARG0 (vv2 / tante
+                :name (vv3 / siti))
+     :ARG1 (vv4 / kerja))
+(vv1 / tembak
+     :ARG1 (vv2 / doni)
+     :ARG1 (vv3 / peluru))
+(vv1 / rambut
+     :ARG0 (vv2 / nenek
+                :name (vv3 / krista))
+     :mod (vv4 / putih))
+(vv1 / tabrak
+     :ARG1 (vv2 / adik
+                :name (vv3 / kayla))
+     :ARG1 (vv4 / mobil))
+(vv1 / timpa
+     :ARG0 (vv2 / pohon)
+     :ARG0 (vv3 / pak
+                :name (vv4 / risman)))
+(vv1 / hadir
+     :ARG1 (vv2 / pesta
+                :mod (vv3 / nikah))
+     :ARG0 (vv4 / kakak
+                :name (vv5 / dina)))
+(vv1 / jahit
+     :ARG1 (vv2 / baju)
+     :ARG0 (vv3 / ibu
+                :name (vv4 / fio)))
+(vv1 / baik
+     :ARG1 (vv2 / motor)
+     :ARG0 (vv3 / om
+                :name (vv4 / bagus)))
+(vv1 / sumbang
+     :ARG1 (vv2 / semen)
+     :ARG0 (vv3 / pak
+                :name (vv4 / ridwan)))
+(vv1 / nyanyi
+     :ARG0 (vv2 / afgan)
+     :ARG1 (vv3 / lagu
+                :mod (vv4 / sendu)))
+(vv1 / jaga
+     :ARG0 (vv2 / tni)
+     :ARG1 (vv3 / kebhinnekaan))
+(vv1 / jaga
+     :ARG1 (vv2 / kebhinnekaan)
+     :ARG1 (vv3 / tni))
+(vv1 / suka
+     :ARG1 (vv2 / bu
+                :name (vv3 / ani))
+     :ARG0 (vv4 / pak
+                :name (vv5 / bagus)))
+(vv1 / buang
+     :ARG1 (vv2 / sampah)
+     :mod (vv3 / paman))
+(vv1 / parah
+     :ARG0 (vv2 / yanto)
+     :ARG1 (vv3 / tugas))
+(vv1 / usir
+     :ARG0 (vv2 / jajah)
+     :ARG1 (vv3 / pribumi))
+(vv1 / benci
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / bohong))
+(vv1 / mereka
+     :mod (vv2 / peluk))
+(vv1 / kirim
+     :ARG0 (vv2 / aku)
+     :ARG1 (vv3 / pesan)
+     :location (vv4 / beli
+                    :location (vv5 / ke)))
+(vv1 / ajar
+     :ARG1 (vv2 / statistik)
+     :ARG0 (vv3 / bu
+                :name (vv4 / hana))
+     :location (vv5 / mahasiswa
+                    :mod (vv6 / kepada)))
+(vv1 / pidato
+     :ARG0 (vv2 / pak
+                :name (vv3 / camat))
+     :location (vv4 / podium
+                    :location (vv5 / di)))
+(vv1 / pimpin
+     :ARG1 (vv2 / umat)
+     :ARG1 (vv3 / ulama
+                :name (vv4 / abdul)))
+(vv1 / beli
+     :ARG1 (vv2 / sayur)
+     :ARG1 (vv3 / ibu)
+     :location (vv4 / warung
+                    :location (vv5 / di)))
+(vv1 / datang
+     :ARG0 (vv2 / kami)
+     :location (vv3 / yogyakarta
+                    :location (vv4 / dari)))
+(vv1 / panggil
+     :ARG0 (vv2 / aku)
+     :ARG0 (vv3 / bu
+                :name (vv4 / lisa)))
+(vv1 / baca
+     :ARG0 (vv2 / ayah)
+     :ARG1 (vv3 / koran
+                :mod (vv4 / tempo))
+     :location (vv5 / teras
+                    :location (vv6 / di)))
+(vv1 / bakar
+     :ARG1 (vv2 / sampah)
+     :ARG0 (vv3 / pak
+                :name (vv4 / hasan)))
+(vv1 / turun
+     :ARG1 (vv2 / suara)
+     :ARG0 (vv3 / budhe
+                :name (vv4 / citra)))
+(vv1 / tulis
+     :ARG0 (vv2 / aku)
+     :ARG1 (vv3 / cerita)
+     :location (vv4 / buku
+                    :location (vv5 / di)))
+(vv1 / aku
+     :mod (vv2 / perangkap))
+(vv1 / tanam
+     :ARG0 (vv2 / pak
+                :name (vv3 / krisna))
+     :ARG1 (vv4 / kedelai)
+     :location (vv5 / kebun
+                    :location (vv6 / di)))
+(vv1 / dibersikan
+     :ARG1 (vv2 / dapur)
+     :ARG1 (vv3 / kakak))
+(vv1 / lipat
+     :ARG1 (vv2 / pakai)
+     :ARG0 (vv3 / bu
+                :name (vv4 / neneng)))
+(vv1 / liput
+     :ARG1 (vv2 / berita)
+     :ARG1 (vv3 / jurnalis))
+(vv1 / buat
+     :ARG0 (vv2 / mas
+                :name (vv3 / prapto))
+     :ARG1 (vv4 / pupuk))
+(vv1 / beli
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / panen))
+     :ARG1 (vv4 / borong))
+(vv1 / peras
+     :ARG0 (vv2 / tengkulak)
+     :ARG1 (vv3 / tani))
+(vv1 / tonton
+     :ARG0 (vv2 / adik)
+     :ARG1 (vv3 / kartun)
+     :location (vv4 / televisi
+                    :location (vv5 / di)))
+(vv1 / tonton
+     :ARG1 (vv2 / kartun)
+     :ARG1 (vv3 / adik)
+     :location (vv4 / televisi
+                    :location (vv5 / di)))
+(vv1 / cerita
+     :ARG1 (vv2 / kisah
+                :mod (vv3 / tragis))
+     :ARG0 (vv4 / pak
+                :name (vv5 / zee
+                           :name vv6)))
+(vv1 / tangkap
+     :ARG0 (vv2 / satpam)
+     :ARG1 (vv3 / curi))
+(vv1 / tangkap
+     :ARG1 (vv2 / curi)
+     :ARG0 (vv3 / satpam))
+(vv1 / jaga
+     :ARG0 (vv2 / tentara)
+     :ARG1 (vv3 / damai)
+     :ARG1 (vv4 / indonesia
+                :location (vv5 / di)))
+(vv1 / beri
+     :ARG0 (vv2 / ibu)
+     :ARG1 (vv3 / makan))
+(vv1 / jual
+     :ARG0 (vv2 / kak
+                :name (vv3 / zahra))
+     :ARG1 (vv4 / kue))
+(vv1 / bela
+     :ARG0 (vv2 / acara)
+     :ARG1 (vv3 / sangka)
+     :location (vv4 / adil
+                    :location (vv5 / di)))
+(vv1 / bela
+     :ARG1 (vv2 / sangka)
+     :ARG0 (vv3 / acara)
+     :location (vv4 / adil
+                    :location (vv5 / di)))
+(vv1 / jatuh
+     :ARG1 (vv2 / hukum)
+     :ARG0 (vv3 / hakim
+                :name (vv4 / roger)))
+(vv1 / raya
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / menang))
+(vv1 / luk
+     :ARG1 (vv2 / perempuan)
+     :ARG0 (vv3 / okta))
+(vv1 / tetap
+     :ARG0 (vv2 / kpu)
+     :ARG1 (vv3 / menang))
+(vv1 / beri
+     :ARG0 (vv2 / guru)
+     :ARG1 (vv3 / hadiah)
+     :ARG1 (vv4 / menang
+                :mod (vv5 / kepada)))
+(vv1 / beri
+     :ARG1 (vv2 / hadiah)
+     :ARG1 (vv3 / guru)
+     :ARG1 (vv4 / menang
+                :mod (vv5 / kepada)))
+(vv1 / gendong
+     :ARG0 (vv2 / ibu
+                :name (vv3 / rusdi))
+     :ARG1 (vv4 / adik))
+(vv1 / buka
+     :ARG0 (vv2 / mas
+                :name (vv3 / linton))
+     :ARG1 (vv4 / kaleng
+                :mod (vv5 / roti)))
+(vv1 / ibu
+     :mod (vv2 / belanja))
+(vv1 / rakyat
+     :mod (vv2 / dukung
+               :mod (vv3 / perintah)))
+(vv1 / umum
+     :ARG0 (vv2 / direktur)
+     :ARG1 (vv3 / nilai))
+(vv1 / dukung
+     :ARG0 (vv2 / bu
+                :name (vv3 / sus))
+     :ARG1 (vv4 / perintah))
+(vv1 / dukung
+     :ARG1 (vv2 / perintah)
+     :ARG0 (vv3 / bu
+                :name (vv4 / sus)))
+(vv1 / beri
+     :ARG0 (vv2 / pak
+                :name (vv3 / dwi))
+     :ARG1 (vv4 / hadiah)
+     :ARG1 (vv5 / menang
+                :mod (vv6 / kepada)))
+(vv1 / pegang
+     :ARG1 (vv2 / adik
+                :mod (vv3 / perempuan))
+     :ARG0 (vv4 / saya))
+(vv1 / bawa
+     :ARG0 (vv2 / bu
+                :name (vv3 / sakinah))
+     :ARG1 (vv4 / adik)
+     :location (vv5 / sekolah
+                    :location (vv6 / ke)))
+(vv1 / raya
+     :ARG0 (vv2 / kami)
+     :ARG1 (vv3 / menang))
+(vv1 / raya
+     :ARG1 (vv2 / menang)
+     :ARG0 (vv3 / kami))
+(vv1 / aju
+     :ARG0 (vv2 / mas
+                :name (vv3 / anis))
+     :ARG1 (vv4 / keluh))
+(vv1 / deformasi
+     :mod (vv2 / gambar))
+(vv1 / saudara
+     :mod (vv2 / lompat))
+(vv1 / terima
+     :ARG0 (vv2 / mereka)
+     :ARG1 (vv3 / kalah))
+(vv1 / beri
+     :ARG0 (vv2 / ibu)
+     :ARG1 (vv3 / makan))
+(vv1 / dapat
+     :ARG0 (vv2 / suster
+                :name (vv3 / ana))
+     :ARG1 (vv4 / uang))
+(vv1 / tangkap
+     :ARG0 (vv2 / warga)
+     :ARG1 (vv3 / babi)
+     :location (vv4 / hutan
+                    :location (vv5 / di)))
+(vv1 / seka
+     :ARG0 (vv2 / saya)
+     :ARG1 (vv3 / lantai))
+(vv1 / pelihara
+     :ARG1 (vv2 / damai)
+     :ARG1 (vv3 / tentara)
+     :ARG1 (vv4 / indonesia
+                :location (vv5 / di)))
+(vv1 / cari
+     :ARG1 (vv2 / nafkah)
+     :ARG0 (vv3 / saya))
+(vv1 / beli
+     :ARG0 (vv2 / kontraktor)
+     :ARG1 (vv3 / tanam))
+(vv1 / peras
+     :ARG0 (vv2 / antara)
+     :ARG1 (vv3 / tani))
+(vv1 / tonton
+     :ARG0 (vv2 / dik
+                :name (vv3 / dil))
+     :ARG1 (vv4 / kartun)
+     :location (vv5 / tv
+                    :location (vv6 / di)))
+(vv1 / tuang
+     :ARG1 (vv2 / air)
+     :ARG0 (vv3 / ibu
+                :name (vv4 / salsa)))
+(vv1 / lipat
+     :ARG1 (vv2 / pakai)
+     :ARG0 (vv3 / ibu))
+(vv1 / liput
+     :ARG0 (vv2 / wartawan)
+     :ARG1 (vv3 / berita))
+(vv1 / liput
+     :ARG1 (vv2 / berita)
+     :ARG1 (vv3 / wartawan))
+(vv1 / tanam
+     :ARG0 (vv2 / krishna)
+     :ARG1 (vv3 / kedelai)
+     :location (vv4 / kebun
+                    :location (vv5 / di)))
+(vv1 / disebrangi
+     :ARG1 (vv2 / sungai)
+     :ARG0 (vv3 / mas
+                :name (vv4 / dudi)))
+(vv1 / cari
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / uang))
+(vv1 / gambar
+     :ARG0 (vv2 / mbak
+                :name (vv3 / hana))
+     :ARG1 (vv4 / kartun))
+(vv1 / berangkat
+     :ARG0 (vv2 / akmal)
+     :location (vv3 / sekolah
+                    :location (vv4 / ke)))
+(vv1 / kami
+     :mod (vv2 / lari))
+(vv1 / baik
+     :mod (vv2 / bagus)
+     :ARG1 (vv3 / laptop))
+(vv1 / tamu
+     :mod (vv3 / nikmat
+               :ARG0 (vv2 / para)
+               :ARG1 (vv5 / saji
+                          :mod (vv6 / pesta)))
+     :mod (vv4 / undang))
+(vv1 / umum
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / ulang
+                          :mod (vv4 / matematika)))
+     :ARG0 (vv5 / bu
+                :name (vv6 / nina))
+     :location (vv7 / siswa
+                    :mod (vv8 / kepada)
+                    :mod (vv9 / para)))
+(vv1 / bantu
+     :ARG0 (vv2 / warga)
+     :ARG1 (vv3 / acara
+                :mod (vv4 / nikah
+                          :name (vv5 / putri
+                                     :mod (vv6 / presiden
+                                               :name (vv7 / jokowi))))))
+(vv1 / bantu
+     :ARG1 (vv2 / acara
+                :mod (vv3 / nikah
+                          :name (vv4 / putri
+                                     :mod (vv5 / presiden
+                                               :name (vv6 / jokowi)))))
+     :ARG1 (vv7 / warga))
+(vv1 / tanam
+     :ARG0 (vv2 / suster
+                :name (vv3 / mira))
+     :ARG1 (vv4 / bunga
+                :mod (vv5 / mawar)))
+(vv1 / cari
+     :ARG1 (vv2 / makan)
+     :ARG1 (vv3 / kelelawar)
+     :time (vv4 / malam
+                :mod (vv5 / saat)
+                :mod (vv6 / hari)))
+(vv1 / dengar
+     :location (vv2 / saat)
+     :ARG1 (vv3 / fajar)
+     :ARG1 (vv4 / suara
+                :mod (vv5 / ayam)
+                :mod (vv6 / jantan)))
+(vv1 / langsung
+     :ARG0 (vv2 / musim
+                :mod (vv3 / hujan))
+     :location (vv4 / bulan
+                    :mod (vv5 / sejak)
+                    :mod (vv6 / oktober)))
+(vv1 / dengar
+     :ARG1 (vv2 / bayi)
+     :time (vv3 / lahir
+                :mod (vv4 / sejak)))
+(vv1 / minum
+     :ARG0 (vv2 / bu
+                :name (vv3 / sus))
+     :ARG1 (vv4 / obat)
+     :location (vv5 / makan
+                    :mod (vv6 / telah)))
+(vv1 / hidup
+     :ARG0 (vv2 / dinosaurus)
+     :location (vv3 / bumi
+                    :location (vv4 / di)
+                    :mod (vv5 / tahun
+                              :mod (vv6 / juta)
+                              :mod (vv7 / lalu))))
+(vv1 / masuk
+     :ARG0 (vv2 / bu
+                :name (vv3 / tina))
+     :ARG1 (vv4 / sekolah
+                :mod (vv5 / senin)
+                :mod (vv6 / lalu)))
+(vv1 / jadi
+     :ARG1 (vv2 / ronta)
+     :time (vv3 / tahun
+                :mod (vv4 / pada)
+                :mod (vv5 / lalu)))
+(vv1 / berangkat
+     :ARG0 (vv2 / profesor
+                :name (vv3 / amri))
+     :mod (vv4 / sudah)
+     :location (vv5 / solo
+                    :location (vv6 / ke)
+                    :mod (vv7 / hari
+                              :mod (vv8 / tiga)))
+     :mod (vv9 / lalu))
+(vv1 / laksana
+     :ARG1 (vv2 / senam)
+     :time (vv3 / hari
+                :mod (vv4 / minggu)))
+(vv1 / pak
+     :mod (vv2 / joko
+               :mod (vv3 / sedih)))
+(vv1 / ingat
+     :ARG1 (vv2 / jadi
+                :mod (vv3 / itu))
+     :ARG0 (vv4 / bu
+                :name (vv5 / sus)))
+(vv1 / dengar
+     :ARG1 (vv2 / kabar)
+     :ARG0 (vv3 / om
+                :name (vv4 / tanto))
+     :time (vv5 / hari
+                :mod (vv6 / ini)))
+(vv1 / datang
+     :ARG0 (vv2 / dia)
+     :mod (vv3 / bisa)
+     :ARG1 (vv4 / sore
+                :mod (vv5 / ini)))
+(vv1 / kakak
+     :mod (vv2 / kuliah)
+     :name (vv3 / bandung
+                :location (vv4 / di))
+     :mod (vv5 / tahun
+               :mod (vv6 / depan)))
+(vv1 / mampir
+     :ARG0 (vv2 / saya)
+     :location (vv3 / sana
+                    :location (vv4 / ke)
+                    :mod (vv5 / hari)
+                    :mod (vv6 / ini)))
+(vv1 / laksana
+     :ARG1 (vv2 / baik
+                :mod (vv3 / jalan))
+     :location (vv4 / waktu
+                    :mod (vv5 / dalam)
+                    :mod (vv6 / dekat)))
+(vv1 / mulai
+     :ARG1 (vv2 / acara
+                :mod (vv3 / diskusi))
+     :ARG1 (vv4 / jam
+                :mod (vv5 / malam
+                          :mod (vv6 / sembilan))))
+(vv1 / gigi
+     :ARG0 (vv2 / dokter
+                :mod (vv3 / rina
+                          :name (vv4 / gosok)))
+     :mod (vv5 / malam
+               :mod (vv6 / tiap))
+     :mod (vv7 / tidur
+               :mod (vv8 / belum)))
+(vv1 / guyur
+     :ARG0 (vv2 / hujan
+                :mod (vv3 / deras))
+     :ARG1 (vv4 / pagi
+                :mod (vv5 / sejak)))
+(vv1 / lari
+     :ARG0 (vv2 / roni)
+     :location (vv3 / lapang
+                    :location (vv4 / di)
+                    :mod (vv5 / sekitar)))
+(vv1 / pulang
+     :ARG0 (vv2 / ayah)
+     :ARG1 (vv3 / sore
+                :mod (vv4 / ini)))
+(vv1 / pulang
+     :ARG0 (vv2 / bu
+                :name (vv3 / rina))
+     :location (vv4 / depok
+                    :location (vv5 / ke)))
+(vv1 / duduk
+     :ARG0 (vv2 / pak
+                :name (vv3 / joko))
+     :location (vv4 / teras
+                    :location (vv5 / di))
+     :location (vv6 / rumah
+                    :mod (vv7 / depan)))
+(vv1 / buka
+     :ARG0 (vv2 / bu
+                :name (vv3 / jean))
+     :ARG1 (vv4 / toko))
+(vv1 / tidur
+     :ARG0 (vv2 / paman
+                :name (vv3 / budi))
+     :location (vv4 / kamar
+                    :location (vv5 / di)
+                    :mod (vv6 / depan)))

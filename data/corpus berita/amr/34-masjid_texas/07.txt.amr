@@ -1,0 +1,51 @@
+# ::snt Kepala Dinas Pemadam Kebakaran Victoria Taner Drake meminta publik untuk tidak menyimpulkan apapun terkait kejadian ini.
+
+(vv1 / minta
+     :ARG0 (vv2 / kepala
+                :mod (vv3 / dinas
+                          :name (vv4 / madam
+                                     :mod (vv5 / bakar
+                                               :mod (vv6 / victoria
+                                                         :name (vv7 / taner
+                                                                    :name (vv8 / drake)))))))
+     :ARG1 (vv9 / publik)
+     :ARG1 (vv10 / simpul
+                 :mod (vv11 / tidak)
+                 :mod (vv12 / kait
+                            :ARG1 (vv13 / jadi))))
+
+# ::snt Karena api berkobar begitu besar, petugas pemadam menjalankan taktik defensif, yakni dengan menyemprotkan air melalui tangga yang dapat diperpanjang.
+
+(vv3 / jalan
+     :mod (vv1 / kobar
+               :ARG0 (vv2 / api))
+     :mod (vv4 / begitu)
+     :ARG0 (vv5 / tugas
+                :mod (vv6 / besar)
+                :mod (vv7 / madam))
+     :ARG1 (vv8 / taktik
+                :mod (vv9 / defensif))
+     :mod (vv10 / semprot
+                :ARG1 (vv11 / air)
+                :ARG1 (vv12 / tangga
+                            :mod (vv13 / panjang
+                                       :mod (vv14 / dapat)))))
+
+# ::snt Menurut Shamsi Ali, AS juga sedang diuji lewat serangkaian aksi kontroversial Trump, yang dinilai sebagian kalangan bertentangan dengan konstitusi negara.
+
+(vv1 / uji
+     :mod (vv2 / shamsi
+               :name (vv3 / ali
+                          :mod (vv4 / as)))
+     :mod (vv5 / juga)
+     :mod (vv6 / sedang)
+     :ARG1 (vv7 / aksi
+                :mod (vv8 / lewat)
+                :mod (vv9 / kontroversial)
+                :mod (vv10 / trump)
+                :mod (vv11 / nilai
+                           :ARG1 (vv12 / kalang
+                                       :mod (vv13 / tentang
+                                                  :location (vv14 / konstitusi
+                                                                  :mod (vv15 / negara)))))))
+

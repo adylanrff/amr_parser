@@ -1,0 +1,20 @@
+# ::snt Dan menurut laporan koroner yang dilansir dari TMZ, sebelum ia memutuskan bunuh diri, Robin sedang berjuang dengan sejumlah peyakit, seperti parkinson, kecemasan, dan depresi.
+
+(vv1 / juang
+     :mod (vv2 / dan)
+     :location (vv4 / koroner)
+     :mod (vv8 / ia)
+     :ARG0 (vv12 / sedang)
+     :mod (vv13 / peyakit
+                :mod (vv15 / cemas))
+     :location (vv14 / parkinson
+                     :mod (vv16 / depresi
+                                :mod (vv3 / lapor
+                                          :mod (vv5 / lansir
+                                                    :mod (vv7 / putus
+                                                              :ARG0 (vv9 / bunuh
+                                                                         :ARG1 (vv11 / robin))
+                                                              :mod (vv10 / diri)))
+                                          :mod (vv6 / tmz)))
+                     :mod vv17))
+

@@ -1,0 +1,76 @@
+# ::snt Kantor berita resmi Korea Utara KCNA Jumat pagi melaporkan bahwa pengadilan militer Kamis malam mengadili dan menghukum mati Jang Song Thaek.
+
+(vv1 / lapor
+     :ARG0 (vv2 / kantor
+                :mod (vv3 / berita
+                          :mod (vv4 / resmi)
+                          :mod (vv5 / korea
+                                    :mod (vv6 / utara)
+                                    :name (vv7 / kcna
+                                               :time (vv8 / jumat)))))
+     :mod (vv9 / pagi)
+     :time (vv10 / malam
+                 :ARG0 (vv11 / adil
+                             :mod (vv13 / kamis)
+                             :mod (vv14 / hukum
+                                        :mod (vv16 / mati)
+                                        :mod (vv17 / jang
+                                                   :name (vv19 / thaek))
+                                        :mod (vv18 / song
+                                                   :name vv20))
+                             :mod (vv15 / dan))
+                 :mod (vv12 / militer)))
+
+# ::snt KCNA mengatakan Jang, paman Kim Jong Un dan dianggap sebagai orang nomor dua di pemerintahan, dinyatakan bersalah berusaha menjatuhkan pemerintah, partai dan kepemimpinan partai berkuasa.
+
+# ::snt Suratkabar pemerintah Korea Utara Rodong Sinmun menerbitkan gambar-gambar Jang berdiri dalam persidangan militer itu, membungkukkan badan didampingi dua tentara.
+
+(vv1 / terbit
+     :ARG0 (vv2 / suratkabar
+                :mod (vv3 / perintah
+                          :mod (vv4 / korea
+                                    :mod (vv5 / utara)))
+                :name (vv6 / rodong
+                           :name (vv7 / sinmun)))
+     :ARG1 (vv8 / gambargambar
+                :name (vv9 / jang))
+     :mod (vv10 / diri
+                :location (vv11 / sidang
+                                :mod (vv12 / militer)))
+     :mod (vv13 / bungkuk
+                :ARG1 (vv14 / badan)
+                :mod (vv15 / damping
+                           :ARG0 (vv16 / tentara
+                                       :mod (vv17 / dua)))))
+
+# ::snt Jang Song Thaek dan istrinya, Kim Kyong Hui, menjadi mentor bagi Kim Jong Un ketika ia menjadi penguasa generasi ketiga setelah kematian ayahnya Kim Jong Il tahun 2011.
+
+(vv1 / jadi
+     :ARG0 (vv2 / jang
+                :name (vv3 / song
+                           :name (vv4 / thaek))
+                :mod (vv5 / istri
+                          :mod (vv6 / dan)
+                          :mod (vv7 / kim
+                                    :name (vv10 / mentor
+                                                :mod (vv8 / kyong
+                                                          :name (vv11 / jong
+                                                                      :mod (vv15 / generasi
+                                                                                 :mod (vv19 / il))
+                                                                      :name vv22)))
+                                    :name (vv13 / ia)
+                                    :name (vv14 / kuasa
+                                                :mod (vv18 / ayah
+                                                           :mod (vv9 / hui))))))
+     :ARG1 (vv12 / un)
+     :ARG0 (vv16 / tiga)
+     :ARG1 (vv17 / mati
+                 :mod (vv21 / 2011)
+                 :mod vv23)
+     :location (vv20 / tahun
+                     :mod vv24))
+
+# ::snt KCNA mengatakan Jang bertahun-tahun merencanakan untuk mengambil alih kekuasaan dari keluarga Kim, dan proses itu baru benar-benar dimulai setelah kematian Kim Jong Il.
+
+# ::snt Kalangan analis politik mengatakan pemimpin Korea Utara berusia 30 tahun itu menganggap Jang, yang usianya dua kali lebih tua, sebagai saingan dalam menjadi satu-satunya pemegang kekuasaan di negara itu.
+

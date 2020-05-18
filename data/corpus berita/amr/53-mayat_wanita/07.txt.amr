@@ -1,0 +1,42 @@
+# ::snt "Mayat tersebut kemudian dibawa ke Rumah Sakit Umum Cut Mutia (RSUCM) menggunakan ambulans oleh pihak medis dan polisi setempat," kata Akmal Daud.
+
+(vv1 / bawa
+     :ARG1 (vv2 / mayat)
+     :mod (vv3 / kemudian)
+     :location (vv4 / rumah
+                    :name (vv5 / sakit
+                               :mod (vv6 / umum
+                                         :name (vv7 / cut
+                                                    :name (vv8 / mutia
+                                                               :name (vv9 / rsucm))))))
+     :mod (vv10 / guna
+                :ARG1 (vv11 / ambulans
+                            :mod (vv12 / pihak
+                                       :mod (vv13 / medis)
+                                       :mod (vv14 / polisi
+                                                  :mod (vv15 / dan)
+                                                  :mod (vv16 / tempat)
+                                                  :mod (vv17 / kata
+                                                             :name (vv18 / akmal
+                                                                         :name (vv19 / daud))))))))
+
+# ::snt Tak lama beselang setelah warga awalnya menemukan jasad perempuan itu, jarak 50 meter dari titik penemuan, didapati pula sesosok janin.
+
+(vv4 / dapat
+     :ARG1 (vv1 / beselang
+                :mod (vv2 / tak)
+                :mod (vv3 / lama))
+     :ARG1 (vv5 / temu
+                :ARG0 (vv7 / awal)
+                :mod (vv8 / jasad
+                          :mod (vv10 / jarak
+                                     :mod (vv12 / 50)
+                                     :ARG1 (vv14 / pula)))
+                :ARG1 (vv9 / perempuan))
+     :ARG1 (vv11 / meter
+                 :mod (vv13 / titik
+                            :mod (vv6 / warga)))
+     :mod (vv15 / sosok
+                :mod vv17)
+     :ARG1 (vv16 / janin))
+

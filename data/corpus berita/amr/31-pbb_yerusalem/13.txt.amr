@@ -1,0 +1,114 @@
+# ::snt "Mereka menghabiskan ratusan juta dolar bahkan miliaran dolar dan kemudian mereka memberikan suara menentang kita," kata Donald Trump di Gedung Putih.
+
+# ::snt "Kita akan memperhatikan suara itu, biarlah mereka memilih melawan kita, kita akan menghemat banyak uang," katanya.
+
+(vv1 / perhati
+     :ARG0 (vv2 / kita)
+     :mod (vv5 / pilih
+               :ARG1 (vv3 / akan)
+               :ARG1 (vv9 / hemat
+                          :ARG0 (vv4 / suara)
+                          :mod (vv6 / biar)
+                          :ARG1 vv13)
+               :ARG0 (vv10 / uang
+                           :mod vv14
+                           :mod vv15)
+               :ARG1 (vv11 / banyak)
+               :ARG1 (vv12 / kata))
+     :ARG1 (vv7 / mereka)
+     :mod (vv8 / lawan))
+
+# ::snt Kalangan diplomat memperkirakan akan muncul dukungan kuat untuk resolusi tersebut, yang tidak bersifat mengikat.
+
+(vv1 / kira
+     :ARG0 (vv2 / kalang
+                :mod (vv3 / diplomat))
+     :mod (vv4 / muncul
+               :mod (vv5 / akan)
+               :ARG1 (vv6 / dukung
+                          :mod (vv7 / kuat)
+                          :mod (vv8 / resolusi
+                                    :mod (vv9 / sifat
+                                              :mod (vv10 / tidak)))))
+     :mod (vv11 / ikat))
+
+# ::snt Pada hari Selasa (19/12), Duta Besar AS untuk PBB Nikki Haley mengirim sebuah email kepada utusan PBB dan menerangkan bahwa "Presiden (AS) akan mengawasi pemungutan suara ini dengan hati-hati dan meminta saya melaporkan kembali pada negara-negara yang telah memilih untuk melawan kami."
+
+(vv1 / kirim
+     :time (vv2 / hari
+                :mod (vv3 / selasa
+                          :mod (vv4 / 1912)))
+     :ARG0 (vv5 / duta
+                :mod (vv6 / besar
+                          :mod (vv7 / as))
+                :mod (vv9 / nikki
+                          :name (vv12 / utus
+                                      :name (vv10 / haley))))
+     :ARG1 (vv13 / terang
+                 :mod (vv16 / presiden
+                            :name (vv8 / pbb
+                                       :name (vv11 / email
+                                                   :mod (vv14 / dan))))
+                 :mod (vv18 / mungut
+                            :mod (vv22 / lapor
+                                       :ARG0 (vv26 / pilih
+                                                   :mod vv30
+                                                   :ARG1 vv31)
+                                       :mod (vv27 / telah)
+                                       :mod (vv28 / lawan
+                                                  :ARG0 vv32))
+                            :mod (vv23 / saya)))
+     :mod (vv15 / awas
+                :ARG0 (vv19 / suara)
+                :mod (vv20 / hatihati)
+                :ARG0 (vv21 / minta
+                            :mod (vv17 / akan)
+                            :mod (vv25 / negaranegara
+                                       :mod (vv29 / kami)))
+                :mod (vv24 / kembali)))
+
+# ::snt "Kami akan mencatat setiap (sikap) pemungutan suara untuk masalah ini," tulisnya dalam sebuah pesan lewat akun Twitter.
+
+(vv1 / catat
+     :ARG0 (vv2 / kami)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / sikap
+                :mod (vv5 / mungut
+                          :mod (vv6 / suara))
+                :mod (vv7 / masalah
+                          :mod (vv8 / tulis
+                                    :mod (vv9 / pesan
+                                              :mod (vv10 / akun
+                                                         :mod (vv11 / lewat)
+                                                         :mod (vv12 / twitter)))))))
+
+# ::snt Donald Trump menjawab lewat akun Twitternya: "Nikki, itu pesan yang tepat."
+
+(vv1 / jawab
+     :ARG0 (vv2 / donald
+                :name (vv3 / trump))
+     :location (vv4 / akun
+                    :mod (vv5 / lewat)
+                    :mod (vv6 / twitternya)
+                    :mod (vv7 / pesan
+                              :time (vv8 / tepat))))
+
+# ::snt Menteri Luar Negeri Palestina Riyad al-Malki mengatakan, sesi Majelis Umum akan menunjukkan "berapa banyak negara yang memilih dengan hati nurani mereka."
+
+(vv1 / kata
+     :ARG0 (vv2 / menteri
+                :mod (vv3 / luar
+                          :mod (vv4 / negeri
+                                    :mod (vv5 / palestina
+                                              :name (vv6 / riyad
+                                                         :mod (vv7 / almalki))))))
+     :ARG1 (vv8 / sesi
+                :mod (vv9 / majelis
+                          :mod (vv10 / umum)))
+     :mod (vv11 / tunjuk
+                :mod (vv12 / akan)
+                :ARG1 (vv13 / negara
+                            :mod (vv14 / pilih
+                                       :location (vv15 / hati
+                                                       :mod (vv16 / nurani))))))
+

@@ -1,0 +1,20 @@
+# ::snt Aksi bom bunuh diri dengan ambulans dua hari lalu di Kabul, Afghanistan, menewaskan 103 orang dan 235 mengalami luka-luka.
+
+(vv1 / bunuh
+     :ARG0 (vv2 / aksi
+                :mod (vv3 / bom))
+     :ARG1 (vv4 / diri)
+     :location (vv5 / ambulans
+                    :mod (vv6 / hari
+                              :mod (vv7 / dua)
+                              :mod (vv8 / lalu))
+                    :mod (vv9 / kabul
+                              :name (vv10 / afghanistan)))
+     :ARG1 (vv11 / tewas
+                 :ARG1 (vv12 / orang
+                             :mod (vv13 / 103))
+                 :mod (vv14 / alami
+                            :mod (vv15 / dan)
+                            :mod (vv16 / 235)
+                            :ARG1 (vv17 / lukaluka))))
+

@@ -1,0 +1,188 @@
+# ::snt Mahkamah Agung Amerika Serikat (AS), Jumat (26/6/2015), akhirnya memutuskan pasangan sesama jenis memiliki hak konstitusional untuk melakukan pernikahan.
+
+(vv1 / putus
+     :ARG0 (vv2 / mahkamah
+                :name (vv3 / agung
+                           :name (vv4 / amerika
+                                      :mod (vv5 / serikat)))
+                :mod (vv6 / as
+                          :mod (vv7 / jumat
+                                    :mod (vv8 / 2662015))))
+     :mod (vv9 / akhir)
+     :ARG1 (vv10 / pasang
+                 :mod (vv11 / sama)
+                 :mod (vv12 / jenis)
+                 :mod (vv13 / milik
+                            :ARG1 (vv14 / hak
+                                        :mod (vv15 / konstitusional))
+                            :ARG1 (vv16 / laku
+                                        :ARG1 (vv17 / nikah)))))
+
+# ::snt Dalam jajak pendapat yang digelar, dihasilkan keputusan yang menyatakan bahwa Amandemen ke-14 menuntut tiap negara bagian untuk melakukan dan melegalkan pernikahan sesama jenis.
+
+(vv1 / hasil
+     :ARG1 (vv2 / jajak
+                :mod (vv3 / dapat)
+                :mod (vv4 / gelar))
+     :ARG1 (vv5 / putus
+                :mod (vv6 / nyata
+                          :mod (vv7 / tuntut
+                                    :ARG0 (vv8 / amandemen
+                                               :mod (vv9 / ke14))
+                                    :ARG1 (vv10 / negara
+                                                :mod (vv11 / bagi))
+                                    :ARG1 (vv12 / laku
+                                                :ARG1 (vv13 / legal
+                                                            :mod (vv14 / dan)
+                                                            :ARG1 (vv15 / nikah
+                                                                        :mod (vv16 / sama)
+                                                                        :mod (vv17 / jenis))))))))
+
+# ::snt Hakim Pembantu Mahkamah Agung AS Anthony Kennedy sempat mengutarakan pendapatnya terkait kasus hak-hak kelompok homoseksual, yang menurutnya pasangan sesama jenis semestinya memiliki hak untuk melakukan pernikahan di semua negara bagian AS.
+
+(vv1 / utara
+     :ARG0 (vv2 / hakim
+                :mod (vv3 / bantu
+                          :mod (vv4 / mahkamah
+                                    :name (vv5 / agung
+                                               :name (vv6 / as
+                                                          :name (vv8 / kennedy))))))
+     :mod (vv10 / dapat)
+     :ARG1 (vv11 / kait
+                 :ARG1 (vv13 / hakhak
+                             :mod (vv15 / homoseksual)))
+     :ARG1 (vv12 / kasus
+                 :mod (vv14 / kelompok
+                            :mod (vv16 / pasang
+                                       :mod (vv18 / milik
+                                                  :location (vv17 / turut)
+                                                  :mod (vv22 / hak)
+                                                  :ARG1 (vv23 / laku
+                                                              :ARG1 (vv25 / negara
+                                                                          :mod vv27)
+                                                              :location (vv26 / bagi
+                                                                              :mod (vv7 / anthony
+                                                                                        :name (vv9 / sempat))))
+                                                  :ARG1 (vv24 / nikah))
+                                       :mod (vv20 / jenis)
+                                       :mod (vv21 / mesti)))
+                 :mod (vv19 / sama)))
+
+# ::snt "Tak ada pertalian hubungan yang lebih mendalam dari pernikahan, yang menjadi wujud dari rasa cinta, kesetiaan, pengabdian, pengorbanan, dan kekeluargaan," tulis Kennedy dalam surat keputusan Mahkamah Agung AS.
+
+(vv1 / ada
+     :mod (vv2 / tak)
+     :ARG1 (vv3 / tali
+                :mod (vv4 / hubung)
+                :mod (vv5 / dalam
+                          :mod (vv6 / lebih))
+                :mod (vv7 / nikah)
+                :mod (vv8 / jadi
+                          :ARG1 (vv9 / wujud
+                                     :mod (vv10 / rasa
+                                                :mod (vv11 / cinta
+                                                           :mod (vv12 / setia
+                                                                      :mod (vv13 / abdi
+                                                                                 :mod (vv14 / korban)
+                                                                                 :mod (vv15 / keluarga
+                                                                                            :mod (vv16 / dan)
+                                                                                            :mod (vv17 / tulis
+                                                                                                       :name (vv18 / kennedy))))))
+                                                :mod (vv19 / surat
+                                                           :mod (vv20 / putus
+                                                                      :mod (vv21 / mahkamah
+                                                                                 :name (vv22 / agung
+                                                                                             :name (vv23 / as))))))))))
+
+# ::snt Ratusan pendukung pernikahan sesama jenis memadati plaza dan trotoar depan gedung pengadilan, seraya merayakan hasil keputusan tersebut, mengibarkan bendera berwarna pelangi dan spanduk bersimbolkan Kampanye HAM terkait isu kesetaraan.
+
+(vv1 / raya
+     :ARG0 (vv2 / dukung
+                :mod (vv3 / nikah
+                          :mod (vv4 / sama)
+                          :mod (vv5 / jenis))
+                :mod (vv6 / padat
+                          :ARG1 (vv7 / plaza
+                                     :mod (vv8 / trotoar
+                                               :mod (vv9 / dan)
+                                               :mod (vv11 / gedung
+                                                          :mod (vv13 / seraya))
+                                               :ARG1 (vv12 / adil)))))
+     :mod (vv14 / hasil
+                :mod (vv16 / kibar
+                           :ARG1 (vv18 / warna
+                                       :ARG1 (vv20 / spanduk
+                                                   :mod (vv10 / depan)
+                                                   :mod (vv22 / kampanye
+                                                              :name (vv24 / kait
+                                                                          :ARG1 (vv26 / tara)))
+                                                   :mod (vv25 / isu
+                                                              :mod vv27)))))
+     :ARG1 (vv15 / putus)
+     :mod (vv17 / bendera
+                :mod (vv19 / pelangi)
+                :mod (vv21 / simbol
+                           :name (vv23 / ham))))
+
+# ::snt Pasangan sesama jenis yang sudah menikah secara legal nantinya akan merasakan hak dan keuntungan lainnya yang didapat oleh pasangan heteroseksual yang sudah menikah, seperti dokumen kelahiran dan kematian yang legal.
+
+# ::snt Pelegalan pernikahan sesama jenis ini dilakukan demi menindaklanjuti kasus Obergefell dan Hodges, di mana Jim Obergefell sebagai penggugat menuntut haknya untuk disertakan namanya dalam sertifikat kematian pasangan sesama jenisnya, John Arthur.
+
+(vv1 / laku
+     :ARG1 (vv2 / pelegalan
+                :mod (vv3 / nikah
+                          :mod (vv4 / sama
+                                    :mod (vv6 / menindaklanjuti
+                                              :ARG1 (vv9 / hodges
+                                                         :mod (vv13 / jim
+                                                                    :name (vv11 / mana)
+                                                                    :mod (vv17 / nama)))
+                                              :location (vv14 / gugat))
+                                    :mod (vv7 / kasus
+                                              :mod (vv10 / dan)))))
+     :ARG1 (vv8 / obergefell
+                :mod (vv12 / tuntut
+                           :ARG0 (vv16 / serta
+                                       :ARG1 (vv20 / pasang
+                                                   :mod (vv5 / jenis
+                                                             :mod vv24))
+                                       :location (vv21 / john
+                                                       :name vv25))
+                           :ARG1 (vv18 / sertifikat
+                                       :mod (vv22 / arthur))
+                           :ARG1 (vv19 / mati
+                                       :mod vv23)))
+     :mod (vv15 / hak))
+
+# ::snt Obergefell dan Arthur sudah menikah secara legal di Maryland pada 2013, namun ketika Arthur meninggal dunia, negara bagian domisili mereka, Ohio, menolak menyertakan nama Obergefell dalam sertifikat Arthur lantaran daerah tersebut tidak melegalkan pernikahan sesama jenis.
+
+(vv1 / meni
+     :ARG0 (vv2 / obergefell
+                :ARG1 (vv4 / dan))
+     :mod (vv8 / 2013)
+     :ARG1 (vv9 / tinggal
+                :ARG0 (vv5 / sudah)
+                :mod (vv14 / domisili)
+                :ARG1 (vv15 / tolak
+                            :ARG1 (vv10 / namun)
+                            :ARG0 (vv20 / lantar)
+                            :ARG1 (vv21 / daerah))
+                :ARG1 (vv19 / sertifikat
+                            :mod (vv6 / legal
+                                      :mod (vv24 / sama)
+                                      :ARG0 (vv25 / jenis)
+                                      :mod vv26
+                                      :ARG1 vv27)))
+     :location (vv11 / dunia
+                     :mod (vv16 / ohio))
+     :mod (vv12 / negara
+                :mod (vv17 / serta
+                           :ARG1 (vv22 / tidak)))
+     :ARG1 (vv13 / bagi
+                 :mod (vv18 / nama
+                            :name (vv3 / arthur
+                                       :mod (vv7 / maryland))
+                            :mod (vv23 / nikah
+                                       :mod vv28
+                                       :mod vv29))))
+

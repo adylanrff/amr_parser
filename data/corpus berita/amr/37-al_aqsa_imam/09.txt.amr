@@ -1,0 +1,86 @@
+# ::snt Imam besar Masjid Al Aqsha Sheikh Ikrimah Shabri yang ditembak polisi Israel pernah berkunjung ke Kota Bandung.
+
+(vv1 / kunjung
+     :ARG0 (vv2 / imam
+                :mod (vv3 / besar)
+                :mod (vv4 / masjid
+                          :mod (vv5 / al
+                                    :name (vv6 / aqsha
+                                               :name (vv7 / sheikh
+                                                          :name (vv8 / ikrimah
+                                                                     :name (vv9 / shabri))))))
+                :mod (vv10 / tembak
+                           :ARG0 (vv11 / polisi
+                                       :mod (vv12 / israel))))
+     :mod (vv13 / pernah)
+     :location (vv14 / kota
+                     :name (vv15 / bandung)))
+
+# ::snt Imam masjid suci bagi umat Islam itu memperoleh bantuan dari rakyat Indonesia dan juga dukungan secara moril demi perjuangan Palestina merdeka.
+
+(vv1 / oleh
+     :ARG0 (vv2 / imam
+                :mod (vv3 / masjid
+                          :mod (vv4 / suci))
+                :mod (vv5 / umat
+                          :mod (vv6 / islam)))
+     :ARG1 (vv7 / bantu
+                :mod (vv8 / rakyat
+                          :mod (vv9 / indonesia))
+                :mod (vv10 / dukung
+                           :mod (vv11 / dan)
+                           :mod (vv12 / juga)
+                           :mod (vv13 / moril)
+                           :mod (vv14 / juang
+                                      :name (vv15 / palestina
+                                                  :mod (vv16 / merdeka))))))
+
+# ::snt Saat itu, Imam Shabri diterima Wali Kota Bandung Ridwan Kamil.
+
+(vv1 / terima
+     :ARG1 (vv2 / saat)
+     :ARG1 (vv3 / imam
+                :name (vv4 / shabri))
+     :ARG0 (vv5 / wali
+                :name (vv6 / kota
+                           :mod (vv7 / bandung
+                                     :name (vv8 / ridwan
+                                                :name (vv9 / kamil))))))
+
+# ::snt Melalui akun instagramnya, Ridwan Kamil pun mengajak umat Islam --khususnya warga Bandung-- untuk mendoakan  Imam Al Aqsa dan juga rakyat Palestina.
+
+(vv1 / ajak
+     :ARG1 (vv2 / akun
+                :mod (vv3 / instagramnya))
+     :ARG0 (vv4 / ridwan
+                :name (vv5 / kamil))
+     :mod (vv6 / pun)
+     :ARG1 (vv7 / umat
+                :mod (vv8 / islam)
+                :mod (vv9 / warga
+                          :mod (vv10 / khusus)
+                          :mod (vv11 / bandung)))
+     :ARG1 (vv12 / doa
+                 :ARG0 (vv13 / imam
+                             :mod (vv14 / al
+                                        :name (vv15 / aqsa))
+                             :mod (vv16 / rakyat
+                                        :mod (vv17 / dan)
+                                        :mod (vv18 / juga)
+                                        :mod (vv19 / palestina)))))
+
+# ::snt Dia mengatakan, warga Bandung akan tetap berdiri untuk rakyat Palestina yang terus berjuang demi kemerdekaan mereka.
+
+(vv1 / kata
+     :ARG0 (vv2 / dia)
+     :ARG0 (vv3 / warga
+                :mod (vv4 / bandung))
+     :mod (vv5 / diri
+               :mod (vv6 / akan)
+               :mod (vv7 / tetap)
+               :location (vv8 / rakyat
+                              :mod (vv9 / palestina)
+                              :mod (vv10 / juang
+                                         :mod (vv11 / terus)
+                                         :ARG1 (vv12 / merdeka)))))
+

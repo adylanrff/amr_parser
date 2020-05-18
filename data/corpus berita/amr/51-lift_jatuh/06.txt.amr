@@ -1,0 +1,28 @@
+# ::snt "Lift terputus dari lantai 3 sampai ground Blok M Square," ujar Teguh kepada wartawan, Jumat (17/3/2017).
+
+(vv1 / putus
+     :ARG1 (vv2 / lift)
+     :location (vv3 / lantai
+                    :mod (vv4 / 3)
+                    :mod (vv5 / ground
+                              :mod (vv6 / blok
+                                        :mod (vv7 / m
+                                                  :mod (vv8 / square)))))
+     :mod (vv9 / ujar)
+     :mod (vv10 / teguh)
+     :ARG1 (vv11 / wartawan
+                 :mod (vv12 / jumat)
+                 :mod (vv13 / 1732017)))
+
+# ::snt Pernyataan Teguh ini sekaligus meralat pernyataan dia sebelumnya bahwa lift diduga jatuh dari 7.
+
+(vv1 / ralat
+     :ARG0 (vv2 / nyata
+                :mod (vv4 / sekaligus))
+     :ARG1 (vv3 / teguh)
+     :mod (vv5 / duga
+               :ARG1 (vv7 / jatuh
+                          :mod vv9)
+               :ARG1 (vv8 / 7))
+     :mod (vv6 / lift))
+

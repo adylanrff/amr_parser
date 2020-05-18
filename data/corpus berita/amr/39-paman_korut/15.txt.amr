@@ -1,0 +1,59 @@
+# ::snt Chad O'Carroll, pendiri NK News, mengatakan penghapusan tampaknya telah dilakukan antara Jumat (13/12) dan Sabtu (14/12), dengan menghapus foto dan artikel yang menyebutkan Jang.
+
+# ::snt Sementara situs KCNA Jepang masih memiliki bahan arsip tua, O'Carroll mengatakan itu dijalankan dari luar Korea Utara dan tidak pernah berisi materi-materi dari agensi resmi.
+
+(vv1 / milik
+     :ARG0 (vv2 / situs
+                :mod (vv3 / kcna
+                          :mod (vv4 / jepang)))
+     :mod (vv5 / masih)
+     :ARG1 (vv6 / bahan
+                :mod (vv7 / arsip
+                          :mod (vv8 / tua))
+                :mod (vv9 / kata
+                          :ARG0 (vv10 / ocarroll)))
+     :ARG1 (vv11 / jalan
+                 :location (vv12 / luar
+                                 :mod (vv13 / korea
+                                            :mod (vv14 / utara)))
+                 :mod (vv15 / isi
+                            :mod (vv16 / dan)
+                            :mod (vv17 / tidak)
+                            :mod (vv18 / pernah)
+                            :ARG1 (vv19 / materimateri
+                                        :mod (vv20 / agens
+                                                   :mod (vv21 / resmi))))))
+
+# ::snt Hanya sebagian kecil dari Korea Utara memiliki akses ke internet, yang berarti bahwa arsip web terutama digunakan oleh orang-orang luar negeri.
+
+(vv1 / milik
+     :mod (vv2 / hanya)
+     :ARG0 (vv3 / bagi
+                :mod (vv4 / kecil)
+                :mod (vv5 / korea
+                          :mod (vv6 / utara)))
+     :ARG1 (vv7 / akses
+                :mod (vv8 / internet)
+                :mod (vv9 / arti
+                          :mod (vv10 / guna
+                                     :ARG1 (vv11 / arsip
+                                                 :mod (vv12 / web))
+                                     :mod (vv13 / utama)
+                                     :location (vv14 / orangorang
+                                                     :mod (vv15 / negeri
+                                                                :mod (vv16 / luar)))))))
+
+# ::snt Secara internal, informasi dikontrol ketat oleh rezim; statistik yang paling ekonomis diklasifikasikan sebagai informasi sensitif.
+
+(vv1 / kontrol
+     :mod (vv2 / internal)
+     :ARG1 (vv3 / informasi
+                :mod vv11)
+     :mod (vv5 / rezim
+               :mod (vv7 / ekonomis
+                         :mod (vv9 / klasifikasi
+                                   :location (vv4 / ketat)))
+               :mod (vv8 / paling)
+               :mod (vv10 / sensitif))
+     :ARG1 (vv6 / statistik))
+

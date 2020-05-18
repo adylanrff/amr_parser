@@ -1,0 +1,123 @@
+# ::snt Presiden Barack Obama memuji Williams sebagai penghibur yang "tak ada duanya" dan "menyentuh semua sisi jiwa manusia."
+
+(vv1 / puji
+     :ARG0 (vv2 / presiden
+                :name (vv3 / barack
+                           :name (vv4 / obama)))
+     :ARG0 (vv5 / williams)
+     :mod (vv6 / hibur
+               :mod (vv7 / ada
+                         :mod (vv8 / tak)
+                         :ARG1 (vv9 / dua)
+                         :mod (vv10 / sentuh
+                                    :mod (vv11 / dan)
+                                    :ARG1 (vv12 / sisi
+                                                :mod (vv13 / jiwa
+                                                           :mod (vv14 / manusia)))))))
+
+# ::snt Aktor Steve Martin, yang membintangi Waiting for Godot bersama Williams, menulis di Twitter ia "sangat terkejut dengan wafatnya Robin Williams, bakat yang luar biasa, mitranya dalam akting, dan seorang jiwa sejati."
+
+(vv1 / tulis
+     :ARG0 (vv2 / aktor
+                :name (vv3 / steve
+                           :name (vv4 / martin))
+                :mod (vv5 / bintang
+                          :ARG1 (vv6 / waiting
+                                     :name (vv7 / for
+                                                :mod (vv8 / godot))
+                                     :ARG1 (vv9 / williams
+                                                :mod (vv17 / luar
+                                                           :mod (vv19 / mitra
+                                                                      :mod (vv21 / jiwa
+                                                                                 :mod (vv23 / sejati)
+                                                                                 :mod vv24))
+                                                           :ARG1 (vv20 / akting
+                                                                       :mod (vv22 / dan)))))))
+     :ARG1 (vv11 / kejut
+                 :ARG1 (vv13 / sangat)
+                 :mod (vv14 / wafat
+                            :name (vv16 / bakat
+                                        :mod (vv18 / biasa)))
+                 :ARG1 (vv15 / robin
+                             :name (vv10 / twitter)))
+     :mod (vv12 / ia))
+
+# ::snt Aparat setempat mengatakan Williams meninggal karena kehabisan nafas akibat tekanan di leher, tapi penyebab kematian sesungguhnya masih berada dalam penyelidikan.
+
+(vv1 / kata
+     :ARG0 (vv2 / aparat
+                :mod (vv3 / tempat))
+     :mod (vv4 / tinggal
+               :ARG0 (vv5 / williams)
+               :mod (vv6 / habis
+                         :mod (vv7 / nafas
+                                   :mod (vv8 / akibat
+                                             :mod (vv9 / tekan)))
+                         :mod (vv10 / leher)))
+     :ARG1 (vv11 / ada
+                 :mod (vv12 / tapi)
+                 :ARG0 (vv13 / sebab
+                             :mod (vv14 / mati))
+                 :mod (vv15 / sungguh)
+                 :mod (vv16 / masih)
+                 :ARG1 (vv17 / lidi)))
+
+# ::snt Williams juga berakting di panggung Broadway dan terus tampil sebagai komendian stand-up, yang terkenal dengan berbagai improvisasinya.
+
+(vv1 / akting
+     :ARG0 (vv2 / williams)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / panggung
+                :mod (vv5 / broadway))
+     :ARG1 (vv6 / tampil
+                :mod (vv7 / dan)
+                :mod (vv8 / terus)
+                :ARG1 (vv9 / komendian
+                           :mod (vv10 / standup)
+                           :mod (vv11 / kenal
+                                      :mod (vv12 / improvisasi)))))
+
+# ::snt Sutradara Steven Spielberg, yang menyutradarai Williams dalam film Hook tahun 1991, mengenang Williams tersebut sebagai seorang komedian yang jenius.
+
+(vv1 / kenang
+     :ARG0 (vv2 / sutradara
+                :mod (vv3 / steven
+                          :name (vv5 / williams))
+                :name (vv4 / spielberg)
+                :ARG0 (vv6 / film
+                           :mod (vv9 / 1991))
+                :location (vv8 / tahun
+                               :mod (vv11 / jenius))
+                :time (vv10 / komedian
+                            :mod vv13))
+     :ARG0 (vv7 / hook)
+     :ARG1 vv12)
+
+# ::snt Istri Williams, Susan Schneider dikutip mengatakan ia berharap, "Mereka yang mengenang Robin untuk tidak berfokus pada kematiannya, tapi pada berbagai momen kebahagiaan dan tawa yang tak terhitung yang ia berikan pada jutaan manusia."
+
+(vv1 / kutip
+     :ARG1 (vv2 / istri
+                :name (vv3 / williams
+                           :mod (vv4 / sus
+                                     :name (vv5 / schneider))))
+     :ARG1 (vv6 / kata)
+     :mod (vv7 / harap
+               :ARG0 (vv8 / ia)
+               :ARG0 (vv10 / kenang
+                           :ARG0 (vv12 / fokus
+                                       :mod (vv14 / mati)
+                                       :location (vv15 / momen
+                                                       :mod (vv17 / bahagia
+                                                                  :mod (vv19 / dan))
+                                                       :mod (vv18 / tawa
+                                                                  :mod (vv20 / hitung
+                                                                             :mod (vv22 / ikan
+                                                                                        :ARG0 (vv9 / mereka
+                                                                                                   :mod (vv11 / robin))
+                                                                                        :ARG1 (vv24 / manusia)))
+                                                                  :mod (vv21 / tak)
+                                                                  :ARG1 (vv23 / juta
+                                                                              :mod vv25)))
+                                       :ARG1 (vv16 / tapi))
+                           :ARG1 (vv13 / tidak))))
+

@@ -1,0 +1,20 @@
+(o / orang
+      :ARG0 (t / teguh)
+      :ARG1 (p1 / perwira
+            :mod (p2 / polisi)))
+
+(m / makan
+      :ARG0 (a / aku)
+      :ARG1 (r / roti)
+      :time (t / tadi))
+
+(l / lihat
+      :ARG0 (a / aku)
+      :ARG1 (r / raut
+            :mod (s / sedih)))
+
+(k / kunjung
+      :ARG0 (p1 / presiden
+            :name (j / joko))
+      :location (p2 / papua))
+

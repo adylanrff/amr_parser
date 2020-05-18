@@ -1,0 +1,51 @@
+# ::snt Ketua Lakpusdam Pengurus Besar Nahdlatul Ulama (NU) Rumadi Ahmad turut menyesalkan peristiwa pembakaran dua gereja di Aceh Singkil yang menyebabkan jatuhnya korban jiwa dan menimbulkan rasa tidak aman warga.
+
+(vv1 / sesal
+     :ARG0 (vv2 / ketua
+                :name (vv3 / lakpusdam
+                           :name (vv4 / urus
+                                      :mod (vv5 / besar)
+                                      :mod (vv6 / nahdlatul
+                                                :mod (vv7 / ulama
+                                                          :name (vv8 / nu
+                                                                     :name (vv9 / rumadi
+                                                                                :name (vv10 / ahmad))))))))
+     :mod (vv11 / turut)
+     :ARG1 (vv12 / peristiwa
+                 :mod (vv13 / bakar
+                            :mod (vv14 / gereja
+                                       :mod (vv15 / dua)
+                                       :mod (vv16 / aceh
+                                                  :name (vv17 / singkil))))
+                 :mod (vv18 / sebab
+                            :ARG1 (vv19 / jatuh
+                                        :mod (vv20 / korban
+                                                   :mod (vv21 / jiwa)))
+                            :mod (vv22 / timbul
+                                       :mod (vv23 / dan)
+                                       :ARG1 (vv24 / rasa
+                                                   :mod (vv25 / aman
+                                                              :mod (vv26 / tidak)
+                                                              :ARG0 (vv27 / warga)))))))
+
+# ::snt Kata dia, setelah kasus Tolikara, Papua, kekerasan atas nama agama kembali terulang di Indonesia dalam waktu yang hampir tak berjauhan.
+
+(vv1 / ulang
+     :ARG1 (vv2 / kata
+                :ARG1 (vv3 / kasus
+                           :mod (vv4 / tolikara
+                                     :name (vv5 / papua))
+                           :mod (vv6 / keras
+                                     :mod (vv7 / nama
+                                               :mod (vv8 / agama)))))
+     :mod (vv9 / kembali)
+     :ARG1 (vv10 / indonesia)
+     :ARG1 (vv11 / waktu
+                 :mod (vv12 / jauh
+                            :mod (vv13 / hampir)
+                            :mod (vv14 / tak))))
+
+# ::snt Untuk mencegah adanya korban lanjutan dan aksi yang berkelanjutan dari kedua belah pihak, Rumadi meminta aparat setempat untuk segera melakukan langkah pengamanan.
+
+# ::snt "Tak ada alasan lain kepada aparat pemerintah harus antisipasi agar peristiwa di aceh tidak diframe oleh pihak lain," pungkas dia.
+

@@ -1,0 +1,39 @@
+# ::snt Kabar ini diumumkan melalui sebuah surat yang dikirim ke pegawai Uber oleh jajaran direksi perusahaan dan menandai pencarian CEO baru pun berakhir setelah berjalan dua bulan.
+
+(vv1 / umum
+     :ARG1 (vv2 / kabar)
+     :ARG1 (vv3 / surat
+                :mod (vv4 / kirim
+                          :ARG1 (vv5 / pegawai
+                                     :name (vv6 / uber))
+                          :ARG1 (vv7 / jajar
+                                     :mod (vv8 / direksi
+                                               :mod (vv9 / usaha)))
+                          :ARG1 (vv10 / tanda
+                                      :mod (vv11 / dan)
+                                      :ARG1 (vv12 / cari
+                                                  :mod (vv13 / ceo)))))
+     :mod (vv14 / akhir
+                :mod (vv15 / baru
+                           :mod (vv16 / pun))
+                :ARG1 (vv17 / jalan
+                            :ARG1 (vv18 / bulan
+                                        :mod (vv19 / dua)))))
+
+# ::snt Khosrowshahi akan mulai bekerja pada 30 Agustus ini dan berencana untuk menemui semua pegawai Uber di seluruh dunia dalam beberapa pekan ke depan.
+
+(vv1 / kerja
+     :ARG0 (vv2 / khosrowshahi)
+     :mod (vv3 / akan)
+     :mod (vv4 / mulai)
+     :time (vv5 / agustus
+                :mod (vv6 / 30))
+     :mod (vv7 / rencana
+               :mod (vv8 / dan)
+               :ARG1 (vv9 / temu
+                          :ARG1 (vv10 / pegawai
+                                      :name (vv11 / uber))
+                          :location (vv12 / dunia)
+                          :time (vv13 / pekan
+                                      :mod (vv14 / depan)))))
+

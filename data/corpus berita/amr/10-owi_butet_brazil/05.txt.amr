@@ -1,0 +1,51 @@
+# ::snt Setelah menjadi juara di ajang Olimpiade Rio 2016, bonus pun mengucur deras ke Tontowi/Liliyana. Apa saja bonus yang sudah diterima Tontowi/Liliyana hingga sejauh ini?
+
+(vv1 / kucur
+     :mod (vv2 / jadi
+               :ARG1 (vv3 / juara
+                          :mod (vv4 / ajang
+                                    :mod (vv5 / olimpiade
+                                              :name (vv6 / rio
+                                                         :mod (vv7 / 2016))))))
+     :ARG0 (vv8 / bonus
+                :mod (vv14 / sudah)
+                :mod (vv15 / jauh))
+     :mod (vv10 / tontowililiyana)
+     :mod (vv11 / apa
+                :mod (vv9 / deras))
+     :mod (vv13 / terima
+                :mod (vv12 / saja)
+                :mod vv16
+                :location vv17))
+
+# ::snt Para atlet asal ASEAN yang meraih emas di Rio 2016 bisa terbang ke lebih dari 120 tujuan yang berada dalam jaringan Air Asia dan Air Asia X di Asia, Australia, Timur Tengah dan Afrika.
+
+(vv1 / terbang
+     :ARG0 (vv2 / atlet
+                :mod (vv3 / asean
+                          :mod (vv4 / asal))
+                :mod (vv5 / raih
+                          :ARG1 (vv6 / emas)
+                          :ARG1 (vv7 / rio
+                                     :mod (vv8 / 2016))))
+     :mod (vv9 / bisa)
+     :ARG1 (vv10 / tuju
+                 :mod (vv11 / lebih)
+                 :mod (vv12 / 120)
+                 :mod (vv13 / ada
+                            :ARG1 (vv14 / jaring
+                                        :ARG1 (vv15 / air
+                                                    :name (vv17 / dan)
+                                                    :name (vv18 / x)
+                                                    :mod (vv20 / timur
+                                                               :mod vv25))
+                                        :ARG1 (vv16 / asia
+                                                    :mod (vv22 / afrika
+                                                               :mod (vv21 / tengah))
+                                                    :mod vv23
+                                                    :mod vv26)
+                                        :mod (vv19 / australia
+                                                   :name vv24)))))
+
+# ::snt Meski belum langsung menerima ganjaran ini karena belum pensiun menjadi atlet, setidaknya Tontowi dan Liliyana sudah bisa tenang karena ada jaminan setelah pensiun mereka akan mendapatkan tunjangan sebesar gaji manajer.
+

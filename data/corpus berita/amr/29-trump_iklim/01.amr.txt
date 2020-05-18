@@ -1,0 +1,265 @@
+# ::snt Presiden AS Donald Trump diperkirakan akan menarik Amerika keluar dari perjanjian iklim global yang sempat menjadi terobosan, demikian ujar seorang pejabat Gedung Putih hari Rabu (31/5).
+
+(vv1 / kira
+     :ARG1 (vv2 / presiden
+                :name (vv3 / as
+                           :name (vv4 / donald
+                                      :name (vv5 / trump))))
+     :mod (vv6 / tarik
+               :mod (vv7 / akan)
+               :ARG0 (vv8 / amerika)
+               :ARG1 (vv9 / keluar
+                          :ARG1 (vv10 / janji
+                                      :mod (vv11 / iklim
+                                                 :mod (vv12 / global))
+                                      :mod (vv13 / jadi
+                                                 :mod (vv14 / sempat)
+                                                 :ARG1 (vv15 / terobos
+                                                             :mod (vv16 / demikian))
+                                                 :ARG1 (vv17 / jabat
+                                                             :mod (vv18 / ujar)
+                                                             :mod (vv19 / gedung
+                                                                        :mod (vv20 / putih
+                                                                                   :mod (vv21 / hari
+                                                                                              :mod (vv22 / rabu
+                                                                                                         :mod (vv23 / 315)))))))))))
+
+# ::snt Keluarnya Amerika dari perjanjian iklim global tersebut berarti memenuhi janji yang disampaikan oleh Presiden Donald Trump pada masa kampanye Pilpres AS tahun lalu, tetapi akan menimbulkan kemarahan sekutu-sekutu Amerika yang telah menghabiskan waktu bertahun-tahun melakukan perundingan yang rumit untuk menghasilkan perjanjian guna mengurangi emisi karbon.
+
+(vv1 / arti
+     :ARG0 (vv2 / keluar
+                :name (vv3 / amerika)
+                :mod (vv5 / iklim
+                          :mod (vv9 / presiden
+                                    :name (vv13 / kampanye
+                                                :mod (vv17 / lalu)))))
+     :ARG1 (vv10 / donald
+                 :name (vv14 / pilpres
+                             :mod (vv18 / timbul
+                                        :mod (vv22 / sekutusekutu
+                                                   :name (vv4 / janji
+                                                              :mod (vv8 / sampai
+                                                                        :ARG1 (vv12 / masa
+                                                                                    :mod (vv16 / tahun
+                                                                                               :mod (vv20 / akan))
+                                                                                    :mod (vv19 / tetapi))
+                                                                        :ARG1 (vv15 / as))
+                                                              :mod (vv11 / trump)))
+                                        :mod (vv23 / habis
+                                                   :mod (vv27 / laku
+                                                              :ARG1 (vv31 / kurang
+                                                                          :ARG1 vv35))
+                                                   :ARG1 (vv28 / runding
+                                                               :mod (vv32 / emisi
+                                                                          :mod vv36)
+                                                               :mod (vv33 / karbon)))
+                                        :ARG0 (vv24 / telah)
+                                        :ARG1 (vv30 / hasil
+                                                    :ARG1 (vv7 / penuh
+                                                               :ARG1 (vv6 / global))
+                                                    :mod vv34))))
+     :mod (vv21 / marah
+                :mod (vv25 / waktu
+                           :mod (vv29 / rumit))
+                :mod (vv26 / bertahuntahun)))
+
+# ::snt Dalam lawatan dan pertemuannya dengan sejumlah pemimpin Eropa dan Paus Fransiskus baru-baru ini, Trump menghadapi tekanan yang cukup besar untuk mempertahankan perjanjian itu. Pejabat itu mengatakan ia dan presiden sedang menyelesaikan rincian keluarnya Amerika dari perjanjian Paris tersebut.
+
+# ::snt "Saya akan mengumumkan keputusan saya mengenai Perjanjian Paris dalam beberapa hari ke depan. Jadikan Amerika Besar Lagi!," tulis Trump di Twitter hari Rabu (31/5).
+
+# ::snt Meskipun Trump saat ini lebih memilih keluar dari perjanjian itu, ia dikenal kerap mengubah pemikirannya tentang keputusan-keputusan utama dan cenderung mencari nasihat dari sejumlah penasihat di dalam dan luar lingkarannya, hingga saat-saat terakhir.
+
+(vv8 / kenal
+     :ARG1 (vv5 / ubah
+                :mod (vv1 / pilih
+                          :ARG0 (vv2 / trump)
+                          :ARG1 (vv3 / saat)
+                          :mod (vv4 / lebih)
+                          :mod (vv6 / keluar)
+                          :ARG1 (vv7 / janji))
+                :mod (vv10 / kerap)
+                :ARG1 (vv11 / pikir
+                            :mod (vv12 / keputusankeputusan
+                                       :mod (vv13 / utama)))
+                :mod (vv14 / cari
+                           :mod (vv15 / dan)
+                           :mod (vv17 / nasihat
+                                      :mod (vv19 / luar
+                                                 :mod (vv16 / cenderung)
+                                                 :mod (vv22 / akhir)
+                                                 :mod vv23)
+                                      :mod (vv20 / lingkar)
+                                      :mod (vv21 / saatsaat
+                                                 :mod vv24))
+                           :ARG1 (vv18 / dalam)))
+     :ARG0 (vv9 / ia))
+
+# ::snt Trump direncanakan akan mengadakan pertemuan dengan Menteri Luar Negeri Rex Tillerson Rabu sore, yang sejauh ini tetap tidak ingin Amerika keluar dari perjanjian itu.
+
+(vv1 / rencana
+     :ARG1 (vv2 / trump)
+     :ARG1 (vv3 / ada
+                :mod (vv4 / akan)
+                :ARG1 (vv5 / temu
+                           :mod (vv6 / menteri
+                                     :mod (vv7 / luar
+                                               :mod (vv8 / negeri
+                                                         :name (vv9 / rex
+                                                                    :name (vv10 / tillerson
+                                                                                :name (vv11 / rabu)))))
+                                     :mod (vv12 / sore)
+                                     :mod (vv13 / ingin
+                                                :mod (vv14 / jauh)
+                                                :mod (vv15 / tetap)
+                                                :mod (vv16 / tidak)))))
+     :mod (vv17 / keluar
+                :ARG0 (vv18 / amerika)
+                :ARG1 (vv19 / janji)))
+
+# ::snt Kepala Strategi Steve Bannon akan mendukung mundurnya Amerika. Sementara, penasihat senior Jared Kushner umumnya menilai perjanjian itu buruk, tetapi masih ingin menemukan cara untuk mengetahui apakah target-target emisi Amerika bisa diubah.
+
+# ::snt Tahun 2015 lalu hampir 200 negara – termasuk Amerika pada masa kepemimpinan Barack Obama – setuju untuk secara sukarela mengurangi emisi gas rumah kaca guna mengatasi perubahan iklim. Mundurnya Amerika dari perjanjian iklim ini akan membuat Amerika setara dengan Rusia, yang merupakan bagian dari negara-negara industrialisasi yang menolak mengambil tindakan untuk mengatasi perubahan iklim.
+
+(vv1 / tuju
+     :ARG1 (vv2 / tahun
+                :mod (vv3 / 2015)
+                :mod (vv4 / lalu))
+     :ARG0 (vv5 / negara
+                :mod (vv6 / hampir)
+                :mod (vv7 / 200)
+                :mod (vv8 / )
+                :mod (vv9 / masuk
+                          :ARG0 (vv10 / amerika
+                                      :mod (vv35 / tolak
+                                                 :ARG1 vv42)
+                                      :ARG1 (vv36 / ambil
+                                                  :ARG1 (vv25 / mundur
+                                                              :name (vv11 / masa
+                                                                          :mod (vv14 / obama
+                                                                                     :mod (vv17 / sukarela))))
+                                                  :ARG1 vv43)
+                                      :mod (vv37 / tindak))
+                          :ARG1 (vv13 / barack
+                                      :name (vv16 / kurang
+                                                  :ARG1 (vv19 / gas
+                                                              :mod (vv22 / atas
+                                                                         :ARG1 (vv26 / janji
+                                                                                     :mod (vv29 / tara))
+                                                                         :ARG1 (vv27 / buat
+                                                                                     :ARG1 (vv12 / pimpin
+                                                                                                 :name (vv15 / –))
+                                                                                     :mod (vv34 / industrialisasi))))
+                                                  :ARG1 (vv20 / rumah
+                                                              :mod (vv23 / ubah
+                                                                         :mod (vv28 / akan)
+                                                                         :mod (vv30 / rusia)
+                                                                         :mod (vv32 / bagi
+                                                                                    :mod vv39)))
+                                                  :ARG1 (vv33 / negaranegara
+                                                              :mod vv40
+                                                              :mod vv41)))))
+     :mod (vv18 / emisi
+                :mod (vv21 / kaca)
+                :mod (vv24 / iklim
+                           :mod (vv31 / rupa
+                                      :ARG1 vv38))))
+
+# ::snt PBB diperkirakan akan segera menanggapi keputusan Trump tersebut. Akun Twitter utama badan dunia itu mengutip Sekjen Antonio Guterres yang mengatakan, "Perubahan iklim tidak dapat dipungkiri. Perubahan iklim tidak dapat dihentikan. Solusi perubahan iklim memberi peluang tidak tertandingi."
+
+# ::snt Sebelum menjabat, Trump mengklaim bahwa perubahan iklim adalah "bohong" yang dibuat oleh China untuk merugikan perekonomian Amerika. Pernyataan semacam itu bertentangan kesimpulan ilmiah yang ada.
+
+(vv1 / klaim
+     :mod (vv2 / jabat
+               :ARG0 (vv3 / trump))
+     :mod (vv4 / bohong
+               :ARG0 (vv5 / ubah
+                          :mod (vv6 / iklim))
+               :mod (vv7 / adalah)
+               :mod (vv8 / buat
+                         :location (vv9 / china)
+                         :ARG1 (vv10 / rugi
+                                     :ARG1 (vv11 / ekonomi
+                                                 :name (vv12 / amerika)))))
+     :mod (vv13 / tentang
+                :ARG0 (vv14 / nyata)
+                :ARG1 (vv15 / simpul
+                            :mod (vv16 / ilmiah)
+                            :mod (vv17 / ada))))
+
+# ::snt Ratusan bisnis papan atas Amerika telah menyampaikan pandangan mendukung perjanjian Paris itu, termasuk Apple, Google dan WalMart. Bahkan perusahaan-perusahaan yang menggunakan bahan bakar fosil seperti Exxon Mobil, BP dan Shell mengatakan Amerika harus mematuhi perjanjian tersebut.
+
+(vv1 / sampai
+     :ARG0 (vv2 / ratus
+                :mod (vv3 / bisnis
+                          :mod (vv4 / papan))
+                :mod (vv5 / amerika))
+     :mod (vv7 / pandang
+               :mod (vv9 / janji
+                         :mod (vv12 / apple
+                                    :mod (vv15 / dan)
+                                    :mod (vv16 / kata
+                                               :ARG1 (vv6 / telah)
+                                               :ARG1 (vv20 / bahan
+                                                           :mod (vv24 / mobil
+                                                                      :mod (vv28 / harus))
+                                                           :mod (vv26 / shell
+                                                                      :mod (vv18 / perusahaanperusahaan
+                                                                                 :mod (vv22 / fosil))))
+                                               :ARG0 (vv21 / bakar
+                                                           :mod (vv25 / bp))
+                                               :mod vv30))))
+     :ARG1 (vv8 / dukung
+                :ARG1 (vv10 / paris))
+     :mod (vv13 / google)
+     :ARG1 (vv19 / guna
+                 :ARG1 (vv23 / exxon
+                             :ARG0 (vv27 / patuh
+                                         :ARG1 (vv11 / masuk
+                                                     :ARG0 (vv14 / walmart
+                                                                 :mod (vv17 / bahkan)))
+                                         :mod vv31)
+                             :mod vv29)))
+
+# ::snt Amerika adalah penghasil karbon terbesar kedua di dunia, disusul oleh China. Namun, Beijing telah menegaskan kembali komitmennya untuk memenuhi target sesuai perjanjian Paris, dan baru-baru ini telah membatalkan pembangunan sekitar 100 pembangkit listrik tenaga batubara dan menanamkan investasi miliaran dolar dalam proyek-proyek tenaga angin dan surya.
+
+(vv1 / hasil
+     :ARG0 (vv2 / amerika)
+     :mod (vv3 / adalah)
+     :mod (vv4 / karbon
+               :mod (vv5 / besar)
+               :mod (vv6 / dua))
+     :mod (vv7 / dunia
+               :mod (vv8 / susul
+                         :ARG1 (vv9 / china)))
+     :mod (vv10 / tegas
+                :mod (vv11 / namun)
+                :ARG0 (vv12 / beijing)
+                :mod (vv13 / telah)
+                :mod (vv15 / komitmen)
+                :ARG1 (vv16 / penuh
+                            :ARG1 (vv18 / janji
+                                        :mod (vv20 / paris)
+                                        :mod (vv21 / batal
+                                                   :mod (vv14 / kembali)
+                                                   :mod (vv23 / barubaru)
+                                                   :ARG0 (vv26 / 100)
+                                                   :ARG1 (vv27 / listrik
+                                                               :mod (vv31 / investasi
+                                                                          :mod (vv36 / surya
+                                                                                     :mod (vv25 / bangkit
+                                                                                                :mod (vv29 / batubara)
+                                                                                                :mod (vv30 / tanam
+                                                                                                           :mod (vv24 / bangun
+                                                                                                                      :mod (vv28 / tenaga
+                                                                                                                                 :mod (vv33 / dolar)
+                                                                                                                                 :mod vv39))
+                                                                                                           :ARG1 (vv35 / angin)
+                                                                                                           :location vv38)))))
+                                                   :ARG1 (vv34 / proyekproyek
+                                                               :mod (vv32 / miliar
+                                                                          :mod vv37)
+                                                               :mod vv40)))
+                            :ARG1 (vv19 / sesuai)
+                            :mod (vv22 / dan))
+                :ARG1 (vv17 / target)))
+

@@ -1,0 +1,24 @@
+# ::snt Pengadilan Negeri Jakarta Pusat melalui Ketua Majelis Hakim, Kisworo, memvonis Jessica Kumala Wongo, terdakwa atas kasus meninggalnya Wayan Mirna Salihin selama 20 tahun penjara.
+
+(vv1 / memvonis
+     :ARG0 (vv2 / pengadilan
+                :mod (vv3 / negeri
+                          :name (vv4 / jakarta
+                                     :mod (vv5 / pusat)))
+                :mod (vv6 / ketua
+                          :mod (vv7 / majelis
+                                    :name (vv8 / hakim
+                                               :name (vv9 / kisworo)))))
+     :ARG0 (vv10 / jessica
+                 :name (vv11 / kumala
+                             :name (vv12 / wongo)))
+     :mod (vv13 / dakwa
+                :ARG1 (vv14 / kasus
+                            :mod (vv15 / tinggal
+                                       :ARG0 (vv16 / wayan
+                                                   :name (vv17 / mirna
+                                                               :name (vv18 / salihin)))))
+                :ARG1 (vv19 / tahun
+                            :mod (vv20 / 20)
+                            :mod (vv21 / penjara))))
+

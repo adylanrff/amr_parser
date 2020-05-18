@@ -1,0 +1,5370 @@
+# ::id 1
+# ::snt Bu Ani menanam bunga
+# ::tokens ["Bu", "Ani", "menanam", "bunga"]
+# ::lemmas ["bu", "ani", "tanam", "bunga"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tanam
+      :ARG0 (b1 / bu
+            :name (a / ani))
+      :ARG1 (b2 / bunga))
+
+# ::id 1
+# ::snt Bunga ditanam Bu Ani
+# ::tokens ["Bunga", "ditanam", "Bu", "Ani"]
+# ::lemmas ["bunga", "tanam", "bu", "ani"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(t / tanam
+      :ARG0 (b1 / bu
+            :name (a / ani))
+      :ARG1 (b2 / bunga))
+
+# ::id 2
+# ::snt Om Andi berangkat ke sekolah besok
+# ::tokens ["Om", "Andi", "berangkat", "ke", "sekolah", "besok"]
+# ::lemmas ["om", "andi", "berangkat", "ke", "sekolah", "besok"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN", "PUNCT"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(b1 / berangkat
+      :ARG0 (o / om
+            :name (a / andi))
+      :ARG1 (s / sekolah
+            :mod (k / ke))
+      :time (b2 / besok))
+
+# ::id 3
+# ::snt Ibu Asih pergi ke rumah Nenek Yanti kemarin
+# ::tokens ["Ibu", "Asih", "pergi", "ke", "rumah", "Nenek", "Yanti", "kemarin"]
+# ::lemmas ["ibu", "asih", "pergi", "ke", "rumah", "nenek", "yanti", "kemarin"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN", "PROPN", "PROPN", "PUNCT"]
+# ::ner_tags ["O", "PER", "O", "O", "O", "O", "LOC", "O"]
+(p / pergi
+      :ARG0 (i / ibu
+            :name (a / asih))
+      :location (r / rumah
+            :mod (n / nenek
+                  :name (y / yanti)))
+      :time (k / kemarin))
+
+# ::id 4
+# ::snt Kami sekeluarga pergi bertamasya hari Minggu
+# ::tokens ["Kami", "sekeluarga", "pergi", "bertamasya", "hari", "Minggu"]
+# ::lemmas ["kami", "keluarga", "pergi", "tamasya", "hari", "minggu"]
+# ::pos_tags ["PRON", "ADV", "VERB", "VERB", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "DAT"]
+(p / pergi
+      :ARG0 (k1 / kami
+            :mod (k2 / keluarga))
+      :ARG1 (t / tamasya)
+      :time (h / hari
+            :mod (m / minggu)))
+
+# ::id 5
+# ::snt Siswa belajar di sekolah
+# ::tokens ["Siswa", "belajar", "di", "sekolah"]
+# ::lemmas ["siswa", "ajar", "di", "sekolah"]
+# ::pos_tags ["NOUN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(a / ajar
+      :ARG0 (s1 / siswa)
+      :location (s2 / sekolah))
+
+# ::id 6
+# ::snt Para siswa sedang berupacara
+# ::tokens ["Para", "siswa", "sedang", "berupacara"]
+# ::lemmas ["para", "siswa", "sedang", "upacara"]
+# ::pos_tags ["DET", "NOUN", "ADV", "VERB"]
+# ::ner_tags ["O", "O", "O", "O"]
+(u / upacara
+      :ARG0 (s / siswa
+            :mod (p / para)))
+
+# ::id 7
+# ::snt Om Budi makan permen
+# ::tokens ["Om", "Budi", "makan", "permen"]
+# ::lemmas ["om", "budi", "makan", "permen"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(m / makan
+      :ARG0 (o / om
+            :name (b / budi))
+      :ARG1 (p / permen))
+
+# ::id 7
+# ::snt Permen dimakan Om Budi
+# ::tokens ["Permen", "dimakan", "Om", "Budi"]
+# ::lemmas ["permen", "makan", "om", "budi"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "NOR"]
+(m / makan
+      :ARG0 (o / om
+            :name (b / budi))
+      :ARG1 (p / permen))
+
+# ::id 8
+# ::snt Petani menanam padi
+# ::tokens ["Petani", "menanam", "padi"]
+# ::lemmas ["tani", "tanam", "padi"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(t1 / tanam
+      :ARG0 (t2 / tani)
+      :ARG1 (p / padi))
+
+# ::id 8
+# ::snt Padi ditanam Pak Tani
+# ::tokens ["Padi", "ditanam", "Pak", "Tani"]
+# ::lemmas ["padi", "tanam", "pak", "tani"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "LOC"]
+(t1 / tanam
+      :ARG0 (t2 / tani)
+      :ARG1 (p / padi))
+
+# ::id 9
+# ::snt Ayah pergi ke kantor
+# ::tokens ["Ayah", "pergi", "ke", "kantor"]
+# ::lemmas ["ayah", "pergi", "ke", "kantor"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p / pergi
+      :ARG0 (a / ayah)
+      :location (k1 / kantor
+            :mod (k2 / ke)))
+
+# ::id 10
+# ::snt Ibu Risna memasak ayam di dapur
+# ::tokens ["Ibu", "Risna", "memasak", "ayam", "di", "dapur"]
+# ::lemmas ["ibu", "risna", "masak", "ayam", "di", "dapur"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O", "O", "O"]
+(m / masak
+      :ARG0 (i / ibu
+            :name (r / risna))
+      :ARG1 (a / ayam)
+      :location (d / dapur))
+
+# ::id 10
+# ::snt Ayam dimasak Bu Risna di dapur
+# ::tokens ["Ayam", "dimasak", "Bu", "Risna", "di", "dapur"]
+# ::lemmas ["ayam", "masak", "bu", "risna", "di", "dapur"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "PER", "O", "O", "O"]
+(m / masak
+      :ARG0 (i / ibu
+            :name (r / risna))
+      :ARG1 (a / ayam)
+      :location (d / dapur))
+
+# ::id 11
+# ::snt Adik bermain dengan temannya
+# ::tokens ["Adik", "bermain", "dengan", "temannya"]
+# ::lemmas ["adik", "main", "dengan", "teman"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(m / main
+      :ARG0 (a / adik)
+      :ARG1 (t / teman))
+
+# ::id 12
+# ::snt Kakak sedang tidur
+# ::tokens ["Kakak", "sedang", "tidur"]
+# ::lemmas ["kakak", "sedang", "tidur"]
+# ::pos_tags ["PROPN", "ADV", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(t / tidur
+      :ARG0 (k / kakak))
+
+# ::id 13
+# ::snt Adik diajak Paman Nadiem bermain
+# ::tokens ["Adik", "diajak", "Paman", "Nadiem", "bermain"]
+# ::lemmas ["adik", "ajak", "paman", "nadiem", "main"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "VERB"]
+# ::ner_tags ["O", "O", "GPE", "PER", "O"]
+(a1 / ajak
+      :ARG0 (p / paman
+            :name (n / nadiem))
+      :ARG1 (a2 / adik)
+      :mod (m / main))
+
+# ::id 13
+# ::snt Paman Nadiem mengajak Adik bermain
+# ::tokens ["Paman", "Nadiem", "mengajak", "Adik", "bermain"]
+# ::lemmas ["paman", "nadiem", "ajak", "adik", "main"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN", "VERB"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(a1 / ajak
+      :ARG0 (p / paman
+            :name (n / nadiem))
+      :ARG1 (a2 / adik)
+      :mod (m / main))
+
+# ::id 14
+# ::snt Upacara tadi dipimpin kepala sekolah
+# ::tokens ["Upacara", "tadi", "dipimpin", "kepala", "sekolah"]
+# ::lemmas ["upacara", "tadi", "pimpin", "kepala", "sekolah"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / pimpin
+      :ARG0 (k / kepala
+            :mod (s / sekolah))
+      :ARG1 (u / upacara)
+      :time (t / tadi))
+
+# ::id 14
+# ::snt kepala sekolah memimpin upacara tadi
+# ::tokens ["kepala", "sekolah", "memimpin", "upacara", "tadi"]
+# ::lemmas ["kepala", "sekolah", "pimpin", "upacara", "tadi"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / pimpin
+      :ARG0 (k / kepala
+            :mod (s / sekolah))
+      :ARG1 (u / upacara)
+      :time (t / tadi))
+
+# ::id 15
+# ::snt Mereka menonton pertandingan bola basket hari ini
+# ::tokens ["Mereka", "menonton", "pertandingan", "bola", "basket", "hari", "ini"]
+# ::lemmas ["mereka", "tonton", "tanding", "bola", "basket", "hari", "ini"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(t1 / tonton
+      :ARG0 (m / mereka)
+      :ARG1 (t2 / tanding
+            :mod (b1 / bola
+                  :mod (b2 / basket)))
+      :time (h / hari))
+
+# ::id 15
+# ::snt pertandingan bola basket ditonton mereka hari ini
+# ::tokens ["pertandingan", "bola", "basket", "ditonton", "mereka", "hari", "ini"]
+# ::lemmas ["tanding", "bola", "basket", "tonton", "mereka", "hari", "ini"]
+# ::pos_tags ["NOUN", "NOUN", "NOUN", "VERB", "PRON", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(t1 / tonton
+      :ARG0 (m / mereka)
+      :ARG1 (t2 / tanding
+            :mod (b1 / bola
+                  :mod (b2 / basket)))
+      :time (h / hari))
+
+# ::id 16
+# ::snt Ibu Fio mengajak adik ke pasar
+# ::tokens ["Ibu", "Fio", "mengajak", "adik", "ke", "pasar"]
+# ::lemmas ["ibu", "fio", "ajak", "adik", "ke", "pasar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O", "O", "O"]
+(a1 / ajak
+      :ARG0 (i / ibu
+            :name (f / fio))
+      :ARG1 (a2 / adik)
+      :location (p / pasar))
+
+# ::id 16
+# ::snt Adik diajak Ibu Fio ke pasar
+# ::tokens ["Adik", "diajak", "Ibu", "Fio", "ke", "pasar"]
+# ::lemmas ["adik", "ajak", "ibu", "fio", "ke", "pasar"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "LOC", "O", "O"]
+(a1 / ajak
+      :ARG0 (i / ibu
+            :name (f / fio))
+      :ARG1 (a2 / adik)
+      :location (p / pasar))
+
+# ::id 17
+# ::snt Om Irwan mempunyai sepatu baru
+# ::tokens ["Om", "Irwan", "mempunyai", "sepatu", "baru"]
+# ::lemmas ["om", "irwan", "punya", "sepatu", "baru"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(p / punya
+      :ARG0 (o / om
+            :name (i / irwan))
+      :ARG1 (s / sepatu
+            :mod (b / baru)))
+
+# ::id 17
+# ::snt Sepatu baru dipunyai Om Irwan
+# ::tokens ["Sepatu", "baru", "dipunyai", "Om", "Irwan"]
+# ::lemmas ["sepatu", "baru", "punya", "om", "irwan"]
+# ::pos_tags ["PROPN", "ADJ", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "LOC"]
+(p / punya
+      :ARG0 (o / om
+            :name (i / irwan))
+      :ARG1 (s / sepatu
+            :mod (b / baru)))
+
+# ::id 18
+# ::snt Semua siswa belajar dengan rajin
+# ::tokens ["Semua", "siswa", "belajar", "dengan", "rajin"]
+# ::lemmas ["semua", "siswa", "ajar", "dengan", "rajin"]
+# ::pos_tags ["DET", "NOUN", "VERB", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(a / ajar
+      :ARG0 (s1 / siswa
+            :mod (s2 / semua))
+      :mod (r / rajin))
+
+# ::id 19
+# ::snt Para pedagang ramai berjualan di pasar hari ini
+# ::tokens ["Para", "pedagang", "ramai", "berjualan", "di", "pasar", "hari", "ini"]
+# ::lemmas ["para", "dagang", "ramai", "jual", "di", "pasar", "hari", "ini"]
+# ::pos_tags ["DET", "NOUN", "ADJ", "VERB", "ADP", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+(j / jual
+      :ARG0 (d / dagang
+            :mod (p1 / para))
+      :location (p2 / pasar)
+      :time (h / hari))
+
+# ::id 20
+# ::snt Peserta lomba bersiap di garis start
+# ::tokens ["Peserta", "lomba", "bersiap", "di", "garis", "start"]
+# ::lemmas ["serta", "lomba", "siap", "di", "garis", "start"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s1 / siap
+      :ARG0 (p / peserta
+            :mod (l / lomba))
+      :location (g / garis
+            :mod (s2 / start)))
+
+# ::id 21
+# ::snt Bu Anna membaca buku kemarin
+# ::tokens ["Bu", "Anna", "membaca", "buku", "kemarin"]
+# ::lemmas ["bu", "anna", "baca", "buku", "kemarin"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "PUNCT"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / anna))
+      :ARG1 (b3 / buku)
+      :time (k / kemarin))
+
+# ::id 21
+# ::snt Buku dibaca Bu Anna kemarin
+# ::tokens ["Buku", "dibaca", "Bu", "Anna", "kemarin"]
+# ::lemmas ["buku", "baca", "bu", "anna", "kemarin"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN", "PUNCT"]
+# ::ner_tags ["O", "O", "PER", "O", "O"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / anna))
+      :ARG1 (b3 / buku)
+      :time (k / kemarin))
+
+# ::id 22
+# ::snt Bu Anna membaca buku Bobo
+# ::tokens ["Bu", "Anna", "membaca", "buku", "Bobo"]
+# ::lemmas ["bu", "anna", "baca", "buku", "bobo"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / anna))
+      :ARG1 (b3 / buku
+            :name (b4 / bobo)))
+
+# ::id 22
+# ::snt Buku Bobo dibaca Bu Anna
+# ::tokens ["Buku", "Bobo", "dibaca", "Bu", "Anna"]
+# ::lemmas ["buku", "bobo", "baca", "bu", "anna"]
+# ::pos_tags ["NOUN", "PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "ORG", "PER"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / anna))
+      :ARG1 (b3 / buku
+            :name (b4 / bobo)))
+
+# ::id 22
+# ::snt Bu Anna membaca buku Bobo
+# ::tokens ["Bu", "Anna", "membaca", "buku", "Bobo"]
+# ::lemmas ["bu", "anna", "baca", "buku", "bobo"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / anna))
+      :ARG1 (b3 / buku
+            :name (b4 / bobo)))
+
+# ::id 23
+# ::snt Syifa membeli Roti Jaya
+# ::tokens ["Syifa", "membeli", "Roti", "Jaya"]
+# ::lemmas ["syifa", "beli", "roti", "jaya"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "NOR"]
+(b / beli
+      :ARG0 (s / syifa)
+      :ARG1 (r / roti
+            :name (j / jaya)))
+
+# ::id 23
+# ::snt Roti Jaya dibeli Syifa
+# ::tokens ["Roti", "Jaya", "dibeli", "Syifa"]
+# ::lemmas ["roti", "jaya", "beli", "syifa"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b / beli
+      :ARG0 (s / syifa)
+      :ARG1 (r / roti
+            :name (j / jaya)))
+
+# ::id 24
+# ::snt Tante Syifa pergi ke salon Lutuye
+# ::tokens ["Tante", "Syifa", "pergi", "ke", "salon", "Lutuye"]
+# ::lemmas ["tante", "syifa", "pergi", "ke", "salon", "lutuye"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "LOC"]
+(p / pergi
+      :ARG0 (t / tante
+            :name (s1 / syifa))
+      :location (s2 / salon
+            :name (l / lutuye)))
+
+# ::id 25
+# ::snt Zulia mengenakan baju merah
+# ::tokens ["Zulia", "mengenakan", "baju", "merah"]
+# ::lemmas ["zulia", "kena", "baju", "merah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(k / kena
+      :ARG0 (z / zulia)
+      :ARG1 (b / baju
+            :mod (m / merah)))
+
+# ::id 25
+# ::snt baju merah dikenakan Zulia
+# ::tokens ["baju", "merah", "dikenakan", "Zulia"]
+# ::lemmas ["baju", "merah", "kena", "zulia"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(k / kena
+      :ARG0 (z / zulia)
+      :ARG1 (b / baju
+            :mod (m / merah)))
+
+# ::id 26
+# ::snt Mereka mencetak gol ke gawang lawan
+# ::tokens ["Mereka", "mencetak", "gol", "ke", "gawang", "lawan"]
+# ::lemmas ["mereka", "cetak", "gol", "ke", "gawang", "lawan"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(c / cetak
+      :ARG0 (m / mereka)
+      :ARG1 (g / gol)
+      :location (g1 / gawang
+            :mod (l / lawan)))
+
+# ::id 26
+# ::snt Gol ke gawang lawan dicetak mereka
+# ::tokens ["Gol", "ke", "gawang", "lawan", "dicetak", "mereka"]
+# ::lemmas ["gol", "ke", "gawang", "lawan", "cetak", "mereka"]
+# ::pos_tags ["NOUN", "ADP", "NOUN", "NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(c / cetak
+      :ARG0 (m / mereka)
+      :ARG1 (g / gol)
+      :location (g1 / gawang
+            :mod (l / lawan)))
+
+# ::id 27
+# ::snt Mereka melakukan selebrasi
+# ::tokens ["Mereka", "melakukan", "selebrasi"]
+# ::lemmas ["mereka", "laku", "selebrasi"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(l / laku
+      :ARG0 (m / mereka)
+      :ARG1 (s / selebrasi))
+
+# ::id 27
+# ::snt Selebrasi dilakukan mereka
+# ::tokens ["Selebrasi", "dilakukan", "mereka"]
+# ::lemmas ["selebrasi", "laku", "mereka"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(l / laku
+      :ARG0 (m / mereka)
+      :ARG1 (s / selebrasi))
+
+# ::id 28
+# ::snt Penonton menyambut Pak Budi dengan riuh
+# ::tokens ["Penonton", "menyambut", "Pak", "Budi", "dengan", "riuh"]
+# ::lemmas ["tonton", "sambut", "pak", "budi", "dengan", "riuh"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "ORG", "PER", "O", "O"]
+(s / sambut
+      :ARG0 (t / tonton)
+      :ARG1 (p / pak
+            :name (b / budi))
+      :mod (r / riuh))
+
+# ::id 28
+# ::snt Pak Budi disambut penonton dengan riuh
+# ::tokens ["Pak", "Budi", "disambut", "penonton", "dengan", "riuh"]
+# ::lemmas ["pak", "budi", "sambut", "tonton", "dengan", "riuh"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(s / sambut
+      :ARG0 (t / tonton)
+      :ARG1 (p / pak
+            :name (b / budi))
+      :mod (r / riuh))
+
+# ::id 29
+# ::snt Ashita memintal benang wol
+# ::tokens ["Ashita", "memintal", "benang", "wol"]
+# ::lemmas ["ashita", "mintal", "benang", "wol"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(p / pintal
+      :ARG0 (a / ashita)
+      :ARG1 (b / benang
+            :mod (w / wol)))
+
+# ::id 29
+# ::snt benang wol dipintal Ashita
+# ::tokens ["benang", "wol", "dipintal", "Ashita"]
+# ::lemmas ["benang", "wol", "pintal", "ashita"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(p / pintal
+      :ARG0 (a / ashita)
+      :ARG1 (b / benang
+            :mod (w / wol)))
+
+# ::id 30
+# ::snt Ashita memintal benang sutra
+# ::tokens ["Ashita", "memintal", "benang", "sutra"]
+# ::lemmas ["ashita", "mintal", "benang", "sutra"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(p / pintal
+      :ARG0 (a / ashita)
+      :ARG1 (b / benang
+            :mod (s / sutra)))
+
+# ::id 31
+# ::snt Profesor Joko bermain bola
+# ::tokens ["Profesor", "Joko", "bermain", "bola"]
+# ::lemmas ["profesor", "joko", "main", "bola"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(m / main
+      :ARG0 (p / profesor
+            :name (j / joko))
+      :ARG1 (b / bola))
+
+# ::id 31
+# ::snt Bola dimainkan Profesor Joko
+# ::tokens ["Bola", "dimainkan", "Profesor", "Joko"]
+# ::lemmas ["bola", "main", "profesor", "joko"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "NOR"]
+(m / main
+      :ARG0 (p / profesor
+            :name (j / joko))
+      :ARG1 (b / bola))
+
+# ::id 32
+# ::snt Pak Andi menangis  di  tengah  permainan
+# ::tokens ["Pak", "Andi", "menangis", "di", "tengah", "permainan"]
+# ::lemmas ["pak", "andi", "menang", "di", "tengah", "main"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(t1 / tangis
+      :ARG0 (p1 / pak
+            :name (a / andi))
+      :location (t2 / tengah
+            :mod (p2 / permainan)))
+
+# ::id 33
+# ::snt Ayah tidur
+# ::tokens ["Ayah", "tidur"]
+# ::lemmas ["ayah", "tidur"]
+# ::pos_tags ["NOUN", "NOUN"]
+# ::ner_tags ["O", "O"]
+(t / tidur
+      :ARG0 (a / ayah))
+
+# ::id 34
+# ::snt Risya  bermain  voli
+# ::tokens ["Risya", "bermain", "voli"]
+# ::lemmas ["risya", "main", "voli"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(m / main
+      :ARG0 (r / risya)
+      :ARG1 (v / voli))
+
+# ::id 34
+# ::snt Voli dimainkan Risya
+# ::tokens ["Voli", "dimainkan", "Risya"]
+# ::lemmas ["voli", "main", "risya"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["PER", "O", "O"]
+(m / main
+      :ARG0 (r / risya)
+      :ARG1 (v / voli))
+
+# ::id 35
+# ::snt Bola  itu  ditendang Bos Andi
+# ::tokens ["Bola", "itu", "ditendang", "Bos", "Andi"]
+# ::lemmas ["bola", "itu", "tendang", "bos", "andi"]
+# ::pos_tags ["NOUN", "DET", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "LOC"]
+(t / tendang
+      :ARG0 (b1 / bos
+            :name (a / andi))
+      :ARG1 (b2 / bola
+            :mod (i / itu)))
+
+# ::id 35
+# ::snt Bos Andi menendang Bola itu
+# ::tokens ["Bos", "Andi", "menendang", "Bola", "itu"]
+# ::lemmas ["bos", "andi", "tendang", "bola", "itu"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "DET"]
+# ::ner_tags ["O", "PER", "O", "O", "O"]
+(t / tendang
+      :ARG0 (b1 / bos
+            :name (a / andi))
+      :ARG1 (b2 / bola
+            :mod (i / itu)))
+
+# ::id 36
+# ::snt Permainan itu  berjalan  menarik
+# ::tokens ["Permainan", "itu", "berjalan", "menarik"]
+# ::lemmas ["main", "itu", "jalan", "tarik"]
+# ::pos_tags ["NOUN", "DET", "VERB", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(j / jalan
+      :ARG0 (m / main)
+      :mod (t / tarik))
+
+# ::id 37
+# ::snt Aku mengetik cerita
+# ::tokens ["Aku", "mengetik", "cerita"]
+# ::lemmas ["aku", "etik", "cerita"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(k / ketik
+      :ARG0 (a / aku)
+      :ARG1 (c / cerita))
+
+# ::id 37
+# ::snt Cerita diketik aku
+# ::tokens ["Cerita", "diketik", "aku"]
+# ::lemmas ["cerita", "ketik", "aku"]
+# ::pos_tags ["NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(k / ketik
+      :ARG0 (a / aku)
+      :ARG1 (c / cerita))
+
+# ::id 38
+# ::snt Aku mengetik cerita ketika ayah datang
+# ::tokens ["Aku", "mengetik", "cerita", "ketika", "ayah", "datang"]
+# ::lemmas ["aku", "etik", "cerita", "ketika", "ayah", "datang"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "SCONJ", "NOUN", "VERB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(k / ketik
+      :ARG0 (a1 / aku)
+      :ARG1 (c / cerita)
+      :time (d / datang
+            :ARG0 (a2 / ayah)))
+
+# ::id 38
+# ::snt Cerita diketik aku ketika ayah datang
+# ::tokens ["Cerita", "diketik", "aku", "ketika", "ayah", "datang"]
+# ::lemmas ["cerita", "ketik", "aku", "ketika", "ayah", "datang"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "SCONJ", "NOUN", "VERB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(k / ketik
+      :ARG0 (a1 / aku)
+      :ARG1 (c / cerita)
+      :time (d / datang
+            :ARG0 (a2 / ayah)))
+
+# ::id 39
+# ::snt Suminah adalah anak kedua
+# ::tokens ["Suminah", "adalah", "anak", "kedua"]
+# ::lemmas ["suminah", "adalah", "anak", "dua"]
+# ::pos_tags ["PROPN", "AUX", "NOUN", "NUM"]
+# ::ner_tags ["O", "O", "O", "CRD"]
+(a1 / adalah
+      :ARG0 (s / suminah)
+      :mod (a2 / anak
+            :mod (d / dua)))
+
+# ::id 40
+# ::snt Ia dimanja
+# ::tokens ["Ia", "dimanja"]
+# ::lemmas ["ia", "manja"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(m / manja
+      :ARG1 (i / ia))
+
+# ::id 41
+# ::snt ia dimanja orang tua
+# ::tokens ["ia", "dimanja", "orang", "tua"]
+# ::lemmas ["ia", "manja", "orang", "tua"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(m / manja
+      :ARG0 (o / orang
+            :mod (t / tua))
+      :ARG1 (i / ia))
+
+# ::id 41
+# ::snt Orang tua memanjakan ia
+# ::tokens ["Orang", "tua", "memanjakan", "ia"]
+# ::lemmas ["orang", "tua", "manja", "ia"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O"]
+(m / manja
+      :ARG0 (o / orang
+            :mod (t / tua))
+      :ARG1 (i / ia))
+
+# ::id 42
+# ::snt Aku membenci tikus
+# ::tokens ["Aku", "membenci", "tikus"]
+# ::lemmas ["aku", "benci", "tikus"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / benci
+      :ARG0 (a / aku)
+      :ARG1 (t / tikus))
+
+# ::id 42
+# ::snt Tikus dibenci aku
+# ::tokens ["Tikus", "dibenci", "aku"]
+# ::lemmas ["tikus", "benci", "aku"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(b / benci
+      :ARG0 (a / aku)
+      :ARG1 (t / tikus))
+
+# ::id 43
+# ::snt Ia membenci kucing
+# ::tokens ["Ia", "membenci", "kucing"]
+# ::lemmas ["ia", "benci", "kucing"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / benci
+      :ARG0 (i / ia)
+      :ARG1 (k / kucing))
+
+# ::id 43
+# ::snt Kucing dibenci ia
+# ::tokens ["Kucing", "dibenci", "ia"]
+# ::lemmas ["kucing", "benci", "ia"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(b / benci
+      :ARG0 (i / ia)
+      :ARG1 (k / kucing))
+
+# ::id 44
+# ::snt Ayah seorang polisi
+# ::tokens ["Ayah", "seorang", "polisi"]
+# ::lemmas ["ayah", "orang", "polisi"]
+# ::pos_tags ["NOUN", "DET", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(o / orang
+      :ARG0 (a / ayah)
+      :ARG1 (p / polisi))
+
+# ::id 45
+# ::snt Dewi anak yang manja
+# ::tokens ["Dewi", "anak", "yang", "manja"]
+# ::lemmas ["dewi", "anak", "yang", "manja"]
+# ::pos_tags ["PROPN", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(a / anak
+      :ARG0 (d / dewi)
+      :mod (m / manja))
+
+# ::id 46
+# ::snt Orang yang merangkak itu Rudi
+# ::tokens ["Orang", "yang", "merangkak", "itu", "Rudi"]
+# ::lemmas ["orang", "yang", "rangkak", "itu", "rudi"]
+# ::pos_tags ["NOUN", "PRON", "VERB", "DET", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "O", "GPE"]
+(r1 / rangkak
+      :ARG0 (o / orang
+            :name (r2 / rudi)))
+
+# ::id 47
+# ::snt Pak Sasu seorang CEO muda di Indonesia
+# ::tokens ["Pak", "Sasu", "seorang", "CEO", "muda", "di", "Indonesia"]
+# ::lemmas ["pak", "sasu", "orang", "ceo", "muda", "di", "indonesia"]
+# ::pos_tags ["PROPN", "PROPN", "DET", "NOUN", "ADJ", "ADP", "PROPN"]
+# ::ner_tags ["ORG", "O", "O", "O", "O", "O", "GPE"]
+(o / orang
+      :ARG0 (p / pak
+            :name (s / sasu))
+      :ARG1 (c / ceo
+            :mod (m / muda))
+      :location (i / indonesia))
+
+# ::id 48
+# ::snt Andriana anak yang pemberani
+# ::tokens ["Andriana", "anak", "yang", "pemberani"]
+# ::lemmas ["andriana", "anak", "yang", "berani"]
+# ::pos_tags ["PROPN", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(a1 / anak
+      :ARG0 (a2 / andriana)
+      :mod (b / berani))
+
+# ::id 49
+# ::snt Zia adalah mayoret kelompok Marching Band itu
+# ::tokens ["Zia", "adalah", "mayoret", "kelompok", "Marching", "Band", "itu"]
+# ::lemmas ["zia", "adalah", "mayoret", "kelompok", "marching", "band", "itu"]
+# ::pos_tags ["PROPN", "AUX", "NOUN", "NOUN", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["PER", "O", "O", "O", "ORG", "LOC", "O"]
+(a / adalah
+      :ARG0 (z / zia)
+      :ARG1 (m1 / mayoret
+            :mod (k / kelompok
+                  :mod (m2 / marching
+                        :mod (b / band)))))
+
+# ::id 50
+# ::snt Mereka siswa SMA Dua Nusantara
+# ::tokens ["Mereka", "siswa", "SMA", "Dua", "Nusantara"]
+# ::lemmas ["mereka", "siswa", "sma", "dua", "nusantara"]
+# ::pos_tags ["PRON", "NOUN", "PROPN", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "CRD", "O"]
+(s2 / siswa
+      :ARG0 (m / mereka)
+      :mod (s1 / sma
+            :name (d / dua)
+            :name (n / nusantara)))
+
+# ::id 51
+# ::snt Teguh seorang perwira polisi
+# ::tokens ["Teguh", "seorang", "perwira", "polisi"]
+# ::lemmas ["teguh", "orang", "perwira", "polisi"]
+# ::pos_tags ["ADJ", "DET", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(o / orang
+      :ARG0 (t / teguh)
+      :ARG1 (p1 / perwira
+            :mod (p2 / polisi)))
+
+# ::id 52
+# ::snt Ramadhan merupakan bulan yang suci
+# ::tokens ["Ramadhan", "merupakan", "bulan", "yang", "suci"]
+# ::lemmas ["ramadhan", "rupa", "bulan", "yang", "suci"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(r1 / rupa
+      :ARG0 (r2 / ramadhan)
+      :ARG1 (b / bulan
+            :mod (s / suci)))
+
+# ::id 53
+# ::snt Andi membaca buku
+# ::tokens ["Andi", "membaca", "buku"]
+# ::lemmas ["andi", "baca", "buku"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(b1 / baca
+      :ARG0 (a / andi)
+      :ARG1 (b2 / buku))
+
+# ::id 53
+# ::snt Buku dibaca Andi
+# ::tokens ["Buku", "dibaca", "Andi"]
+# ::lemmas ["buku", "baca", "andi"]
+# ::pos_tags ["NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "PER"]
+(b1 / baca
+      :ARG0 (a / andi)
+      :ARG1 (b2 / buku))
+
+# ::id 54
+# ::snt Siana berlari di lapangan
+# ::tokens ["Siana", "berlari", "di", "lapangan"]
+# ::lemmas ["siana", "lari", "di", "lapang"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(l1 / lari
+      :ARG0 (s / siana)
+      :location (l2 / lapang))
+
+# ::id 55
+# ::snt Siwan mengerjakan tugas di perpustakaan kampus
+# ::tokens ["Siwan", "mengerjakan", "tugas", "di", "perpustakaan", "kampus"]
+# ::lemmas ["siwan", "kerja", "tugas", "di", "pustaka", "kampus"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(k1 / kerja
+      :ARG0 (s / siwan)
+      :ARG1 (t / tugas)
+      :location (p / pustaka
+            :mod (k2 / kampus)))
+
+# ::id 55
+# ::snt Tugas dikerjakan Siwan di perpustakaan kampus
+# ::tokens ["Tugas", "dikerjakan", "Siwan", "di", "perpustakaan", "kampus"]
+# ::lemmas ["tugas", "kerja", "siwan", "di", "pustaka", "kampus"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(k1 / kerja
+      :ARG0 (s / siwan)
+      :ARG1 (t / tugas)
+      :location (p / pustaka
+            :mod (k2 / kampus)))
+
+# ::id 56
+# ::snt Bumi berotasi
+# ::tokens ["Bumi", "berotasi"]
+# ::lemmas ["bumi", "rotasi"]
+# ::pos_tags ["NOUN", "VERB"]
+# ::ner_tags ["O", "O"]
+(r / rotasi
+      :ARG0 (b / bumi))
+
+# ::id 57
+# ::snt Bola itu berputar di udara
+# ::tokens ["Bola", "itu", "berputar", "di", "udara"]
+# ::lemmas ["bola", "itu", "putar", "di", "udara"]
+# ::pos_tags ["NOUN", "DET", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / putar
+      :ARG0 (b / bola)
+      :location (u / udara))
+
+# ::id 58
+# ::snt Dika menyapa setiap orang yang dilewatinya
+# ::tokens ["Dika", "menyapa", "setiap", "orang", "yang", "dilewatinya"]
+# ::lemmas ["dika", "sapa", "tiap", "orang", "yang", "lewat"]
+# ::pos_tags ["PROPN", "VERB", "DET", "NOUN", "PRON", "VERB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(s / sapa
+      :ARG0 (d / dika)
+      :ARG1 (t / tiap
+            :mod (o / orang
+                  :mod (l / lewat))))
+
+# ::id 58
+# ::snt Setiap orang yang dilewatinya disapa Dika
+# ::tokens ["Setiap", "orang", "yang", "dilewatinya", "disapa", "Dika"]
+# ::lemmas ["tiap", "orang", "yang", "lewat", "sapa", "dika"]
+# ::pos_tags ["DET", "NOUN", "PRON", "VERB", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "GPE"]
+(s / sapa
+      :ARG0 (d / dika)
+      :ARG1 (t / tiap
+            :mod (o / orang
+                  :mod (l / lewat))))
+
+# ::id 59
+# ::snt Menara Pisa bergerak semakin miring
+# ::tokens ["Menara", "Pisa", "bergerak", "semakin", "miring"]
+# ::lemmas ["menara", "pisa", "gerak", "makin", "miring"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADV", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(g / gerak
+      :ARG0 (m1 / menara
+            :mod (p / pisa))
+      :mod (m2 / miring))
+
+# ::id 60
+# ::snt Sonia membaca jurnal harian sekolahnya kembali
+# ::tokens ["Sonia", "membaca", "jurnal", "harian", "sekolahnya", "kembali"]
+# ::lemmas ["sonia", "baca", "jurnal", "hari", "sekolah", "kembali"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN", "NOUN", "VERB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(b / baca
+      :ARG0 (s1 / sonia)
+      :ARG1 (j / jurnal
+            :mod (h / hari
+                  :mod (s2 / sekolah)))
+      :mod (k / kembali))
+
+# ::id 60
+# ::snt Jurnal harian sekolahnya dibaca Sonia kembali
+# ::tokens ["Jurnal", "harian", "sekolahnya", "dibaca", "Sonia", "kembali"]
+# ::lemmas ["jurnal", "hari", "sekolah", "baca", "sonia", "kembali"]
+# ::pos_tags ["PROPN", "NOUN", "NOUN", "VERB", "PROPN", "VERB"]
+# ::ner_tags ["O", "O", "O", "O", "LOC", "O"]
+(b / baca
+      :ARG0 (s1 / sonia)
+      :ARG1 (j / jurnal
+            :mod (h / hari
+                  :mod (s2 / sekolah)))
+      :mod (k / kembali))
+
+# ::id 61
+# ::snt Singa itu mati kelaparan
+# ::tokens ["Singa", "itu", "mati", "kelaparan"]
+# ::lemmas ["singa", "itu", "mati", "lapar"]
+# ::pos_tags ["PROPN", "DET", "ADJ", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(m / mati
+      :ARG0 (s / singa)
+      :mod (l / lapar))
+
+# ::id 62
+# ::snt Impala itu berlari dari kejaran singa
+# ::tokens ["Impala", "itu", "berlari", "dari", "kejaran", "singa"]
+# ::lemmas ["impala", "itu", "lari", "dari", "kejar", "singa"]
+# ::pos_tags ["PROPN", "DET", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(l / lari
+      :ARG0 (i / impala)
+      :ARG1 (k / kejar
+            :ARG0 (s / singa)))
+
+# ::id 63
+# ::snt Pembangunan gedung itu lima tahun
+# ::tokens ["Pembangunan", "gedung", "itu", "lima", "tahun"]
+# ::lemmas ["bangun", "gedung", "itu", "lima", "tahun"]
+# ::pos_tags ["NOUN", "NOUN", "DET", "NUM", "NOUN"]
+# ::ner_tags ["O", "O", "O", "CRD", "O"]
+(b / bangun
+      :ARG1 (g / gedung)
+      :mod (t / tahun
+            :mod (l / lima)))
+
+# ::id 64
+# ::snt Selesai satu misi
+# ::tokens ["Selesai", "satu", "misi"]
+# ::lemmas ["selesai", "satu", "misi"]
+# ::pos_tags ["VERB", "NUM", "NOUN"]
+# ::ner_tags ["O", "CRD", "O"]
+(s1 / selesai
+      :ARG1 (m / misi
+            :mod (s2 / satu)))
+
+# ::id 65
+# ::snt Sepatu Anna dua pasang
+# ::tokens ["Sepatu", "Anna", "dua", "pasang"]
+# ::lemmas ["sepatu", "anna", "dua", "pasang"]
+# ::pos_tags ["PROPN", "PROPN", "NUM", "NOUN"]
+# ::ner_tags ["ORG", "O", "PRC", "O"]
+(s / sepatu
+      :ARG0 (a / anna)
+      :mod (p / pasang
+            :mod (d / dua)))
+
+# ::id 66
+# ::snt Ada Coklat tiga biji
+# ::tokens ["Ada", "Coklat", "tiga", "biji"]
+# ::lemmas ["ada", "coklat", "tiga", "biji"]
+# ::pos_tags ["VERB", "PROPN", "NUM", "NOUN"]
+# ::ner_tags ["O", "O", "CRD", "O"]
+(a / ada
+      :ARG1 (c / coklat)
+      :mod (b / biji
+            :mod (t / tiga)))
+
+# ::id 67
+# ::snt Umur bangunannya berabad abad
+# ::tokens ["Umur", "bangunannya", "berabad", "abad"]
+# ::lemmas ["umur", "bangun", "abad", "abad"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(u / umur
+      :ARG0 (b / bangunan)
+      :mod (a / abad))
+
+# ::id 68
+# ::snt Ada tiga Anak kucing
+# ::tokens ["Ada", "tiga", "Anak", "kucing"]
+# ::lemmas ["ada", "tiga", "anak", "kucing"]
+# ::pos_tags ["VERB", "NUM", "NOUN", "PROPN"]
+# ::ner_tags ["O", "CRD", "O", "O"]
+(a1 / ada
+      :ARG0 (a2 / anak
+            :mod (k / kucing))
+      :mod (t / tiga))
+
+# ::id 69
+# ::snt Tante Ari naik sepeda
+# ::tokens ["Tante", "Ari", "naik", "sepeda"]
+# ::lemmas ["tante", "ari", "naik", "sepeda"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(n / naik
+      :ARG0 (t / tante
+            :name (a / ari))
+      :ARG1 (s / sepeda))
+
+# ::id 69
+# ::snt Sepeda dinaiki Tante Ari
+# ::tokens ["Sepeda", "dinaiki", "Tante", "Ari"]
+# ::lemmas ["sepeda", "naik", "tante", "ari"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "LOC"]
+(n / naik
+      :ARG0 (t / tante
+            :name (a / ari))
+      :ARG1 (s / sepeda))
+
+# ::id 70
+# ::snt Bu Ayu menjadi lulusan terbaik IPB tahun 2017
+# ::tokens ["Bu", "Ayu", "menjadi", "lulusan", "terbaik", "IPB", "tahun", "2017"]
+# ::lemmas ["bu", "ayu", "jadi", "lulus", "baik", "ipb", "tahun", "2017"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADJ", "PROPN", "NOUN", "NUM"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "ORG", "O", "DAT"]
+(j / jadi
+      :ARG0 (b1 / bu
+            :name (a / ayu))
+      :ARG1 (l / lulus
+            :mod (b2 / baik
+                  :mod (i / ipb)
+                  :time (t / tahun
+                        :mod 2017))))
+
+# ::id 71
+# ::snt Dia mampu mandiri secara finansial
+# ::tokens ["Dia", "mampu", "mandiri", "secara", "finansial"]
+# ::lemmas ["dia", "mampu", "mandiri", "cara", "finansial"]
+# ::pos_tags ["PRON", "ADV", "ADJ", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(m1 / mampu
+      :ARG0 (d / dia)
+      :ARG1 (m2 / mandiri
+            :mod (f / finansial)))
+
+# ::id 72
+# ::snt Ibunya adalah seorang dokter
+# ::tokens ["Ibunya", "adalah", "seorang", "dokter"]
+# ::lemmas ["ibu", "adalah", "orang", "dokter"]
+# ::pos_tags ["NOUN", "AUX", "DET", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(o / orang
+      :ARG0 (i / ibu)
+      :ARG1 (d / dokter))
+
+# ::id 73
+# ::snt Kakek Arya membeli telur di minimarket
+# ::tokens ["Kakek", "Arya", "membeli", "telur", "di", "minimarket"]
+# ::lemmas ["kakek", "arya", "beli", "telur", "di", "minimarket"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(b / beli
+      :ARG0 (a / arya)
+      :ARG1 (t / telur)
+      :location (m / minimarket))
+
+# ::id 73
+# ::snt telur dibeli Kakek Arya di minimarket
+# ::tokens ["telur", "dibeli", "Kakek", "Arya", "di", "minimarket"]
+# ::lemmas ["telur", "beli", "kakek", "arya", "di", "minimarket"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "PER", "O", "O", "O"]
+(b / beli
+      :ARG0 (k / kakek
+            :name (a / arya))
+      :ARG1 (t / telur)
+      :location (m / minimarket))
+
+# ::id 74
+# ::snt Rumah itu roboh
+# ::tokens ["Rumah", "itu", "roboh"]
+# ::lemmas ["rumah", "itu", "roboh"]
+# ::pos_tags ["NOUN", "DET", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(r1 / roboh
+      :ARG1 (r2 / rumah))
+
+# ::id 75
+# ::snt Hujan mengacaukan sinyal internet
+# ::tokens ["Hujan", "mengacaukan", "sinyal", "internet"]
+# ::lemmas ["hujan", "acau", "sinyal", "internet"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(k / kacau
+      :ARG0 (h / hujan)
+      :ARG1 (s / sinyal
+            :mod (i / internet)))
+
+# ::id 76
+# ::snt Ini adalah pemadaman bergilir keempat kalinya minggu ini
+# ::tokens ["Ini", "adalah", "pemadaman", "bergilir", "keempat", "kalinya", "minggu", "ini"]
+# ::lemmas ["ini", "adalah", "madam", "gilir", "empat", "kali", "minggu", "ini"]
+# ::pos_tags ["DET", "AUX", "NOUN", "ADJ", "NUM", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "CRD", "O", "CRD", "O"]
+(a / adalah
+      :ARG0 (p / padam
+            :mod (g / gilir
+                  :mod (e / empat))
+            :time (m / minggu)))
+
+# ::id 77
+# ::snt Mobilnya berwarna silver
+# ::tokens ["Mobilnya", "berwarna", "silver"]
+# ::lemmas ["mobil", "warna", "silver"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(w / warna
+      :ARG0 (m / mobil)
+      :ARG1 (s / silver))
+
+# ::id 78
+# ::snt Aku menaruh majalah di atas meja
+# ::tokens ["Aku", "menaruh", "majalah", "di", "atas", "meja"]
+# ::lemmas ["aku", "taruh", "majalah", "di", "atas", "meja"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(t / taruh
+      :ARG0 (a1 / aku)
+      :ARG1 (m1 / majalah)
+      :location (m2 / meja
+            :mod (a2 / atas)))
+
+# ::id 78
+# ::snt majalah ditaruh aku di atas meja
+# ::tokens ["majalah", "ditaruh", "aku", "di", "atas", "meja"]
+# ::lemmas ["majalah", "taruh", "aku", "di", "atas", "meja"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "ADP", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(t / taruh
+      :ARG0 (a1 / aku)
+      :ARG1 (m1 / majalah)
+      :location (m2 / meja
+            :mod (a2 / atas)))
+
+# ::id 79
+# ::snt Aji mendapatkan pekerjaan yang bagus di perusahaan multi-nasional
+# ::tokens ["Aji", "mendapatkan", "pekerjaan", "yang", "bagus", "di", "perusahaan", "multi-nasional"]
+# ::lemmas ["aji", "dapat", "kerja", "yang", "bagus", "di", "usaha", "multi-nasional"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "PRON", "ADJ", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (a / aji)
+      :ARG1 (k / kerja
+            :mod (b / bagus))
+      :location (p / perusahaan
+            :mod (m / multi-nasional)))
+
+# ::id 80
+# ::snt Orang itu berdiri di sana sejak tadi
+# ::tokens ["Orang", "itu", "berdiri", "di", "sana", "sejak", "tadi"]
+# ::lemmas ["orang", "itu", "diri", "di", "sana", "sejak", "tadi"]
+# ::pos_tags ["NOUN", "DET", "VERB", "ADP", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(d / diri
+      :ARG0 (o / orang)
+      :location (s1 / sana)
+      :time (t / tadi
+            :mod (s / sejak)))
+
+# ::id 81
+# ::snt Kakaknya meninggal
+# ::tokens ["Kakaknya", "meninggal"]
+# ::lemmas ["kakak", "tinggal"]
+# ::pos_tags ["NOUN", "VERB"]
+# ::ner_tags ["O", "O"]
+(t / tinggal
+      :ARG0 (k / kakak))
+
+# ::id 82
+# ::snt Riana pergi ke pasar
+# ::tokens ["Riana", "pergi", "ke", "pasar"]
+# ::lemmas ["riana", "pergi", "ke", "pasar"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(p1 / pergi
+      :ARG0 (r / riana)
+      :location (p2 / pasar))
+
+# ::id 83
+# ::snt Ayah dari kota
+# ::tokens ["Ayah", "dari", "kota"]
+# ::lemmas ["ayah", "dari", "kota"]
+# ::pos_tags ["NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(d / dari
+      :ARG0 (a / ayah)
+      :location (k / kota))
+
+# ::id 84
+# ::snt Ayah membawakanku boneka
+# ::tokens ["Ayah", "membawakanku", "boneka"]
+# ::lemmas ["ayah", "bawa", "boneka"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b1 / bawa
+      :ARG0 (a / ayah)
+      :ARG1 (b2 / boneka))
+
+# ::id 84
+# ::snt Boneka dibawakan ayah
+# ::tokens ["Boneka", "dibawakan", "ayah"]
+# ::lemmas ["boneka", "bawa", "ayah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(b1 / bawa
+      :ARG0 (a / ayah)
+      :ARG1 (b2 / boneka))
+
+# ::id 85
+# ::snt Kesang bermain bola
+# ::tokens ["Kesang", "bermain", "bola"]
+# ::lemmas ["kesang", "main", "bola"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(m / main
+      :ARG0 (k / kesang)
+      :ARG1 (b / bola))
+
+# ::id 85
+# ::snt Bola dimainkan Kesang
+# ::tokens ["Bola", "dimainkan", "Kesang"]
+# ::lemmas ["bola", "main", "kesang"]
+# ::pos_tags ["NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(m / main
+      :ARG0 (k / kesang)
+      :ARG1 (b / bola))
+
+# ::id 86
+# ::snt Mobilnya menabrak mobil parkir di depan kompleks pagi ini
+# ::tokens ["Mobilnya", "menabrak", "mobil", "parkir", "di", "depan", "kompleks", "pagi", "ini"]
+# ::lemmas ["mobil", "tabrak", "mobil", "parkir", "di", "depan", "kompleks", "pagi", "ini"]
+# ::pos_tags ["NOUN", "VERB", "NOUN", "NOUN", "ADP", "NOUN", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(t / tabrak
+      :ARG0 (m1 / mobil)
+      :ARG1 (m2 / mobil
+            :mod (p1 / parkir))
+      :location (d / depan
+            :mod (k / kompleks))
+      :time (p2 / pagi
+            :mod (i / ini)))
+
+# ::id 86
+# ::snt Mobil parkir ditabrak mobilnya di depan kompleks pagi ini
+# ::tokens ["Mobil", "parkir", "ditabrak", "mobilnya", "di", "depan", "kompleks", "pagi", "ini"]
+# ::lemmas ["mobil", "parkir", "tabrak", "mobil", "di", "depan", "kompleks", "pagi", "ini"]
+# ::pos_tags ["PROPN", "NOUN", "VERB", "NOUN", "ADP", "NOUN", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O"]
+(t / tabrak
+      :ARG0 (m1 / mobil)
+      :ARG1 (m2 / mobil
+            :mod (p1 / parkir))
+      :location (d / depan
+            :mod (k / kompleks))
+      :time (p2 / pagi
+            :mod (i / ini)))
+
+# ::id 87
+# ::snt Agung memberikan selamat padaku bulan ini
+# ::tokens ["Agung", "memberikan", "selamat", "padaku", "bulan", "ini"]
+# ::lemmas ["agung", "beri", "selamat", "pada", "bulan", "ini"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(b1 / beri
+      :ARG0 (a / agung)
+      :ARG1 (s / selamat
+            :ARG1 (p / pada))
+      :time (b2 / bulan
+            :mod (i / ini)))
+
+# ::id 88
+# ::snt Hari ini aku bahagia
+# ::tokens ["Hari", "ini", "aku", "bahagia"]
+# ::lemmas ["hari", "ini", "aku", "bahagia"]
+# ::pos_tags ["PROPN", "DET", "PRON", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b / bahagia
+      :ARG0 (a / aku)
+      :time (h / hari
+            :mod (i / ini)))
+
+# ::id 89
+# ::snt Kucingnya beranak lima
+# ::tokens ["Kucingnya", "beranak", "lima"]
+# ::lemmas ["kucing", "anak", "lima"]
+# ::pos_tags ["NOUN", "VERB", "NUM"]
+# ::ner_tags ["O", "O", "DAT"]
+(a / anak
+      :ARG0 (k / kucing)
+      :ARG1 (l / lima))
+
+# ::id 90
+# ::snt Ibu pergi ke kantor
+# ::tokens ["Ibu", "pergi", "ke", "kantor"]
+# ::lemmas ["ibu", "pergi", "ke", "kantor"]
+# ::pos_tags ["NOUN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p / pergi
+      :ARG0 (i / ibu)
+      :location (k / kantor))
+
+# ::id 91
+# ::snt Ayah mengantar ibu ke pasar
+# ::tokens ["Ayah", "mengantar", "ibu", "ke", "pasar"]
+# ::lemmas ["ayah", "antar", "ibu", "ke", "pasar"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(a1 / antar
+      :ARG0 (a2 / ayah)
+      :ARG1 (i / ibu)
+      :location (p / pasar))
+
+# ::id 91
+# ::snt Ibu diantar ayah ke pasar
+# ::tokens ["Ibu", "diantar", "ayah", "ke", "pasar"]
+# ::lemmas ["ibu", "antar", "ayah", "ke", "pasar"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(a1 / antar
+      :ARG0 (a2 / ayah)
+      :ARG1 (i / ibu)
+      :location (p / pasar))
+
+# ::id 92
+# ::snt Gajinya tiap bulan setara satu buah rumah
+# ::tokens ["Gajinya", "tiap", "bulan", "setara", "satu", "buah", "rumah"]
+# ::lemmas ["gaji", "tiap", "bulan", "tara", "satu", "buah", "rumah"]
+# ::pos_tags ["NOUN", "DET", "NOUN", "ADJ", "NUM", "DET", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "CRD", "O", "O"]
+(t1 / tara
+      :ARG0 (g / gaji
+            :mod (b1 / bulan
+                  :mod (t2 / tiap)))
+      :ARG1 (r / rumah
+            :mod (b2 / buah
+                  :mod (s2 / satu))))
+
+# ::id 93
+# ::snt Aku makan roti tadi
+# ::tokens ["Aku", "makan", "roti", "tadi"]
+# ::lemmas ["aku", "makan", "roti", "tadi"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(m / makan
+      :ARG0 (a / aku)
+      :ARG1 (r / roti)
+      :time (t / tadi))
+
+# ::id 93
+# ::snt Roti dimakan aku tadi
+# ::tokens ["Roti", "dimakan", "aku", "tadi"]
+# ::lemmas ["roti", "makan", "aku", "tadi"]
+# ::pos_tags ["PROPN", "VERB", "PRON", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(m / makan
+      :ARG0 (a / aku)
+      :ARG1 (r / roti)
+      :time (t / tadi))
+
+# ::id 94
+# ::snt Roti itu busuk
+# ::tokens ["Roti", "itu", "busuk"]
+# ::lemmas ["roti", "itu", "busuk"]
+# ::pos_tags ["NOUN", "DET", "ADJ"]
+# ::ner_tags ["O", "O", "O"]
+(b / busuk
+      :ARG0 (r / roti))
+
+# ::id 95
+# ::snt Roti itu aku buang ke tempat sampah
+# ::tokens ["Roti", "itu", "aku", "buang", "ke", "tempat", "sampah"]
+# ::lemmas ["roti", "itu", "aku", "buang", "ke", "tempat", "sampah"]
+# ::pos_tags ["NOUN", "DET", "PRON", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(b / buang
+      :ARG0 (a / aku)
+      :ARG1 (r / roti)
+      :location (t / tempat
+            :mod (s / sampah)))
+
+# ::id 95
+# ::snt Aku buang Roti itu ke tempat sampah
+# ::tokens ["Aku", "buang", "Roti", "itu", "ke", "tempat", "sampah"]
+# ::lemmas ["aku", "buang", "roti", "itu", "ke", "tempat", "sampah"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "DET", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(b / buang
+      :ARG0 (a / aku)
+      :ARG1 (r / roti)
+      :location (t / tempat
+            :mod (s / sampah)))
+
+# ::id 96
+# ::snt Aceng membawakanku sesuatu dari Semeru
+# ::tokens ["Aceng", "membawakanku", "sesuatu", "dari", "Semeru"]
+# ::lemmas ["aceng", "bawa", "sesuatu", "dari", "meru"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(b / bawa
+      :ARG0 (a / aceng)
+      :ARG1 (s1 / sesuatu)
+      :location (s2 / semeru))
+
+# ::id 97
+# ::snt Mobilnya bergerak maju
+# ::tokens ["Mobilnya", "bergerak", "maju"]
+# ::lemmas ["mobil", "gerak", "maju"]
+# ::pos_tags ["NOUN", "VERB", "ADJ"]
+# ::ner_tags ["O", "O", "O"]
+(g / gerak
+      :ARG0 (m1 / mobil)
+      :ARG1 (m2 / maju))
+
+# ::id 98
+# ::snt Teknologi yang mereka gunakan merupakan yang paling mutakhir
+# ::tokens ["Teknologi", "yang", "mereka", "gunakan", "merupakan", "yang", "paling", "mutakhir"]
+# ::lemmas ["teknologi", "yang", "mereka", "guna", "rupa", "yang", "paling", "mutakhir"]
+# ::pos_tags ["PROPN", "PRON", "PRON", "VERB", "VERB", "PRON", "ADV", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+(g / guna
+      :ARG0 (m1 / mereka)
+      :ARG1 (t / teknologi
+            :mod (r / rupa
+                  :mod (p / paling
+                        :mod (m2 / mutakhir)))))
+
+# ::id 99
+# ::snt Dia anak yang riang
+# ::tokens ["Dia", "anak", "yang", "riang"]
+# ::lemmas ["dia", "anak", "yang", "riang"]
+# ::pos_tags ["PRON", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(a / anak
+      :ARG0 (d / dia)
+      :mod (r / riang))
+
+# ::id 100
+# ::snt Balonku ada lima
+# ::tokens ["Balonku", "ada", "lima"]
+# ::lemmas ["balon", "ada", "lima"]
+# ::pos_tags ["PROPN", "VERB", "NUM"]
+# ::ner_tags ["PER", "O", "CRD"]
+(a / ada
+      :ARG0 (b / balon)
+      :mod (l / lima))
+
+# ::id 101
+# ::snt Jabbar membelikannya untukku
+# ::tokens ["Jabbar", "membelikannya", "untukku"]
+# ::lemmas ["jabbar", "beli", "untuk"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(b / beli
+      :ARG0 (j / jabar
+            :mod (u / untuk)))
+
+# ::id 102
+# ::snt Kami senang di taman bermain siang itu
+# ::tokens ["Kami", "senang", "di", "taman", "bermain", "siang", "itu"]
+# ::lemmas ["kami", "senang", "di", "taman", "main", "siang", "itu"]
+# ::pos_tags ["PRON", "VERB", "ADP", "NOUN", "VERB", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(s1 / senang
+      :ARG0 (k / kami)
+      :location (t / taman
+            :mod (b / bermain))
+      :time (s2 / siang
+            :mod (i / itu)))
+
+# ::id 104
+# ::snt Raut mukanya nampak bahagia
+# ::tokens ["Raut", "mukanya", "nampak", "bahagia"]
+# ::lemmas ["raut", "muka", "nampak", "bahagia"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(t / tampak
+      :ARG0 (r / raut
+            :mod (m / muka))
+      :ARG1 (b / bahagia))
+
+# ::id 105
+# ::snt Kejadian kemarin membuat Rifqy tersadar
+# ::tokens ["Kejadian", "kemarin", "membuat", "Rifqy", "tersadar"]
+# ::lemmas ["jadi", "kemarin", "buat", "rifqy", "sadar"]
+# ::pos_tags ["NOUN", "ADV", "VERB", "PROPN", "VERB"]
+# ::ner_tags ["O", "O", "O", "ORG", "O"]
+(b / buat
+      :ARG0 (j / jadi)
+      :ARG1 (r / rifqy)
+      :mod (s / sadar)
+      :time (k / kemarin))
+
+# ::id 105
+# ::snt Rifqy dibuat sadar kejadian kemarin
+# ::tokens ["Rifqy", "dibuat", "sadar", "kejadian", "kemarin"]
+# ::lemmas ["rifqy", "buat", "sadar", "jadi", "kemarin"]
+# ::pos_tags ["PROPN", "VERB", "ADJ", "NOUN", "PUNCT"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(b / buat
+      :ARG0 (j / jadi)
+      :ARG1 (r / rifqy)
+      :mod (s / sadar)
+      :time (k / kemarin))
+
+# ::id 106
+# ::snt Ia menyukai kedekatan mereka selama ini
+# ::tokens ["Ia", "menyukai", "kedekatan", "mereka", "selama", "ini"]
+# ::lemmas ["ia", "suka", "dekat", "mereka", "lama", "ini"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "PRON", "ADP", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s3 / suka
+      :ARG0 (i1 / ia)
+      :ARG1 (s1 / suka
+            :ARG0 (d / dekat
+                  :ARG1 (m / mereka)))
+      :time (l / lama
+            :mod (i2 / ini)))
+
+# ::id 107
+# ::snt Bu Rifqy mengetahui perasaannya
+# ::tokens ["Bu", "Rifqy", "mengetahui", "perasaannya"]
+# ::lemmas ["bu", "rifqy", "tahu", "asa"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tahu
+      :ARG0 (b / bu
+            :name (r1 / rifqy))
+      :ARG1 (r2 / rasa))
+
+# ::id 107
+# ::snt Perasaannya diketahui Bu Rifqy
+# ::tokens ["Perasaannya", "diketahui", "Bu", "Rifqy"]
+# ::lemmas ["asa", "tahu", "bu", "rifqy"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(t / tahu
+      :ARG0 (b / bu
+            :name (r1 / rifqy))
+      :ARG1 (r2 / rasa))
+
+# ::id 108
+# ::snt Alfiansyah juara renang
+# ::tokens ["Alfiansyah", "juara", "renang"]
+# ::lemmas ["alfiansyah", "juara", "renang"]
+# ::pos_tags ["PROPN", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(j / juara
+      :ARG0 (a / alfiansyah)
+      :ARG1 (r / renang))
+
+# ::id 109
+# ::snt Agribisnis 50 menjadi juara umum The 10th tahun ini
+# ::tokens ["Agribisnis", "50", "menjadi", "juara", "umum", "The", "10th", "tahun", "ini"]
+# ::lemmas ["agribisnis", "50", "jadi", "juara", "umum", "the", "10th", "tahun", "ini"]
+# ::pos_tags ["PROPN", "NUM", "VERB", "NOUN", "ADJ", "PROPN", "PROPN", "NOUN", "DET"]
+# ::ner_tags ["ORG", "CRD", "O", "O", "O", "ORG", "O", "O", "O"]
+(j1 / jadi
+      :ARG0 (a / agribisnis
+            :mod 50)
+      :ARG1 (j2 / juara
+            :ARG1 (t1 / the
+                  :mod 10th)
+            :mod (u / umum))
+      :time (t2 / tahun
+            :mod (i / ini)))
+
+# ::id 110
+# ::snt Aku mengantuk sore tadi
+# ::tokens ["Aku", "mengantuk", "sore", "tadi"]
+# ::lemmas ["aku", "antuk", "sore", "tadi"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(k / kantuk
+      :ARG0 (a / aku)
+      :time (s / sore
+            :mod (t / tadi)))
+
+# ::id 111
+# ::snt Dia menyelesaikan tugasnya tepat pada waktunya
+# ::tokens ["Dia", "menyelesaikan", "tugasnya", "tepat", "pada", "waktunya"]
+# ::lemmas ["dia", "selesai", "tugas", "tepat", "pada", "waktu"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / selesai
+      :ARG0 (d / dia)
+      :ARG1 (t1 / tugas)
+      :time (t2 / tepat
+            :mod (w / waktu)))
+
+# ::id 111
+# ::snt Tugas diselesaikan dia tepat pada waktunya
+# ::tokens ["Tugas", "diselesaikan", "dia", "tepat", "pada", "waktunya"]
+# ::lemmas ["tugas", "selesai", "dia", "tepat", "pada", "waktu"]
+# ::pos_tags ["PROPN", "VERB", "PRON", "ADJ", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / selesai
+      :ARG0 (d / dia)
+      :ARG1 (t1 / tugas)
+      :time (t2 / tepat
+            :mod (w / waktu)))
+
+# ::id 112
+# ::snt Dia anak yang cerdas
+# ::tokens ["Dia", "anak", "yang", "cerdas"]
+# ::lemmas ["dia", "anak", "yang", "cerdas"]
+# ::pos_tags ["PRON", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(a / anak
+      :ARG0 (d / dia)
+      :mod (c / cerdas))
+
+# ::id 113
+# ::snt Rumahnya ada di belakang kebun raya
+# ::tokens ["Rumahnya", "ada", "di", "belakang", "kebun", "raya"]
+# ::lemmas ["rumah", "ada", "di", "belakang", "kebun", "raya"]
+# ::pos_tags ["NOUN", "VERB", "ADP", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(a / ada
+      :ARG0 (r1 / rumah)
+      :location (b / belakang
+            :mod (k / kebun
+                  :mod (r2 / raya))))
+
+# ::id 114
+# ::snt Sebelah kanan rumahnya ada TK
+# ::tokens ["Sebelah", "kanan", "rumahnya", "ada", "TK"]
+# ::lemmas ["belah", "kanan", "rumah", "ada", "tk"]
+# ::pos_tags ["ADP", "NOUN", "NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(a / ada
+      :ARG0 (t / tk)
+      :location (s / sebelah
+            :mod (k / kanan)))
+
+# ::id 115
+# ::snt Mereka memilih tinggal di pinggiran Jakarta
+# ::tokens ["Mereka", "memilih", "tinggal", "di", "pinggiran", "Jakarta"]
+# ::lemmas ["mereka", "pilih", "tinggal", "di", "pinggir", "jakarta"]
+# ::pos_tags ["PRON", "VERB", "VERB", "ADP", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "GPE"]
+(p1 / pilih
+      :ARG0 (m / mereka)
+      :ARG1 (t / tinggal
+            :location (p2 / pinggiran
+                  :mod (j / jakarta))))
+
+# ::id 116
+# ::snt Jarak rumah mereka yang sekarang lebih dekat ke tempat kerja
+# ::tokens ["Jarak", "rumah", "mereka", "yang", "sekarang", "lebih", "dekat", "ke", "tempat", "kerja"]
+# ::lemmas ["jarak", "rumah", "mereka", "yang", "sekarang", "lebih", "dekat", "ke", "tempat", "kerja"]
+# ::pos_tags ["NOUN", "NOUN", "PRON", "PRON", "ADV", "ADV", "ADJ", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(j / jarak
+      :ARG0 (r / rumah
+            :mod (m / mereka)
+            :time (s / sekarang))
+      :mod (d / dekat
+            :ARG1 (t / tempat
+                  :mod (k / kerja))))
+
+# ::id 117
+# ::snt Shiana merupakan anak mereka berdua
+# ::tokens ["Shiana", "merupakan", "anak", "mereka", "berdua"]
+# ::lemmas ["shiana", "rupa", "anak", "mereka", "dua"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "PRON", "PUNCT"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(r / rupa
+      :ARG0 (s / shiana)
+      :ARG1 (a / anak
+            :ARG0 (m / mereka
+                  :mod (d / dua))))
+
+# ::id 118
+# ::snt Shiana sekarang sedang menantikan adiknya lahir ke dunia
+# ::tokens ["Shiana", "sekarang", "sedang", "menantikan", "adiknya", "lahir", "ke", "dunia"]
+# ::lemmas ["shiana", "sekarang", "sedang", "nanti", "adik", "lahir", "ke", "dunia"]
+# ::pos_tags ["PROPN", "ADV", "ADV", "VERB", "NOUN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O"]
+(n / nanti
+      :ARG0 (s1 / shiana)
+      :ARG1 (l / lahir
+            :ARG1 (a / adik)
+            :location (d / dunia))
+      :time (s2 / sekarang))
+
+# ::id 118
+# ::snt kelahiran adiknya sedang dinantikan Shiana ke dunia sekarang
+# ::tokens ["kelahiran", "adiknya", "sedang", "dinantikan", "Shiana", "ke", "dunia", "sekarang"]
+# ::lemmas ["lahir", "adik", "sedang", "nanti", "shiana", "ke", "dunia", "sekarang"]
+# ::pos_tags ["NOUN", "NOUN", "ADV", "VERB", "PROPN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "PER", "O", "O", "O"]
+(n / nanti
+      :ARG0 (s1 / shiana)
+      :ARG1 (l / lahir
+            :ARG1 (a / adik)
+            :location (d / dunia))
+      :time (s2 / sekarang))
+
+# ::id 120
+# ::snt Ibunya menyemangati gadis itu di garis finish tadi pagi
+# ::tokens ["Ibunya", "menyemangati", "gadis", "itu", "di", "garis", "finish", "tadi", "pagi"]
+# ::lemmas ["ibu", "semangat", "gadis", "itu", "di", "garis", "finish", "tadi", "pagi"]
+# ::pos_tags ["NOUN", "VERB", "NOUN", "DET", "ADP", "NOUN", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(s / semangat
+      :ARG0 (i / ibu)
+      :ARG1 (g1 / gadis)
+      :location (g2 / garis
+            :mod (f / finish))
+      :time (p / pagi
+            :mod (t / tadi)))
+
+# ::id 120
+# ::snt gadis itu disemangati Ibunya di garis finish tadi pagi
+# ::tokens ["gadis", "itu", "disemangati", "Ibunya", "di", "garis", "finish", "tadi", "pagi"]
+# ::lemmas ["gadis", "itu", "semangat", "ibu", "di", "garis", "finish", "tadi", "pagi"]
+# ::pos_tags ["NOUN", "DET", "VERB", "NOUN", "ADP", "NOUN", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(s / semangat
+      :ARG0 (i / ibu)
+      :ARG1 (g1 / gadis)
+      :location (g2 / garis
+            :mod (f / finish))
+      :time (p / pagi
+            :mod (t / tadi)))
+
+# ::id 122
+# ::snt Aku menyerah
+# ::tokens ["Aku", "menyerah"]
+# ::lemmas ["aku", "serah"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(s / serah
+      :ARG0 (a / aku))
+
+# ::id 122
+# ::snt Aku merasa sendirian lagi di rumah
+# ::tokens ["Aku", "merasa", "sendirian", "lagi", "di", "rumah"]
+# ::lemmas ["aku", "rasa", "sendiri", "lagi", "di", "rumah"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADV", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(r1 / rasa
+      :ARG0 (a / aku)
+      :ARG1 (s / sendiri
+            :mod (l / lagi))
+      :location (r2 / rumah))
+
+# ::id 122
+# ::snt Dia temani aku sampai pagi
+# ::tokens ["Dia", "temani", "aku", "sampai", "pagi"]
+# ::lemmas ["dia", "teman", "aku", "sampai", "pagi"]
+# ::pos_tags ["PRON", "VERB", "PRON", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / teman
+      :ARG0 (d1 / dia)
+      :ARG1 (a / aku)
+      :time (p / pagi
+            :mod (s / sampai)))
+
+# ::id 123
+# ::snt Kedatangan pencuri membuat Seti trauma
+# ::tokens ["Kedatangan", "pencuri", "membuat", "Seti", "trauma"]
+# ::lemmas ["datang", "curi", "buat", "seti", "trauma"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "ORG", "LOC"]
+(b / buat
+      :ARG0 (d / datang
+            :ARG0 (c / curi))
+      :ARG1 (s / seti)
+      :mod (t / trauma))
+
+# ::id 125
+# ::snt Aku melihat raut kesedihannya
+# ::tokens ["Aku", "melihat", "raut", "kesedihannya"]
+# ::lemmas ["aku", "lihat", "raut", "sedih"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (a / aku)
+      :ARG1 (r / raut
+            :mod (s / sedih)))
+
+# ::id 125
+# ::snt Raut kesedihannya dilihat aku
+# ::tokens ["Raut", "kesedihannya", "dilihat", "aku"]
+# ::lemmas ["raut", "sedih", "lihat", "aku"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (a / aku)
+      :ARG1 (r / raut
+            :mod (s / sedih)))
+
+# ::id 126
+# ::snt Ariana mendapat tepuk tangan meriah dari penonton
+# ::tokens ["Ariana", "mendapat", "tepuk", "tangan", "meriah", "dari", "penonton"]
+# ::lemmas ["ariana", "dapat", "tepuk", "tangan", "riah", "dari", "tonton"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN", "ADJ", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (a / ariana)
+      :ARG1 (t1 / tepuk
+            :mod (t2 / tangan
+                  :mod (m / meriah)))
+      :mod (t / tonton))
+
+# ::id 127
+# ::snt Pak Rifqy mengantarkan aku  hari ini
+# ::tokens ["Pak", "Rifqy", "mengantarkan", "aku", "hari", "ini"]
+# ::lemmas ["pak", "rifqy", "antar", "aku", "hari", "ini"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PRON", "NOUN", "DET"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(a1 / antar
+      :ARG0 (p / pak
+            :name (r / rifqy))
+      :ARG1 (a2 / aku)
+      :time (h / hari
+            :mod (i / ini)))
+
+# ::id 128
+# ::snt Kami menghabiskan waktu bersama sejak pagi
+# ::tokens ["Kami", "menghabiskan", "waktu", "bersama", "sejak", "pagi"]
+# ::lemmas ["kami", "habis", "waktu", "sama", "sejak", "pagi"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(h / habis
+      :ARG0 (k / kami)
+      :ARG1 (w / waktu)
+      :time (s / sejak
+            :mod (p / pagi)))
+
+# ::id 129
+# ::snt Ia membawa bunga kemarin
+# ::tokens ["Ia", "membawa", "bunga", "kemarin"]
+# ::lemmas ["ia", "bawa", "bunga", "kemarin"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b1 / bawa
+      :ARG0 (i / ia)
+      :ARG1 (b2 / bunga)
+      :time (k / kemarin))
+
+# ::id 129
+# ::snt Bunga dibawa Ia kemarin
+# ::tokens ["Bunga", "dibawa", "Ia", "kemarin"]
+# ::lemmas ["bunga", "bawa", "ia", "kemarin"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b1 / bawa
+      :ARG0 (i / ia)
+      :ARG1 (b2 / bunga)
+      :time (k / kemarin))
+
+# ::id 130
+# ::snt Ia mengaku jika selama ini hanya berpura pura peduli
+# ::tokens ["Ia", "mengaku", "jika", "selama", "ini", "hanya", "berpura", "pura", "peduli"]
+# ::lemmas ["ia", "aku", "jika", "lama", "ini", "hanya", "pura", "pura", "peduli"]
+# ::pos_tags ["PRON", "VERB", "SCONJ", "ADP", "DET", "ADV", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(a / aku
+      :ARG0 (i / ia
+            :ARG1 (p1 / pura
+                  :mod (p2 / peduli))))
+
+# ::id 131
+# ::snt Aku senang mendengar pengakuannya
+# ::tokens ["Aku", "senang", "mendengar", "pengakuannya"]
+# ::lemmas ["aku", "senang", "dengar", "aku"]
+# ::pos_tags ["PRON", "ADJ", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(s / senang
+      :ARG0 (a1 / aku)
+      :ARG1 (d / dengar
+            :mod (a2 / aku)))
+
+# ::id 132
+# ::snt Kami memutuskan menikah tahun depan
+# ::tokens ["Kami", "memutuskan", "menikah", "tahun", "depan"]
+# ::lemmas ["kami", "putus", "meni", "tahun", "depan"]
+# ::pos_tags ["PRON", "VERB", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / putus
+      :ARG0 (k / kami)
+      :ARG1 (n / nikah
+            :time (t / tahun
+                  :mod (d / depan))))
+
+# ::id 133
+# ::snt Orang tuanya menerimaku apa adanya
+# ::tokens ["Orang", "tuanya", "menerimaku", "apa", "adanya"]
+# ::lemmas ["orang", "tua", "terima", "apa", "ada"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PRON", "PRON"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t1 / terima
+      :ARG0 (o / orang
+            :mod (t2 / tua))
+      :mod (a1 / apa
+            :mod (a2 / ada)))
+
+# ::id 134
+# ::snt Kami sekeluarga bersuka cita
+# ::tokens ["Kami", "sekeluarga", "bersuka", "cita"]
+# ::lemmas ["kami", "keluarga", "suka", "cita"]
+# ::pos_tags ["PRON", "VERB", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(s / suka
+      :ARG0 (k1 / kami
+            :mod (k2 / keluarga))
+      :ARG1 (c / cita))
+
+# ::id 135
+# ::snt Zahra lulus dengan nilai memuaskan
+# ::tokens ["Zahra", "lulus", "dengan", "nilai", "memuaskan"]
+# ::lemmas ["zahra", "lulus", "dengan", "nilai", "muas"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN", "VERB"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(l / lulus
+      :ARG0 (z / zahra)
+      :mod (n / nilai
+            :mod (p / puas)))
+
+# ::id 136
+# ::snt Ia melewati ujian dengan lancar
+# ::tokens ["Ia", "melewati", "ujian", "dengan", "lancar"]
+# ::lemmas ["ia", "lewat", "uji", "dengan", "lancar"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l1 / lewat
+      :ARG0 (i / ia)
+      :ARG1 (u / uji)
+      :mod (l2 / lancar))
+
+# ::id 136
+# ::snt Ujian dilewati ia dengan lancar
+# ::tokens ["Ujian", "dilewati", "ia", "dengan", "lancar"]
+# ::lemmas ["uji", "lewat", "ia", "dengan", "lancar"]
+# ::pos_tags ["PROPN", "VERB", "PRON", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l1 / lewat
+      :ARG0 (i / ia)
+      :ARG1 (u / uji)
+      :mod (l2 / lancar))
+
+# ::id 137
+# ::snt Putri mendapat sorotan di pertunjukan itu
+# ::tokens ["Putri", "mendapat", "sorotan", "di", "pertunjukan", "itu"]
+# ::lemmas ["putri", "dapat", "sorot", "di", "tunjuk", "itu"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (p / putri)
+      :ARG1 (s / sorot
+            :mod (t / tunjuk
+                  :mod (i / itu))))
+
+# ::id 137
+# ::snt Sorotan didapat Putri di pertunjukan itu
+# ::tokens ["Sorotan", "didapat", "Putri", "di", "pertunjukan", "itu"]
+# ::lemmas ["sorot", "dapat", "putri", "di", "tunjuk", "itu"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "ADP", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (p / putri)
+      :ARG1 (s / sorot
+            :mod (t / tunjuk
+                  :mod (i / itu))))
+
+# ::id 138
+# ::snt Penampilannya memukau semua orang
+# ::tokens ["Penampilannya", "memukau", "semua", "orang"]
+# ::lemmas ["tampil", "pukau", "semua", "orang"]
+# ::pos_tags ["NOUN", "VERB", "DET", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p / pukau
+      :ARG0 (t / tampil)
+      :ARG1 (s / semua
+            :mod (o / orang)))
+
+# ::id 139
+# ::snt Ada yang menyangka ia sebagus itu
+# ::tokens ["Ada", "yang", "menyangka", "ia", "sebagus", "itu"]
+# ::lemmas ["ada", "yang", "sangka", "ia", "bagus", "itu"]
+# ::pos_tags ["VERB", "PRON", "VERB", "PRON", "VERB", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / sangka
+      :ARG0 (a / ada)
+      :ARG1 (i1 / ia)
+      :mod (b / bagus
+            :mod (i2 / itu)))
+
+# ::id 140
+# ::snt Dia tampak cantik sekali malam ini
+# ::tokens ["Dia", "tampak", "cantik", "sekali", "malam", "ini"]
+# ::lemmas ["dia", "tampak", "cantik", "sekali", "malam", "ini"]
+# ::pos_tags ["PRON", "VERB", "ADJ", "ADV", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(t / tampak
+      :ARG0 (d / dia)
+      :ARG1 (c / cantik
+            :mod (s / sekali))
+      :time (m / malam
+            :mod (i / ini)))
+
+# ::id 141
+# ::snt Semua orang berebut berfoto
+# ::tokens ["Semua", "orang", "berebut", "berfoto"]
+# ::lemmas ["semua", "orang", "rebut", "foto"]
+# ::pos_tags ["DET", "NOUN", "VERB", "VERB"]
+# ::ner_tags ["O", "O", "O", "O"]
+(r / rebut
+      :ARG0 (s / semua
+            :mod (o / orang))
+      :ARG1 (f / foto))
+
+# ::id 142
+# ::snt Ia menjadi bintang malam ini
+# ::tokens ["Ia", "menjadi", "bintang", "malam", "ini"]
+# ::lemmas ["ia", "jadi", "bintang", "malam", "ini"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(j / jadi
+      :ARG0 (i1 / ia)
+      :ARG1 (b / bintang
+            :time (m / malam
+                  :mod (i2 / ini))))
+
+# ::id 143
+# ::snt Aku mendapatkan tawaran menarik dari perusahaan itu
+# ::tokens ["Aku", "mendapatkan", "tawaran", "menarik", "dari", "perusahaan", "itu"]
+# ::lemmas ["aku", "dapat", "tawar", "tarik", "dari", "usaha", "itu"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ", "ADP", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (a / aku)
+      :ARG1 (t1 / tawar
+            :mod (t2 / tarik)
+            :location (p / perusahaan)))
+
+# ::id 143
+# ::snt Tawaran menarik didapatkan aku dari perusahaan itu
+# ::tokens ["Tawaran", "menarik", "didapatkan", "aku", "dari", "perusahaan", "itu"]
+# ::lemmas ["tawar", "tarik", "dapat", "aku", "dari", "usaha", "itu"]
+# ::pos_tags ["PROPN", "ADJ", "VERB", "PRON", "ADP", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(d / dapat
+      :ARG0 (a / aku)
+      :ARG1 (t1 / tawar
+            :mod (t2 / tarik)
+            :location (p / perusahaan)))
+
+# ::id 144
+# ::snt Mereka menawari aku sebagai menajer
+# ::tokens ["Mereka", "menawari", "aku", "sebagai", "menajer"]
+# ::lemmas ["mereka", "tawar", "aku", "bagai", "menajer"]
+# ::pos_tags ["PRON", "VERB", "PRON", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / tawar
+      :ARG0 (m1 / mereka)
+      :ARG1 (a / aku)
+      :mod (s / sebagai
+            :mod (m2 / menajer)))
+
+# ::id 144
+# ::snt Aku ditawari mereka sebagai menajer
+# ::tokens ["Aku", "ditawari", "mereka", "sebagai", "menajer"]
+# ::lemmas ["aku", "tawar", "mereka", "bagai", "menajer"]
+# ::pos_tags ["PRON", "VERB", "PRON", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / tawar
+      :ARG0 (m1 / mereka)
+      :ARG1 (a / aku)
+      :mod (s / sebagai
+            :mod (m2 / menajer)))
+
+# ::id 145
+# ::snt Mereka melihat hasil skripsi kemarin
+# ::tokens ["Mereka", "melihat", "hasil", "skripsi", "kemarin"]
+# ::lemmas ["mereka", "lihat", "hasil", "skripsi", "kemarin"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (m / mereka)
+      :ARG1 (h / hasil
+            :mod (s / skripsi))
+      :time (k / kemarin))
+
+# ::id 145
+# ::snt Hasil skripsi dilihat mereka kemarin
+# ::tokens ["Hasil", "skripsi", "dilihat", "mereka", "kemarin"]
+# ::lemmas ["hasil", "skripsi", "lihat", "mereka", "kemarin"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PRON", "PUNCT"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (m / mereka)
+      :ARG1 (h / hasil
+            :mod (s / skripsi))
+      :time (k / kemarin))
+
+# ::id 146
+# ::snt Mereka senang dengan karya tulis tersebut
+# ::tokens ["Mereka", "senang", "dengan", "karya", "tulis", "tersebut"]
+# ::lemmas ["mereka", "senang", "dengan", "karya", "tulis", "sebut"]
+# ::pos_tags ["PRON", "VERB", "ADP", "NOUN", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / senang
+      :ARG0 (m / mereka)
+      :ARG1 (k / karya
+            :mod (t / tulis)))
+
+# ::id 147
+# ::snt Sebuah penerbit tertarik menerbitkan bukuku
+# ::tokens ["Sebuah", "penerbit", "tertarik", "menerbitkan", "bukuku"]
+# ::lemmas ["buah", "terbit", "tarik", "terbit", "buku"]
+# ::pos_tags ["DET", "NOUN", "ADJ", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t1 / tarik
+      :ARG0 (s / sebuah
+            :mod (p / penerbit))
+      :ARG1 (t2 / terbit
+            :mod (b / buku)))
+
+# ::id 148
+# ::snt Mereka melihat contoh dari blog
+# ::tokens ["Mereka", "melihat", "contoh", "dari", "blog"]
+# ::lemmas ["mereka", "lihat", "contoh", "dari", "blog"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (m / mereka)
+      :ARG1 (c / contoh)
+      :location (b / blog))
+
+# ::id 148
+# ::snt Contoh dilihat mereka dari blog
+# ::tokens ["Contoh", "dilihat", "mereka", "dari", "blog"]
+# ::lemmas ["contoh", "lihat", "mereka", "dari", "blog"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l / lihat
+      :ARG0 (m / mereka)
+      :ARG1 (c / contoh)
+      :location (b / blog))
+
+# ::id 149
+# ::snt Buku pertama berjudul Rindu
+# ::tokens ["Buku", "pertama", "berjudul", "Rindu"]
+# ::lemmas ["buku", "pertama", "judul", "rindu"]
+# ::pos_tags ["NOUN", "NUM", "VERB", "PROPN"]
+# ::ner_tags ["ORG", "GPE", "O", "LOC"]
+(j / judul
+      :ARG0 (b / buku
+            :mod (p / pertama))
+      :ARG1 (r / rindu))
+
+# ::id 150
+# ::snt Kami merayakan kesuksesan buku
+# ::tokens ["Kami", "merayakan", "kesuksesan", "buku"]
+# ::lemmas ["kami", "raya", "sukses", "buku"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(r / raya
+      :ARG0 (k / kami)
+      :ARG1 (s / sukses
+            :mod (b / buku)))
+
+# ::id 150
+# ::snt Kesuksesan buku dirayakan kami
+# ::tokens ["Kesuksesan", "buku", "dirayakan", "kami"]
+# ::lemmas ["sukses", "buku", "raya", "kami"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O"]
+(r / raya
+      :ARG0 (k / kami)
+      :ARG1 (s / sukses
+            :mod (b / buku)))
+
+# ::id 151
+# ::snt Tia menyumbangkan rezeki ke tempat yatim piatu
+# ::tokens ["Tia", "menyumbangkan", "rezeki", "ke", "tempat", "yatim", "piatu"]
+# ::lemmas ["tia", "sumbang", "rezeki", "ke", "tempat", "yatim", "piatu"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O"]
+(s / sumbang
+      :ARG0 (t1 / tia)
+      :ARG1 (r / rezeki)
+      :location (t2 / tempat
+            :mod (y / yatim
+                  :mod (p / piatu))))
+
+# ::id 151
+# ::snt Rezeki disumbangkan Tia ke tempat yatim piatu
+# ::tokens ["Rezeki", "disumbangkan", "Tia", "ke", "tempat", "yatim", "piatu"]
+# ::lemmas ["rezeki", "sumbang", "tia", "ke", "tempat", "yatim", "piatu"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "ADP", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "PER", "O", "O", "O", "O"]
+(s / sumbang
+      :ARG0 (t1 / tia)
+      :ARG1 (r / rezeki)
+      :location (t2 / tempat
+            :mod (y / yatim
+                  :mod (p / piatu))))
+
+# ::id 152
+# ::snt Tia dikenal baik orang-orang
+# ::tokens ["Tia", "dikenal", "baik", "orang-orang"]
+# ::lemmas ["tia", "kenal", "baik", "orang"]
+# ::pos_tags ["PROPN", "VERB", "ADJ", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(k / kenal
+      :ARG0 (t / tia)
+      :ARG1 (b / baik
+            :mod (o / orang)))
+
+# ::id 153
+# ::snt Ia merupakan orang yang dermawan
+# ::tokens ["Ia", "merupakan", "orang", "yang", "dermawan"]
+# ::lemmas ["ia", "rupa", "orang", "yang", "dermawan"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "PRON", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(r / rupa
+      :ARG0 (i / ia)
+      :ARG1 (o / orang
+            :mod (d / dermawan)))
+
+# ::id 154
+# ::snt Semua satpam kampus mengenal Utami
+# ::tokens ["Semua", "satpam", "kampus", "mengenal", "Utami"]
+# ::lemmas ["semua", "satpam", "kampus", "kenal", "utami"]
+# ::pos_tags ["DET", "NOUN", "NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "PRD", "O", "O"]
+(k1 / kenal
+      :ARG0 (s1 / semua
+            :mod (s2 / satpam
+                  :mod (k2 / kampus)))
+      :ARG1 (o / orang
+            :nama (u / utami)))
+
+# ::id 154
+# ::snt Utami dikenal semua satpam kampus
+# ::tokens ["Utami", "dikenal", "semua", "satpam", "kampus"]
+# ::lemmas ["utami", "kenal", "semua", "satpam", "kampus"]
+# ::pos_tags ["PROPN", "VERB", "DET", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "LOC"]
+(k1 / kenal
+      :ARG0 (s1 / semua
+            :mod (s2 / satpam
+                  :mod (k2 / kampus)))
+      :ARG1 (o / orang
+            :nama (u / utami)))
+
+# ::id 155
+# ::snt Ia mengawali karir musiknya dengan bagus
+# ::tokens ["Ia", "mengawali", "karir", "musiknya", "dengan", "bagus"]
+# ::lemmas ["ia", "awal", "karir", "musik", "dengan", "bagus"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(a / awal
+      :ARG0 (i / ia)
+      :ARG1 (k / karir
+            :mod (m / musik))
+      :mod (b / bagus))
+
+# ::id 157
+# ::snt Kini, ia adalah bintang kesayangan penggemarnya
+# ::tokens ["Kini", ",", "ia", "adalah", "bintang", "kesayangan", "penggemarnya"]
+# ::lemmas ["kini", "", "ia", "adalah", "bintang", "sayang", "gemar"]
+# ::pos_tags ["ADV", "PUNCT", "PRON", "AUX", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(a / adalah
+      :ARG0 (i / ia)
+      :ARG1 (b / bintang
+            :mod (s / sayang
+                  :mod (g / gemar)))
+      :time (k / kini))
+
+# ::id 158
+# ::snt Azhila membawa tas yang terbuat dari kulit harimau asli
+# ::tokens ["Azhila", "membawa", "tas", "yang", "terbuat", "dari", "kulit", "harimau", "asli"]
+# ::lemmas ["azhila", "bawa", "tas", "yang", "buat", "dari", "kulit", "harimau", "asli"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "PRON", "VERB", "ADP", "NOUN", "NOUN", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O"]
+(b1 / bawa
+      :ARG0 (a1 / azhila)
+      :ARG1 (t / tas
+            :mod (b2 / buat
+                  :mod (k / kulit
+                        :mod (h / harimau
+                              :mod (a2 / asli))))))
+
+# ::id 159
+# ::snt Mereka membawa tas
+# ::tokens ["Mereka", "membawa", "tas"]
+# ::lemmas ["mereka", "bawa", "tas"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / bawa
+      :ARG0 (m / mereka)
+      :ARG1 (t / tas))
+
+# ::id 159
+# ::snt Tas dibawa mereka
+# ::tokens ["Tas", "dibawa", "mereka"]
+# ::lemmas ["tas", "bawa", "mereka"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(b / bawa
+      :ARG0 (m / mereka)
+      :ARG1 (t / tas))
+
+# ::id 160
+# ::snt Aji menang lomba penulisan karya ilmiah
+# ::tokens ["Aji", "menang", "lomba", "penulisan", "karya", "ilmiah"]
+# ::lemmas ["aji", "menang", "lomba", "tulis", "karya", "ilmiah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN", "NOUN", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(m / menang
+      :ARG0 (a / aji)
+      :ARG1 (l / lomba
+            :mod (t / tulis
+                  :mod (k / karya
+                        :mod (i / ilmiah)))))
+
+# ::id 161
+# ::snt Tulisan dihargai oleh juri
+# ::tokens ["Tulisan", "dihargai", "oleh", "juri"]
+# ::lemmas ["tulis", "harga", "oleh", "juri"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(h / harga
+      :ARG0 (j / juri)
+      :ARG1 (t / tulis))
+
+# ::id 161
+# ::snt Juri menghargai tulisan
+# ::tokens ["Juri", "menghargai", "tulisan"]
+# ::lemmas ["juri", "harga", "tulis"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(h / harga
+      :ARG0 (j / juri)
+      :ARG1 (t / tulis))
+
+# ::id 162
+# ::snt Lomba itu memberikan hadiah liburan ke eropa
+# ::tokens ["Lomba", "itu", "memberikan", "hadiah", "liburan", "ke", "eropa"]
+# ::lemmas ["lomba", "itu", "beri", "hadiah", "libur", "ke", "eropa"]
+# ::pos_tags ["NOUN", "DET", "VERB", "NOUN", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "GPE"]
+(b / beri
+      :ARG0 (l1 / lomba)
+      :ARG1 (h / hadiah
+            :mod (l2 / libur
+                  :location (e / eropa))))
+
+# ::id 163
+# ::snt Malam ini bulan bersinar cerah
+# ::tokens ["Malam", "ini", "bulan", "bersinar", "cerah"]
+# ::lemmas ["malam", "ini", "bulan", "sinar", "cerah"]
+# ::pos_tags ["NOUN", "DET", "NOUN", "VERB", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(s / sinar
+      :ARG0 (b / bulan)
+      :mod (c / cerah)
+      :time (m / malam
+            :mod (i / ini)))
+
+# ::id 164
+# ::snt Semua orang larut dalam kesenangan
+# ::tokens ["Semua", "orang", "larut", "dalam", "kesenangan"]
+# ::lemmas ["semua", "orang", "larut", "dalam", "senang"]
+# ::pos_tags ["DET", "NOUN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(l / larut
+      :ARG0 (s1 / semua
+            :mod (o / orang))
+      :ARG1 (s2 / senang))
+
+# ::id 165
+# ::snt Gadis itu tampak menikmati musik
+# ::tokens ["Gadis", "itu", "tampak", "menikmati", "musik"]
+# ::lemmas ["gadis", "itu", "tampak", "nikmat", "musik"]
+# ::pos_tags ["NOUN", "DET", "VERB", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / tampak
+      :ARG0 (g / gadis)
+      :ARG1 (n / nikmat
+            :ARG1 (m / musik)))
+
+# ::id 166
+# ::snt Badannya bergerak seirama
+# ::tokens ["Badannya", "bergerak", "seirama"]
+# ::lemmas ["badan", "gerak", "irama"]
+# ::pos_tags ["NOUN", "VERB", "PUNCT"]
+# ::ner_tags ["O", "O", "O"]
+(g / gerak
+      :ARG0 (b / badan)
+      :mod (i / irama))
+
+# ::id 167
+# ::snt Tampak beberapa pria kagum melihatnya dari jauh
+# ::tokens ["Tampak", "beberapa", "pria", "kagum", "melihatnya", "dari", "jauh"]
+# ::lemmas ["tampak", "beberapa", "pria", "kagum", "lihat", "dari", "jauh"]
+# ::pos_tags ["VERB", "DET", "NOUN", "ADJ", "VERB", "ADP", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(t / tampak
+      :ARG0 (p / pria
+            :mod (b / berapa))
+      :ARG1 (k / kagum
+            :ARG1 (l / lihat
+                  :mod (j / jauh))))
+
+# ::id 169
+# ::snt Kini ia hanya terkenal lewat otak cerdasnya
+# ::tokens ["Kini", "ia", "hanya", "terkenal", "lewat", "otak", "cerdasnya"]
+# ::lemmas ["kini", "ia", "hanya", "kenal", "lewat", "otak", "cerdas"]
+# ::pos_tags ["NOUN", "PRON", "ADV", "ADJ", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(k1 / kenal
+      :ARG0 (i / ia)
+      :ARG1 (h / hanya)
+      :mod (l / lewat
+            :mod (o / otak
+                  :mod (c / cerdas)))
+      :time (k2 / kini))
+
+# ::id 170
+# ::snt Kini ia juga dikenal sebagai perempuan mempesona
+# ::tokens ["Kini", "ia", "juga", "dikenal", "sebagai", "perempuan", "mempesona"]
+# ::lemmas ["kini", "ia", "juga", "kenal", "bagai", "perempuan", "pesona"]
+# ::pos_tags ["ADV", "PRON", "ADV", "VERB", "ADP", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+(k / kenal
+      :ARG0 (i / ia)
+      :ARG1 (p1 / perempuan
+            :mod (p2 / pesona)))
+
+# ::id 171
+# ::snt Bu Ayu mengakhiri kisah bahagianya
+# ::tokens ["Bu", "Ayu", "mengakhiri", "kisah", "bahagianya"]
+# ::lemmas ["bu", "ayu", "akhir", "kisah", "bahagia"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(a1 / akhir
+      :ARG0 (b1 / bu
+            :name (a2 / ayu))
+      :ARG1 (k / kisah
+            :mod (b2 / bahagia)))
+
+# ::id 171
+# ::snt Kisah bahagianya diakhiri Ayu
+# ::tokens ["Kisah", "bahagianya", "diakhiri", "Ayu"]
+# ::lemmas ["kisah", "bahagia", "akhir", "ayu"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(a1 / akhir
+      :ARG0 (b1 / bu
+            :name (a2 / ayu))
+      :ARG1 (k / kisah
+            :mod (b2 / bahagia)))
+
+# ::id 172
+# ::snt Karyanya terpilih menjadi 10 karya terbaik
+# ::tokens ["Karyanya", "terpilih", "menjadi", "10", "karya", "terbaik"]
+# ::lemmas ["karya", "pilih", "jadi", "10", "karya", "baik"]
+# ::pos_tags ["NOUN", "VERB", "VERB", "NUM", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "CRD", "QTY", "O"]
+(p / pilih
+      :ARG0 (k1 / karya)
+      :ARG1 (j / jadi
+            :mod (s / sepuluh
+                  :mod (k2 / karya
+                        :mod (b / baik)))))
+
+# ::id 173
+# ::snt Orang-orang terpesona dengan dirinya hari ini
+# ::tokens ["Orang-orang", "terpesona", "dengan", "dirinya", "hari", "ini"]
+# ::lemmas ["orang", "pesona", "dengan", "diri", "hari", "ini"]
+# ::pos_tags ["NOUN", "VERB", "ADP", "PRON", "NOUN", "DET"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(p / pesona
+      :ARG0 (o / orang)
+      :ARG1 (d / diri)
+      :time (h / hari
+            :mod (i / ini)))
+
+# ::id 175
+# ::snt Suatu hari, Om Aria datang menemui Tante Laisha
+# ::tokens ["Suatu", "hari", ",", "Om", "Aria", "datang", "menemui", "Tante", "Laisha"]
+# ::lemmas ["suatu", "hari", "", "om", "aria", "datang", "temu", "tante", "laisha"]
+# ::pos_tags ["DET", "NOUN", "PUNCT", "PROPN", "PROPN", "VERB", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "PER", "O", "O", "ORG", "LOC"]
+(d / datang
+      :ARG0 (o / om
+            :name (a / aria))
+      :ARG1 (t1 / temu
+            :ARG1 (t2 / tante
+                  :name (l / laisha))))
+
+# ::id 176
+# ::snt Mereka duduk bersebelahan di dalam trem
+# ::tokens ["Mereka", "duduk", "bersebelahan", "di", "dalam", "trem"]
+# ::lemmas ["mereka", "duduk", "bahan", "di", "dalam", "trem"]
+# ::pos_tags ["PRON", "VERB", "VERB", "ADP", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(d1 / duduk
+      :ARG0 (m / mereka)
+      :mod (s / sebelah)
+      :location (d2 / dalam
+            :mod (t / trem)))
+
+# ::id 178
+# ::snt Aku memberinya uang lima ribu rupiah
+# ::tokens ["Aku", "memberinya", "uang", "lima", "ribu", "rupiah"]
+# ::lemmas ["aku", "beri", "uang", "lima", "ribu", "rupiah"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NUM", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "CRD", "MON", "DAT"]
+(b / beri
+      :ARG0 (a / aku)
+      :ARG1 (u / uang
+            :mod (l / lima
+                  :mod (r1 / ribu
+                        :mod (r2 / rupiah)))))
+
+# ::id 179
+# ::snt Suster Nabilla memberiku kripik
+# ::tokens ["Suster", "Nabilla", "memberiku", "kripik"]
+# ::lemmas ["suster", "nabilla", "beri", "kripik"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b / beri
+      :ARG0 (s / suster
+            :ARG1 (k / kripik)
+            :name (n / nabilla)))
+
+# ::id 181
+# ::snt Pak Aria menyelesaikan tesis
+# ::tokens ["Pak", "Aria", "menyelesaikan", "tesis"]
+# ::lemmas ["pak", "aria", "selesai", "tesis"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(s / selesai
+      :ARG0 (p / pak
+            :name (a / aria))
+      :ARG1 (t / tesis))
+
+# ::id 181
+# ::snt Tesis diselesaikan Pak Aria
+# ::tokens ["Tesis", "diselesaikan", "Pak", "Aria"]
+# ::lemmas ["tesis", "selesai", "pak", "aria"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(s / selesai
+      :ARG0 (p / pak
+            :name (a / aria))
+      :ARG1 (t / tesis))
+
+# ::id 182
+# ::snt Paman Anto membawa bingkisan
+# ::tokens ["Paman", "Anto", "membawa", "bingkisan"]
+# ::lemmas ["paman", "anto", "bawa", "bingkis"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b1 / bawa
+      :ARG0 (p / paman
+            :name (a / anto))
+      :ARG1 (b2 / bingkisan))
+
+# ::id 183
+# ::snt Aku mengunjungi museum Van Gogh
+# ::tokens ["Aku", "mengunjungi", "museum", "Van", "Gogh"]
+# ::lemmas ["aku", "unjung", "museum", "van", "gogh"]
+# ::pos_tags ["PRON", "VERB", "PROPN", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC", "O"]
+(k / kunjung
+      :ARG0 (a / aku)
+      :ARG1 (m / museum
+            :name (v / van
+                  :name (g / Gogh))))
+
+# ::id 183
+# ::snt Museum Van Gogh dikunjungi aku
+# ::tokens ["Museum", "Van", "Gogh", "dikunjungi", "aku"]
+# ::lemmas ["museum", "van", "gogh", "kunjung", "aku"]
+# ::pos_tags ["PROPN", "PROPN", "PROPN", "VERB", "PRON"]
+# ::ner_tags ["ORG", "O", "PER", "O", "O"]
+(k / kunjung
+      :ARG0 (a / aku)
+      :ARG1 (m / museum
+            :name (v / van
+                  :name Gogh)))
+
+# ::id 184
+# ::snt Wafir jago bermain gitar
+# ::tokens ["Wafir", "jago", "bermain", "gitar"]
+# ::lemmas ["wafir", "jago", "main", "gitar"]
+# ::pos_tags ["PROPN", "ADJ", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(m / main
+      :ARG0 (w / wafir)
+      :ARG1 (g / gitar)
+      :mod (j / jago))
+
+# ::id 185
+# ::snt Aku ingin menjadi lebih baik lagi
+# ::tokens ["Aku", "ingin", "menjadi", "lebih", "baik", "lagi"]
+# ::lemmas ["aku", "ingin", "jadi", "lebih", "baik", "lagi"]
+# ::pos_tags ["PRON", "ADV", "VERB", "ADV", "ADJ", "ADV"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(i / ingin
+      :ARG0 (a / aku)
+      :ARG1 (j / jadi
+            :ARG1 (l1 / lebih
+                  :mod (b / baik
+                        :mod (l2 / lagi)))))
+
+# ::id 187
+# ::snt Bu Ayu sengaja bertemu Pak Jabbar di konser
+# ::tokens ["Bu", "Ayu", "sengaja", "bertemu", "Pak", "Jabbar", "di", "konser"]
+# ::lemmas ["bu", "ayu", "sengaja", "temu", "pak", "jabbar", "di", "konser"]
+# ::pos_tags ["PROPN", "PROPN", "ADV", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "ORG", "PER", "O", "O"]
+(t / temu
+      :ARG0 (b / bu
+            :name (a / ayu))
+      :ARG1 (p / pak
+            :name (j / jabbar))
+      :mod (s / sengaja)
+      :location (k / konser))
+
+# ::id 188
+# ::snt Mereka akhirnya memilih untuk bergabung
+# ::tokens ["Mereka", "akhirnya", "memilih", "untuk", "bergabung"]
+# ::lemmas ["mereka", "akhir", "pilih", "untuk", "gabung"]
+# ::pos_tags ["PRON", "ADV", "VERB", "ADP", "VERB"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / pilih
+      :ARG0 (m / mereka
+            :ARG1 (g / gabung)))
+
+# ::id 189
+# ::snt Pemandangannya terlihat indah
+# ::tokens ["Pemandangannya", "terlihat", "indah"]
+# ::lemmas ["pandang", "lihat", "indah"]
+# ::pos_tags ["NOUN", "VERB", "ADJ"]
+# ::ner_tags ["O", "O", "O"]
+(l / lihat
+      :ARG1 (p / pandang
+            :mod (i / indah)))
+
+# ::id 190
+# ::snt Dewi anak yang baik
+# ::tokens ["Dewi", "anak", "yang", "baik"]
+# ::lemmas ["dewi", "anak", "yang", "baik"]
+# ::pos_tags ["PROPN", "NOUN", "PRON", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(a / anak
+      :ARG0 (d / dewi
+            :mod (b / baik)))
+
+# ::id 191
+# ::snt Firman anak nakal
+# ::tokens ["Firman", "anak", "nakal"]
+# ::lemmas ["firman", "anak", "nakal"]
+# ::pos_tags ["NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(a / anak
+      :ARG0 (f / firman)
+      :mod (n / nakal))
+
+# ::id 192
+# ::snt Lukisan yang indah
+# ::tokens ["Lukisan", "yang", "indah"]
+# ::lemmas ["lukis", "yang", "indah"]
+# ::pos_tags ["PROPN", "PRON", "ADJ"]
+# ::ner_tags ["O", "O", "O"]
+(i / indah
+      :ARG1 (l / lukis))
+
+# ::id 193
+# ::snt Angin berhembus ke arah barat
+# ::tokens ["Angin", "berhembus", "ke", "arah", "barat"]
+# ::lemmas ["angin", "hembus", "ke", "arah", "barat"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(h / hembus
+      :ARG0 (a1 / angin
+            :mod (a2 / arah
+                  :mod (b / barat))))
+
+# ::id 195
+# ::snt Pamannya dari Jawa tengah
+# ::tokens ["Pamannya", "dari", "Jawa", "tengah"]
+# ::lemmas ["paman", "dari", "jawa", "tengah"]
+# ::pos_tags ["NOUN", "ADP", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "GPE", "O"]
+(d / dari
+      :ARG0 (p / paman)
+      :location (j / jawa
+            :mod (t / tengah)))
+
+# ::id 196
+# ::snt Saya pergi dari sekolah
+# ::tokens ["Saya", "pergi", "dari", "sekolah"]
+# ::lemmas ["saya", "pergi", "dari", "sekolah"]
+# ::pos_tags ["PRON", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p / pergi
+      :ARG0 (s1 / saya)
+      :location (s2 / sekolah))
+
+# ::id 197
+# ::snt Seminar itu dilaksanakan di Gedung Serba Guna
+# ::tokens ["Seminar", "itu", "dilaksanakan", "di", "Gedung", "Serba", "Guna"]
+# ::lemmas ["seminar", "itu", "laksana", "di", "gedung", "serba", "guna"]
+# ::pos_tags ["NOUN", "DET", "VERB", "ADP", "PROPN", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O"]
+(l / laksana
+      :ARG1 (s1 / seminar)
+      :location (g1 / gedung
+            :mod (s2 / serba
+                  :mod (g2 / guna))))
+
+# ::id 198
+# ::snt Kemarin, aku sempat berkunjung ke rumahnya
+# ::tokens ["Kemarin", ",", "aku", "sempat", "berkunjung", "ke", "rumahnya"]
+# ::lemmas ["kemarin", "", "aku", "sempat", "kunjung", "ke", "rumah"]
+# ::pos_tags ["ADV", "PUNCT", "PRON", "ADV", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(k1 / kunjung
+      :ARG0 (a / aku)
+      :location (r / rumah)
+      :time (k2 / kemarin))
+
+# ::id 199
+# ::snt Paman Noel membawa serabi dari Semarang
+# ::tokens ["Paman", "Noel", "membawa", "serabi", "dari", "Semarang"]
+# ::lemmas ["paman", "noel", "bawa", "serabi", "dari", "semarang"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "GPE"]
+(b / bawa
+      :ARG0 (p / paman
+            :name (n / noel))
+      :ARG1 (s1 / serabi)
+      :location (s2 / semarang))
+
+# ::id 199
+# ::snt Serabi dibawa paman dari Semarang
+# ::tokens ["Serabi", "dibawa", "paman", "dari", "Semarang"]
+# ::lemmas ["serabi", "bawa", "paman", "dari", "semarang"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "PRD", "O", "GPE"]
+(b / bawa
+      :ARG0 (p / paman
+            :name (n / noel))
+      :ARG1 (s1 / serabi)
+      :location (s2 / semarang))
+
+# ::id 200
+# ::snt Kerja kelompok hari ini akan dilakukan di rumah Ami
+# ::tokens ["Kerja", "kelompok", "hari", "ini", "akan", "dilakukan", "di", "rumah", "Ami"]
+# ::lemmas ["kerja", "kelompok", "hari", "ini", "akan", "laku", "di", "rumah", "ami"]
+# ::pos_tags ["PROPN", "NOUN", "NOUN", "DET", "ADV", "VERB", "ADP", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+(l / laku
+      :ARG1 (k1 / kerja
+            :mod (k2 / kelompok))
+      :location (r / rumah
+            :name (a / ami))
+      :time (h / hari
+            :mod (i / ini)))
+
+# ::id 201
+# ::snt Hari ini kita akan berwisata ke Yogyakarta
+# ::tokens ["Hari", "ini", "kita", "akan", "berwisata", "ke", "Yogyakarta"]
+# ::lemmas ["hari", "ini", "kita", "akan", "wisata", "ke", "yogyakarta"]
+# ::pos_tags ["PROPN", "DET", "PRON", "ADV", "VERB", "ADP", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "GPE"]
+(w / wisata
+      :ARG0 (k / kita)
+      :location (y / yogyakarta)
+      :time (h / hari
+            :mod (i / ini)))
+
+# ::id 202
+# ::snt Kampus ini juga menerima mahasiswa dari luar negeri
+# ::tokens ["Kampus", "ini", "juga", "menerima", "mahasiswa", "dari", "luar", "negeri"]
+# ::lemmas ["kampus", "ini", "juga", "terima", "mahasiswa", "dari", "luar", "negeri"]
+# ::pos_tags ["PROPN", "DET", "ADV", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O"]
+(t / terima
+      :ARG0 (k / kampus
+            :mod (i / ini))
+      :ARG1 (m / mahasiswa
+            :mod (l / luar
+                  :mod (n / negeri))))
+
+# ::id 203
+# ::snt Aksi demo dilakukan di depan Gedung MPR
+# ::tokens ["Aksi", "demo", "dilakukan", "di", "depan", "Gedung", "MPR"]
+# ::lemmas ["aksi", "demo", "laku", "di", "depan", "gedung", "mpr"]
+# ::pos_tags ["PROPN", "NOUN", "VERB", "ADP", "NOUN", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "LOC"]
+(l / laku
+      :ARG1 (a / aksi
+            :mod (d1 / demo))
+      :location (d2 / depan
+            :mod (g / gedung
+                  :mod (m / mpr))))
+
+# ::id 205
+# ::snt Di Bandung, aku bertemu dengan seorang kawan lama
+# ::tokens ["Di", "Bandung", ",", "aku", "bertemu", "dengan", "seorang", "kawan", "lama"]
+# ::lemmas ["di", "bandung", "", "aku", "temu", "dengan", "orang", "kawan", "lama"]
+# ::pos_tags ["ADP", "PROPN", "PUNCT", "PRON", "VERB", "ADP", "DET", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+(t / temu
+      :ARG0 (a / aku)
+      :ARG1 (o / orang
+            :mod (k / kawan
+                  :mod (l / lama)))
+      :location (b / bandung))
+
+# ::id 206
+# ::snt Sepulang dari kantor, aku mampir ke rumah makan
+# ::tokens ["Sepulang", "dari", "kantor", ",", "aku", "mampir", "ke", "rumah", "makan"]
+# ::lemmas ["pulang", "dari", "kantor", "", "aku", "mampir", "ke", "rumah", "makan"]
+# ::pos_tags ["NOUN", "ADP", "NOUN", "PUNCT", "PRON", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+(m1 / mampir
+      :ARG0 (a / aku)
+      :location (r / rumah
+            :mod (m2 / makan))
+      :time (p / pulang
+            :mod (d / dari
+                  :mod (k / kantor))))
+
+# ::id 207
+# ::snt Kami naik kereta api dari Stasiun Gambir
+# ::tokens ["Kami", "naik", "kereta", "api", "dari", "Stasiun", "Gambir"]
+# ::lemmas ["kami", "naik", "kereta", "api", "dari", "stasiun", "gambir"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN", "ADP", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "LOC", "O"]
+(n / naik
+      :ARG0 (k1 / kami)
+      :ARG1 (k2 / kereta
+            :mod (a / api))
+      :location (s / stasiun
+            :name (g / gambir)))
+
+# ::id 208
+# ::snt Dodol merupakan makanan khas dari Garut
+# ::tokens ["Dodol", "merupakan", "makanan", "khas", "dari", "Garut"]
+# ::lemmas ["dodol", "rupa", "makan", "khas", "dari", "garut"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADJ", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "GPE"]
+(r / rupa
+      :ARG0 (d / dodol)
+      :ARG1 (m / makan
+            :mod (k / khas
+                  :location (g / garut))))
+
+# ::id 209
+# ::snt Banyak wisatawan mancanegara yang berwisata ke Pulau Bali
+# ::tokens ["Banyak", "wisatawan", "mancanegara", "yang", "berwisata", "ke", "Pulau", "Bali"]
+# ::lemmas ["banyak", "wisatawan", "mancanegara", "yang", "wisata", "ke", "pulau", "bal"]
+# ::pos_tags ["DET", "NOUN", "ADJ", "PRON", "VERB", "ADP", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "LOC", "O"]
+(w1 / wisata
+      :ARG0 (b1 / banyak
+            :mod (w2 / wisata
+                  :mod (m / mancanegara)))
+      :location (p / pulau
+            :mod (b2 / bali)))
+
+# ::id 210
+# ::snt Di rumahnya terdapat banyak koleksi mainan zaman dulu
+# ::tokens ["Di", "rumahnya", "terdapat", "banyak", "koleksi", "mainan", "zaman", "dulu"]
+# ::lemmas ["di", "rumah", "dapat", "banyak", "koleksi", "main", "zaman", "dulu"]
+# ::pos_tags ["ADP", "NOUN", "VERB", "ADV", "NOUN", "NOUN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+(d1 / dapat
+      :ARG1 (b / banyak
+            :mod (k / koleksi
+                  :mod (m / main
+                        :mod (z / zaman
+                              :mod (d2 / dulu)))))
+      :location (r / rumah))
+
+# ::id 211
+# ::snt Profesor Manaf merupakan jebolan dari Universitas Connecticut
+# ::tokens ["Profesor", "Manaf", "merupakan", "jebolan", "dari", "Universitas", "Connecticut"]
+# ::lemmas ["profesor", "manaf", "rupa", "jebol", "dari", "universitas", "connecticut"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "PROPN", "PROPN"]
+# ::ner_tags ["O", "PER", "O", "O", "O", "ORG", "LOC"]
+(r / rupa
+      :ARG0 (p / profesor
+            :name (m / manaf))
+      :ARG1 (j / jebol
+            :location (u / universitas
+                  :location (c / connecticut))))
+
+# ::id 212
+# ::snt Ibu Dita membaca buku
+# ::tokens ["Ibu", "Dita", "membaca", "buku"]
+# ::lemmas ["ibu", "dita", "baca", "buku"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(b1 / baca
+      :ARG0 (i / ibu
+            :name (d / dita))
+      :ARG1 (b2 / buku))
+
+# ::id 212
+# ::snt Buku dibaca Ibu Dita
+# ::tokens ["Buku", "dibaca", "Ibu", "Dita"]
+# ::lemmas ["buku", "baca", "ibu", "dita"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(b1 / baca
+      :ARG0 (i / ibu
+            :name (d / dita))
+      :ARG1 (b2 / buku))
+
+# ::id 213
+# ::snt Pak Roni membeli Roti
+# ::tokens ["Pak", "Roni", "membeli", "Roti"]
+# ::lemmas ["pak", "roni", "beli", "roti"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b / beli
+      :ARG0 (p / pak
+            :name (r1 / roni))
+      :ARG1 (r2 / roti))
+
+# ::id 213
+# ::snt Roti dibeli Pak Roni
+# ::tokens ["Roti", "dibeli", "Pak", "Roni"]
+# ::lemmas ["roti", "beli", "pak", "roni"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(b / beli
+      :ARG0 (p / pak
+            :name (r1 / roni))
+      :ARG1 (r2 / roti))
+
+# ::id 214
+# ::snt Mbak Tukimin mengenakan baju merah
+# ::tokens ["Mbak", "Tukimin", "mengenakan", "baju", "merah"]
+# ::lemmas ["mbak", "tukimin", "kena", "baju", "merah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(k / kena
+      :ARG0 (m1 / mbak
+            :name (t / tukimin))
+      :ARG1 (b / baju
+            :mod (m2 / merah)))
+
+# ::id 214
+# ::snt Baju merah dikenakan Mbak Tukimin
+# ::tokens ["Baju", "merah", "dikenakan", "Mbak", "Tukimin"]
+# ::lemmas ["baju", "merah", "kena", "mbak", "tukimin"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "LOC"]
+(k / kena
+      :ARG0 (m1 / mbak
+            :name (t / tukimin))
+      :ARG1 (b / baju
+            :mod (m2 / merah)))
+
+# ::id 215
+# ::snt Kita mencetak gol ke gawang lawan
+# ::tokens ["Kita", "mencetak", "gol", "ke", "gawang", "lawan"]
+# ::lemmas ["kita", "cetak", "gol", "ke", "gawang", "lawan"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(c / cetak
+      :ARG0 (k / kita)
+      :ARG1 (g1 / gol)
+      :location (g2 / gawang
+            :mod (l / lawan)))
+
+# ::id 215
+# ::snt gol dicetak kita ke gawang lawan
+# ::tokens ["gol", "dicetak", "kita", "ke", "gawang", "lawan"]
+# ::lemmas ["gol", "cetak", "kita", "ke", "gawang", "lawan"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(c / cetak
+      :ARG0 (k / kita)
+      :ARG1 (g1 / gol)
+      :location (g2 / gawang
+            :mod (l / lawan)))
+
+# ::id 216
+# ::snt Mbak Shinta memintal benang wol
+# ::tokens ["Mbak", "Shinta", "memintal", "benang", "wol"]
+# ::lemmas ["mbak", "shinta", "mintal", "benang", "wol"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(p / pintal
+      :ARG0 (m / mbak
+            :name (s / shinta))
+      :ARG1 (b / benang
+            :mod (w / wol)))
+
+# ::id 217
+# ::snt Saya mengetik cerita
+# ::tokens ["Saya", "mengetik", "cerita"]
+# ::lemmas ["saya", "etik", "cerita"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(k / ketik
+      :ARG0 (s / saya)
+      :ARG1 (c / cerita))
+
+# ::id 217
+# ::snt Cerita diketik saya
+# ::tokens ["Cerita", "diketik", "saya"]
+# ::lemmas ["cerita", "ketik", "saya"]
+# ::pos_tags ["NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(k / ketik
+      :ARG0 (s / saya)
+      :ARG1 (c / cerita))
+
+# ::id 218
+# ::snt Balonku ada lima
+# ::tokens ["Balonku", "ada", "lima"]
+# ::lemmas ["balon", "ada", "lima"]
+# ::pos_tags ["PROPN", "VERB", "NUM"]
+# ::ner_tags ["PER", "O", "CRD"]
+(a / ada
+      :ARG1 (b / balon)
+      :mod (l / lima))
+
+# ::id 220
+# ::snt Aku ada di depan gedung
+# ::tokens ["Aku", "ada", "di", "depan", "gedung"]
+# ::lemmas ["aku", "ada", "di", "depan", "gedung"]
+# ::pos_tags ["PRON", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(a1 / ada
+      :ARG0 (a2 / aku)
+      :location (d / depan
+            :mod (g / gedung)))
+
+# ::id 221
+# ::snt Kita kehausan
+# ::tokens ["Kita", "kehausan"]
+# ::lemmas ["kita", "haus"]
+# ::pos_tags ["PRON", "NOUN"]
+# ::ner_tags ["O", "O"]
+(h / haus
+      :ARG0 (k / kita))
+
+# ::id 222
+# ::snt Ayah Dodi membeli motor
+# ::tokens ["Ayah", "Dodi", "membeli", "motor"]
+# ::lemmas ["ayah", "dodi", "beli", "motor"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(b / beli
+      :ARG0 (a / ayah
+            :name (d / dodi))
+      :ARG1 (m / motor))
+
+# ::id 222
+# ::snt Motor dibeli Ayah Dodi
+# ::tokens ["Motor", "dibeli", "Ayah", "Dodi"]
+# ::lemmas ["motor", "beli", "ayah", "dodi"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(b / beli
+      :ARG0 (a / ayah
+            :name (d / dodi))
+      :ARG1 (m / motor))
+
+# ::id 223
+# ::snt Ibu Sukiyem menjual kue di pasar
+# ::tokens ["Ibu", "Sukiyem", "menjual", "kue", "di", "pasar"]
+# ::lemmas ["ibu", "sukiyem", "jual", "kue", "di", "pasar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(j / jual
+      :ARG0 (i / ibu
+            :name (s / sukiyem))
+      :ARG1 (k / kue)
+      :location (p / pasar))
+
+# ::id 223
+# ::snt kue dijual Ibu Sukiyem di pasar
+# ::tokens ["kue", "dijual", "Ibu", "Sukiyem", "di", "pasar"]
+# ::lemmas ["kue", "jual", "ibu", "sukiyem", "di", "pasar"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "LOC", "O", "O"]
+(j / jual
+      :ARG0 (i / ibu
+            :name (s / sukiyem))
+      :ARG1 (k / kue)
+      :location (p / pasar))
+
+# ::id 224
+# ::snt Mas Ridho bertanya pada guru
+# ::tokens ["Mas", "Ridho", "bertanya", "pada", "guru"]
+# ::lemmas ["mas", "ridho", "tanya", "pada", "guru"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(t / tanya
+      :ARG0 (m / mas
+            :name (r / ridho))
+      :ARG1 (g / guru))
+
+# ::id 225
+# ::snt Anjing itu menggonggong
+# ::tokens ["Anjing", "itu", "menggonggong"]
+# ::lemmas ["anjing", "itu", "gonggong"]
+# ::pos_tags ["NOUN", "DET", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(g / gonggong
+      :ARG0 (a / anjing))
+
+# ::id 226
+# ::snt Suara harimau mengaum
+# ::tokens ["Suara", "harimau", "mengaum"]
+# ::lemmas ["suara", "harimau", "aum"]
+# ::pos_tags ["PROPN", "NOUN", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(a / aum
+      :ARG1 (h / harimau
+            :mod (s / suara)))
+
+# ::id 227
+# ::snt Kucing itu berlarian
+# ::tokens ["Kucing", "itu", "berlarian"]
+# ::lemmas ["kucing", "itu", "lari"]
+# ::pos_tags ["NOUN", "DET", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(l / lari
+      :ARG0 (k / kucing))
+
+# ::id 228
+# ::snt Adik tidur
+# ::tokens ["Adik", "tidur"]
+# ::lemmas ["adik", "tidur"]
+# ::pos_tags ["PROPN", "NOUN"]
+# ::ner_tags ["O", "O"]
+(t / tidur
+      :ARG0 (a / adik))
+
+# ::id 229
+# ::snt Ibu Rina memasak di dapur
+# ::tokens ["Ibu", "Rina", "memasak", "di", "dapur"]
+# ::lemmas ["ibu", "rina", "masak", "di", "dapur"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O", "O"]
+(m / masak
+      :ARG0 (i / ibu
+            :name (r / rina))
+      :location (d / dapur))
+
+# ::id 230
+# ::snt Ibu Tina pergi ke pasar
+# ::tokens ["Ibu", "Tina", "pergi", "ke", "pasar"]
+# ::lemmas ["ibu", "tina", "pergi", "ke", "pasar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p1 / pergi
+      :ARG0 (i / ibu
+            :name (t / tina))
+      :location (p2 / pasar))
+
+# ::id 231
+# ::snt Kak Rima menulis surat
+# ::tokens ["Kak", "Rima", "menulis", "surat"]
+# ::lemmas ["kak", "rima", "tulis", "surat"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tulis
+      :ARG0 (k / kak
+            :name (r / rima))
+      :ARG1 (s / surat))
+
+# ::id 231
+# ::snt Surat ditulis Kak Rima
+# ::tokens ["Surat", "ditulis", "Kak", "Rima"]
+# ::lemmas ["surat", "tulis", "kak", "rima"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(t / tulis
+      :ARG0 (k / kak
+            :name (r / rima))
+      :ARG1 (s / surat))
+
+# ::id 232
+# ::snt Pak Toni menutup jendela
+# ::tokens ["Pak", "Toni", "menutup", "jendela"]
+# ::lemmas ["pak", "ton", "tutup", "jendela"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t1 / tutup
+      :ARG0 (p / pak
+            :name (t2 / toni))
+      :ARG1 (j / jendela))
+
+# ::id 232
+# ::snt Jendela ditutup Pak Toni
+# ::tokens ["Jendela", "ditutup", "Pak", "Toni"]
+# ::lemmas ["jendela", "tutup", "pak", "ton"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "LOC", "O"]
+(t1 / tutup
+      :ARG0 (p / pak
+            :name (t2 / toni))
+      :ARG1 (j / jendela))
+
+# ::id 233
+# ::snt Bu Ayu mendesah
+# ::tokens ["Bu", "Ayu", "mendesah"]
+# ::lemmas ["bu", "ayu", "desah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB"]
+# ::ner_tags ["ORG", "PER", "O"]
+(d / desah
+      :ARG0 (b / bu
+            :name (a / ayu)))
+
+# ::id 234
+# ::snt Susi menyiram tanaman
+# ::tokens ["Susi", "menyiram", "tanaman"]
+# ::lemmas ["sus", "siram", "tanam"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(s1 / siram
+      :ARG0 (b / bu
+            :name (s2 / susi))
+      :ARG1 (t / tanam))
+
+# ::id 234
+# ::snt Tanaman disiram susi
+# ::tokens ["Tanaman", "disiram", "susi"]
+# ::lemmas ["tanam", "siram", "sus"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(s1 / siram
+      :ARG0 (b / bu
+            :name (s2 / susi))
+      :ARG1 (t / tanam))
+
+# ::id 235
+# ::snt Dia tergoda
+# ::tokens ["Dia", "tergoda"]
+# ::lemmas ["dia", "goda"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(g / goda
+      :ARG0 (d / dia))
+
+# ::id 236
+# ::snt Dia terduduk
+# ::tokens ["Dia", "terduduk"]
+# ::lemmas ["dia", "duduk"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(d1 / duduk
+      :ARG0 (d2 / dia))
+
+# ::id 237
+# ::snt Ibu Dodi bersimpuh
+# ::tokens ["Ibu", "Dodi", "bersimpuh"]
+# ::lemmas ["ibu", "dodi", "simpuh"]
+# ::pos_tags ["PROPN", "PROPN", "VERB"]
+# ::ner_tags ["O", "O", "O"]
+(s / simpuh
+      :ARG0 (i / ibu
+            :name (d / dodi)))
+
+# ::id 238
+# ::snt Kami bersujud
+# ::tokens ["Kami", "bersujud"]
+# ::lemmas ["kami", "sujud"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(s / sujud
+      :ARG0 (k / kami))
+
+# ::id 239
+# ::snt Balita merangkak
+# ::tokens ["Balita", "merangkak"]
+# ::lemmas ["balita", "rangkak"]
+# ::pos_tags ["PROPN", "VERB"]
+# ::ner_tags ["O", "O"]
+(r / rangkak
+      :ARG0 (b / balita))
+
+# ::id 240
+# ::snt Mereka terperanjat
+# ::tokens ["Mereka", "terperanjat"]
+# ::lemmas ["mereka", "peranjat"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(p / panjat
+      :ARG1 (m / mereka))
+
+# ::id 241
+# ::snt Polisi bersiaga
+# ::tokens ["Polisi", "bersiaga"]
+# ::lemmas ["polisi", "siaga"]
+# ::pos_tags ["PROPN", "VERB"]
+# ::ner_tags ["ORG", "O"]
+(s / siaga
+      :ARG0 (p / polisi))
+
+# ::id 242
+# ::snt Aku berteriak
+# ::tokens ["Aku", "berteriak"]
+# ::lemmas ["aku", "teriak"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(t / teriak
+      :ARG0 (a / aku))
+
+# ::id 243
+# ::snt Polisi mengatur lalin
+# ::tokens ["Polisi", "mengatur", "lalin"]
+# ::lemmas ["polisi", "atur", "lalin"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(a / atur
+      :ARG0 (p / polisi)
+      :ARG1 (l / lalin))
+
+# ::id 243
+# ::snt Lalin diatur Polisi
+# ::tokens ["Lalin", "diatur", "Polisi"]
+# ::lemmas ["lalin", "atur", "polisi"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "GPE"]
+(a / atur
+      :ARG0 (p / polisi)
+      :ARG1 (l / lalin))
+
+# ::id 244
+# ::snt Bu Resti menutup mata
+# ::tokens ["Bu", "Resti", "menutup", "mata"]
+# ::lemmas ["bu", "resti", "tutup", "mata"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tutup
+      :ARG0 (b / bu
+            :name (r / resti))
+      :ARG1 (m / mata))
+
+# ::id 244
+# ::snt Mata ditutup Bu Resti
+# ::tokens ["Mata", "ditutup", "Bu", "Resti"]
+# ::lemmas ["mata", "tutup", "bu", "resti"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(t / tutup
+      :ARG0 (b / bu
+            :name (r / resti))
+      :ARG1 (m / mata))
+
+# ::id 245
+# ::snt Kak Sally membuat adonan
+# ::tokens ["Kak", "Sally", "membuat", "adonan"]
+# ::lemmas ["kak", "sally", "buat", "adon"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b / buat
+      :ARG0 (k / kak
+            :name (s / sally))
+      :ARG1 (a / adon))
+
+# ::id 245
+# ::snt Adonan dibuat Kak Sally
+# ::tokens ["Adonan", "dibuat", "Kak", "Sally"]
+# ::lemmas ["adon", "buat", "kak", "sally"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "ORG", "LOC"]
+(b / buat
+      :ARG0 (k / kak
+            :name (s / sally))
+      :ARG1 (a / adon))
+
+# ::id 246
+# ::snt Aku mengikuti Bapak John
+# ::tokens ["Aku", "mengikuti", "Bapak", "John"]
+# ::lemmas ["aku", "ikut", "bapak", "john"]
+# ::pos_tags ["PRON", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "GPE"]
+(i / ikut
+      :ARG0 (a / aku)
+      :ARG1 (b / bapak
+            :name (j / john)))
+
+# ::id 246
+# ::snt Bapak John diikuti Aku
+# ::tokens ["Bapak", "John", "diikuti", "Aku"]
+# ::lemmas ["bapak", "john", "ikut", "aku"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(i / ikut
+      :ARG0 (a / aku)
+      :ARG1 (b / bapak
+            :name (j / john)))
+
+# ::id 247
+# ::snt Tukang membangun rumah
+# ::tokens ["Tukang", "membangun", "rumah"]
+# ::lemmas ["tukang", "bangun", "rumah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / bangun
+      :ARG0 (t / tukang)
+      :ARG1 (r / rumah))
+
+# ::id 247
+# ::snt Rumah dibangun tukang
+# ::tokens ["Rumah", "dibangun", "tukang"]
+# ::lemmas ["rumah", "bangun", "tukang"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / bangun
+      :ARG0 (t / tukang)
+      :ARG1 (r / rumah))
+
+# ::id 248
+# ::snt Nenek Yanti menanti Kakek Joni
+# ::tokens ["Nenek", "Yanti", "menanti", "Kakek", "Joni"]
+# ::lemmas ["nenek", "yanti", "nanti", "kakek", "joni"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "PER", "O", "ORG", "LOC"]
+(n1 / nanti
+      :ARG0 (n2 / nenek
+            :name (y / yanti))
+      :ARG1 (k / kakek
+            :name (j / joni)))
+
+# ::id 248
+# ::snt Kakek Joni dinanti Nenek Yanti
+# ::tokens ["Kakek", "Joni", "dinanti", "Nenek", "Yanti"]
+# ::lemmas ["kakek", "joni", "nanti", "nenek", "yanti"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["ORG", "O", "O", "O", "LOC"]
+(n1 / nanti
+      :ARG0 (n2 / nenek
+            :name (y / yanti))
+      :ARG1 (k / kakek
+            :name (j / joni)))
+
+# ::id 249
+# ::snt Kami membasuh muka
+# ::tokens ["Kami", "membasuh", "muka"]
+# ::lemmas ["kami", "basuh", "muka"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / basuh
+      :ARG0 (k / kami)
+      :ARG1 (m / muka))
+
+# ::id 249
+# ::snt Muka dibasuh kami
+# ::tokens ["Muka", "dibasuh", "kami"]
+# ::lemmas ["muka", "basuh", "kami"]
+# ::pos_tags ["NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(b / basuh
+      :ARG0 (k / kami)
+      :ARG1 (m / muka))
+
+# ::id 250
+# ::snt Pakdhe Yayas menampar kakak
+# ::tokens ["Pakdhe", "Yayas", "menampar", "kakak"]
+# ::lemmas ["pakdhe", "yayas", "tampar", "kakak"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tampar
+      :ARG0 (p / pakdhe
+            :name (y / yayas))
+      :ARG1 (k / kakak))
+
+# ::id 250
+# ::snt Kakak ditampar Pakdhe Yayas
+# ::tokens ["Kakak", "ditampar", "Pakdhe", "Yayas"]
+# ::lemmas ["kakak", "tampar", "pakdhe", "yayas"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(t / tampar
+      :ARG0 (p / pakdhe
+            :name (y / yayas))
+      :ARG1 (k / kakak))
+
+# ::id 251
+# ::snt Kami mendonorkan darah
+# ::tokens ["Kami", "mendonorkan", "darah"]
+# ::lemmas ["kami", "donor", "darah"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(d1 / donor
+      :ARG0 (k / kami)
+      :ARG1 (d2 / darah))
+
+# ::id 251
+# ::snt Darah didonorkan kami
+# ::tokens ["Darah", "didonorkan", "kami"]
+# ::lemmas ["darah", "donor", "kami"]
+# ::pos_tags ["NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(d1 / donor
+      :ARG0 (k / kami)
+      :ARG1 (d2 / darah))
+
+# ::id 252
+# ::snt Om Wiwit menipu temannya
+# ::tokens ["Om", "Wiwit", "menipu", "temannya"]
+# ::lemmas ["om", "wiwit", "tipu", "teman"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t1 / tipu
+      :ARG0 (o / om
+            :name (w / wiwit))
+      :ARG1 (t2 / teman))
+
+# ::id 252
+# ::snt Temannya ditipu Om Wiwit
+# ::tokens ["Temannya", "ditipu", "Om", "Wiwit"]
+# ::lemmas ["teman", "tipu", "om", "wiwit"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(t1 / tipu
+      :ARG0 (o / om
+            :name (w / wiwit))
+      :ARG1 (t2 / teman))
+
+# ::id 253
+# ::snt Ibu menarik adik
+# ::tokens ["Ibu", "menarik", "adik"]
+# ::lemmas ["ibu", "tarik", "adik"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(t / tarik
+      :ARG0 (i / ibu)
+      :ARG1 (a / adik))
+
+# ::id 253
+# ::snt Adik ditarik Ibu
+# ::tokens ["Adik", "ditarik", "Ibu"]
+# ::lemmas ["adik", "tarik", "ibu"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(t / tarik
+      :ARG0 (i / ibu)
+      :ARG1 (a / adik))
+
+# ::id 254
+# ::snt Aku merindukan Bu Azka
+# ::tokens ["Aku", "merindukan", "Bu", "Azka"]
+# ::lemmas ["aku", "rindu", "bu", "azka"]
+# ::pos_tags ["PRON", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(r / rindu
+      :ARG0 (a1 / aku)
+      :ARG1 (b / bu
+            :name (a2 / azka)))
+
+# ::id 254
+# ::snt Bu Azka dirindukan aku
+# ::tokens ["Bu", "Azka", "dirindukan", "aku"]
+# ::lemmas ["bu", "azka", "rindu", "aku"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PRON"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(r / rindu
+      :ARG0 (a1 / aku)
+      :ARG1 (b / bu
+            :name (a2 / azka)))
+
+# ::id 255
+# ::snt Adik membawa makanan
+# ::tokens ["Adik", "membawa", "makanan"]
+# ::lemmas ["adik", "bawa", "makan"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / bawa
+      :ARG0 (a / adik)
+      :ARG1 (m / makan))
+
+# ::id 255
+# ::snt Makanan dibawa adik
+# ::tokens ["Makanan", "dibawa", "adik"]
+# ::lemmas ["makan", "bawa", "adik"]
+# ::pos_tags ["NOUN", "VERB", "PUNCT"]
+# ::ner_tags ["O", "O", "O"]
+(b / bawa
+      :ARG0 (a / adik)
+      :ARG1 (m / makan))
+
+# ::id 256
+# ::snt Suster Siska merawat pasien
+# ::tokens ["Suster", "Siska", "merawat", "pasien"]
+# ::lemmas ["suster", "siska", "rawat", "pasien"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(r / rawat
+      :ARG0 (s1 / suster
+            :name (s2 / siska))
+      :ARG1 (p / pasien))
+
+# ::id 256
+# ::snt Pasien dirawat Suster Siska
+# ::tokens ["Pasien", "dirawat", "Suster", "Siska"]
+# ::lemmas ["pasien", "rawat", "suster", "siska"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(r / rawat
+      :ARG0 (s1 / suster
+            :name (s2 / siska))
+      :ARG1 (p / pasien))
+
+# ::id 257
+# ::snt Tante Suti mencicipi masakan
+# ::tokens ["Tante", "Suti", "mencicipi", "masakan"]
+# ::lemmas ["tante", "sut", "cicip", "masakan"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(c / cicip
+      :ARG0 (t / tante
+            :name (s / suti))
+      :ARG1 (m / masak))
+
+# ::id 257
+# ::snt Masakan dicicipi Tante Suti
+# ::tokens ["Masakan", "dicicipi", "Tante", "Suti"]
+# ::lemmas ["masakan", "cicip", "tante", "sut"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(c / cicip
+      :ARG0 (t / tante
+            :name (s / suti))
+      :ARG1 (m / masak))
+
+# ::id 257
+# ::snt Aku bercerita
+# ::tokens ["Aku", "bercerita"]
+# ::lemmas ["aku", "cerita"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(c / cerita
+      :ARG0 (a / aku))
+
+# ::id 258
+# ::snt Kakek Glenn meninggal
+# ::tokens ["Kakek", "Glenn", "meninggal"]
+# ::lemmas ["kakek", "glenn", "tinggal"]
+# ::pos_tags ["PROPN", "PROPN", "VERB"]
+# ::ner_tags ["ORG", "PER", "O"]
+(t / tinggal
+      :ARG0 (k / kakek
+            :name (g / glenn)))
+
+# ::id 259
+# ::snt Tante Siti melamar pekerjaan
+# ::tokens ["Tante", "Siti", "melamar", "pekerjaan"]
+# ::lemmas ["tante", "siti", "lamar", "kerja"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(l / lamar
+      :ARG0 (t / tante
+            :name (s / siti))
+      :ARG1 (k / kerja))
+
+# ::id 259
+# ::snt Pekerjaan dilamar Tante Siti
+# ::tokens ["Pekerjaan", "dilamar", "Tante", "Siti"]
+# ::lemmas ["kerja", "lamar", "tante", "siti"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "NOR", "O"]
+(l / lamar
+      :ARG0 (t / tante
+            :name (s / siti))
+      :ARG1 (k / kerja))
+
+# ::id 260
+# ::snt Doni tertembak peluru
+# ::tokens ["Doni", "tertembak", "peluru"]
+# ::lemmas ["doni", "tembak", "peluru"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(t / tembak
+      :ARG0 (p / peluru)
+      :ARG1 (d / doni))
+
+# ::id 261
+# ::snt Nenek Krista berambut putih
+# ::tokens ["Nenek", "Krista", "berambut", "putih"]
+# ::lemmas ["nenek", "krista", "rambut", "putih"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADJ"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(r / rambut
+      :ARG0 (n / nenek
+            :name (k / krista))
+      :ARG1 (p / putih))
+
+# ::id 262
+# ::snt Kak Putri berkata kasar
+# ::tokens ["Kak", "Putri", "berkata", "kasar"]
+# ::lemmas ["kak", "putri", "kata", "kasar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADJ"]
+# ::ner_tags ["ORG", "O", "O", "O"]
+(k1 / kata
+      :ARG0 (k2 / kak
+            :name (p / putri))
+      :ARG1 (k3 / kasar))
+
+# ::id 263
+# ::snt Adik Kayla tertabrak mobil
+# ::tokens ["Adik", "Kayla", "tertabrak", "mobil"]
+# ::lemmas ["adik", "kayla", "tabrak", "mobil"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(t / tabrak
+      :ARG0 (m / mobil)
+      :ARG1 (a / adik
+            :name (k / kayla)))
+
+# ::id 264
+# ::snt Kami berteriak
+# ::tokens ["Kami", "berteriak"]
+# ::lemmas ["kami", "teriak"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(t / teriak
+      :ARG0 (k / kami))
+
+# ::id 265
+# ::snt Pak Risman tertimpa pohon
+# ::tokens ["Pak", "Risman", "tertimpa", "pohon"]
+# ::lemmas ["pak", "risman", "timpa", "pohon"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / timpa
+      :ARG0 (p1 / pak
+            :name (r / risman))
+      :ARG1 (p2 / pohon))
+
+# ::id 265
+# ::snt Pohon menimpa Pak Risman
+# ::tokens ["Pohon", "menimpa", "Pak", "Risman"]
+# ::lemmas ["pohon", "timpa", "pak", "risman"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "LOC"]
+(t / timpa
+      :ARG0 (p1 / pak
+            :name (r / risman))
+      :ARG1 (p2 / pohon))
+
+# ::id 245
+# ::snt Bu Angela membaca naskah drama
+# ::tokens ["Bu", "Angela", "membaca", "naskah", "drama"]
+# ::lemmas ["bu", "angela", "baca", "naskah", "drama"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / angela))
+      :ARG1 (n / naskah
+            :mod (d / drama)))
+
+# ::id 245
+# ::snt Naskah drama dibaca Bu Angela
+# ::tokens ["Naskah", "drama", "dibaca", "Bu", "Angela"]
+# ::lemmas ["naskah", "drama", "baca", "bu", "angela"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC", "PER"]
+(b1 / baca
+      :ARG0 (b2 / bu
+            :name (a / angela))
+      :ARG1 (n / naskah
+            :mod (d / drama)))
+
+# ::id 245
+# ::snt Ibu membawa adik ke pasar
+# ::tokens ["Ibu", "membawa", "adik", "ke", "pasar"]
+# ::lemmas ["ibu", "bawa", "adik", "ke", "pasar"]
+# ::pos_tags ["NOUN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / bawa
+      :ARG0 (i / ibu)
+      :ARG1 (a / adik)
+      :location (p / pasar))
+
+# ::id 245
+# ::snt Adik dibawa ibu ke pasar
+# ::tokens ["Adik", "dibawa", "ibu", "ke", "pasar"]
+# ::lemmas ["adik", "bawa", "ibu", "ke", "pasar"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / bawa
+      :ARG0 (i / ibu)
+      :ARG1 (a / adik)
+      :location (p / pasar))
+
+# ::id 245
+# ::snt Budhe Tiwi menggelar tikar
+# ::tokens ["Budhe", "Tiwi", "menggelar", "tikar"]
+# ::lemmas ["budhe", "tiwi", "gelar", "tikar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(g / gelar
+      :ARG0 (b / budhe
+            :name (t1 / tiwi))
+      :ARG1 (t2 / tikar))
+
+# ::id 245
+# ::snt Tikar digelar Budhe Tiwi
+# ::tokens ["Tikar", "digelar", "Budhe", "Tiwi"]
+# ::lemmas ["tikar", "gelar", "budhe", "tiwi"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(g / gelar
+      :ARG0 (b / budhe
+            :name (t1 / tiwi))
+      :ARG1 (t2 / tikar))
+
+# ::id 245
+# ::snt Pak Ahmad membawa makanan
+# ::tokens ["Pak", "Ahmad", "membawa", "makanan"]
+# ::lemmas ["pak", "ahmad", "bawa", "makan"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(b / bawa
+      :ARG0 (p / pak
+            :name (a / ahmad))
+      :ARG1 (m / makan))
+
+# ::id 245
+# ::snt Makanan dibawa Pak Ahmad
+# ::tokens ["Makanan", "dibawa", "Pak", "Ahmad"]
+# ::lemmas ["makan", "bawa", "pak", "ahmad"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "LOC", "O"]
+(b / bawa
+      :ARG0 (p / pak
+            :name (a / ahmad))
+      :ARG1 (m / makan))
+
+# ::id 245
+# ::snt Kakak Dina menghadiri pesta pernikahan
+# ::tokens ["Kakak", "Dina", "menghadiri", "pesta", "pernikahan"]
+# ::lemmas ["kakak", "dina", "hadir", "pesta", "nikah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(h / hadir
+      :ARG0 (k / kakak
+            :name (d / dina))
+      :ARG1 (p / pesta
+            :mod (n / nikah)))
+
+# ::id 245
+# ::snt Pesta pernikahan dihadiri Kakak Dina
+# ::tokens ["Pesta", "pernikahan", "dihadiri", "Kakak", "Dina"]
+# ::lemmas ["pesta", "nikah", "hadir", "kakak", "dina"]
+# ::pos_tags ["PROPN", "NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "LOC"]
+(h / hadir
+      :ARG0 (k / kakak
+            :name (d / dina))
+      :ARG1 (p / pesta
+            :mod (n / nikah)))
+
+# ::id 245
+# ::snt Ibu Fio menjahit baju
+# ::tokens ["Ibu", "Fio", "menjahit", "baju"]
+# ::lemmas ["ibu", "fio", "jahit", "baju"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(j / jahit
+      :ARG0 (i / ibu
+            :name (f / fio))
+      :ARG1 (b / baju))
+
+# ::id 245
+# ::snt Baju dijahit Ibu Fio
+# ::tokens ["Baju", "dijahit", "Ibu", "Fio"]
+# ::lemmas ["baju", "jahit", "ibu", "fio"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(j / jahit
+      :ARG0 (i / ibu
+            :name (f / fio))
+      :ARG1 (b / baju))
+
+# ::id 245
+# ::snt Om Bagus memperbaiki motor
+# ::tokens ["Om", "Bagus", "memperbaiki", "motor"]
+# ::lemmas ["om", "bagus", "baik", "motor"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "O", "O", "O"]
+(b1 / baik
+      :ARG0 (o / om
+            :name (b2 / bagus))
+      :ARG1 (m / motor))
+
+# ::id 245
+# ::snt Motor diperbaiki Om Bagus
+# ::tokens ["Motor", "diperbaiki", "Om", "Bagus"]
+# ::lemmas ["motor", "baik", "om", "bagus"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(b1 / baik
+      :ARG0 (o / om
+            :name (b2 / bagus))
+      :ARG1 (m / motor))
+
+# ::id 245
+# ::snt Pak Ridwan menyumbang semen
+# ::tokens ["Pak", "Ridwan", "menyumbang", "semen"]
+# ::lemmas ["pak", "ridwan", "sumbang", "semen"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(s1 / sumbang
+      :ARG0 (p / pak
+            :name (r / ridwan))
+      :ARG1 (s2 / semen))
+
+# ::id 245
+# ::snt Semen disumbang Pak Ridwan
+# ::tokens ["Semen", "disumbang", "Pak", "Ridwan"]
+# ::lemmas ["semen", "sumbang", "pak", "ridwan"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(s1 / sumbang
+      :ARG0 (p / pak
+            :name (r / ridwan))
+      :ARG1 (s2 / semen))
+
+# ::id 245
+# ::snt Bu Bowo membenamkan tikus di sawah
+# ::tokens ["Bu", "Bowo", "membenamkan", "tikus", "di", "sawah"]
+# ::lemmas ["bu", "bowo", "benam", "tikus", "di", "sawah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(b3 / benam
+      :ARG0 (b1 / bu
+            :name (b2 / bowo))
+      :ARG1 (t / tikus)
+      :location (s / sawah))
+
+# ::id 245
+# ::snt Tikus dibenamkan Bu Bowo di sawah
+# ::tokens ["Tikus", "dibenamkan", "Bu", "Bowo", "di", "sawah"]
+# ::lemmas ["tikus", "benam", "bu", "bowo", "di", "sawah"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "PER", "O", "O", "O"]
+(b3 / benam
+      :ARG0 (b1 / bu
+            :name (b2 / bowo))
+      :ARG1 (t / tikus)
+      :location (s / sawah))
+
+# ::id 245
+# ::snt Afgan menyanyikan lagu sendu
+# ::tokens ["Afgan", "menyanyikan", "lagu", "sendu"]
+# ::lemmas ["afgan", "nyanyi", "lagu", "sendu"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(n / nyanyi
+      :ARG0 (a / afgan)
+      :ARG1 (l / lagu
+            :mod (s / sendu)))
+
+# ::id 245
+# ::snt Lagu sendu dinyanyikan Afgan
+# ::tokens ["Lagu", "sendu", "dinyanyikan", "Afgan"]
+# ::lemmas ["lagu", "sendu", "nyanyi", "afgan"]
+# ::pos_tags ["PROPN", "ADJ", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(n / nyanyi
+      :ARG0 (a / afgan)
+      :ARG1 (l / lagu
+            :mod (s / sendu)))
+
+# ::id 245
+# ::snt Ibu Tina menyimpan wasiat
+# ::tokens ["Ibu", "Tina", "menyimpan", "wasiat"]
+# ::lemmas ["ibu", "tina", "simpan", "wasiat"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(s / simpan
+      :ARG0 (i / ibu
+            :name (t / tina))
+      :ARG1 (w / wasiat))
+
+# ::id 245
+# ::snt Wasiat disimpan Ibu Tina
+# ::tokens ["Wasiat", "disimpan", "Ibu", "Tina"]
+# ::lemmas ["wasiat", "simpan", "ibu", "tina"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(s / simpan
+      :ARG0 (i / ibu
+            :name (t / tina))
+      :ARG1 (w / wasiat))
+
+# ::id 245
+# ::snt Ayah mengunci pintu
+# ::tokens ["Ayah", "mengunci", "pintu"]
+# ::lemmas ["ayah", "kunci", "pintu"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(k / kunci
+      :ARG0 (a / ayah)
+      :ARG1 (p / pintu))
+
+# ::id 245
+# ::snt Pintu dikunci Ayah
+# ::tokens ["Pintu", "dikunci", "Ayah"]
+# ::lemmas ["pintu", "kunci", "ayah"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(k / kunci
+      :ARG0 (a / ayah)
+      :ARG1 (p / pintu))
+
+# ::id 245
+# ::snt Adik merawat kucing
+# ::tokens ["Adik", "merawat", "kucing"]
+# ::lemmas ["adik", "rawat", "kucing"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(r / rawat
+      :ARG0 (a / adik)
+      :ARG1 (k / kucing))
+
+# ::id 245
+# ::snt Kucing dirawat Adik
+# ::tokens ["Kucing", "dirawat", "Adik"]
+# ::lemmas ["kucing", "rawat", "adik"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(r / rawat
+      :ARG0 (a / adik)
+      :ARG1 (k / kucing))
+
+# ::id 245
+# ::snt TNI menjaga kebhinekaan
+# ::tokens ["TNI", "menjaga", "kebhinekaan"]
+# ::lemmas ["tni", "jaga", "kebhinekaan"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "O", "O"]
+(j / jaga
+      :ARG0 (t / tni)
+      :ARG1 (b / bhineka))
+
+# ::id 245
+# ::snt Kebhinnekaan dijaga TNI
+# ::tokens ["Kebhinnekaan", "dijaga", "TNI"]
+# ::lemmas ["kebhinnekaan", "jaga", "tni"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "NOR"]
+(j / jaga
+      :ARG0 (t / tni)
+      :ARG1 (b / bhinneka))
+
+# ::id 245
+# ::snt Buruh menuntut gaji
+# ::tokens ["Buruh", "menuntut", "gaji"]
+# ::lemmas ["buruh", "tuntut", "gaji"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(t / tuntut
+      :ARG0 (b / buruh)
+      :ARG1 (g / gaji))
+
+# ::id 245
+# ::snt Gaji dituntut Buruh
+# ::tokens ["Gaji", "dituntut", "Buruh"]
+# ::lemmas ["gaji", "tuntut", "buruh"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(t / tuntut
+      :ARG0 (b / buruh)
+      :ARG1 (g / gaji))
+
+# ::id 245
+# ::snt Pak Bagus menyukai Bu Ani
+# ::tokens ["Pak", "Bagus", "menyukai", "Bu", "Ani"]
+# ::lemmas ["pak", "bagus", "suka", "bu", "ani"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN", "PUNCT"]
+# ::ner_tags ["ORG", "O", "O", "O", "LOC"]
+(s / suka
+      :ARG0 (p / pak
+            :name (b2 / bagus))
+      :ARG1 (b1 / bu
+            :name (a / ani)))
+
+# ::id 245
+# ::snt Bu Ani disukai Pak Bagus
+# ::tokens ["Bu", "Ani", "disukai", "Pak", "Bagus"]
+# ::lemmas ["bu", "ani", "suka", "pak", "bagus"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(s / suka
+      :ARG0 (p / pak
+            :name (b2 / bagus))
+      :ARG1 (b1 / bu
+            :name (a / ani)))
+
+# ::id 245
+# ::snt Paman membuang sampah
+# ::tokens ["Paman", "membuang", "sampah"]
+# ::lemmas ["paman", "buang", "sampah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["GPE", "O", "O"]
+(b / buang
+      :ARG0 (p / paman)
+      :ARG1 (s / sampah))
+
+# ::id 245
+# ::snt Sampah dibuang Paman
+# ::tokens ["Sampah", "dibuang", "Paman"]
+# ::lemmas ["sampah", "buang", "paman"]
+# ::pos_tags ["PROPN", "VERB", "PUNCT"]
+# ::ner_tags ["O", "O", "GPE"]
+(b / buang
+      :ARG0 (p / paman)
+      :ARG1 (s / sampah))
+
+# ::id 245
+# ::snt Yanto memarahi petugas
+# ::tokens ["Yanto", "memarahi", "petugas"]
+# ::lemmas ["yanto", "parah", "tugas"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(m / marah
+      :ARG0 (y / yanto)
+      :ARG1 (t / tugas))
+
+# ::id 245
+# ::snt Petugas dimarahi Yanto
+# ::tokens ["Petugas", "dimarahi", "Yanto"]
+# ::lemmas ["tugas", "marah", "yanto"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "GPE"]
+(m / marah
+      :ARG0 (y / yanto)
+      :ARG1 (t / tugas))
+
+# ::id 245
+# ::snt Ibu Rina menuang air
+# ::tokens ["Ibu", "Rina", "menuang", "air"]
+# ::lemmas ["ibu", "rina", "tuang", "air"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "PER", "O", "O"]
+(t / tuang
+      :ARG0 (i / ibu
+            :name (r / rina))
+      :ARG1 (a / air))
+
+# ::id 245
+# ::snt Air dituang Ibu Rina
+# ::tokens ["Air", "dituang", "Ibu", "Rina"]
+# ::lemmas ["air", "tuang", "ibu", "rina"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(t / tuang
+      :ARG0 (i / ibu
+            :name (r / rina))
+      :ARG1 (a / air))
+
+# ::id 245
+# ::snt Penjajah mengusir pribumi
+# ::tokens ["Penjajah", "mengusir", "pribumi"]
+# ::lemmas ["jajah", "usir", "pribumi"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(u / usir
+      :ARG0 (j / jajah)
+      :ARG1 (p / pribumi))
+
+# ::id 245
+# ::snt Pribumi diusir Penjajah
+# ::tokens ["Pribumi", "diusir", "Penjajah"]
+# ::lemmas ["pribumi", "usir", "jajah"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "LOC"]
+(u / usir
+      :ARG0 (j / jajah)
+      :ARG1 (p / pribumi))
+
+# ::id 245
+# ::snt Kami membenci pembohong
+# ::tokens ["Kami", "membenci", "pembohong"]
+# ::lemmas ["kami", "benci", "bohong"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b1 / benci
+      :ARG0 (k / kami)
+      :ARG1 (b2 / bohong))
+
+# ::id 245
+# ::snt Pembohong dibenci kami
+# ::tokens ["Pembohong", "dibenci", "kami"]
+# ::lemmas ["bohong", "benci", "kami"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["PER", "O", "O"]
+(b1 / benci
+      :ARG0 (k / kami)
+      :ARG1 (b2 / bohong))
+
+# ::id 245
+# ::snt Mereka berpelukan
+# ::tokens ["Mereka", "berpelukan"]
+# ::lemmas ["mereka", "peluk"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(p / peluk
+      :ARG0 (m / mereka))
+
+# ::id 245
+# ::snt Kami bersalaman
+# ::tokens ["Kami", "bersalaman"]
+# ::lemmas ["kami", "salam"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(s / salam
+      :ARG0 (k / kami))
+
+# ::id 245
+# ::snt Mas Rio tertimpa pohon
+# ::tokens ["Mas", "Rio", "tertimpa", "pohon"]
+# ::lemmas ["mas", "rio", "timpa", "pohon"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / timpa
+      :ARG0 (p / pohon)
+      :ARG1 (m / mas
+            :name (r / rio)))
+
+# ::id 245
+# ::snt Pohon menimpa Mas Rio
+# ::tokens ["Pohon", "menimpa", "Mas", "Rio"]
+# ::lemmas ["pohon", "timpa", "mas", "rio"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "LOC"]
+(t / timpa
+      :ARG0 (p / pohon)
+      :ARG1 (m / mas
+            :name (r / rio)))
+
+# ::id 245
+# ::snt Duta besar tertembak peluru
+# ::tokens ["Duta", "besar", "tertembak", "peluru"]
+# ::lemmas ["duta", "besar", "tembak", "peluru"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(t / tembak
+      :ARG0 (d / duta
+            :mod (b / besar))
+      :ARG1 (p / peluru))
+
+# ::id 245
+# ::snt Turis memotret pawai
+# ::tokens ["Turis", "memotret", "pawai"]
+# ::lemmas ["turis", "potret", "pawai"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(p1 / potret
+      :ARG0 (t / turis)
+      :ARG1 (p2 / pawai))
+
+# ::id 245
+# ::snt Pawai dipotret Turis
+# ::tokens ["Pawai", "dipotret", "Turis"]
+# ::lemmas ["pawai", "potret", "turis"]
+# ::pos_tags ["PROPN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(p1 / potret
+      :ARG0 (t / turis)
+      :ARG1 (p2 / pawai))
+
+# ::id 245
+# ::snt Aku mengirim pesanan ke pembeli
+# ::tokens ["Aku", "mengirim", "pesanan", "ke", "pembeli"]
+# ::lemmas ["aku", "kirim", "pesan", "ke", "beli"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(k / kirim
+      :ARG0 (a / aku)
+      :ARG1 (p / pesan
+            :location (b / beli)))
+
+# ::id 245
+# ::snt Pesanan ke pembeli dikirim aku
+# ::tokens ["Pesanan", "ke", "pembeli", "dikirim", "aku"]
+# ::lemmas ["pesan", "ke", "beli", "kirim", "aku"]
+# ::pos_tags ["NOUN", "ADP", "NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(k / kirim
+      :ARG0 (a / aku)
+      :ARG1 (p / pesan
+            :location (b / beli)))
+
+# ::id 245
+# ::snt Bu Hana mengajarkan statistik kepada mahasiswa
+# ::tokens ["Bu", "Hana", "mengajarkan", "statistik", "kepada", "mahasiswa"]
+# ::lemmas ["bu", "hana", "ajar", "statistik", "kepada", "mahasiswa"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(a / ajar
+      :ARG0 (b / bu
+            :name (h / hana))
+      :ARG1 (s / statistik)
+      :mod (m / mahasiswa))
+
+# ::id 245
+# ::snt Statistik diajarkan Bu Hana kepada mahasiswa
+# ::tokens ["Statistik", "diajarkan", "Bu", "Hana", "kepada", "mahasiswa"]
+# ::lemmas ["statistik", "ajar", "bu", "hana", "kepada", "mahasiswa"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "ORG", "PER", "O", "O"]
+(a / ajar
+      :ARG0 (b / bu
+            :name (h / hana))
+      :ARG1 (s / statistik)
+      :mod (m / mahasiswa))
+
+# ::id 245
+# ::snt Kami membeli buku di toko Gramedia
+# ::tokens ["Kami", "membeli", "buku", "di", "toko", "Gramedia"]
+# ::lemmas ["kami", "beli", "buku", "di", "toko", "gramedia"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADP", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "LOC"]
+(b1 / beli
+      :ARG0 (k / kami)
+      :ARG1 (b2 / buku)
+      :location (t / toko
+            :name (g / gramedia)))
+
+# ::id 245
+# ::snt Buku dibeli Kami di toko Gramedia
+# ::tokens ["Buku", "dibeli", "Kami", "di", "toko", "Gramedia"]
+# ::lemmas ["buku", "beli", "kami", "di", "toko", "gramedia"]
+# ::pos_tags ["NOUN", "VERB", "PRON", "ADP", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "LOC"]
+(b1 / beli
+      :ARG0 (k / kami)
+      :ARG1 (b2 / buku)
+      :location (t / toko
+            :name (g / gramedia)))
+
+# ::id 245
+# ::snt Ayah terjatuh di persimpangan jalan
+# ::tokens ["Ayah", "terjatuh", "di", "persimpangan", "jalan"]
+# ::lemmas ["ayah", "jatuh", "di", "simpang", "jalan"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(j1 / jatuh
+      :ARG0 (a / ayah)
+      :location (s / simpang
+            :mod (j2 / jalan)))
+
+# ::id 245
+# ::snt Kakak Judi meninggalkan pacarnya
+# ::tokens ["Kakak", "Judi", "meninggalkan", "pacarnya"]
+# ::lemmas ["kakak", "judi", "tinggal", "pacar"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(t / tinggal
+      :ARG0 (k / kakak
+            :name (j / judi))
+      :ARG1 (p / pacar))
+
+# ::id 245
+# ::snt Pak Camat berpidato di podium
+# ::tokens ["Pak", "Camat", "berpidato", "di", "podium"]
+# ::lemmas ["pak", "camat", "pidato", "di", "podium"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(p1 / pidato
+      :ARG0 (p2 / pak
+            :name (c / camat))
+      :location (p3 / podium))
+
+# ::id 245
+# ::snt Ulama Abdul memimpin umat
+# ::tokens ["Ulama", "Abdul", "memimpin", "umat"]
+# ::lemmas ["ulama", "abdul", "pimpin", "umat"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(p / pimpin
+      :ARG0 (u1 / ulama
+            :name (a / abdul))
+      :ARG1 (u2 / umat))
+
+# ::id 245
+# ::snt Umat dipimpin ulama Abdul
+# ::tokens ["Umat", "dipimpin", "ulama", "Abdul"]
+# ::lemmas ["umat", "pimpin", "ulama", "abdul"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(p / pimpin
+      :ARG0 (u1 / ulama
+            :name (a / abdul))
+      :ARG1 (u2 / umat))
+
+# ::id 245
+# ::snt Ibu membeli sayur di warung
+# ::tokens ["Ibu", "membeli", "sayur", "di", "warung"]
+# ::lemmas ["ibu", "beli", "sayur", "di", "warung"]
+# ::pos_tags ["NOUN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / beli
+      :ARG0 (i / ibu)
+      :ARG1 (s / sayur)
+      :location (w / warung))
+
+# ::id 245
+# ::snt Sayur dibeli Ibu di warung
+# ::tokens ["Sayur", "dibeli", "Ibu", "di", "warung"]
+# ::lemmas ["sayur", "beli", "ibu", "di", "warung"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / beli
+      :ARG0 (i / ibu)
+      :ARG1 (s / sayur)
+      :location (w / warung))
+
+# ::id 245
+# ::snt Kak Mira menanam tanaman obat
+# ::tokens ["Kak", "Mira", "menanam", "tanaman", "obat"]
+# ::lemmas ["kak", "mira", "tanam", "tanam", "obat"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(t1 / tanam
+      :ARG0 (k / kak
+            :name (m / mira))
+      :ARG1 (t2 / tanam)
+      :mod (o / obat))
+
+# ::id 245
+# ::snt Tanaman obat ditanam Kak Mira
+# ::tokens ["Tanaman", "obat", "ditanam", "Kak", "Mira"]
+# ::lemmas ["tanam", "obat", "tanam", "kak", "mira"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "ORG", "LOC"]
+(t1 / tanam
+      :ARG0 (k / kak
+            :name (m / mira))
+      :ARG1 (t2 / tanam)
+      :mod (o / obat))
+
+# ::id 245
+# ::snt Kami datang dari Yogyakarta
+# ::tokens ["Kami", "datang", "dari", "Yogyakarta"]
+# ::lemmas ["kami", "datang", "dari", "yogyakarta"]
+# ::pos_tags ["PRON", "VERB", "ADP", "PROPN"]
+# ::ner_tags ["O", "O", "O", "GPE"]
+(d / datang
+      :ARG0 (k / kami)
+      :location (y / yogyakarta))
+
+# ::id 245
+# ::snt Kami berolahraga
+# ::tokens ["Kami", "berolahraga"]
+# ::lemmas ["kami", "olahraga"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(o / olahraga
+      :ARG0 (k / kami))
+
+# ::id 245
+# ::snt Mahasiswa menyampaikan orasi di tengah jalan
+# ::tokens ["Mahasiswa", "menyampaikan", "orasi", "di", "tengah", "jalan"]
+# ::lemmas ["mahasiswa", "sampai", "orasi", "di", "tengah", "jalan"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / sampai
+      :ARG0 (m / mahasiswa)
+      :ARG1 (o / orasi)
+      :location (t / tengah
+            :mod (j / jalan)))
+
+# ::id 245
+# ::snt Orasi disampaikan mahasiswa di tengah jalan
+# ::tokens ["Orasi", "disampaikan", "mahasiswa", "di", "tengah", "jalan"]
+# ::lemmas ["orasi", "sampai", "mahasiswa", "di", "tengah", "jalan"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(s / sampai
+      :ARG0 (m / mahasiswa)
+      :ARG1 (o / orasi)
+      :location (t / tengah
+            :mod (j / jalan)))
+
+# ::id 245
+# ::snt Adik berangkat ke sekolah
+# ::tokens ["Adik", "berangkat", "ke", "sekolah"]
+# ::lemmas ["adik", "berangkat", "ke", "sekolah"]
+# ::pos_tags ["PROPN", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b / berangkat
+      :ARG0 (a / adik)
+      :location (s / sekolah))
+
+# ::id 245
+# ::snt Mas Linton membuka kaleng roti
+# ::tokens ["Mas", "Linton", "membuka", "kaleng", "roti"]
+# ::lemmas ["mas", "linton", "buka", "kaleng", "roti"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O"]
+(b / buka
+      :ARG0 (m / mas
+            :name (l / linton))
+      :ARG1 (k / kaleng)
+      :mod (r / roti))
+
+# ::id 245
+# ::snt Kaleng roti dibuka Mas Linton
+# ::tokens ["Kaleng", "roti", "dibuka", "Mas", "Linton"]
+# ::lemmas ["kaleng", "roti", "buka", "mas", "linton"]
+# ::pos_tags ["PROPN", "NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "ORG", "LOC"]
+(b / buka
+      :ARG0 (m / mas
+            :name (l / linton))
+      :ARG1 (k / kaleng)
+      :mod (r / roti))
+
+# ::id 245
+# ::snt Ibu berbelanja
+# ::tokens ["Ibu", "berbelanja"]
+# ::lemmas ["ibu", "belanja"]
+# ::pos_tags ["NOUN", "VERB"]
+# ::ner_tags ["O", "O"]
+(b / belanja
+      :ARG0 (i / ibu))
+
+# ::id 245
+# ::snt Kepala sekolah mengumumkan nilai
+# ::tokens ["Kepala", "sekolah", "mengumumkan", "nilai"]
+# ::lemmas ["kepala", "sekolah", "umum", "nilai"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(u / umum
+      :ARG0 (k / kepala
+            :mod (s / sekolah))
+      :ARG1 (n / nilai))
+
+# ::id 245
+# ::snt Nilai diumumkan Kepala sekolah
+# ::tokens ["Nilai", "diumumkan", "Kepala", "sekolah"]
+# ::lemmas ["nilai", "umum", "kepala", "sekolah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "ORG", "O"]
+(u / umum
+      :ARG0 (k / kepala
+            :mod (s / sekolah))
+      :ARG1 (n / nilai))
+
+# ::id 245
+# ::snt Rakyat mendukung pemerintah
+# ::tokens ["Rakyat", "mendukung", "pemerintah"]
+# ::lemmas ["rakyat", "dukung", "perintah"]
+# ::pos_tags ["PROPN", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "ORG"]
+(d / dukung
+      :ARG0 (r / rakyat)
+      :ARG1 (p / perintah))
+
+# ::id 245
+# ::snt Pemerintah didukung Rakyat
+# ::tokens ["Pemerintah", "didukung", "Rakyat"]
+# ::lemmas ["perintah", "dukung", "rakyat"]
+# ::pos_tags ["NOUN", "VERB", "PROPN"]
+# ::ner_tags ["GPE", "O", "O"]
+(d / dukung
+      :ARG0 (r / rakyat)
+      :ARG1 (p / perintah))
+
+# ::id 245
+# ::snt Pak Joko memukul pencuri di rumah
+# ::tokens ["Pak", "Joko", "memukul", "pencuri", "di", "rumah"]
+# ::lemmas ["pak", "joko", "pukul", "curi", "di", "rumah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(p3 / pukul
+      :ARG0 (p1 / pak
+            :name (j / joko))
+      :ARG1 (c / curi)
+      :location (r / rumah))
+
+# ::id 245
+# ::snt Pencuri dipukul Pak Joko di rumah
+# ::tokens ["Pencuri", "dipukul", "Pak", "Joko", "di", "rumah"]
+# ::lemmas ["curi", "pukul", "pak", "joko", "di", "rumah"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "ORG", "PER", "O", "O"]
+(p3 / pukul
+      :ARG0 (p1 / pak
+            :name (j / joko))
+      :ARG1 (c / curi)
+      :location (r / rumah))
+
+# ::id 245
+# ::snt Saya membuka kaleng roti
+# ::tokens ["Saya", "membuka", "kaleng", "roti"]
+# ::lemmas ["saya", "buka", "kaleng", "roti"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b / buka
+      :ARG0 (s / saya)
+      :ARG1 (k / kaleng
+            :mod (r / roti)))
+
+# ::id 245
+# ::snt Kaleng roti dibuka saya
+# ::tokens ["Kaleng", "roti", "dibuka", "saya"]
+# ::lemmas ["kaleng", "roti", "buka", "saya"]
+# ::pos_tags ["PROPN", "NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O"]
+(b / buka
+      :ARG0 (s / saya)
+      :ARG1 (k / kaleng
+            :mod (r / roti)))
+
+# ::id 245
+# ::snt Saya berbelanja
+# ::tokens ["Saya", "berbelanja"]
+# ::lemmas ["saya", "belanja"]
+# ::pos_tags ["PRON", "VERB"]
+# ::ner_tags ["O", "O"]
+(b / belanja
+      :ARG0 (s / saya))
+
+# ::id 245
+# ::snt Direktur mengumumkan penilaian
+# ::tokens ["Direktur", "mengumumkan", "penilaian"]
+# ::lemmas ["direktur", "umum", "nilai"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(u / umum
+      :ARG0 (d / direktur)
+      :ARG1 (n / nilai))
+
+# ::id 245
+# ::snt Bu Susi  mendukung pemerintah
+# ::tokens ["Bu", "Susi", "mendukung", "pemerintah"]
+# ::lemmas ["bu", "sus", "dukung", "perintah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "ORG"]
+(d / dukung
+      :ARG0 (b / bu
+            :name (s / susi))
+      :ARG1 (p / perintah))
+
+# ::id 245
+# ::snt Pemerintah didukung Bu Susi
+# ::tokens ["Pemerintah", "didukung", "Bu", "Susi"]
+# ::lemmas ["perintah", "dukung", "bu", "sus"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["NOR", "O", "ORG", "NOR"]
+(d / dukung
+      :ARG0 (b / bu
+            :name (s / susi))
+      :ARG1 (p / perintah))
+
+# ::id 245
+# ::snt Ayah memukul pencuri di rumah
+# ::tokens ["Ayah", "memukul", "pencuri", "di", "rumah"]
+# ::lemmas ["ayah", "pukul", "curi", "di", "rumah"]
+# ::pos_tags ["NOUN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / pukul
+      :ARG0 (a / ayah)
+      :ARG1 (c / curi)
+      :location (r / rumah))
+
+# ::id 245
+# ::snt Pencuri dipukul Ayah di rumah
+# ::tokens ["Pencuri", "dipukul", "Ayah", "di", "rumah"]
+# ::lemmas ["curi", "pukul", "ayah", "di", "rumah"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(p / pukul
+      :ARG0 (a / ayah)
+      :ARG1 (c / curi)
+      :location (r / rumah))
+
+# ::id 245
+# ::snt CPU menentukan pemenang
+# ::tokens ["CPU", "menentukan", "pemenang"]
+# ::lemmas ["cpu", "tentu", "menang"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["PER", "O", "O"]
+(t / tentu
+      :ARG0 (c / cpu)
+      :ARG1 (m / menang))
+
+# ::id 245
+# ::snt Pemenang ditentukan CPU
+# ::tokens ["Pemenang", "ditentukan", "CPU"]
+# ::lemmas ["menang", "tentu", "cpu"]
+# ::pos_tags ["NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "ORG"]
+(t / tentu
+      :ARG0 (c / cpu)
+      :ARG1 (m / menang))
+
+# ::id 245
+# ::snt Pak Dwi memberikan hadiah kepada pemenang
+# ::tokens ["Pak", "Dwi", "memberikan", "hadiah", "kepada", "pemenang"]
+# ::lemmas ["pak", "dwi", "beri", "hadiah", "kepada", "menang"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(b / beri
+      :ARG0 (p / pak
+            :name (d / dwi))
+      :ARG1 (h / hadiah
+            :ARG1 (m / menang)))
+
+# ::id 245
+# ::snt Hadiah diberikan Pak Dwi kepada pemenang
+# ::tokens ["Hadiah", "diberikan", "Pak", "Dwi", "kepada", "pemenang"]
+# ::lemmas ["hadiah", "beri", "pak", "dwi", "kepada", "menang"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "ORG", "PER", "O", "O"]
+(b / beri
+      :ARG0 (p / pak
+            :name (d / dwi))
+      :ARG1 (h / hadiah
+            :ARG1 (m / menang)))
+
+# ::id 245
+# ::snt Saya memegang adik perempuan
+# ::tokens ["Saya", "memegang", "adik", "perempuan"]
+# ::lemmas ["saya", "pegang", "adik", "perempuan"]
+# ::pos_tags ["PRON", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p1 / pegang
+      :ARG0 (s1 / saya)
+      :ARG1 (a / adik
+            :mod (p2 / perempuan)))
+
+# ::id 245
+# ::snt adik perempuan dipegang saya
+# ::tokens ["adik", "perempuan", "dipegang", "saya"]
+# ::lemmas ["adik", "perempuan", "pegang", "saya"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O", "O"]
+(p1 / pegang
+      :ARG0 (s1 / saya)
+      :ARG1 (a / adik
+            :mod (p2 / perempuan)))
+
+# ::id 245
+# ::snt Bu Sakinah membawa adiknya ke sekolah
+# ::tokens ["Bu", "Sakinah", "membawa", "adiknya", "ke", "sekolah"]
+# ::lemmas ["bu", "sakinah", "bawa", "adik", "ke", "sekolah"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "O", "O", "O", "O", "O"]
+(b1 / bawa
+      :ARG0 (b2 / bu
+            :name (s2 / sakinah))
+      :ARG1 (a2 / adik)
+      :location (s1 / sekolah))
+
+# ::id 245
+# ::snt Anda memilih pasangan
+# ::tokens ["Anda", "memilih", "pasangan"]
+# ::lemmas ["anda", "pilih", "pasang"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(p1 / pilih
+      :ARG0 (a / anda)
+      :ARG1 (p2 / pasang))
+
+# ::id 245
+# ::snt Kami merayakan kemenangan
+# ::tokens ["Kami", "merayakan", "kemenangan"]
+# ::lemmas ["kami", "raya", "menang"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(r / raya
+      :ARG0 (k / kami)
+      :ARG1 (m / menang))
+
+# ::id 245
+# ::snt Kemenangan dirayakan kami
+# ::tokens ["Kemenangan", "dirayakan", "kami"]
+# ::lemmas ["menang", "raya", "kami"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(r / raya
+      :ARG0 (k / kami)
+      :ARG1 (m / menang))
+
+# ::id 245
+# ::snt Mas Anis mengajukan keluhan
+# ::tokens ["Mas", "Anis", "mengajukan", "keluhan"]
+# ::lemmas ["mas", "anis", "aju", "keluh"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(a1 / aju
+      :ARG0 (m / mas
+            :name (a2 / anis))
+      :ARG1 (k / keluh))
+
+# ::id 245
+# ::snt Deformasi gambar
+# ::tokens ["Deformasi", "gambar"]
+# ::lemmas ["deformasi", "gambar"]
+# ::pos_tags ["NOUN", "NOUN"]
+# ::ner_tags ["O", "O"]
+(g / gambar
+      :ARG1 (d / deformasi))
+
+# ::id 245
+# ::snt Bu Okta melukis wanita
+# ::tokens ["Bu", "Okta", "melukis", "wanita"]
+# ::lemmas ["bu", "okta", "luk", "wanita"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(l / lukis
+      :ARG0 (b / bu
+            :name (o / okta))
+      :ARG1 (w / wanita))
+
+# ::id 245
+# ::snt Wanita dilukis Bu Okta
+# ::tokens ["Wanita", "dilukis", "Bu", "Okta"]
+# ::lemmas ["wanita", "luk", "bu", "okta"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(l / lukis
+      :ARG0 (b / bu
+            :name (o / okta))
+      :ARG1 (w / wanita))
+
+# ::id 245
+# ::snt Mas Budi mencetak kartu nama di Sampurna
+# ::tokens ["Mas", "Budi", "mencetak", "kartu", "nama", "di", "Sampurna"]
+# ::lemmas ["mas", "budi", "cetak", "kartu", "nama", "di", "sampurna"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O", "LOC"]
+(c / cetak
+      :ARG0 (m / mas
+            :name (b / budi))
+      :ARG1 (k / kartu
+            :mod (n / nama))
+      :location (s / sampurna))
+
+# ::id 245
+# ::snt Kartu nama dicetak Mas Budi di Sampurna
+# ::tokens ["Kartu", "nama", "dicetak", "Mas", "Budi", "di", "Sampurna"]
+# ::lemmas ["kartu", "nama", "cetak", "mas", "budi", "di", "sampurna"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "PROPN", "PROPN", "ADP", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "PER", "O", "O", "LOC"]
+(c / cetak
+      :ARG0 (m / mas
+            :name (b / budi))
+      :ARG1 (k / kartu
+            :mod (n / nama))
+      :location (s / sampurna))
+
+# ::id 245
+# ::snt Saudara melompat
+# ::tokens ["Saudara", "melompat"]
+# ::lemmas ["saudara", "lompat"]
+# ::pos_tags ["PROPN", "VERB"]
+# ::ner_tags ["O", "O"]
+(l / lompat
+      :ARG0 (s / saudara))
+
+# ::id 245
+# ::snt Pengacara membela terdakwa di pengadilan
+# ::tokens ["Pengacara", "membela", "terdakwa", "di", "pengadilan"]
+# ::lemmas ["acara", "bela", "dakwa", "di", "adil"]
+# ::pos_tags ["PROPN", "VERB", "VERB", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / bela
+      :ARG0 (p / pengacara)
+      :ARG1 (d / dakwa)
+      :location (a / adil))
+
+# ::id 245
+# ::snt Terdakwa dibela pengacara di pengadilan
+# ::tokens ["Terdakwa", "dibela", "pengacara", "di", "pengadilan"]
+# ::lemmas ["dakwa", "bela", "acara", "di", "adil"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(b / bela
+      :ARG0 (p / pengacara)
+      :ARG1 (d / dakwa)
+      :location (a / adil))
+
+# ::id 245
+# ::snt Hakim menghukumnya
+# ::tokens ["Hakim", "menghukumnya"]
+# ::lemmas ["hakim", "hukum"]
+# ::pos_tags ["PROPN", "VERB"]
+# ::ner_tags ["O", "O"]
+(h1 / hukum
+      :ARG0 (h2 / hakim))
+
+# ::id 245
+# ::snt Jaksa menuntut tersangka di pengadilan
+# ::tokens ["Jaksa", "menuntut", "tersangka", "di", "pengadilan"]
+# ::lemmas ["jaksa", "tuntut", "sangka", "di", "adil"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O"]
+(t / tuntut
+      :ARG0 (j / jaksa)
+      :ARG1 (s / sangka)
+      :location (a / adil))
+
+# ::id 245
+# ::snt Tersangka dituntut jaksa di pengadilan
+# ::tokens ["Tersangka", "dituntut", "jaksa", "di", "pengadilan"]
+# ::lemmas ["sangka", "tuntut", "jaksa", "di", "adil"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / tuntut
+      :ARG0 (j / jaksa)
+      :ARG1 (s / sangka)
+      :location (a / adil))
+
+# ::id 245
+# ::snt Mereka menerima kekalahan
+# ::tokens ["Mereka", "menerima", "kekalahan"]
+# ::lemmas ["mereka", "terima", "kalah"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(t / terima
+      :ARG0 (m / mereka)
+      :ARG1 (k / kalah))
+
+# ::id 245
+# ::snt Adik Zahra menjual kue
+# ::tokens ["Adik", "Zahra", "menjual", "kue"]
+# ::lemmas ["adik", "zahra", "jual", "kue"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(j / jual
+      :ARG0 (a / adik
+            :name (z / zahra))
+      :ARG1 (k / kue))
+
+# ::id 245
+# ::snt Kue dijual Adik Zahra
+# ::tokens ["Kue", "dijual", "Adik", "Zahra"]
+# ::lemmas ["kue", "jual", "adik", "zahra"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["PER", "O", "O", "O"]
+(j / jual
+      :ARG0 (a / adik
+            :name (z / zahra))
+      :ARG1 (k / kue))
+
+# ::id 245
+# ::snt Ibu memberi makan
+# ::tokens ["Ibu", "memberi", "makan"]
+# ::lemmas ["ibu", "beri", "makan"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / beri
+      :ARG0 (i / ibu)
+      :ARG1 (m / makan))
+
+# ::id 245
+# ::snt Makan diberi Ibu
+# ::tokens ["Makan", "diberi", "Ibu"]
+# ::lemmas ["makan", "beri", "ibu"]
+# ::pos_tags ["NOUN", "VERB", "PROPN"]
+# ::ner_tags ["O", "O", "O"]
+(b / beri
+      :ARG0 (i / ibu)
+      :ARG1 (m / makan))
+
+# ::id 245
+# ::snt Suster Diana mendapat uang
+# ::tokens ["Suster", "Diana", "mendapat", "uang"]
+# ::lemmas ["suster", "ana", "dapat", "uang"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(d1 / dapat
+      :ARG0 (s / suster
+            :name (d2 / diana))
+      :ARG1 (u / uang))
+
+# ::id 245
+# ::snt Uang didapat Suster Diana
+# ::tokens ["Uang", "didapat", "Suster", "Diana"]
+# ::lemmas ["uang", "dapat", "suster", "ana"]
+# ::pos_tags ["NOUN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "ORG", "LOC"]
+(d1 / dapat
+      :ARG0 (s / suster
+            :name (d2 / diana))
+      :ARG1 (u / uang))
+
+# ::id 245
+# ::snt Anda menghabiskan uang
+# ::tokens ["Anda", "menghabiskan", "uang"]
+# ::lemmas ["anda", "habis", "uang"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(h / habis
+      :ARG0 (a / anda)
+      :ARG1 (u / uang))
+
+# ::id 245
+# ::snt Uang dihabiskan Anda
+# ::tokens ["Uang", "dihabiskan", "Anda"]
+# ::lemmas ["uang", "habis", "anda"]
+# ::pos_tags ["NOUN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(h / habis
+      :ARG0 (a / anda)
+      :ARG1 (u / uang))
+
+# ::id 245
+# ::snt Kerumunan orang membakar mobil di jalanan
+# ::tokens ["Kerumunan", "orang", "membakar", "mobil", "di", "jalanan"]
+# ::lemmas ["kerumun", "orang", "bakar", "mobil", "di", "jalan"]
+# ::pos_tags ["NOUN", "NOUN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+(b / bakar
+      :ARG0 (r / rumun
+            :mod (o / orang))
+      :ARG1 (m / mobil)
+      :location (j / jalan))
+
+# ::id 245
+# ::snt Mobil dibakar kerumunan orang di jalanan
+# ::tokens ["Mobil", "dibakar", "kerumunan", "orang", "di", "jalanan"]
+# ::lemmas ["mobil", "bakar", "kerumun", "orang", "di", "jalan"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O"]
+(b / bakar
+      :ARG0 (r / rumun
+            :mod (o / orang))
+      :ARG1 (m / mobil)
+      :location (j / jalan))
+
+# ::id 245
+# ::snt Warga menangkap babi di hutan
+# ::tokens ["Warga", "menangkap", "babi", "di", "hutan"]
+# ::lemmas ["warga", "tangkap", "babi", "di", "hutan"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+(t / tangkap
+      :ARG0 (w / warga)
+      :ARG1 (b / babi)
+      :location (h / hutan))
+
+# ::id 245
+# ::snt Bu Zee Zee menceritakan kisah tragis
+# ::tokens ["Bu", "Zee", "Zee", "menceritakan", "kisah", "tragis"]
+# ::lemmas ["bu", "zee", "zee", "cerita", "kisah", "tragis"]
+# ::pos_tags ["PROPN", "PROPN", "PROPN", "VERB", "NOUN", "ADJ"]
+# ::ner_tags ["ORG", "ORG", "PER", "O", "O", "O"]
+(c / cerita
+      :ARG0 (b / bu
+            :name (z1 / zee
+                  :name (z2 / zee)))
+      :ARG1 (k / kisah
+            :mod (t / tragis)))
+
+# ::id 245
+# ::snt kisah tragis diceritakan Bu Zee Zee
+# ::tokens ["kisah", "tragis", "diceritakan", "Bu", "Zee", "Zee"]
+# ::lemmas ["kisah", "tragis", "cerita", "bu", "zee", "zee"]
+# ::pos_tags ["NOUN", "ADJ", "VERB", "PROPN", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "ORG", "LOC", "O"]
+(c / cerita
+      :ARG0 (b / bu
+            :name (z1 / zee
+                  :name (z2 / zee)))
+      :ARG1 (k / kisah
+            :mod (t / tragis)))
+
+# ::id 245
+# ::snt Para penjaga menangkap pencuri
+# ::tokens ["Para", "penjaga", "menangkap", "pencuri"]
+# ::lemmas ["para", "jaga", "tangkap", "curi"]
+# ::pos_tags ["DET", "NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(t / tangkap
+      :ARG0 (p1 / para
+            :mod (j / jaga))
+      :ARG1 (c / curi))
+
+# ::id 245
+# ::snt Pencuri ditangkap para penjaga
+# ::tokens ["Pencuri", "ditangkap", "para", "penjaga"]
+# ::lemmas ["curi", "tangkap", "para", "jaga"]
+# ::pos_tags ["PROPN", "VERB", "DET", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(t / tangkap
+      :ARG0 (p1 / para
+            :mod (j / jaga))
+      :ARG1 (c / curi))
+
+# ::id 245
+# ::snt Saya menyeka lantai
+# ::tokens ["Saya", "menyeka", "lantai"]
+# ::lemmas ["saya", "seka", "lantai"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(s1 / seka
+      :ARG0 (s2 / saya)
+      :ARG1 (l / lantai))
+
+# ::id 245
+# ::snt Lantai diseka saya
+# ::tokens ["Lantai", "diseka", "saya"]
+# ::lemmas ["lantai", "seka", "saya"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(s1 / seka
+      :ARG0 (s2 / saya)
+      :ARG1 (l / lantai))
+
+# ::id 245
+# ::snt Tentara memelihara perdamaian di Indonesia
+# ::tokens ["Tentara", "memelihara", "perdamaian", "di", "Indonesia"]
+# ::lemmas ["tentara", "pelihara", "damai", "di", "indonesia"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "GPE"]
+(p / pelihara
+      :ARG0 (t / tentara)
+      :ARG1 (d / damai)
+      :location (i / Indonesia))
+
+# ::id 245
+# ::snt Perdamaian dipelihara tentara di Indonesia
+# ::tokens ["Perdamaian", "dipelihara", "tentara", "di", "Indonesia"]
+# ::lemmas ["damai", "pelihara", "tentara", "di", "indonesia"]
+# ::pos_tags ["PROPN", "VERB", "NOUN", "ADP", "PROPN"]
+# ::ner_tags ["O", "O", "O", "O", "GPE"]
+(p / pelihara
+      :ARG0 (t / tentara)
+      :ARG1 (d / damai)
+      :location (i / Indonesia))
+
+# ::id 245
+# ::snt Saya mencari nafkah
+# ::tokens ["Saya", "mencari", "nafkah"]
+# ::lemmas ["saya", "cari", "nafkah"]
+# ::pos_tags ["PRON", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(c / cari
+      :ARG0 (s / saya)
+      :ARG1 (n / nafkah))
+
+# ::id 245
+# ::snt Nafkah dicari saya
+# ::tokens ["Nafkah", "dicari", "saya"]
+# ::lemmas ["nafkah", "cari", "saya"]
+# ::pos_tags ["PROPN", "VERB", "PRON"]
+# ::ner_tags ["O", "O", "O"]
+(c / cari
+      :ARG0 (s / saya)
+      :ARG1 (n / nafkah))
+
+# ::id 245
+# ::snt Pak Ogah menanam padi
+# ::tokens ["Pak", "Ogah", "menanam", "padi"]
+# ::lemmas ["pak", "ogah", "tanam", "padi"]
+# ::pos_tags ["PROPN", "ADV", "VERB", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O"]
+(t / tanam
+      :ARG0 (p1 / pak
+            :name (o / ogah))
+      :ARG1 (p2 / padi))
+
+# ::id 245
+# ::snt Padi ditanam Pak Ogah
+# ::tokens ["Padi", "ditanam", "Pak", "Ogah"]
+# ::lemmas ["padi", "tanam", "pak", "ogah"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN"]
+# ::ner_tags ["O", "O", "O", "LOC"]
+(t / tanam
+      :ARG0 (p1 / pak
+            :name (o / ogah))
+      :ARG1 (p2 / padi))
+
+# ::id 245
+# ::snt Kontraktor membeli tanaman
+# ::tokens ["Kontraktor", "membeli", "tanaman"]
+# ::lemmas ["kontraktor", "beli", "tanam"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / beli
+      :ARG0 (k / kontraktor)
+      :ARG1 (t / tanam))
+
+# ::id 245
+# ::snt Tanaman dibeli kontraktor
+# ::tokens ["Tanaman", "dibeli", "kontraktor"]
+# ::lemmas ["tanam", "beli", "kontraktor"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(b / beli
+      :ARG0 (k / kontraktor)
+      :ARG1 (t / tanam))
+
+# ::id 245
+# ::snt Perantara memeras petani
+# ::tokens ["Perantara", "memeras", "petani"]
+# ::lemmas ["antara", "peras", "tani"]
+# ::pos_tags ["PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(p1 / peras
+      :ARG0 (a / antara)
+      :ARG1 (t / tani))
+
+# ::id 245
+# ::snt Petani diperas perantara
+# ::tokens ["Petani", "diperas", "perantara"]
+# ::lemmas ["tani", "peras", "antara"]
+# ::pos_tags ["NOUN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O"]
+(p1 / peras
+      :ARG0 (a / antara)
+      :ARG1 (t / tani))
+
+# ::id 245
+# ::snt Dik Dilan menonton kartun di TV
+# ::tokens ["Dik", "Dilan", "menonton", "kartun", "di", "TV"]
+# ::lemmas ["dik", "dil", "tonton", "kartun", "di", "tv"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "PER", "O", "O", "O", "O"]
+(t1 / tonton
+      :ARG0 (d1 / dik
+            :name (d2 / dilan))
+      :ARG1 (k / kartun)
+      :location (t2 / tv))
+
+# ::id 245
+# ::snt Kartun ditonton Dik Dilan di TV
+# ::tokens ["Kartun", "ditonton", "Dik", "Dilan", "di", "TV"]
+# ::lemmas ["kartun", "tonton", "dik", "dil", "di", "tv"]
+# ::pos_tags ["PROPN", "VERB", "PROPN", "PROPN", "ADP", "NOUN"]
+# ::ner_tags ["ORG", "O", "ORG", "PER", "O", "O"]
+(t1 / tonton
+      :ARG0 (d1 / dik
+            :name (d2 / dilan))
+      :ARG1 (k / kartun)
+      :location (t2 / tv))
+
+# ::id 245
+# ::snt Ibu Salsa menuangkan air
+# ::tokens ["Ibu", "Salsa", "menuangkan", "air"]
+# ::lemmas ["ibu", "salsa", "tuang", "air"]
+# ::pos_tags ["PROPN", "PROPN", "VERB", "NOUN"]
+# ::ner_tags ["O", "O", "O", "O"]
+(t / tuang
+      :ARG0 (i / ibu
+            :name (s / salsa))
+      :ARG1 (a / air))
+

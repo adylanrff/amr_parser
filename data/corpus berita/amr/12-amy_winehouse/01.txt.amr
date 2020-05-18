@@ -1,0 +1,101 @@
+# ::snt Putusan yang sama tentang penyebab kematian Winehouse diberikan pada sidang dengar pendapat kedua yang diperintahkan setelah ternyata yang pertama, Oktober 2011, dipimpin seorang koroner yang tidak mempunyai kualifikasi yang tepat.
+
+(vv1 / beri
+     :ARG1 (vv2 / putus
+                :mod (vv3 / sama)
+                :mod (vv4 / sebab
+                          :mod (vv5 / mati
+                                    :mod (vv6 / winehouse))))
+     :ARG1 (vv7 / sidang
+                :mod (vv8 / dengar)
+                :mod (vv9 / dapat
+                          :mod (vv10 / dua)
+                          :mod (vv11 / perintah
+                                     :ARG1 (vv14 / oktober
+                                                 :mod (vv15 / pertama)
+                                                 :mod (vv16 / 2011)))))
+     :ARG1 (vv12 / pimpin
+                 :mod (vv13 / nyata)
+                 :ARG1 (vv17 / koroner
+                             :mod (vv18 / punya
+                                        :mod (vv19 / tidak)
+                                        :ARG1 (vv20 / kualifikasi
+                                                    :mod (vv21 / tepat))))))
+
+# ::snt Winehouse mempunyai 416 miligram alkohol per desiliter darah dalam tubuhnya--lebih dari lima kali batas yang legal untuk mengemudikan mobil di Inggris, yaitu 80 miligram.
+
+(vv1 / punya
+     :ARG0 (vv2 / winehouse)
+     :ARG1 (vv3 / miligram
+                :mod (vv5 / alkohol)
+                :mod (vv6 / desiliter
+                          :mod (vv8 / tubuhnyalebih
+                                    :mod (vv12 / legal
+                                               :mod (vv14 / mobil
+                                                          :mod (vv16 / 80))))
+                          :mod (vv9 / kali
+                                    :mod (vv11 / batas
+                                               :mod (vv10 / lima)
+                                               :mod (vv13 / kemudi
+                                                          :ARG0 (vv15 / inggris)))))
+                :mod (vv7 / darah)
+                :mod vv17)
+     :mod (vv4 / 416))
+
+# ::snt Koroner Shirley Radcliffe mengatakan, penyanyi soul itu meninggal karena "keracunan alkohol", dan ditambahkan, tingkat alkohol setinggi itu biasa dikaitkan dengan kematian.
+
+# ::snt Dikatakan, Winehouse "mengonsumsi alkohol dengan sukarela" dan ditambahkan, "dua botol vodka yang kosong tergeletak di lantai" di sisi tempat tidurnya ketika mayatnya ditemukan.
+
+(vv1 / konsumsi
+     :mod (vv2 / kata)
+     :ARG0 (vv3 / winehouse)
+     :ARG1 (vv4 / alkohol)
+     :ARG1 (vv5 / sukarela)
+     :mod (vv6 / tambah
+               :mod (vv7 / dan)
+               :ARG1 (vv8 / botol
+                          :mod (vv9 / dua)
+                          :mod (vv10 / vodka)
+                          :mod (vv11 / geletak
+                                     :mod (vv12 / kosong)
+                                     :location (vv13 / lantai
+                                                     :mod (vv14 / sisi
+                                                                :mod (vv15 / tempat
+                                                                           :mod (vv16 / tidur)))))))
+     :mod (vv17 / temu
+                :ARG1 (vv18 / mayat)))
+
+# ::snt Koroner yang pertama, Suzanne Greenaway, mengundurkan diri dari pekerjaannya sebulan setelah memberikan putusan, ketika sebuah investigasi mengungkapkan bahwa ia tidak mempunyai pengalaman yang cukup untuk jabatan itu.
+
+(vv1 / undur
+     :ARG0 (vv2 / koroner
+                :mod (vv3 / pertama)
+                :name (vv4 / suzanne
+                           :name (vv5 / greenaway)))
+     :ARG1 (vv6 / diri)
+     :ARG1 (vv7 / kerja
+                :mod (vv8 / bulan))
+     :ARG1 (vv9 / beri
+                :ARG1 (vv10 / putus))
+     :mod (vv11 / ungkap
+                :ARG0 (vv12 / investigasi)
+                :mod (vv13 / punya
+                           :ARG0 (vv14 / ia)
+                           :mod (vv15 / tidak)
+                           :ARG1 (vv16 / alam
+                                       :mod (vv17 / jabat
+                                                  :mod (vv18 / cukup))))))
+
+# ::snt Berdasarkan hukum di Inggris, ia harus mempunyai pengalaman lima tahun sebagai seorang praktisi medis atau hukum di Inggris sebelum menjadi koroner.
+
+# ::snt Adapun keluarga Amy Winehouse sebenarnya tidak meminta pemeriksaan kedua.
+
+(vv1 / minta
+     :ARG0 (vv2 / keluarga
+                :name (vv3 / amy
+                           :name (vv4 / winehouse)))
+     :mod (vv5 / benar)
+     :mod (vv6 / tidak)
+     :ARG1 (vv7 / periksa
+                :mod (vv8 / dua)))
+

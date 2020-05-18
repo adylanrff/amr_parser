@@ -1,0 +1,115 @@
+# ::snt "Setelah analisis teknis dan pertimbangan hukum berdasarkan Undang-Undang Nomor 5651 (mengatur Internet), sebuah tindakan administratif telah diambil untuk situs web ini," bunyi pernyataan Otoritas Teknologi Informasi dan Komunikasi Turki, tanpa memberikan rincian lebih lanjut seperti dikutip dari BBC, Minggu (30/4/2017).
+
+(vv1 / ambil
+     :ARG1 (vv2 / analisis
+                :mod (vv3 / teknis)
+                :mod (vv4 / timbang
+                          :mod (vv5 / dan)
+                          :mod (vv7 / undangundang
+                                    :mod (vv9 / nomor
+                                              :mod (vv11 / atur
+                                                         :ARG1 (vv13 / tindak
+                                                                     :mod (vv15 / telah))))
+                                    :mod (vv10 / 5651))
+                          :mod (vv8 / dasar)))
+     :mod (vv12 / internet)
+     :ARG1 (vv14 / administratif)
+     :mod (vv16 / situs
+                :mod (vv18 / bunyi
+                           :mod (vv20 / otoritas
+                                      :mod (vv22 / informasi)
+                                      :mod (vv24 / turki))))
+     :location (vv17 / web)
+     :ARG1 (vv19 / nyata
+                 :mod (vv21 / teknologi
+                            :mod (vv23 / komunikasi
+                                       :mod (vv6 / hukum)
+                                       :mod (vv25 / beri
+                                                  :ARG1 (vv27 / lanjut
+                                                              :mod (vv29 / kutip
+                                                                         :location (vv31 / minggu)))))))
+     :ARG1 (vv26 / rincian
+                 :mod (vv28 / lebih)
+                 :mod (vv30 / bbc
+                            :mod (vv32 / 3042017)
+                            :mod vv33)))
+
+# ::snt The Turkey Blocks dan media Turki, termasuk Hurriyet, mengatakan bahwa pemblokiran sementara itu membutuhkan keputusan pengadilan agar berlaku secara penuh dalam beberapa hari ke depan.
+
+(vv1 / masuk
+     :ARG0 (vv2 / turkey
+                :name (vv3 / blocks)
+                :mod (vv4 / media
+                          :mod (vv5 / dan)
+                          :mod (vv6 / turki)))
+     :ARG1 (vv7 / kata
+                :ARG0 (vv8 / hurriyet)
+                :ARG1 (vv9 / butuh
+                           :ARG0 (vv10 / blokir)
+                           :ARG1 (vv11 / putus
+                                       :mod (vv12 / adil))
+                           :ARG1 (vv13 / laku
+                                       :ARG1 (vv14 / penuh)
+                                       :time (vv15 / hari
+                                                   :mod (vv16 / depan))))))
+
+# ::snt Media sosial gempar saat berita tentang larangan tersebut muncul, dengan beberapa pengguna berspekulasi bahwa ini mungkin merupakan upaya untuk menekan kritik pada halaman Wikipedia terhadap Presiden Recep Tayyip Erdogan.
+
+(vv1 / muncul
+     :ARG0 (vv2 / media
+                :mod (vv3 / sosial
+                          :mod (vv4 / gempar))
+                :mod (vv5 / berita
+                          :mod (vv6 / saat)
+                          :mod (vv7 / larang)))
+     :location (vv8 / guna)
+     :ARG1 (vv9 / spekulasi
+                :mod (vv10 / rupa
+                           :ARG0 (vv11 / ini)
+                           :mod (vv12 / mungkin)
+                           :ARG1 (vv13 / upaya)
+                           :mod (vv14 / tekan
+                                      :ARG1 (vv15 / kritik)
+                                      :location (vv16 / halaman
+                                                      :mod (vv17 / wikipedia)
+                                                      :mod (vv18 / presiden
+                                                                 :name (vv19 / recep
+                                                                             :name (vv20 / tayyip
+                                                                                         :name (vv21 / erdogan)))))))))
+
+# ::snt Erdogan secara tipis memenangkan referendum 16 April lalu yang kontroversial untuk meningkatkan kekuatannya, namun isu tersebut telah sangat memecah negara.
+
+(vv1 / menang
+     :ARG0 (vv2 / erdogan)
+     :ARG1 (vv3 / tipis)
+     :ARG1 (vv4 / referendum
+                :mod (vv5 / april
+                          :mod (vv6 / 16))
+                :mod (vv7 / kontroversial
+                          :mod (vv8 / lalu)
+                          :mod (vv9 / tingkat
+                                    :ARG1 (vv10 / kuat))))
+     :ARG1 (vv11 / pecah
+                 :mod (vv12 / namun)
+                 :ARG0 (vv13 / isu)
+                 :mod (vv14 / telah)
+                 :mod (vv15 / sangat)
+                 :ARG1 (vv16 / negara)))
+
+# ::snt Wikipedia juga menghadapi penyensoran di negara lain, termasuk larangan sementara di Rusia, dan tindakan keras berulang di China.
+
+(vv1 / hadap
+     :ARG0 (vv2 / wikipedia)
+     :mod (vv3 / juga)
+     :ARG1 (vv4 / sensor
+                :mod (vv5 / negara
+                          :mod (vv6 / lain)))
+     :mod (vv7 / masuk
+               :ARG1 (vv8 / larang
+                          :mod (vv9 / rusia)
+                          :mod (vv10 / tindak
+                                     :mod (vv11 / dan)
+                                     :mod (vv12 / keras)
+                                     :mod (vv13 / ulang)
+                                     :mod (vv14 / china)))))
+

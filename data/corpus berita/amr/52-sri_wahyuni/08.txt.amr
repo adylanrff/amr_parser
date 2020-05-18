@@ -1,0 +1,48 @@
+# ::snt Dalam perlombaan yang digelar di Pavilion 2 Riocentro, Sri Wahyuni membukukan total angkatan 192 kg (85 kg Snatch dan 107 kg Clean & Jerk).
+
+(vv1 / buku
+     :ARG1 (vv2 / lomba
+                :mod (vv3 / gelar
+                          :location (vv4 / pavilion
+                                         :mod (vv5 / 2)
+                                         :name (vv6 / riocentro))))
+     :ARG0 (vv7 / sri
+                :name (vv8 / wahyuni))
+     :ARG1 (vv9 / total
+                :mod (vv10 / angkat
+                           :mod (vv11 / kg
+                                      :mod (vv14 / snatch
+                                                 :mod (vv12 / 192))
+                                      :mod (vv15 / clean
+                                                 :mod (vv13 / 85)
+                                                 :mod (vv18 / jerk)
+                                                 :name vv20)
+                                      :mod vv19)
+                           :name (vv16 / dan)
+                           :mod (vv17 / 107))))
+
+# ::snt Total angkatan atlet berusia 21 tahun itu lebih ringan delapan kg dari lifter Thailand, Sopita Tanasan, yang membukukan 200 kg (92 kg Snatch dan 108 kg Clean & Jerk) untuk menyabet emas.
+
+# ::snt Medali perunggu menjadi milik lifter Jepang, Hiromi Miyake, yang membukukan total angkatan 188 kg (81 kg Snatch dan 107 Clean & Jerk).
+
+(vv1 / jadi
+     :ARG0 (vv2 / medali
+                :mod (vv3 / perunggu))
+     :ARG1 (vv4 / milik
+                :mod (vv5 / lifter
+                          :name (vv6 / jepang
+                                     :name (vv7 / hiromi
+                                                :name (vv8 / miyake))))
+                :mod (vv9 / buku
+                          :ARG1 (vv10 / total
+                                      :mod (vv11 / angkat
+                                                 :mod (vv12 / kg
+                                                            :mod (vv13 / 188)
+                                                            :mod (vv14 / 81)
+                                                            :mod (vv15 / snatch
+                                                                       :mod (vv17 / dan)))
+                                                 :name (vv16 / clean
+                                                             :mod (vv18 / 107)
+                                                             :mod (vv19 / jerk)
+                                                             :name vv20))))))
+

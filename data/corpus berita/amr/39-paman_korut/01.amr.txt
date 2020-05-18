@@ -1,0 +1,165 @@
+# ::snt Paman pemimpin Korea Kim Jong-un dieksekusi karena terlibat korupsi, seperti dilaporkan kantor berita nasional KCNA.
+
+(vv1 / eksekusi
+     :ARG0 (vv2 / paman
+                :mod (vv3 / pimpin
+                          :mod (vv4 / korea
+                                    :name (vv5 / kim
+                                               :name (vv6 / jongun)))))
+     :mod (vv7 / libat
+               :ARG0 (vv8 / korupsi)
+               :mod (vv9 / lapor
+                         :ARG1 (vv10 / kantor
+                                     :mod (vv11 / berita
+                                                :mod (vv12 / nasional))
+                                     :name (vv13 / kcna)))))
+
+# ::snt Chang Song-thaek ditangkap di tengah rapat Partai Komunis oleh pasukan bersenjata awal pekan ini.
+
+(vv1 / tangkap
+     :ARG1 (vv2 / chang
+                :name (vv3 / songthaek))
+     :location (vv4 / tengah
+                    :mod (vv5 / rapat
+                              :mod (vv6 / partai
+                                        :name (vv7 / komunis))))
+     :location (vv8 / pasu
+                    :mod (vv9 / senjata
+                              :mod (vv10 / awal))
+                    :mod (vv11 / pekan)))
+
+# ::snt Ini adalah guncangan terbesar sejak Kim mengambil alih kepemimpinan dari mendiang ayahnya dua tahun lalu.
+
+(vv1 / guncang
+     :ARG0 (vv2 / ini)
+     :mod (vv3 / adalah)
+     :mod (vv4 / besar)
+     :mod (vv5 / ambil
+               :ARG0 (vv6 / kim)
+               :ARG1 (vv7 / alih
+                          :ARG1 (vv8 / pimpin
+                                     :mod (vv9 / mendiang
+                                               :mod (vv10 / ayah)
+                                               :mod (vv11 / tahun
+                                                          :mod (vv12 / dua)
+                                                          :mod (vv13 / lalu)))))))
+
+# ::snt KCNA mengatakan Chang diajukan ke pengadilan militer pada hari Kamis dengan tuduhan berusaha menggulingkan pemerintahan dan langsung dieksekusi.
+
+(vv1 / kata
+     :ARG0 (vv2 / kcna)
+     :mod (vv3 / aju
+               :ARG1 (vv4 / chang)
+               :location (vv5 / adil
+                              :mod (vv6 / militer))
+               :time (vv7 / hari
+                          :mod (vv8 / kamis)))
+     :ARG1 (vv9 / usaha
+                :ARG0 (vv10 / tuduh)
+                :ARG1 (vv11 / guling
+                            :ARG1 (vv12 / perintah))
+                :mod (vv13 / eksekusi
+                           :mod (vv14 / dan)
+                           :mod (vv15 / langsung))))
+
+# ::snt Chang, yang menjadi pembimbing keponakannya saat transisi kepemimpinan dari Kim Jong-il kepada anaknya Kim Jong-un pada 2011, "lebih buruk dari seekor anjing," kata KCNA.
+
+(vv1 / chang
+     :mod (vv2 / jadi
+               :ARG1 (vv3 / bimbing
+                          :mod (vv4 / keponakan))
+               :ARG1 (vv5 / transisi
+                          :mod (vv6 / saat)
+                          :mod (vv7 / pimpin)
+                          :mod (vv8 / kim
+                                    :name (vv10 / anak
+                                                :mod (vv9 / jongil)
+                                                :mod (vv13 / buruk
+                                                           :mod (vv15 / anjing
+                                                                      :mod (vv17 / kcna))
+                                                           :mod (vv16 / kata
+                                                                      :name vv18)))
+                                    :name (vv12 / 2011))
+                          :mod (vv11 / jongun))
+               :mod (vv14 / lebih)))
+
+# ::snt Ia mengaku telah menyalahgunakan kekuasaannya untuk membentuk faksi melawan negara demi mewujudkan ambisi politiknya, kata kantor berita tersebut.
+
+(vv1 / aku
+     :ARG0 (vv2 / ia)
+     :mod (vv3 / menyalahgunakan
+               :mod (vv4 / telah)
+               :ARG1 (vv5 / kuasa)
+               :ARG1 (vv6 / bentuk
+                          :ARG1 (vv7 / faksi
+                                     :mod (vv8 / negara
+                                               :mod (vv9 / lawan)))
+                          :ARG1 (vv10 / wujud
+                                      :ARG1 (vv11 / ambisi
+                                                  :mod (vv12 / politik)
+                                                  :mod (vv13 / kata
+                                                             :mod (vv14 / kantor
+                                                                        :mod (vv15 / berita))))))))
+
+# ::snt Chang yang menikah dengan kakak Kim, memegang posisi senior di partai berkuasa dan Komisi Pertahanan Nasional, badan militer tinggi Utara.
+
+(vv1 / pegang
+     :ARG0 (vv2 / chang
+                :mod (vv3 / meni
+                          :ARG1 (vv4 / kakak
+                                     :mod (vv5 / kim))))
+     :ARG1 (vv6 / posisi
+                :mod (vv7 / senior)
+                :mod (vv8 / partai
+                          :mod (vv9 / kuasa)
+                          :mod (vv10 / komisi
+                                     :mod (vv11 / dan)
+                                     :mod (vv12 / tahan
+                                                :name (vv13 / nasional))
+                                     :mod (vv14 / badan
+                                                :mod (vv15 / militer)
+                                                :mod (vv16 / tinggi)
+                                                :mod (vv17 / utara))))))
+
+# ::snt Di AS, Gedung Putih mengatakan tidak bisa memastikan laporan itu tetapi "tidak memiliki alasan untuk meragukannya."
+
+(vv1 / kata
+     :ARG1 (vv2 / as)
+     :ARG0 (vv3 / gedung
+                :mod (vv4 / putih))
+     :mod (vv5 / pasti
+               :mod (vv6 / tidak)
+               :mod (vv8 / lapor)
+               :ARG1 (vv9 / milik
+                          :mod (vv7 / bisa)
+                          :mod (vv11 / alas)
+                          :ARG1 (vv12 / ragu)
+                          :ARG1 vv13)
+               :mod (vv10 / tetapi)))
+
+# ::snt "Jika terbukti, ini adalah contoh lain dari brutalnya rezim Korea Utara. Kami mengikuti perkembangan di Korea Utara dengan seksama dan mengkonsultasikannya dengan semua sekutu dan mitra kami di kawasan," demikian pernyataan AS.
+
+(vv4 / ikut
+     :ARG1 (vv1 / contoh
+                :mod (vv2 / bukti)
+                :mod (vv3 / adalah)
+                :mod (vv5 / lain)
+                :mod (vv6 / brutal
+                          :mod (vv7 / rezim
+                                    :mod (vv8 / korea
+                                              :mod (vv10 / kami)
+                                              :mod (vv11 / kembang
+                                                         :mod (vv9 / utara))))))
+     :ARG0 (vv12 / seksama)
+     :ARG1 (vv13 / konsultasi
+                 :mod (vv16 / mitra
+                            :mod (vv17 / kawasan
+                                       :mod vv21
+                                       :mod vv22)
+                            :mod (vv20 / as))
+                 :location (vv18 / demikian))
+     :ARG1 (vv14 / dan)
+     :mod (vv15 / sekutu
+                :mod (vv19 / nyata
+                           :mod vv23)))
+

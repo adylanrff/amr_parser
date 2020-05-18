@@ -1,0 +1,457 @@
+# ::id g-gempa-dieng-json.1
+# ::snt Stasiun Geofisika Badan Meteorologi Klimatologi dan Geofisika Banjarnegara, Jawa Tengah, menyatakan bahwa gempa yang mengguncang Dataran Tinggi Dieng pukul 19.00 WIB berkekuatan 4,8 pada skala richter.
+# ::tokens ["Stasiun", "Geofisika", "Badan", "Meteorologi", "Klimatologi", "dan", "Geofisika", "Banjarnegara", "Jawa", "Tengah", "menyatakan", "bahwa", "gempa", "yang", "mengguncang", "Dataran", "Tinggi", "Dieng", "pukul", "1900", "WIB", "berkekuatan", "48", "pada", "skala", "richter"]
+# ::lemmas ["stasiun_1", "geofisika_1", "badan_1", "meteorologi_1", "klimatologi_1", "dan_1", "geofisika_2", "banjarnegara_1", "jawa_1", "tengah_1", "nyata_1", "bahwa_1", "gempa_1", "yang_1", "guncang_1", "datar_1", "tinggi_1", "dieng_1", "pukul_1", "1900_1", "wib_1", "kuat_1", "48_1", "pada_1", "skala_1", "richter_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "CC", "NNP", "NNP", "NNP", "NNP", "VB", "SC", "NN", "SC", "VB", "NNP", "NNP", "NNP", "NN", "CD", "NN", "VB", "CD", "IN", "NN", "NN"]
+# ::ner_tags ["NOR", "O", "O", "O", "O", "O", "NOR", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "CRD", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / nyata
+      :ARG0 (vv2 / stasiun
+            :location (vv3 / banjarnegara
+                  :location (vv4 / jawa
+                        :mod (vv5 / tengah)))
+            :mod (vv6 / badan
+                  :name (vv7 / meteorologi
+                        :name (vv8 / klimatologi
+                              :name (vv9 / geofisika))))
+            :mod (vv10 / geofisika))
+      :ARG1 (vv11 / guncang
+            :ARG0 (vv12 / gempa
+                  :mod (vv13 / kuat
+                        :mod (vv14 / 4.8
+                              :mod (vv15 / skala
+                                    :mod (vv16 / richter)))))
+            :ARG1 (vv17 / dataran
+                  :mod (vv18 / tinggi
+                        :name (vv19 / dieng)))
+            :time (vv20 / pukul
+                  :mod (vv21 / 19.0
+                        :mod (vv22 / wib)))))
+
+# ::id g-gempa-dieng-json.2
+# ::snt Pusat gempa diperkirakan berada di Desa Tanji Gugur, Kecamatan Bawang, Kabupaten Batang.
+# ::tokens ["Pusat", "gempa", "diperkirakan", "berada", "di", "Desa", "Tanji", "Gugur", "Kecamatan", "Bawang", "Kabupaten", "Batang"]
+# ::lemmas ["pusat_1", "gempa_1", "kira_1", "ada_1", "di_1", "desa_1", "tanji_1", "gugur_1", "camat_1", "bawang_1", "kabupaten_1", "batang_1"]
+# ::pos_tags ["NN", "NN", "VB", "VB", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "GPE", "LOC", "O", "GPE", "LOC", "GPE", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kira
+      :ARG1 (vv2 / pusat
+            :mod (vv3 / gempa))
+      :mod (vv4 / ada
+            :location (vv5 / desa
+                  :location (vv6 / kecamatan
+                        :location (vv7 / kabupaten
+                              :name (vv8 / batang))
+                        :name (vv9 / bawang))
+                  :name (vv10 / tanji
+                        :name (vv11 / gugur)))))
+
+# ::id g-gempa-dieng-json.3
+# ::snt PVMBG merekomendasikan seluruh jalan yang mendekati Kawah Timbang di Desa Sumberejo sementara ditutup.
+# ::tokens ["PVMBG", "merekomendasikan", "seluruh", "jalan", "yang", "mendekati", "Kawah", "Timbang", "di", "Desa", "Sumberejo", "sementara", "ditutup"]
+# ::lemmas ["pvmbg_1", "rekomendasi_1", "seluruh_1", "jalan_1", "yang_1", "dekat_1", "kawah_1", "timbang_1", "di_1", "desa_1", "sumberejo_1", "sementara_1", "tutup_1"]
+# ::pos_tags ["NNP", "VB", "CD", "NN", "SC", "VB", "NNP", "NNP", "IN", "NNP", "NNP", "SC", "VB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "ORG", "LOC", "O", "GPE", "PER", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / rekomendasi
+      :ARG0 (vv2 / pvmbg)
+      :ARG1 (vv3 / tutup
+            :ARG0 (vv5 / jalan
+                  :mod (vv6 / dekat
+                        :ARG1 (vv7 / kawah
+                              :location (vv8 / desa
+                                    :name (vv9 / sumberejo))
+                              :name (vv10 / timbang)))
+                  :mod (vv11 / seluruh))
+            :mod (vv4 / sementara)))
+
+# ::id g-gempa-dieng-json.4
+# ::snt Kepala Pusat Vulkanologi dan Mitigasi Bencana Geologi Surono mengatakan bahwa gempa yang terjadi di Dataran Tinggi Dieng pukul 19.00 WIB terekam sebanyak 86 kali.
+# ::tokens ["Kepala", "Pusat", "Vulkanologi", "dan", "Mitigasi", "Bencana", "Geologi", "Surono", "mengatakan", "bahwa", "gempa", "yang", "terjadi", "di", "Dataran", "Tinggi", "Dieng", "pukul", "1900", "WIB", "terekam", "sebanyak", "86", "kali"]
+# ::lemmas ["kepala_1", "pusat_1", "vulkanologi_1", "dan_1", "mitigasi_1", "bencana_1", "geologi_1", "surono_1", "kata_1", "bahwa_1", "gempa_1", "yang_1", "jadi_1", "di_1", "datar_1", "tinggi_1", "dieng_1", "pukul_1", "1900_1", "wib_1", "rekam_1", "banyak_1", "86_1", "kali_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "CC", "NNP", "NNP", "NNP", "NNP", "VB", "SC", "NN", "SC", "VB", "IN", "NNP", "NNP", "NNP", "NN", "CD", "NN", "VB", "CD", "CD", "NND"]
+# ::ner_tags ["ORG", "O", "O", "O", "O", "NOR", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "O", "CRD", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / kepala
+            :mod (vv4 / pusat
+                  :mod (vv5 / vulkanologi
+                        :mod (vv6 / mitigasi
+                              :mod (vv7 / bencana
+                                    :mod (vv8 / geologi)))))
+            :name (vv3 / surono))
+      :ARG1 (vv9 / rekam
+            :ARG1 (vv13 / gempa
+                  :mod (vv14 / jadi
+                        :location (vv18 / dataran
+                              :mod (vv19 / tinggi
+                                    :name (vv20 / dieng)))
+                        :time (vv15 / pukul
+                              :mod (vv16 / 19.0
+                                    :mod (vv17 / wib)))))
+            :mod (vv10 / banyak
+                  :mod (vv11 / 86
+                        :mod (vv12 / kali)))))
+
+# ::id g-gempa-dieng-json.5
+# ::snt Penutupan ini dilakukan hingga tim di lapangan yang mengukur konsentrasi gas menyatakan tidak ada gas yang berbahaya.
+# ::tokens ["Penutupan", "ini", "dilakukan", "hingga", "tim", "di", "lapangan", "yang", "mengukur", "konsentrasi", "gas", "menyatakan", "tidak", "ada", "gas", "yang", "berbahaya"]
+# ::lemmas ["tutup_1", "ini_1", "laku_1", "hingga_1", "tim_1", "di_1", "lapang_1", "yang_1", "ukur_1", "konsentrasi_1", "gas_1", "nyata_1", "tidak_1", "ada_1", "gas_2", "yang_2", "bahaya_1"]
+# ::pos_tags ["NN", "PR", "VB", "IN", "NN", "IN", "NN", "SC", "VB", "NN", "NN", "VB", "NEG", "VB", "NN", "SC", "VB"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / laku
+      :ARG1 (vv2 / tutup)
+      :time (vv3 / hingga
+            :mod (vv4 / nyata
+                  :ARG0 (vv5 / tim
+                        :location (vv9 / lapangan)
+                        :mod (vv6 / ukur
+                              :ARG1 (vv7 / konsentrasi
+                                    :mod (vv8 / gas))))
+                  :ARG1 (vv10 / ada
+                        :ARG1 (vv12 / gas
+                              :mod (vv13 / bahaya))
+                        :mod (vv11 / tidak)))))
+
+# ::id g-gempa-dieng-json.6
+# ::snt PVMBG merekomendasikan seluruh jalan yang mendekati Kawah Timbang di Desa Sumberejo sementara ditutup.
+# ::tokens ["PVMBG", "merekomendasikan", "seluruh", "jalan", "yang", "mendekati", "Kawah", "Timbang", "di", "Desa", "Sumberejo", "sementara", "ditutup"]
+# ::lemmas ["pvmbg_1", "rekomendasi_1", "seluruh_1", "jalan_1", "yang_1", "dekat_1", "kawah_1", "timbang_1", "di_1", "desa_1", "sumberejo_1", "sementara_1", "tutup_1"]
+# ::pos_tags ["NNP", "VB", "CD", "NN", "SC", "VB", "NNP", "NNP", "IN", "NNP", "NNP", "SC", "VB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "ORG", "LOC", "O", "GPE", "PER", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / rekomendasi
+      :ARG0 (vv2 / pvmbg)
+      :ARG1 (vv3 / tutup
+            :ARG0 (vv5 / jalan
+                  :mod (vv6 / dekat
+                        :ARG1 (vv7 / kawah
+                              :location (vv8 / desa
+                                    :name (vv9 / sumberejo))
+                              :name (vv10 / timbang)))
+                  :mod (vv11 / seluruh))
+            :mod (vv4 / sementara)))
+
+# ::id g-gempa-dieng-json.7
+# ::snt Petugas Pusat Vulkanologi dan Mitigasi Bencana Geologi diterjunkan untuk memantau aktivitas Kawah Timbang dan memberikan informasi.
+# ::tokens ["Petugas", "Pusat", "Vulkanologi", "dan", "Mitigasi", "Bencana", "Geologi", "diterjunkan", "untuk", "memantau", "aktivitas", "Kawah", "Timbang", "dan", "memberikan", "informasi"]
+# ::lemmas ["tugas_1", "pusat_1", "vulkanologi_1", "dan_1", "mitigasi_1", "bencana_1", "geologi_1", "terjun_1", "untuk_1", "pantau_1", "aktivitas_1", "kawah_1", "timbang_1", "dan_2", "beri_1", "informasi_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "CC", "NNP", "NNP", "NNP", "VB", "SC", "VB", "NN", "NNP", "NNP", "CC", "VB", "NN"]
+# ::ner_tags ["O", "O", "O", "O", "O", "NOR", "PER", "O", "O", "O", "O", "PER", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / terjun-01
+      :ARG0 (vv8 / pantau
+            :ARG1 (vv10 / aktivitas
+                  :mod (vv11 / kawah
+                        :name (vv12 / timbang)))
+            :mod (vv9 / untuk))
+      :ARG1 (vv2 / tugas
+            :mod (vv3 / pusat
+                  :mod (vv4 / vulkanologi
+                        :mod (vv5 / mitigasi
+                              :mod (vv6 / bencana
+                                    :mod (vv7 / geologi))))))
+      :mod (vv13 / dan
+            :mod (vv14 / beri
+                  :ARG1 (vv15 / informasi))))
+
+# ::id g-gempa-dieng-json.8
+# ::snt Data yang dikeluarkan dari Pusat Vulkanologi dan Mitigasi Bencana Geologi menyebutkan gempa mulai terasa pukul 19.00 WIB dan telah terekam gempa sebanyak 86 kali.
+# ::tokens ["Data", "yang", "dikeluarkan", "dari", "Pusat", "Vulkanologi", "dan", "Mitigasi", "Bencana", "Geologi", "menyebutkan", "gempa", "mulai", "terasa", "pukul", "1900", "WIB", "dan", "telah", "terekam", "gempa", "sebanyak", "86", "kali"]
+# ::lemmas ["data_1", "yang_1", "keluar_1", "dari_1", "pusat_1", "vulkanologi_1", "dan_1", "mitigasi_1", "bencana_1", "geologi_1", "sebut_1", "gempa_1", "mulai_1", "asa_1", "pukul_1", "1900_1", "wib_1", "dan_2", "telah_1", "rekam_1", "gempa_2", "banyak_1", "86_1", "kali_1"]
+# ::pos_tags ["NN", "SC", "VB", "IN", "NNP", "NNP", "CC", "NNP", "NNP", "NNP", "VB", "NN", "VB", "NN", "NN", "CD", "NN", "CC", "MD", "VB", "NN", "CD", "CD", "NND"]
+# ::ner_tags ["O", "O", "O", "O", "LOC", "O", "O", "O", "ORG", "PER", "O", "O", "O", "O", "O", "PRC", "O", "O", "O", "O", "O", "O", "CRD", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / sebut
+      :ARG0 (vv2 / data
+            :mod (vv3 / keluar
+                  :location (vv4 / pusat
+                        :mod (vv5 / vulkanologi
+                              :mod (vv6 / mitigasi
+                                    :mod (vv7 / bencana
+                                          :mod (vv8 / geologi)))))))
+      :ARG1 (vv9 / rasa
+            :ARG0 (vv18 / gempa)
+            :mod (vv10 / telah
+                  :mod (vv11 / dan)
+                  :mod (vv12 / rekam
+                        :ARG1 (vv13 / gempa)
+                        :mod (vv14 / banyak
+                              :mod (vv15 / 86
+                                    :mod (vv16 / kali)))))
+            :mod (vv17 / mulai)
+            :time (vv19 / pukul
+                  :mod (vv20 / 19.0
+                        :mod (vv21 / wib)))))
+
+# ::id g-gempa-dieng-json.9
+# ::snt pengungsi di Kabupaten Banjarnegara, pada Sabtu pagi mulai meninggalkan pengungsian.
+# ::tokens ["pengungsi", "di", "Kabupaten", "Banjarnegara", "pada", "Sabtu", "pagi", "mulai", "meninggalkan", "pengungsian"]
+# ::lemmas ["ungsi_1", "di_1", "kabupaten_1", "banjarnegara_1", "pada_1", "sabtu_1", "pagi_1", "mulai_1", "tinggal_1", "ungsi_2"]
+# ::pos_tags ["NN", "IN", "NNP", "NNP", "IN", "NNP", "NN", "VB", "VB", "NN"]
+# ::ner_tags ["O", "O", "GPE", "O", "O", "DAT", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / tinggal
+      :ARG0 (vv2 / ungsi
+            :location (vv3 / kabupaten
+                  :name (vv4 / banjarnegara)))
+      :ARG1 (vv5 / ungsi)
+      :time (vv6 / sabtu
+            :mod (vv7 / pagi)))
+
+# ::id g-gempa-dieng-json.10
+# ::snt Stasiun Geofisika Badan Meteorologi Klimatologi dan Geofisika Banjarnegara menyatakan gempa yang mengguncang Dataran Tinggi Dieng pukul 19.00 WIB berkekuatan 4,8 Skala Richter *(SR)*.
+# ::tokens ["Stasiun", "Geofisika", "Badan", "Meteorologi", "Klimatologi", "dan", "Geofisika", "Banjarnegara", "menyatakan", "gempa", "yang", "mengguncang", "Dataran", "Tinggi", "Dieng", "pukul", "1900", "WIB", "berkekuatan", "48", "Skala", "Richter", "SR"]
+# ::lemmas ["stasiun_1", "geofisika_1", "badan_1", "meteorologi_1", "klimatologi_1", "dan_1", "geofisika_2", "banjarnegara_1", "nyata_1", "gempa_1", "yang_1", "guncang_1", "datar_1", "tinggi_1", "dieng_1", "pukul_1", "1900_1", "wib_1", "kuat_1", "48_1", "skala_1", "richter_1", "sr_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "CC", "NNP", "NNP", "VB", "NN", "SC", "VB", "NNP", "NNP", "NNP", "NN", "CD", "NN", "VB", "CD", "NNP", "NNP", "NNP"]
+# ::ner_tags ["NOR", "O", "O", "O", "O", "O", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "CRD", "O", "GPE", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / nyata
+      :ARG0 (vv2 / stasiun
+            :location (vv3 / banjarnegara)
+            :mod (vv6 / badan
+                  :name (vv7 / meteorologi
+                        :name (vv8 / klimatologi
+                              :name (vv9 / geofisika))))
+            :mod (vv10 / geofisika))
+      :ARG1 (vv11 / guncang
+            :ARG0 (vv12 / gempa
+                  :mod (vv13 / kuat
+                        :mod (vv14 / 4.8
+                              :mod (vv15 / skala
+                                    :mod (vv16 / richter)))))
+            :ARG1 (vv17 / dataran
+                  :mod (vv18 / tinggi
+                        :name (vv19 / dieng)))
+            :time (vv20 / pukul
+                  :mod (vv21 / 19.0
+                        :mod (vv22 / wib)))))
+
+# ::id g-gempa-dieng-json.11
+# ::snt Bibit meminta masyarakat tetap tenang dan tidak panik.
+# ::tokens ["Bibit", "meminta", "masyarakat", "tetap", "tenang", "dan", "tidak", "panik"]
+# ::lemmas ["bibit_1", "minta_1", "masyarakat_1", "tetap_1", "tenang_1", "dan_1", "tidak_1", "panik_1"]
+# ::pos_tags ["NNP", "VB", "NN", "RB", "JJ", "CC", "NEG", "JJ"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / minta
+      :ARG0 (vv2 / bibit)
+      :ARG1 (vv3 / tenang
+            :ARG0 (vv7 / masyarakat)
+            :mod (vv4 / dan
+                  :mod (vv5 / panik
+                        :mod (vv6 / tidak)))))
+
+# ::id g-gempa-dieng-json.12
+# ::snt Gubernur Jawa Tengah Bibit Waluyo mengimbau warga yang tinggal di sekitar Kawah Timbang tetap tenang.
+# ::tokens ["Gubernur", "Jawa", "Tengah", "Bibit", "Waluyo", "mengimbau", "warga", "yang", "tinggal", "di", "sekitar", "Kawah", "Timbang", "tetap", "tenang"]
+# ::lemmas ["gubernur_1", "jawa_1", "tengah_1", "bibit_1", "waluyo_1", "imbau_1", "warga_1", "yang_1", "tinggal_1", "di_1", "sekitar_1", "kawah_1", "timbang_1", "tetap_1", "tenang_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "NNP", "NNP", "VB", "NN", "SC", "VB", "IN", "IN", "NNP", "NNP", "RB", "JJ"]
+# ::ner_tags ["NOR", "O", "PER", "ORG", "PER", "O", "O", "O", "O", "O", "O", "PER", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / imbau
+      :ARG0 (vv2 / gubernur
+            :location (vv5 / Jawa
+                  :mod (vv6 / tengah))
+            :name (vv3 / bibit
+                  :name (vv4 / waluyo)))
+      :ARG1 (vv7 / tenang
+            :ARG0 (vv9 / warga
+                  :mod (vv10 / tinggal
+                        :location (vv11 / sekitar
+                              :mod (vv12 / kawah
+                                    :name (vv13 / timbang)))))
+            :mod (vv8 / tetap)))
+
+# ::id g-gempa-dieng-json.13
+# ::snt PVMBG merekomendasikan untuk menutup sementara ruas Jalan Dieng - Batur untuk mengantisipasi kemungkinan adanya gas beracun.
+# ::tokens ["PVMBG", "merekomendasikan", "untuk", "menutup", "sementara", "ruas", "Jalan", "Dieng", "Batur", "untuk", "mengantisipasi", "kemungkinan", "adanya", "gas", "beracun"]
+# ::lemmas ["pvmbg_1", "rekomendasi_1", "untuk_1", "tutup_1", "sementara_1", "ruas_1", "jalan_1", "dieng_1", "batur_1", "untuk_2", "antisipasi_1", "mungkin_1", "ada_1", "gas_1", "racun_1"]
+# ::pos_tags ["NNP", "VB", "SC", "VB", "SC", "VB", "NNP", "NNP", "NNP", "SC", "VB", "NN", "NN", "NN", "VB"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "LOC", "O", "PER", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / rekomendasi
+      :ARG0 (vv2 / PVMBG)
+      :ARG1 (vv3 / tutup
+            :ARG1 (vv4 / ruas
+                  :mod (vv5 / jalan
+                        :name (vv6 / dieng
+                              :name (vv7 / batur))))
+            :mod (vv8 / untuk
+                  :mod (vv9 / antisipasi
+                        :ARG1 (vv10 / mungkin
+                              :mod (vv11 / ada
+                                    :ARG1 (vv12 / gas
+                                          :mod (vv13 / racun))))))))
+
+# ::id g-gempa-dieng-json.14
+# ::snt Kepala Pusat Vulkanologi dan Mitigasi Bencana Geologi Surono mengatakan bahwa gempa yang terjadi di Dataran Tinggi Dieng pukul 19.00 WIB terekam sebanyak 86 kali.
+# ::tokens ["Kepala", "Pusat", "Vulkanologi", "dan", "Mitigasi", "Bencana", "Geologi", "Surono", "mengatakan", "bahwa", "gempa", "yang", "terjadi", "di", "Dataran", "Tinggi", "Dieng", "pukul", "1900", "WIB", "terekam", "sebanyak", "86", "kali"]
+# ::lemmas ["kepala_1", "pusat_1", "vulkanologi_1", "dan_1", "mitigasi_1", "bencana_1", "geologi_1", "surono_1", "kata_1", "bahwa_1", "gempa_1", "yang_1", "jadi_1", "di_1", "datar_1", "tinggi_1", "dieng_1", "pukul_1", "1900_1", "wib_1", "rekam_1", "banyak_1", "86_1", "kali_1"]
+# ::pos_tags ["NNP", "NNP", "NNP", "CC", "NNP", "NNP", "NNP", "NNP", "VB", "SC", "NN", "SC", "VB", "IN", "NNP", "NNP", "NNP", "NN", "CD", "NN", "VB", "CD", "CD", "NND"]
+# ::ner_tags ["ORG", "O", "O", "O", "O", "NOR", "PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRC", "O", "O", "O", "CRD", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / kepala
+            :mod (vv4 / pusat
+                  :mod (vv5 / vulkanologi
+                        :mod (vv6 / mitigasi
+                              :mod (vv7 / bencana
+                                    :mod (vv8 / geologi)))))
+            :name (vv3 / surono))
+      :ARG1 (vv9 / rekam
+            :ARG1 (vv13 / gempa
+                  :mod (vv14 / jadi
+                        :location (vv18 / dataran
+                              :mod (vv19 / tinggi
+                                    :name (vv20 / dieng)))
+                        :time (vv15 / pukul
+                              :mod (vv16 / 19.0
+                                    :mod (vv17 / wib)))))
+            :mod (vv10 / banyak
+                  :mod (vv11 / 86
+                        :mod (vv12 / kali)))))
+
+# ::id g-gempa-dieng-json.16
+# ::snt informasi akibat gempa semalam tidak terdeteksi gas beracun sekitar Kawah Timbang, Desa Sumberejo, Kabupaten Banjarnegara.
+# ::tokens ["informasi", "akibat", "gempa", "semalam", "tidak", "terdeteksi", "gas", "beracun", "sekitar", "Kawah", "Timbang", "Desa", "Sumberejo", "Kabupaten", "Banjarnegara"]
+# ::lemmas ["informasi_1", "akibat_1", "gempa_1", "malam_1", "tidak_1", "deteksi_1", "gas_1", "racun_1", "sekitar_1", "kawah_1", "timbang_1", "desa_1", "sumberejo_1", "kabupaten_1", "banjarnegara_1"]
+# ::pos_tags ["NN", "NN", "NN", "NN", "NEG", "VB", "NN", "VB", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "NOR", "O", "O", "O", "PER"]
+# ::snt-type body
+# ::preferred
+(vv1 / deteksi
+      :ARG0 (vv3 / informasi
+            :mod (vv4 / akibat
+                  :mod (vv5 / gempa
+                        :time (vv6 / malam))))
+      :ARG1 (vv7 / gas
+            :mod (vv8 / racun))
+      :location (vv9 / sekitar
+            :mod (vv10 / kawah
+                  :location (vv11 / desa
+                        :location (vv12 / kabupaten
+                              :name (vv13 / banjarnegara))
+                        :name (vv14 / sumberejo))
+                  :name (vv15 / timbang)))
+      :mod (vv2 / tidak))
+
+# ::id g-gempa-dieng-json.17
+# ::snt Maulana Afandy mengatakan ada sekitar 380 orang yang diungsikan ke Dukuh Bintoro Mulyo akibat gempa di dataran tinggi Dieng.
+# ::tokens ["Maulana", "Afandy", "mengatakan", "ada", "sekitar", "380", "orang", "yang", "diungsikan", "ke", "Dukuh", "Bintoro", "Mulyo", "akibat", "gempa", "di", "dataran", "tinggi", "Dieng"]
+# ::lemmas ["maulana_1", "afandy_1", "kata_1", "ada_1", "sekitar_1", "380_1", "orang_1", "yang_1", "ungsi_1", "ke_1", "dukuh_1", "bintoro_1", "mulyo_1", "akibat_1", "gempa_1", "di_1", "datar_1", "tinggi_1", "dieng_1"]
+# ::pos_tags ["NNP", "NNP", "VB", "VB", "IN", "CD", "NN", "SC", "VB", "IN", "NNP", "NNP", "NNP", "NN", "NN", "IN", "NN", "JJ", "NNP"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "CRD", "O", "O", "O", "O", "ORG", "NOR", "PER", "O", "O", "O", "O", "O", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / maulana
+            :name (vv3 / afandy))
+      :ARG1 (vv4 / ada
+            :mod (vv5 / ungsi
+                  :ARG1 (vv14 / orang
+                        :mod (vv15 / 380))
+                  :location (vv11 / dukuh
+                        :name (vv12 / bintaro
+                              :name (vv13 / mulyo)))
+                  :mod (vv6 / akibaat
+                        :mod (vv7 / gempa
+                              :location (vv8 / dataran
+                                    :mod (vv9 / tinggi
+                                          :name (vv10 / dieng))))))))
+
+# ::id g-gempa-dieng-json.18
+# ::snt Akibat gempa semalam tidak terdeteksi gas beracun sekitar Kawah Timbang, Desa Sumberejo, Kabupaten Banjarnegara, Jawa Tengah.
+# ::tokens ["Akibat", "gempa", "semalam", "tidak", "terdeteksi", "gas", "beracun", "sekitar", "Kawah", "Timbang", "Desa", "Sumberejo", "Kabupaten", "Banjarnegara", "Jawa", "Tengah"]
+# ::lemmas ["akibat_1", "gempa_1", "malam_1", "tidak_1", "deteksi_1", "gas_1", "racun_1", "sekitar_1", "kawah_1", "timbang_1", "desa_1", "sumberejo_1", "kabupaten_1", "banjarnegara_1", "jawa_1", "tengah_1"]
+# ::pos_tags ["NN", "NN", "NN", "NEG", "VB", "NN", "VB", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "ORG", "NOR", "O", "O", "O", "O", "O", "PER"]
+# ::snt-type body
+# ::preferred
+(vv1 / deteksi
+      :ARG0 (vv3 / akibat
+            :mod (vv4 / gempa
+                  :time (vv5 / malam)))
+      :ARG1 (vv6 / gas
+            :mod (vv7 / racun))
+      :location (vv8 / sekitar
+            :location (vv9 / kawah
+                  :location (vv10 / desa
+                        :location (vv11 / kabupaten
+                              :location (vv12 / jawa
+                                    :name (vv13 / jawa
+                                          :name (vv14 / tengah)))
+                              :name (vv15 / banjarnegara))
+                        :name (vv16 / sumberejo))
+                  :name (vv17 / timbang)))
+      :mod (vv2 / tidak))
+
+# ::id g-gempa-dieng-json.19
+# ::snt Dani Irawan mengatakan kebutuhan logistik pengungsi dibantu oleh warga sekitar yang dikoordinasikan oleh Karang Taruna Desa Gembol.
+# ::tokens ["Dani", "Irawan", "mengatakan", "kebutuhan", "logistik", "pengungsi", "dibantu", "oleh", "warga", "sekitar", "yang", "dikoordinasikan", "oleh", "Karang", "Taruna", "Desa", "Gembol"]
+# ::lemmas ["dani_1", "irawan_1", "kata_1", "butuh_1", "logistik_1", "ungsi_1", "bantu_1", "oleh_1", "warga_1", "sekitar_1", "yang_1", "koordinasi_1", "oleh_2", "karang_1", "taruna_1", "desa_1", "gembol_1"]
+# ::pos_tags ["NNP", "NNP", "VB", "NN", "NN", "NN", "VB", "IN", "NN", "IN", "SC", "VB", "IN", "NNP", "NNP", "NNP", "NNP"]
+# ::ner_tags ["PER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "LOC", "O", "NOR", "LOC"]
+# ::snt-type body
+# ::preferred
+(vv1 / kata
+      :ARG0 (vv2 / dani
+            :name (vv3 / irawan))
+      :ARG1 (vv4 / bantu
+            :ARG0 (vv7 / koordinasi
+                  :ARG0 (vv8 / karang
+                        :location (vv9 / desa
+                              :name (vv10 / gembol))
+                        :name (vv11 / taruna))
+                  :ARG1 (vv12 / warga
+                        :mod (vv13 / oleh)
+                        :mod (vv14 / sekitar)))
+            :ARG1 (vv5 / butuh
+                  :mod (vv6 / logistik))))
+
+# ::id g-gempa-dieng-json.20
+# ::snt Gempa besar yang mengguncang kawasan Kawah Timbang di Desa Sumberejo, Kecamatan Batur, Kabupaten Banjarnegara, Jumat 19 April 2013 malam, juga terasa di wilayah Kabupaten Batang.
+# ::tokens ["Gempa", "besar", "yang", "mengguncang", "kawasan", "Kawah", "Timbang", "di", "Desa", "Sumberejo", "Kecamatan", "Batur", "Kabupaten", "Banjarnegara", "Jumat", "19", "April", "2013", "malam", "juga", "terasa", "di", "wilayah", "Kabupaten", "Batang"]
+# ::lemmas ["gempa_1", "besar_1", "yang_1", "guncang_1", "kawasan_1", "kawah_1", "timbang_1", "di_1", "desa_1", "sumberejo_1", "camat_1", "batur_1", "kabupaten_1", "banjarnegara_1", "jumat_1", "19_1", "april_1", "2013_1", "malam_1", "juga_1", "asa_1", "di_2", "wilayah_1", "kabupaten_2", "batang_1"]
+# ::pos_tags ["NN", "JJ", "SC", "VB", "NN", "NNP", "NNP", "IN", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "CD", "NNP", "CD", "NN", "RB", "VB", "IN", "NN", "NNP", "NNP"]
+# ::ner_tags ["O", "O", "O", "O", "O", "LOC", "O", "O", "GPE", "O", "O", "O", "DAT", "GPE", "DAT", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O"]
+# ::snt-type body
+# ::preferred
+(vv1 / rasa
+      :ARG1 (vv2 / gempa
+            :mod (vv8 / guncang
+                  :location (vv9 / kawasan
+                        :mod (vv10 / kawah
+                              :location (vv11 / desa
+                                    :location (vv12 / kecamatan
+                                          :location (vv13 / kabupaten
+                                                :name (vv14 / banjarnegara))
+                                          :name (vv15 / batur))
+                                    :name (vv16 / sumberejo))
+                              :name (vv17 / timbang))))
+            :mod (vv18 / besar)
+            :time (vv3 / jumat
+                  :time (vv4 / 19
+                        :time (vv5 / april
+                              :time (vv6 / 2013
+                                    :time (vv7 / malam))))))
+      :location (vv19 / wilayah
+            :mod (vv20 / kabupaten
+                  :name (vv21 / batang))))
+

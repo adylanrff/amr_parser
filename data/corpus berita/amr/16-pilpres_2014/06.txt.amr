@@ -1,0 +1,62 @@
+# ::snt Setelah semua proses tersebut kini Jokowi dan JK berhasil menang karena unggul di sejumlah provinsi di antaranya; Sumatera Utara, Jambi, Bengkulu, Lampung, Bangka Belitung, Riau, DKI Jakarta, Jawa Tengah, DIY, Jatim, Bali, NTT, Kalbar, Kalteng, Kaltim, Sulut, Sulsel, Sulteng, Sulbar, Maluku, Papua dan Papua Barat.
+
+(vv1 / hasil
+     :ARG1 (vv2 / proses)
+     :location (vv3 / kini)
+     :ARG0 (vv4 / jokowi
+                :mod (vv5 / jk
+                          :mod (vv6 / dan)))
+     :ARG1 (vv8 / unggul
+                :ARG1 (vv10 / sumatera
+                            :mod (vv12 / utara)
+                            :mod (vv13 / jambi)
+                            :name (vv14 / bengkulu
+                                        :name (vv16 / bangka
+                                                    :name (vv18 / riau
+                                                                :mod (vv20 / jakarta
+                                                                           :mod (vv22 / tengah
+                                                                                      :mod (vv24 / jatim
+                                                                                                 :name (vv26 / ntt
+                                                                                                             :name (vv28 / kalteng
+                                                                                                                         :name (vv30 / sulut
+                                                                                                                                     :name (vv32 / sulteng
+                                                                                                                                                 :name (vv34 / malu
+                                                                                                                                                             :name (vv36 / barat))))))))))))
+                            :name (vv15 / lampung
+                                        :name (vv17 / belitung
+                                                    :name (vv19 / dki
+                                                                :name (vv21 / jawa
+                                                                            :mod (vv23 / diy
+                                                                                       :name (vv25 / bal
+                                                                                                   :name (vv27 / kalbar
+                                                                                                               :name (vv29 / kaltim
+                                                                                                                           :name (vv31 / sulsel
+                                                                                                                                       :name (vv33 / sulbar
+                                                                                                                                                   :name (vv35 / papua
+                                                                                                                                                               :mod (vv7 / menang)
+                                                                                                                                                               :mod vv38)))))))))))
+                            :mod vv37))
+     :mod (vv9 / provinsi
+               :mod (vv11 / antara)))
+
+# ::snt Sementara pasangan Prabowo - Hatta berhasil menang di provinsi Aceh, Sumbar, Sumsel, Jawa Barat, Banten, NTB, Kalsel, Gorontalo, dan Maluku Utara.
+
+(vv1 / hasil
+     :ARG0 (vv2 / pasang
+                :name (vv3 / prabowo
+                           :name (vv4 / hatta)))
+     :ARG1 (vv5 / menang
+                :location (vv6 / provinsi
+                               :mod (vv7 / aceh
+                                         :name (vv8 / sumbar
+                                                    :name (vv9 / sumsel
+                                                               :name (vv10 / jawa
+                                                                           :mod (vv11 / barat)
+                                                                           :mod (vv12 / banten
+                                                                                      :name (vv13 / ntb
+                                                                                                  :name (vv14 / kalsel
+                                                                                                              :name (vv15 / gorontalo))))))))
+                               :mod (vv16 / malu
+                                          :mod (vv17 / dan)
+                                          :mod (vv18 / utara)))))
+

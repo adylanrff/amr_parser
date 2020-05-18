@@ -1,0 +1,159 @@
+# ::snt Warga Yahudi sebuah kota kecil di wilayah Texas, Amerika Serikat, melakukan aksi simpatik bagi warga Muslim yang kehilangan masjid mereka, karena terbakar.
+
+(vv1 / laku
+     :ARG0 (vv2 / warga
+                :mod (vv4 / kota
+                          :mod (vv6 / wilayah
+                                    :mod (vv8 / amerika
+                                              :mod (vv10 / aksi
+                                                         :mod (vv3 / yahudi)
+                                                         :mod (vv12 / muslim))))
+                          :mod (vv7 / texas
+                                    :name (vv9 / serikat)))
+                :mod (vv5 / kecil)
+                :mod (vv13 / hilang
+                           :ARG1 (vv15 / bakar))
+                :mod (vv14 / masjid))
+     :ARG1 (vv11 / simpatik)
+     :mod vv16)
+
+# ::snt Warga Yahudi menyerahkan kunci sinagoga (kanisah) yang selama ini menjadi tempat ibadah mereka, untuk dijadikan tempat ibadah sementara bagi umat Muslim.
+
+(vv1 / serah
+     :ARG0 (vv2 / warga
+                :mod (vv3 / yahudi))
+     :ARG1 (vv4 / kunci
+                :mod (vv5 / sinagoga
+                          :mod (vv6 / kanisah))
+                :mod (vv7 / jadi
+                          :mod (vv8 / tempat
+                                    :mod (vv11 / muslim)
+                                    :mod vv12
+                                    :mod vv13)
+                          :ARG1 (vv9 / ibadah)
+                          :ARG1 (vv10 / umat
+                                      :mod vv14))))
+
+# ::snt Salah satu tokoh pendiri masjid yang terbakar, Shahid Hashmi, mengatakan, "sejumlah anggota komunitas Yahudi datang ke rumah saya, dan memberikan kunci sinagoga."
+
+# ::snt Seperti yang diberitakan sebelumnya, masjid di Victoria Islamic Centre tersebut terbakar pada Sabtu lalu.
+
+(vv1 / bakar
+     :ARG1 (vv2 / berita
+                :ARG1 (vv3 / masjid
+                           :mod (vv4 / victoria
+                                     :mod (vv5 / islamic))))
+     :ARG1 (vv6 / centre)
+     :time (vv7 / sabtu
+                :mod (vv8 / lalu)))
+
+# ::snt Penyebab kebakaran yang terjadi sekitar pukul 2 dinihari tersebut kini masih dalam penyelidikan aparat.
+
+(vv1 / masih
+     :ARG0 (vv2 / sebab
+                :mod (vv3 / bakar)
+                :mod (vv4 / jadi
+                          :time (vv5 / pukul
+                                     :mod (vv6 / dinihari
+                                               :mod (vv7 / 2)))))
+     :mod (vv8 / lidi
+               :mod (vv9 / kini)
+               :mod (vv10 / aparat)))
+
+# ::snt Meski telah terkumpul dana pembangunan dari penggalangan online dua hari setelah kejadian, namun umat Muslim di sana tetap belum memiliki tempat ibadah untuk sementara waktu.
+
+(vv1 / kumpul
+     :mod (vv2 / telah)
+     :ARG1 (vv3 / dana
+                :mod (vv4 / bangun)
+                :mod (vv5 / galang
+                          :mod (vv6 / online)
+                          :mod (vv7 / hari
+                                    :mod (vv8 / dua))
+                          :mod (vv9 / jadi)))
+     :mod (vv10 / milik
+                :mod (vv11 / namun)
+                :ARG0 (vv12 / umat
+                            :mod (vv13 / muslim)
+                            :mod (vv14 / sana))
+                :mod (vv15 / tetap)
+                :mod (vv16 / belum)
+                :ARG1 (vv17 / tempat
+                            :mod (vv18 / ibadah))
+                :ARG1 (vv19 / waktu)))
+
+# ::snt Langkah warga Yahudi itu pun menjadi sangat berarti bagi kelompok Muslim di kota itu.
+
+(vv1 / jadi
+     :ARG0 (vv2 / langkah
+                :mod (vv3 / warga
+                          :mod (vv4 / yahudi)))
+     :mod (vv5 / arti
+               :mod (vv6 / sangat)
+               :location (vv7 / kelompok
+                              :mod (vv8 / muslim)
+                              :mod (vv9 / kota))))
+
+# ::snt Robert Loeb, selaku Presiden di Kuil Bnai Israel mengatakan, "kami mengenal, saya pun mengenal sejumlah jemaah di masjid itu, kami bisa merasakan apa yang mereka rasakan."
+
+(vv1 / selaku
+     :ARG0 (vv2 / robert
+                :name (vv3 / loeb))
+     :ARG1 (vv4 / presiden
+                :mod (vv5 / kuil
+                          :name (vv6 / bnai
+                                     :mod (vv7 / israel))))
+     :mod (vv8 / kata
+               :mod (vv9 / kenal
+                         :ARG1 (vv10 / kami)
+                         :ARG0 (vv11 / saya)
+                         :ARG0 (vv13 / masjid)
+                         :ARG1 (vv14 / rasa
+                                     :ARG0 (vv12 / jemaah
+                                                 :mod (vv15 / bisa))
+                                     :mod vv18
+                                     :ARG1 vv19)
+                         :mod (vv16 / apa
+                                    :mod (vv17 / mereka)
+                                    :mod vv20))))
+
+# ::snt "Ketika musibah semacam ini terjadi, kita harus berdiri bersama," sambung Loeb, seperti dikutip dari laman Business Insider.
+
+(vv3 / diri
+     :mod (vv1 / jadi
+               :ARG1 (vv2 / musibah))
+     :ARG0 (vv4 / kita)
+     :mod (vv5 / harus)
+     :location (vv6 / sambung
+                    :name (vv7 / loeb))
+     :mod (vv8 / kutip
+               :location (vv9 / laman
+                              :mod (vv10 / business
+                                         :mod (vv11 / insider)))))
+
+# ::snt Kebakaran ini terjadi hanya beberapa jam setelah Presiden AS Donald Trump menandatangani perintah eksekutif untuk membekukan laju pengungsi ke AS.
+
+# ::snt Perintah itu pun membekukan pemberian visa bagi warga dari tujuh negara berpenduduk mayoritas Islam.
+
+(vv1 / beku
+     :ARG0 (vv2 / perintah)
+     :mod (vv3 / pun)
+     :ARG1 (vv4 / beri
+                :ARG1 (vv5 / visa)
+                :mod (vv6 / warga
+                          :mod (vv7 / negara
+                                    :mod (vv8 / tujuh)
+                                    :mod (vv9 / duduk
+                                              :ARG1 (vv10 / islam))))))
+
+# ::snt Langkah itu diambil Trump dengan dalih untuk melindungi AS dari bahaya terorisme.
+
+(vv1 / ambil
+     :ARG1 (vv2 / langkah)
+     :ARG0 (vv3 / trump)
+     :ARG1 (vv4 / dalih)
+     :mod (vv5 / lindung
+               :ARG1 (vv6 / as)
+               :ARG1 (vv7 / bahaya
+                          :mod (vv8 / terorisme))))
+

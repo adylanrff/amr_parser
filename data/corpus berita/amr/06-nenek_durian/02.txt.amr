@@ -1,0 +1,65 @@
+# ::snt Saulina boru Sitorus (92 tahun) alias Ompu Linda tak kuasa menahan sedih saat Majelis Hakim Pengadilan Negeri Balige, Kabupaten Toba Samosir menjatuhi hukuman penjara 1 bulan 14 hari padanya.
+
+(vv1 / tahan
+     :ARG0 (vv2 / saulina
+                :name (vv3 / boru
+                           :name (vv4 / sitorus))
+                :mod (vv5 / tahun
+                          :mod (vv6 / 92)
+                          :mod (vv7 / alias
+                                    :name (vv8 / ompu
+                                               :name (vv9 / linda)))))
+     :mod (vv10 / tak)
+     :ARG0 (vv11 / kuasa)
+     :mod (vv12 / sedih)
+     :mod (vv13 / jatuh
+                :mod (vv14 / saat)
+                :ARG0 (vv15 / majelis
+                            :name (vv16 / hakim
+                                        :name (vv17 / adil
+                                                    :mod (vv18 / negeri
+                                                               :name (vv19 / balige))))
+                            :mod (vv20 / kabupaten
+                                       :mod (vv21 / toba
+                                                  :name (vv22 / samosir))))
+                :ARG1 (vv23 / hukum
+                            :mod (vv24 / penjara
+                                       :mod (vv25 / 1))
+                            :mod (vv26 / bulan
+                                       :mod (vv27 / hari
+                                                  :mod (vv28 / 14)))))
+     :mod (vv29 / pada))
+
+# ::snt "Menurut kami, terdakwa harus menjalani hukuman satu bulan empat belas hari," ujar Marsahal lalu mengetuk palu sidang.
+
+(vv3 / jalan
+     :mod (vv1 / dakwa
+               :ARG1 (vv2 / kami))
+     :mod (vv4 / harus)
+     :ARG1 (vv5 / hukum
+                :mod (vv6 / bulan
+                          :mod (vv7 / satu)
+                          :mod (vv8 / hari
+                                    :mod (vv9 / empat
+                                              :mod (vv10 / belas)))))
+     :mod (vv11 / ujar)
+     :mod (vv12 / ketuk
+                :ARG0 (vv13 / marsahal)
+                :mod (vv14 / lalu)
+                :ARG1 (vv15 / palu
+                            :mod (vv16 / sidang))))
+
+# ::snt Perkara ini menyedot perhatian masyarakat luas karena harus menyeret perempuan uzur itu ke ranah hukum.
+
+(vv1 / sedot
+     :ARG0 (vv2 / perkara)
+     :ARG0 (vv3 / perhati
+                :mod (vv4 / masyarakat
+                          :mod (vv5 / luas)))
+     :mod (vv6 / seret
+               :mod (vv7 / harus)
+               :ARG1 (vv8 / perempuan
+                          :mod (vv9 / uzur))
+               :ARG1 (vv10 / ranah
+                           :mod (vv11 / hukum))))
+

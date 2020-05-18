@@ -1,0 +1,134 @@
+# ::snt "Untuk saksi ada lima orang yang sudah diperiksa, sementara dua orang saksi adalah korban," tutur Kasat Reskrim Polresta Tangerang, Kompol Win Setiawan.
+
+# ::snt Apa yang terjadi di Tangerang bukan kali pertamanya kasus main hakim sendiri terjadi di Indonesia. Apa yang membuat warga gelap mata?
+
+(vv1 / jadi
+     :ARG1 (vv2 / apa
+                :mod (vv12 / buat
+                           :ARG0 (vv13 / warga
+                                       :mod (vv14 / gelap)
+                                       :mod (vv15 / mata))))
+     :mod (vv3 / tangerang)
+     :location (vv4 / kali
+                    :mod (vv6 / pertama)
+                    :mod (vv7 / kasus))
+     :ARG1 (vv5 / bukan)
+     :ARG1 (vv8 / main
+                :mod (vv9 / hakim
+                          :mod (vv10 / sendiri)))
+     :ARG1 (vv11 / indonesia))
+
+# ::snt Agar kasus main hakim sendiri tak kembali terulang, Kepala Biro Penerangan Masyarakat (Karo Penmas) Divisi Humas Mabes Polri, Brigjen Rikwanto, meminta masyarakat cerdas dan bijaksana saat mendapat informasi yang belum jelas kebenarannya.
+
+(vv7 / minta
+     :ARG1 (vv1 / ulang
+                :ARG1 (vv2 / kasus
+                           :mod (vv3 / hakim
+                                     :mod (vv4 / sendiri)))
+                :mod (vv5 / tak)
+                :mod (vv6 / kembali)
+                :ARG0 (vv8 / kepala
+                           :mod (vv9 / biro
+                                     :mod (vv10 / terang
+                                                :mod (vv11 / masyarakat
+                                                           :mod (vv13 / penmas)
+                                                           :mod (vv21 / bijaksana
+                                                                      :mod (vv23 / dapat
+                                                                                 :ARG1 (vv25 / informasi
+                                                                                             :mod (vv27 / belum))
+                                                                                 :ARG1 (vv26 / jelas
+                                                                                             :mod (vv28 / benar)
+                                                                                             :ARG1 vv29))))))))
+     :ARG1 (vv12 / karo
+                 :name (vv14 / divisi
+                             :name (vv16 / mabes
+                                         :mod (vv18 / brigjen
+                                                    :name (vv20 / cerdas
+                                                                :mod (vv22 / dan)))))
+                 :name (vv15 / humas
+                             :name (vv17 / polri
+                                         :name (vv19 / rikwanto))))
+     :mod (vv24 / saat))
+
+# ::snt Dia meminta masyarakat tak mudah terbakar emosi dan terpengaruh situasi sehingga tak menghiraukan fakta.
+
+(vv1 / minta
+     :ARG0 (vv2 / dia)
+     :ARG1 (vv3 / masyarakat)
+     :mod (vv4 / bakar
+               :mod (vv5 / tak)
+               :mod (vv7 / emosi)
+               :location (vv8 / pengaruh
+                              :mod (vv10 / situasi)
+                              :ARG1 (vv11 / hirau
+                                          :mod (vv6 / mudah)
+                                          :ARG1 vv13)
+                              :mod (vv12 / fakta))
+               :mod (vv9 / dan)))
+
+# ::snt Terkait kasus pasangan kekasih M dan R yang diarak di Cikupa, Tangerang, Rikwanto menyatakan hal tersebut masuk kategori persekusi, penganiayaan, dan penistaan.
+
+(vv1 / nyata
+     :mod (vv2 / kait
+               :ARG1 (vv3 / kasus
+                          :mod (vv4 / pasang
+                                    :mod (vv5 / kasih
+                                              :mod (vv6 / m
+                                                        :mod (vv7 / r
+                                                                  :mod (vv8 / dan))
+                                                        :mod (vv10 / cikupa
+                                                                   :name (vv12 / rikwanto)))))))
+     :ARG1 (vv14 / masuk
+                 :ARG1 (vv16 / persekusi
+                             :mod (vv18 / nista
+                                        :mod (vv9 / arak
+                                                  :location (vv11 / tangerang
+                                                                  :name (vv13 / hal))))))
+     :mod (vv15 / kategori
+                :mod (vv17 / aniaya)
+                :mod vv19))
+
+# ::snt Tokoh masyarakat sekaligus rohaniawan Romo Benny Susetyo menyatakan, aksi main hakim sendiri seperti yang terjadi di Tangerang, sangat mencederai nilai-nilai kemanusiaan.
+
+# ::snt Mantan Sekjen PBNU 2010-2015 itu mengapresiasi masyarakat yang sudah sadar hukum.
+
+(vv1 / apresiasi
+     :ARG0 (vv2 / mantan
+                :name (vv3 / sekjen
+                           :name (vv4 / pbnu
+                                      :mod (vv5 / 20102015))))
+     :ARG1 (vv6 / masyarakat
+                :mod (vv7 / sadar
+                          :mod (vv8 / sudah)
+                          :ARG1 (vv9 / hukum))))
+
+# ::snt Langkah Joya masuk musala tanpa permisi dan tidak menutup rapat pintu usai salat Asar mengundang kecurigaan Rojali.
+
+# ::snt Kriminolog Universitas Indonesia (UI) Arthur Josias Simon mengakan, persekusi oleh warga dipicu oleh tersebarnya informasi tidak benar yang kemudian memicu reaksi kurang baik.
+
+# ::snt Penyebabnya bermacam-macam, Arthur mencontohkan bahwa dalam kasus lain, tindakan tersebut banyak dipicu oleh emosi.
+
+(vv1 / contoh
+     :ARG0 (vv2 / sebab)
+     :mod (vv3 / bermacammacam
+               :ARG0 (vv4 / arthur))
+     :mod (vv5 / picu
+               :ARG1 (vv6 / kasus
+                          :mod (vv7 / lain))
+               :ARG1 (vv8 / tindak)
+               :mod (vv9 / banyak)
+               :ARG1 (vv10 / emosi)))
+
+# ::snt Untuk mencegah kejadian serupa terulang, Arthur menjelaskan beberapa hal yang dapat dilakukan masyarakat.
+
+(vv1 / ulang
+     :mod (vv2 / cegah
+               :ARG1 (vv3 / jadi
+                          :mod (vv4 / rupa)))
+     :mod (vv5 / jelas
+               :ARG0 (vv6 / arthur)
+               :ARG1 (vv7 / hal
+                          :mod (vv8 / laku
+                                    :mod (vv9 / dapat)
+                                    :ARG1 (vv10 / masyarakat)))))
+

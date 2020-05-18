@@ -1,0 +1,116 @@
+# ::snt Penyanyi 48 tahun dengan ciri khas suara melengking  tinggi ini, telah mundur dari tampilan sejak awal 2000-an akibat serangkaian masalah membelitnya, antara lain pemakaian obat-obat terlarang dan tindak kekerasan yang dilakukan suaminya, Bobby Brown.
+
+(vv1 / mundur
+     :ARG0 (vv2 / nyanyi
+                :mod (vv3 / tahun
+                          :mod (vv4 / 48))
+                :mod (vv5 / ciri
+                          :mod (vv6 / khas)
+                          :mod (vv7 / suara)
+                          :mod (vv8 / lengking
+                                    :mod (vv9 / tinggi))))
+     :mod (vv10 / telah)
+     :ARG1 (vv11 / tampil)
+     :ARG1 (vv12 / awal
+                 :mod (vv13 / 2000an))
+     :location (vv16 / masalah
+                     :mod (vv14 / belit
+                                :mod (vv15 / akibat)
+                                :mod (vv17 / lain)
+                                :ARG1 (vv18 / pakai
+                                            :mod (vv19 / obatobat)
+                                            :mod (vv20 / larang)
+                                            :mod (vv21 / tindak
+                                                       :mod (vv22 / dan)
+                                                       :mod (vv23 / keras)
+                                                       :ARG1 (vv24 / laku
+                                                                   :ARG1 (vv25 / suami
+                                                                               :name (vv26 / bobby
+                                                                                           :name (vv27 / brown)))))))))
+
+# ::snt Whitney Houston,  lahir di Newark, New Jersey, Amerika Serikat, 9 Agustus 1963, dikenal  sebagai penyanyi pop dan R&B, artis, produser rekaman, penulis lagu dan mantan model Amerika Serikat.
+
+(vv1 / lahir
+     :ARG0 (vv2 / whitney
+                :name (vv3 / houston))
+     :location (vv4 / newark
+                    :name (vv5 / new
+                               :mod (vv6 / jersey
+                                         :name (vv7 / amerika
+                                                    :mod (vv9 / agustus
+                                                              :mod (vv12 / kenal
+                                                                         :ARG1 (vv15 / rb
+                                                                                     :mod (vv18 / produser
+                                                                                                :mod (vv22 / mantan
+                                                                                                           :mod (vv19 / rekam
+                                                                                                                      :mod (vv23 / model
+                                                                                                                                 :name (vv8 / serikat)))
+                                                                                                           :mod vv26)
+                                                                                                :mod vv25)
+                                                                                     :mod (vv20 / tulis
+                                                                                                :mod vv24)))
+                                                              :mod (vv13 / nyanyi
+                                                                         :mod (vv16 / dan)
+                                                                         :mod (vv17 / artis
+                                                                                    :mod (vv21 / lagu))))
+                                                    :mod (vv10 / 9))))
+                    :mod (vv11 / 1963))
+     :mod (vv14 / pop))
+
+# ::snt Hari-hari menjelang kematiannya, Whitney Houston, berada di daerah Los Angeles untuk penghargaan musik untuk eksekutif musik Clive Davis dan telah dilakukan awal pekan ini.
+
+# ::snt Menurut keterangan, Houston berencana untuk menghadiri tahunan Davis pre-Grammy kemarin, Sabtu di hotel Beverly Hilton .
+
+(vv1 / rencana
+     :ARG1 (vv2 / terang
+                :mod (vv3 / houston))
+     :ARG1 (vv4 / hadir
+                :ARG1 (vv5 / tahun
+                           :name (vv6 / davis
+                                      :name (vv7 / pregrammy)))
+                :time (vv8 / kemarin
+                           :name (vv9 / sabtu))
+                :location (vv10 / hotel
+                                :mod (vv11 / beverly
+                                           :name (vv12 / hilton)))))
+
+# ::snt Houston memiliki masalah obat dan alkohol selama bertahun-tahun, dan pada bulan Mei juru bicaranya mengatakan dia akan kembali ke rehabilitasi.
+
+(vv1 / milik
+     :ARG0 (vv2 / houston)
+     :ARG1 (vv3 / masalah
+                :mod (vv4 / obat
+                          :mod (vv5 / alkohol
+                                    :mod (vv6 / dan))))
+     :ARG1 (vv8 / kata
+                :mod (vv7 / bertahuntahun)
+                :time (vv10 / mei)
+                :ARG0 (vv12 / bicara)
+                :mod (vv14 / dia))
+     :mod (vv9 / bulan
+               :mod (vv11 / juru
+                          :ARG1 (vv13 / kembali
+                                      :ARG0 (vv15 / akan)
+                                      :mod (vv16 / rehabilitasi)
+                                      :location vv17))))
+
+# ::snt Humas Kristen Foster mengatakan kepada Associated Press pada hari Sabtu bahwa Houston telah meninggal tetapi tidak memberikan rincian lebih lanjut.
+
+(vv1 / kata
+     :ARG0 (vv2 / humas
+                :name (vv3 / kristen
+                           :name (vv4 / foster)))
+     :ARG1 (vv5 / associated
+                :mod (vv6 / press))
+     :time (vv7 / hari
+                :mod (vv8 / sabtu))
+     :mod (vv9 / tinggal
+               :ARG0 (vv10 / houston)
+               :mod (vv11 / telah)
+               :ARG1 (vv12 / beri
+                           :ARG1 (vv13 / tetapi)
+                           :mod (vv14 / tidak)
+                           :ARG1 (vv15 / rincian
+                                       :mod (vv16 / lanjut
+                                                  :mod (vv17 / lebih))))))
+

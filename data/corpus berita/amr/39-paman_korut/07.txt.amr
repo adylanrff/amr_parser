@@ -1,0 +1,27 @@
+# ::snt Tidak hanya itu, media resmi Korut ini juga memberikan julukan kasar bagi pria yang pernah menjadi mentor Kim Jong Un ini. "Manusia sampah yang keji, lebih buruk dari seekor anjing," sebut KCNA
+
+(vv3 / beri
+     :mod (vv1 / hanya
+               :mod (vv2 / tidak))
+     :ARG0 (vv4 / media
+                :mod (vv5 / resmi)
+                :mod (vv6 / korut))
+     :mod (vv7 / juga)
+     :ARG1 (vv8 / juluk
+                :mod (vv9 / kasar)
+                :mod (vv10 / pria
+                           :mod (vv11 / jadi
+                                      :mod (vv12 / pernah)
+                                      :ARG1 (vv13 / mentor
+                                                  :mod (vv14 / kim
+                                                             :name (vv15 / jong
+                                                                         :mod (vv16 / un)))))))
+     :ARG1 (vv17 / manusia
+                 :mod (vv18 / sampah
+                            :mod (vv19 / keji
+                                       :mod (vv20 / buruk
+                                                  :mod (vv21 / lebih)
+                                                  :mod (vv22 / anjing
+                                                             :mod (vv23 / sebut
+                                                                        :ARG1 (vv24 / kcna))))))))
+

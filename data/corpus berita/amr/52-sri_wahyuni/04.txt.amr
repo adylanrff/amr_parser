@@ -1,0 +1,107 @@
+# ::snt Atlet angkat besi putri Sri Wahyuni mempersembahkan medali pertama bagi Indonesia pada ajang Olimpiade Rio 2016 di Rio de Janeiro, Brasil, setelah meraih medali perak pada kelas 48 kg, Sabtu (6/8/2016).
+
+(vv1 / sembah
+     :ARG0 (vv2 / atlet
+                :mod (vv3 / angkat
+                          :mod (vv4 / besi
+                                    :mod (vv5 / putri
+                                              :mod (vv6 / sri
+                                                        :name (vv7 / wahyuni))))))
+     :ARG1 (vv8 / medali
+                :mod (vv10 / indonesia)
+                :ARG1 (vv11 / ajang
+                            :mod (vv13 / rio
+                                       :mod (vv16 / janeiro
+                                                  :name (vv19 / perak))
+                                       :mod (vv17 / brasil))
+                            :mod (vv15 / de
+                                       :name (vv18 / raih
+                                                   :ARG1 (vv9 / pertama)
+                                                   :location (vv22 / sabtu
+                                                                   :mod vv25
+                                                                   :mod vv26))))
+                :mod (vv21 / 48))
+     :ARG1 (vv12 / olimpiade
+                 :name (vv14 / 2016))
+     :ARG1 (vv20 / kelas
+                 :mod (vv23 / kg)
+                 :mod (vv24 / 682016)))
+
+# ::snt Dilansir oleh Antara, Sri Wahyuni mencatat total angkat 192 kg, sementara medali emas diraih lifter Thailand Tanasan Sopita yang membukukan angkatan 200 kg.
+
+# ::snt Medali perunggu didapat Miyake Hiromi dari Jepang dengan angkatan total 188 kg.
+
+(vv1 / dapat
+     :ARG1 (vv2 / medali
+                :mod (vv3 / perunggu))
+     :ARG0 (vv4 / miyake
+                :name (vv5 / hiromi))
+     :location (vv6 / jepang)
+     :location (vv7 / angkat
+                    :mod (vv8 / total
+                              :mod (vv9 / 188)))
+     :mod (vv10 / kg))
+
+# ::snt Dalam pertandingan yang berlangsung di arena Riocentro tersebut persaingan ketat terjadi di antara tiga lifter Asia itu.
+
+(vv1 / jadi
+     :ARG1 (vv2 / tanding
+                :mod (vv3 / langsung
+                          :location (vv4 / arena
+                                         :mod (vv5 / riocentro))))
+     :ARG1 (vv6 / saing
+                :mod (vv7 / ketat))
+     :mod (vv8 / lifter
+               :mod (vv9 / antara)
+               :mod (vv10 / tiga)
+               :name (vv11 / asia)))
+
+# ::snt Wahyuni yang bobot badannya lebih ringan dari Tanasan, mencoba angkatan clean and jerk terakhir 115 kg untuk bisa meraih emas, namun gagal sehingga harus puas dengan medali perak.
+
+(vv1 / coba
+     :ARG0 (vv2 / wahyuni
+                :mod (vv3 / bobot
+                          :ARG1 (vv4 / badan)
+                          :mod (vv5 / ringan
+                                    :mod (vv6 / lebih))
+                          :mod (vv7 / tanasan)))
+     :ARG1 (vv8 / angkat
+                :mod (vv9 / clean
+                          :mod (vv10 / jerk
+                                     :mod (vv11 / and)))
+                :mod (vv12 / kg
+                           :mod (vv13 / akhir)
+                           :mod (vv14 / 115)))
+     :ARG1 (vv15 / raih
+                 :mod (vv16 / bisa)
+                 :ARG1 (vv17 / emas)
+                 :ARG1 (vv18 / gagal
+                             :mod (vv19 / namun)
+                             :mod (vv20 / puas
+                                        :mod (vv21 / harus)
+                                        :ARG1 (vv22 / medali
+                                                    :mod (vv23 / perak))))))
+
+# ::snt "Sri Wahyuni memang banyak kemajuan khususnya setelah kita berlatih di Afrika Selatan bulan lalu," kata manajer tim angkat besi Indonesia Alamsyah Wijaya.
+
+(vv1 / sri
+     :name (vv2 / wahyuni)
+     :mod (vv3 / maju
+               :mod (vv4 / memang)
+               :mod (vv5 / banyak)
+               :mod (vv6 / khusus)
+               :mod (vv7 / latih
+                         :ARG0 (vv8 / kita)
+                         :location (vv9 / afrika
+                                        :name (vv10 / selatan))
+                         :time (vv11 / bulan)
+                         :mod (vv12 / kata
+                                    :mod (vv13 / lalu)
+                                    :ARG1 (vv14 / manajer
+                                                :mod (vv15 / tim
+                                                           :mod (vv16 / angkat
+                                                                      :mod (vv17 / besi
+                                                                                 :mod (vv18 / indonesia
+                                                                                            :name (vv19 / alamsyah
+                                                                                                        :name (vv20 / wijaya)))))))))))
+

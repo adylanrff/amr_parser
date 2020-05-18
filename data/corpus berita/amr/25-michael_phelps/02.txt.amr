@@ -1,0 +1,29 @@
+# ::snt Legenda renang Michael Phelps meraih medali emas Olimpiade ke-19 sepanjang kariernya dengan membawa tim AS menjuarai nomor estafet 4 x 100 meter gaya bebas putra, Minggu (7/8/2016).
+
+(vv1 / raih
+     :ARG0 (vv2 / legenda
+                :mod (vv3 / renang)
+                :name (vv4 / michael
+                           :name (vv5 / phelps)))
+     :ARG1 (vv6 / medali
+                :mod (vv7 / emas)
+                :mod (vv8 / olimpiade
+                          :mod (vv9 / ke19)))
+     :ARG1 (vv10 / karier
+                 :mod (vv11 / panjang))
+     :mod (vv12 / bawa
+                :ARG1 (vv13 / tim
+                            :mod (vv14 / as))
+                :ARG0 (vv15 / juara
+                            :ARG1 (vv16 / nomor
+                                        :mod (vv17 / estafet
+                                                   :mod (vv18 / x
+                                                              :mod (vv19 / 4)
+                                                              :mod (vv20 / meter
+                                                                         :mod (vv21 / 100))))
+                                        :mod (vv22 / gaya
+                                                   :mod (vv23 / bebas)
+                                                   :mod (vv24 / putra
+                                                              :mod (vv25 / minggu)
+                                                              :mod (vv26 / 782016)))))))
+

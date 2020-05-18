@@ -1,0 +1,67 @@
+# ::snt "Dari hasil pemeriksaan, Ketua RT yang telah ditetapkan sebagai tersangka mengaku melakukan hal itu dengan alasan merasa tidak mau di wilayahnya ada yang berbuat mesum," kata Kepala Kepolisian Resor Kabupaten Tangerang, AKBP Sabilul Alif kepada Kriminologi, Rabu 15 November 2017.
+
+(vv1 / laku
+     :ARG1 (vv2 / hasil
+                :mod (vv3 / periksa
+                          :mod (vv4 / ketua
+                                    :mod (vv5 / rt)
+                                    :mod (vv6 / tetap
+                                              :mod (vv7 / telah)
+                                              :ARG1 (vv8 / sangka)))))
+     :mod (vv9 / aku)
+     :ARG1 (vv10 / hal)
+     :location (vv11 / alas
+                     :mod (vv12 / rasa
+                                :ARG1 (vv13 / mau
+                                            :mod (vv14 / tidak)
+                                            :location (vv15 / wilayah))))
+     :ARG1 (vv16 / ada
+                 :mod (vv17 / buat
+                            :ARG1 (vv18 / mesum
+                                        :mod (vv19 / kata
+                                                   :name (vv20 / kepala
+                                                               :mod (vv21 / polisi
+                                                                          :mod (vv22 / resor))
+                                                               :mod (vv23 / kabupaten
+                                                                          :name (vv24 / tangerang
+                                                                                      :name (vv25 / akbp
+                                                                                                  :name (vv26 / sabilul
+                                                                                                              :name (vv27 / alif))))))))
+                            :ARG1 (vv28 / kriminologi
+                                        :name (vv29 / rabu
+                                                    :mod (vv30 / november
+                                                               :mod (vv31 / 15)
+                                                               :mod (vv32 / 2017)))))))
+
+# ::snt Namun, alasan itu tak tanggapi pihak kepolisian lantaran kelimanya terbukti melakukan kekerasan terhadap pasangan itu.
+
+(vv1 / tanggap
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / alas)
+     :mod (vv4 / tak)
+     :ARG0 (vv5 / pihak
+                :mod (vv6 / kepolisian))
+     :mod (vv7 / bukti
+               :mod (vv8 / lantar)
+               :ARG1 (vv9 / lima)
+               :ARG1 (vv10 / laku
+                           :ARG1 (vv11 / keras
+                                       :mod (vv12 / pasang)))))
+
+# ::snt "Sisanya mengaku ikut-ikutan tapi juga berperan aktif seperti ikut mukuli dan ikut menelanjangi," ucap Sabiul.
+
+(vv1 / aku
+     :ARG0 (vv2 / sisa)
+     :ARG1 (vv3 / ikutikutan)
+     :mod (vv4 / peran
+               :mod (vv5 / tapi)
+               :mod (vv6 / juga)
+               :mod (vv7 / aktif)
+               :ARG1 (vv8 / ikut
+                          :ARG1 (vv9 / mukuli)
+                          :ARG1 (vv10 / dan)
+                          :mod (vv11 / telanjang
+                                     :ARG1 (vv13 / sabiul))
+                          :ARG1 (vv12 / ucap
+                                      :name vv14))))
+

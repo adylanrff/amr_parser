@@ -1,0 +1,70 @@
+# ::snt Setelah viral video Presiden Joko Widodo atau Jokowi menjadi imam salat di Afganistan, kini muncul foto Jokowi yang berada di barisan makmum.
+
+(vv1 / jadi
+     :ARG1 (vv2 / viral
+                :mod (vv3 / video)
+                :mod (vv4 / presiden
+                          :name (vv5 / joko
+                                     :name (vv6 / widodo))
+                          :mod (vv7 / jokowi
+                                    :mod (vv9 / imam
+                                              :mod (vv11 / afganistan)
+                                              :mod (vv12 / muncul
+                                                         :mod (vv14 / foto
+                                                                    :name (vv8 / atau)
+                                                                    :mod (vv16 / baris
+                                                                               :mod vv18))
+                                                         :ARG1 (vv15 / ada
+                                                                     :ARG1 (vv17 / makmum)))))))
+     :ARG1 (vv10 / salat)
+     :ARG1 (vv13 / kini))
+
+# ::snt Menanggapi hal itu Presiden Jokowi mengatakan, pada saat itu ia memang melaksanakan salat sebanyak dua kali dan bergantian menjadi imam.
+
+(vv1 / kata
+     :ARG1 (vv2 / tanggap
+                :ARG1 (vv3 / hal))
+     :ARG0 (vv4 / presiden
+                :name (vv5 / jokowi))
+     :ARG1 (vv6 / saat)
+     :ARG1 (vv7 / laksana
+                :ARG0 (vv8 / ia)
+                :mod (vv9 / memang)
+                :ARG1 (vv10 / salat
+                            :mod (vv11 / kali
+                                       :mod (vv12 / banyak)
+                                       :mod (vv13 / dua)))
+                :mod (vv14 / jadi
+                           :mod (vv15 / dan)
+                           :mod (vv16 / ganti)
+                           :ARG1 (vv17 / imam))))
+
+# ::snt Presiden Jokowi memang sempat menjadi imam salat dengan makmumnya Presiden Afganistan Ashraf Ghani.
+
+(vv1 / jadi
+     :ARG0 (vv2 / presiden
+                :name (vv4 / memang)
+                :name (vv10 / ashraf
+                            :name vv12))
+     :mod (vv5 / sempat)
+     :mod (vv6 / imam
+               :mod (vv8 / makmum
+                         :mod (vv3 / jokowi))
+               :mod (vv9 / afganistan
+                         :name (vv11 / ghani)))
+     :ARG1 (vv7 / salat))
+
+# ::snt Seusai salat, presiden terlihat bercengkrama dengan masyarakat Afghanistan dan anak-anak yang belajar di lingkungan masjid tersebut.
+
+(vv1 / lihat
+     :ARG1 (vv2 / salat
+                :mod (vv3 / presiden))
+     :ARG1 (vv4 / bercengkrama
+                :ARG1 (vv5 / masyarakat
+                           :mod (vv6 / afghanistan)
+                           :mod (vv7 / anakanak
+                                     :mod (vv8 / dan)
+                                     :mod (vv9 / ajar
+                                               :mod (vv10 / lingkung
+                                                          :mod (vv11 / masjid)))))))
+

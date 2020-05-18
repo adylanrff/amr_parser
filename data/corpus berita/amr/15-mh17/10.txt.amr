@@ -1,0 +1,201 @@
+# ::snt Inalillahi Wa Inaillaihi Roji'un.
+
+(vv1 / inalillahi
+     :name (vv2 / wa
+                :name (vv3 / inaillaihi
+                           :name (vv4 / rojiun))))
+
+# ::snt Ukraina pada saat ini adalah zona perang saudara yang dimulai dari penggulingan Presiden Ukraina yang pro kebijakan Moskow pada Februari 2014 lalu. Gerakan separatis menuntut kemerdekaan sendiri dan menamakan daerah Donetz ( dimana pesawat tersebut jatuh)  sebagai 'Republik Rakyat Donetz
+
+(vv1 / zona
+     :ARG0 (vv2 / ukraina)
+     :mod (vv4 / adalah)
+     :mod (vv5 / perang
+               :mod (vv7 / mulai
+                         :ARG1 (vv9 / presiden
+                                    :name (vv3 / saat))
+                         :time (vv14 / 2014)))
+     :mod (vv6 / saudara)
+     :mod (vv8 / guling
+               :mod (vv10 / pro
+                          :ARG1 (vv12 / moskow))
+               :mod (vv11 / bijak
+                          :mod (vv13 / februari
+                                     :mod (vv15 / tuntut
+                                                :mod (vv17 / gera
+                                                           :mod (vv19 / merdeka
+                                                                      :mod (vv21 / nama
+                                                                                 :mod (vv23 / daerah
+                                                                                            :name (vv25 / jatuh
+                                                                                                        :mod (vv28 / republik
+                                                                                                                   :mod vv31)
+                                                                                                        :ARG0 (vv29 / rakyat
+                                                                                                                    :name (vv26 / mana))
+                                                                                                        :location vv30))
+                                                                                 :ARG1 (vv24 / donetz)
+                                                                                 :mod (vv27 / pesawat))))
+                                                :ARG0 (vv18 / separatis)
+                                                :ARG1 (vv20 / sendiri)
+                                                :mod (vv22 / dan)))))
+     :mod (vv16 / lalu))
+
+# ::snt 2 Pesawat Ukraina, 1 pesawat militer cargo jenis AN 26  dan 1 pesawat tempur SU 25 pun sebelumnya dikabarkan ditembak jatuh oleh gerakan separatis tersebut, saat berada di daerah yang sama dengan kejadian MH 17/KL 4103 Hal ini menjadi satu kunci penentu yang menurut Presiden Ukraina Petro  bahwa ketiga kejadian ini pun saling berkaitan : bahwa memang gerakan separatis mempunyai BUK sebagai alutista mereka.
+
+# ::snt Tepat sebelum kejadian, pihak Federal AviationAdministration (FAA) mengabarkan bahwa Pemerintah Resmi Ukraina telah memberikan 'warning' dan anjuran kepada pilot komersial pada hari Senin, 14 Juli 2014 yang lalu supaya tidak terbang pada  zona konflik di ketinggian yang berkisar antara 26 dan 32 ribu kaki.  Apabila anjuran keras atau warning tersebut telah diberikan, mengapa pesawat komersial seperti MH17/KL4103 ini tetap masih mengambil resiko melewati zona penerbangan tidak aman ini ?
+
+(vv1 / abar
+     :mod (vv2 / tepat)
+     :ARG1 (vv3 / jadi
+                :mod (vv4 / pihak
+                          :mod (vv5 / federal
+                                    :name (vv6 / aviationadministration
+                                               :mod (vv7 / faa)))))
+     :ARG1 (vv8 / beri
+                :ARG0 (vv10 / resmi
+                            :name (vv12 / telah))
+                :mod (vv13 / warning
+                           :mod (vv17 / komersial)
+                           :mod (vv21 / 14)
+                           :mod (vv24 / terbang
+                                      :mod (vv32 / 32)
+                                      :location (vv34 / keras))
+                           :mod (vv44 / aman
+                                      :mod (vv33 / kaki
+                                                 :mod (vv39 / mh17kl4103))))
+                :mod (vv14 / anjur
+                           :mod (vv16 / pilot
+                                      :mod (vv22 / 2014))
+                           :mod (vv19 / senin)
+                           :mod (vv43 / lewat
+                                      :ARG1 (vv35 / atau)))
+                :ARG1 (vv15 / dan)
+                :ARG1 (vv18 / hari
+                            :mod (vv25 / tidak)
+                            :mod (vv26 / zona
+                                       :mod (vv31 / 26
+                                                  :mod (vv41 / masih))
+                                       :mod (vv36 / mengapa)
+                                       :mod (vv37 / ambil
+                                                  :ARG0 vv47
+                                                  :mod vv49
+                                                  :mod vv50
+                                                  :ARG1 vv51)
+                                       :mod vv53)
+                            :mod (vv29 / kisar
+                                       :location (vv42 / resiko
+                                                       :mod vv52)))
+                :ARG1 (vv30 / ribu
+                            :mod (vv20 / juli
+                                       :mod (vv27 / konflik)
+                                       :mod (vv28 / tinggi
+                                                  :mod (vv38 / pesawat
+                                                             :mod (vv23 / lalu)
+                                                             :mod vv48)))
+                            :mod (vv40 / tetap))
+                :ARG1 vv45)
+     :ARG1 (vv9 / perintah
+                :name (vv11 / ukraina))
+     :mod vv46)
+
+# ::snt Pesawat Boeing 777 MH17/KL4103 dikabarkan ditembak jatuh pada ketinggian 32,800 ribu kaki, atau sekitar 10 ribu meter diatas permukaan laut.
+
+# ::snt Sebagai catatan tambahan, BUK Missile Launcher buatan Rusia mempunyai jarak tembak dengan ketinggian 65 m s/d 25 ribu meter.
+
+(vv1 / punya
+     :location (vv2 / catat
+                    :mod (vv3 / tambah)
+                    :name (vv4 / buk
+                               :mod (vv5 / missile
+                                         :name (vv6 / launcher))
+                               :mod (vv7 / buat
+                                         :name (vv8 / rusia))))
+     :ARG1 (vv9 / jarak
+                :mod (vv10 / tembak))
+     :ARG1 (vv11 / tinggi
+                 :mod (vv12 / m
+                            :mod (vv13 / 65))
+                 :mod (vv14 / sd
+                            :mod (vv15 / meter
+                                       :mod (vv16 / 25)
+                                       :mod (vv17 / ribu)))))
+
+# ::snt Pada saat ini kedua belah pihak yang bertikai, baik Pemerintah Ukraina dan gerakan Separatis Ukraina atau Gerakan Republik Rakyat Donetz tersebut telah sepakat untuk menghentikan aksi masing masing guna memberikan penghormatan kepada para korban jiwa dari insiden pesawat tersebut dan memberikan waktu tidak terbatas  bagi para pihak otoritas Internasional untuk melakukan penyelidikan secara lebih mendalam dan apabila memungkinkan, pencarian pada korban yang mungkin masih selamat.
+
+(vv1 / sepakat
+     :ARG1 (vv2 / saat)
+     :ARG0 (vv3 / belah
+                :mod (vv4 / dua)
+                :mod (vv5 / pihak
+                          :mod (vv37 / mungkin
+                                     :mod (vv15 / republik
+                                                :mod (vv20 / aksi))
+                                     :ARG1 vv45
+                                     :mod vv46))
+                :mod (vv7 / baik))
+     :mod (vv22 / beri
+                :ARG1 (vv14 / atau)
+                :ARG1 (vv27 / pesawat)
+                :ARG1 (vv28 / waktu)
+                :ARG1 (vv34 / lidi)
+                :ARG1 (vv35 / dalam
+                            :mod vv42))
+     :ARG1 (vv23 / hormat
+                 :mod (vv29 / batas
+                            :ARG1 (vv6 / tika
+                                       :mod (vv8 / perintah
+                                                 :mod (vv10 / gera
+                                                            :mod (vv13 / gerakan
+                                                                       :mod (vv18 / telah)
+                                                                       :name (vv19 / henti
+                                                                                   :ARG1 (vv24 / korban
+                                                                                               :mod (vv31 / otoritas
+                                                                                                          :mod (vv38 / cari
+                                                                                                                     :mod (vv30 / tidak)))
+                                                                                               :mod (vv32 / internasional))
+                                                                                   :ARG1 (vv26 / insiden
+                                                                                               :mod (vv33 / laku
+                                                                                                          :ARG1 (vv40 / masih)
+                                                                                                          :mod vv41
+                                                                                                          :ARG1 vv43))))
+                                                            :mod (vv16 / rakyat
+                                                                       :name (vv21 / masing
+                                                                                   :mod (vv25 / jiwa)))
+                                                            :mod (vv17 / donetz))
+                                                 :mod (vv12 / separatis
+                                                            :name (vv11 / dan)))
+                                       :ARG1 (vv9 / ukraina))
+                            :mod (vv36 / lebih)
+                            :ARG1 (vv39 / selamat
+                                        :mod vv44
+                                        :mod vv47))))
+
+# ::snt Atau bahkan pada gerakan separatis pro Rusia yang mengaku tidak bertanggung jawab terhadap kejadian tersebut dan tidak mempunyai alutista seperti BUK namun beberapa minggu sebelumnya mengklaim 'kemenangan' mereka terhadap fasilitas militer dengan alutista seperti dugaan dan bahkan memparadekannya di pinggiran perbatasan Rusia.
+
+# ::snt Sengaja atau tidak, dan dilakukan oleh siapapun, ini adalah bukan kecelakaan biasa, namun sebuah kejahatan perang, yang mengambil nyawa warga sipil tak bersalah sehingga penyelidikan harus dilakukan secara mendalam.
+
+(vv1 / celaka
+     :mod (vv2 / sengaja
+               :mod (vv3 / laku
+                         :mod (vv5 / tidak)
+                         :mod (vv6 / dan)
+                         :ARG1 (vv7 / siapa)
+                         :ARG1 (vv8 / adalah)
+                         :ARG1 (vv21 / harus)
+                         :mod (vv22 / dalam)
+                         :mod vv23))
+     :mod (vv9 / bukan)
+     :mod (vv10 / biasa)
+     :mod (vv11 / salah
+                :mod (vv4 / atau)
+                :mod (vv13 / jahat
+                           :mod (vv15 / ambil
+                                      :ARG1 (vv17 / warga
+                                                  :mod (vv19 / tak)))
+                           :mod (vv16 / nyawa
+                                      :mod (vv18 / sipil)))
+                :ARG0 (vv14 / perang)
+                :mod (vv20 / lidi))
+     :mod (vv12 / namun))
+
+# ::snt Duka sedalam dalamnya bagi para korban pesawat Malaysian Airlines/ KLM MH17/KL4103 , dan keluarga mereka yang ditinggalkan.
+

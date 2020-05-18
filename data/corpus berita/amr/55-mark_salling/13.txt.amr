@@ -1,0 +1,47 @@
+# ::snt Semasa hidupnya, Cory Monteith memiliki riwayat penyalahgunaan obat terlarang.
+
+(vv3 / milik
+     :location (vv1 / hidup
+                    :mod (vv2 / masa))
+     :ARG0 (vv4 / cory
+                :name (vv5 / monteith))
+     :ARG1 (vv6 / riwayat
+                :mod (vv7 / penyalahgunaan
+                          :mod (vv8 / obat
+                                    :mod (vv9 / larang)))))
+
+# ::snt Salling telah dijadwalkan menjalani masa tahanan mulai 7 Maret mendatang dan menghabiskan empat sampai tujuh tahun di balik bui.
+
+(vv1 / jadwal
+     :ARG1 (vv2 / salling)
+     :mod (vv3 / telah)
+     :ARG1 (vv4 / jalan
+                :ARG1 (vv5 / masa
+                           :mod (vv6 / tahan))
+                :ARG1 (vv7 / maret
+                           :mod (vv8 / mulai)
+                           :mod (vv9 / 7)
+                           :mod (vv10 / datang)))
+     :mod (vv11 / habis
+                :mod (vv12 / dan)
+                :mod (vv13 / empat)
+                :ARG1 (vv14 / tahun
+                            :mod (vv15 / tujuh))
+                :location (vv16 / balik
+                                :mod (vv17 / bui))))
+
+# ::snt Kematian dua aktornya kini menjadi warisan tragis bagi serial yang berakhir tayang 2015 lalu.
+
+(vv1 / jadi
+     :ARG0 (vv2 / mati
+                :mod (vv3 / aktor
+                          :mod (vv4 / dua)))
+     :mod (vv5 / kini)
+     :ARG1 (vv6 / waris
+                :mod (vv7 / tragis)
+                :mod (vv8 / serial
+                          :mod (vv9 / akhir
+                                    :ARG1 (vv10 / tayang
+                                                :mod (vv11 / 2015)))))
+     :mod (vv12 / lalu))
+

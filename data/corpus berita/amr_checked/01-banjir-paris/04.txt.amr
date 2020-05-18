@@ -1,0 +1,21 @@
+# ::snt Banjir pernah mengakibatkan kerusakan di Paris pada 1910 saat sungai Seine meluap hingga ketinggian 8,65 meter, meski tak ada korban jiwa dalam musibah itu.
+
+(vv1 / akibat
+     :ARG0 (vv2 / banjir)
+     :mod (vv3 / pernah)
+     :ARG1 (vv4 / rusa
+                :location (vv5 / paris))
+     :time (vv6 / 1910)
+     :mod (vv7 / luap
+               :mod (vv8 / saat)
+               :ARG0 (vv9 / sungai
+                          :name (vv10 / seine))
+               :ARG1 (vv11 / tinggi
+                           :quant (vv12 / meter
+                                      :quant (vv13 / 865)))
+               :mod (vv14 / ada
+                          :mod (vv15 / tak)
+                          :ARG1 (vv16 / korban
+                                      :mod (vv17 / jiwa))
+                          :ARG1 (vv18 / musibah))))
+

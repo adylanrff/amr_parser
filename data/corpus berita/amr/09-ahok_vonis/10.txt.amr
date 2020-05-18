@@ -1,0 +1,145 @@
+# ::snt "Saya akan melakukan banding," ucap Ahok usai berdiskusi dalam sidang vonis di Gedung Kementan, Jakarta Selatan, Selasa (9/5/2017).
+
+(vv1 / laku
+     :ARG0 (vv2 / saya)
+     :mod (vv3 / akan)
+     :ARG1 (vv4 / banding)
+     :mod (vv5 / ucap)
+     :mod (vv6 / diskus
+               :ARG0 (vv7 / ahok)
+               :ARG1 (vv8 / sidang
+                          :mod (vv9 / vonis)
+                          :mod (vv10 / gedung
+                                     :mod (vv11 / tan
+                                                :name (vv12 / jakarta
+                                                            :name (vv13 / selatan)))
+                                     :mod (vv14 / selasa
+                                                :mod (vv15 / 952017))))))
+
+# ::snt Hal itu diatur dalam Pasal 83 UU 23/2014. Berikut bunyi Pasal 83:
+
+# ::snt Ayat (1); Kepala daerah dan/atau wakil kepala daerah diberhentikan sementara tanpa melalui usulan DPRD karena didakwa melakukan tindak pidana kejahatan yang diancam dengan pidana penjara paling singkat 5 (lima) tahun, tindak pidana korupsi, tindak pidana terorisme, makar, tindak pidana terhadap keamanan negara, dan/atau perbuatan lain yang dapat memecah belah Negara Kesatuan Republik Indonesia.
+
+(vv1 / henti
+     :ARG1 (vv2 / ayat
+                :mod (vv3 / 1)
+                :mod (vv4 / kepala
+                          :mod (vv6 / wakil
+                                    :mod (vv5 / daerah
+                                              :mod (vv8 / lalu)))
+                          :mod (vv7 / usul
+                                    :mod (vv10 / dakwa
+                                               :ARG1 (vv13 / pidana
+                                                           :mod (vv15 / ancam
+                                                                      :ARG1 (vv19 / tahun
+                                                                                  :mod (vv29 / lain)))
+                                                           :mod (vv23 / terorisme)
+                                                           :mod (vv25 / aman
+                                                                      :mod (vv35 / indonesia)
+                                                                      :mod vv37)
+                                                           :mod (vv26 / negara
+                                                                      :mod vv43)
+                                                           :mod (vv28 / danatau)
+                                                           :mod (vv31 / dapat)
+                                                           :mod (vv32 / belah
+                                                                      :mod vv36)
+                                                           :mod (vv33 / satu
+                                                                      :mod vv44)))
+                                    :mod (vv11 / laku
+                                               :ARG1 (vv14 / jahat)))))
+     :location (vv9 / dprd)
+     :mod (vv12 / tindak
+                :mod (vv16 / penjara)
+                :mod (vv18 / paling)
+                :mod (vv20 / 5
+                           :mod (vv30 / pecah
+                                      :mod vv41
+                                      :ARG1 vv42))
+                :mod (vv21 / lima)
+                :mod (vv22 / korupsi)
+                :mod (vv24 / makar
+                           :mod (vv17 / singkat
+                                      :mod (vv27 / buat
+                                                 :ARG1 vv38
+                                                 :mod vv39
+                                                 :mod vv40))
+                           :mod (vv34 / republik
+                                      :mod vv45))))
+
+# ::snt diberhentikan sementara berdasarkan register perkara di pengadilan.
+
+(vv1 / henti
+     :mod (vv2 / dasar
+               :ARG1 (vv3 / register
+                          :mod (vv4 / perkara)
+                          :mod (vv5 / adil))))
+
+# ::snt Ayat (3); Pemberhentian sementara kepala daerah dan/atau wakil kepala daerah sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan oleh Presiden untuk gubernur dan/atau wakil gubernur serta oleh Menteri untuk bupati dan/atau wakil bupati atau wali kota dan/atau wakil wali kota.
+
+(vv1 / laku
+     :ARG1 (vv2 / ayat
+                :mod (vv4 / pemberhentian)
+                :mod (vv5 / kepala
+                          :mod (vv9 / maksud
+                                    :location (vv3 / 3))
+                          :mod (vv10 / 1)
+                          :mod (vv19 / atau))
+                :mod (vv6 / daerah
+                          :mod (vv11 / dan))
+                :mod (vv20 / kota)
+                :mod vv21
+                :mod vv22)
+     :ARG1 (vv7 / wakil
+                :mod (vv8 / danatau)
+                :mod (vv15 / serta)
+                :mod (vv16 / menteri
+                           :mod vv28)
+                :mod (vv17 / bupati
+                           :mod (vv13 / presiden
+                                      :mod vv24)
+                           :mod vv30)
+                :mod (vv18 / wali
+                           :mod (vv14 / gubernur
+                                      :mod (vv12 / 2))
+                           :mod vv32
+                           :mod vv33
+                           :mod vv34)
+                :mod vv25
+                :mod vv26
+                :mod vv27
+                :mod vv29
+                :mod vv31)
+     :ARG1 vv23)
+
+# ::snt Ayat (4); Kepala daerah dan/atau wakil kepala daerah diberhentikan tanpa melalui usulan DPRD apabila terbukti melakukan tindak pidana sebagaimana dimaksud pada ayat (1) berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.
+
+(vv1 / henti
+     :ARG1 (vv2 / ayat
+                :mod (vv4 / 4)
+                :mod (vv9 / lalu)
+                :mod (vv19 / adil))
+     :location (vv11 / bukti
+                     :ARG1 (vv15 / maksud
+                                 :location (vv3 / kepala
+                                                :mod (vv6 / wakil
+                                                          :mod (vv5 / daerah)
+                                                          :mod (vv10 / dprd))
+                                                :mod (vv7 / danatau)
+                                                :mod (vv8 / usul
+                                                          :mod (vv12 / laku
+                                                                     :ARG1 (vv16 / 1)
+                                                                     :ARG1 (vv18 / putus
+                                                                                 :mod (vv22 / kuat
+                                                                                            :mod vv26)
+                                                                                 :mod (vv23 / hukum
+                                                                                            :mod vv27)))
+                                                          :mod (vv13 / tindak
+                                                                     :mod (vv17 / dasar
+                                                                                :ARG1 (vv21 / telah)))))
+                                 :ARG1 (vv20 / oleh
+                                             :mod (vv24 / tetap)
+                                             :ARG1 vv25)))
+     :mod (vv14 / pidana))
+
+# ::snt Ayat (5); Pemberhentian sebagaimana dimaksud pada ayat (4) dilakukan oleh Presiden untuk gubernur dan/atau wakil gubernur serta oleh Menteri untuk bupati dan/atau wakil bupati atau wali kota dan/atau wakil wali kota.
+

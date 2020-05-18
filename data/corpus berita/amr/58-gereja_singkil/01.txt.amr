@@ -1,0 +1,29 @@
+# ::snt Sebelumnya, Pendeta Erde Berutu dari Gereja Kristen Protestan Pakpak Dairi (GKPPD), Aceh, mengatakan insiden bermula ketika massa pada Selasa, 13 Oktober 2015, mendatangi Gereja HKI Deleng Lagan, Kecamatan Gunung Meriah.
+
+(vv1 / kata
+     :ARG0 (vv2 / pendeta
+                :name (vv3 / erde
+                           :name (vv4 / berutu))
+                :mod (vv5 / gereja
+                          :name (vv7 / protestan
+                                     :name (vv9 / dairi
+                                                :name (vv11 / aceh)))
+                          :mod (vv8 / pakpak
+                                    :name (vv10 / gkppd
+                                                :name (vv12 / insiden
+                                                            :mod (vv14 / datang
+                                                                       :ARG1 (vv6 / kristen)
+                                                                       :ARG0 (vv16 / selasa
+                                                                                   :mod (vv18 / 13))))))
+                          :name (vv21 / deleng
+                                      :name (vv23 / camat
+                                                  :mod (vv25 / riah))
+                                      :name (vv24 / gunung
+                                                  :name vv26))))
+     :ARG1 (vv13 / mula)
+     :mod (vv15 / massa
+                :mod (vv17 / oktober
+                           :mod (vv19 / 2015)
+                           :mod (vv20 / hki
+                                      :name (vv22 / lagan)))))
+

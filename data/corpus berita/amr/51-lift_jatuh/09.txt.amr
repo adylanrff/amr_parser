@@ -1,0 +1,37 @@
+# ::snt "Liftnya terbatas kapasitasnya, ada korban 25 orang," kata Kabid Humas Polda Metro Jaya Kombes Argo Yuwono, di Mapolda Metro Jaya, Jumat (17/3/2017).
+
+(vv1 / batas
+     :ARG0 (vv2 / liftnya)
+     :ARG1 (vv3 / kapasitas)
+     :ARG1 (vv4 / ada
+                :ARG1 (vv5 / korban
+                           :mod (vv6 / orang
+                                     :mod (vv7 / 25))
+                           :mod (vv8 / kata
+                                     :name (vv9 / kabid
+                                                :name (vv10 / humas
+                                                            :name (vv11 / polda
+                                                                        :mod (vv12 / metro
+                                                                                   :name (vv14 / kombes
+                                                                                               :name (vv17 / mapolda
+                                                                                                           :mod (vv13 / jaya
+                                                                                                                      :time vv20)))
+                                                                                   :name (vv15 / argo
+                                                                                               :name (vv18 / jumat
+                                                                                                           :mod vv21))
+                                                                                   :name (vv16 / yuwono))))))
+                           :mod (vv19 / 1732017))))
+
+# ::snt Saat ini, ke-25 korban dilarikan ke Rumah Sakit Pusat Pertamina, Jakarta Selatan.
+
+(vv1 / lari
+     :ARG1 (vv2 / saat)
+     :ARG1 (vv3 / ke25
+                :mod (vv4 / korban))
+     :location (vv5 / rumah
+                    :name (vv6 / sakit
+                               :mod (vv7 / pusat
+                                         :name (vv8 / pertamina
+                                                    :name (vv9 / jakarta
+                                                               :name (vv10 / selatan)))))))
+

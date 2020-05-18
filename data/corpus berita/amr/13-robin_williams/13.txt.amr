@@ -1,0 +1,47 @@
+# ::snt Namun, apa yang membuat Williams depresi hingga akhirnya memutuskan bunuh diri? Dalam hasil wawancara dengan Guardian yang dikutip situs Times, Williams pernah menceritakan pengalaman bekerjanya di Alaska pada 2003.
+
+(vv3 / cerita
+     :ARG0 (vv1 / apa
+                :mod (vv2 / namun)
+                :mod (vv4 / buat
+                          :ARG0 (vv5 / williams
+                                     :mod (vv7 / putus
+                                               :mod (vv9 / bunuh
+                                                         :ARG1 (vv11 / hasil
+                                                                     :mod (vv13 / guardian)
+                                                                     :mod (vv14 / kutip
+                                                                                :ARG1 (vv16 / times
+                                                                                            :name (vv6 / depresi)))
+                                                                     :mod (vv15 / situs
+                                                                                :mod (vv17 / pernah))))
+                                               :mod (vv10 / diri)
+                                               :ARG1 (vv12 / wawancara)))
+                          :ARG1 (vv8 / akhir)))
+     :mod (vv18 / alam
+                :mod (vv20 / alaska)
+                :mod (vv21 / 2003))
+     :ARG1 (vv19 / kerja)
+     :mod vv22)
+
+# ::snt Untuk kurun waktu tiga tahun, Williams mempercayai mabuk-mabukan bisa menyelesaikan masalah 'kesepian dan ketakutannya' hingga sampai akhirnya pihak keluarga membawanya ke pusat rehabilitasi.
+
+(vv1 / percaya
+     :ARG1 (vv2 / kurun
+                :mod (vv3 / waktu)
+                :mod (vv4 / tahun
+                          :mod (vv5 / tiga)))
+     :ARG0 (vv6 / williams)
+     :ARG1 (vv7 / mabukmabukan)
+     :mod (vv8 / selesai
+               :mod (vv9 / bisa)
+               :ARG1 (vv10 / masalah
+                           :mod (vv11 / sepi
+                                      :mod (vv12 / takut
+                                                 :mod (vv13 / dan)))))
+     :mod (vv14 / bawa
+                :mod (vv15 / akhir)
+                :ARG0 (vv16 / pihak
+                            :mod (vv17 / keluarga))
+                :location (vv18 / pusat
+                                :mod (vv19 / rehabilitasi))))
+

@@ -1,0 +1,64 @@
+# ::snt Selain Film Terbaik, Oscar lain yang diperoleh Moonlight adalah Aktor Pendukung Terbaik (Mahershala Ali) dan Naskah Adaptasi Terbaik (Barry Jenkins dan Tarell Alvin McCraney).
+
+(vv1 / aktor
+     :ARG1 (vv2 / film
+                :mod (vv3 / baik)
+                :name (vv6 / oleh
+                           :mod (vv9 / dukung
+                                     :mod (vv4 / oscar)
+                                     :name (vv12 / naskah
+                                                 :mod (vv15 / barry
+                                                            :name (vv19 / mccraney))
+                                                 :mod (vv17 / tarell
+                                                            :mod (vv16 / jenkins)
+                                                            :name vv21))))
+                :mod (vv7 / moonlight)
+                :mod (vv8 / adalah))
+     :mod (vv10 / mahershala
+                :name (vv13 / dan))
+     :name (vv11 / ali)
+     :ARG1 (vv14 / adaptasi
+                 :mod (vv5 / lain)
+                 :name (vv18 / alvin
+                             :name vv22))
+     :mod vv20)
+
+# ::snt "Tarell menyebut Miami sebagai 'mimpi buruk yang indah' jadi saya pikir apa yang kami lakukan adalah mengecat mimpi buruk itu dalam nada warna yang cantik," jelas Jenkins yang bersama penulis naskah Tarell McCraney memang tumbuh besar di Miami selama epidemi narkoba pada era 1980-an.
+
+(vv1 / sebut
+     :ARG0 (vv2 / tarell
+                :name (vv27 / epidemi
+                            :mod vv32))
+     :ARG0 (vv4 / mimpi
+                :mod (vv8 / jadi)
+                :mod (vv9 / saya)
+                :mod (vv10 / cat
+                           :ARG1 (vv7 / pikir
+                                      :mod (vv12 / laku
+                                                 :ARG0 (vv17 / cantik
+                                                             :mod (vv22 / naskah
+                                                                        :mod (vv3 / miami))))
+                                      :ARG0 (vv13 / kami))
+                           :ARG1 (vv15 / nada
+                                       :mod (vv20 / tulis
+                                                  :mod (vv25 / memang)
+                                                  :mod (vv26 / besar))
+                                       :mod (vv21 / sama)
+                                       :mod (vv23 / mccraney)
+                                       :mod (vv24 / tumbuh
+                                                  :location (vv5 / buruk)
+                                                  :mod (vv29 / era
+                                                             :mod vv34)
+                                                  :mod (vv30 / 1980an)
+                                                  :location vv31
+                                                  :location vv33)
+                                       :mod (vv28 / narkoba))
+                           :mod (vv18 / jelas)
+                           :ARG1 (vv19 / jenkins)))
+     :ARG1 (vv6 / indah)
+     :mod (vv11 / apa
+                :mod (vv16 / warna))
+     :ARG1 (vv14 / adalah))
+
+# ::snt Para pemenang dengan sentimen kulit hitam selain Moonlight adalah Viola Davis sebagai Aktris Pendukung Terbaik lewat Fences dan Ali sebagai Aktor Pendukung Terbaik lewat Moonlight.
+

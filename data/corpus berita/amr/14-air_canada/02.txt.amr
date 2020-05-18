@@ -1,0 +1,38 @@
+# ::snt "Namun, pilot dengan kurang hati-hati mengambil tempat untuk Taxiway C, yang paralel dengan landasan pacu (runway)," terang FAA dalam pernyataannya.
+
+(vv1 / ambil
+     :mod (vv2 / namun)
+     :ARG0 (vv3 / pilot
+                :mod (vv4 / hatihati
+                          :mod (vv5 / kurang)))
+     :ARG1 (vv6 / tempat
+                :mod (vv7 / taxiway
+                          :name (vv8 / c)
+                          :mod (vv9 / paralel
+                                    :mod (vv10 / landas
+                                               :mod (vv11 / pacu
+                                                          :mod (vv12 / runway
+                                                                     :mod (vv13 / terang)
+                                                                     :mod (vv14 / faa)))
+                                               :mod (vv15 / nyata))))))
+
+# ::snt FAA kini sedang menyelidiki seberapa dekat pesawat Air Canada ini mendekati pesawat-pesawat yang sedang mengantre untuk lepas landas di Taxiway C.
+
+(vv1 / selidik
+     :ARG0 (vv2 / faa)
+     :mod (vv3 / kini)
+     :mod (vv4 / sedang)
+     :ARG1 (vv6 / dekat
+                :ARG1 (vv12 / lepas
+                            :ARG1 (vv15 / c)
+                            :location vv16))
+     :mod (vv8 / air
+               :mod (vv11 / antre
+                          :mod (vv5 / berapa
+                                    :mod (vv7 / pesawat
+                                              :mod (vv10 / pesawatpesawat
+                                                         :mod (vv13 / landas)))
+                                    :mod (vv9 / canada))
+                          :mod (vv14 / taxiway
+                                     :name vv17))))
+

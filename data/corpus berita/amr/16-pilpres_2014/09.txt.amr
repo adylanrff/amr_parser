@@ -1,0 +1,286 @@
+# ::snt Capres-cawapres Prabowo Subianto dan Hatta Rajasa mendaftarkan gugatan pemilihan umum presiden ke Mahkamah Konstitusi, pada Jumat (25/07) malam.
+
+(vv1 / daftar
+     :ARG0 (vv2 / caprescawapres
+                :name (vv3 / prabowo
+                           :name (vv4 / subianto))
+                :ARG1 (vv5 / hatta
+                           :mod (vv6 / dan)
+                           :name (vv7 / rajasa)))
+     :ARG1 (vv8 / gugat
+                :mod (vv9 / pilih
+                          :mod (vv10 / umum)
+                          :mod (vv11 / presiden))
+                :mod (vv12 / mahkamah
+                           :mod (vv13 / konstitusi)))
+     :time (vv14 / jumat
+                 :mod (vv15 / 2507))
+     :time (vv16 / malam))
+
+# ::snt Gugatan dimasukkan sekitar setengah jam sebelum tenggat berakhir pada Jumat malam.
+
+(vv1 / masuk
+     :ARG1 (vv2 / gugat)
+     :ARG1 (vv3 / jam
+                :mod (vv4 / tengah))
+     :ARG1 (vv5 / akhir
+                :ARG0 (vv6 / tenggat)
+                :time (vv7 / jumat
+                           :mod (vv8 / malam))))
+
+# ::snt Gugatan diajukan oleh tim hukum yang didampingi oleh Prabowo Subianto sendiri, Hatta Rajasa, dan sejumlah perwakilan dari partai koalisi di Gedung MK, Jakarta.
+
+(vv1 / aju
+     :ARG1 (vv2 / gugat)
+     :ARG1 (vv3 / tim
+                :mod (vv4 / hukum)
+                :mod (vv5 / damping
+                          :ARG1 (vv6 / prabowo
+                                     :name (vv7 / subianto)
+                                     :mod (vv8 / sendiri)
+                                     :name (vv9 / hatta
+                                                :name (vv10 / rajasa))
+                                     :mod (vv11 / wakil
+                                                :mod (vv12 / dan)
+                                                :mod (vv13 / partai
+                                                           :mod (vv14 / koalisi)
+                                                           :mod (vv15 / gedung
+                                                                      :mod (vv16 / mk
+                                                                                 :name (vv17 / jakarta)))))))))
+
+# ::snt Ia meminta pendukungnya untuk tenang dan menegaskan upaya memenangkan pilpres kini melalui MK.
+
+(vv1 / minta
+     :ARG0 (vv2 / ia)
+     :ARG1 (vv3 / dukung)
+     :ARG1 (vv4 / tenang)
+     :mod (vv5 / tegas
+               :mod (vv6 / dan)
+               :ARG1 (vv7 / upaya)
+               :ARG1 (vv8 / menang
+                          :ARG1 (vv9 / pilpres
+                                     :mod (vv10 / kini)))
+               :location (vv11 / mk)))
+
+# ::snt Sebelumnya tim kuasa hukum Prabowo-Hatta, M Mahendradatta, mengatakan mereka optimistis bisa membuktikan kecurangan yang diklaim "terstruktur, sistematis, dan masif".
+
+(vv1 / kata
+     :ARG0 (vv2 / tim
+                :mod (vv3 / kuasa
+                          :mod (vv4 / hukum
+                                    :mod (vv5 / prabowohatta
+                                              :name (vv6 / m
+                                                         :name (vv7 / mahendradatta))))))
+     :mod (vv8 / optimistis
+               :ARG0 (vv9 / mereka)
+               :mod (vv10 / bukti
+                          :mod (vv11 / bisa)
+                          :ARG1 (vv12 / curang
+                                      :mod (vv13 / klaim
+                                                 :mod (vv14 / struktur
+                                                            :mod (vv15 / sistematis)
+                                                            :mod (vv16 / masif
+                                                                       :mod (vv17 / dan))))))))
+
+# ::snt "Kita serahkan (semua bukti) ke MK, jika bukti kami dianggap lebih sah dan lebih dipercaya dari KPU, MK bisa langsung menetapkan pemenang," kata Mahendradatta kepada wartawan BBC Indonesia, Christine Franciska.
+
+(vv1 / serah
+     :ARG0 (vv2 / kita)
+     :ARG1 (vv3 / bukti
+                :mod (vv5 / anggap
+                          :ARG1 (vv4 / mk)
+                          :mod (vv8 / percaya
+                                    :mod (vv10 / kpu
+                                               :mod (vv6 / sah
+                                                         :mod (vv9 / dan)))
+                                    :mod (vv12 / bisa)
+                                    :location (vv13 / langsung))
+                          :mod (vv11 / tetap
+                                     :mod (vv15 / kata
+                                                :name (vv19 / indonesia
+                                                            :name vv23))
+                                     :mod (vv16 / mahendradatta)
+                                     :ARG1 (vv17 / wartawan
+                                                 :name (vv21 / franciska)))))
+     :mod (vv7 / lebih)
+     :mod (vv14 / menang
+                :mod (vv18 / bbc
+                           :mod vv22)
+                :mod (vv20 / christine
+                           :name vv24)))
+
+# ::snt Pada 22 Juli kemarin, Komisi Pemilihan Umum (KPU) menetapkan pasangan Joko Widodo dan Jusuf Kalla sebagai pemenang pemilu dengan perolehan suara 53,15%.
+
+(vv3 / tetap
+     :ARG1 (vv1 / juli
+                :mod (vv2 / 22)
+                :time (vv4 / kemarin))
+     :ARG0 (vv5 / komisi
+                :mod (vv6 / pilih
+                          :mod (vv7 / umum
+                                    :mod (vv8 / kpu))))
+     :ARG1 (vv9 / pasang
+                :name (vv10 / joko
+                            :name (vv11 / widodo)
+                            :mod (vv12 / jusuf
+                                       :mod (vv13 / dan)
+                                       :name (vv14 / kalla)))
+                :mod (vv15 / menang
+                           :mod (vv16 / milu)
+                           :mod (vv17 / oleh
+                                      :mod (vv18 / suara)
+                                      :mod (vv19 / 5315)))))
+
+# ::snt Sementara pasangan Prabowo-Hatta memperoleh 46,85% suara.
+
+(vv1 / oleh
+     :ARG0 (vv2 / pasang
+                :mod (vv3 / prabowohatta))
+     :ARG1 (vv4 / suara
+                :mod (vv5 / 4685)))
+
+# ::snt Tim sukses Jokowi-JK yang juga politisi PDI-Perjuangan, Aria Bima, mengatakan gugatan ke MK merupakan mekanisme protes yang benar.
+
+(vv1 / kata
+     :ARG0 (vv2 / tim
+                :mod (vv3 / sukses)
+                :mod (vv4 / jokowijk)
+                :mod (vv5 / politis
+                          :mod (vv6 / juga)
+                          :mod (vv7 / pdiperjuangan
+                                    :name (vv8 / aria
+                                               :mod (vv9 / bima)))))
+     :ARG1 (vv10 / gugat
+                 :mod (vv11 / mk))
+     :ARG1 (vv12 / rupa
+                 :ARG1 (vv13 / mekanisme
+                             :mod (vv14 / protes)
+                             :mod (vv15 / benar))))
+
+# ::snt "Prosesnya memang demikian, PDI-P kalah dua kali dalam pemilu presiden dan kami juga dua kali mengajukan ke MK," katanya.
+
+(vv1 / kalah
+     :ARG0 (vv2 / proses)
+     :mod (vv3 / memang)
+     :mod (vv4 / demikian)
+     :ARG0 (vv5 / pdip)
+     :ARG1 (vv6 / kali
+                :mod (vv8 / milu
+                          :mod (vv11 / dan))
+                :mod (vv9 / presiden)
+                :mod (vv15 / kata))
+     :ARG1 (vv10 / aju
+                 :mod (vv7 / dua)
+                 :mod (vv13 / juga)
+                 :ARG0 (vv14 / mk)
+                 :location vv16)
+     :mod (vv12 / kami)
+     :mod vv17)
+
+# ::snt "Dalam tahap berjenjang, tim saksi Prabowo tanda tangan di TPS, kenapa baru dipersoalkan sekarang?" tanya Aria.
+
+(vv1 / soal
+     :location (vv2 / tahap
+                    :mod (vv3 / jenjang))
+     :ARG1 (vv4 / tim
+                :mod (vv5 / saksi
+                          :name (vv6 / prabowo))
+                :mod (vv7 / tanda
+                          :mod (vv8 / tangan)
+                          :mod (vv9 / tps)))
+     :mod (vv10 / kenapa)
+     :mod (vv11 / baru)
+     :ARG1 (vv12 / tanya
+                 :mod (vv13 / sekarang)
+                 :ARG0 (vv14 / aria)))
+
+# ::snt Sementara itu, anggota Badan Pengawas Pemilu (Bawaslu) Nelson Simanjuntak mengatakan bahwa secara umum pemilu sudah berlangsung dengan sangat baik.
+
+(vv1 / kata
+     :ARG0 (vv2 / anggota
+                :mod (vv3 / badan
+                          :name (vv4 / awas
+                                     :name (vv5 / milu
+                                                :name (vv7 / nelson
+                                                           :name (vv9 / umum))
+                                                :mod (vv10 / langsung
+                                                           :ARG0 (vv6 / bawaslu
+                                                                      :name (vv8 / simanjuntak))
+                                                           :mod (vv12 / baik
+                                                                      :mod vv14)
+                                                           :mod (vv13 / sangat))))))
+     :mod (vv11 / sudah))
+
+# ::snt Proses perhitungan suara juga berjalan transparan karena KPU mengunggah semua formulir C1 ke situs mereka sehingga bisa diakses oleh masyarakat.
+
+(vv1 / jalan
+     :ARG0 (vv2 / proses
+                :mod (vv3 / hitung
+                          :mod (vv4 / suara)))
+     :mod (vv5 / juga)
+     :mod (vv6 / transparan)
+     :mod (vv7 / unggah
+               :ARG0 (vv8 / kpu)
+               :ARG1 (vv9 / formulir
+                          :name (vv10 / c1)
+                          :mod (vv11 / situs))
+               :mod (vv12 / akses
+                          :mod (vv13 / bisa)
+                          :ARG1 (vv14 / masyarakat))))
+
+# ::snt "Kalau ada yang mengatakan ada kecurangan masif dan terstuktur saya pikir itu terlalu berlebihan."
+
+(vv1 / ada
+     :mod (vv2 / kata)
+     :ARG1 (vv3 / curang
+                :mod (vv4 / masif
+                          :mod (vv5 / terstuktur
+                                    :mod (vv6 / dan)
+                                    :mod (vv7 / pikir
+                                              :ARG0 (vv8 / saya)
+                                              :mod (vv9 / terlalu)))))
+     :mod (vv10 / lebih))
+
+# ::snt Kamis (24/07), kubu Prabowo-Hatta telah melaporkan Bawaslu dan KPU ke Dewan Kehormatan Penyelenggara Pemilu (DKPP) terkait dugaan kecurangan pilpres.
+
+(vv1 / lapor
+     :ARG0 (vv2 / kamis
+                :mod (vv3 / kubu
+                          :mod (vv4 / 2407)
+                          :name (vv5 / prabowohatta)))
+     :mod (vv6 / telah)
+     :ARG0 (vv7 / bawaslu
+                :mod (vv8 / kpu
+                          :mod (vv9 / dan))
+                :mod (vv10 / dewan
+                           :mod (vv11 / hormat
+                                      :name (vv12 / selenggara
+                                                  :name (vv13 / milu
+                                                              :name (vv14 / dkpp))))))
+     :mod (vv15 / kait
+                :ARG1 (vv16 / duga
+                            :mod (vv17 / curang
+                                       :mod (vv18 / pilpres)))))
+
+# ::snt Selain ke MK dan DKPP, kuasa hukum Prabowo-Hatta juga melakukan upaya lain termasuk mengajukan gugatan ke PTUN dan upaya politik di DPR.
+
+(vv3 / laku
+     :location (vv1 / mk
+                    :mod (vv2 / selain)
+                    :mod (vv4 / dkpp
+                              :mod (vv5 / dan)
+                              :mod (vv7 / hukum
+                                        :mod (vv9 / juga))))
+     :ARG0 (vv8 / prabowohatta)
+     :mod (vv10 / upaya
+                :mod (vv6 / kuasa)
+                :mod (vv13 / aju
+                           :ARG0 (vv16 / politik))
+                :mod vv18
+                :mod vv19)
+     :ARG1 (vv11 / lain)
+     :ARG1 (vv14 / gugat
+                 :mod (vv12 / masuk
+                            :mod (vv15 / ptun))
+                 :mod (vv17 / dpr)))
+
