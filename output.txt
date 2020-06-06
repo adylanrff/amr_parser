@@ -1,7 +1,7 @@
-# ::snt Pak Nino makan kue di Bandung di pagi hari
+# ::snt Pak Dodi makan kue di Bandung di pagi hari
 (vv1 / makan
      :ARG0 (vv2 / pak
-                :name (vv3 / nino))
+                :name (vv3 / dodi))
      :ARG1 (vv4 / kue)
      :location (vv5 / bandung)
      :time (vv6 / pagi

@@ -8,7 +8,7 @@ from util.model import load_model, load_word_vec, load_one_hot_encoder, load_lab
 from feature_generation.dependency_pair import create_dependency_parser_feature_from_sentence
 from preprocessing.model_feature import feature_selection, preprocess, filter_pair
 # Post process
-from postprocess.amr_graph import create_pediction_dict, create_amr_graph_from_prediction, save_amr_graphs
+from postprocess.amr_graph import create_pediction_dict, create_amr_graph_from_prediction
 
 annotator = FeatureAnnotator()
 model = load_model(PRETRAINED_BEST_MODEL_PATH)
@@ -33,11 +33,11 @@ def predict_sentence(sentence, sentence_id=0):
 
     return amr_graph
 
-def predict_from_sentence(sentence, output_path):
+def predict_from_sentence(sentence):
     amr_graph = predict_sentence(sentence)
-    save_amr_graphs([sentence], [amr_graph], output_path)
+    return amr_graph
 
-def predict_from_file(filepath, output_path):
+def predict_from_file(filepath):
     amr_graphs = []
     sentences = []
 
@@ -51,4 +51,4 @@ def predict_from_file(filepath, output_path):
                 amr_graph = predict_sentence(line)
                 amr_graphs.append(amr_graph)
 
-    save_amr_graphs(sentences, amr_graphs, output_path)
+    return sentences, amr_graphs
