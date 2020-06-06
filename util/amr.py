@@ -1,4 +1,4 @@
-from util.amr_parsing.io import AMRIO
+from stog.data.dataset_readers.amr_parsing.io import AMRIO
 
 def dump_amr_features(amr, annotation, f):
     amr.tokens = annotation['tokens']

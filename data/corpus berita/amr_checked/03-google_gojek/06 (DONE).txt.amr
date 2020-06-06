@@ -1,0 +1,26 @@
+# ::snt Gojek kembali mendapatkan suntikan dana segar dalam jumlah yang lebih besar dari investasi sebelumnya dari Tencent.
+
+(vv1 / dapat
+     :ARG0 (vv2 / gojek)
+     :mod (vv3 / kembali)
+     :ARG1 (vv4 / suntik
+                :ARG1 (vv5 / dana
+                           :mod (vv6 / segar))
+                :mod (vv7 / jumlah
+                          :mod (vv8 / besar
+                                    :mod (vv9 / lebih))
+                          :name (vv10 / investasi
+                                     :name (vv11 / tencent)))))
+
+# ::snt Namun, hingga saat ini belum diketahui berapa porsi suntikan dana masing-masing investor.
+
+(vv1 / tahu
+     :mod (vv2 / namun)
+     :ARG1 (vv3 / saat)
+     :mod (vv4 / belum)
+     :ARG1 (vv5 / porsi
+                :mod (vv6 / suntik
+                          :ARG1 (vv7 / dana
+                                     :mod (vv8 / masingmasing
+                                               :mod (vv9 / investor))))))
+

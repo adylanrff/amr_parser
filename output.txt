@@ -1,0 +1,9 @@
+# ::snt Pak Nino makan kue di Bandung di pagi hari
+(vv1 / makan
+     :ARG0 (vv2 / pak
+                :name (vv3 / nino))
+     :ARG1 (vv4 / kue)
+     :location (vv5 / bandung)
+     :time (vv6 / pagi
+                :mod (vv7 / hari)))
+

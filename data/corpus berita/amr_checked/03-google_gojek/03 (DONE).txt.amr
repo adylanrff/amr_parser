@@ -1,0 +1,26 @@
+# ::snt "Jadi untuk membantu orang Indonesia membangun startup besar berikutnya, kami telah melatih hampir 60 ribu orang Indonesia untuk pengembangan aplikasi mobile," tutur Caesar.
+
+(vv3 / latih
+     :ARG1 (vv1 / bantu
+                :mod (vv2 / jadi)
+                :ARG0 (vv4 / orang
+                           :mod (vv6 / bangun
+                                     :ARG1 (vv9 / ikut))
+                           :mod (vv7 / startup
+                                     :ARG0 (vv10 / kami)
+                                     :mod (vv11 / telah))
+                           :quant (vv14 / 60)
+                           :mod (vv15 / kembang
+                                      :mod (vv18 / tutur
+                                                 :name vv21))
+                           :mod (vv17 / mobile
+                                      :mod vv20))
+                :mod (vv8 / besar))
+     :ARG1 (vv5 / indonesia)
+     :ARG1 (vv12 / hampir)
+     :quant (vv13 / ribu
+                :name (vv16 / aplikasi
+                           :name (vv19 / caesar))))
+
+# ::snt "Terakhir, Indonesia juga salah satu dari dua negara pertama di dunia yang mendapatkan aplikasi baru kami bernama Google Go," ujarnya.
+

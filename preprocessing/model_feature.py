@@ -85,3 +85,10 @@ def preprocess(X_train, word_vec, one_hot_encoder):
         X_train.append(concatenated)
     
     return np.array(X_train)
+
+def preprocess_feature_and_label(X, y, one_hot_encoder, label_encoder):
+    # Preprocess features
+    X = preprocess(X, word_vec, one_hot_encoder)
+    # Preprocess labels
+    y = label_encoder.transform(np.ravel(y))
+    return X, y

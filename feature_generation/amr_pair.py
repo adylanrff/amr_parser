@@ -1,3 +1,5 @@
+from stog.data.dataset_builder import dataset_from_params
+
 def create_pair_labels(data):
     pairs = []
     for sentence_id, data in enumerate(data):
@@ -36,7 +38,6 @@ def create_labels(pair_labels, sentence_dataset, with_flipped=False):
         if (data['sentence_id'] not in pair_labels_dict):
             pair_labels_dict[data['sentence_id']] = [pair_label for pair_label in pair_labels if pair_label[0] == data['sentence_id']]    
         cur_pair_labels = pair_labels_dict[data['sentence_id']]
-            
         for pair_label in cur_pair_labels:
             _, label_parent, label_child, label = pair_label
             if (data['parent'].split('_')[0] == label_parent and data['child'].split('_')[0]==label_child):
@@ -81,3 +82,19 @@ def create_labels(pair_labels, sentence_dataset, with_flipped=False):
     print("Pair F1: ", 2*((precision*recall)/(precision+recall)))
     
     return labels, unk_pairs
+
+def get_amr_data(feature_filepath):
+    filepath_splitted = feature_filepath.split('/')
+
+    data_params = dict(
+        data_dir='/'.join(filepath_splitted[:-1]),
+        train_data=filepath_splitted[-1],
+        test_data=filepath_splitted[-1],
+        dev_data=filepath_splitted[-1],
+        data_type="AMR"
+    )
+
+    amr_dataset = dataset_from_params(data_params)
+    amr_data = amr_dataset['train']
+
+    return amr_data

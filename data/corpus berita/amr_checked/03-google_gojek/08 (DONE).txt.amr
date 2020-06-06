@@ -1,0 +1,45 @@
+# ::snt Melalui sebuah postingan di blog perusahaan, Google menyebut langkah investasi untuk Google sebagai bagian dari strategi untuk mendukung dan berpartisipasi dalam pertumbuhan ekonomi digital di Indonesia.
+
+# ::snt " Investasi ini membuat kami dapat bekerja sama dengan perusahaan lokal terbaik di ekosistem perusahaan rintisan (startup) yang berkembang di Indonesia, termasuk mempertegas komitmen kami kepada ekonomi digital di Indonesia," kata VP Next Billion Users Team Google, Caesar Sengupta dalam postingan blog berjudul "Berinvestasi di Indonesia".
+
+# ::snt Google juga memuji Go-Jek sebagai perusahaan asal Indonesia yang memiliki tim manajemen yang baik dan memiliki rekam jejak dalam penerapan teknologi yang memudahkan masyarakat di tanah air.
+
+(vv1 / puji
+     :ARG0 (vv2 / google)
+     :mod (vv3 / juga)
+     :ARG0 (vv4 / gojek)
+     :ARG1 (vv5 / usaha
+                :location (vv6 / indonesia
+                          :location (vv7 / asal))
+                :mod (vv8 / milik
+                          :ARG1 (vv9 / tim
+                                     :mod (vv11 / baik)
+                                     :ARG1 (vv12 / dan))
+                          :ARG1 (vv10 / manajemen)
+                          :mod (vv13 / rekam
+                                     :mod (vv15 / terap
+                                                :mod (vv17 / mudah
+                                                           :ARG1 (vv19 / tanah
+                                                                       :mod vv21)
+                                                           :mod (vv20 / air))
+                                                :mod (vv18 / masyarakat))
+                                     :mod (vv16 / teknologi))
+                          :ARG1 (vv14 / jejak))))
+
+# ::snt Pendanaan untuk Go-Jek tersebut sudah dimulai semenjak tahun lalu dengan masuknya raksasa internet China, Tencent, pada Maret 2017.
+
+(vv1 / mulai
+     :ARG1 (vv2 / dana
+                :name (vv3 / gojek))
+     :mod (vv4 / sudah)
+     :time (vv5 / tahun
+                :time (vv6 / semenjak)
+                :time (vv7 / lalu))
+     :ARG1 (vv8 / masuk
+                :ARG1 (vv9 / raksasa
+                           :mod (vv10 / internet
+                                      :location (vv11 / china
+                                                 :name (vv12 / tencent))))
+                :time (vv13 / maret
+                            :time (vv14 / 2017))))
+

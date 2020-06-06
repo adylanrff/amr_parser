@@ -5,7 +5,7 @@ from constants.paths import PRETRAINED_BEST_MODEL_PATH
 from constants.model import PAIR_FILTER_TYPE, FEATURE_FILTER_TYPE
 from util.model import load_model, load_word_vec, load_one_hot_encoder, load_label_encoder
 # Feature generations
-from feature_generation.dependency_pair import create_dependency_parser_feature
+from feature_generation.dependency_pair import create_dependency_parser_feature_from_sentence
 from preprocessing.model_feature import feature_selection, preprocess, filter_pair
 # Post process
 from postprocess.amr_graph import create_pediction_dict, create_amr_graph_from_prediction, save_amr_graphs
@@ -17,7 +17,7 @@ one_hot_encoder = load_one_hot_encoder()
 label_encoder = load_label_encoder()
 
 def predict_sentence(sentence, sentence_id=0):
-    dependency_parser_feature = create_dependency_parser_feature(annotator, sentence)
+    dependency_parser_feature = create_dependency_parser_feature_from_sentence(annotator, sentence)
     X = pd.DataFrame(dependency_parser_feature)
     filtered_X = filter_pair(X, PAIR_FILTER_TYPE)
 
