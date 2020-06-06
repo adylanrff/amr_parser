@@ -39,19 +39,19 @@ const Index = () => {
   return (
   <Container>
     <Main>
-      <Heading fontSize="3vw">
+      <Heading fontSize="3rem" textAlign="center">
         AMR Parser for Bahasa Indonesia
     </Heading>
-      <Text fontSize="1vw">Tugas Akhir: <b>Pembangkitan Graf Abstract Meaning Representation Berbahasa Indonesia</b></Text>
+      <Text fontSize="1rem" textAlign="center">Tugas Akhir: <b>Pembangkitan Graf Abstract Meaning Representation Berbahasa Indonesia</b></Text>
       <Stack my="5vh" align="center" spacing={5} minW="30vw">
-        <Heading fontSize="2vw">Enter a sentence: </Heading>
+        <Heading fontSize="2rem">Enter a sentence: </Heading>
         <Input placeholder="Example: Pak Dodi makan kue di Bandung di pagi hari" size="md" onChange={onSentenceChange}/>
         <Button alignSelf="end" size="md" onClick={onParseButtonClick} isLoading={isLoading}>Parse</Button>   
       </Stack>
 
     {!isLoading && amr && (
       <>
-      <Heading fontSize="1.5vw">Result: </Heading>
+      <Heading fontSize="1.5rem">Result: </Heading>
       <Box p={5} borderWidth="1px" borderRadius="5pt" mt="2vh">
         <img src={amr}></img>
       </Box>
