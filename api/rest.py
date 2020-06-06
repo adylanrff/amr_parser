@@ -1,17 +1,23 @@
 import json
 import base64
 from flask import Flask
-from flask import request, jsonify
+from flask import request, jsonify, make_response
+from flask_cors import CORS
 from prediction.predict import predict_from_sentence
 from util.amr import penman_to_dot
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/predict', methods=['GET'])
-def hello_world():
+def predict_sentence():
     path = "api/output/amr"
     sentence = request.args.get('sentence')
-    amr_graph = predict_from_sentence(sentence)
+    try:
+        amr_graph = predict_from_sentence(sentence)
+    except:
+        return make_response("Error", 400)
+
 
     response = {}
     response['amr_graph'] = str(amr_graph)
