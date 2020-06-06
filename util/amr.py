@@ -1,3 +1,4 @@
+from graphviz import Digraph
 from stog.data.dataset_readers.amr_parsing.io import AMRIO
 
 def dump_amr_features(amr, annotation, f):
@@ -7,19 +8,16 @@ def dump_amr_features(amr, annotation, f):
     amr.ner_tags = annotation['ner_tags']
     AMRIO.dump([amr], f)
 
-def penman_to_dot(amr):
+def penman_to_dot(amr, path):
+    dot = Digraph(format='png')
+    
     instance_triples = filter(lambda x: x[1] == 'instance', amr._triples)
     edges = amr.edges()
 
-
-    instances = {}
     for triple in instance_triples:
-        instances[triple[0]] = triple[2]
-
-
-    dot_content = ''
+        dot.node(triple[0], label=triple[2])
     for edge in edges:
-        dot_content += '{} -> {} [label="{}"];'.format(instances[edge[0]], instances[edge[2]], edge[1])
-    dot = 'digraph {' + dot_content + "}"
+        dot.edge(edge[0],edge[2], label=edge[1])
 
-    return dot
+    dot.render(path)
+    return dot.source
