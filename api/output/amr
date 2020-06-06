@@ -1,9 +1,7 @@
 digraph {
 	vv1 [label=main]
 	vv2 [label=budi]
-	vv3 [label=sepak]
-	vv4 [label=bola]
+	vv3 [label=bola]
 	vv1 -> vv2 [label=ARG0]
 	vv1 -> vv3 [label=ARG1]
-	vv3 -> vv4 [label=mod]
 }

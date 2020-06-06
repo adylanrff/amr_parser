@@ -42,8 +42,7 @@ const Index = () => {
       <Heading fontSize="3vw">
         AMR Parser for Bahasa Indonesia
     </Heading>
-      <Text fontSize="1vw">Based on Pembangkitan Graf Abstract Meaning Representation Berbahasa Indonesia</Text>
-
+      <Text fontSize="1vw">Tugas Akhir: <b>Pembangkitan Graf Abstract Meaning Representation Berbahasa Indonesia</b></Text>
       <Stack my="5vh" align="center" spacing={5} minW="30vw">
         <Heading fontSize="2vw">Enter a sentence: </Heading>
         <Input placeholder="Example: Pak Dodi makan kue di Bandung di pagi hari" size="md" onChange={onSentenceChange}/>
@@ -64,7 +63,7 @@ const Index = () => {
 
     <DarkModeSwitch />
     <Footer>
-      <Text>Made By Adylan Roaffa Ilmy</Text>
+      <Text>Made By Adylan Roaffa Ilmy - 13516016</Text>
     </Footer>
   </Container>
 )}
