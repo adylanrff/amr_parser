@@ -31,7 +31,7 @@ class FeatureAnnotator:
                 if (annotation['ner_tags'][idx] in ['PER','ORG']):
                     stemmed_word = word.text.lower()
                 annotation['lemmas'].append(stemmed_word+'_{}'.format(word_dict[stemmed_word]))
-                annotation['dependency'].append(dict(relation=word.dependency_relation, head=word.governor))
+                annotation['dependency'].append(dict(relation=word.deprel, head=word.head))
         
         annotation['pos_tags'] = [tag[1] for tag in self.pos_tagger.tag(annotation['tokens'])]
                     
