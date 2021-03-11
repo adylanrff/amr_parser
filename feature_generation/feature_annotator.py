@@ -8,7 +8,7 @@ from util.ner.entity_recognizer import get_entities
 
 class FeatureAnnotator:
     def __init__(self):
-        self.nlp = stanza.Pipeline(lang="id",use_gpu=False)
+        self.nlp = stanza.Pipeline("id",use_gpu=False)
         self.stemmer = StemmerFactory().create_stemmer()
         self.ner = get_entities
         # Set POS Tagger 
