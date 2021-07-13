@@ -117,6 +117,9 @@ pretrained/*
 # saved models
 saved_model/*
 
+# Tools
+tools/
+
 # data
 data/*
 data_amany/
