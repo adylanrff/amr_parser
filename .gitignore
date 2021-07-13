@@ -117,3 +117,10 @@ pretrained/*
 # saved models
 saved_model/*
 
+# data
+data/*
+data_amany/
+pretrained/*
+
+# vscode related
+.vscode/
