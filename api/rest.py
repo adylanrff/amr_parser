@@ -4,7 +4,7 @@ from flask import Flask
 from flask import request, jsonify, make_response
 from flask_cors import CORS
 from prediction.predict import predict_from_sentence
-from util.amr import penman_to_dot
+from utils.amr import penman_to_dot
 
 app = Flask(__name__)
 CORS(app)

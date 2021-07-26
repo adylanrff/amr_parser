@@ -3,7 +3,7 @@ import pandas as pd
 from feature_generation.feature_annotator import FeatureAnnotator
 from constants.paths import PRETRAINED_BEST_MODEL_PATH
 from constants.model import PAIR_FILTER_TYPE, FEATURE_FILTER_TYPE
-from util.model import load_model, load_word_vec, load_one_hot_encoder, load_label_encoder
+from utils.model import load_model, load_word_vec, load_one_hot_encoder, load_label_encoder
 # Feature generations
 from feature_generation.dependency_pair import create_dependency_parser_feature_from_sentence
 from preprocessing.model_feature import feature_selection, preprocess, filter_pair
