@@ -16,6 +16,23 @@ word_vec = load_word_vec()
 one_hot_encoder = load_one_hot_encoder()
 label_encoder = load_label_encoder()
 
+def process_sentence(sentence, sentence_id=0):
+    dependency_parser_feature = create_dependency_parser_feature_from_sentence(annotator, sentence)
+    X = pd.DataFrame(dependency_parser_feature)
+    filtered_X = filter_pair(X, PAIR_FILTER_TYPE)
+    return filtered_X
+
+def predict_and_process(filtered_X):
+    selected_X = feature_selection(filtered_X, FEATURE_FILTER_TYPE)
+    X_preprocessed = preprocess(selected_X, word_vec, one_hot_encoder)
+    y_pred = model.predict(X_preprocessed)
+
+    # Post process
+    prediction = create_pediction_dict(filtered_X, y_pred, label_encoder)[0]
+    amr_graph = create_amr_graph_from_prediction(prediction)
+    return amr_graph
+
+
 def predict_sentence(sentence, sentence_id=0):
     dependency_parser_feature = create_dependency_parser_feature_from_sentence(annotator, sentence)
     X = pd.DataFrame(dependency_parser_feature)
