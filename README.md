@@ -8,7 +8,7 @@ AMR Parser from dependency parser features. Currently tested in Windows 10, not 
 What things you need to install the software and how to install them
 
 ```
-python 3.9.5 
+python 3.8.10 
 tensorflow 2.5.0
 conda
 ```
