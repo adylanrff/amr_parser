@@ -78,6 +78,15 @@ pretrained
         └── id.tsv
 ```
 
+4. For the current version, we'll be using new NER model to improve the entity detection. Download and extract it using the following
+``` bash
+wget https://storage.googleapis.com/riset_amr/pretrained_model/ner/model_ner_12514_softmax_v5_w2v_100_POS_LSTM_EmbNotTrainable_OOV-20210926T165506Z-001.zip
+unzip model_ner_12514_softmax_v5_w2v_100_POS_LSTM_EmbNotTrainable_OOV-20210926T165506Z-001.zip -d pretrained
+rm model_ner_12514_softmax_v5_w2v_100_POS_LSTM_EmbNotTrainable_OOV-20210926T165506Z-001.zip
+```
+
+for the current model we'll load it using the `load_model` of tensorflow to the pretrained model. `model_ner_12514_softmax_v5_w2v_100_POS_LSTM_EmbNotTrainable_OOV` also we'll load the pickle for vocabulary.
+
 5. Download the [pretrained model and encoders](https://storage.googleapis.com/riset_amr/adylan/pretrained_model_and_encoder.zip) and copy the contents of the file to the `saved_model` directory.
 
 ``` bash
