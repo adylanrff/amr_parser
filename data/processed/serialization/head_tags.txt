@@ -1,9 +1,0 @@
-@@UNKNOWN@@
-root
-ARG0
-ARG1
-mod
-name
-location
-time
-nama

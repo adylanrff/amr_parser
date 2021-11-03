@@ -1,14 +1,14 @@
 import nltk
-import stanfordnlp
+import stanza
 import string
 
 from collections import defaultdict
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-from util.ner.entity_recognizer import get_entities
+from utils.ner.entity_recognizer import get_entities
 
 class FeatureAnnotator:
     def __init__(self):
-        self.nlp = stanfordnlp.Pipeline(lang="id",use_gpu=False, silent=True)
+        self.nlp = stanza.Pipeline("id",use_gpu=False)
         self.stemmer = StemmerFactory().create_stemmer()
         self.ner = get_entities
         # Set POS Tagger 
@@ -31,7 +31,7 @@ class FeatureAnnotator:
                 if (annotation['ner_tags'][idx] in ['PER','ORG']):
                     stemmed_word = word.text.lower()
                 annotation['lemmas'].append(stemmed_word+'_{}'.format(word_dict[stemmed_word]))
-                annotation['dependency'].append(dict(relation=word.dependency_relation, head=word.governor))
+                annotation['dependency'].append(dict(relation=word.deprel, head=word.head))
         
         annotation['pos_tags'] = [tag[1] for tag in self.pos_tagger.tag(annotation['tokens'])]
                     
