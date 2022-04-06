@@ -56,8 +56,8 @@ git clone https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced tools/amr-
 3. Download [pretrained features model](https://storage.googleapis.com/riset_amr/adylan/pretrained_feature_models.zip) that contains POS Tagger, NER Tagger, and Word2Vec models and put it in the `pretrained` folder. The tree structure should be like this:
 
 ``` bash
-wget https://storage.googleapis.com/riset_amr/adylan/pretrained_feature_models.zip -O pretrained.zip
-unzip pretrained.zip
+wget https://storage.googleapis.com/riset_amr/adylan/pretrained_feature_models.zip -O pretrained.zip && \
+unzip pretrained.zip && \
 rm pretrained.zip
 ```
 
@@ -113,7 +113,24 @@ python amr_parser.py --predict --sentence "Aku makan buah di pagi ini" --output 
 
 The output of the AMR should be included in the `amr.txt` file.
 
-### 
+### Serving the Model for Prediction
+
+For serving this model, we could use gunicorn. By first installing the package then run the server
+
+```bash
+pip install gunicorn
+# gunicorn -w [NUM_WORKER] -b [ADDR:PORT] [PACKAGE]:app 
+gunicorn -w 4 -b 0.0.0.0:5000 rest:app
+#  or use -D to run it as daemon (kill with pkill gunicorn)
+```
+
+now we can test if it works or not from the browser or by using curl/wget
+```bash
+# wget http://[ADDR]:[PORT]/predict?sentence=[URL_ENCODED_TEXT] -O /dev/stdout -q
+wget http://127.0.0.1:5000/predict?sentence=Ini%20adalah%20kalimat%20AMR -O /dev/stdout -q
+```
+
+If it works, next we can configure nginx and systemd around this in case of deployment to production.
 
 ### Training 
 
