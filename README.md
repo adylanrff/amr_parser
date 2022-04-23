@@ -109,6 +109,14 @@ saved_model/
 
 ## Running the program
 
+### Preprocess Sentences
+
+This script is useful if you want to only annotate indonesian AMR for experiment using another algorithm. If there are any issue in reading the graph as indonesian AMR hasn't fully complied with Penman notation, it will skip the graph. And still finished.
+```bash
+# python preprocess.py <path/to/amr/file>
+python preprocess.py data/amr_id_2.0/train.txt
+```
+
 ### Prediction
 
 ```
